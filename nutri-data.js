@@ -11,39 +11,49 @@ const foodCategories = {
     'cereales_granos_pan': 'Cereales, Granos y Pan',
     'frutos_secos_semillas': 'Frutos Secos y Semillas',
     'aceites_grasas': 'Aceites y Grasas',
-    // 'especias_condimentos': 'Especias y Condimentos', // No se mostrará como categoría en la lista de compra
     'bebidas': 'Bebidas',
     'otros': 'Otros (Suplementos, etc.)'
 };
 
 const foodDatabase = {
-    'des_batido_pro': {
-        id: 'des_batido_pro', name: 'Batido Proteico con Avena y Manzana', calories: 400, protein: 40, carbs: 45, fats: 7, image: 'https://placehold.co/100x100/374151/FACC15?text=Batido+Pro',
+    // NUEVOS DESAYUNOS AJUSTADOS CON IMÁGENES ACTUALIZADAS
+    'des_tostada_centeno_huevo_cottage_ajustado': {
+        id: 'des_tostada_centeno_huevo_cottage_ajustado', name: 'Tostada de Centeno con Huevo y Cottage', calories: 427, protein: 39.4, carbs: 42.5, fats: 11.1, image: 'https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682ad5cf9b8ed31c657c80e8.png',
         ingredients: [
-            { name: 'Proteína en polvo', quantity_grams: 35, category: 'otros' }, { name: 'Avena en copos', quantity_grams: 50, category: 'cereales_granos_pan' },
-            { name: 'Claras de huevo líquidas', quantity_grams: 100, category: 'huevos' }, { name: 'Manzana', quantity_grams: 75, category: 'frutas' }, 
-            { name: 'Espinacas frescas', quantity_grams: 30, category: 'verduras_hortalizas' }, { name: 'Agua o leche de almendras s/a', quantity_grams: 150, category: 'bebidas' }
+            { name: 'Pan de centeno', quantity_grams: 80, category: 'cereales_granos_pan' },
+            { name: 'Claras de huevo líquidas', quantity_grams: 100, category: 'huevos' },
+            { name: 'Huevo entero', quantity_grams: 55, category: 'huevos' }, // 1 Huevo M
+            { name: 'Queso Cottage 0% MG', quantity_grams: 120, category: 'lacteos_alternativas' },
+            { name: 'Aguacate', quantity_grams: 20, category: 'frutas' }
         ],
-        preparation: "1. Añadir todos los ingredientes a la batidora. 2. Batir hasta obtener una mezcla homogénea y suave. 3. Servir inmediatamente. Puedes añadir hielo para una textura más fría."
+        preparation: "1. Tostar el pan de centeno. 2. Preparar los huevos (revueltos con las claras o pochados). 3. Untar el queso cottage sobre las tostadas. 4. Colocar el aguacate laminado y los huevos encima. Sazonar al gusto."
     },
-    'des_yogur_nueces_pro': {
-        id: 'des_yogur_nueces_pro', name: 'Yogur Proteico con Frutos Rojos y Almendras', calories: 430, protein: 50, carbs: 26, fats: 15, image: 'https://placehold.co/100x100/374151/FACC15?text=Yogur+Pro',
+    'des_tortitas_avena_frutos_rojos_ajustado': {
+        id: 'des_tortitas_avena_frutos_rojos_ajustado', name: 'Tortitas de Avena con Frutos Rojos y Nueces', calories: 569, protein: 52, carbs: 59.2, fats: 12.5, image: 'https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682ad5d9e819fce58fa8a30c.png',
         ingredients: [
-            { name: 'Yogur griego natural 0% MG', quantity_grams: 200, category: 'lacteos_alternativas' }, { name: 'Proteína en polvo', quantity_grams: 25, category: 'otros' },
-            { name: 'Frutos rojos mixtos', quantity_grams: 100, category: 'frutas' }, { name: 'Almendras crudas o tostadas', quantity_grams: 20, category: 'frutos_secos_semillas' }, 
-            { name: 'Semillas de chía', quantity_grams: 5, category: 'frutos_secos_semillas' }
+            { name: 'Avena en copos (o harina)', quantity_grams: 70, category: 'cereales_granos_pan' },
+            { name: 'Claras de huevo líquidas', quantity_grams: 150, category: 'huevos' },
+            { name: 'Proteína en polvo', quantity_grams: 30, category: 'otros' },
+            { name: 'Frutos rojos mixtos', quantity_grams: 100, category: 'frutas' },
+            { name: 'Nueces', quantity_grams: 10, category: 'frutos_secos_semillas' },
+            { name: 'Leche de almendras s/a (opcional para la mezcla)', quantity_grams: 50, category: 'bebidas' }
         ],
-        preparation: "1. En un bol, mezclar el yogur griego con la proteína en polvo hasta integrar. 2. Añadir los frutos rojos y las semillas de chía. 3. Cubrir con las almendras troceadas. Servir frío."
+        preparation: "1. Mezclar la avena (si es en copos, triturar primero para hacer harina), las claras, la proteína en polvo y la leche de almendras hasta obtener una masa homogénea. 2. Cocinar las tortitas en una sartén antiadherente a fuego medio. 3. Servir con los frutos rojos y las nueces por encima."
     },
-    'des_revuelto_pavo_pro': { 
-        id: 'des_revuelto_pavo_pro', name: 'Revuelto Proteico de Claras y Pavo con Tostadas', calories: 450, protein: 45, carbs: 35, fats: 15, image: 'https://placehold.co/100x100/374151/FACC15?text=Revuelto+Pro',
+    'des_revuelto_huevos_jamon_ajustado': {
+        id: 'des_revuelto_huevos_jamon_ajustado', name: 'Revuelto de Huevos y Claras con Jamón y Tostada', calories: 533, protein: 56.5, carbs: 30.5, fats: 19.7, image: 'https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682ad5e1e819fcb589a8a30e.png',
         ingredients: [
-            { name: 'Claras de huevo líquidas', quantity_grams: 200, category: 'huevos' }, { name: 'Huevo entero', quantity_grams: 55, category: 'huevos' },
-            { name: 'Fiambre de pavo en dados', quantity_grams: 80, category: 'carnes_aves' }, { name: 'Pan integral', quantity_grams: 60, category: 'cereales_granos_pan' }, 
-            { name: 'Tomate en rodajas', quantity_grams: 50, category: 'verduras_hortalizas' }, { name: 'Aceite de oliva virgen extra', quantity_grams: 3, category: 'aceites_grasas' }
+            { name: 'Huevo entero', quantity_grams: 110, category: 'huevos' }, // 2 Huevos M
+            { name: 'Claras de huevo líquidas', quantity_grams: 150, category: 'huevos' },
+            { name: 'Jamón serrano (limpio de grasa)', quantity_grams: 70, category: 'carnes_aves' },
+            { name: 'Pan de centeno', quantity_grams: 60, category: 'cereales_granos_pan' },
+            { name: 'Tomates cherry', quantity_grams: 50, category: 'verduras_hortalizas' },
+            { name: 'Aceite de oliva virgen extra', quantity_grams: 3, category: 'aceites_grasas' }
         ],
-        preparation: "1. Calentar el aceite en una sartén antiadherente. 2. Añadir el pavo y saltear ligeramente. 3. Verter las claras y el huevo batidos. Remover hasta que cuajen al gusto. 4. Servir el revuelto acompañado de las tostadas de pan integral y las rodajas de tomate."
+        preparation: "1. Batir los huevos y las claras. 2. Calentar el aceite en una sartén y saltear el jamón en dados. 3. Verter los huevos batidos y remover hasta que cuajen al gusto. 4. Servir con el pan de centeno tostado y los tomates cherry."
     },
+
+    // COMIDAS (sin cambios)
     'com_pollo_boniato_veg': {
         id: 'com_pollo_boniato_veg', name: 'Pollo al Horno con Boniato y Verduras', calories: 560, protein: 60, carbs: 40, fats: 18, image: 'https://placehold.co/100x100/374151/FACC15?text=Pollo+Horno',
         ingredients: [
@@ -72,6 +82,8 @@ const foodDatabase = {
         ],
         preparation: "1. Cocer el arroz integral. 2. Cocinar el filete de ternera a la plancha al gusto. 3. Preparar una ensalada con la lechuga, tomate y pepino. Aliñar con aceite y vinagre. 4. Servir el filete con el arroz y la ensalada."
     },
+
+    // CENAS (sin cambios)
     'cena_merluza_patata_pim': {
         id: 'cena_merluza_patata_pim', name: 'Merluza al Vapor con Patata y Pimientos', calories: 450, protein: 55, carbs: 30, fats: 12, image: 'https://placehold.co/100x100/374151/FACC15?text=Merluza+Vapor',
         ingredients: [
@@ -99,6 +111,8 @@ const foodDatabase = {
         ],
         preparation: "1. Saltear el pavo en una sartén antiadherente. 2. Añadir las verduras cortadas y cocinar unos minutos. 3. Incorporar la pasta de curry y la leche de coco. Mezclar bien y cocinar a fuego lento hasta que la salsa espese y las verduras estén tiernas. 4. Servir con el arroz basmati cocido."
     },
+
+    // EXTRAS (sin cambios)
     'ext_cottage_nueces': {
         id: 'ext_cottage_nueces', name: 'Queso Cottage con Nueces', calories: 190, protein: 20, carbs: 5, fats: 10, image: 'https://placehold.co/100x100/374151/FACC15?text=Cottage+Ext',
         ingredients: [ { name: 'Queso Cottage 0% MG', quantity_grams: 150, category: 'lacteos_alternativas' }, { name: 'Nueces', quantity_grams: 15, category: 'frutos_secos_semillas' } ],
@@ -118,20 +132,20 @@ const foodDatabase = {
 };
 
 const dailyMenus = [
-    { // Menú 1: Aproximado P:195, C:140, F:57, Kcal:1830 (con doble extra)
-        desayuno: [foodDatabase.des_batido_pro],
+    { // Menú 1: Ajustado con nuevo desayuno
+        desayuno: [foodDatabase.des_tostada_centeno_huevo_cottage_ajustado],
         comida: [foodDatabase.com_pollo_boniato_veg],
         cena: [foodDatabase.cena_merluza_patata_pim],
         extras: [foodDatabase.ext_cottage_nueces, foodDatabase.ext_yogurpro_naranja]
     },
-    { // Menú 2: Aproximado P:191, C:139, F:77, Kcal:1970 (con doble extra)
-        desayuno: [foodDatabase.des_yogur_nueces_pro],
+    { // Menú 2: Ajustado con nuevo desayuno
+        desayuno: [foodDatabase.des_tortitas_avena_frutos_rojos_ajustado],
         comida: [foodDatabase.com_salmon_quinoa_esp],
         cena: [foodDatabase.cena_bacalao_garb_esp],
         extras: [foodDatabase.ext_yogurpro_naranja, foodDatabase.ext_tortitas_aguacate]
     },
-    { // Menú 3 (Entreno): Aproximado P:180, C:161, F:59, Kcal:1854 (con doble extra)
-        desayuno: [foodDatabase.des_revuelto_pavo_pro],      
+    { // Menú 3 (Entreno): Ajustado con nuevo desayuno
+        desayuno: [foodDatabase.des_revuelto_huevos_jamon_ajustado],      
         comida: [foodDatabase.com_ternera_mas_arroz_ens], 
         cena: [foodDatabase.cena_pavo_curry_mas_arroz_veg], 
         extras: [foodDatabase.ext_tortitas_aguacate, foodDatabase.ext_cottage_nueces]
