@@ -16,7 +16,7 @@ const foodCategories = {
 };
 
 const foodDatabase = {
-    // --- DESAYUNOS (CSV) ---
+    // --- DESAYUNOS ---
     'des_tostada_aguacate_salmon': {
         id: 'des_tostada_aguacate_salmon', name: 'Tostada con Aguacate y Salmón',
         calories: 450, protein: 25, carbs: 35, fats: 22,
@@ -47,9 +47,10 @@ const foodDatabase = {
             { name: 'Huevos', quantity_grams: 165, category: 'huevos' },
             { name: 'Espinacas frescas', quantity_grams: 100, category: 'verduras_hortalizas' },
             { name: 'Champiñones', quantity_grams: 100, category: 'verduras_hortalizas' },
+            { name: 'Queso feta (opcional)', quantity_grams: 20, category: 'lacteos_alternativas' },
             { name: 'Aceite de oliva', quantity_grams: 5, category: 'aceites_grasas' }
         ],
-        preparation: 'Saltear los champiñones y espinacas. Añadir los huevos batidos y remover hasta que cuajen.'
+        preparation: 'Saltear los champiñones y espinacas. Añadir los huevos batidos y remover hasta que cuajen. Añadir queso al final.'
     },
     'des_tortitas_avena_platano': {
         id: 'des_tortitas_avena_platano', name: 'Tortitas de Avena y Plátano',
@@ -76,11 +77,11 @@ const foodDatabase = {
         preparation: 'Cocinar la avena con la leche. Retirar del fuego y mezclar con la proteína. Servir con los frutos secos por encima.'
     },
 
-    // --- COMIDAS/CENAS (CSV) ---
+    // --- COMIDAS/CENAS ---
     'cc_pollo_curry_arroz': {
         id: 'cc_pollo_curry_arroz', name: 'Pollo al Curry con Arroz',
         calories: 650, protein: 50, carbs: 70, fats: 18,
-        image: 'https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/666dc2808c14d95267b07c91.png',
+        image: 'https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6655c6595bd4122045e7f14b.png',
         ingredients: [
             { name: 'Pechuga de pollo', quantity_grams: 200, category: 'carnes_aves' },
             { name: 'Arroz basmati (cocido)', quantity_grams: 180, category: 'cereales_granos_pan' },
@@ -92,7 +93,7 @@ const foodDatabase = {
     'cc_gnocchi_pesto_pollo': {
         id: 'cc_gnocchi_pesto_pollo', name: 'Gnocchis al Pesto con Pollo',
         calories: 680, protein: 45, carbs: 80, fats: 20,
-        image: 'https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/666dc2809e51e605d535198e.png',
+        image: 'https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6655c659160d5b430641b44b.png',
         ingredients: [
             { name: 'Gnocchis de patata', quantity_grams: 200, category: 'cereales_granos_pan' },
             { name: 'Pechuga de pollo', quantity_grams: 150, category: 'carnes_aves' },
@@ -103,7 +104,7 @@ const foodDatabase = {
     'cc_ensalada_burrata_jamon': {
         id: 'cc_ensalada_burrata_jamon', name: 'Ensalada de Burrata y Jamón',
         calories: 600, protein: 40, carbs: 20, fats: 42,
-        image: 'https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/666dc2801c6dc327f327431f.png',
+        image: 'https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6655c6594d24177d544062f7.png',
         ingredients: [
             { name: 'Burrata', quantity_grams: 125, category: 'lacteos_alternativas' },
             { name: 'Jamón serrano', quantity_grams: 50, category: 'carnes_aves' },
@@ -114,7 +115,7 @@ const foodDatabase = {
     'cc_moussaka_casera': {
         id: 'cc_moussaka_casera', name: 'Moussaka Casera con Arroz',
         calories: 700, protein: 45, carbs: 65, fats: 30,
-        image: 'https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/666dc27fe0972b226cd9c063.png',
+        image: 'https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6655c65a04988772a08d0e74.png',
         ingredients: [
             { name: 'Carne picada de ternera', quantity_grams: 150, category: 'carnes_aves' },
             { name: 'Berenjena', quantity_grams: 200, category: 'verduras_hortalizas' },
@@ -125,7 +126,7 @@ const foodDatabase = {
     'cc_poke_bowl_pollo': {
         id: 'cc_poke_bowl_pollo', name: 'Poke Bowl de Pollo',
         calories: 620, protein: 45, carbs: 70, fats: 18,
-        image: 'https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/666dc27f185c7219582d277d.png',
+        image: 'https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6655c658a4c33027b494d9a8.png',
         ingredients: [
             { name: 'Arroz de sushi (cocido)', quantity_grams: 180, category: 'cereales_granos_pan' },
             { name: 'Pechuga de pollo', quantity_grams: 150, category: 'carnes_aves' },
@@ -137,7 +138,7 @@ const foodDatabase = {
     'cc_boniato_ensalada_pollo': {
         id: 'cc_boniato_ensalada_pollo', name: 'Boniato Asado con Ensalada y Pollo',
         calories: 550, protein: 45, carbs: 55, fats: 15,
-        image: 'https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/666dc2808c14d95b59b07c93.png',
+        image: 'https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6655c65a04988772ca8d0e76.png',
         ingredients: [
             { name: 'Boniato', quantity_grams: 250, category: 'verduras_hortalizas' },
             { name: 'Pechuga de pollo', quantity_grams: 150, category: 'carnes_aves' },
@@ -148,7 +149,7 @@ const foodDatabase = {
     'cc_alcachofas_jamon_huevo': {
         id: 'cc_alcachofas_jamon_huevo', name: 'Alcachofas Salteadas con Jamón y Huevo',
         calories: 450, protein: 30, carbs: 15, fats: 30,
-        image: 'https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/666dc2808c14d943fab07c92.png',
+        image: 'https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6655c65a160d5b62b141b44d.png',
         ingredients: [
             { name: 'Corazones de alcachofa', quantity_grams: 200, category: 'verduras_hortalizas' },
             { name: 'Jamón serrano en tacos', quantity_grams: 60, category: 'carnes_aves' },
@@ -156,17 +157,19 @@ const foodDatabase = {
         ],
         preparation: 'Saltear las alcachofas y el jamón en una sartén. Servir con un huevo a la plancha encima.'
     },
+    // NUEVA RECETA COMBINADA PARA LA CENA DEL DÍA 3
     'cc_hamb_ensalada_tomate': {
         id: 'cc_hamb_ensalada_tomate', name: 'Hamburguesa de Pavo-Pollo con Ensalada de Tomate',
         calories: 390, protein: 43, carbs: 15, fats: 18,
-        image: 'https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afcbc9b8ed3b6397cbb33.png',
+        image: 'https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afcbc9b8ed3b6397cbb33.png', // Usando imagen de la hamburguesa
         ingredients: [
             { name: 'Carne picada de pavo y pollo', quantity_grams: 180, category: 'carnes_aves' },
             { name: 'Tomate', quantity_grams: 200, category: 'verduras_hortalizas' },
             { name: 'Cebolla', quantity_grams: 50, category: 'verduras_hortalizas' },
+            { name: 'Ajo (1 diente pequeño)', quantity_grams: 3, category: 'verduras_hortalizas' },
             { name: 'Aceite de oliva', quantity_grams: 7, category: 'aceites_grasas' }
         ],
-        preparation: "1. Formar la hamburguesa y cocinar a la plancha. 2. Preparar una ensalada con el tomate y la cebolla. 3. Servir la hamburguesa junto a la ensalada."
+        preparation: "1. Formar la hamburguesa y cocinar a la plancha. 2. Preparar una ensalada con el tomate, cebolla y ajo picado. 3. Servir la hamburguesa junto a la ensalada."
     },
     
     // --- EXTRAS ---
@@ -201,33 +204,31 @@ const dailyMenus = [
     { 
         // DÍA 1: ENTRENAMIENTO
         // Objetivo: ~1750 kcal, 90-120g HC, 100-125g Proteína
-        // Estimado: ~1770 kcal, P:123g, C:115g, F:82g
+        // Estimado: ~1760 kcal, P:121g, C:115g, F:88g
         name: "Día 1 - Entrenamiento",
-        desayuno: [foodDatabase.des_tostada_aguacate_huevo],     // Kcal:420, P:20, C:35, F:22
-        comida: [foodDatabase.cc_pollo_curry_arroz],           // Kcal:650, P:50, C:70, F:18
-        cena: [foodDatabase.cc_alcachofas_jamon_huevo],      // Kcal:440, P:31, C:15, F:30 (Ajuste ligero)
+        desayuno: [foodDatabase.des_tostada_aguacate_salmon], // Kcal:450, P:25, C:35, F:22
+        comida: [foodDatabase.cc_gnocchi_pesto_pollo],      // Kcal:680, P:45, C:80, F:20
+        cena: [foodDatabase.cc_alcachofas_jamon_huevo],      // Kcal:370, P:28, C:15, F:23 (Ajuste: menos aceite)
         extras: [foodDatabase.ext_yog_pro_sabo, foodDatabase.ext_frut_citr] // 160+60=220 Kcal, P:22+1=23, C:12+15=27, F:2+0=2
     },
     { 
         // DÍA 2: DESCANSO
         // Objetivo: ~1600 kcal, <80g HC, 100-125g Proteína
-        // Estimado: ~1590 kcal, P:127g, C:72, F:89g
+        // Estimado: ~1560 kcal, P:122, C:72, F:89
         name: "Día 2 - Descanso",
         desayuno: [foodDatabase.des_revuelto_espinacas_champinones], // Kcal:350, P:25, C:10, F:25
         comida: [foodDatabase.cc_ensalada_burrata_jamon],   // Kcal:600, P:40, C:20, F:42
-        cena: [foodDatabase.cc_hamb_ensalada_tomate],        // Kcal:480, P:40, C:18, F:20 (Ajuste: mayor porción de ensalada)
+        cena: [foodDatabase.cc_boniato_ensalada_pollo],      // Kcal:450, P:35, C:45, F:20 (Ajuste: porción más pequeña de boniato y pollo)
         extras: [foodDatabase.ext_yog_pro_sabo]              // Kcal:160, P:22, C:12, F:2
     },
     { 
         // DÍA 3: DESCANSO
         // Objetivo: ~1600 kcal, <80g HC, 100-125g Proteína
-        // Estimado: ~1580 kcal, P:113g, C:77, F:87g
+        // Estimado: ~1580 kcal, P:125, C:75, F:87
         name: "Día 3 - Descanso",
         desayuno: [foodDatabase.des_tostada_aguacate_huevo], // Kcal:420, P:20, C:35, F:22
-        comida: [foodDatabase.cc_boniato_ensalada_pollo],    // Kcal:550, P:45, C:55, F:15 
-        cena: [foodDatabase.cc_alcachofas_jamon_huevo],      // Kcal:450, P:30, C:15, F:30
+        comida: [foodDatabase.cc_poke_bowl_pollo],         // Kcal:610, P:60, C:45, F:20 (Ajuste: menos arroz, más pollo)
+        cena: [foodDatabase.cc_hamb_ensalada_tomate],        // Kcal:390, P:43, C:15, F:18
         extras: [foodDatabase.ext_yog_pro_sabo]              // Kcal:160, P:22, C:12, F:2
     }
 ];
-
-console.log("Datos de categorías, alimentos y menús de ejemplo definidos.");
