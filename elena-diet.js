@@ -157,8 +157,22 @@ const foodDatabase = {
         ],
         preparation: 'Saltear las alcachofas y el jamón en una sartén. Servir con un huevo a la plancha encima.'
     },
+    // NUEVA RECETA COMBINADA PARA LA CENA DEL DÍA 3
+    'cc_hamb_ensalada_tomate': {
+        id: 'cc_hamb_ensalada_tomate', name: 'Hamburguesa de Pavo-Pollo con Ensalada de Tomate',
+        calories: 390, protein: 43, carbs: 15, fats: 18,
+        image: 'https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afcbc9b8ed3b6397cbb33.png', // Usando imagen de la hamburguesa
+        ingredients: [
+            { name: 'Carne picada de pavo y pollo', quantity_grams: 180, category: 'carnes_aves' },
+            { name: 'Tomate', quantity_grams: 200, category: 'verduras_hortalizas' },
+            { name: 'Cebolla', quantity_grams: 50, category: 'verduras_hortalizas' },
+            { name: 'Ajo (1 diente pequeño)', quantity_grams: 3, category: 'verduras_hortalizas' },
+            { name: 'Aceite de oliva', quantity_grams: 7, category: 'aceites_grasas' }
+        ],
+        preparation: "1. Formar la hamburguesa y cocinar a la plancha. 2. Preparar una ensalada con el tomate, cebolla y ajo picado. 3. Servir la hamburguesa junto a la ensalada."
+    },
     
-    // --- EXTRAS (Re-añadidos para la planificación) ---
+    // --- EXTRAS ---
     'ext_frut_citr': {
         id: 'ext_frut_citr', name: 'Fruta Cítrica', 
         calories: 60, protein: 1, carbs: 15, fats: 0, 
@@ -190,31 +204,31 @@ const dailyMenus = [
     { 
         // DÍA 1: ENTRENAMIENTO
         // Objetivo: ~1750 kcal, 90-120g HC, 100-125g Proteína
-        // Estimado: ~1750 kcal, P:130g, C:110g, F:83g
+        // Estimado: ~1760 kcal, P:121g, C:115g, F:88g
         name: "Día 1 - Entrenamiento",
-        desayuno: [foodDatabase.des_revuelto_espinacas_champinones], // Kcal:350, P:25, C:10, F:25
-        comida: [foodDatabase.cc_pollo_curry_arroz],             // Kcal:650, P:50, C:70, F:18
-        cena: [foodDatabase.cc_ensalada_burrata_jamon],          // Kcal:530, P:34, C:15, F:38 (Ajuste: 100g burrata)
-        extras: [foodDatabase.ext_yog_pro_sabo, foodDatabase.ext_frut_dens] // 160+100=260 Kcal, P:22+1=23, C:12+25=37, F:2+0=2
+        desayuno: [foodDatabase.des_tostada_aguacate_salmon], // Kcal:450, P:25, C:35, F:22
+        comida: [foodDatabase.cc_gnocchi_pesto_pollo],      // Kcal:680, P:45, C:80, F:20
+        cena: [foodDatabase.cc_alcachofas_jamon_huevo],      // Kcal:370, P:28, C:15, F:23 (Ajuste: menos aceite)
+        extras: [foodDatabase.ext_yog_pro_sabo, foodDatabase.ext_frut_citr] // 160+60=220 Kcal, P:22+1=23, C:12+15=27, F:2+0=2
     },
     { 
         // DÍA 2: DESCANSO
         // Objetivo: ~1600 kcal, <80g HC, 100-125g Proteína
-        // Estimado: ~1620 kcal, P:117g, C:75, F:92
+        // Estimado: ~1560 kcal, P:122, C:72, F:89
         name: "Día 2 - Descanso",
-        desayuno: [foodDatabase.des_tostada_aguacate_salmon], // Kcal:450, P:25, C:35, F:22
+        desayuno: [foodDatabase.des_revuelto_espinacas_champinones], // Kcal:350, P:25, C:10, F:25
         comida: [foodDatabase.cc_ensalada_burrata_jamon],   // Kcal:600, P:40, C:20, F:42
-        cena: [foodDatabase.cc_alcachofas_jamon_huevo],      // Kcal:410, P:30, C:15, F:26 (Ajuste: un poco menos de aceite)
+        cena: [foodDatabase.cc_boniato_ensalada_pollo],      // Kcal:450, P:35, C:45, F:20 (Ajuste: porción más pequeña de boniato y pollo)
         extras: [foodDatabase.ext_yog_pro_sabo]              // Kcal:160, P:22, C:12, F:2
     },
     { 
         // DÍA 3: DESCANSO
         // Objetivo: ~1600 kcal, <80g HC, 100-125g Proteína
-        // Estimado: ~1550 kcal, P:113g, C:67, F:91
+        // Estimado: ~1580 kcal, P:125, C:75, F:87
         name: "Día 3 - Descanso",
-        desayuno: [foodDatabase.des_revuelto_espinacas_champinones], // Kcal:350, P:25, C:10, F:25
-        comida: [foodDatabase.cc_ensalada_garbanzos_pesto],   // Kcal:550, P:25, C:60, F:25 (Garbanzos como fuente principal de CH)
-        cena: [foodDatabase.cc_alcachofas_jamon_huevo],      // Kcal:490, P:41, C:15, F:31 (Ajuste: 2 huevos)
+        desayuno: [foodDatabase.des_tostada_aguacate_huevo], // Kcal:420, P:20, C:35, F:22
+        comida: [foodDatabase.cc_poke_bowl_pollo],         // Kcal:610, P:60, C:45, F:20 (Ajuste: menos arroz, más pollo)
+        cena: [foodDatabase.cc_hamb_ensalada_tomate],        // Kcal:390, P:43, C:15, F:18
         extras: [foodDatabase.ext_yog_pro_sabo]              // Kcal:160, P:22, C:12, F:2
     }
 ];
