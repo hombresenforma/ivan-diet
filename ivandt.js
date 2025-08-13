@@ -13,7 +13,7 @@ const foodDatabase = {
     "ingredients": [
         {
             "name": "Tostada de Pan de Centeno",
-            "quantity": 50,
+            "quantity": 10,
             "unit": "g",
             "calories": 125,
             "protein": 5,
@@ -22,7 +22,7 @@ const foodDatabase = {
         },
         {
             "name": "Jamón Ibérico",
-            "quantity": "70",
+            "quantity": "100",
             "unit": "g",
             "calories": 210,
             "protein": 21,
