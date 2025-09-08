@@ -2,87 +2,60 @@
 // La variable 'foodCategories' no se incluye aquí ya que se importa desde la app.
 
 const foodDatabase = {
-    "p0_desayuno_Revuelto_de_espinacas_mainOnly_idx0": {
-        "id": "p0_desayuno_Revuelto_de_espinacas_mainOnly_idx0",
-        "name": "Revuelto de espinacas y champiñones con queso feta",
-        "calories": 448.4,
-        "protein": 27.5,
-        "carbs": 7.1,
-        "fats": 33.7,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cfe059b0c6721a19b02e4.png",
-        "ingredients": [
-            {
-                "name": "Espinacas",
-                "quantity": "50",
-                "unit": "g",
-                "calories": 15,
-                "protein": 1,
-                "carbs": 2.5,
-                "fats": 0.1
-            },
-            {
-                "name": "Champiñones",
-                "quantity": "50",
-                "unit": "g",
-                "calories": 15,
-                "protein": 1,
-                "carbs": 2.5,
-                "fats": 0.1
-            },
-            {
-                "name": "Queso Feta",
-                "quantity": "50",
-                "unit": "g",
-                "calories": 175,
-                "protein": 12.5,
-                "carbs": 1,
-                "fats": 12.5
-            },
-            {
-                "name": "Huevos",
-                "quantity": "2",
-                "unit": "unidad(es)",
-                "calories": 155,
-                "protein": 13,
-                "carbs": 1.1,
-                "fats": 11
-            },
-            {
-                "name": "Aceite de Oliva Virgen Extra",
-                "quantity": "10",
-                "unit": "g",
-                "calories": 88.4,
-                "protein": 0,
-                "carbs": 0,
-                "fats": 10
-            }
-        ],
-        "preparation": "1. Saltear los champiñones y las espinacas en una sartén. 2. Batir los huevos y verterlos en la sartén. 3. Remover hasta que los huevos estén casi cuajados. 4. Añadir el queso feta desmenuzado y mezclar.",
-        "originalBaseRecipeId": "des_revuelto_de_espinacas_y_championes_con_queso_feta",
-        "isSideDish": false,
-        "mealCategory": "desayuno"
-    },
-    "p0_desayuno_Pan_de_Centeno_mainOnly_idx1": {
-        "id": "p0_desayuno_Pan_de_Centeno_mainOnly_idx1",
-        "name": "Pan de Centeno",
-        "calories": 162,
-        "protein": 5.3999999999999995,
+    "p0_desayuno_Tostada_de_centeno_mainOnly_idx0": {
+        "id": "p0_desayuno_Tostada_de_centeno_mainOnly_idx0",
+        "name": "Tostada de centeno con jamón ibérico",
+        "calories": 316,
+        "protein": 20.8,
         "carbs": 30,
-        "fats": 1.7999999999999998,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6879305ee8df5478eb937c5e.png",
+        "fats": 11.600000000000001,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6887226c7537da60484d071f.png",
         "ingredients": [
             {
-                "name": "Pan de Centeno",
+                "name": "Tostada de Pan de Centeno",
                 "quantity": "2",
                 "unit": "rebanada(s)",
                 "calories": 162,
                 "protein": 5.3999999999999995,
                 "carbs": 30,
                 "fats": 1.7999999999999998
+            },
+            {
+                "name": "Jamón Ibérico",
+                "quantity": "70",
+                "unit": "g",
+                "calories": 154,
+                "protein": 15.4,
+                "carbs": 0,
+                "fats": 9.8
             }
         ],
-        "preparation": "1. Cortar una rebanada de pan de centeno o intengral y acompañar con otra comida.",
-        "originalBaseRecipeId": "ext_pan_de_centeno",
+        "preparation": "1. Tostar el pan de centeno. 2. Colocar las lonchas de jamón ibérico por encima. Opcional: añadir un chorrito de aceite de oliva.",
+        "originalBaseRecipeId": "des_tostada_de_centeno_con_jamn_ibrico",
+        "isSideDish": false,
+        "mealCategory": "desayuno"
+    },
+    "p0_desayuno_Fruta_Ctrica_Mandarina_mainOnly_idx1": {
+        "id": "p0_desayuno_Fruta_Ctrica_Mandarina_mainOnly_idx1",
+        "name": "Fruta Cítrica (Mandarina, Kiwi, Naranja...)",
+        "calories": 90,
+        "protein": 0.75,
+        "carbs": 22.5,
+        "fats": 0.3,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd3d0ed506305442ffe4.png",
+        "ingredients": [
+            {
+                "name": "Kiwi",
+                "quantity": "2",
+                "unit": "unidad(es)",
+                "calories": 90,
+                "protein": 0.75,
+                "carbs": 22.5,
+                "fats": 0.3
+            }
+        ],
+        "preparation": "1. Seleccionar la fruta cítrica de preferencia (mandarina, kiwi, naranja, pomelo, etc.). 2. Lavar bien la fruta bajo el grifo. 3. Para mandarinas y naranjas: pelar la piel con las manos o con ayuda de un cuchillo. Separar los gajos si se desea. 4. Para kiwis: cortar por la mitad y comer la pulpa con una cucharita, o pelar con un cuchillo y cortar en rodajas. 5. Para pomelos: cortar por la mitad y extraer los gajos, o comer con cuchara. Consumir directamente.",
+        "originalBaseRecipeId": "ext_fruta_ctrica_mandarina_kiwi_naranja",
         "isSideDish": false,
         "mealCategory": "extra"
     },
@@ -575,45 +548,45 @@ const foodDatabase = {
         "isSideDish": false,
         "mealCategory": "extra"
     },
-    "p2_desayuno_Porridge_de_Avena_mainOnly_idx0": {
-        "id": "p2_desayuno_Porridge_de_Avena_mainOnly_idx0",
-        "name": "Porridge de Avena y Frutos Rojos",
-        "calories": 432,
-        "protein": 12.85,
-        "carbs": 87.5,
-        "fats": 3.9,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afdf19b8ed348797cbcd8.png",
+    "p2_desayuno_Tostada_de_Pan_mainOnly_idx0": {
+        "id": "p2_desayuno_Tostada_de_Pan_mainOnly_idx0",
+        "name": "Tostada de Pan de Centeno con Revuelto de Huevos y Jamón York",
+        "calories": 489.5,
+        "protein": 30.4,
+        "carbs": 32.6,
+        "fats": 26.3,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687d09e04d6fb7f271b84cc9.png",
         "ingredients": [
             {
-                "name": "Copos de Avena",
-                "quantity": "80",
-                "unit": "g",
-                "calories": 292,
-                "protein": 9.6,
-                "carbs": 60,
-                "fats": 1.6
+                "name": "Tostada de Pan de Centeno",
+                "quantity": "2",
+                "unit": "rebanada(s)",
+                "calories": 162,
+                "protein": 5.3999999999999995,
+                "carbs": 30,
+                "fats": 1.7999999999999998
             },
             {
-                "name": "Leche",
-                "quantity": "50",
-                "unit": "g",
-                "calories": 50,
-                "protein": 2.5,
-                "carbs": 5,
-                "fats": 2
+                "name": "Huevos",
+                "quantity": "2",
+                "unit": "unidad(es)",
+                "calories": 155,
+                "protein": 13,
+                "carbs": 1.1,
+                "fats": 11
             },
             {
-                "name": "Frutos Rojos",
-                "quantity": "150",
+                "name": "Jamón York",
+                "quantity": "75",
                 "unit": "g",
-                "calories": 90,
-                "protein": 0.75,
-                "carbs": 22.5,
-                "fats": 0.3
+                "calories": 172.5,
+                "protein": 12,
+                "carbs": 1.5,
+                "fats": 13.5
             }
         ],
-        "preparation": "1. En un cazo, cocinar los copos de avena con la leche o bebida vegetal a fuego medio, removiendo constantemente hasta que espese y la avena esté cocida (unos 5-7 minutos). 2. Servir caliente en un bol con los frutos rojos por encima. Opcional: añadir canela o edulcorante al gusto.",
-        "originalBaseRecipeId": "des_porridge_de_avena_y_frutos_rojos",
+        "preparation": "1. Tostar el pan de centeno. 2. Preparar un revuelto de huevos con taquitos de jamón york. 3. Servir el revuelto sobre la tostada.",
+        "originalBaseRecipeId": "des_tostada_de_pan_de_centeno_con_revuelto_de_huevos_y_jamn_york",
         "isSideDish": false,
         "mealCategory": "desayuno"
     },
@@ -818,8 +791,8 @@ const dailyMenus = [
     },
     "useCustomMacros": true,
     "desayuno": [
-      "p0_desayuno_Revuelto_de_espinacas_mainOnly_idx0",
-      "p0_desayuno_Pan_de_Centeno_mainOnly_idx1"
+      "p0_desayuno_Tostada_de_centeno_mainOnly_idx0",
+      "p0_desayuno_Fruta_Ctrica_Mandarina_mainOnly_idx1"
     ],
     "comida": [
       "p0_comida_Pollo_al_curry_mainOnly_idx2"
@@ -865,7 +838,7 @@ const dailyMenus = [
     },
     "useCustomMacros": true,
     "desayuno": [
-      "p2_desayuno_Porridge_de_Avena_mainOnly_idx0"
+      "p2_desayuno_Tostada_de_Pan_mainOnly_idx0"
     ],
     "comida": [
       "p2_comida_Arroz_tres_delicias_mainOnly_idx1"
