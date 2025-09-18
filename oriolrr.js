@@ -1168,7 +1168,7 @@ const dailyMenus = [
     ]
   },
   {
-    "name": "Medio",
+    "name": "Libre 1",
     "targetMacros": {
       "calories": 2000,
       "protein": 160,
@@ -1192,7 +1192,7 @@ const dailyMenus = [
     ]
   },
   {
-    "name": "Bajo CH",
+    "name": "Libre 2",
     "targetMacros": {
       "calories": 2000,
       "protein": 160,
@@ -1218,5 +1218,5 @@ const dailyMenus = [
 // Detalles de los planes exportados:
 // Plan: Alto en HC, Calorías Objetivo: 2000, Proteínas Objetivo: 160, Carbohidratos Objetivo: 220
 // Plan: Medio, Calorías Objetivo: 2000, Proteínas Objetivo: 160, Carbohidratos Objetivo: 180
-// Plan: Medio, Calorías Objetivo: 2000, Proteínas Objetivo: 160, Carbohidratos Objetivo: 180
-// Plan: Bajo CH, Calorías Objetivo: 2000, Proteínas Objetivo: 160, Carbohidratos Objetivo: 220
+// Plan: Libre 1, Calorías Objetivo: 2000, Proteínas Objetivo: 160, Carbohidratos Objetivo: 180
+// Plan: Libre 2, Calorías Objetivo: 2000, Proteínas Objetivo: 160, Carbohidratos Objetivo: 220
