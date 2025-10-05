@@ -2,61 +2,64 @@
 // La variable 'foodCategories' no se incluye aquí ya que se importa desde la app.
 
 const foodDatabase = {
-    "p0_desayuno_Batido_Whey_de_mainOnly_idx0": {
-        "id": "p0_desayuno_Batido_Whey_de_mainOnly_idx0",
-        "name": "Batido Whey de Proteínas",
-        "calories": 190,
-        "protein": 40,
-        "carbs": 2.5,
-        "fats": 2,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684f021af6c48d41b5a5c003.png",
+    "p0_desayuno_Sandwich_Vegetal_de_mainOnly_idx0": {
+        "id": "p0_desayuno_Sandwich_Vegetal_de_mainOnly_idx0",
+        "name": "Sandwich Vegetal de Jamón York",
+        "calories": 353,
+        "protein": 18.6,
+        "carbs": 36.4,
+        "fats": 14.599999999999998,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cd5829b0c67f95e9a8e7e.png",
         "ingredients": [
             {
-                "name": "Proteína Whey en Polvo",
+                "name": "Pan de Centeno",
+                "quantity": "2",
+                "unit": "rebanada(s)",
+                "calories": 162,
+                "protein": 5.3999999999999995,
+                "carbs": 30,
+                "fats": 1.7999999999999998
+            },
+            {
+                "name": "Jamón York",
+                "quantity": "70",
+                "unit": "g",
+                "calories": 161,
+                "protein": 11.200000000000001,
+                "carbs": 1.4000000000000001,
+                "fats": 12.6
+            },
+            {
+                "name": "Tomate",
                 "quantity": "50",
                 "unit": "g",
-                "calories": 190,
-                "protein": 40,
+                "calories": 15,
+                "protein": 1,
                 "carbs": 2.5,
-                "fats": 2
-            }
-        ],
-        "preparation": "1. En un shaker (vaso mezclador con rejilla o bola), añadir la cantidad recomendada de proteína en polvo (whey) según las indicaciones del producto (normalmente 1 scoop o cazo dosificador). 2. Añadir la cantidad de líquido deseada (agua, leche o bebida vegetal; unos 200-300 ml suelen ser suficientes). 3. Cerrar bien el shaker. 4. Agitar enérgicamente durante unos 20-30 segundos hasta que el polvo esté completamente disuelto y no haya grumos. 5. Consumir inmediatamente, preferiblemente después del entrenamiento o según las necesidades proteicas individuales.",
-        "originalBaseRecipeId": "ext_batido_whey_de_protenas",
-        "isSideDish": false,
-        "mealCategory": "extra"
-    },
-    "p0_desayuno_Fruta_Ctrica_Mandarina_mainOnly_idx1": {
-        "id": "p0_desayuno_Fruta_Ctrica_Mandarina_mainOnly_idx1",
-        "name": "Fruta Cítrica (Mandarina, Kiwi, Naranja...)",
-        "calories": 90,
-        "protein": 0.75,
-        "carbs": 22.5,
-        "fats": 0.3,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd3d0ed506305442ffe4.png",
-        "ingredients": [
+                "fats": 0.1
+            },
             {
-                "name": "Kiwi",
-                "quantity": "2",
-                "unit": "unidad(es)",
-                "calories": 90,
-                "protein": 0.75,
-                "carbs": 22.5,
-                "fats": 0.3
+                "name": "Lechuga",
+                "quantity": "50",
+                "unit": "g",
+                "calories": 15,
+                "protein": 1,
+                "carbs": 2.5,
+                "fats": 0.1
             }
         ],
-        "preparation": "1. Seleccionar la fruta cítrica de preferencia (mandarina, kiwi, naranja, pomelo, etc.). 2. Lavar bien la fruta bajo el grifo. 3. Para mandarinas y naranjas: pelar la piel con las manos o con ayuda de un cuchillo. Separar los gajos si se desea. 4. Para kiwis: cortar por la mitad y comer la pulpa con una cucharita, o pelar con un cuchillo y cortar en rodajas. 5. Para pomelos: cortar por la mitad y extraer los gajos, o comer con cuchara. Consumir directamente.",
-        "originalBaseRecipeId": "ext_fruta_ctrica_mandarina_kiwi_naranja",
+        "preparation": "1. Prepara un bocadillo con un par de rebanadas de Pan de Centeno. 2. Añade el Pavo o Jamón York y opcionalmente tomate y lechuga.",
+        "originalBaseRecipeId": "ext_sandwich_vegetal_de_jamn_york",
         "isSideDish": false,
         "mealCategory": "extra"
     },
-    "p0_comida_Ensalada_de_Lentejas_mainOnly_idx2": {
-        "id": "p0_comida_Ensalada_de_Lentejas_mainOnly_idx2",
+    "p0_comida_Ensalada_de_Lentejas_mainOnly_idx1": {
+        "id": "p0_comida_Ensalada_de_Lentejas_mainOnly_idx1",
         "name": "Ensalada de Lentejas",
-        "calories": 575,
-        "protein": 37.4,
-        "carbs": 63.3,
-        "fats": 18.2,
+        "calories": 440,
+        "protein": 22,
+        "carbs": 56,
+        "fats": 13.3,
         "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682aff5a365e949c0a73d706.png",
         "ingredients": [
             {
@@ -70,30 +73,21 @@ const foodDatabase = {
             },
             {
                 "name": "Tomate",
-                "quantity": "100",
+                "quantity": "75",
                 "unit": "g",
-                "calories": 30,
-                "protein": 2,
-                "carbs": 5,
-                "fats": 0.2
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
             },
             {
                 "name": "Cebolla",
-                "quantity": "100",
+                "quantity": "75",
                 "unit": "g",
-                "calories": 30,
-                "protein": 2,
-                "carbs": 5,
-                "fats": 0.2
-            },
-            {
-                "name": "Queso de Burgos 0%",
-                "quantity": "120",
-                "unit": "g",
-                "calories": 120,
-                "protein": 14.399999999999999,
-                "carbs": 4.8,
-                "fats": 4.8
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
             },
             {
                 "name": "Aguacate",
@@ -110,8 +104,8 @@ const foodDatabase = {
         "isSideDish": false,
         "mealCategory": "plato_principal"
     },
-    "p0_comida_Pechuga_de_Pavo_side_idx3": {
-        "id": "p0_comida_Pechuga_de_Pavo_side_idx3",
+    "p0_comida_Pechuga_de_Pavo_side_idx2": {
+        "id": "p0_comida_Pechuga_de_Pavo_side_idx2",
         "name": "Pechuga de Pavo a la Plancha",
         "calories": 248.4,
         "protein": 28.000000000000004,
@@ -143,8 +137,8 @@ const foodDatabase = {
         "isSideDish": true,
         "mealCategory": "acompanamiento"
     },
-    "p0_cena_Calabacn_con_Cebolla_mainOnly_idx4": {
-        "id": "p0_cena_Calabacn_con_Cebolla_mainOnly_idx4",
+    "p0_cena_Calabacn_con_Cebolla_mainOnly_idx3": {
+        "id": "p0_cena_Calabacn_con_Cebolla_mainOnly_idx3",
         "name": "Calabacín con Cebolla a la Plancha",
         "calories": 148.4,
         "protein": 4,
@@ -185,8 +179,8 @@ const foodDatabase = {
         "isSideDish": false,
         "mealCategory": "plato_principal"
     },
-    "p0_cena_Revuelto_de_Huevos_side_idx5": {
-        "id": "p0_cena_Revuelto_de_Huevos_side_idx5",
+    "p0_cena_Revuelto_de_Huevos_side_idx4": {
+        "id": "p0_cena_Revuelto_de_Huevos_side_idx4",
         "name": "Revuelto de Huevos con Espárragos Trigueros",
         "calories": 326.7,
         "protein": 22,
@@ -227,8 +221,8 @@ const foodDatabase = {
         "isSideDish": true,
         "mealCategory": "acompanamiento"
     },
-    "p0_extra_Fruta_Densa_Pltano_mainOnly_idx6": {
-        "id": "p0_extra_Fruta_Densa_Pltano_mainOnly_idx6",
+    "p0_extra_Fruta_Densa_Pltano_mainOnly_idx5": {
+        "id": "p0_extra_Fruta_Densa_Pltano_mainOnly_idx5",
         "name": "Fruta Densa (Plátano, Manzana)",
         "calories": 72,
         "protein": 0.6,
@@ -251,8 +245,8 @@ const foodDatabase = {
         "isSideDish": false,
         "mealCategory": "extra"
     },
-    "p0_extra_Yogur_Protico_Sabores_mainOnly_idx7": {
-        "id": "p0_extra_Yogur_Protico_Sabores_mainOnly_idx7",
+    "p0_extra_Yogur_Protico_Sabores_mainOnly_idx6": {
+        "id": "p0_extra_Yogur_Protico_Sabores_mainOnly_idx6",
         "name": "Yogur Protéico (Sabores, Natural...)",
         "calories": 125,
         "protein": 6.25,
@@ -398,47 +392,47 @@ const foodDatabase = {
     "p1_cena_Wok_de_Verduras_mainOnly_idx2": {
         "id": "p1_cena_Wok_de_Verduras_mainOnly_idx2",
         "name": "Wok de Verduras con Salmón",
-        "calories": 472.4,
-        "protein": 34.4,
-        "carbs": 20,
-        "fats": 27.6,
+        "calories": 442.4,
+        "protein": 32.4,
+        "carbs": 15,
+        "fats": 27.400000000000002,
         "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afda0b91eb330dd3d49b2.png",
         "ingredients": [
             {
                 "name": "Tomate",
-                "quantity": "100",
+                "quantity": "75",
                 "unit": "g",
-                "calories": 30,
-                "protein": 2,
-                "carbs": 5,
-                "fats": 0.2
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
             },
             {
                 "name": "Pimiento Rojo",
-                "quantity": "100",
+                "quantity": "75",
                 "unit": "g",
-                "calories": 30,
-                "protein": 2,
-                "carbs": 5,
-                "fats": 0.2
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
             },
             {
                 "name": "Pimiento Verde",
-                "quantity": "100",
+                "quantity": "75",
                 "unit": "g",
-                "calories": 30,
-                "protein": 2,
-                "carbs": 5,
-                "fats": 0.2
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
             },
             {
                 "name": "Cebolla",
-                "quantity": "100",
+                "quantity": "75",
                 "unit": "g",
-                "calories": 30,
-                "protein": 2,
-                "carbs": 5,
-                "fats": 0.2
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
             },
             {
                 "name": "Lomo de Salmón",
@@ -467,10 +461,10 @@ const foodDatabase = {
     "p1_extra_Yogurt_Protico_con_mainOnly_idx3": {
         "id": "p1_extra_Yogurt_Protico_con_mainOnly_idx3",
         "name": "Yogurt Protéico con Frutos Rojos y Secos",
-        "calories": 267.5,
-        "protein": 9,
-        "carbs": 23.75,
-        "fats": 15.1,
+        "calories": 167,
+        "protein": 6.6,
+        "carbs": 23,
+        "fats": 5.14,
         "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afea2b91eb35e413d4ab6.png",
         "ingredients": [
             {
@@ -484,21 +478,12 @@ const foodDatabase = {
             },
             {
                 "name": "Frutos Rojos",
-                "quantity": "50",
+                "quantity": "70",
                 "unit": "g",
-                "calories": 30,
-                "protein": 0.25,
-                "carbs": 7.5,
-                "fats": 0.1
-            },
-            {
-                "name": "Frutos Secos",
-                "quantity": "25",
-                "unit": "g",
-                "calories": 112.5,
-                "protein": 2.5,
-                "carbs": 3.75,
-                "fats": 10
+                "calories": 42,
+                "protein": 0.35000000000000003,
+                "carbs": 10.5,
+                "fats": 0.14
             }
         ],
         "preparation": "1. En un bol, verter el yogur proteico. 2. Añadir los frutos rojos frescos o descongelados. 3. Espolvorear con los frutos secos troceados por encima. Servir inmediatamente.",
@@ -506,45 +491,36 @@ const foodDatabase = {
         "isSideDish": false,
         "mealCategory": "extra"
     },
-    "p2_desayuno_Tostada_de_Centeno_mainOnly_idx0": {
-        "id": "p2_desayuno_Tostada_de_Centeno_mainOnly_idx0",
-        "name": "Tostada de Centeno con Queso Cottage y Cherries",
-        "calories": 166,
-        "protein": 12.1,
-        "carbs": 20.3,
-        "fats": 3.8000000000000003,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68792fea2035ba213493e87e.png",
+    "p2_desayuno_Pan_wasa_con_mainOnly_idx0": {
+        "id": "p2_desayuno_Pan_wasa_con_mainOnly_idx0",
+        "name": "Pan wasa con Jamón Ibérico",
+        "calories": 186,
+        "protein": 15,
+        "carbs": 10,
+        "fats": 9,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68cc570eeaa0586bf6a8d560.png",
         "ingredients": [
             {
-                "name": "Tostada de Pan de Centeno",
-                "quantity": "1",
+                "name": "Pan Wasa",
+                "quantity": "2",
                 "unit": "rebanada(s)",
-                "calories": 81,
-                "protein": 2.6999999999999997,
-                "carbs": 15,
-                "fats": 0.8999999999999999
+                "calories": 54,
+                "protein": 1.7999999999999998,
+                "carbs": 10,
+                "fats": 0.6
             },
             {
-                "name": "Tomates Cherry",
-                "quantity": "50",
+                "name": "Jamón Ibérico",
+                "quantity": "60",
                 "unit": "g",
-                "calories": 15,
-                "protein": 1,
-                "carbs": 2.5,
-                "fats": 0.1
-            },
-            {
-                "name": "Queso Cottage",
-                "quantity": "70",
-                "unit": "g",
-                "calories": 70,
-                "protein": 8.4,
-                "carbs": 2.8000000000000003,
-                "fats": 2.8000000000000003
+                "calories": 132,
+                "protein": 13.2,
+                "carbs": 0,
+                "fats": 8.4
             }
         ],
-        "preparation": "1. Tostar el pan de centeno. 2. Untar el queso cottage sobre las tostadas y añadir los cherries por encima con especias.",
-        "originalBaseRecipeId": "des_tostada_de_centeno_con_queso_cottage_y_cherries",
+        "preparation": "1. Colocar las lonchas de jamón ibérico sobre el pan wasa.",
+        "originalBaseRecipeId": "des_pan_wasa_con_jamn_ibrico",
         "isSideDish": false,
         "mealCategory": "desayuno"
     },
@@ -788,20 +764,19 @@ const dailyMenus = [
     },
     "useCustomMacros": true,
     "desayuno": [
-      "p0_desayuno_Batido_Whey_de_mainOnly_idx0",
-      "p0_desayuno_Fruta_Ctrica_Mandarina_mainOnly_idx1"
+      "p0_desayuno_Sandwich_Vegetal_de_mainOnly_idx0"
     ],
     "comida": [
-      "p0_comida_Ensalada_de_Lentejas_mainOnly_idx2",
-      "p0_comida_Pechuga_de_Pavo_side_idx3"
+      "p0_comida_Ensalada_de_Lentejas_mainOnly_idx1",
+      "p0_comida_Pechuga_de_Pavo_side_idx2"
     ],
     "cena": [
-      "p0_cena_Calabacn_con_Cebolla_mainOnly_idx4",
-      "p0_cena_Revuelto_de_Huevos_side_idx5"
+      "p0_cena_Calabacn_con_Cebolla_mainOnly_idx3",
+      "p0_cena_Revuelto_de_Huevos_side_idx4"
     ],
     "extra": [
-      "p0_extra_Fruta_Densa_Pltano_mainOnly_idx6",
-      "p0_extra_Yogur_Protico_Sabores_mainOnly_idx7"
+      "p0_extra_Fruta_Densa_Pltano_mainOnly_idx5",
+      "p0_extra_Yogur_Protico_Sabores_mainOnly_idx6"
     ]
   },
   {
@@ -834,7 +809,7 @@ const dailyMenus = [
     },
     "useCustomMacros": true,
     "desayuno": [
-      "p2_desayuno_Tostada_de_Centeno_mainOnly_idx0"
+      "p2_desayuno_Pan_wasa_con_mainOnly_idx0"
     ],
     "comida": [
       "p2_comida_Ensala_de_Patata_mainOnly_idx1"
