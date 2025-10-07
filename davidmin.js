@@ -736,6 +736,207 @@ const foodDatabase = {
         "originalBaseRecipeId": "ext_fruta_ctrica_mandarina_kiwi_naranja",
         "isSideDish": false,
         "mealCategory": "extra"
+    },
+    "p3_comida_Alcachofa_salteada_con_mainOnly_idx0": {
+        "id": "p3_comida_Alcachofa_salteada_con_mainOnly_idx0",
+        "name": "Alcachofa salteada con jamón, huevo",
+        "calories": 383.4,
+        "protein": 26,
+        "carbs": 6.1,
+        "fats": 28.200000000000003,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684efb33f6c48d7f13a5b29b.png",
+        "ingredients": [
+            {
+                "name": "Alcachofa",
+                "quantity": "100",
+                "unit": "g",
+                "calories": 30,
+                "protein": 2,
+                "carbs": 5,
+                "fats": 0.2
+            },
+            {
+                "name": "Jamón Serrano",
+                "quantity": "50",
+                "unit": "g",
+                "calories": 110.00000000000001,
+                "protein": 11,
+                "carbs": 0,
+                "fats": 7.000000000000001
+            },
+            {
+                "name": "Huevo Cocido",
+                "quantity": "2",
+                "unit": "unidad(es)",
+                "calories": 155,
+                "protein": 13,
+                "carbs": 1.1,
+                "fats": 11
+            },
+            {
+                "name": "Aceite de Oliva Virgen Extra",
+                "quantity": "10",
+                "unit": "g",
+                "calories": 88.4,
+                "protein": 0,
+                "carbs": 0,
+                "fats": 10
+            }
+        ],
+        "preparation": "1. Limpiar las alcachofas frescas, quitando las hojas exteriores más duras, el tallo (pelándolo) y las puntas. Cortarlas en cuartos u octavos y retirar el heno interior si lo tuvieran. Cocerlas en agua con sal y un chorrito de limón hasta que estén tiernas. Alternativamente, usar corazones de alcachofa en conserva, bien escurridos. 2. Cocer un huevo en agua hirviendo durante 10 minutos hasta que esté duro. Dejar enfriar, pelar y picar o cortar en gajos. 3. Cortar el jamón serrano en taquitos o tiras. 4. En una sartén, calentar un poco de aceite de oliva y saltear el jamón hasta que esté ligeramente crujiente. 5. Añadir las alcachofas (cocidas o de conserva) a la sartén y saltear junto con el jamón durante unos minutos para que tomen sabor. 6. Servir las alcachofas con jamón y colocar el huevo cocido picado o en gajos por encima.",
+        "originalBaseRecipeId": "pp_alcachofa_salteada_con_jamn_huevo",
+        "isSideDish": false,
+        "mealCategory": "plato_principal"
+    },
+    "p3_comida_SolomilloFilete_de_Ternera_side_idx1": {
+        "id": "p3_comida_SolomilloFilete_de_Ternera_side_idx1",
+        "name": "Solomillo/Filete de Ternera a la Plancha",
+        "calories": 352.4,
+        "protein": 26.4,
+        "carbs": 0,
+        "fats": 26.8,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe6c0ed5060d3743015a.png",
+        "ingredients": [
+            {
+                "name": "Solomillo de Ternera",
+                "quantity": "120",
+                "unit": "g",
+                "calories": 264,
+                "protein": 26.4,
+                "carbs": 0,
+                "fats": 16.8
+            },
+            {
+                "name": "Aceite de Oliva Virgen Extra",
+                "quantity": "10",
+                "unit": "g",
+                "calories": 88.4,
+                "protein": 0,
+                "carbs": 0,
+                "fats": 10
+            }
+        ],
+        "preparation": "1. Sacar el filete o solomillo de ternera del refrigerador unos 15-20 minutos antes de cocinar para que se temple. 2. Sazonar la carne con sal (preferiblemente en escamas después de cocinarla) y pimienta negra recién molida justo antes de ponerla en la plancha. 3. Calentar una plancha o sartén de fondo grueso a fuego alto hasta que esté bien caliente. Añadir una gota de aceite de oliva y extenderlo. 4. Cocinar el filete al gusto: Para poco hecho, 1-2 minutos por lado. Al punto, 2-3 minutos por lado. Bien hecho, 3-4 minutos o más por lado, dependiendo del grosor. Es importante no mover la carne mientras se sella la primera cara para obtener un buen dorado. 5. Dejar reposar la carne un par de minutos antes de servir para que los jugos se redistribuyan.",
+        "originalBaseRecipeId": "ac_solomillofilete_de_ternera_a_la_plancha",
+        "isSideDish": true,
+        "mealCategory": "acompanamiento"
+    },
+    "p3_cena_Ensalada_con_Pollo_mainOnly_idx2": {
+        "id": "p3_cena_Ensalada_con_Pollo_mainOnly_idx2",
+        "name": "Ensalada con Pollo y Queso de Burgos",
+        "calories": 518.4,
+        "protein": 60.00000000000001,
+        "carbs": 19,
+        "fats": 20.6,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afdceb91eb360843d4a0b.png",
+        "ingredients": [
+            {
+                "name": "Canónigos",
+                "quantity": "100",
+                "unit": "g",
+                "calories": 30,
+                "protein": 2,
+                "carbs": 5,
+                "fats": 0.2
+            },
+            {
+                "name": "Tomate",
+                "quantity": "100",
+                "unit": "g",
+                "calories": 30,
+                "protein": 2,
+                "carbs": 5,
+                "fats": 0.2
+            },
+            {
+                "name": "Cebolla",
+                "quantity": "100",
+                "unit": "g",
+                "calories": 30,
+                "protein": 2,
+                "carbs": 5,
+                "fats": 0.2
+            },
+            {
+                "name": "Queso de Burgos 0%",
+                "quantity": "100",
+                "unit": "g",
+                "calories": 100,
+                "protein": 12,
+                "carbs": 4,
+                "fats": 4
+            },
+            {
+                "name": "Pechuga de Pollo",
+                "quantity": "150",
+                "unit": "g",
+                "calories": 240,
+                "protein": 42.00000000000001,
+                "carbs": 0,
+                "fats": 6
+            },
+            {
+                "name": "Aceite de Oliva Virgen Extra",
+                "quantity": "10",
+                "unit": "g",
+                "calories": 88.4,
+                "protein": 0,
+                "carbs": 0,
+                "fats": 10
+            }
+        ],
+        "preparation": "1. Cocinar la pechuga de pollo (a la plancha, hervida o asada) y cortarla en tiras o dados. 2. Lavar los canónigos y escurrirlos bien. Cortar los tomates (cherry por la mitad, o normales en gajos) y la cebolla en rodajas finas o juliana. Cortar el queso de Burgos 0% en dados o láminas. 3. En un bol o plato grande, disponer una base de canónigos. Añadir encima el tomate, la cebolla, el pollo y el queso de Burgos. 4. Aliñar con aceite de oliva virgen extra, vinagre (de manzana o Módena) y sal al gusto.",
+        "originalBaseRecipeId": "cc_ensalada_con_pollo_y_queso_de_burgos",
+        "isSideDish": false,
+        "mealCategory": "comida_cena_completa"
+    },
+    "p3_extra_Yogur_Protico_Sabores_mainOnly_idx3": {
+        "id": "p3_extra_Yogur_Protico_Sabores_mainOnly_idx3",
+        "name": "Yogur Protéico (Sabores, Natural...)",
+        "calories": 125,
+        "protein": 6.25,
+        "carbs": 12.5,
+        "fats": 5,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd789b8ed38b127cbc09.png",
+        "ingredients": [
+            {
+                "name": "Yogur Protéico",
+                "quantity": "1",
+                "unit": "unidad(es)",
+                "calories": 125,
+                "protein": 6.25,
+                "carbs": 12.5,
+                "fats": 5
+            }
+        ],
+        "preparation": "1. Seleccionar el yogur proteico de preferencia (natural o con sabores). 2. Abrir el envase. 3. Consumir directamente con una cuchara. Opcional: se puede acompañar de frutas frescas troceadas, frutos secos, semillas o un poco de miel o edulcorante si es natural y se desea endulzar.",
+        "originalBaseRecipeId": "ext_yogur_protico_sabores_natural",
+        "isSideDish": false,
+        "mealCategory": "extra"
+    },
+    "p3_extra_Fruta_Ctrica_Mandarina_mainOnly_idx4": {
+        "id": "p3_extra_Fruta_Ctrica_Mandarina_mainOnly_idx4",
+        "name": "Fruta Cítrica (Mandarina, Kiwi, Naranja...)",
+        "calories": 90,
+        "protein": 0.75,
+        "carbs": 22.5,
+        "fats": 0.3,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd3d0ed506305442ffe4.png",
+        "ingredients": [
+            {
+                "name": "Kiwi",
+                "quantity": "2",
+                "unit": "unidad(es)",
+                "calories": 90,
+                "protein": 0.75,
+                "carbs": 22.5,
+                "fats": 0.3
+            }
+        ],
+        "preparation": "1. Seleccionar la fruta cítrica de preferencia (mandarina, kiwi, naranja, pomelo, etc.). 2. Lavar bien la fruta bajo el grifo. 3. Para mandarinas y naranjas: pelar la piel con las manos o con ayuda de un cuchillo. Separar los gajos si se desea. 4. Para kiwis: cortar por la mitad y comer la pulpa con una cucharita, o pelar con un cuchillo y cortar en rodajas. 5. Para pomelos: cortar por la mitad y extraer los gajos, o comer con cuchara. Consumir directamente.",
+        "originalBaseRecipeId": "ext_fruta_ctrica_mandarina_kiwi_naranja",
+        "isSideDish": false,
+        "mealCategory": "extra"
     }
 };
 
@@ -806,6 +1007,27 @@ const dailyMenus = [
       "p2_extra_Yogur_Protico_Sabores_mainOnly_idx3",
       "p2_extra_Fruta_Ctrica_Mandarina_mainOnly_idx4"
     ]
+  },
+  {
+    "name": "AYUNO",
+    "targetMacros": {
+      "calories": 2000,
+      "protein": 150,
+      "carbs": 200
+    },
+    "useCustomMacros": true,
+    "desayuno": [],
+    "comida": [
+      "p3_comida_Alcachofa_salteada_con_mainOnly_idx0",
+      "p3_comida_SolomilloFilete_de_Ternera_side_idx1"
+    ],
+    "cena": [
+      "p3_cena_Ensalada_con_Pollo_mainOnly_idx2"
+    ],
+    "extra": [
+      "p3_extra_Yogur_Protico_Sabores_mainOnly_idx3",
+      "p3_extra_Fruta_Ctrica_Mandarina_mainOnly_idx4"
+    ]
   }
 ];
 
@@ -813,3 +1035,4 @@ const dailyMenus = [
 // Plan: LIBRE, Calorías Objetivo: 2000, Proteínas Objetivo: 150, Carbohidratos Objetivo: 200
 // Plan: ENTRENO 1, Calorías Objetivo: 2000, Proteínas Objetivo: 160, Carbohidratos Objetivo: 200
 // Plan: ENTRENO 2, Calorías Objetivo: 2000, Proteínas Objetivo: 160, Carbohidratos Objetivo: 200
+// Plan: AYUNO, Calorías Objetivo: 2000, Proteínas Objetivo: 150, Carbohidratos Objetivo: 200
