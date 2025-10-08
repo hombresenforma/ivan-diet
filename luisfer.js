@@ -320,26 +320,26 @@ const foodDatabase = {
         "isSideDish": false,
         "mealCategory": "desayuno"
     },
-    "p1_comida_Ensalada_de_Pasta_mainOnly_idx1": {
-        "id": "p1_comida_Ensalada_de_Pasta_mainOnly_idx1",
-        "name": "Ensalada de Pasta con Pollo",
-        "calories": 726.4,
-        "protein": 59.900000000000006,
-        "carbs": 76.25,
-        "fats": 18.35,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afc47b91eb349463d47dd.png",
+    "p1_comida_Patatas_Cocidas_con_mainOnly_idx1": {
+        "id": "p1_comida_Patatas_Cocidas_con_mainOnly_idx1",
+        "name": "Patatas Cocidas con Salteado de Verduras y Hamburguesa a la plancha",
+        "calories": 566.9,
+        "protein": 26.7,
+        "carbs": 43.65,
+        "fats": 32.2,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cf8559b0c6709fc9afa98.png",
         "ingredients": [
             {
-                "name": "Pasta Integral",
-                "quantity": "70",
+                "name": "Patata",
+                "quantity": "150",
                 "unit": "g",
-                "calories": 255.5,
-                "protein": 8.4,
-                "carbs": 52.5,
-                "fats": 1.4000000000000001
+                "calories": 135,
+                "protein": 3,
+                "carbs": 30,
+                "fats": 0.15
             },
             {
-                "name": "Canónigos",
+                "name": "Pimiento Verde",
                 "quantity": "75",
                 "unit": "g",
                 "calories": 22.5,
@@ -348,49 +348,31 @@ const foodDatabase = {
                 "fats": 0.15
             },
             {
-                "name": "Tomate",
-                "quantity": "100",
-                "unit": "g",
-                "calories": 30,
-                "protein": 2,
-                "carbs": 5,
-                "fats": 0.2
-            },
-            {
                 "name": "Pimiento Rojo",
-                "quantity": "100",
+                "quantity": "75",
                 "unit": "g",
-                "calories": 30,
-                "protein": 2,
-                "carbs": 5,
-                "fats": 0.2
-            },
-            {
-                "name": "Pimiento Verde",
-                "quantity": "100",
-                "unit": "g",
-                "calories": 30,
-                "protein": 2,
-                "carbs": 5,
-                "fats": 0.2
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
             },
             {
                 "name": "Cebolla",
-                "quantity": "100",
+                "quantity": "75",
                 "unit": "g",
-                "calories": 30,
-                "protein": 2,
-                "carbs": 5,
-                "fats": 0.2
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
             },
             {
-                "name": "Pechuga de Pollo",
-                "quantity": "150",
+                "name": "Hamburguesa de Pavo-Pollo",
+                "quantity": "120",
                 "unit": "g",
-                "calories": 240,
-                "protein": 42.00000000000001,
-                "carbs": 0,
-                "fats": 6
+                "calories": 276,
+                "protein": 19.2,
+                "carbs": 2.4,
+                "fats": 21.599999999999998
             },
             {
                 "name": "Aceite de Oliva Virgen Extra",
@@ -402,8 +384,8 @@ const foodDatabase = {
                 "fats": 10
             }
         ],
-        "preparation": "1. Cocer la pasta según las instrucciones del paquete. Escurrir, pasar por agua fría para detener la cocción y dejar enfriar. 2. Cocinar la pechuga de pollo (a la plancha, hervida o asada) y desmenuzarla o cortarla en dados. 3. Lavar los canónigos. Picar el tomate, pimiento rojo, pimiento verde y cebolla en trozos pequeños. 4. En un bol grande, combinar la pasta fría, el pollo, los canónigos y las verduras picadas. 5. Aliñar con aceite de oliva virgen extra, vinagre o tu salsa para ensaladas favorita (ej. yogur, mostaza y miel). Salpimentar al gusto.",
-        "originalBaseRecipeId": "cc_ensalada_de_pasta_con_pollo",
+        "preparation": "1. Cocer las patatas en agua con sal. 2. Mientras, saltear las verduras (pimiento, cebolla) en una sartén. 3. Cocinar la hamburguesa a la plancha. 4. Servir las patatas cocidas con el salteado de verduras y la hamburguesa.",
+        "originalBaseRecipeId": "cc_patatas_cocidas_con_salteado_de_verduras_y_hamburguesa_a_la_plancha",
         "isSideDish": false,
         "mealCategory": "comida_cena_completa"
     },
@@ -479,10 +461,10 @@ const foodDatabase = {
     "p1_extra_Yogurt_Protico_con_mainOnly_idx3": {
         "id": "p1_extra_Yogurt_Protico_con_mainOnly_idx3",
         "name": "Yogurt Protéico con Frutos Rojos y Secos",
-        "calories": 296,
-        "protein": 9.55,
-        "carbs": 26,
-        "fats": 17.12,
+        "calories": 273.5,
+        "protein": 9.05,
+        "carbs": 25.25,
+        "fats": 15.120000000000001,
         "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afea2b91eb35e413d4ab6.png",
         "ingredients": [
             {
@@ -505,12 +487,12 @@ const foodDatabase = {
             },
             {
                 "name": "Frutos Secos",
-                "quantity": "30",
+                "quantity": "25",
                 "unit": "g",
-                "calories": 135,
-                "protein": 3,
-                "carbs": 4.5,
-                "fats": 12
+                "calories": 112.5,
+                "protein": 2.5,
+                "carbs": 3.75,
+                "fats": 10
             }
         ],
         "preparation": "1. En un bol, verter el yogur proteico. 2. Añadir los frutos rojos frescos o descongelados. 3. Espolvorear con los frutos secos troceados por encima. Servir inmediatamente.",
@@ -521,10 +503,10 @@ const foodDatabase = {
     "p2_desayuno_Tostada_de_centeno_mainOnly_idx0": {
         "id": "p2_desayuno_Tostada_de_centeno_mainOnly_idx0",
         "name": "Tostada de centeno con jamón ibérico",
-        "calories": 246,
-        "protein": 19.2,
+        "calories": 191,
+        "protein": 13.7,
         "carbs": 15,
-        "fats": 11.400000000000002,
+        "fats": 7.9,
         "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6887226c7537da60484d071f.png",
         "ingredients": [
             {
@@ -538,12 +520,12 @@ const foodDatabase = {
             },
             {
                 "name": "Jamón Ibérico",
-                "quantity": "75",
+                "quantity": "50",
                 "unit": "g",
-                "calories": 165,
-                "protein": 16.5,
+                "calories": 110.00000000000001,
+                "protein": 11,
                 "carbs": 0,
-                "fats": 10.500000000000002
+                "fats": 7.000000000000001
             }
         ],
         "preparation": "1. Tostar el pan de centeno. 2. Colocar las lonchas de jamón ibérico por encima. Opcional: añadir un chorrito de aceite de oliva.",
@@ -551,32 +533,8 @@ const foodDatabase = {
         "isSideDish": false,
         "mealCategory": "desayuno"
     },
-    "p2_desayuno_Fruta_Ctrica_Mandarina_mainOnly_idx1": {
-        "id": "p2_desayuno_Fruta_Ctrica_Mandarina_mainOnly_idx1",
-        "name": "Fruta Cítrica (Mandarina, Kiwi, Naranja...)",
-        "calories": 45,
-        "protein": 0.375,
-        "carbs": 11.25,
-        "fats": 0.15,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd3d0ed506305442ffe4.png",
-        "ingredients": [
-            {
-                "name": "Kiwi",
-                "quantity": "1",
-                "unit": "unidad(es)",
-                "calories": 45,
-                "protein": 0.375,
-                "carbs": 11.25,
-                "fats": 0.15
-            }
-        ],
-        "preparation": "1. Seleccionar la fruta cítrica de preferencia (mandarina, kiwi, naranja, pomelo, etc.). 2. Lavar bien la fruta bajo el grifo. 3. Para mandarinas y naranjas: pelar la piel con las manos o con ayuda de un cuchillo. Separar los gajos si se desea. 4. Para kiwis: cortar por la mitad y comer la pulpa con una cucharita, o pelar con un cuchillo y cortar en rodajas. 5. Para pomelos: cortar por la mitad y extraer los gajos, o comer con cuchara. Consumir directamente.",
-        "originalBaseRecipeId": "ext_fruta_ctrica_mandarina_kiwi_naranja",
-        "isSideDish": false,
-        "mealCategory": "extra"
-    },
-    "p2_comida_Ensala_de_Patata_mainOnly_idx2": {
-        "id": "p2_comida_Ensala_de_Patata_mainOnly_idx2",
+    "p2_comida_Ensala_de_Patata_mainOnly_idx1": {
+        "id": "p2_comida_Ensala_de_Patata_mainOnly_idx1",
         "name": "Ensala de Patata, Atún y Huevo",
         "calories": 667.5,
         "protein": 63.00000000000001,
@@ -662,8 +620,8 @@ const foodDatabase = {
         "isSideDish": false,
         "mealCategory": "comida_cena_completa"
     },
-    "p2_cena_Fajitas_de_Pollo_mainOnly_idx3": {
-        "id": "p2_cena_Fajitas_de_Pollo_mainOnly_idx3",
+    "p2_cena_Fajitas_de_Pollo_mainOnly_idx2": {
+        "id": "p2_cena_Fajitas_de_Pollo_mainOnly_idx2",
         "name": "Fajitas de Pollo y Verduras",
         "calories": 664.4,
         "protein": 57.2,
@@ -740,8 +698,8 @@ const foodDatabase = {
         "isSideDish": false,
         "mealCategory": "comida_cena_completa"
     },
-    "p2_extra_Yogur_Protico_Sabores_mainOnly_idx4": {
-        "id": "p2_extra_Yogur_Protico_Sabores_mainOnly_idx4",
+    "p2_extra_Yogur_Protico_Sabores_mainOnly_idx3": {
+        "id": "p2_extra_Yogur_Protico_Sabores_mainOnly_idx3",
         "name": "Yogur Protéico (Sabores, Natural...)",
         "calories": 125,
         "protein": 6.25,
@@ -764,8 +722,8 @@ const foodDatabase = {
         "isSideDish": false,
         "mealCategory": "extra"
     },
-    "p2_extra_Tortitas_de_Legumbres_mainOnly_idx5": {
-        "id": "p2_extra_Tortitas_de_Legumbres_mainOnly_idx5",
+    "p2_extra_Tortitas_de_Legumbres_mainOnly_idx4": {
+        "id": "p2_extra_Tortitas_de_Legumbres_mainOnly_idx4",
         "name": "Tortitas de Legumbres (Mercadona)",
         "calories": 32,
         "protein": 1.6,
@@ -792,7 +750,7 @@ const foodDatabase = {
 
 const dailyMenus = [
   {
-    "name": "Opciones 1",
+    "name": "ENTRENO",
     "targetMacros": {
       "calories": 2000,
       "protein": 150,
@@ -816,7 +774,7 @@ const dailyMenus = [
     ]
   },
   {
-    "name": "Opciones 2",
+    "name": "Libre 1",
     "targetMacros": {
       "calories": 2000,
       "protein": 160,
@@ -827,7 +785,7 @@ const dailyMenus = [
       "p1_desayuno_Tostada_de_Pan_mainOnly_idx0"
     ],
     "comida": [
-      "p1_comida_Ensalada_de_Pasta_mainOnly_idx1"
+      "p1_comida_Patatas_Cocidas_con_mainOnly_idx1"
     ],
     "cena": [
       "p1_cena_Wok_de_Verduras_mainOnly_idx2"
@@ -837,7 +795,7 @@ const dailyMenus = [
     ]
   },
   {
-    "name": "Opciones 3",
+    "name": "Libre 2",
     "targetMacros": {
       "calories": 2000,
       "protein": 160,
@@ -845,23 +803,22 @@ const dailyMenus = [
     },
     "useCustomMacros": true,
     "desayuno": [
-      "p2_desayuno_Tostada_de_centeno_mainOnly_idx0",
-      "p2_desayuno_Fruta_Ctrica_Mandarina_mainOnly_idx1"
+      "p2_desayuno_Tostada_de_centeno_mainOnly_idx0"
     ],
     "comida": [
-      "p2_comida_Ensala_de_Patata_mainOnly_idx2"
+      "p2_comida_Ensala_de_Patata_mainOnly_idx1"
     ],
     "cena": [
-      "p2_cena_Fajitas_de_Pollo_mainOnly_idx3"
+      "p2_cena_Fajitas_de_Pollo_mainOnly_idx2"
     ],
     "extra": [
-      "p2_extra_Yogur_Protico_Sabores_mainOnly_idx4",
-      "p2_extra_Tortitas_de_Legumbres_mainOnly_idx5"
+      "p2_extra_Yogur_Protico_Sabores_mainOnly_idx3",
+      "p2_extra_Tortitas_de_Legumbres_mainOnly_idx4"
     ]
   }
 ];
 
 // Detalles de los planes exportados:
-// Plan: Opciones 1, Calorías Objetivo: 2000, Proteínas Objetivo: 150, Carbohidratos Objetivo: 200
-// Plan: Opciones 2, Calorías Objetivo: 2000, Proteínas Objetivo: 160, Carbohidratos Objetivo: 200
-// Plan: Opciones 3, Calorías Objetivo: 2000, Proteínas Objetivo: 160, Carbohidratos Objetivo: 200
+// Plan: ENTRENO, Calorías Objetivo: 2000, Proteínas Objetivo: 150, Carbohidratos Objetivo: 200
+// Plan: Libre 1, Calorías Objetivo: 2000, Proteínas Objetivo: 160, Carbohidratos Objetivo: 200
+// Plan: Libre 2, Calorías Objetivo: 2000, Proteínas Objetivo: 160, Carbohidratos Objetivo: 200
