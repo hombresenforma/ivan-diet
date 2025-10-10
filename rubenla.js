@@ -47,20 +47,20 @@ const foodDatabase = {
     "p0_comida_Ensalada_de_Lentejas_mainOnly_idx1": {
         "id": "p0_comida_Ensalada_de_Lentejas_mainOnly_idx1",
         "name": "Ensalada de Lentejas",
-        "calories": 349,
-        "protein": 26.6,
-        "carbs": 40.8,
-        "fats": 10,
+        "calories": 424.5,
+        "protein": 34.1,
+        "carbs": 51.8,
+        "fats": 10.325,
         "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682aff5a365e949c0a73d706.png",
         "ingredients": [
             {
                 "name": "Lentejas cocidas",
-                "quantity": "150",
+                "quantity": "200",
                 "unit": "g",
-                "calories": 174,
-                "protein": 13.5,
-                "carbs": 30,
-                "fats": 0.6
+                "calories": 231.99999999999997,
+                "protein": 18,
+                "carbs": 40,
+                "fats": 0.8
             },
             {
                 "name": "Cebolla",
@@ -73,12 +73,12 @@ const foodDatabase = {
             },
             {
                 "name": "Queso de Burgos 0%",
-                "quantity": "100",
+                "quantity": "125",
                 "unit": "g",
-                "calories": 70,
-                "protein": 12,
-                "carbs": 4,
-                "fats": 0.5
+                "calories": 87.5,
+                "protein": 15,
+                "carbs": 5,
+                "fats": 0.625
             },
             {
                 "name": "Aguacate",
@@ -107,20 +107,20 @@ const foodDatabase = {
     "p0_comida_Pechuga_de_Pavo_side_idx2": {
         "id": "p0_comida_Pechuga_de_Pavo_side_idx2",
         "name": "Pechuga de Pavo a la Plancha",
-        "calories": 203,
-        "protein": 34.5,
+        "calories": 234.6,
+        "protein": 41.4,
         "carbs": 0,
-        "fats": 7.3,
+        "fats": 7.76,
         "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684f003ef6c48dfc43a5bdb3.png",
         "ingredients": [
             {
                 "name": "Pechuga de Pavo",
-                "quantity": "150",
+                "quantity": "180",
                 "unit": "g",
-                "calories": 158,
-                "protein": 34.5,
+                "calories": 189.6,
+                "protein": 41.4,
                 "carbs": 0,
-                "fats": 2.3
+                "fats": 2.76
             },
             {
                 "name": "Aceite de Oliva Virgen Extra",
@@ -137,111 +137,78 @@ const foodDatabase = {
         "isSideDish": true,
         "mealCategory": "acompanamiento"
     },
-    "p0_cena_Calabacn_con_Cebolla_mainOnly_idx3": {
-        "id": "p0_cena_Calabacn_con_Cebolla_mainOnly_idx3",
-        "name": "Calabacín con Cebolla a la Plancha",
-        "calories": 101,
-        "protein": 2.6,
-        "carbs": 11.5,
-        "fats": 5.6,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afc8e9b8ed35d8e7cbb0e.png",
-        "ingredients": [
-            {
-                "name": "Calabacín",
-                "quantity": "150",
-                "unit": "g",
-                "calories": 26,
-                "protein": 1.8,
-                "carbs": 4.7,
-                "fats": 0.5
-            },
-            {
-                "name": "Cebolla",
-                "quantity": "75",
-                "unit": "g",
-                "calories": 30,
-                "protein": 0.8,
-                "carbs": 6.8,
-                "fats": 0.1
-            },
-            {
-                "name": "Aceite de Oliva Virgen Extra",
-                "quantity": "5",
-                "unit": "g",
-                "calories": 45,
-                "protein": 0,
-                "carbs": 0,
-                "fats": 5
-            }
-        ],
-        "preparation": "1. Lavar el calabacín y cortarlo en rodajas de aproximadamente 0.5 a 1 cm de grosor. Pelar y cortar la cebolla en juliana o rodajas. 2. Calentar una plancha o sartén grande con un chorrito de aceite de oliva a fuego medio-alto. 3. Colocar las rodajas de calabacín y la cebolla sobre la plancha caliente. Cocinar durante 3-5 minutos por cada lado, o hasta que estén tiernos y presenten marcas doradas de la plancha. 4. Sazonar con sal, pimienta y opcionalmente un poco de ajo en polvo u orégano durante la cocción o al final.",
-        "originalBaseRecipeId": "pp_calabacn_con_cebolla_a_la_plancha",
-        "isSideDish": false,
-        "mealCategory": "plato_principal"
-    },
-    "p0_cena_Revuelto_de_Huevos_side_idx4": {
-        "id": "p0_cena_Revuelto_de_Huevos_side_idx4",
-        "name": "Revuelto de Huevos con Espárragos Trigueros",
+    "p0_extra_Yogur_Protico_con_mainOnly_idx3": {
+        "id": "p0_extra_Yogur_Protico_con_mainOnly_idx3",
+        "name": "Yogur Protéico con Frutos Rojos y Secos",
         "calories": 290,
-        "protein": 20.2,
-        "carbs": 5.7,
-        "fats": 20.2,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684f019a532eaa9f6977a78c.png",
-        "ingredients": [
-            {
-                "name": "Espárragos Verdes",
-                "quantity": "100",
-                "unit": "g",
-                "calories": 20,
-                "protein": 2.2,
-                "carbs": 3.9,
-                "fats": 0.2
-            },
-            {
-                "name": "Huevos",
-                "quantity": "3",
-                "unit": "unidad",
-                "calories": 225,
-                "protein": 18,
-                "carbs": 1.8,
-                "fats": 15
-            },
-            {
-                "name": "Aceite de Oliva Virgen Extra",
-                "quantity": "5",
-                "unit": "g",
-                "calories": 45,
-                "protein": 0,
-                "carbs": 0,
-                "fats": 5
-            }
-        ],
-        "preparation": "1. Lavar los espárragos trigueros y cortar la parte inferior más dura del tallo. Trocear los espárragos en trozos de unos 2-3 cm. 2. Batir los huevos en un bol con una pizca de sal y pimienta. 3. Calentar un poco de aceite de oliva en una sartén a fuego medio. Añadir los espárragos troceados y saltear durante 3-5 minutos, o hasta que estén tiernos pero aún crujientes. 4. Verter los huevos batidos sobre los espárragos en la sartén. 5. Remover suavemente con una espátula, mezclando los huevos con los espárragos, hasta que los huevos estén cuajados al gusto. Servir caliente.",
-        "originalBaseRecipeId": "ac_revuelto_de_huevos_con_esprragos_trigueros",
-        "isSideDish": true,
-        "mealCategory": "acompanamiento"
-    },
-    "p0_extra_Yogur_Protico_Sabores_mainOnly_idx5": {
-        "id": "p0_extra_Yogur_Protico_Sabores_mainOnly_idx5",
-        "name": "Yogur Protéico (Sabores, Natural...)",
-        "calories": 100,
-        "protein": 15,
-        "carbs": 6.3,
-        "fats": 0.6,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd789b8ed38b127cbc09.png",
+        "protein": 9.5,
+        "carbs": 24.5,
+        "fats": 17.1,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afea2b91eb35e413d4ab6.png",
         "ingredients": [
             {
                 "name": "Yogur Protéico",
-                "quantity": "125",
+                "quantity": "1",
+                "unit": "unidad(es)",
+                "calories": 125,
+                "protein": 6.25,
+                "carbs": 12.5,
+                "fats": 5
+            },
+            {
+                "name": "Frutos Rojos",
+                "quantity": "50",
                 "unit": "g",
-                "calories": 100,
-                "protein": 15,
-                "carbs": 6.3,
-                "fats": 0.6
+                "calories": 30,
+                "protein": 0.25,
+                "carbs": 7.5,
+                "fats": 0.1
+            },
+            {
+                "name": "Frutos Secos",
+                "quantity": "30",
+                "unit": "g",
+                "calories": 135,
+                "protein": 3,
+                "carbs": 4.5,
+                "fats": 12
             }
         ],
-        "preparation": "1. Abrir el envase de yogur proteico. 2. Consumir directamente o añadir tus toppings favoritos si lo deseas (no incluidos en los cálculos nutricionales a menos que se especifiquen).",
-        "originalBaseRecipeId": "ext_yogur_protico_sabores_natural",
+        "preparation": "1. En un bol, verter el yogur proteico. 2. Añadir los frutos rojos frescos o descongelados. 3. Espolvorear con los frutos secos troceados por encima. Servir inmediatamente.",
+        "originalBaseRecipeId": "ext_yogur_protico_con_frutos_rojos_y_secos",
+        "isSideDish": false,
+        "mealCategory": "extra"
+    },
+    "p0_extra_Batido_Whey_de_mainOnly_idx4": {
+        "id": "p0_extra_Batido_Whey_de_mainOnly_idx4",
+        "name": "Batido Whey de Proteínas",
+        "calories": 114,
+        "protein": 24,
+        "carbs": 1.5,
+        "fats": 1.2,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684f021af6c48d41b5a5c003.png",
+        "ingredients": [
+            {
+                "name": "Proteína Whey en Polvo",
+                "quantity": "30",
+                "unit": "g",
+                "calories": 114,
+                "protein": 24,
+                "carbs": 1.5,
+                "fats": 1.2
+            },
+            {
+                "name": "Agua",
+                "quantity": "0",
+                "unit": "g",
+                "calories": 0,
+                "protein": 0,
+                "carbs": 0,
+                "fats": 0
+            }
+        ],
+        "preparation": "1. En un shaker (vaso mezclador con rejilla o bola), añadir la cantidad recomendada de proteína en polvo (whey) según las indicaciones del producto (normalmente 1 scoop o cazo dosificador). 2. Añadir la cantidad de líquido deseada (agua, leche o bebida vegetal; unos 200-300 ml suelen ser suficientes). 3. Cerrar bien el shaker. 4. Agitar enérgicamente durante unos 20-30 segundos hasta que el polvo esté completamente disuelto y no haya grumos. 5. Consumir inmediatamente, preferiblemente después del entrenamiento o según las necesidades proteicas individuales.",
+        "originalBaseRecipeId": "ext_batido_whey_de_protenas",
         "isSideDish": false,
         "mealCategory": "extra"
     },
@@ -347,72 +314,54 @@ const foodDatabase = {
         "isSideDish": false,
         "mealCategory": "comida_cena_completa"
     },
-    "p1_cena_Gazpacho_mainOnly_idx2": {
-        "id": "p1_cena_Gazpacho_mainOnly_idx2",
-        "name": "Gazpacho",
-        "calories": 163,
-        "protein": 3.3,
-        "carbs": 16.9,
-        "fats": 10,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cfbad25d68cc1a4ec3688.png",
+    "p1_cena_Crema_de_Verduras_mainOnly_idx2": {
+        "id": "p1_cena_Crema_de_Verduras_mainOnly_idx2",
+        "name": "Crema de Verduras Variadas",
+        "calories": 140,
+        "protein": 8.5,
+        "carbs": 20,
+        "fats": 2.6,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cd68425d68cc771ebd10a.png",
         "ingredients": [
             {
-                "name": "Tomate",
-                "quantity": "200",
+                "name": "Calabaza",
+                "quantity": "100",
                 "unit": "g",
-                "calories": 40,
+                "calories": 30,
                 "protein": 2,
-                "carbs": 8,
-                "fats": 0
+                "carbs": 5,
+                "fats": 0.2
             },
             {
-                "name": "Pepino",
-                "quantity": "50",
+                "name": "Tomate",
+                "quantity": "100",
                 "unit": "g",
-                "calories": 7.5,
-                "protein": 0.5,
-                "carbs": 1.5,
-                "fats": 0
-            },
-            {
-                "name": "Pimiento",
-                "quantity": "25",
-                "unit": "g",
-                "calories": 7.5,
-                "protein": 0.25,
-                "carbs": 1.5,
-                "fats": 0
+                "calories": 30,
+                "protein": 2,
+                "carbs": 5,
+                "fats": 0.2
             },
             {
                 "name": "Cebolla",
-                "quantity": "25",
+                "quantity": "100",
                 "unit": "g",
-                "calories": 10,
-                "protein": 0.25,
-                "carbs": 2.25,
-                "fats": 0
+                "calories": 30,
+                "protein": 2,
+                "carbs": 5,
+                "fats": 0.2
             },
             {
-                "name": "Ajo",
-                "quantity": "5",
+                "name": "Agua",
+                "quantity": "50",
                 "unit": "g",
-                "calories": 7.5,
-                "protein": 0.3,
-                "carbs": 1.65,
-                "fats": 0.03
-            },
-            {
-                "name": "Aceite de Oliva",
-                "quantity": "10",
-                "unit": "g",
-                "calories": 90,
-                "protein": 0,
-                "carbs": 0,
-                "fats": 10
+                "calories": 50,
+                "protein": 2.5,
+                "carbs": 5,
+                "fats": 2
             }
         ],
-        "preparation": "1. Trocear todas las verduras. 2. Poner todos los ingredientes en una batidora junto con aceite, vinagre y sal. 3. Triturar hasta obtener una sopa fina. 4. Enfriar en la nevera antes de servir. Puedes comprarlo preparado si lo prefieres.",
-        "originalBaseRecipeId": "pp_gazpacho",
+        "preparation": "1. Puedes comprar una crema preparada o bien cocinar unas cuantas verduras en una olla.",
+        "originalBaseRecipeId": "pp_crema_de_verduras_variadas",
         "isSideDish": false,
         "mealCategory": "plato_principal"
     },
@@ -456,7 +405,7 @@ const foodDatabase = {
         "protein": 13.25,
         "carbs": 16.5,
         "fats": 0.98,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afea2b91eb35e413d4ab6.png",
+        "image": "",
         "ingredients": [
             {
                 "name": "Yogur Protéico",
@@ -485,20 +434,20 @@ const foodDatabase = {
     "p2_desayuno_Revuelto_de_Huevos_mainOnly_idx0": {
         "id": "p2_desayuno_Revuelto_de_Huevos_mainOnly_idx0",
         "name": "Revuelto de Huevos con Jamón",
-        "calories": 330,
-        "protein": 28,
-        "carbs": 1.5,
-        "fats": 23.5,
+        "calories": 260,
+        "protein": 22,
+        "carbs": 1,
+        "fats": 18.5,
         "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682ad5e1e819fcb589a8a30e.png",
         "ingredients": [
             {
                 "name": "Huevos",
-                "quantity": "3",
+                "quantity": "2",
                 "unit": "unidad",
-                "calories": 210,
-                "protein": 18,
-                "carbs": 1.5,
-                "fats": 15
+                "calories": 140,
+                "protein": 12,
+                "carbs": 1,
+                "fats": 10
             },
             {
                 "name": "Jamón",
@@ -946,12 +895,207 @@ const foodDatabase = {
         "originalBaseRecipeId": "ext_fruta_densa_pltano_manzana",
         "isSideDish": false,
         "mealCategory": "extra"
+    },
+    "p4_desayuno_Pan_wasa_con_mainOnly_idx0": {
+        "id": "p4_desayuno_Pan_wasa_con_mainOnly_idx0",
+        "name": "Pan wasa con Huevo, Aguacate y Cherries",
+        "calories": 359,
+        "protein": 18.8,
+        "carbs": 18.1,
+        "fats": 23.700000000000003,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68cc56abf782ba4c11b42a44.png",
+        "ingredients": [
+            {
+                "name": "Pan Wasa",
+                "quantity": "2",
+                "unit": "rebanada(s)",
+                "calories": 54,
+                "protein": 1.7999999999999998,
+                "carbs": 10,
+                "fats": 0.6
+            },
+            {
+                "name": "Huevo",
+                "quantity": "2",
+                "unit": "unidad(es)",
+                "calories": 155,
+                "protein": 13,
+                "carbs": 1.1,
+                "fats": 11
+            },
+            {
+                "name": "Aguacate",
+                "quantity": "30",
+                "unit": "g",
+                "calories": 135,
+                "protein": 3,
+                "carbs": 4.5,
+                "fats": 12
+            },
+            {
+                "name": "Tomates Cherry",
+                "quantity": "50",
+                "unit": "g",
+                "calories": 15,
+                "protein": 1,
+                "carbs": 2.5,
+                "fats": 0.1
+            }
+        ],
+        "preparation": "1. Tostar el pan wasa. 2. Cocinar el huevo al gusto. 3. Untar el aguacate sobre el pan, añadir el huevo y los tomates cherry.",
+        "originalBaseRecipeId": "des_pan_wasa_con_huevo_aguacate_y_cherries",
+        "isSideDish": false,
+        "mealCategory": "desayuno"
+    },
+    "p4_comida_Wrap_de_pollo_mainOnly_idx1": {
+        "id": "p4_comida_Wrap_de_pollo_mainOnly_idx1",
+        "name": "Wrap de pollo hervido con verduras y arroz",
+        "calories": 714,
+        "protein": 66.00000000000001,
+        "carbs": 82.5,
+        "fats": 10.5,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684ef7e26202d54cb0de24e8.png",
+        "ingredients": [
+            {
+                "name": "Pechuga de Pollo",
+                "quantity": "180",
+                "unit": "g",
+                "calories": 288,
+                "protein": 50.400000000000006,
+                "carbs": 0,
+                "fats": 7.2
+            },
+            {
+                "name": "Arroz",
+                "quantity": "60",
+                "unit": "g",
+                "calories": 219,
+                "protein": 7.199999999999999,
+                "carbs": 45,
+                "fats": 1.2
+            },
+            {
+                "name": "Brócoli",
+                "quantity": "50",
+                "unit": "g",
+                "calories": 15,
+                "protein": 1,
+                "carbs": 2.5,
+                "fats": 0.1
+            },
+            {
+                "name": "Zanahoria",
+                "quantity": "50",
+                "unit": "g",
+                "calories": 15,
+                "protein": 1,
+                "carbs": 2.5,
+                "fats": 0.1
+            },
+            {
+                "name": "Cebolla",
+                "quantity": "50",
+                "unit": "g",
+                "calories": 15,
+                "protein": 1,
+                "carbs": 2.5,
+                "fats": 0.1
+            },
+            {
+                "name": "Tortilla de Wrap",
+                "quantity": "1",
+                "unit": "unidad(es)",
+                "calories": 162,
+                "protein": 5.3999999999999995,
+                "carbs": 30,
+                "fats": 1.7999999999999998
+            }
+        ],
+        "preparation": "1. Hervir la pechuga de pollo en agua con sal hasta que esté cocida (unos 15-20 minutos). Dejar enfriar un poco y desmenuzar o cortar en trozos pequeños. 2. Cocer el arroz según las instrucciones del paquete. 3. Cocer al vapor o hervir el brócoli (en floretes pequeños) y la zanahoria (cortada en juliana o dados pequeños) hasta que estén tiernos pero crujientes. Picar la cebolla finamente (puede usarse cruda o salteada ligeramente). 4. Calentar ligeramente la tortilla de wrap para que sea más flexible. 5. Extender una capa fina de arroz cocido sobre la tortilla, dejando un borde libre. Distribuir encima el pollo desmenuzado, el brócoli, la zanahoria y la cebolla. 6. Opcional: añadir una salsa ligera (yogur con hierbas, hummus, etc.). Enrollar el wrap firmemente, doblando los extremos hacia adentro si se prefiere.",
+        "originalBaseRecipeId": "cc_wrap_de_pollo_hervido_con_verduras_y_arroz",
+        "isSideDish": false,
+        "mealCategory": "comida_cena_completa"
+    },
+    "p4_extra_Yogur_Proteico_con_mainOnly_idx2": {
+        "id": "p4_extra_Yogur_Proteico_con_mainOnly_idx2",
+        "name": "Yogur Proteico con Cereales de Avena",
+        "calories": 337.5,
+        "protein": 12.5,
+        "carbs": 57.5,
+        "fats": 6.1,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68e7ef66df76fef1b58db3f2.png",
+        "ingredients": [
+            {
+                "name": "Yogur Protéico",
+                "quantity": "1",
+                "unit": "unidad(es)",
+                "calories": 125,
+                "protein": 6.25,
+                "carbs": 12.5,
+                "fats": 5
+            },
+            {
+                "name": "Cereales de Avena",
+                "quantity": "50",
+                "unit": "g",
+                "calories": 182.5,
+                "protein": 6,
+                "carbs": 37.5,
+                "fats": 1
+            },
+            {
+                "name": "Frutos Rojos",
+                "quantity": "50",
+                "unit": "g",
+                "calories": 30,
+                "protein": 0.25,
+                "carbs": 7.5,
+                "fats": 0.1
+            }
+        ],
+        "preparation": "1. Verter el yogur en un bol. 2. Añadir los cereales de avena y los frutos rojos por encima.",
+        "originalBaseRecipeId": "ext_yogur_proteico_con_cereales_de_avena",
+        "isSideDish": false,
+        "mealCategory": "extra"
+    },
+    "p4_extra_Batido_Whey_de_mainOnly_idx3": {
+        "id": "p4_extra_Batido_Whey_de_mainOnly_idx3",
+        "name": "Batido Whey de Proteínas",
+        "calories": 114,
+        "protein": 24,
+        "carbs": 1.5,
+        "fats": 1.2,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684f021af6c48d41b5a5c003.png",
+        "ingredients": [
+            {
+                "name": "Proteína Whey en Polvo",
+                "quantity": "30",
+                "unit": "g",
+                "calories": 114,
+                "protein": 24,
+                "carbs": 1.5,
+                "fats": 1.2
+            },
+            {
+                "name": "Agua",
+                "quantity": "0",
+                "unit": "g",
+                "calories": 0,
+                "protein": 0,
+                "carbs": 0,
+                "fats": 0
+            }
+        ],
+        "preparation": "1. En un shaker (vaso mezclador con rejilla o bola), añadir la cantidad recomendada de proteína en polvo (whey) según las indicaciones del producto (normalmente 1 scoop o cazo dosificador). 2. Añadir la cantidad de líquido deseada (agua, leche o bebida vegetal; unos 200-300 ml suelen ser suficientes). 3. Cerrar bien el shaker. 4. Agitar enérgicamente durante unos 20-30 segundos hasta que el polvo esté completamente disuelto y no haya grumos. 5. Consumir inmediatamente, preferiblemente después del entrenamiento o según las necesidades proteicas individuales.",
+        "originalBaseRecipeId": "ext_batido_whey_de_protenas",
+        "isSideDish": false,
+        "mealCategory": "extra"
     }
 };
 
 const dailyMenus = [
   {
-    "name": "Libre 1",
+    "name": "Ayuno sin Entreno",
     "targetMacros": {
       "calories": 1500,
       "protein": 150,
@@ -965,12 +1109,10 @@ const dailyMenus = [
       "p0_comida_Ensalada_de_Lentejas_mainOnly_idx1",
       "p0_comida_Pechuga_de_Pavo_side_idx2"
     ],
-    "cena": [
-      "p0_cena_Calabacn_con_Cebolla_mainOnly_idx3",
-      "p0_cena_Revuelto_de_Huevos_side_idx4"
-    ],
+    "cena": [],
     "extra": [
-      "p0_extra_Yogur_Protico_Sabores_mainOnly_idx5"
+      "p0_extra_Yogur_Protico_con_mainOnly_idx3",
+      "p0_extra_Batido_Whey_de_mainOnly_idx4"
     ]
   },
   {
@@ -988,7 +1130,7 @@ const dailyMenus = [
       "p1_comida_Wok_de_Verduras_mainOnly_idx1"
     ],
     "cena": [
-      "p1_cena_Gazpacho_mainOnly_idx2",
+      "p1_cena_Crema_de_Verduras_mainOnly_idx2",
       "p1_cena_SolomilloFilete_de_Ternera_side_idx3"
     ],
     "extra": [
@@ -1038,11 +1180,32 @@ const dailyMenus = [
       "p3_extra_Yogur_Protico_Sabores_mainOnly_idx3",
       "p3_extra_Fruta_Densa_Pltano_mainOnly_idx4"
     ]
+  },
+  {
+    "name": "Ayuno con Entreno",
+    "targetMacros": {
+      "calories": 1500,
+      "protein": 150,
+      "carbs": 150
+    },
+    "useCustomMacros": true,
+    "desayuno": [
+      "p4_desayuno_Pan_wasa_con_mainOnly_idx0"
+    ],
+    "comida": [
+      "p4_comida_Wrap_de_pollo_mainOnly_idx1"
+    ],
+    "cena": [],
+    "extra": [
+      "p4_extra_Yogur_Proteico_con_mainOnly_idx2",
+      "p4_extra_Batido_Whey_de_mainOnly_idx3"
+    ]
   }
 ];
 
 // Detalles de los planes exportados:
-// Plan: Libre 1, Calorías Objetivo: 1500, Proteínas Objetivo: 150, Carbohidratos Objetivo: 150
+// Plan: Ayuno sin Entreno, Calorías Objetivo: 1500, Proteínas Objetivo: 150, Carbohidratos Objetivo: 150
 // Plan: Libre 2, Calorías Objetivo: 1500, Proteínas Objetivo: 150, Carbohidratos Objetivo: 150
 // Plan: Entreno 1, Calorías Objetivo: 1500, Proteínas Objetivo: 150, Carbohidratos Objetivo: 150
 // Plan: Entreno 2, Calorías Objetivo: 1500, Proteínas Objetivo: 150, Carbohidratos Objetivo: 150
+// Plan: Ayuno con Entreno, Calorías Objetivo: 1500, Proteínas Objetivo: 150, Carbohidratos Objetivo: 150
