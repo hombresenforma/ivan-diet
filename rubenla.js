@@ -593,27 +593,27 @@ const foodDatabase = {
         "isSideDish": false,
         "mealCategory": "comida_cena_completa"
     },
-    "p2_extra_Yogur_Protico_Sabores_mainOnly_idx3": {
-        "id": "p2_extra_Yogur_Protico_Sabores_mainOnly_idx3",
-        "name": "Yogur Protéico (Sabores, Natural...)",
-        "calories": 75,
-        "protein": 12.5,
-        "carbs": 5,
-        "fats": 0.6,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd789b8ed38b127cbc09.png",
+    "p2_extra_Batido_Whey_de_mainOnly_idx3": {
+        "id": "p2_extra_Batido_Whey_de_mainOnly_idx3",
+        "name": "Batido Whey de Proteínas",
+        "calories": 114,
+        "protein": 24,
+        "carbs": 1.5,
+        "fats": 1.2,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684f021af6c48d41b5a5c003.png",
         "ingredients": [
             {
-                "name": "Yogur Protéico",
-                "quantity": "125",
+                "name": "Proteína Whey en Polvo",
+                "quantity": "30",
                 "unit": "g",
-                "calories": 75,
-                "protein": 12.5,
-                "carbs": 5,
-                "fats": 0.6
+                "calories": 114,
+                "protein": 24,
+                "carbs": 1.5,
+                "fats": 1.2
             }
         ],
-        "preparation": "Servir el yogur proteico frío.",
-        "originalBaseRecipeId": "ext_yogur_protico_sabores_natural",
+        "preparation": "1. En un shaker (vaso mezclador con rejilla o bola), añadir la cantidad recomendada de proteína en polvo (whey) según las indicaciones del producto (normalmente 1 scoop o cazo dosificador). 2. Añadir la cantidad de líquido deseada (agua, leche o bebida vegetal; unos 200-300 ml suelen ser suficientes). 3. Cerrar bien el shaker. 4. Agitar enérgicamente durante unos 20-30 segundos hasta que el polvo esté completamente disuelto y no haya grumos. 5. Consumir inmediatamente, preferiblemente después del entrenamiento o según las necesidades proteicas individuales.",
+        "originalBaseRecipeId": "ext_batido_whey_de_protenas",
         "isSideDish": false,
         "mealCategory": "extra"
     },
@@ -848,27 +848,27 @@ const foodDatabase = {
         "isSideDish": false,
         "mealCategory": "comida_cena_completa"
     },
-    "p3_extra_Yogur_Protico_Sabores_mainOnly_idx3": {
-        "id": "p3_extra_Yogur_Protico_Sabores_mainOnly_idx3",
-        "name": "Yogur Protéico (Sabores, Natural...)",
-        "calories": 75,
-        "protein": 12.5,
-        "carbs": 6.3,
-        "fats": 0.6,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd789b8ed38b127cbc09.png",
+    "p3_extra_Batido_Whey_de_mainOnly_idx3": {
+        "id": "p3_extra_Batido_Whey_de_mainOnly_idx3",
+        "name": "Batido Whey de Proteínas",
+        "calories": 114,
+        "protein": 24,
+        "carbs": 1.5,
+        "fats": 1.2,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684f021af6c48d41b5a5c003.png",
         "ingredients": [
             {
-                "name": "Yogur Protéico",
-                "quantity": "125",
+                "name": "Proteína Whey en Polvo",
+                "quantity": "30",
                 "unit": "g",
-                "calories": 75,
-                "protein": 12.5,
-                "carbs": 6.3,
-                "fats": 0.6
+                "calories": 114,
+                "protein": 24,
+                "carbs": 1.5,
+                "fats": 1.2
             }
         ],
-        "preparation": "Consumir directamente como snack.",
-        "originalBaseRecipeId": "ext_yogur_protico_sabores_natural",
+        "preparation": "1. En un shaker (vaso mezclador con rejilla o bola), añadir la cantidad recomendada de proteína en polvo (whey) según las indicaciones del producto (normalmente 1 scoop o cazo dosificador). 2. Añadir la cantidad de líquido deseada (agua, leche o bebida vegetal; unos 200-300 ml suelen ser suficientes). 3. Cerrar bien el shaker. 4. Agitar enérgicamente durante unos 20-30 segundos hasta que el polvo esté completamente disuelto y no haya grumos. 5. Consumir inmediatamente, preferiblemente después del entrenamiento o según las necesidades proteicas individuales.",
+        "originalBaseRecipeId": "ext_batido_whey_de_protenas",
         "isSideDish": false,
         "mealCategory": "extra"
     },
@@ -1075,15 +1075,6 @@ const foodDatabase = {
                 "protein": 24,
                 "carbs": 1.5,
                 "fats": 1.2
-            },
-            {
-                "name": "Agua",
-                "quantity": "0",
-                "unit": "g",
-                "calories": 0,
-                "protein": 0,
-                "carbs": 0,
-                "fats": 0
             }
         ],
         "preparation": "1. En un shaker (vaso mezclador con rejilla o bola), añadir la cantidad recomendada de proteína en polvo (whey) según las indicaciones del producto (normalmente 1 scoop o cazo dosificador). 2. Añadir la cantidad de líquido deseada (agua, leche o bebida vegetal; unos 200-300 ml suelen ser suficientes). 3. Cerrar bien el shaker. 4. Agitar enérgicamente durante unos 20-30 segundos hasta que el polvo esté completamente disuelto y no haya grumos. 5. Consumir inmediatamente, preferiblemente después del entrenamiento o según las necesidades proteicas individuales.",
@@ -1155,7 +1146,7 @@ const dailyMenus = [
       "p2_cena_Patata_con_brcoli_mainOnly_idx2"
     ],
     "extra": [
-      "p2_extra_Yogur_Protico_Sabores_mainOnly_idx3",
+      "p2_extra_Batido_Whey_de_mainOnly_idx3",
       "p2_extra_Fruta_Ctrica_Mandarina_mainOnly_idx4"
     ]
   },
@@ -1177,7 +1168,7 @@ const dailyMenus = [
       "p3_cena_Fajitas_de_Pollo_mainOnly_idx2"
     ],
     "extra": [
-      "p3_extra_Yogur_Protico_Sabores_mainOnly_idx3",
+      "p3_extra_Batido_Whey_de_mainOnly_idx3",
       "p3_extra_Fruta_Densa_Pltano_mainOnly_idx4"
     ]
   },
