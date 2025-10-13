@@ -221,54 +221,6 @@ const foodDatabase = {
         "isSideDish": true,
         "mealCategory": "acompanamiento"
     },
-    "p0_extra_Fruta_Densa_Pltano_mainOnly_idx5": {
-        "id": "p0_extra_Fruta_Densa_Pltano_mainOnly_idx5",
-        "name": "Fruta Densa (Plátano, Manzana)",
-        "calories": 72,
-        "protein": 0.6,
-        "carbs": 18,
-        "fats": 0.24,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe4bb91eb325b93d4a82.png",
-        "ingredients": [
-            {
-                "name": "Plátano",
-                "quantity": "1",
-                "unit": "unidad(es)",
-                "calories": 72,
-                "protein": 0.6,
-                "carbs": 18,
-                "fats": 0.24
-            }
-        ],
-        "preparation": "1. Seleccionar la fruta densa de preferencia (plátano, manzana, pera, etc.). 2. Para plátanos: pelar la piel y consumir directamente. 3. Para manzanas o peras: lavar bien la fruta. Se puede consumir con piel (rica en fibra) o pelada, según preferencia. Se puede comer entera a mordiscos o cortada en trozos.",
-        "originalBaseRecipeId": "ext_fruta_densa_pltano_manzana",
-        "isSideDish": false,
-        "mealCategory": "extra"
-    },
-    "p0_extra_Yogur_Protico_Sabores_mainOnly_idx6": {
-        "id": "p0_extra_Yogur_Protico_Sabores_mainOnly_idx6",
-        "name": "Yogur Protéico (Sabores, Natural...)",
-        "calories": 125,
-        "protein": 6.25,
-        "carbs": 12.5,
-        "fats": 5,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd789b8ed38b127cbc09.png",
-        "ingredients": [
-            {
-                "name": "Yogur Protéico",
-                "quantity": "1",
-                "unit": "unidad(es)",
-                "calories": 125,
-                "protein": 6.25,
-                "carbs": 12.5,
-                "fats": 5
-            }
-        ],
-        "preparation": "1. Seleccionar el yogur proteico de preferencia (natural o con sabores). 2. Abrir el envase. 3. Consumir directamente con una cuchara. Opcional: se puede acompañar de frutas frescas troceadas, frutos secos, semillas o un poco de miel o edulcorante si es natural y se desea endulzar.",
-        "originalBaseRecipeId": "ext_yogur_protico_sabores_natural",
-        "isSideDish": false,
-        "mealCategory": "extra"
-    },
     "p1_desayuno_Tostada_de_Pan_mainOnly_idx0": {
         "id": "p1_desayuno_Tostada_de_Pan_mainOnly_idx0",
         "name": "Tostada de Pan de Centeno con Revuelto de Huevos y Jamón York",
@@ -314,20 +266,20 @@ const foodDatabase = {
     "p1_comida_Ensala_de_Patata_mainOnly_idx1": {
         "id": "p1_comida_Ensala_de_Patata_mainOnly_idx1",
         "name": "Ensala de Patata, Atún y Huevo",
-        "calories": 637.5,
-        "protein": 61.00000000000001,
-        "carbs": 60.55,
-        "fats": 14.3,
+        "calories": 592.5,
+        "protein": 60.00000000000001,
+        "carbs": 50.55,
+        "fats": 14.25,
         "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afc08b91eb31afe3d4796.png",
         "ingredients": [
             {
                 "name": "Patata",
-                "quantity": "200",
+                "quantity": "150",
                 "unit": "g",
-                "calories": 180,
-                "protein": 4,
-                "carbs": 40,
-                "fats": 0.2
+                "calories": 135,
+                "protein": 3,
+                "carbs": 30,
+                "fats": 0.15
             },
             {
                 "name": "Pimiento Verde",
@@ -474,7 +426,7 @@ const foodDatabase = {
         "protein": 9.55,
         "carbs": 26,
         "fats": 17.12,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afea2b91eb35e413d4ab6.png",
+        "image": "",
         "ingredients": [
             {
                 "name": "Yogur Protéico",
@@ -778,12 +730,240 @@ const foodDatabase = {
         "originalBaseRecipeId": "ext_sandwich_vegetal_de_jamn_york",
         "isSideDish": false,
         "mealCategory": "extra"
+    },
+    "p3_desayuno_Tostada_de_Centeno_mainOnly_idx0": {
+        "id": "p3_desayuno_Tostada_de_Centeno_mainOnly_idx0",
+        "name": "Tostada de Centeno con Aguacate y Atún",
+        "calories": 336,
+        "protein": 26.700000000000003,
+        "carbs": 19.5,
+        "fats": 15.9,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682aff33e819fcc7a1a8d946.png",
+        "ingredients": [
+            {
+                "name": "Tostada de Pan de Centeno",
+                "quantity": "1",
+                "unit": "rebanada(s)",
+                "calories": 81,
+                "protein": 2.6999999999999997,
+                "carbs": 15,
+                "fats": 0.8999999999999999
+            },
+            {
+                "name": "Aguacate",
+                "quantity": "30",
+                "unit": "g",
+                "calories": 135,
+                "protein": 3,
+                "carbs": 4.5,
+                "fats": 12
+            },
+            {
+                "name": "Atún en Conserva",
+                "quantity": "75",
+                "unit": "g",
+                "calories": 120,
+                "protein": 21.000000000000004,
+                "carbs": 0,
+                "fats": 3
+            }
+        ],
+        "preparation": "1. Tostar el pan de centeno hasta que esté dorado y crujiente. 2. Mientras tanto, machacar o laminar el aguacate. 3. Extender el aguacate sobre la tostada. 4. Escurrir bien el atún y desmenuzarlo sobre el aguacate. Opcional: añadir un chorrito de zumo de limón sobre el aguacate para evitar que se oxide y un poco de pimienta negra.",
+        "originalBaseRecipeId": "des_tostada_de_centeno_con_aguacate_y_atn",
+        "isSideDish": false,
+        "mealCategory": "desayuno"
+    },
+    "p3_comida_Wrap_de_pollo_mainOnly_idx1": {
+        "id": "p3_comida_Wrap_de_pollo_mainOnly_idx1",
+        "name": "Wrap de pollo hervido con verduras y arroz",
+        "calories": 814,
+        "protein": 63.300000000000004,
+        "carbs": 108.75,
+        "fats": 11.05,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684ef7e26202d54cb0de24e8.png",
+        "ingredients": [
+            {
+                "name": "Pechuga de Pollo",
+                "quantity": "150",
+                "unit": "g",
+                "calories": 240,
+                "protein": 42.00000000000001,
+                "carbs": 0,
+                "fats": 6
+            },
+            {
+                "name": "Arroz",
+                "quantity": "50",
+                "unit": "g",
+                "calories": 182.5,
+                "protein": 6,
+                "carbs": 37.5,
+                "fats": 1
+            },
+            {
+                "name": "Brócoli",
+                "quantity": "75",
+                "unit": "g",
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
+            },
+            {
+                "name": "Zanahoria",
+                "quantity": "75",
+                "unit": "g",
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
+            },
+            {
+                "name": "Cebolla",
+                "quantity": "75",
+                "unit": "g",
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
+            },
+            {
+                "name": "Tortilla de Wrap",
+                "quantity": "2",
+                "unit": "unidad(es)",
+                "calories": 324,
+                "protein": 10.799999999999999,
+                "carbs": 60,
+                "fats": 3.5999999999999996
+            }
+        ],
+        "preparation": "1. Hervir la pechuga de pollo en agua con sal hasta que esté cocida (unos 15-20 minutos). Dejar enfriar un poco y desmenuzar o cortar en trozos pequeños. 2. Cocer el arroz según las instrucciones del paquete. 3. Cocer al vapor o hervir el brócoli (en floretes pequeños) y la zanahoria (cortada en juliana o dados pequeños) hasta que estén tiernos pero crujientes. Picar la cebolla finamente (puede usarse cruda o salteada ligeramente). 4. Calentar ligeramente la tortilla de wrap para que sea más flexible. 5. Extender una capa fina de arroz cocido sobre la tortilla, dejando un borde libre. Distribuir encima el pollo desmenuzado, el brócoli, la zanahoria y la cebolla. 6. Opcional: añadir una salsa ligera (yogur con hierbas, hummus, etc.). Enrollar el wrap firmemente, doblando los extremos hacia adentro si se prefiere.",
+        "originalBaseRecipeId": "cc_wrap_de_pollo_hervido_con_verduras_y_arroz",
+        "isSideDish": false,
+        "mealCategory": "comida_cena_completa"
+    },
+    "p3_cena_Wok_de_Verduras_mainOnly_idx2": {
+        "id": "p3_cena_Wok_de_Verduras_mainOnly_idx2",
+        "name": "Wok de Verduras con Salmón",
+        "calories": 442.4,
+        "protein": 32.4,
+        "carbs": 15,
+        "fats": 27.400000000000002,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afda0b91eb330dd3d49b2.png",
+        "ingredients": [
+            {
+                "name": "Tomate",
+                "quantity": "75",
+                "unit": "g",
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
+            },
+            {
+                "name": "Pimiento Rojo",
+                "quantity": "75",
+                "unit": "g",
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
+            },
+            {
+                "name": "Pimiento Verde",
+                "quantity": "75",
+                "unit": "g",
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
+            },
+            {
+                "name": "Cebolla",
+                "quantity": "75",
+                "unit": "g",
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
+            },
+            {
+                "name": "Lomo de Salmón",
+                "quantity": "120",
+                "unit": "g",
+                "calories": 264,
+                "protein": 26.4,
+                "carbs": 0,
+                "fats": 16.8
+            },
+            {
+                "name": "Aceite de Oliva Virgen Extra",
+                "quantity": "10",
+                "unit": "g",
+                "calories": 88.4,
+                "protein": 0,
+                "carbs": 0,
+                "fats": 10
+            }
+        ],
+        "preparation": "1. Cortar el salmón en dados de tamaño mediano. Picar el tomate, pimiento rojo, pimiento verde y cebolla en trozos adecuados para wok (ej. juliana gruesa o dados). 2. Calentar un wok o sartén grande con un poco de aceite a fuego alto. Saltear el salmón unos 2-3 minutos hasta que esté dorado por fuera pero ligeramente crudo por dentro. Retirar y reservar. 3. Añadir las verduras más duras (cebolla, pimientos) al wok y saltear durante 3-4 minutos. Luego añadir el tomate y saltear 1-2 minutos más. 4. Incorporar el salmón de nuevo al wok. Añadir salsa de soja (baja en sodio preferiblemente) y un toque de jengibre rallado o ajo picado (opcional). Mezclar bien y cocinar por 1-2 minutos más hasta que el salmón esté cocido y todo bien caliente. Servir inmediatamente, opcionalmente sobre una base de arroz o noodles.",
+        "originalBaseRecipeId": "cc_wok_de_verduras_con_salmn",
+        "isSideDish": false,
+        "mealCategory": "comida_cena_completa"
+    },
+    "p3_extra_Yogur_Protico_Sabores_mainOnly_idx3": {
+        "id": "p3_extra_Yogur_Protico_Sabores_mainOnly_idx3",
+        "name": "Yogur Protéico (Sabores, Natural...)",
+        "calories": 125,
+        "protein": 6.25,
+        "carbs": 12.5,
+        "fats": 5,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd789b8ed38b127cbc09.png",
+        "ingredients": [
+            {
+                "name": "Yogur Protéico",
+                "quantity": "1",
+                "unit": "unidad(es)",
+                "calories": 125,
+                "protein": 6.25,
+                "carbs": 12.5,
+                "fats": 5
+            }
+        ],
+        "preparation": "1. Seleccionar el yogur proteico de preferencia (natural o con sabores). 2. Abrir el envase. 3. Consumir directamente con una cuchara. Opcional: se puede acompañar de frutas frescas troceadas, frutos secos, semillas o un poco de miel o edulcorante si es natural y se desea endulzar.",
+        "originalBaseRecipeId": "ext_yogur_protico_sabores_natural",
+        "isSideDish": false,
+        "mealCategory": "extra"
+    },
+    "p3_extra_Frutas_Silvestres__mainOnly_idx4": {
+        "id": "p3_extra_Frutas_Silvestres__mainOnly_idx4",
+        "name": "Frutas Silvestres / Rojas",
+        "calories": 36,
+        "protein": 0.3,
+        "carbs": 9,
+        "fats": 0.12,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684f020655f9650aaa228fc9.png",
+        "ingredients": [
+            {
+                "name": "Arándanos",
+                "quantity": "60",
+                "unit": "g",
+                "calories": 36,
+                "protein": 0.3,
+                "carbs": 9,
+                "fats": 0.12
+            }
+        ],
+        "preparation": "1. Seleccionar las frutas silvestres o rojas deseadas (fresas, frambuesas, uvas, moras, arándanos, cerezas, etc.). 2. Lavar suavemente las frutas bajo un chorro de agua fría, especialmente si son fresas, frambuesas, moras o arándanos. Escurrir bien. 3. Para fresas: retirar el pedúnculo verde. Se pueden consumir enteras o cortadas. 4. Para cerezas: se pueden consumir con o sin rabito, quitando el hueso si se prefiere. 5. Consumir directamente como snack, postre o añadir a yogures, cereales, etc.",
+        "originalBaseRecipeId": "ext_frutas_silvestres_rojas",
+        "isSideDish": false,
+        "mealCategory": "extra"
     }
 };
 
 const dailyMenus = [
   {
-    "name": "Día 1",
+    "name": "LIBRE 1",
     "targetMacros": {
       "calories": 1800,
       "protein": 150,
@@ -801,13 +981,10 @@ const dailyMenus = [
       "p0_cena_Pimientos_Salteados_con_mainOnly_idx3",
       "p0_cena_SolomilloFilete_de_Ternera_side_idx4"
     ],
-    "extra": [
-      "p0_extra_Fruta_Densa_Pltano_mainOnly_idx5",
-      "p0_extra_Yogur_Protico_Sabores_mainOnly_idx6"
-    ]
+    "extra": []
   },
   {
-    "name": "Día 2",
+    "name": "LIBRE 2",
     "targetMacros": {
       "calories": 1800,
       "protein": 150,
@@ -828,7 +1005,7 @@ const dailyMenus = [
     ]
   },
   {
-    "name": "Día 3",
+    "name": "ENTRENO 1",
     "targetMacros": {
       "calories": 1800,
       "protein": 150,
@@ -849,10 +1026,33 @@ const dailyMenus = [
     "extra": [
       "p2_extra_Sandwich_Vegetal_de_mainOnly_idx5"
     ]
+  },
+  {
+    "name": "ENTRENO 2",
+    "targetMacros": {
+      "calories": 1800,
+      "protein": 150,
+      "carbs": 150
+    },
+    "useCustomMacros": true,
+    "desayuno": [
+      "p3_desayuno_Tostada_de_Centeno_mainOnly_idx0"
+    ],
+    "comida": [
+      "p3_comida_Wrap_de_pollo_mainOnly_idx1"
+    ],
+    "cena": [
+      "p3_cena_Wok_de_Verduras_mainOnly_idx2"
+    ],
+    "extra": [
+      "p3_extra_Yogur_Protico_Sabores_mainOnly_idx3",
+      "p3_extra_Frutas_Silvestres__mainOnly_idx4"
+    ]
   }
 ];
 
 // Detalles de los planes exportados:
-// Plan: Día 1, Calorías Objetivo: 1800, Proteínas Objetivo: 150, Carbohidratos Objetivo: 150
-// Plan: Día 2, Calorías Objetivo: 1800, Proteínas Objetivo: 150, Carbohidratos Objetivo: 150
-// Plan: Día 3, Calorías Objetivo: 1800, Proteínas Objetivo: 150, Carbohidratos Objetivo: 150
+// Plan: LIBRE 1, Calorías Objetivo: 1800, Proteínas Objetivo: 150, Carbohidratos Objetivo: 150
+// Plan: LIBRE 2, Calorías Objetivo: 1800, Proteínas Objetivo: 150, Carbohidratos Objetivo: 150
+// Plan: ENTRENO 1, Calorías Objetivo: 1800, Proteínas Objetivo: 150, Carbohidratos Objetivo: 150
+// Plan: ENTRENO 2, Calorías Objetivo: 1800, Proteínas Objetivo: 150, Carbohidratos Objetivo: 150
