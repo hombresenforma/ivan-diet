@@ -158,10 +158,10 @@ const foodDatabase = {
     "p0_cena_Poke_de_aguacate_mainOnly_idx3": {
         "id": "p0_cena_Poke_de_aguacate_mainOnly_idx3",
         "name": "Poke de aguacate, mango, tomate, soja, cebolla, arroz y pollo",
-        "calories": 730.4,
-        "protein": 54.35000000000001,
-        "carbs": 59,
-        "fats": 29.46,
+        "calories": 785.15,
+        "protein": 56.150000000000006,
+        "carbs": 70.25,
+        "fats": 29.759999999999998,
         "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684efa4ef6c48db833a5b1af.png",
         "ingredients": [
             {
@@ -202,12 +202,12 @@ const foodDatabase = {
             },
             {
                 "name": "Arroz",
-                "quantity": "60",
+                "quantity": "75",
                 "unit": "g",
-                "calories": 219,
-                "protein": 7.199999999999999,
-                "carbs": 45,
-                "fats": 1.2
+                "calories": 273.75,
+                "protein": 8.999999999999998,
+                "carbs": 56.25,
+                "fats": 1.5
             },
             {
                 "name": "Pechuga de Pollo",
@@ -386,20 +386,20 @@ const foodDatabase = {
     "p1_comida_Ensalada_de_Pasta_mainOnly_idx1": {
         "id": "p1_comida_Ensalada_de_Pasta_mainOnly_idx1",
         "name": "Ensalada de Pasta con Pollo",
-        "calories": 735,
-        "protein": 66.6,
-        "carbs": 61.3,
-        "fats": 23.3,
+        "calories": 787.1,
+        "protein": 68.56,
+        "carbs": 71.75,
+        "fats": 23.55,
         "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afc47b91eb349463d47dd.png",
         "ingredients": [
             {
                 "name": "Pasta (cruda)",
-                "quantity": "75",
+                "quantity": "90",
                 "unit": "g",
-                "calories": 263,
-                "protein": 9.8,
-                "carbs": 52.5,
-                "fats": 1.5
+                "calories": 315.6,
+                "protein": 11.760000000000002,
+                "carbs": 62.99999999999999,
+                "fats": 1.8
             },
             {
                 "name": "Pechuga de Pollo (cruda)",
@@ -539,93 +539,69 @@ const foodDatabase = {
         "isSideDish": false,
         "mealCategory": "comida_cena_completa"
     },
-    "p1_extra_Fruta_Densa_Pltano_mainOnly_idx3": {
-        "id": "p1_extra_Fruta_Densa_Pltano_mainOnly_idx3",
-        "name": "Fruta Densa (Plátano, Manzana)",
-        "calories": 162,
-        "protein": 1.35,
-        "carbs": 40.5,
-        "fats": 0.54,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe4bb91eb325b93d4a82.png",
-        "ingredients": [
-            {
-                "name": "Plátano",
-                "quantity": "1",
-                "unit": "unidad(es)",
-                "calories": 72,
-                "protein": 0.6,
-                "carbs": 18,
-                "fats": 0.24
-            },
-            {
-                "name": "Manzana",
-                "quantity": "1",
-                "unit": "unidad(es)",
-                "calories": 90,
-                "protein": 0.75,
-                "carbs": 22.5,
-                "fats": 0.3
-            }
-        ],
-        "preparation": "1. Seleccionar la fruta densa de preferencia (plátano, manzana, pera, etc.). 2. Para plátanos: pelar la piel y consumir directamente. 3. Para manzanas o peras: lavar bien la fruta. Se puede consumir con piel (rica en fibra) o pelada, según preferencia. Se puede comer entera a mordiscos o cortada en trozos.",
-        "originalBaseRecipeId": "ext_fruta_densa_pltano_manzana",
-        "isSideDish": false,
-        "mealCategory": "extra"
-    },
-    "p1_extra_Yogurt_Protico_con_mainOnly_idx4": {
-        "id": "p1_extra_Yogurt_Protico_con_mainOnly_idx4",
-        "name": "Yogurt Protéico con Frutos Rojos y Secos",
-        "calories": 130,
-        "protein": 11,
-        "carbs": 16,
-        "fats": 1,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afea2b91eb35e413d4ab6.png",
-        "ingredients": [
-            {
-                "name": "Yogur Protéico",
-                "quantity": "125",
-                "unit": "g",
-                "calories": 80,
-                "protein": 10,
-                "carbs": 6,
-                "fats": 0.5
-            },
-            {
-                "name": "Frutos Rojos",
-                "quantity": "100",
-                "unit": "g",
-                "calories": 50,
-                "protein": 1,
-                "carbs": 10,
-                "fats": 0.5
-            }
-        ],
-        "preparation": "Mezclar el yogur protéico con los frutos rojos y los frutos secos en un bol.",
-        "originalBaseRecipeId": "ext_yogurt_protico_con_frutos_rojos_y_secos",
-        "isSideDish": false,
-        "mealCategory": "extra"
-    },
-    "p1_extra_Frutos_Secos_Mezcla_mainOnly_idx5": {
-        "id": "p1_extra_Frutos_Secos_Mezcla_mainOnly_idx5",
+    "p1_extra_Frutos_Secos_Mezcla_mainOnly_idx3": {
+        "id": "p1_extra_Frutos_Secos_Mezcla_mainOnly_idx3",
         "name": "Frutos Secos (Mezcla)",
-        "calories": 300,
-        "protein": 9.5,
-        "carbs": 12,
-        "fats": 25,
+        "calories": 180,
+        "protein": 5.7,
+        "carbs": 7.199999999999999,
+        "fats": 15,
         "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68525c0b1d27cfeb580a55f7.png",
         "ingredients": [
             {
                 "name": "Frutos Secos (Mezcla)",
-                "quantity": "50",
+                "quantity": "30",
                 "unit": "g",
-                "calories": 300,
-                "protein": 9.5,
-                "carbs": 12,
-                "fats": 25
+                "calories": 180,
+                "protein": 5.7,
+                "carbs": 7.199999999999999,
+                "fats": 15
             }
         ],
         "preparation": "Consumir directamente los frutos secos.",
         "originalBaseRecipeId": "ext_frutos_secos_mezcla",
+        "isSideDish": false,
+        "mealCategory": "extra"
+    },
+    "p1_extra_Yogur_Proteico_con_mainOnly_idx4": {
+        "id": "p1_extra_Yogur_Proteico_con_mainOnly_idx4",
+        "name": "Yogur Proteico con Cereales de Avena",
+        "calories": 499,
+        "protein": 19.95,
+        "carbs": 77.5,
+        "fats": 11.299999999999999,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68e7ef66df76fef1b58db3f2.png",
+        "ingredients": [
+            {
+                "name": "Yogur Protéico",
+                "quantity": "2",
+                "unit": "unidad(es)",
+                "calories": 250,
+                "protein": 12.5,
+                "carbs": 25,
+                "fats": 10
+            },
+            {
+                "name": "Cereales de Avena",
+                "quantity": "60",
+                "unit": "g",
+                "calories": 219,
+                "protein": 7.199999999999999,
+                "carbs": 45,
+                "fats": 1.2
+            },
+            {
+                "name": "Frutos Rojos",
+                "quantity": "50",
+                "unit": "g",
+                "calories": 30,
+                "protein": 0.25,
+                "carbs": 7.5,
+                "fats": 0.1
+            }
+        ],
+        "preparation": "1. Verter el yogur en un bol. 2. Añadir los cereales de avena y los frutos rojos por encima.",
+        "originalBaseRecipeId": "ext_yogur_proteico_con_cereales_de_avena",
         "isSideDish": false,
         "mealCategory": "extra"
     },
@@ -863,11 +839,11 @@ const foodDatabase = {
     "p2_extra_Yogurt_Protico_con_mainOnly_idx4": {
         "id": "p2_extra_Yogurt_Protico_con_mainOnly_idx4",
         "name": "Yogurt Protéico con Frutos Rojos y Secos",
-        "calories": 190,
-        "protein": 15,
-        "carbs": 14,
-        "fats": 9,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afea2b91eb35e413d4ab6.png",
+        "calories": 280,
+        "protein": 18,
+        "carbs": 16,
+        "fats": 17,
+        "image": "",
         "ingredients": [
             {
                 "name": "Yogur Protéico",
@@ -889,12 +865,12 @@ const foodDatabase = {
             },
             {
                 "name": "Frutos Secos",
-                "quantity": "15",
+                "quantity": "30",
                 "unit": "g",
-                "calories": 90,
-                "protein": 2,
-                "carbs": 2,
-                "fats": 8
+                "calories": 180,
+                "protein": 4,
+                "carbs": 4,
+                "fats": 16
             }
         ],
         "preparation": "1. Verter el yogur proteico en un bol. 2. Añadir los frutos rojos y los frutos secos por encima. 3. Mezclar si se desea antes de consumir.",
@@ -989,20 +965,20 @@ const foodDatabase = {
     "p3_comida_Ensala_de_Patata_mainOnly_idx1": {
         "id": "p3_comida_Ensala_de_Patata_mainOnly_idx1",
         "name": "Ensala de Patata, Atún y Huevo",
-        "calories": 696,
-        "protein": 54.9,
-        "carbs": 54.3,
-        "fats": 28.6,
+        "calories": 734,
+        "protein": 55.9,
+        "carbs": 62.83,
+        "fats": 28.7,
         "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afc08b91eb31afe3d4796.png",
         "ingredients": [
             {
                 "name": "Patata",
-                "quantity": "150",
+                "quantity": "200",
                 "unit": "g",
-                "calories": 115.5,
-                "protein": 3,
-                "carbs": 25.5,
-                "fats": 0.15
+                "calories": 154,
+                "protein": 4,
+                "carbs": 34,
+                "fats": 0.2
             },
             {
                 "name": "Pimiento Verde",
@@ -1082,72 +1058,54 @@ const foodDatabase = {
         "isSideDish": false,
         "mealCategory": "comida_cena_completa"
     },
-    "p3_cena_Gazpacho_mainOnly_idx2": {
-        "id": "p3_cena_Gazpacho_mainOnly_idx2",
-        "name": "Gazpacho",
-        "calories": 171,
-        "protein": 3.6,
-        "carbs": 17.9,
-        "fats": 10.7,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cfbad25d68cc1a4ec3688.png",
+    "p3_cena_Crema_de_Verduras_mainOnly_idx2": {
+        "id": "p3_cena_Crema_de_Verduras_mainOnly_idx2",
+        "name": "Crema de Verduras Variadas",
+        "calories": 140,
+        "protein": 8.5,
+        "carbs": 20,
+        "fats": 2.6,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cd68425d68cc771ebd10a.png",
         "ingredients": [
             {
-                "name": "Tomate",
-                "quantity": "200",
-                "unit": "g",
-                "calories": 36,
-                "protein": 1.8,
-                "carbs": 7.8,
-                "fats": 0.4
-            },
-            {
-                "name": "Pepino",
+                "name": "Calabaza",
                 "quantity": "100",
                 "unit": "g",
-                "calories": 15,
-                "protein": 0.7,
-                "carbs": 3.6,
-                "fats": 0.1
+                "calories": 30,
+                "protein": 2,
+                "carbs": 5,
+                "fats": 0.2
             },
             {
-                "name": "Pimiento",
-                "quantity": "50",
+                "name": "Tomate",
+                "quantity": "100",
                 "unit": "g",
-                "calories": 12.5,
-                "protein": 0.5,
-                "carbs": 2.5,
-                "fats": 0.1
+                "calories": 30,
+                "protein": 2,
+                "carbs": 5,
+                "fats": 0.2
             },
             {
                 "name": "Cebolla",
-                "quantity": "25",
+                "quantity": "100",
                 "unit": "g",
-                "calories": 10,
-                "protein": 0.28,
-                "carbs": 2.33,
-                "fats": 0.03
+                "calories": 30,
+                "protein": 2,
+                "carbs": 5,
+                "fats": 0.2
             },
             {
-                "name": "Ajo",
-                "quantity": "5",
+                "name": "Agua",
+                "quantity": "50",
                 "unit": "g",
-                "calories": 7.45,
-                "protein": 0.32,
-                "carbs": 1.65,
-                "fats": 0.03
-            },
-            {
-                "name": "Aceite de Oliva Virgen Extra",
-                "quantity": "10",
-                "unit": "g",
-                "calories": 90,
-                "protein": 0,
-                "carbs": 0,
-                "fats": 10
+                "calories": 50,
+                "protein": 2.5,
+                "carbs": 5,
+                "fats": 2
             }
         ],
-        "preparation": "1. Trocear todas las verduras. 2. Poner todos los ingredientes en una batidora junto con aceite, vinagre y sal. 3. Triturar hasta obtener una sopa fina. 4. Enfriar en la nevera antes de servir. Puedes comprarlo preparado si lo prefieres.",
-        "originalBaseRecipeId": "pp_gazpacho",
+        "preparation": "1. Puedes comprar una crema preparada o bien cocinar unas cuantas verduras en una olla.",
+        "originalBaseRecipeId": "pp_crema_de_verduras_variadas",
         "isSideDish": false,
         "mealCategory": "plato_principal"
     },
@@ -1262,20 +1220,20 @@ const foodDatabase = {
     "p3_extra_Fruta_Densa_Pltano_mainOnly_idx6": {
         "id": "p3_extra_Fruta_Densa_Pltano_mainOnly_idx6",
         "name": "Fruta Densa (Plátano, Manzana)",
-        "calories": 107,
-        "protein": 1.3,
-        "carbs": 27.4,
-        "fats": 0.4,
+        "calories": 213.6,
+        "protein": 2.64,
+        "carbs": 54.72,
+        "fats": 0.72,
         "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe4bb91eb325b93d4a82.png",
         "ingredients": [
             {
                 "name": "Plátano",
-                "quantity": "1",
+                "quantity": "2",
                 "unit": "unidad",
-                "calories": 106.8,
-                "protein": 1.32,
-                "carbs": 27.36,
-                "fats": 0.36
+                "calories": 213.6,
+                "protein": 2.64,
+                "carbs": 54.72,
+                "fats": 0.72
             }
         ],
         "preparation": "Lavar y pelar la fruta. Consumir directamente.",
@@ -1328,9 +1286,8 @@ const dailyMenus = [
       "p1_cena_Patatas_Cocidas_con_mainOnly_idx2"
     ],
     "extra": [
-      "p1_extra_Fruta_Densa_Pltano_mainOnly_idx3",
-      "p1_extra_Yogurt_Protico_con_mainOnly_idx4",
-      "p1_extra_Frutos_Secos_Mezcla_mainOnly_idx5"
+      "p1_extra_Frutos_Secos_Mezcla_mainOnly_idx3",
+      "p1_extra_Yogur_Proteico_con_mainOnly_idx4"
     ]
   },
   {
@@ -1371,7 +1328,7 @@ const dailyMenus = [
       "p3_comida_Ensala_de_Patata_mainOnly_idx1"
     ],
     "cena": [
-      "p3_cena_Gazpacho_mainOnly_idx2",
+      "p3_cena_Crema_de_Verduras_mainOnly_idx2",
       "p3_cena_SolomilloFilete_de_Ternera_side_idx3"
     ],
     "extra": [
