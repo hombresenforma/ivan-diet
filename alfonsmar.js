@@ -245,27 +245,27 @@ const foodDatabase = {
         "isSideDish": false,
         "mealCategory": "extra"
     },
-    "p0_extra_Yogur_Protico_Sabores_mainOnly_idx6": {
-        "id": "p0_extra_Yogur_Protico_Sabores_mainOnly_idx6",
-        "name": "Yogur Protéico (Sabores, Natural...)",
-        "calories": 125,
-        "protein": 6.25,
-        "carbs": 12.5,
-        "fats": 5,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd789b8ed38b127cbc09.png",
+    "p0_extra_Batido_Whey_de_mainOnly_idx6": {
+        "id": "p0_extra_Batido_Whey_de_mainOnly_idx6",
+        "name": "Batido Whey de Proteínas",
+        "calories": 114,
+        "protein": 24,
+        "carbs": 1.5,
+        "fats": 1.2,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684f021af6c48d41b5a5c003.png",
         "ingredients": [
             {
-                "name": "Yogur Protéico",
-                "quantity": "1",
-                "unit": "unidad(es)",
-                "calories": 125,
-                "protein": 6.25,
-                "carbs": 12.5,
-                "fats": 5
+                "name": "Proteína Whey en Polvo",
+                "quantity": "30",
+                "unit": "g",
+                "calories": 114,
+                "protein": 24,
+                "carbs": 1.5,
+                "fats": 1.2
             }
         ],
-        "preparation": "1. Seleccionar el yogur proteico de preferencia (natural o con sabores). 2. Abrir el envase. 3. Consumir directamente con una cuchara. Opcional: se puede acompañar de frutas frescas troceadas, frutos secos, semillas o un poco de miel o edulcorante si es natural y se desea endulzar.",
-        "originalBaseRecipeId": "ext_yogur_protico_sabores_natural",
+        "preparation": "1. En un shaker (vaso mezclador con rejilla o bola), añadir la cantidad recomendada de proteína en polvo (whey) según las indicaciones del producto (normalmente 1 scoop o cazo dosificador). 2. Añadir la cantidad de líquido deseada (agua, leche o bebida vegetal; unos 200-300 ml suelen ser suficientes). 3. Cerrar bien el shaker. 4. Agitar enérgicamente durante unos 20-30 segundos hasta que el polvo esté completamente disuelto y no haya grumos. 5. Consumir inmediatamente, preferiblemente después del entrenamiento o según las necesidades proteicas individuales.",
+        "originalBaseRecipeId": "ext_batido_whey_de_protenas",
         "isSideDish": false,
         "mealCategory": "extra"
     },
@@ -458,36 +458,51 @@ const foodDatabase = {
         "isSideDish": false,
         "mealCategory": "comida_cena_completa"
     },
-    "p1_extra_Yogurt_Protico_con_mainOnly_idx3": {
-        "id": "p1_extra_Yogurt_Protico_con_mainOnly_idx3",
-        "name": "Yogurt Protéico con Frutos Rojos y Secos",
-        "calories": 167,
-        "protein": 6.6,
-        "carbs": 23,
-        "fats": 5.14,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afea2b91eb35e413d4ab6.png",
+    "p1_extra_Fruta_Ctrica_Mandarina_mainOnly_idx3": {
+        "id": "p1_extra_Fruta_Ctrica_Mandarina_mainOnly_idx3",
+        "name": "Fruta Cítrica (Mandarina, Kiwi, Naranja...)",
+        "calories": 90,
+        "protein": 0.75,
+        "carbs": 22.5,
+        "fats": 0.3,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd3d0ed506305442ffe4.png",
         "ingredients": [
             {
-                "name": "Yogur Protéico",
-                "quantity": "1",
+                "name": "Kiwi",
+                "quantity": "2",
                 "unit": "unidad(es)",
-                "calories": 125,
-                "protein": 6.25,
-                "carbs": 12.5,
-                "fats": 5
-            },
-            {
-                "name": "Frutos Rojos",
-                "quantity": "70",
-                "unit": "g",
-                "calories": 42,
-                "protein": 0.35000000000000003,
-                "carbs": 10.5,
-                "fats": 0.14
+                "calories": 90,
+                "protein": 0.75,
+                "carbs": 22.5,
+                "fats": 0.3
             }
         ],
-        "preparation": "1. En un bol, verter el yogur proteico. 2. Añadir los frutos rojos frescos o descongelados. 3. Espolvorear con los frutos secos troceados por encima. Servir inmediatamente.",
-        "originalBaseRecipeId": "ext_yogurt_protico_con_frutos_rojos_y_secos",
+        "preparation": "1. Seleccionar la fruta cítrica de preferencia (mandarina, kiwi, naranja, pomelo, etc.). 2. Lavar bien la fruta bajo el grifo. 3. Para mandarinas y naranjas: pelar la piel con las manos o con ayuda de un cuchillo. Separar los gajos si se desea. 4. Para kiwis: cortar por la mitad y comer la pulpa con una cucharita, o pelar con un cuchillo y cortar en rodajas. 5. Para pomelos: cortar por la mitad y extraer los gajos, o comer con cuchara. Consumir directamente.",
+        "originalBaseRecipeId": "ext_fruta_ctrica_mandarina_kiwi_naranja",
+        "isSideDish": false,
+        "mealCategory": "extra"
+    },
+    "p1_extra_Batido_Whey_de_mainOnly_idx4": {
+        "id": "p1_extra_Batido_Whey_de_mainOnly_idx4",
+        "name": "Batido Whey de Proteínas",
+        "calories": 114,
+        "protein": 24,
+        "carbs": 1.5,
+        "fats": 1.2,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684f021af6c48d41b5a5c003.png",
+        "ingredients": [
+            {
+                "name": "Proteína Whey en Polvo",
+                "quantity": "30",
+                "unit": "g",
+                "calories": 114,
+                "protein": 24,
+                "carbs": 1.5,
+                "fats": 1.2
+            }
+        ],
+        "preparation": "1. En un shaker (vaso mezclador con rejilla o bola), añadir la cantidad recomendada de proteína en polvo (whey) según las indicaciones del producto (normalmente 1 scoop o cazo dosificador). 2. Añadir la cantidad de líquido deseada (agua, leche o bebida vegetal; unos 200-300 ml suelen ser suficientes). 3. Cerrar bien el shaker. 4. Agitar enérgicamente durante unos 20-30 segundos hasta que el polvo esté completamente disuelto y no haya grumos. 5. Consumir inmediatamente, preferiblemente después del entrenamiento o según las necesidades proteicas individuales.",
+        "originalBaseRecipeId": "ext_batido_whey_de_protenas",
         "isSideDish": false,
         "mealCategory": "extra"
     },
@@ -680,27 +695,27 @@ const foodDatabase = {
         "isSideDish": false,
         "mealCategory": "comida_cena_completa"
     },
-    "p2_extra_Yogur_Protico_Sabores_mainOnly_idx3": {
-        "id": "p2_extra_Yogur_Protico_Sabores_mainOnly_idx3",
-        "name": "Yogur Protéico (Sabores, Natural...)",
-        "calories": 125,
-        "protein": 6.25,
-        "carbs": 12.5,
-        "fats": 5,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd789b8ed38b127cbc09.png",
+    "p2_extra_Batido_Whey_de_mainOnly_idx3": {
+        "id": "p2_extra_Batido_Whey_de_mainOnly_idx3",
+        "name": "Batido Whey de Proteínas",
+        "calories": 114,
+        "protein": 24,
+        "carbs": 1.5,
+        "fats": 1.2,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684f021af6c48d41b5a5c003.png",
         "ingredients": [
             {
-                "name": "Yogur Protéico",
-                "quantity": "1",
-                "unit": "unidad(es)",
-                "calories": 125,
-                "protein": 6.25,
-                "carbs": 12.5,
-                "fats": 5
+                "name": "Proteína Whey en Polvo",
+                "quantity": "30",
+                "unit": "g",
+                "calories": 114,
+                "protein": 24,
+                "carbs": 1.5,
+                "fats": 1.2
             }
         ],
-        "preparation": "1. Seleccionar el yogur proteico de preferencia (natural o con sabores). 2. Abrir el envase. 3. Consumir directamente con una cuchara. Opcional: se puede acompañar de frutas frescas troceadas, frutos secos, semillas o un poco de miel o edulcorante si es natural y se desea endulzar.",
-        "originalBaseRecipeId": "ext_yogur_protico_sabores_natural",
+        "preparation": "1. En un shaker (vaso mezclador con rejilla o bola), añadir la cantidad recomendada de proteína en polvo (whey) según las indicaciones del producto (normalmente 1 scoop o cazo dosificador). 2. Añadir la cantidad de líquido deseada (agua, leche o bebida vegetal; unos 200-300 ml suelen ser suficientes). 3. Cerrar bien el shaker. 4. Agitar enérgicamente durante unos 20-30 segundos hasta que el polvo esté completamente disuelto y no haya grumos. 5. Consumir inmediatamente, preferiblemente después del entrenamiento o según las necesidades proteicas individuales.",
+        "originalBaseRecipeId": "ext_batido_whey_de_protenas",
         "isSideDish": false,
         "mealCategory": "extra"
     },
@@ -776,7 +791,7 @@ const dailyMenus = [
     ],
     "extra": [
       "p0_extra_Fruta_Densa_Pltano_mainOnly_idx5",
-      "p0_extra_Yogur_Protico_Sabores_mainOnly_idx6"
+      "p0_extra_Batido_Whey_de_mainOnly_idx6"
     ]
   },
   {
@@ -797,7 +812,8 @@ const dailyMenus = [
       "p1_cena_Wok_de_Verduras_mainOnly_idx2"
     ],
     "extra": [
-      "p1_extra_Yogurt_Protico_con_mainOnly_idx3"
+      "p1_extra_Fruta_Ctrica_Mandarina_mainOnly_idx3",
+      "p1_extra_Batido_Whey_de_mainOnly_idx4"
     ]
   },
   {
@@ -818,7 +834,7 @@ const dailyMenus = [
       "p2_cena_Fajitas_de_Pollo_mainOnly_idx2"
     ],
     "extra": [
-      "p2_extra_Yogur_Protico_Sabores_mainOnly_idx3",
+      "p2_extra_Batido_Whey_de_mainOnly_idx3",
       "p2_extra_Tortitas_de_Legumbres_mainOnly_idx4",
       "p2_extra_Fruta_Densa_Pltano_mainOnly_idx5"
     ]
