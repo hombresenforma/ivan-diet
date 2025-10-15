@@ -332,74 +332,98 @@ const foodDatabase = {
         "isSideDish": false,
         "mealCategory": "extra"
     },
-    "p1_desayuno_FajitaWrap_de_Jamn_mainOnly_idx0": {
-        "id": "p1_desayuno_FajitaWrap_de_Jamn_mainOnly_idx0",
-        "name": "Fajita/Wrap de Jamón y Queso",
-        "calories": 308,
-        "protein": 20.3,
-        "carbs": 28,
-        "fats": 12.3,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68a36fb52e34b733ba5c5630.png",
+    "p1_desayuno_Sandwich_Vegetal_de_mainOnly_idx0": {
+        "id": "p1_desayuno_Sandwich_Vegetal_de_mainOnly_idx0",
+        "name": "Sandwich Vegetal de Atún",
+        "calories": 384,
+        "protein": 41,
+        "carbs": 35,
+        "fats": 6.799999999999999,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cd60954a1880bed54596d.png",
         "ingredients": [
             {
-                "name": "Pan de Fajita",
+                "name": "Pan de Centeno",
+                "quantity": "2",
+                "unit": "rebanada(s)",
+                "calories": 162,
+                "protein": 5.3999999999999995,
+                "carbs": 30,
+                "fats": 1.7999999999999998
+            },
+            {
+                "name": "Atún en Conserva",
+                "quantity": "120",
+                "unit": "g",
+                "calories": 192,
+                "protein": 33.6,
+                "carbs": 0,
+                "fats": 4.8
+            },
+            {
+                "name": "Tomate",
                 "quantity": "50",
                 "unit": "g",
-                "calories": 150,
-                "protein": 4,
-                "carbs": 27.5,
-                "fats": 2.5
+                "calories": 15,
+                "protein": 1,
+                "carbs": 2.5,
+                "fats": 0.1
             },
             {
-                "name": "Jamón Cocido",
+                "name": "Lechuga",
                 "quantity": "50",
                 "unit": "g",
-                "calories": 50,
-                "protein": 10,
-                "carbs": 0.5,
-                "fats": 1
-            },
-            {
-                "name": "Queso Havarti Light",
-                "quantity": "25",
-                "unit": "g",
-                "calories": 62.5,
-                "protein": 6.25,
-                "carbs": 0,
-                "fats": 3.75
-            },
-            {
-                "name": "Aceite de Oliva Virgen Extra",
-                "quantity": "5",
-                "unit": "g",
-                "calories": 45,
-                "protein": 0,
-                "carbs": 0,
-                "fats": 5
+                "calories": 15,
+                "protein": 1,
+                "carbs": 2.5,
+                "fats": 0.1
             }
         ],
-        "preparation": "Calentar la fajita en una sartén con un poco de aceite. Rellenar con el jamón y el queso hasta que el queso se derrita. Doblar y servir.",
-        "originalBaseRecipeId": "des_fajitawrap_de_jamn_y_queso",
+        "preparation": "1. Prepara un bocadillo con un par de rebanadas de Pan de Centeno. 2. Añade el Atún y opcionalmente tomate y lechuga.",
+        "originalBaseRecipeId": "des_sandwich_vegetal_de_atn",
         "isSideDish": false,
         "mealCategory": "desayuno"
     },
-    "p1_comida_Ensalada_de_Pasta_mainOnly_idx1": {
-        "id": "p1_comida_Ensalada_de_Pasta_mainOnly_idx1",
+    "p1_desayuno_Fruta_Densa_Pltano_mainOnly_idx1": {
+        "id": "p1_desayuno_Fruta_Densa_Pltano_mainOnly_idx1",
+        "name": "Fruta Densa (Plátano, Manzana)",
+        "calories": 72,
+        "protein": 0.6,
+        "carbs": 18,
+        "fats": 0.24,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe4bb91eb325b93d4a82.png",
+        "ingredients": [
+            {
+                "name": "Plátano",
+                "quantity": "1",
+                "unit": "unidad(es)",
+                "calories": 72,
+                "protein": 0.6,
+                "carbs": 18,
+                "fats": 0.24
+            }
+        ],
+        "preparation": "1. Seleccionar la fruta densa de preferencia (plátano, manzana, pera, etc.). 2. Para plátanos: pelar la piel y consumir directamente. 3. Para manzanas o peras: lavar bien la fruta. Se puede consumir con piel (rica en fibra) o pelada, según preferencia. Se puede comer entera a mordiscos o cortada en trozos.",
+        "originalBaseRecipeId": "ext_fruta_densa_pltano_manzana",
+        "isSideDish": false,
+        "mealCategory": "extra"
+    },
+    "p1_comida_Ensalada_de_Pasta_mainOnly_idx2": {
+        "id": "p1_comida_Ensalada_de_Pasta_mainOnly_idx2",
         "name": "Ensalada de Pasta con Pollo",
-        "calories": 787.1,
-        "protein": 68.56,
-        "carbs": 71.75,
-        "fats": 23.55,
+        "calories": 734.5,
+        "protein": 66.6,
+        "carbs": 61.25,
+        "fats": 23.25,
         "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afc47b91eb349463d47dd.png",
         "ingredients": [
             {
                 "name": "Pasta (cruda)",
-                "quantity": "90",
+                "quantity": "75",
                 "unit": "g",
-                "calories": 315.6,
-                "protein": 11.760000000000002,
-                "carbs": 62.99999999999999,
-                "fats": 1.8
+                "calories": 263,
+                "protein": 9.8,
+                "carbs": 52.5,
+                "fats": 1.5
             },
             {
                 "name": "Pechuga de Pollo (cruda)",
@@ -470,8 +494,8 @@ const foodDatabase = {
         "isSideDish": false,
         "mealCategory": "comida_cena_completa"
     },
-    "p1_cena_Patatas_Cocidas_con_mainOnly_idx2": {
-        "id": "p1_cena_Patatas_Cocidas_con_mainOnly_idx2",
+    "p1_cena_Patatas_Cocidas_con_mainOnly_idx3": {
+        "id": "p1_cena_Patatas_Cocidas_con_mainOnly_idx3",
         "name": "Patatas Cocidas con Salteado de Verduras y Hamburguesa a la plancha",
         "calories": 597.5,
         "protein": 36.5,
@@ -539,8 +563,8 @@ const foodDatabase = {
         "isSideDish": false,
         "mealCategory": "comida_cena_completa"
     },
-    "p1_extra_Frutos_Secos_Mezcla_mainOnly_idx3": {
-        "id": "p1_extra_Frutos_Secos_Mezcla_mainOnly_idx3",
+    "p1_extra_Frutos_Secos_Mezcla_mainOnly_idx4": {
+        "id": "p1_extra_Frutos_Secos_Mezcla_mainOnly_idx4",
         "name": "Frutos Secos (Mezcla)",
         "calories": 180,
         "protein": 5.7,
@@ -563,8 +587,8 @@ const foodDatabase = {
         "isSideDish": false,
         "mealCategory": "extra"
     },
-    "p1_extra_Yogur_Proteico_con_mainOnly_idx4": {
-        "id": "p1_extra_Yogur_Proteico_con_mainOnly_idx4",
+    "p1_extra_Yogur_Proteico_con_mainOnly_idx5": {
+        "id": "p1_extra_Yogur_Proteico_con_mainOnly_idx5",
         "name": "Yogur Proteico con Cereales de Avena",
         "calories": 499,
         "protein": 19.95,
@@ -1277,17 +1301,18 @@ const dailyMenus = [
     },
     "useCustomMacros": true,
     "desayuno": [
-      "p1_desayuno_FajitaWrap_de_Jamn_mainOnly_idx0"
+      "p1_desayuno_Sandwich_Vegetal_de_mainOnly_idx0",
+      "p1_desayuno_Fruta_Densa_Pltano_mainOnly_idx1"
     ],
     "comida": [
-      "p1_comida_Ensalada_de_Pasta_mainOnly_idx1"
+      "p1_comida_Ensalada_de_Pasta_mainOnly_idx2"
     ],
     "cena": [
-      "p1_cena_Patatas_Cocidas_con_mainOnly_idx2"
+      "p1_cena_Patatas_Cocidas_con_mainOnly_idx3"
     ],
     "extra": [
-      "p1_extra_Frutos_Secos_Mezcla_mainOnly_idx3",
-      "p1_extra_Yogur_Proteico_con_mainOnly_idx4"
+      "p1_extra_Frutos_Secos_Mezcla_mainOnly_idx4",
+      "p1_extra_Yogur_Proteico_con_mainOnly_idx5"
     ]
   },
   {
