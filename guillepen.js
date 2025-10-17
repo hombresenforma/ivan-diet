@@ -182,45 +182,36 @@ const foodDatabase = {
         "isSideDish": false,
         "mealCategory": "plato_principal"
     },
-    "p0_cena_Revuelto_de_Huevos_side_idx3": {
-        "id": "p0_cena_Revuelto_de_Huevos_side_idx3",
-        "name": "Revuelto de Huevos con Espárragos Trigueros",
-        "calories": 249.2,
-        "protein": 15.5,
-        "carbs": 6.1,
-        "fats": 18,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684f019a532eaa9f6977a78c.png",
+    "p0_cena_Hamburguesa_de_PavoPollo_side_idx3": {
+        "id": "p0_cena_Hamburguesa_de_PavoPollo_side_idx3",
+        "name": "Hamburguesa de Pavo-Pollo",
+        "calories": 318.4,
+        "protein": 16,
+        "carbs": 2,
+        "fats": 28,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afcbc9b8ed3b6397cbb33.png",
         "ingredients": [
             {
-                "name": "Espárragos Trigueros",
-                "quantity": "50",
+                "name": "Hamburguesa de Pavo-Pollo",
+                "quantity": "100",
                 "unit": "g",
-                "calories": 50,
-                "protein": 2.5,
-                "carbs": 5,
-                "fats": 2
-            },
-            {
-                "name": "Huevos",
-                "quantity": "2",
-                "unit": "unidad(es)",
-                "calories": 155,
-                "protein": 13,
-                "carbs": 1.1,
-                "fats": 11
+                "calories": 229.99999999999997,
+                "protein": 16,
+                "carbs": 2,
+                "fats": 18
             },
             {
                 "name": "Aceite de Oliva Virgen Extra",
-                "quantity": "5",
+                "quantity": "10",
                 "unit": "g",
-                "calories": 44.2,
+                "calories": 88.4,
                 "protein": 0,
                 "carbs": 0,
-                "fats": 5
+                "fats": 10
             }
         ],
-        "preparation": "1. Lavar los espárragos trigueros y cortar la parte inferior más dura del tallo. Trocear los espárragos en trozos de unos 2-3 cm. 2. Batir los huevos en un bol con una pizca de sal y pimienta. 3. Calentar un poco de aceite de oliva en una sartén a fuego medio. Añadir los espárragos troceados y saltear durante 3-5 minutos, o hasta que estén tiernos pero aún crujientes. 4. Verter los huevos batidos sobre los espárragos en la sartén. 5. Remover suavemente con una espátula, mezclando los huevos con los espárragos, hasta que los huevos estén cuajados al gusto. Servir caliente.",
-        "originalBaseRecipeId": "ac_revuelto_de_huevos_con_esprragos_trigueros",
+        "preparation": "1. Si la hamburguesa es casera a partir de carne picada, sazonar la carne con sal, pimienta, ajo en polvo y perejil picado (opcional) y formar la hamburguesa. Si es comprada, ya está lista. 2. Calentar una plancha o sartén antiadherente a fuego medio-alto con una gota de aceite de oliva (opcional, si la sartén no es muy antiadherente). 3. Cocinar la hamburguesa durante 4-6 minutos por cada lado, o hasta que esté bien cocida por dentro (temperatura interna de 74°C o 165°F) y dorada por fuera. Evitar aplastarla para que no pierda jugosidad.",
+        "originalBaseRecipeId": "ac_hamburguesa_de_pavopollo",
         "isSideDish": true,
         "mealCategory": "acompanamiento"
     },
@@ -365,36 +356,27 @@ const foodDatabase = {
         "isSideDish": false,
         "mealCategory": "plato_principal"
     },
-    "p1_comida_Pechuga_de_Pavo_side_idx2": {
-        "id": "p1_comida_Pechuga_de_Pavo_side_idx2",
-        "name": "Pechuga de Pavo a la Plancha",
-        "calories": 328.4,
-        "protein": 42.00000000000001,
-        "carbs": 0,
-        "fats": 16,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684f003ef6c48dfc43a5bdb3.png",
+    "p1_comida_Fiambre_de_PavoPollo_side_idx2": {
+        "id": "p1_comida_Fiambre_de_PavoPollo_side_idx2",
+        "name": "Fiambre de Pavo/Pollo",
+        "calories": 184,
+        "protein": 12.8,
+        "carbs": 1.6,
+        "fats": 14.399999999999999,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68f27f364c291a8923682d43.png",
         "ingredients": [
             {
-                "name": "Pechuga de Pavo",
-                "quantity": "150",
+                "name": "Fiambre de Pavo/Pollo",
+                "quantity": "80",
                 "unit": "g",
-                "calories": 240,
-                "protein": 42.00000000000001,
-                "carbs": 0,
-                "fats": 6
-            },
-            {
-                "name": "Aceite de Oliva Virgen Extra",
-                "quantity": "10",
-                "unit": "g",
-                "calories": 88.4,
-                "protein": 0,
-                "carbs": 0,
-                "fats": 10
+                "calories": 184,
+                "protein": 12.8,
+                "carbs": 1.6,
+                "fats": 14.399999999999999
             }
         ],
-        "preparation": "1. Si los filetes de pechuga de pavo son muy gruesos, se pueden abrir tipo libro o golpear ligeramente para que tengan un grosor más uniforme y se cocinen mejor. 2. Sazonar los filetes de pavo con sal, pimienta y tus especias favoritas (ej. orégano, pimentón dulce, curry en polvo, hierbas provenzales). 3. Calentar una plancha o sartén antiadherente a fuego medio-alto con una gota de aceite de oliva. 4. Cocinar la pechuga de pavo durante unos 3-4 minutos por cada lado, o hasta que esté dorada por fuera y completamente cocida por dentro (sin partes rosadas). El tiempo exacto dependerá del grosor.",
-        "originalBaseRecipeId": "ac_pechuga_de_pavo_a_la_plancha",
+        "preparation": "Servir las lonchas directamente o añadir a ensaladas y bocadillos.",
+        "originalBaseRecipeId": "ac_fiambre_de_pavopollo",
         "isSideDish": true,
         "mealCategory": "acompanamiento"
     },
@@ -629,38 +611,38 @@ const foodDatabase = {
     "p2_cena_Ensalada_de_Tomate_mainOnly_idx2": {
         "id": "p2_cena_Ensalada_de_Tomate_mainOnly_idx2",
         "name": "Ensalada de Tomate, Aguacate, Cebolla y Lima",
-        "calories": 382.5,
-        "protein": 10.5,
-        "carbs": 18.75,
-        "fats": 30.299999999999997,
+        "calories": 300,
+        "protein": 10,
+        "carbs": 20,
+        "fats": 20.5,
         "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cf9a725d68c4bc3ec3502.png",
         "ingredients": [
             {
                 "name": "Tomate",
-                "quantity": "75",
+                "quantity": "150",
                 "unit": "g",
-                "calories": 22.5,
-                "protein": 1.5,
-                "carbs": 3.75,
-                "fats": 0.15
+                "calories": 45,
+                "protein": 3,
+                "carbs": 7.5,
+                "fats": 0.3
             },
             {
                 "name": "Aguacate",
-                "quantity": "75",
+                "quantity": "50",
                 "unit": "g",
-                "calories": 337.5,
-                "protein": 7.5,
-                "carbs": 11.25,
-                "fats": 30
+                "calories": 225,
+                "protein": 5,
+                "carbs": 7.5,
+                "fats": 20
             },
             {
                 "name": "Cebolla",
-                "quantity": "75",
+                "quantity": "100",
                 "unit": "g",
-                "calories": 22.5,
-                "protein": 1.5,
-                "carbs": 3.75,
-                "fats": 0.15
+                "calories": 30,
+                "protein": 2,
+                "carbs": 5,
+                "fats": 0.2
             }
         ],
         "preparation": "1. Cortar el tomate y el aguacate en dados. 2. Picar la cebolla en juliana fina. 3. Mezclar todos los ingredientes en un bol. 4. Exprimir el zumo de media lima por encima, añadir aceite de oliva y sal. Mezclar bien.",
@@ -668,36 +650,27 @@ const foodDatabase = {
         "isSideDish": false,
         "mealCategory": "plato_principal"
     },
-    "p2_cena_Hamburguesa_de_PavoPollo_side_idx3": {
-        "id": "p2_cena_Hamburguesa_de_PavoPollo_side_idx3",
-        "name": "Hamburguesa de Pavo-Pollo",
-        "calories": 410.4,
-        "protein": 22.400000000000002,
-        "carbs": 2.8000000000000003,
-        "fats": 35.2,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afcbc9b8ed3b6397cbb33.png",
+    "p2_cena_Huevo_Duro_Cocido_side_idx3": {
+        "id": "p2_cena_Huevo_Duro_Cocido_side_idx3",
+        "name": "Huevo Duro Cocido",
+        "calories": 232.5,
+        "protein": 19.5,
+        "carbs": 1.6500000000000001,
+        "fats": 16.5,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68f27f5bfb2e440988a37788.png",
         "ingredients": [
             {
-                "name": "Hamburguesa de Pavo-Pollo",
-                "quantity": "140",
-                "unit": "g",
-                "calories": 322,
-                "protein": 22.400000000000002,
-                "carbs": 2.8000000000000003,
-                "fats": 25.2
-            },
-            {
-                "name": "Aceite de Oliva Virgen Extra",
-                "quantity": "10",
-                "unit": "g",
-                "calories": 88.4,
-                "protein": 0,
-                "carbs": 0,
-                "fats": 10
+                "name": "Huevo Cocido",
+                "quantity": "3",
+                "unit": "unidad(es)",
+                "calories": 232.5,
+                "protein": 19.5,
+                "carbs": 1.6500000000000001,
+                "fats": 16.5
             }
         ],
-        "preparation": "1. Si la hamburguesa es casera a partir de carne picada, sazonar la carne con sal, pimienta, ajo en polvo y perejil picado (opcional) y formar la hamburguesa. Si es comprada, ya está lista. 2. Calentar una plancha o sartén antiadherente a fuego medio-alto con una gota de aceite de oliva (opcional, si la sartén no es muy antiadherente). 3. Cocinar la hamburguesa durante 4-6 minutos por cada lado, o hasta que esté bien cocida por dentro (temperatura interna de 74°C o 165°F) y dorada por fuera. Evitar aplastarla para que no pierda jugosidad.",
-        "originalBaseRecipeId": "ac_hamburguesa_de_pavopollo",
+        "preparation": "Cocer el huevo en agua hirviendo durante 10-12 minutos. Pelar y servir.",
+        "originalBaseRecipeId": "ac_huevo_duro_cocido",
         "isSideDish": true,
         "mealCategory": "acompanamiento"
     },
@@ -768,7 +741,7 @@ const dailyMenus = [
     ],
     "cena": [
       "p0_cena_Calabacn_con_Cebolla_mainOnly_idx2",
-      "p0_cena_Revuelto_de_Huevos_side_idx3"
+      "p0_cena_Hamburguesa_de_PavoPollo_side_idx3"
     ],
     "extra": [
       "p0_extra_Fruta_Densa_Pltano_mainOnly_idx4",
@@ -788,7 +761,7 @@ const dailyMenus = [
     ],
     "comida": [
       "p1_comida_Ensalada_de_Lentejas_mainOnly_idx1",
-      "p1_comida_Pechuga_de_Pavo_side_idx2"
+      "p1_comida_Fiambre_de_PavoPollo_side_idx2"
     ],
     "cena": [
       "p1_cena_Fajitas_de_Pollo_mainOnly_idx3"
@@ -814,7 +787,7 @@ const dailyMenus = [
     ],
     "cena": [
       "p2_cena_Ensalada_de_Tomate_mainOnly_idx2",
-      "p2_cena_Hamburguesa_de_PavoPollo_side_idx3"
+      "p2_cena_Huevo_Duro_Cocido_side_idx3"
     ],
     "extra": [
       "p2_extra_Yogur_Protico_Sabores_mainOnly_idx4",
