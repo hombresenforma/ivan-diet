@@ -311,72 +311,72 @@ const foodDatabase = {
         "isSideDish": false,
         "mealCategory": "desayuno"
     },
-    "p1_comida_Patatas_Cocidas_con_mainOnly_idx1": {
-        "id": "p1_comida_Patatas_Cocidas_con_mainOnly_idx1",
-        "name": "Patatas Cocidas con Salteado de Verduras y Hamburguesa a la plancha",
-        "calories": 658.4,
-        "protein": 33,
-        "carbs": 48,
-        "fats": 37.75,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cf8559b0c6709fc9afa98.png",
+    "p1_comida_Wrap_de_pollo_mainOnly_idx1": {
+        "id": "p1_comida_Wrap_de_pollo_mainOnly_idx1",
+        "name": "Wrap de pollo hervido con verduras y arroz",
+        "calories": 652,
+        "protein": 57.900000000000006,
+        "carbs": 78.75,
+        "fats": 9.25,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684ef7e26202d54cb0de24e8.png",
         "ingredients": [
             {
-                "name": "Patata",
+                "name": "Pechuga de Pollo",
                 "quantity": "150",
                 "unit": "g",
-                "calories": 135,
-                "protein": 3,
-                "carbs": 30,
+                "calories": 240,
+                "protein": 42.00000000000001,
+                "carbs": 0,
+                "fats": 6
+            },
+            {
+                "name": "Arroz",
+                "quantity": "50",
+                "unit": "g",
+                "calories": 182.5,
+                "protein": 6,
+                "carbs": 37.5,
+                "fats": 1
+            },
+            {
+                "name": "Brócoli",
+                "quantity": "75",
+                "unit": "g",
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
                 "fats": 0.15
             },
             {
-                "name": "Pimiento Verde",
-                "quantity": "100",
+                "name": "Zanahoria",
+                "quantity": "75",
                 "unit": "g",
-                "calories": 30,
-                "protein": 2,
-                "carbs": 5,
-                "fats": 0.2
-            },
-            {
-                "name": "Pimiento Rojo",
-                "quantity": "100",
-                "unit": "g",
-                "calories": 30,
-                "protein": 2,
-                "carbs": 5,
-                "fats": 0.2
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
             },
             {
                 "name": "Cebolla",
-                "quantity": "100",
+                "quantity": "75",
                 "unit": "g",
-                "calories": 30,
-                "protein": 2,
-                "carbs": 5,
-                "fats": 0.2
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
             },
             {
-                "name": "Hamburguesa de Pavo-Pollo",
-                "quantity": "150",
-                "unit": "g",
-                "calories": 345,
-                "protein": 24,
-                "carbs": 3,
-                "fats": 27
-            },
-            {
-                "name": "Aceite de Oliva Virgen Extra",
-                "quantity": "10",
-                "unit": "g",
-                "calories": 88.4,
-                "protein": 0,
-                "carbs": 0,
-                "fats": 10
+                "name": "Tortilla de Wrap",
+                "quantity": "1",
+                "unit": "unidad(es)",
+                "calories": 162,
+                "protein": 5.3999999999999995,
+                "carbs": 30,
+                "fats": 1.7999999999999998
             }
         ],
-        "preparation": "1. Cocer las patatas en agua con sal. 2. Mientras, saltear las verduras (pimiento, cebolla) en una sartén. 3. Cocinar la hamburguesa a la plancha. 4. Servir las patatas cocidas con el salteado de verduras y la hamburguesa.",
-        "originalBaseRecipeId": "cc_patatas_cocidas_con_salteado_de_verduras_y_hamburguesa_a_la_plancha",
+        "preparation": "1. Hervir la pechuga de pollo en agua con sal hasta que esté cocida (unos 15-20 minutos). Dejar enfriar un poco y desmenuzar o cortar en trozos pequeños. 2. Cocer el arroz según las instrucciones del paquete. 3. Cocer al vapor o hervir el brócoli (en floretes pequeños) y la zanahoria (cortada en juliana o dados pequeños) hasta que estén tiernos pero crujientes. Picar la cebolla finamente (puede usarse cruda o salteada ligeramente). 4. Calentar ligeramente la tortilla de wrap para que sea más flexible. 5. Extender una capa fina de arroz cocido sobre la tortilla, dejando un borde libre. Distribuir encima el pollo desmenuzado, el brócoli, la zanahoria y la cebolla. 6. Opcional: añadir una salsa ligera (yogur con hierbas, hummus, etc.). Enrollar el wrap firmemente, doblando los extremos hacia adentro si se prefiere.",
+        "originalBaseRecipeId": "cc_wrap_de_pollo_hervido_con_verduras_y_arroz",
         "isSideDish": false,
         "mealCategory": "comida_cena_completa"
     },
@@ -456,7 +456,7 @@ const foodDatabase = {
         "protein": 9.55,
         "carbs": 26,
         "fats": 17.12,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afea2b91eb35e413d4ab6.png",
+        "image": "",
         "ingredients": [
             {
                 "name": "Yogur Protéico",
@@ -737,8 +737,59 @@ const foodDatabase = {
         "isSideDish": false,
         "mealCategory": "extra"
     },
-    "p3_comida_Alcachofa_salteada_con_mainOnly_idx0": {
-        "id": "p3_comida_Alcachofa_salteada_con_mainOnly_idx0",
+    "p3_desayuno_Sandwich_Vegetal_de_mainOnly_idx0": {
+        "id": "p3_desayuno_Sandwich_Vegetal_de_mainOnly_idx0",
+        "name": "Sandwich Vegetal de Atún",
+        "calories": 462,
+        "protein": 51.400000000000006,
+        "carbs": 40,
+        "fats": 8.2,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cd60954a1880bed54596d.png",
+        "ingredients": [
+            {
+                "name": "Pan de Centeno",
+                "quantity": "2",
+                "unit": "rebanada(s)",
+                "calories": 162,
+                "protein": 5.3999999999999995,
+                "carbs": 30,
+                "fats": 1.7999999999999998
+            },
+            {
+                "name": "Atún en Conserva",
+                "quantity": "150",
+                "unit": "g",
+                "calories": 240,
+                "protein": 42.00000000000001,
+                "carbs": 0,
+                "fats": 6
+            },
+            {
+                "name": "Tomate",
+                "quantity": "100",
+                "unit": "g",
+                "calories": 30,
+                "protein": 2,
+                "carbs": 5,
+                "fats": 0.2
+            },
+            {
+                "name": "Lechuga",
+                "quantity": "100",
+                "unit": "g",
+                "calories": 30,
+                "protein": 2,
+                "carbs": 5,
+                "fats": 0.2
+            }
+        ],
+        "preparation": "1. Prepara un bocadillo con un par de rebanadas de Pan de Centeno. 2. Añade el Atún y opcionalmente tomate y lechuga.",
+        "originalBaseRecipeId": "des_sandwich_vegetal_de_atn",
+        "isSideDish": false,
+        "mealCategory": "desayuno"
+    },
+    "p3_comida_Alcachofa_salteada_con_mainOnly_idx1": {
+        "id": "p3_comida_Alcachofa_salteada_con_mainOnly_idx1",
         "name": "Alcachofa salteada con jamón, huevo",
         "calories": 383.4,
         "protein": 26,
@@ -788,8 +839,8 @@ const foodDatabase = {
         "isSideDish": false,
         "mealCategory": "plato_principal"
     },
-    "p3_comida_SolomilloFilete_de_Ternera_side_idx1": {
-        "id": "p3_comida_SolomilloFilete_de_Ternera_side_idx1",
+    "p3_comida_SolomilloFilete_de_Ternera_side_idx2": {
+        "id": "p3_comida_SolomilloFilete_de_Ternera_side_idx2",
         "name": "Solomillo/Filete de Ternera a la Plancha",
         "calories": 352.4,
         "protein": 26.4,
@@ -820,75 +871,6 @@ const foodDatabase = {
         "originalBaseRecipeId": "ac_solomillofilete_de_ternera_a_la_plancha",
         "isSideDish": true,
         "mealCategory": "acompanamiento"
-    },
-    "p3_cena_Ensalada_con_Pollo_mainOnly_idx2": {
-        "id": "p3_cena_Ensalada_con_Pollo_mainOnly_idx2",
-        "name": "Ensalada con Pollo y Queso de Burgos",
-        "calories": 518.4,
-        "protein": 60.00000000000001,
-        "carbs": 19,
-        "fats": 20.6,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afdceb91eb360843d4a0b.png",
-        "ingredients": [
-            {
-                "name": "Canónigos",
-                "quantity": "100",
-                "unit": "g",
-                "calories": 30,
-                "protein": 2,
-                "carbs": 5,
-                "fats": 0.2
-            },
-            {
-                "name": "Tomate",
-                "quantity": "100",
-                "unit": "g",
-                "calories": 30,
-                "protein": 2,
-                "carbs": 5,
-                "fats": 0.2
-            },
-            {
-                "name": "Cebolla",
-                "quantity": "100",
-                "unit": "g",
-                "calories": 30,
-                "protein": 2,
-                "carbs": 5,
-                "fats": 0.2
-            },
-            {
-                "name": "Queso de Burgos 0%",
-                "quantity": "100",
-                "unit": "g",
-                "calories": 100,
-                "protein": 12,
-                "carbs": 4,
-                "fats": 4
-            },
-            {
-                "name": "Pechuga de Pollo",
-                "quantity": "150",
-                "unit": "g",
-                "calories": 240,
-                "protein": 42.00000000000001,
-                "carbs": 0,
-                "fats": 6
-            },
-            {
-                "name": "Aceite de Oliva Virgen Extra",
-                "quantity": "10",
-                "unit": "g",
-                "calories": 88.4,
-                "protein": 0,
-                "carbs": 0,
-                "fats": 10
-            }
-        ],
-        "preparation": "1. Cocinar la pechuga de pollo (a la plancha, hervida o asada) y cortarla en tiras o dados. 2. Lavar los canónigos y escurrirlos bien. Cortar los tomates (cherry por la mitad, o normales en gajos) y la cebolla en rodajas finas o juliana. Cortar el queso de Burgos 0% en dados o láminas. 3. En un bol o plato grande, disponer una base de canónigos. Añadir encima el tomate, la cebolla, el pollo y el queso de Burgos. 4. Aliñar con aceite de oliva virgen extra, vinagre (de manzana o Módena) y sal al gusto.",
-        "originalBaseRecipeId": "cc_ensalada_con_pollo_y_queso_de_burgos",
-        "isSideDish": false,
-        "mealCategory": "comida_cena_completa"
     },
     "p3_extra_Yogur_Protico_Sabores_mainOnly_idx3": {
         "id": "p3_extra_Yogur_Protico_Sabores_mainOnly_idx3",
@@ -977,7 +959,7 @@ const dailyMenus = [
       "p1_desayuno_Tostada_de_Pan_mainOnly_idx0"
     ],
     "comida": [
-      "p1_comida_Patatas_Cocidas_con_mainOnly_idx1"
+      "p1_comida_Wrap_de_pollo_mainOnly_idx1"
     ],
     "cena": [
       "p1_cena_Wok_de_Verduras_mainOnly_idx2"
@@ -1016,14 +998,14 @@ const dailyMenus = [
       "carbs": 200
     },
     "useCustomMacros": true,
-    "desayuno": [],
+    "desayuno": [
+      "p3_desayuno_Sandwich_Vegetal_de_mainOnly_idx0"
+    ],
     "comida": [
-      "p3_comida_Alcachofa_salteada_con_mainOnly_idx0",
-      "p3_comida_SolomilloFilete_de_Ternera_side_idx1"
+      "p3_comida_Alcachofa_salteada_con_mainOnly_idx1",
+      "p3_comida_SolomilloFilete_de_Ternera_side_idx2"
     ],
-    "cena": [
-      "p3_cena_Ensalada_con_Pollo_mainOnly_idx2"
-    ],
+    "cena": [],
     "extra": [
       "p3_extra_Yogur_Protico_Sabores_mainOnly_idx3",
       "p3_extra_Fruta_Ctrica_Mandarina_mainOnly_idx4"
