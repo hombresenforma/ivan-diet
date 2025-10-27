@@ -4,12 +4,12 @@
 const foodDatabase = {
     "p0_desayuno_Tostada_de_Centeno_mainOnly_idx0": {
         "id": "p0_desayuno_Tostada_de_Centeno_mainOnly_idx0",
-        "name": "Tostada de Centeno con Huevo y Aguacate",
-        "calories": 381.9,
-        "protein": 12.2,
-        "carbs": 20.05,
-        "fats": 28.4,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687a695da648331355d3b0b2.png",
+        "name": "Tostada de Centeno con Huevo y Queso Cottage",
+        "calories": 252.7,
+        "protein": 15.2,
+        "carbs": 17.55,
+        "fats": 13.4,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682ad5cf9b8ed31c657c80e8.png",
         "ingredients": [
             {
                 "name": "Tostada de Pan de Centeno",
@@ -21,7 +21,7 @@ const foodDatabase = {
                 "fats": 0.8999999999999999
             },
             {
-                "name": "Huevos",
+                "name": "Huevo",
                 "quantity": "1",
                 "unit": "unidad(es)",
                 "calories": 77.5,
@@ -30,26 +30,26 @@ const foodDatabase = {
                 "fats": 5.5
             },
             {
-                "name": "Aguacate",
-                "quantity": "30",
+                "name": "Queso Cottage",
+                "quantity": "50",
                 "unit": "g",
-                "calories": 135,
-                "protein": 3,
-                "carbs": 4.5,
-                "fats": 12
+                "calories": 50,
+                "protein": 6,
+                "carbs": 2,
+                "fats": 2
             },
             {
                 "name": "Aceite de Oliva Virgen Extra",
-                "quantity": "10",
+                "quantity": "5",
                 "unit": "g",
-                "calories": 88.4,
+                "calories": 44.2,
                 "protein": 0,
                 "carbs": 0,
-                "fats": 10
+                "fats": 5
             }
         ],
-        "preparation": "1. Tostar el pan de centeno. 2. Cocinar los huevos al gusto (revueltos, pochados, a la plancha). 3. Machacar el aguacate sobre las tostadas y añadir aceite y especias.",
-        "originalBaseRecipeId": "des_tostada_de_centeno_con_huevo_y_aguacate",
+        "preparation": "1. Tostar el pan de centeno. 2. Cocinar los huevos al gusto (revueltos, pochados, a la plancha). 3. Untar el queso cottage sobre las tostadas. 4. Añadir el aguacate laminado (si se usa en la receta ajustada) y los huevos encima.",
+        "originalBaseRecipeId": "des_tostada_de_centeno_con_huevo_y_queso_cottage",
         "isSideDish": false,
         "mealCategory": "desayuno"
     },
@@ -221,45 +221,36 @@ const foodDatabase = {
         "isSideDish": true,
         "mealCategory": "acompanamiento"
     },
-    "p1_desayuno_Tostada_de_Pan_mainOnly_idx0": {
-        "id": "p1_desayuno_Tostada_de_Pan_mainOnly_idx0",
-        "name": "Tostada de Pan de Centeno con Revuelto de Huevos y Jamón York",
-        "calories": 296.5,
-        "protein": 18.799999999999997,
-        "carbs": 16.75,
-        "fats": 17.2,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687d09e04d6fb7f271b84cc9.png",
+    "p1_desayuno_Pan_wasa_con_mainOnly_idx0": {
+        "id": "p1_desayuno_Pan_wasa_con_mainOnly_idx0",
+        "name": "Pan wasa con Jamón Ibérico",
+        "calories": 159,
+        "protein": 14.1,
+        "carbs": 5,
+        "fats": 8.700000000000001,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68cc570eeaa0586bf6a8d560.png",
         "ingredients": [
             {
-                "name": "Tostada de Pan de Centeno",
+                "name": "Pan Wasa",
                 "quantity": "1",
                 "unit": "rebanada(s)",
-                "calories": 81,
-                "protein": 2.6999999999999997,
-                "carbs": 15,
-                "fats": 0.8999999999999999
+                "calories": 27,
+                "protein": 0.8999999999999999,
+                "carbs": 5,
+                "fats": 0.3
             },
             {
-                "name": "Huevos",
-                "quantity": "1",
-                "unit": "unidad(es)",
-                "calories": 77.5,
-                "protein": 6.5,
-                "carbs": 0.55,
-                "fats": 5.5
-            },
-            {
-                "name": "Jamón York",
+                "name": "Jamón Ibérico",
                 "quantity": "60",
                 "unit": "g",
-                "calories": 138,
-                "protein": 9.6,
-                "carbs": 1.2,
-                "fats": 10.799999999999999
+                "calories": 132,
+                "protein": 13.2,
+                "carbs": 0,
+                "fats": 8.4
             }
         ],
-        "preparation": "1. Tostar el pan de centeno. 2. Preparar un revuelto de huevos con taquitos de jamón york. 3. Servir el revuelto sobre la tostada.",
-        "originalBaseRecipeId": "des_tostada_de_pan_de_centeno_con_revuelto_de_huevos_y_jamn_york",
+        "preparation": "1. Colocar las lonchas de jamón ibérico sobre el pan wasa.",
+        "originalBaseRecipeId": "des_pan_wasa_con_jamn_ibrico",
         "isSideDish": false,
         "mealCategory": "desayuno"
     },
@@ -461,65 +452,59 @@ const foodDatabase = {
         "isSideDish": false,
         "mealCategory": "extra"
     },
-    "p2_desayuno_Tostada_de_centeno_mainOnly_idx0": {
-        "id": "p2_desayuno_Tostada_de_centeno_mainOnly_idx0",
-        "name": "Tostada de centeno con jamón ibérico",
-        "calories": 235,
-        "protein": 18.1,
-        "carbs": 15,
-        "fats": 10.700000000000001,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6887226c7537da60484d071f.png",
+    "p2_desayuno_Pan_wasa_con_mainOnly_idx0": {
+        "id": "p2_desayuno_Pan_wasa_con_mainOnly_idx0",
+        "name": "Pan wasa con Huevo, Aguacate y Cherries",
+        "calories": 254.5,
+        "protein": 11.4,
+        "carbs": 12.55,
+        "fats": 17.900000000000002,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68cc56abf782ba4c11b42a44.png",
         "ingredients": [
             {
-                "name": "Tostada de Pan de Centeno",
+                "name": "Pan Wasa",
                 "quantity": "1",
                 "unit": "rebanada(s)",
-                "calories": 81,
-                "protein": 2.6999999999999997,
-                "carbs": 15,
-                "fats": 0.8999999999999999
+                "calories": 27,
+                "protein": 0.8999999999999999,
+                "carbs": 5,
+                "fats": 0.3
             },
             {
-                "name": "Jamón Ibérico",
-                "quantity": "70",
-                "unit": "g",
-                "calories": 154,
-                "protein": 15.4,
-                "carbs": 0,
-                "fats": 9.8
-            }
-        ],
-        "preparation": "1. Tostar el pan de centeno. 2. Colocar las lonchas de jamón ibérico por encima. Opcional: añadir un chorrito de aceite de oliva.",
-        "originalBaseRecipeId": "ext_tostada_de_centeno_con_jamn_ibrico",
-        "isSideDish": false,
-        "mealCategory": "extra"
-    },
-    "p2_desayuno_Fruta_Ctrica_Mandarina_mainOnly_idx1": {
-        "id": "p2_desayuno_Fruta_Ctrica_Mandarina_mainOnly_idx1",
-        "name": "Fruta Cítrica (Mandarina, Kiwi, Naranja...)",
-        "calories": 45,
-        "protein": 0.375,
-        "carbs": 11.25,
-        "fats": 0.15,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd3d0ed506305442ffe4.png",
-        "ingredients": [
-            {
-                "name": "Kiwi",
+                "name": "Huevo",
                 "quantity": "1",
                 "unit": "unidad(es)",
-                "calories": 45,
-                "protein": 0.375,
-                "carbs": 11.25,
-                "fats": 0.15
+                "calories": 77.5,
+                "protein": 6.5,
+                "carbs": 0.55,
+                "fats": 5.5
+            },
+            {
+                "name": "Aguacate",
+                "quantity": "30",
+                "unit": "g",
+                "calories": 135,
+                "protein": 3,
+                "carbs": 4.5,
+                "fats": 12
+            },
+            {
+                "name": "Tomates Cherry",
+                "quantity": "50",
+                "unit": "g",
+                "calories": 15,
+                "protein": 1,
+                "carbs": 2.5,
+                "fats": 0.1
             }
         ],
-        "preparation": "1. Seleccionar la fruta cítrica de preferencia (mandarina, kiwi, naranja, pomelo, etc.). 2. Lavar bien la fruta bajo el grifo. 3. Para mandarinas y naranjas: pelar la piel con las manos o con ayuda de un cuchillo. Separar los gajos si se desea. 4. Para kiwis: cortar por la mitad y comer la pulpa con una cucharita, o pelar con un cuchillo y cortar en rodajas. 5. Para pomelos: cortar por la mitad y extraer los gajos, o comer con cuchara. Consumir directamente.",
-        "originalBaseRecipeId": "ext_fruta_ctrica_mandarina_kiwi_naranja",
+        "preparation": "1. Tostar el pan wasa. 2. Cocinar el huevo al gusto. 3. Untar el aguacate sobre el pan, añadir el huevo y los tomates cherry.",
+        "originalBaseRecipeId": "ext_pan_wasa_con_huevo_aguacate_y_cherries",
         "isSideDish": false,
         "mealCategory": "extra"
     },
-    "p2_comida_Wok_de_Verduras_mainOnly_idx2": {
-        "id": "p2_comida_Wok_de_Verduras_mainOnly_idx2",
+    "p2_comida_Wok_de_Verduras_mainOnly_idx1": {
+        "id": "p2_comida_Wok_de_Verduras_mainOnly_idx1",
         "name": "Wok de Verduras con Salmón",
         "calories": 538.4,
         "protein": 41,
@@ -587,8 +572,8 @@ const foodDatabase = {
         "isSideDish": false,
         "mealCategory": "comida_cena_completa"
     },
-    "p2_cena_Boniato_asado_con_mainOnly_idx3": {
-        "id": "p2_cena_Boniato_asado_con_mainOnly_idx3",
+    "p2_cena_Boniato_asado_con_mainOnly_idx2": {
+        "id": "p2_cena_Boniato_asado_con_mainOnly_idx2",
         "name": "Boniato asado con ensalada de tomate",
         "calories": 298.4,
         "protein": 6,
@@ -638,8 +623,8 @@ const foodDatabase = {
         "isSideDish": false,
         "mealCategory": "plato_principal"
     },
-    "p2_cena_Revuelto_de_Huevos_side_idx4": {
-        "id": "p2_cena_Revuelto_de_Huevos_side_idx4",
+    "p2_cena_Revuelto_de_Huevos_side_idx3": {
+        "id": "p2_cena_Revuelto_de_Huevos_side_idx3",
         "name": "Revuelto de Huevos con Espárragos Trigueros",
         "calories": 293.4,
         "protein": 15.5,
@@ -680,8 +665,8 @@ const foodDatabase = {
         "isSideDish": true,
         "mealCategory": "acompanamiento"
     },
-    "p2_extra_Sandwich_Vegetal_de_mainOnly_idx5": {
-        "id": "p2_extra_Sandwich_Vegetal_de_mainOnly_idx5",
+    "p2_extra_Sandwich_Vegetal_de_mainOnly_idx4": {
+        "id": "p2_extra_Sandwich_Vegetal_de_mainOnly_idx4",
         "name": "Sandwich Vegetal de Jamón York",
         "calories": 330,
         "protein": 17,
@@ -992,7 +977,7 @@ const dailyMenus = [
     },
     "useCustomMacros": true,
     "desayuno": [
-      "p1_desayuno_Tostada_de_Pan_mainOnly_idx0"
+      "p1_desayuno_Pan_wasa_con_mainOnly_idx0"
     ],
     "comida": [
       "p1_comida_Ensala_de_Patata_mainOnly_idx1"
@@ -1013,18 +998,17 @@ const dailyMenus = [
     },
     "useCustomMacros": true,
     "desayuno": [
-      "p2_desayuno_Tostada_de_centeno_mainOnly_idx0",
-      "p2_desayuno_Fruta_Ctrica_Mandarina_mainOnly_idx1"
+      "p2_desayuno_Pan_wasa_con_mainOnly_idx0"
     ],
     "comida": [
-      "p2_comida_Wok_de_Verduras_mainOnly_idx2"
+      "p2_comida_Wok_de_Verduras_mainOnly_idx1"
     ],
     "cena": [
-      "p2_cena_Boniato_asado_con_mainOnly_idx3",
-      "p2_cena_Revuelto_de_Huevos_side_idx4"
+      "p2_cena_Boniato_asado_con_mainOnly_idx2",
+      "p2_cena_Revuelto_de_Huevos_side_idx3"
     ],
     "extra": [
-      "p2_extra_Sandwich_Vegetal_de_mainOnly_idx5"
+      "p2_extra_Sandwich_Vegetal_de_mainOnly_idx4"
     ]
   },
   {
