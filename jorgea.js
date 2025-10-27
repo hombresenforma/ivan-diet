@@ -5,20 +5,20 @@ const foodDatabase = {
     "p0_desayuno_Revuelto_de_Huevos_mainOnly_idx0": {
         "id": "p0_desayuno_Revuelto_de_Huevos_mainOnly_idx0",
         "name": "Revuelto de Huevos con Jamón",
-        "calories": 353.4,
-        "protein": 24,
-        "carbs": 1.1,
-        "fats": 28,
+        "calories": 275.9,
+        "protein": 17.5,
+        "carbs": 0.55,
+        "fats": 22.5,
         "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682ad5e1e819fcb589a8a30e.png",
         "ingredients": [
             {
                 "name": "Huevos",
-                "quantity": "2",
+                "quantity": "1",
                 "unit": "unidad(es)",
-                "calories": 155,
-                "protein": 13,
-                "carbs": 1.1,
-                "fats": 11
+                "calories": 77.5,
+                "protein": 6.5,
+                "carbs": 0.55,
+                "fats": 5.5
             },
             {
                 "name": "Jamón Serrano",
@@ -47,20 +47,20 @@ const foodDatabase = {
     "p0_comida_Patatas_Cocidas_con_mainOnly_idx1": {
         "id": "p0_comida_Patatas_Cocidas_con_mainOnly_idx1",
         "name": "Patatas Cocidas con Salteado de Verduras y Hamburguesa a la plancha",
-        "calories": 634.4,
-        "protein": 29.2,
-        "carbs": 57.4,
-        "fats": 32.4,
+        "calories": 589.4,
+        "protein": 28.2,
+        "carbs": 47.4,
+        "fats": 32.349999999999994,
         "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cf8559b0c6709fc9afa98.png",
         "ingredients": [
             {
                 "name": "Patata",
-                "quantity": "200",
+                "quantity": "150",
                 "unit": "g",
-                "calories": 180,
-                "protein": 4,
-                "carbs": 40,
-                "fats": 0.2
+                "calories": 135,
+                "protein": 3,
+                "carbs": 30,
+                "fats": 0.15
             },
             {
                 "name": "Pimiento Verde",
@@ -434,13 +434,13 @@ const foodDatabase = {
         "isSideDish": true,
         "mealCategory": "acompanamiento"
     },
-    "p1_extra_Yogurt_Protico_con_mainOnly_idx4": {
-        "id": "p1_extra_Yogurt_Protico_con_mainOnly_idx4",
-        "name": "Yogurt Protéico con Frutos Rojos y Secos",
-        "calories": 308,
-        "protein": 9.65,
-        "carbs": 29,
-        "fats": 17.16,
+    "p1_extra_Yogur_Protico_con_mainOnly_idx4": {
+        "id": "p1_extra_Yogur_Protico_con_mainOnly_idx4",
+        "name": "Yogur Protéico con Frutos Rojos y Secos",
+        "calories": 251,
+        "protein": 8.55,
+        "carbs": 24.5,
+        "fats": 13.120000000000001,
         "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afea2b91eb35e413d4ab6.png",
         "ingredients": [
             {
@@ -454,25 +454,25 @@ const foodDatabase = {
             },
             {
                 "name": "Frutos Rojos",
-                "quantity": "80",
+                "quantity": "60",
                 "unit": "g",
-                "calories": 48,
-                "protein": 0.4,
-                "carbs": 12,
-                "fats": 0.16
+                "calories": 36,
+                "protein": 0.3,
+                "carbs": 9,
+                "fats": 0.12
             },
             {
                 "name": "Frutos Secos",
-                "quantity": "30",
+                "quantity": "20",
                 "unit": "g",
-                "calories": 135,
-                "protein": 3,
-                "carbs": 4.5,
-                "fats": 12
+                "calories": 90,
+                "protein": 2,
+                "carbs": 3,
+                "fats": 8
             }
         ],
         "preparation": "1. En un bol, verter el yogur proteico. 2. Añadir los frutos rojos frescos o descongelados. 3. Espolvorear con los frutos secos troceados por encima. Servir inmediatamente.",
-        "originalBaseRecipeId": "ext_yogurt_protico_con_frutos_rojos_y_secos",
+        "originalBaseRecipeId": "ext_yogur_protico_con_frutos_rojos_y_secos",
         "isSideDish": false,
         "mealCategory": "extra"
     },
@@ -721,12 +721,246 @@ const foodDatabase = {
         "originalBaseRecipeId": "ext_frutos_secos_mezcla",
         "isSideDish": false,
         "mealCategory": "extra"
+    },
+    "p3_desayuno_Tostada_de_Centeno_mainOnly_idx0": {
+        "id": "p3_desayuno_Tostada_de_Centeno_mainOnly_idx0",
+        "name": "Tostada de Centeno con Huevo y Queso Cottage",
+        "calories": 374.4,
+        "protein": 21.7,
+        "carbs": 18.1,
+        "fats": 23.9,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682ad5cf9b8ed31c657c80e8.png",
+        "ingredients": [
+            {
+                "name": "Tostada de Pan de Centeno",
+                "quantity": "1",
+                "unit": "rebanada(s)",
+                "calories": 81,
+                "protein": 2.6999999999999997,
+                "carbs": 15,
+                "fats": 0.8999999999999999
+            },
+            {
+                "name": "Huevo",
+                "quantity": "2",
+                "unit": "unidad(es)",
+                "calories": 155,
+                "protein": 13,
+                "carbs": 1.1,
+                "fats": 11
+            },
+            {
+                "name": "Queso Cottage",
+                "quantity": "50",
+                "unit": "g",
+                "calories": 50,
+                "protein": 6,
+                "carbs": 2,
+                "fats": 2
+            },
+            {
+                "name": "Aceite de Oliva Virgen Extra",
+                "quantity": "10",
+                "unit": "g",
+                "calories": 88.4,
+                "protein": 0,
+                "carbs": 0,
+                "fats": 10
+            }
+        ],
+        "preparation": "1. Tostar el pan de centeno. 2. Cocinar los huevos al gusto (revueltos, pochados, a la plancha). 3. Untar el queso cottage sobre las tostadas. 4. Añadir el aguacate laminado (si se usa en la receta ajustada) y los huevos encima.",
+        "originalBaseRecipeId": "des_tostada_de_centeno_con_huevo_y_queso_cottage",
+        "isSideDish": false,
+        "mealCategory": "desayuno"
+    },
+    "p3_comida_Boniato_asado_con_mainOnly_idx1": {
+        "id": "p3_comida_Boniato_asado_con_mainOnly_idx1",
+        "name": "Boniato asado con ensalada de tomate",
+        "calories": 313.4,
+        "protein": 7,
+        "carbs": 47.5,
+        "fats": 10.5,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684efcd1f6c48df26aa5ba5b.png",
+        "ingredients": [
+            {
+                "name": "Boniato",
+                "quantity": "200",
+                "unit": "g",
+                "calories": 180,
+                "protein": 4,
+                "carbs": 40,
+                "fats": 0.2
+            },
+            {
+                "name": "Tomate",
+                "quantity": "75",
+                "unit": "g",
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
+            },
+            {
+                "name": "Cebolla",
+                "quantity": "75",
+                "unit": "g",
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
+            },
+            {
+                "name": "Aceite de Oliva Virgen Extra",
+                "quantity": "10",
+                "unit": "g",
+                "calories": 88.4,
+                "protein": 0,
+                "carbs": 0,
+                "fats": 10
+            }
+        ],
+        "preparation": "1. Precalentar el horno a 200°C (390°F). Lavar bien el boniato, pincharlo varias veces con un tenedor para que no reviente durante la cocción. 2. Asar el boniato entero directamente sobre la rejilla del horno o en una bandeja durante 45-60 minutos, o hasta que esté tierno al pincharlo (el tiempo dependerá del tamaño). 3. Mientras se asa el boniato, preparar la ensalada: lavar y cortar el tomate en dados pequeños. Picar la cebolla (preferiblemente tierna o morada) y el ajo muy finamente. 4. En un bol, mezclar el tomate, la cebolla y el ajo. Aliñar con aceite de oliva virgen extra, vinagre y sal al gusto. 5. Una vez el boniato esté asado y tierno, sacarlo del horno, dejarlo templar unos minutos, y luego abrirlo por la mitad a lo largo. Servirlo caliente o templado, acompañado de la ensalada de tomate (se puede poner por encima del boniato o al lado).",
+        "originalBaseRecipeId": "pp_boniato_asado_con_ensalada_de_tomate",
+        "isSideDish": false,
+        "mealCategory": "plato_principal"
+    },
+    "p3_comida_Atn_en_Lata_side_idx2": {
+        "id": "p3_comida_Atn_en_Lata_side_idx2",
+        "name": "Atún en Lata Escurrido",
+        "calories": 192,
+        "protein": 33.6,
+        "carbs": 0,
+        "fats": 4.8,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68f27ede567571bbd55f023e.png",
+        "ingredients": [
+            {
+                "name": "Atún en Conserva",
+                "quantity": "120",
+                "unit": "g",
+                "calories": 192,
+                "protein": 33.6,
+                "carbs": 0,
+                "fats": 4.8
+            }
+        ],
+        "preparation": "Escurrir el aceite o el agua de la lata y servir.",
+        "originalBaseRecipeId": "ac_atn_en_lata_escurrido",
+        "isSideDish": true,
+        "mealCategory": "acompanamiento"
+    },
+    "p3_cena_Pollo_al_curry_mainOnly_idx3": {
+        "id": "p3_cena_Pollo_al_curry_mainOnly_idx3",
+        "name": "Pollo al curry thai con arroz",
+        "calories": 672.4,
+        "protein": 66.2,
+        "carbs": 52.5,
+        "fats": 19.5,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684ef8924d606648e7332262.png",
+        "ingredients": [
+            {
+                "name": "Pechuga de Pollo",
+                "quantity": "200",
+                "unit": "g",
+                "calories": 320,
+                "protein": 56.00000000000001,
+                "carbs": 0,
+                "fats": 8
+            },
+            {
+                "name": "Arroz Integral",
+                "quantity": "60",
+                "unit": "g",
+                "calories": 219,
+                "protein": 7.199999999999999,
+                "carbs": 45,
+                "fats": 1.2
+            },
+            {
+                "name": "Zanahoria",
+                "quantity": "75",
+                "unit": "g",
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
+            },
+            {
+                "name": "Cebolla",
+                "quantity": "75",
+                "unit": "g",
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
+            },
+            {
+                "name": "Aceite de Oliva Virgen Extra",
+                "quantity": "10",
+                "unit": "g",
+                "calories": 88.4,
+                "protein": 0,
+                "carbs": 0,
+                "fats": 10
+            }
+        ],
+        "preparation": "1. Cortar el pollo en trozos de bocado. Picar la cebolla y cortar la zanahoria en rodajas finas o bastones. 2. En una sartén grande o wok, calentar un poco de aceite y saltear la cebolla y zanahoria hasta que la cebolla esté transparente. 3. Añadir el pollo y cocinar hasta que se dore por todos lados. 4. Incorporar la pasta de curry thai (ajustar cantidad según el picante deseado) y cocinar por 1 minuto, removiendo para que se impregnen los sabores. 5. Verter la leche de coco y llevar a ebullición suave. Reducir el fuego y cocinar a fuego lento durante 10-15 minutos, o hasta que el pollo esté tierno y la salsa haya espesado ligeramente. Sazonar con sal si es necesario. 6. Servir el pollo al curry caliente sobre una cama de arroz integral cocido. Opcional: decorar con cilantro fresco picado.",
+        "originalBaseRecipeId": "cc_pollo_al_curry_thai_con_arroz",
+        "isSideDish": false,
+        "mealCategory": "comida_cena_completa"
+    },
+    "p3_extra_Yogur_Protico_Sabores_mainOnly_idx4": {
+        "id": "p3_extra_Yogur_Protico_Sabores_mainOnly_idx4",
+        "name": "Yogur Protéico (Sabores, Natural...)",
+        "calories": 125,
+        "protein": 6.25,
+        "carbs": 12.5,
+        "fats": 5,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd789b8ed38b127cbc09.png",
+        "ingredients": [
+            {
+                "name": "Yogur Protéico",
+                "quantity": "1",
+                "unit": "unidad(es)",
+                "calories": 125,
+                "protein": 6.25,
+                "carbs": 12.5,
+                "fats": 5
+            }
+        ],
+        "preparation": "1. Seleccionar el yogur proteico de preferencia (natural o con sabores). 2. Abrir el envase. 3. Consumir directamente con una cuchara. Opcional: se puede acompañar de frutas frescas troceadas, frutos secos, semillas o un poco de miel o edulcorante si es natural y se desea endulzar.",
+        "originalBaseRecipeId": "ext_yogur_protico_sabores_natural",
+        "isSideDish": false,
+        "mealCategory": "extra"
+    },
+    "p3_extra_Fruta_Densa_Pltano_mainOnly_idx5": {
+        "id": "p3_extra_Fruta_Densa_Pltano_mainOnly_idx5",
+        "name": "Fruta Densa (Plátano, Manzana)",
+        "calories": 72,
+        "protein": 0.6,
+        "carbs": 18,
+        "fats": 0.24,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe4bb91eb325b93d4a82.png",
+        "ingredients": [
+            {
+                "name": "Plátano",
+                "quantity": "1",
+                "unit": "unidad(es)",
+                "calories": 72,
+                "protein": 0.6,
+                "carbs": 18,
+                "fats": 0.24
+            }
+        ],
+        "preparation": "1. Seleccionar la fruta densa de preferencia (plátano, manzana, pera, etc.). 2. Para plátanos: pelar la piel y consumir directamente. 3. Para manzanas o peras: lavar bien la fruta. Se puede consumir con piel (rica en fibra) o pelada, según preferencia. Se puede comer entera a mordiscos o cortada en trozos.",
+        "originalBaseRecipeId": "ext_fruta_densa_pltano_manzana",
+        "isSideDish": false,
+        "mealCategory": "extra"
     }
 };
 
 const dailyMenus = [
   {
-    "name": "Día 1",
+    "name": "Libre 1",
     "targetMacros": {
       "calories": 2000,
       "protein": 150,
@@ -748,7 +982,7 @@ const dailyMenus = [
     ]
   },
   {
-    "name": "Día 2",
+    "name": "Libre 2",
     "targetMacros": {
       "calories": 2000,
       "protein": 150,
@@ -766,11 +1000,11 @@ const dailyMenus = [
       "p1_cena_Revuelto_de_Huevos_side_idx3"
     ],
     "extra": [
-      "p1_extra_Yogurt_Protico_con_mainOnly_idx4"
+      "p1_extra_Yogur_Protico_con_mainOnly_idx4"
     ]
   },
   {
-    "name": "Día 3",
+    "name": "Entreno 1",
     "targetMacros": {
       "calories": 2000,
       "protein": 150,
@@ -790,10 +1024,34 @@ const dailyMenus = [
       "p2_extra_Fruta_Densa_Pltano_mainOnly_idx3",
       "p2_extra_Frutos_Secos_Mezcla_mainOnly_idx4"
     ]
+  },
+  {
+    "name": "Entreno 2",
+    "targetMacros": {
+      "calories": 2000,
+      "protein": 150,
+      "carbs": 150
+    },
+    "useCustomMacros": true,
+    "desayuno": [
+      "p3_desayuno_Tostada_de_Centeno_mainOnly_idx0"
+    ],
+    "comida": [
+      "p3_comida_Boniato_asado_con_mainOnly_idx1",
+      "p3_comida_Atn_en_Lata_side_idx2"
+    ],
+    "cena": [
+      "p3_cena_Pollo_al_curry_mainOnly_idx3"
+    ],
+    "extra": [
+      "p3_extra_Yogur_Protico_Sabores_mainOnly_idx4",
+      "p3_extra_Fruta_Densa_Pltano_mainOnly_idx5"
+    ]
   }
 ];
 
 // Detalles de los planes exportados:
-// Plan: Día 1, Calorías Objetivo: 2000, Proteínas Objetivo: 150, Carbohidratos Objetivo: 150
-// Plan: Día 2, Calorías Objetivo: 2000, Proteínas Objetivo: 150, Carbohidratos Objetivo: 150
-// Plan: Día 3, Calorías Objetivo: 2000, Proteínas Objetivo: 150, Carbohidratos Objetivo: 150
+// Plan: Libre 1, Calorías Objetivo: 2000, Proteínas Objetivo: 150, Carbohidratos Objetivo: 150
+// Plan: Libre 2, Calorías Objetivo: 2000, Proteínas Objetivo: 150, Carbohidratos Objetivo: 150
+// Plan: Entreno 1, Calorías Objetivo: 2000, Proteínas Objetivo: 150, Carbohidratos Objetivo: 150
+// Plan: Entreno 2, Calorías Objetivo: 2000, Proteínas Objetivo: 150, Carbohidratos Objetivo: 150
