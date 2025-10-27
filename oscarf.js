@@ -53,137 +53,170 @@ const foodDatabase = {
         "isSideDish": false,
         "mealCategory": "desayuno"
     },
-    "p0_comida_Patatas_Cocidas_con_mainOnly_idx1": {
-        "id": "p0_comida_Patatas_Cocidas_con_mainOnly_idx1",
-        "name": "Patatas Cocidas con Salteado de Verduras y Hamburguesa a la plancha",
-        "calories": 614,
-        "protein": 45.8,
-        "carbs": 65.7,
-        "fats": 18.3,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cf8559b0c6709fc9afa98.png",
+    "p0_comida_Ensalada_de_garbanzos_mainOnly_idx1": {
+        "id": "p0_comida_Ensalada_de_garbanzos_mainOnly_idx1",
+        "name": "Ensalada de garbanzos con verduras y queso",
+        "calories": 497.5,
+        "protein": 31.5,
+        "carbs": 52.75,
+        "fats": 17.200000000000003,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68ff252d3f16b5241c27c1e4.png",
         "ingredients": [
             {
-                "name": "Patata (cruda)",
-                "quantity": "300",
+                "name": "Garbanzos en Conserva",
+                "quantity": "150",
                 "unit": "g",
-                "calories": 231,
-                "protein": 6,
-                "carbs": 51,
-                "fats": 0.3
+                "calories": 195,
+                "protein": 12,
+                "carbs": 33,
+                "fats": 0.75
             },
             {
-                "name": "Pimiento Verde",
+                "name": "Aguacate",
+                "quantity": "30",
+                "unit": "g",
+                "calories": 135,
+                "protein": 3,
+                "carbs": 4.5,
+                "fats": 12
+            },
+            {
+                "name": "Pepino",
                 "quantity": "75",
                 "unit": "g",
-                "calories": 15,
-                "protein": 0.68,
-                "carbs": 3.45,
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
                 "fats": 0.15
             },
             {
-                "name": "Pimiento Rojo",
+                "name": "Tomates Cherry",
                 "quantity": "75",
                 "unit": "g",
-                "calories": 23.25,
-                "protein": 0.75,
-                "carbs": 4.5,
-                "fats": 0.23
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
             },
             {
-                "name": "Cebolla",
+                "name": "Espinacas",
                 "quantity": "75",
                 "unit": "g",
-                "calories": 30,
-                "protein": 0.83,
-                "carbs": 6.75,
-                "fats": 0.08
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
             },
             {
-                "name": "Hamburguesa de Pavo-Pollo (cruda)",
-                "quantity": "150",
+                "name": "Queso de Burgos 0%",
+                "quantity": "100",
                 "unit": "g",
-                "calories": 225,
-                "protein": 37.5,
+                "calories": 100,
+                "protein": 12,
+                "carbs": 4,
+                "fats": 4
+            }
+        ],
+        "preparation": "1. Enjuagar los garbanzos y escurrirlos. 2. Picar el aguacate, pepino y tomates cherry. 3. Mezclar todos los ingredientes en un bol con las espinacas. 4. Cortar el queso de Burgos en dados y añadirlo a la ensalada. 5. Aliñar al gusto con aceite de oliva, vinagre y sal.",
+        "originalBaseRecipeId": "pp_ensalada_de_garbanzos_con_verduras_y_queso",
+        "isSideDish": false,
+        "mealCategory": "plato_principal"
+    },
+    "p0_comida_Pechuga_de_Pavo_side_idx2": {
+        "id": "p0_comida_Pechuga_de_Pavo_side_idx2",
+        "name": "Pechuga de Pavo a la Plancha",
+        "calories": 248.4,
+        "protein": 28.000000000000004,
+        "carbs": 0,
+        "fats": 14,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684f003ef6c48dfc43a5bdb3.png",
+        "ingredients": [
+            {
+                "name": "Pechuga de Pavo",
+                "quantity": "100",
+                "unit": "g",
+                "calories": 160,
+                "protein": 28.000000000000004,
                 "carbs": 0,
-                "fats": 7.5
+                "fats": 4
             },
             {
-                "name": "Aceite de Oliva",
+                "name": "Aceite de Oliva Virgen Extra",
                 "quantity": "10",
                 "unit": "g",
-                "calories": 90,
+                "calories": 88.4,
                 "protein": 0,
                 "carbs": 0,
                 "fats": 10
             }
         ],
-        "preparation": "Cocer las patatas, saltear las verduras y cocinar la hamburguesa a la plancha con el aceite de oliva.",
-        "originalBaseRecipeId": "cc_patatas_cocidas_con_salteado_de_verduras_y_hamburguesa_a_la_plancha",
-        "isSideDish": false,
-        "mealCategory": "comida_cena_completa"
+        "preparation": "1. Si los filetes de pechuga de pavo son muy gruesos, se pueden abrir tipo libro o golpear ligeramente para que tengan un grosor más uniforme y se cocinen mejor. 2. Sazonar los filetes de pavo con sal, pimienta y tus especias favoritas (ej. orégano, pimentón dulce, curry en polvo, hierbas provenzales). 3. Calentar una plancha o sartén antiadherente a fuego medio-alto con una gota de aceite de oliva. 4. Cocinar la pechuga de pavo durante unos 3-4 minutos por cada lado, o hasta que esté dorada por fuera y completamente cocida por dentro (sin partes rosadas). El tiempo exacto dependerá del grosor.",
+        "originalBaseRecipeId": "ac_pechuga_de_pavo_a_la_plancha",
+        "isSideDish": true,
+        "mealCategory": "acompanamiento"
     },
-    "p0_cena_Poke_de_Arroz_mainOnly_idx2": {
-        "id": "p0_cena_Poke_de_Arroz_mainOnly_idx2",
-        "name": "Poke de Arroz con Atún, Queso Feta, Tomate y Aguacate",
-        "calories": 714,
-        "protein": 49,
-        "carbs": 74.4,
-        "fats": 25,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cf7d29b0c67d84e9af509.png",
+    "p0_cena_Ensalada_de_berenjena_mainOnly_idx3": {
+        "id": "p0_cena_Ensalada_de_berenjena_mainOnly_idx3",
+        "name": "Ensalada de berenjena y tomate asado, queso y pollo con arroz",
+        "calories": 592.4,
+        "protein": 52.2,
+        "carbs": 52.5,
+        "fats": 17.5,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684ef97c6202d51cbcde28c8.png",
         "ingredients": [
             {
-                "name": "Arroz (crudo)",
-                "quantity": "80",
+                "name": "Berenjena",
+                "quantity": "75",
                 "unit": "g",
-                "calories": 288,
-                "protein": 5.6,
-                "carbs": 64,
-                "fats": 0.8
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
             },
             {
-                "name": "Atún (crudo)",
+                "name": "Tomate",
+                "quantity": "75",
+                "unit": "g",
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
+            },
+            {
+                "name": "Pechuga de Pollo",
                 "quantity": "150",
                 "unit": "g",
-                "calories": 195,
-                "protein": 34.5,
+                "calories": 240,
+                "protein": 42.00000000000001,
                 "carbs": 0,
                 "fats": 6
             },
             {
-                "name": "Queso Feta",
-                "quantity": "50",
+                "name": "Arroz",
+                "quantity": "60",
                 "unit": "g",
-                "calories": 132.5,
-                "protein": 7,
-                "carbs": 2,
-                "fats": 10.5
+                "calories": 219,
+                "protein": 7.199999999999999,
+                "carbs": 45,
+                "fats": 1.2
             },
             {
-                "name": "Tomate",
-                "quantity": "100",
+                "name": "Aceite de Oliva Virgen Extra",
+                "quantity": "10",
                 "unit": "g",
-                "calories": 18,
-                "protein": 0.9,
-                "carbs": 3.9,
-                "fats": 0.2
-            },
-            {
-                "name": "Aguacate",
-                "quantity": "50",
-                "unit": "g",
-                "calories": 80,
-                "protein": 1,
-                "carbs": 4.5,
-                "fats": 7.5
+                "calories": 88.4,
+                "protein": 0,
+                "carbs": 0,
+                "fats": 10
             }
         ],
-        "preparation": "Cocer el arroz, cortar los ingredientes y montar el poke bowl.",
-        "originalBaseRecipeId": "cc_poke_de_arroz_con_atn_queso_feta_tomate_y_aguacate",
+        "preparation": "1. Precalentar el horno a 200°C. Cortar la berenjena en rodajas o dados y los tomates por la mitad o en cuartos. Rociar con aceite de oliva, salpimentar y asar durante 20-25 minutos o hasta que estén tiernos. 2. Cocinar la pechuga de pollo (a la plancha, asada o hervida) y cortarla en trozos o tiras. 3. Cocer el arroz según las instrucciones del paquete. Puede usarse caliente, tibio o frío. 4. Cortar el queso (tipo feta, mozzarella fresca, o el de preferencia) en dados. 5. En un bol grande, combinar el arroz, la berenjena y tomate asados, el pollo y el queso. 6. Aliñar con aceite de oliva virgen extra, vinagre balsámico (opcional) y hierbas frescas como albahaca u orégano. Mezclar suavemente.",
+        "originalBaseRecipeId": "cc_ensalada_de_berenjena_y_tomate_asado_queso_y_pollo_con_arroz",
         "isSideDish": false,
         "mealCategory": "comida_cena_completa"
     },
-    "p0_extra_Batido_Whey_de_mainOnly_idx3": {
-        "id": "p0_extra_Batido_Whey_de_mainOnly_idx3",
+    "p0_extra_Batido_Whey_de_mainOnly_idx4": {
+        "id": "p0_extra_Batido_Whey_de_mainOnly_idx4",
         "name": "Batido Whey de Proteínas",
         "calories": 164,
         "protein": 26.5,
@@ -215,8 +248,8 @@ const foodDatabase = {
         "isSideDish": false,
         "mealCategory": "extra"
     },
-    "p0_extra_Queso_Fresco_Batido_mainOnly_idx4": {
-        "id": "p0_extra_Queso_Fresco_Batido_mainOnly_idx4",
+    "p0_extra_Queso_Fresco_Batido_mainOnly_idx5": {
+        "id": "p0_extra_Queso_Fresco_Batido_mainOnly_idx5",
         "name": "Queso Fresco Batido con Frutos Rojos y Miel",
         "calories": 118,
         "protein": 10.5,
@@ -257,89 +290,80 @@ const foodDatabase = {
         "isSideDish": false,
         "mealCategory": "extra"
     },
-    "p1_desayuno_Pan_wasa_con_mainOnly_idx0": {
-        "id": "p1_desayuno_Pan_wasa_con_mainOnly_idx0",
-        "name": "Pan wasa con Jamón Ibérico",
-        "calories": 137,
-        "protein": 11.9,
-        "carbs": 5,
-        "fats": 7.300000000000001,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68cc570eeaa0586bf6a8d560.png",
+    "p1_desayuno_Revuelto_de_Huevos_mainOnly_idx0": {
+        "id": "p1_desayuno_Revuelto_de_Huevos_mainOnly_idx0",
+        "name": "Revuelto de Huevos y Claras con Jamón",
+        "calories": 415.4,
+        "protein": 29.200000000000003,
+        "carbs": 1.54,
+        "fats": 32.400000000000006,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682ad5e1e819fcb589a8a30e.png",
         "ingredients": [
             {
-                "name": "Pan Wasa",
+                "name": "Huevos",
                 "quantity": "1",
-                "unit": "rebanada(s)",
-                "calories": 27,
-                "protein": 0.8999999999999999,
-                "carbs": 5,
-                "fats": 0.3
+                "unit": "unidad(es)",
+                "calories": 77.5,
+                "protein": 6.5,
+                "carbs": 0.55,
+                "fats": 5.5
             },
             {
-                "name": "Jamón Ibérico",
+                "name": "Claras de Huevo",
+                "quantity": "3",
+                "unit": "unidad(es)",
+                "calories": 139.5,
+                "protein": 11.700000000000001,
+                "carbs": 0.9900000000000001,
+                "fats": 9.9
+            },
+            {
+                "name": "Jamón Serrano",
                 "quantity": "50",
                 "unit": "g",
                 "calories": 110.00000000000001,
                 "protein": 11,
                 "carbs": 0,
                 "fats": 7.000000000000001
+            },
+            {
+                "name": "Aceite de Oliva Virgen Extra",
+                "quantity": "10",
+                "unit": "g",
+                "calories": 88.4,
+                "protein": 0,
+                "carbs": 0,
+                "fats": 10
             }
         ],
-        "preparation": "1. Colocar las lonchas de jamón ibérico sobre el pan wasa.",
-        "originalBaseRecipeId": "des_pan_wasa_con_jamn_ibrico",
+        "preparation": "1. Batir los huevos y las claras. 2. Cortar el jamón en taquitos o tiras. 3. Saltear ligeramente el jamón en una sartén con una pizca de aceite (opcional). 4. Verter la mezcla de huevo y remover constantemente a fuego medio-bajo hasta que cuaje al gusto.",
+        "originalBaseRecipeId": "ext_revuelto_de_huevos_y_claras_con_jamn",
         "isSideDish": false,
-        "mealCategory": "desayuno"
+        "mealCategory": "extra"
     },
-    "p1_desayuno_Pan_wasa_con_mainOnly_idx1": {
-        "id": "p1_desayuno_Pan_wasa_con_mainOnly_idx1",
-        "name": "Pan wasa con Huevo, Aguacate y Cherries",
-        "calories": 326,
-        "protein": 17.5,
-        "carbs": 12.1,
-        "fats": 23.36,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68cc56abf782ba4c11b42a44.png",
+    "p1_desayuno_Tostada_de_Pan_mainOnly_idx1": {
+        "id": "p1_desayuno_Tostada_de_Pan_mainOnly_idx1",
+        "name": "Tostada de Pan Wasa",
+        "calories": 54,
+        "protein": 1.7999999999999998,
+        "carbs": 10,
+        "fats": 0.6,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68e7f0c3fa127234824855fb.png",
         "ingredients": [
             {
                 "name": "Pan Wasa",
-                "quantity": "1",
-                "unit": "rebanada(s)",
-                "calories": 27,
-                "protein": 0.8999999999999999,
-                "carbs": 5,
-                "fats": 0.3
-            },
-            {
-                "name": "Huevo",
                 "quantity": "2",
-                "unit": "unidad(es)",
-                "calories": 155,
-                "protein": 13,
-                "carbs": 1.1,
-                "fats": 11
-            },
-            {
-                "name": "Aguacate",
-                "quantity": "30",
-                "unit": "g",
-                "calories": 135,
-                "protein": 3,
-                "carbs": 4.5,
-                "fats": 12
-            },
-            {
-                "name": "Tomates Cherry",
-                "quantity": "30",
-                "unit": "g",
-                "calories": 9,
-                "protein": 0.6,
-                "carbs": 1.5,
-                "fats": 0.06
+                "unit": "rebanada(s)",
+                "calories": 54,
+                "protein": 1.7999999999999998,
+                "carbs": 10,
+                "fats": 0.6
             }
         ],
-        "preparation": "1. Tostar el pan wasa. 2. Cocinar el huevo al gusto. 3. Untar el aguacate sobre el pan, añadir el huevo y los tomates cherry.",
-        "originalBaseRecipeId": "ext_pan_wasa_con_huevo_aguacate_y_cherries",
+        "preparation": "1. Servir como base para otros ingredientes o como acompañamiento.",
+        "originalBaseRecipeId": "des_tostada_de_pan_wasa",
         "isSideDish": false,
-        "mealCategory": "extra"
+        "mealCategory": "desayuno"
     },
     "p1_comida_Poke_de_aguacate_mainOnly_idx2": {
         "id": "p1_comida_Poke_de_aguacate_mainOnly_idx2",
@@ -513,7 +537,7 @@ const foodDatabase = {
         "protein": 17.6,
         "carbs": 16.2,
         "fats": 14,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afea2b91eb35e413d4ab6.png",
+        "image": "",
         "ingredients": [
             {
                 "name": "Yogur Protéico",
@@ -725,59 +749,83 @@ const foodDatabase = {
         "isSideDish": true,
         "mealCategory": "acompanamiento"
     },
-    "p2_cena_Patata_con_brcoli_mainOnly_idx3": {
-        "id": "p2_cena_Patata_con_brcoli_mainOnly_idx3",
-        "name": "Patata con brócoli y pollo asado",
-        "calories": 615,
-        "protein": 68.5,
-        "carbs": 43,
-        "fats": 17.8,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687de454838c601605b6e271.png",
+    "p2_cena_Juda_verde_con_mainOnly_idx3": {
+        "id": "p2_cena_Juda_verde_con_mainOnly_idx3",
+        "name": "Judía verde con patata y Zanahoria",
+        "calories": 225,
+        "protein": 7,
+        "carbs": 47.5,
+        "fats": 0.5,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cf5c1ddc9c1507857434b.png",
         "ingredients": [
+            {
+                "name": "Judía Verde",
+                "quantity": "75",
+                "unit": "g",
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
+            },
             {
                 "name": "Patata",
                 "quantity": "200",
-                "unit": "g (en crudo)",
-                "calories": 160,
-                "protein": 4,
-                "carbs": 36,
-                "fats": 0.21
-            },
-            {
-                "name": "Brócoli",
-                "quantity": "100",
                 "unit": "g",
-                "calories": 35,
-                "protein": 2.5,
-                "carbs": 7,
-                "fats": 0.4
+                "calories": 180,
+                "protein": 4,
+                "carbs": 40,
+                "fats": 0.2
             },
             {
-                "name": "Pechuga de Pollo",
-                "quantity": "200",
-                "unit": "g (en crudo)",
-                "calories": 330,
-                "protein": 62,
+                "name": "Zanahoria",
+                "quantity": "75",
+                "unit": "g",
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
+            }
+        ],
+        "preparation": "1. Lavar y cortar las judías verdes, pelar y cortar las patatas y zanahorias. 2. Cocer todas las verduras en agua con sal hasta que estén tiernas. 3. Escurrir y servir. Aliñar con aceite de oliva virgen extra.",
+        "originalBaseRecipeId": "pp_juda_verde_con_patata_y_zanahoria",
+        "isSideDish": false,
+        "mealCategory": "plato_principal"
+    },
+    "p2_cena_Merluza_a_la_side_idx4": {
+        "id": "p2_cena_Merluza_a_la_side_idx4",
+        "name": "Merluza a la Plancha",
+        "calories": 328.4,
+        "protein": 42.00000000000001,
+        "carbs": 0,
+        "fats": 16,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684f001d4d606642b1333279.png",
+        "ingredients": [
+            {
+                "name": "Filete de Merluza",
+                "quantity": "150",
+                "unit": "g",
+                "calories": 240,
+                "protein": 42.00000000000001,
                 "carbs": 0,
-                "fats": 7.2
+                "fats": 6
             },
             {
-                "name": "Aceite de Oliva",
+                "name": "Aceite de Oliva Virgen Extra",
                 "quantity": "10",
                 "unit": "g",
-                "calories": 90,
+                "calories": 88.4,
                 "protein": 0,
                 "carbs": 0,
                 "fats": 10
             }
         ],
-        "preparation": "1. Pelar las patatas y cortarlas en cubos medianos. Cocerlas en agua hirviendo con sal durante unos 10-15 minutos o hasta que estén tiernas pero firmes. Escurrir bien. 2. Lavar el brócoli y cortarlo en floretes pequeños. Cocer al vapor o hervir en agua con sal durante 5-7 minutos hasta que esté tierno pero crujiente. 3. Precalentar el horno a 200°C. Sazonar la pechuga de pollo con sal, pimienta y hierbas al gusto. Asar en el horno durante 20-30 minutos, o hasta que esté cocida por dentro y dorada por fuera. Se puede rociar con un poco de aceite de oliva antes de asar. 4. Una vez listos todos los componentes, mezclar suavemente la patata, el brócoli y el pollo. Se puede añadir un chorrito de aceite de oliva y especias adicionales si se desea.",
-        "originalBaseRecipeId": "cc_patata_con_brcoli_y_pollo_asado",
-        "isSideDish": false,
-        "mealCategory": "comida_cena_completa"
+        "preparation": "1. Sazonar los filetes o rodajas de merluza con sal, pimienta y opcionalmente un poco de ajo en polvo o perejil picado. 2. Calentar una plancha o sartén antiadherente a fuego medio-alto con un chorrito de aceite de oliva virgen extra. 3. Cuando el aceite esté caliente, colocar la merluza en la plancha. Cocinar durante unos 3-5 minutos por cada lado, dependiendo del grosor del pescado, hasta que esté opaca, bien cocida por dentro y se desmenuce fácilmente con un tenedor. Evitar cocinarla en exceso para que no quede seca. 4. Servir inmediatamente, opcionalmente con un chorrito de zumo de limón fresco por encima.",
+        "originalBaseRecipeId": "ac_merluza_a_la_plancha",
+        "isSideDish": true,
+        "mealCategory": "acompanamiento"
     },
-    "p2_extra_Fruta_Ctrica_Mandarina_mainOnly_idx4": {
-        "id": "p2_extra_Fruta_Ctrica_Mandarina_mainOnly_idx4",
+    "p2_extra_Fruta_Ctrica_Mandarina_mainOnly_idx5": {
+        "id": "p2_extra_Fruta_Ctrica_Mandarina_mainOnly_idx5",
         "name": "Fruta Cítrica (Mandarina, Kiwi, Naranja...)",
         "calories": 45,
         "protein": 0.8,
@@ -1061,14 +1109,15 @@ const dailyMenus = [
       "p0_desayuno_FajitaWrap_de_Jamn_mainOnly_idx0"
     ],
     "comida": [
-      "p0_comida_Patatas_Cocidas_con_mainOnly_idx1"
+      "p0_comida_Ensalada_de_garbanzos_mainOnly_idx1",
+      "p0_comida_Pechuga_de_Pavo_side_idx2"
     ],
     "cena": [
-      "p0_cena_Poke_de_Arroz_mainOnly_idx2"
+      "p0_cena_Ensalada_de_berenjena_mainOnly_idx3"
     ],
     "extra": [
-      "p0_extra_Batido_Whey_de_mainOnly_idx3",
-      "p0_extra_Queso_Fresco_Batido_mainOnly_idx4"
+      "p0_extra_Batido_Whey_de_mainOnly_idx4",
+      "p0_extra_Queso_Fresco_Batido_mainOnly_idx5"
     ]
   },
   {
@@ -1080,8 +1129,8 @@ const dailyMenus = [
     },
     "useCustomMacros": true,
     "desayuno": [
-      "p1_desayuno_Pan_wasa_con_mainOnly_idx0",
-      "p1_desayuno_Pan_wasa_con_mainOnly_idx1"
+      "p1_desayuno_Revuelto_de_Huevos_mainOnly_idx0",
+      "p1_desayuno_Tostada_de_Pan_mainOnly_idx1"
     ],
     "comida": [
       "p1_comida_Poke_de_aguacate_mainOnly_idx2"
@@ -1110,10 +1159,11 @@ const dailyMenus = [
       "p2_comida_Pechuga_de_Pavo_side_idx2"
     ],
     "cena": [
-      "p2_cena_Patata_con_brcoli_mainOnly_idx3"
+      "p2_cena_Juda_verde_con_mainOnly_idx3",
+      "p2_cena_Merluza_a_la_side_idx4"
     ],
     "extra": [
-      "p2_extra_Fruta_Ctrica_Mandarina_mainOnly_idx4"
+      "p2_extra_Fruta_Ctrica_Mandarina_mainOnly_idx5"
     ]
   },
   {
