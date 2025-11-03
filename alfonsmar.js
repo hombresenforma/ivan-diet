@@ -2,35 +2,26 @@
 // La variable 'foodCategories' no se incluye aquí ya que se importa desde la app.
 
 const foodDatabase = {
-    "p0_desayuno_Sandwich_Vegetal_de_mainOnly_idx0": {
-        "id": "p0_desayuno_Sandwich_Vegetal_de_mainOnly_idx0",
-        "name": "Sandwich Vegetal de Jamón York",
-        "calories": 353,
-        "protein": 18.6,
-        "carbs": 36.4,
-        "fats": 14.599999999999998,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cd5829b0c67f95e9a8e7e.png",
+    "p0_desayuno_Tostada_de_Centeno_mainOnly_idx0": {
+        "id": "p0_desayuno_Tostada_de_Centeno_mainOnly_idx0",
+        "name": "Tostada de Centeno con Queso Cottage y Cherries",
+        "calories": 220.2,
+        "protein": 13.299999999999999,
+        "carbs": 20.7,
+        "fats": 9.2,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68792fea2035ba213493e87e.png",
         "ingredients": [
             {
-                "name": "Pan de Centeno",
-                "quantity": "2",
+                "name": "Tostada de Pan de Centeno",
+                "quantity": "1",
                 "unit": "rebanada(s)",
-                "calories": 162,
-                "protein": 5.3999999999999995,
-                "carbs": 30,
-                "fats": 1.7999999999999998
+                "calories": 81,
+                "protein": 2.6999999999999997,
+                "carbs": 15,
+                "fats": 0.8999999999999999
             },
             {
-                "name": "Jamón York",
-                "quantity": "70",
-                "unit": "g",
-                "calories": 161,
-                "protein": 11.200000000000001,
-                "carbs": 1.4000000000000001,
-                "fats": 12.6
-            },
-            {
-                "name": "Tomate",
+                "name": "Tomates Cherry",
                 "quantity": "50",
                 "unit": "g",
                 "calories": 15,
@@ -39,17 +30,26 @@ const foodDatabase = {
                 "fats": 0.1
             },
             {
-                "name": "Lechuga",
-                "quantity": "50",
+                "name": "Queso Cottage",
+                "quantity": "80",
                 "unit": "g",
-                "calories": 15,
-                "protein": 1,
-                "carbs": 2.5,
-                "fats": 0.1
+                "calories": 80,
+                "protein": 9.6,
+                "carbs": 3.2,
+                "fats": 3.2
+            },
+            {
+                "name": "Aceite de Oliva Virgen Extra",
+                "quantity": "5",
+                "unit": "g",
+                "calories": 44.2,
+                "protein": 0,
+                "carbs": 0,
+                "fats": 5
             }
         ],
-        "preparation": "1. Prepara un bocadillo con un par de rebanadas de Pan de Centeno. 2. Añade el Pavo o Jamón York y opcionalmente tomate y lechuga.",
-        "originalBaseRecipeId": "ext_sandwich_vegetal_de_jamn_york",
+        "preparation": "1. Tostar el pan de centeno. 2. Cocinar los huevos al gusto (revueltos, pochados, a la plancha). 3. Untar el queso cottage sobre las tostadas y añadir los cherries por encima con especias.",
+        "originalBaseRecipeId": "ext_tostada_de_centeno_con_queso_cottage_y_cherries",
         "isSideDish": false,
         "mealCategory": "extra"
     },
@@ -766,12 +766,273 @@ const foodDatabase = {
         "originalBaseRecipeId": "ext_fruta_densa_pltano_manzana",
         "isSideDish": false,
         "mealCategory": "extra"
+    },
+    "p3_desayuno_Revuelto_de_Huevos_mainOnly_idx0": {
+        "id": "p3_desayuno_Revuelto_de_Huevos_mainOnly_idx0",
+        "name": "Revuelto de Huevos con Jamón",
+        "calories": 231.7,
+        "protein": 17.5,
+        "carbs": 0.55,
+        "fats": 17.5,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682ad5e1e819fcb589a8a30e.png",
+        "ingredients": [
+            {
+                "name": "Huevos",
+                "quantity": "1",
+                "unit": "unidad(es)",
+                "calories": 77.5,
+                "protein": 6.5,
+                "carbs": 0.55,
+                "fats": 5.5
+            },
+            {
+                "name": "Jamón Serrano",
+                "quantity": "50",
+                "unit": "g",
+                "calories": 110.00000000000001,
+                "protein": 11,
+                "carbs": 0,
+                "fats": 7.000000000000001
+            },
+            {
+                "name": "Aceite de Oliva Virgen Extra",
+                "quantity": "5",
+                "unit": "g",
+                "calories": 44.2,
+                "protein": 0,
+                "carbs": 0,
+                "fats": 5
+            }
+        ],
+        "preparation": "1. Batir los huevos. 2. Cortar el jamón en taquitos o tiras. 3. Saltear ligeramente el jamón en una sartén con una pizca de aceite (opcional). 4. Verter los huevos batidos y remover constantemente a fuego medio-bajo hasta que cuajen al gusto.",
+        "originalBaseRecipeId": "des_revuelto_de_huevos_con_jamn",
+        "isSideDish": false,
+        "mealCategory": "desayuno"
+    },
+    "p3_comida_Ensalada_de_garbanzos_mainOnly_idx1": {
+        "id": "p3_comida_Ensalada_de_garbanzos_mainOnly_idx1",
+        "name": "Ensalada de garbanzos con verduras y queso",
+        "calories": 490,
+        "protein": 31,
+        "carbs": 51.5,
+        "fats": 17.15,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68ff252d3f16b5241c27c1e4.png",
+        "ingredients": [
+            {
+                "name": "Garbanzos en Conserva",
+                "quantity": "150",
+                "unit": "g",
+                "calories": 195,
+                "protein": 12,
+                "carbs": 33,
+                "fats": 0.75
+            },
+            {
+                "name": "Aguacate",
+                "quantity": "30",
+                "unit": "g",
+                "calories": 135,
+                "protein": 3,
+                "carbs": 4.5,
+                "fats": 12
+            },
+            {
+                "name": "Pepino",
+                "quantity": "75",
+                "unit": "g",
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
+            },
+            {
+                "name": "Tomates Cherry",
+                "quantity": "75",
+                "unit": "g",
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
+            },
+            {
+                "name": "Espinacas",
+                "quantity": "50",
+                "unit": "g",
+                "calories": 15,
+                "protein": 1,
+                "carbs": 2.5,
+                "fats": 0.1
+            },
+            {
+                "name": "Queso de Burgos 0%",
+                "quantity": "100",
+                "unit": "g",
+                "calories": 100,
+                "protein": 12,
+                "carbs": 4,
+                "fats": 4
+            }
+        ],
+        "preparation": "1. Enjuagar los garbanzos y escurrirlos. 2. Picar el aguacate, pepino y tomates cherry. 3. Mezclar todos los ingredientes en un bol con las espinacas. 4. Cortar el queso de Burgos en dados y añadirlo a la ensalada. 5. Aliñar al gusto con aceite de oliva, vinagre y sal.",
+        "originalBaseRecipeId": "pp_ensalada_de_garbanzos_con_verduras_y_queso",
+        "isSideDish": false,
+        "mealCategory": "plato_principal"
+    },
+    "p3_comida_Hamburguesa_de_PavoPollo_side_idx2": {
+        "id": "p3_comida_Hamburguesa_de_PavoPollo_side_idx2",
+        "name": "Hamburguesa de Pavo-Pollo",
+        "calories": 274.2,
+        "protein": 16,
+        "carbs": 2,
+        "fats": 23,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afcbc9b8ed3b6397cbb33.png",
+        "ingredients": [
+            {
+                "name": "Hamburguesa de Pavo-Pollo",
+                "quantity": "100",
+                "unit": "g",
+                "calories": 229.99999999999997,
+                "protein": 16,
+                "carbs": 2,
+                "fats": 18
+            },
+            {
+                "name": "Aceite de Oliva Virgen Extra",
+                "quantity": "5",
+                "unit": "g",
+                "calories": 44.2,
+                "protein": 0,
+                "carbs": 0,
+                "fats": 5
+            }
+        ],
+        "preparation": "1. Si la hamburguesa es casera a partir de carne picada, sazonar la carne con sal, pimienta, ajo en polvo y perejil picado (opcional) y formar la hamburguesa. Si es comprada, ya está lista. 2. Calentar una plancha o sartén antiadherente a fuego medio-alto con una gota de aceite de oliva (opcional, si la sartén no es muy antiadherente). 3. Cocinar la hamburguesa durante 4-6 minutos por cada lado, o hasta que esté bien cocida por dentro (temperatura interna de 74°C o 165°F) y dorada por fuera. Evitar aplastarla para que no pierda jugosidad.",
+        "originalBaseRecipeId": "ac_hamburguesa_de_pavopollo",
+        "isSideDish": true,
+        "mealCategory": "acompanamiento"
+    },
+    "p3_cena_Crema_de_Verduras_mainOnly_idx3": {
+        "id": "p3_cena_Crema_de_Verduras_mainOnly_idx3",
+        "name": "Crema de Verduras Variadas",
+        "calories": 117.5,
+        "protein": 7,
+        "carbs": 16.25,
+        "fats": 2.45,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cd68425d68cc771ebd10a.png",
+        "ingredients": [
+            {
+                "name": "Calabaza",
+                "quantity": "75",
+                "unit": "g",
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
+            },
+            {
+                "name": "Tomate",
+                "quantity": "75",
+                "unit": "g",
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
+            },
+            {
+                "name": "Cebolla",
+                "quantity": "75",
+                "unit": "g",
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
+            },
+            {
+                "name": "Agua",
+                "quantity": "50",
+                "unit": "g",
+                "calories": 50,
+                "protein": 2.5,
+                "carbs": 5,
+                "fats": 2
+            }
+        ],
+        "preparation": "1. Puedes comprar una crema preparada o bien cocinar unas cuantas verduras en una olla.",
+        "originalBaseRecipeId": "pp_crema_de_verduras_variadas",
+        "isSideDish": false,
+        "mealCategory": "plato_principal"
+    },
+    "p3_cena_Merluza_a_la_side_idx4": {
+        "id": "p3_cena_Merluza_a_la_side_idx4",
+        "name": "Merluza a la Plancha",
+        "calories": 408.4,
+        "protein": 56.00000000000001,
+        "carbs": 0,
+        "fats": 18,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684f001d4d606642b1333279.png",
+        "ingredients": [
+            {
+                "name": "Filete de Merluza",
+                "quantity": "200",
+                "unit": "g",
+                "calories": 320,
+                "protein": 56.00000000000001,
+                "carbs": 0,
+                "fats": 8
+            },
+            {
+                "name": "Aceite de Oliva Virgen Extra",
+                "quantity": "10",
+                "unit": "g",
+                "calories": 88.4,
+                "protein": 0,
+                "carbs": 0,
+                "fats": 10
+            }
+        ],
+        "preparation": "1. Sazonar los filetes o rodajas de merluza con sal, pimienta y opcionalmente un poco de ajo en polvo o perejil picado. 2. Calentar una plancha o sartén antiadherente a fuego medio-alto con un chorrito de aceite de oliva virgen extra. 3. Cuando el aceite esté caliente, colocar la merluza en la plancha. Cocinar durante unos 3-5 minutos por cada lado, dependiendo del grosor del pescado, hasta que esté opaca, bien cocida por dentro y se desmenuce fácilmente con un tenedor. Evitar cocinarla en exceso para que no quede seca. 4. Servir inmediatamente, opcionalmente con un chorrito de zumo de limón fresco por encima.",
+        "originalBaseRecipeId": "ac_merluza_a_la_plancha",
+        "isSideDish": true,
+        "mealCategory": "acompanamiento"
+    },
+    "p3_extra_Fruta_Ctrica_Mandarina_mainOnly_idx5": {
+        "id": "p3_extra_Fruta_Ctrica_Mandarina_mainOnly_idx5",
+        "name": "Fruta Cítrica (Mandarina, Kiwi, Naranja...)",
+        "calories": 93,
+        "protein": 0.775,
+        "carbs": 23.25,
+        "fats": 0.31,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd3d0ed506305442ffe4.png",
+        "ingredients": [
+            {
+                "name": "Kiwi",
+                "quantity": "1",
+                "unit": "unidad(es)",
+                "calories": 45,
+                "protein": 0.375,
+                "carbs": 11.25,
+                "fats": 0.15
+            },
+            {
+                "name": "Mandarina",
+                "quantity": "1",
+                "unit": "unidad(es)",
+                "calories": 48,
+                "protein": 0.4,
+                "carbs": 12,
+                "fats": 0.16
+            }
+        ],
+        "preparation": "1. Seleccionar la fruta cítrica de preferencia (mandarina, kiwi, naranja, pomelo, etc.). 2. Lavar bien la fruta bajo el grifo. 3. Para mandarinas y naranjas: pelar la piel con las manos o con ayuda de un cuchillo. Separar los gajos si se desea. 4. Para kiwis: cortar por la mitad y comer la pulpa con una cucharita, o pelar con un cuchillo y cortar en rodajas. 5. Para pomelos: cortar por la mitad y extraer los gajos, o comer con cuchara. Consumir directamente.",
+        "originalBaseRecipeId": "ext_fruta_ctrica_mandarina_kiwi_naranja",
+        "isSideDish": false,
+        "mealCategory": "extra"
     }
 };
 
 const dailyMenus = [
   {
-    "name": "Opciones 1",
+    "name": "Libre 1",
     "targetMacros": {
       "calories": 2000,
       "protein": 150,
@@ -779,7 +1040,7 @@ const dailyMenus = [
     },
     "useCustomMacros": true,
     "desayuno": [
-      "p0_desayuno_Sandwich_Vegetal_de_mainOnly_idx0"
+      "p0_desayuno_Tostada_de_Centeno_mainOnly_idx0"
     ],
     "comida": [
       "p0_comida_Ensalada_de_Lentejas_mainOnly_idx1",
@@ -795,7 +1056,7 @@ const dailyMenus = [
     ]
   },
   {
-    "name": "Opciones 2",
+    "name": "Entreno 1",
     "targetMacros": {
       "calories": 2000,
       "protein": 160,
@@ -817,7 +1078,7 @@ const dailyMenus = [
     ]
   },
   {
-    "name": "Opciones 3",
+    "name": "Entreno 2",
     "targetMacros": {
       "calories": 2000,
       "protein": 160,
@@ -838,10 +1099,34 @@ const dailyMenus = [
       "p2_extra_Tortitas_de_Legumbres_mainOnly_idx4",
       "p2_extra_Fruta_Densa_Pltano_mainOnly_idx5"
     ]
+  },
+  {
+    "name": "Libre 2",
+    "targetMacros": {
+      "calories": 2000,
+      "protein": 150,
+      "carbs": 200
+    },
+    "useCustomMacros": true,
+    "desayuno": [
+      "p3_desayuno_Revuelto_de_Huevos_mainOnly_idx0"
+    ],
+    "comida": [
+      "p3_comida_Ensalada_de_garbanzos_mainOnly_idx1",
+      "p3_comida_Hamburguesa_de_PavoPollo_side_idx2"
+    ],
+    "cena": [
+      "p3_cena_Crema_de_Verduras_mainOnly_idx3",
+      "p3_cena_Merluza_a_la_side_idx4"
+    ],
+    "extra": [
+      "p3_extra_Fruta_Ctrica_Mandarina_mainOnly_idx5"
+    ]
   }
 ];
 
 // Detalles de los planes exportados:
-// Plan: Opciones 1, Calorías Objetivo: 2000, Proteínas Objetivo: 150, Carbohidratos Objetivo: 200
-// Plan: Opciones 2, Calorías Objetivo: 2000, Proteínas Objetivo: 160, Carbohidratos Objetivo: 200
-// Plan: Opciones 3, Calorías Objetivo: 2000, Proteínas Objetivo: 160, Carbohidratos Objetivo: 200
+// Plan: Libre 1, Calorías Objetivo: 2000, Proteínas Objetivo: 150, Carbohidratos Objetivo: 200
+// Plan: Entreno 1, Calorías Objetivo: 2000, Proteínas Objetivo: 160, Carbohidratos Objetivo: 200
+// Plan: Entreno 2, Calorías Objetivo: 2000, Proteínas Objetivo: 160, Carbohidratos Objetivo: 200
+// Plan: Libre 2, Calorías Objetivo: 2000, Proteínas Objetivo: 150, Carbohidratos Objetivo: 200
