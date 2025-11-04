@@ -140,32 +140,41 @@ const foodDatabase = {
         "isSideDish": false,
         "mealCategory": "comida_cena_completa"
     },
-    "p0_cena_Calabacn_con_Cebolla_mainOnly_idx2": {
-        "id": "p0_cena_Calabacn_con_Cebolla_mainOnly_idx2",
-        "name": "Calabacín con Cebolla a la Plancha",
-        "calories": 148.4,
-        "protein": 4,
-        "carbs": 10,
-        "fats": 10.4,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afc8e9b8ed35d8e7cbb0e.png",
+    "p0_cena_Patata_con_brcoli_mainOnly_idx2": {
+        "id": "p0_cena_Patata_con_brcoli_mainOnly_idx2",
+        "name": "Patata con brócoli y pollo asado",
+        "calories": 508.4,
+        "protein": 48.00000000000001,
+        "carbs": 37.5,
+        "fats": 16.45,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687de454838c601605b6e271.png",
         "ingredients": [
             {
-                "name": "Calabacín",
-                "quantity": "100",
+                "name": "Patata",
+                "quantity": "150",
                 "unit": "g",
-                "calories": 30,
-                "protein": 2,
-                "carbs": 5,
-                "fats": 0.2
+                "calories": 135,
+                "protein": 3,
+                "carbs": 30,
+                "fats": 0.15
             },
             {
-                "name": "Cebolla",
-                "quantity": "100",
+                "name": "Brócoli",
+                "quantity": "150",
                 "unit": "g",
-                "calories": 30,
-                "protein": 2,
-                "carbs": 5,
-                "fats": 0.2
+                "calories": 45,
+                "protein": 3,
+                "carbs": 7.5,
+                "fats": 0.3
+            },
+            {
+                "name": "Pechuga de Pollo",
+                "quantity": "150",
+                "unit": "g",
+                "calories": 240,
+                "protein": 42.00000000000001,
+                "carbs": 0,
+                "fats": 6
             },
             {
                 "name": "Aceite de Oliva Virgen Extra",
@@ -177,46 +186,13 @@ const foodDatabase = {
                 "fats": 10
             }
         ],
-        "preparation": "1. Lavar el calabacín y cortarlo en rodajas de aproximadamente 0.5 a 1 cm de grosor. Pelar y cortar la cebolla en juliana o rodajas. 2. Calentar una plancha o sartén grande con un chorrito de aceite de oliva a fuego medio-alto. 3. Colocar las rodajas de calabacín y la cebolla sobre la plancha caliente. Cocinar durante 3-5 minutos por cada lado, o hasta que estén tiernos y presenten marcas doradas de la plancha. 4. Sazonar con sal, pimienta y opcionalmente un poco de ajo en polvo u orégano durante la cocción o al final.",
-        "originalBaseRecipeId": "pp_calabacn_con_cebolla_a_la_plancha",
+        "preparation": "1. Cocer la patata y el brócoli al vapor o en agua hirviendo hasta que estén tiernos. 2. Cocinar la pechuga de pollo a la plancha o asada al horno, sazonada al gusto. 3. Servir la patata y el brócoli como base y colocar el pollo troceado por encima. Aliñar con aceite de oliva y especias si se desea.",
+        "originalBaseRecipeId": "cc_patata_con_brcoli_y_pollo_asado",
         "isSideDish": false,
-        "mealCategory": "plato_principal"
+        "mealCategory": "comida_cena_completa"
     },
-    "p0_cena_Hamburguesa_de_PavoPollo_side_idx3": {
-        "id": "p0_cena_Hamburguesa_de_PavoPollo_side_idx3",
-        "name": "Hamburguesa de Pavo-Pollo",
-        "calories": 318.4,
-        "protein": 16,
-        "carbs": 2,
-        "fats": 28,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afcbc9b8ed3b6397cbb33.png",
-        "ingredients": [
-            {
-                "name": "Hamburguesa de Pavo-Pollo",
-                "quantity": "100",
-                "unit": "g",
-                "calories": 229.99999999999997,
-                "protein": 16,
-                "carbs": 2,
-                "fats": 18
-            },
-            {
-                "name": "Aceite de Oliva Virgen Extra",
-                "quantity": "10",
-                "unit": "g",
-                "calories": 88.4,
-                "protein": 0,
-                "carbs": 0,
-                "fats": 10
-            }
-        ],
-        "preparation": "1. Si la hamburguesa es casera a partir de carne picada, sazonar la carne con sal, pimienta, ajo en polvo y perejil picado (opcional) y formar la hamburguesa. Si es comprada, ya está lista. 2. Calentar una plancha o sartén antiadherente a fuego medio-alto con una gota de aceite de oliva (opcional, si la sartén no es muy antiadherente). 3. Cocinar la hamburguesa durante 4-6 minutos por cada lado, o hasta que esté bien cocida por dentro (temperatura interna de 74°C o 165°F) y dorada por fuera. Evitar aplastarla para que no pierda jugosidad.",
-        "originalBaseRecipeId": "ac_hamburguesa_de_pavopollo",
-        "isSideDish": true,
-        "mealCategory": "acompanamiento"
-    },
-    "p0_extra_Fruta_Densa_Pltano_mainOnly_idx4": {
-        "id": "p0_extra_Fruta_Densa_Pltano_mainOnly_idx4",
+    "p0_extra_Fruta_Densa_Pltano_mainOnly_idx3": {
+        "id": "p0_extra_Fruta_Densa_Pltano_mainOnly_idx3",
         "name": "Fruta Densa (Plátano, Manzana)",
         "calories": 72,
         "protein": 0.6,
@@ -239,8 +215,8 @@ const foodDatabase = {
         "isSideDish": false,
         "mealCategory": "extra"
     },
-    "p0_extra_Yogur_Protico_Sabores_mainOnly_idx5": {
-        "id": "p0_extra_Yogur_Protico_Sabores_mainOnly_idx5",
+    "p0_extra_Yogur_Protico_Sabores_mainOnly_idx4": {
+        "id": "p0_extra_Yogur_Protico_Sabores_mainOnly_idx4",
         "name": "Yogur Protéico (Sabores, Natural...)",
         "calories": 125,
         "protein": 6.25,
@@ -263,45 +239,45 @@ const foodDatabase = {
         "isSideDish": false,
         "mealCategory": "extra"
     },
-    "p1_desayuno_Pan_wasa_con_mainOnly_idx0": {
-        "id": "p1_desayuno_Pan_wasa_con_mainOnly_idx0",
-        "name": "Pan wasa con Jamón dulce y Aguacate",
-        "calories": 300,
-        "protein": 13.5,
-        "carbs": 10.7,
-        "fats": 23.1,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68cc568b05b71972b49f95e0.png",
+    "p1_desayuno_Tostada_de_Pan_mainOnly_idx0": {
+        "id": "p1_desayuno_Tostada_de_Pan_mainOnly_idx0",
+        "name": "Tostada de Pan de Centeno con Revuelto de Huevos y Jamón York",
+        "calories": 273.5,
+        "protein": 17.2,
+        "carbs": 16.55,
+        "fats": 15.4,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687d09e04d6fb7f271b84cc9.png",
         "ingredients": [
             {
-                "name": "Pan Wasa",
+                "name": "Tostada de Pan de Centeno",
                 "quantity": "1",
                 "unit": "rebanada(s)",
-                "calories": 27,
-                "protein": 0.8999999999999999,
-                "carbs": 5,
-                "fats": 0.3
+                "calories": 81,
+                "protein": 2.6999999999999997,
+                "carbs": 15,
+                "fats": 0.8999999999999999
             },
             {
-                "name": "Jamón Cocido",
-                "quantity": "60",
-                "unit": "g",
-                "calories": 138,
-                "protein": 9.6,
-                "carbs": 1.2,
-                "fats": 10.799999999999999
+                "name": "Huevos",
+                "quantity": "1",
+                "unit": "unidad(es)",
+                "calories": 77.5,
+                "protein": 6.5,
+                "carbs": 0.55,
+                "fats": 5.5
             },
             {
-                "name": "Aguacate",
-                "quantity": "30",
+                "name": "Jamón York",
+                "quantity": "50",
                 "unit": "g",
-                "calories": 135,
-                "protein": 3,
-                "carbs": 4.5,
-                "fats": 12
+                "calories": 114.99999999999999,
+                "protein": 8,
+                "carbs": 1,
+                "fats": 9
             }
         ],
-        "preparation": "1. Untar el aguacate sobre el pan wasa. 2. Añadir el jamón dulce por encima.",
-        "originalBaseRecipeId": "des_pan_wasa_con_jamn_dulce_y_aguacate",
+        "preparation": "1. Tostar el pan de centeno. 2. Preparar un revuelto de huevos con taquitos de jamón york. 3. Servir el revuelto sobre la tostada.",
+        "originalBaseRecipeId": "des_tostada_de_pan_de_centeno_con_revuelto_de_huevos_y_jamn_york",
         "isSideDish": false,
         "mealCategory": "desayuno"
     },
@@ -506,36 +482,36 @@ const foodDatabase = {
         "isSideDish": false,
         "mealCategory": "extra"
     },
-    "p2_desayuno_Pan_wasa_con_mainOnly_idx0": {
-        "id": "p2_desayuno_Pan_wasa_con_mainOnly_idx0",
-        "name": "Pan wasa con Jamón Ibérico",
-        "calories": 219,
-        "protein": 18.3,
-        "carbs": 10,
-        "fats": 11.100000000000001,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68cc570eeaa0586bf6a8d560.png",
+    "p2_desayuno_Tostada_de_centeno_mainOnly_idx0": {
+        "id": "p2_desayuno_Tostada_de_centeno_mainOnly_idx0",
+        "name": "Tostada de centeno con jamón ibérico",
+        "calories": 191,
+        "protein": 13.7,
+        "carbs": 15,
+        "fats": 7.9,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6887226c7537da60484d071f.png",
         "ingredients": [
             {
-                "name": "Pan Wasa",
-                "quantity": "2",
+                "name": "Tostada de Pan de Centeno",
+                "quantity": "1",
                 "unit": "rebanada(s)",
-                "calories": 54,
-                "protein": 1.7999999999999998,
-                "carbs": 10,
-                "fats": 0.6
+                "calories": 81,
+                "protein": 2.6999999999999997,
+                "carbs": 15,
+                "fats": 0.8999999999999999
             },
             {
                 "name": "Jamón Ibérico",
-                "quantity": "75",
+                "quantity": "50",
                 "unit": "g",
-                "calories": 165,
-                "protein": 16.5,
+                "calories": 110.00000000000001,
+                "protein": 11,
                 "carbs": 0,
-                "fats": 10.500000000000002
+                "fats": 7.000000000000001
             }
         ],
-        "preparation": "1. Colocar las lonchas de jamón ibérico sobre el pan wasa.",
-        "originalBaseRecipeId": "des_pan_wasa_con_jamn_ibrico",
+        "preparation": "1. Tostar el pan de centeno. 2. Colocar las lonchas de jamón ibérico por encima. Opcional: añadir un chorrito de aceite de oliva.",
+        "originalBaseRecipeId": "des_tostada_de_centeno_con_jamn_ibrico",
         "isSideDish": false,
         "mealCategory": "desayuno"
     },
@@ -608,65 +584,83 @@ const foodDatabase = {
         "isSideDish": false,
         "mealCategory": "comida_cena_completa"
     },
-    "p2_cena_Ensalada_de_Tomate_mainOnly_idx2": {
-        "id": "p2_cena_Ensalada_de_Tomate_mainOnly_idx2",
-        "name": "Ensalada de Tomate, Aguacate, Cebolla y Lima",
-        "calories": 300,
-        "protein": 10,
-        "carbs": 20,
-        "fats": 20.5,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cf9a725d68c4bc3ec3502.png",
+    "p2_cena_Ensalada_de_garbanzos_mainOnly_idx2": {
+        "id": "p2_cena_Ensalada_de_garbanzos_mainOnly_idx2",
+        "name": "Ensalada de garbanzos con verduras y queso",
+        "calories": 495,
+        "protein": 32.4,
+        "carbs": 49.8,
+        "fats": 17.85,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68ff252d3f16b5241c27c1e4.png",
         "ingredients": [
             {
-                "name": "Tomate",
+                "name": "Garbanzos en Conserva",
                 "quantity": "150",
                 "unit": "g",
-                "calories": 45,
-                "protein": 3,
-                "carbs": 7.5,
-                "fats": 0.3
+                "calories": 195,
+                "protein": 12,
+                "carbs": 33,
+                "fats": 0.75
             },
             {
                 "name": "Aguacate",
-                "quantity": "50",
+                "quantity": "30",
                 "unit": "g",
-                "calories": 225,
-                "protein": 5,
-                "carbs": 7.5,
-                "fats": 20
+                "calories": 135,
+                "protein": 3,
+                "carbs": 4.5,
+                "fats": 12
             },
             {
-                "name": "Cebolla",
-                "quantity": "100",
+                "name": "Tomates Cherry",
+                "quantity": "75",
                 "unit": "g",
-                "calories": 30,
-                "protein": 2,
-                "carbs": 5,
-                "fats": 0.2
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
+            },
+            {
+                "name": "Espinacas",
+                "quantity": "75",
+                "unit": "g",
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
+            },
+            {
+                "name": "Queso de Burgos 0%",
+                "quantity": "120",
+                "unit": "g",
+                "calories": 120,
+                "protein": 14.399999999999999,
+                "carbs": 4.8,
+                "fats": 4.8
             }
         ],
-        "preparation": "1. Cortar el tomate y el aguacate en dados. 2. Picar la cebolla en juliana fina. 3. Mezclar todos los ingredientes en un bol. 4. Exprimir el zumo de media lima por encima, añadir aceite de oliva y sal. Mezclar bien.",
-        "originalBaseRecipeId": "pp_ensalada_de_tomate_aguacate_cebolla_y_lima",
+        "preparation": "1. Enjuagar los garbanzos y escurrirlos. 2. Picar el aguacate, pepino y tomates cherry. 3. Mezclar todos los ingredientes en un bol con las espinacas. 4. Cortar el queso de Burgos en dados y añadirlo a la ensalada. 5. Aliñar al gusto con aceite de oliva, vinagre y sal.",
+        "originalBaseRecipeId": "pp_ensalada_de_garbanzos_con_verduras_y_queso",
         "isSideDish": false,
         "mealCategory": "plato_principal"
     },
     "p2_cena_Huevo_Duro_Cocido_side_idx3": {
         "id": "p2_cena_Huevo_Duro_Cocido_side_idx3",
         "name": "Huevo Duro Cocido",
-        "calories": 232.5,
-        "protein": 19.5,
-        "carbs": 1.6500000000000001,
-        "fats": 16.5,
+        "calories": 155,
+        "protein": 13,
+        "carbs": 1.1,
+        "fats": 11,
         "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68f27f5bfb2e440988a37788.png",
         "ingredients": [
             {
                 "name": "Huevo Cocido",
-                "quantity": "3",
+                "quantity": "2",
                 "unit": "unidad(es)",
-                "calories": 232.5,
-                "protein": 19.5,
-                "carbs": 1.6500000000000001,
-                "fats": 16.5
+                "calories": 155,
+                "protein": 13,
+                "carbs": 1.1,
+                "fats": 11
             }
         ],
         "preparation": "Cocer el huevo en agua hirviendo durante 10-12 minutos. Pelar y servir.",
@@ -740,12 +734,11 @@ const dailyMenus = [
       "p0_comida_Ensala_de_Patata_mainOnly_idx1"
     ],
     "cena": [
-      "p0_cena_Calabacn_con_Cebolla_mainOnly_idx2",
-      "p0_cena_Hamburguesa_de_PavoPollo_side_idx3"
+      "p0_cena_Patata_con_brcoli_mainOnly_idx2"
     ],
     "extra": [
-      "p0_extra_Fruta_Densa_Pltano_mainOnly_idx4",
-      "p0_extra_Yogur_Protico_Sabores_mainOnly_idx5"
+      "p0_extra_Fruta_Densa_Pltano_mainOnly_idx3",
+      "p0_extra_Yogur_Protico_Sabores_mainOnly_idx4"
     ]
   },
   {
@@ -757,7 +750,7 @@ const dailyMenus = [
     },
     "useCustomMacros": true,
     "desayuno": [
-      "p1_desayuno_Pan_wasa_con_mainOnly_idx0"
+      "p1_desayuno_Tostada_de_Pan_mainOnly_idx0"
     ],
     "comida": [
       "p1_comida_Ensalada_de_Lentejas_mainOnly_idx1",
@@ -780,13 +773,13 @@ const dailyMenus = [
     },
     "useCustomMacros": true,
     "desayuno": [
-      "p2_desayuno_Pan_wasa_con_mainOnly_idx0"
+      "p2_desayuno_Tostada_de_centeno_mainOnly_idx0"
     ],
     "comida": [
       "p2_comida_Ensalada_con_Pollo_mainOnly_idx1"
     ],
     "cena": [
-      "p2_cena_Ensalada_de_Tomate_mainOnly_idx2",
+      "p2_cena_Ensalada_de_garbanzos_mainOnly_idx2",
       "p2_cena_Huevo_Duro_Cocido_side_idx3"
     ],
     "extra": [
