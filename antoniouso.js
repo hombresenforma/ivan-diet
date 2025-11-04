@@ -26,32 +26,8 @@ const foodDatabase = {
         "isSideDish": false,
         "mealCategory": "extra"
     },
-    "p0_desayuno_Fruta_Ctrica_Mandarina_mainOnly_idx1": {
-        "id": "p0_desayuno_Fruta_Ctrica_Mandarina_mainOnly_idx1",
-        "name": "Fruta Cítrica (Mandarina, Kiwi, Naranja...)",
-        "calories": 90,
-        "protein": 0.75,
-        "carbs": 22.5,
-        "fats": 0.3,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd3d0ed506305442ffe4.png",
-        "ingredients": [
-            {
-                "name": "Kiwi",
-                "quantity": "2",
-                "unit": "unidad(es)",
-                "calories": 90,
-                "protein": 0.75,
-                "carbs": 22.5,
-                "fats": 0.3
-            }
-        ],
-        "preparation": "1. Seleccionar la fruta cítrica de preferencia (mandarina, kiwi, naranja, pomelo, etc.). 2. Lavar bien la fruta bajo el grifo. 3. Para mandarinas y naranjas: pelar la piel con las manos o con ayuda de un cuchillo. Separar los gajos si se desea. 4. Para kiwis: cortar por la mitad y comer la pulpa con una cucharita, o pelar con un cuchillo y cortar en rodajas. 5. Para pomelos: cortar por la mitad y extraer los gajos, o comer con cuchara. Consumir directamente.",
-        "originalBaseRecipeId": "ext_fruta_ctrica_mandarina_kiwi_naranja",
-        "isSideDish": false,
-        "mealCategory": "extra"
-    },
-    "p0_comida_Ensalada_de_Lentejas_mainOnly_idx2": {
-        "id": "p0_comida_Ensalada_de_Lentejas_mainOnly_idx2",
+    "p0_comida_Ensalada_de_Lentejas_mainOnly_idx1": {
+        "id": "p0_comida_Ensalada_de_Lentejas_mainOnly_idx1",
         "name": "Ensalada de Lentejas",
         "calories": 575,
         "protein": 37.4,
@@ -110,8 +86,8 @@ const foodDatabase = {
         "isSideDish": false,
         "mealCategory": "plato_principal"
     },
-    "p0_comida_Pechuga_de_Pavo_side_idx3": {
-        "id": "p0_comida_Pechuga_de_Pavo_side_idx3",
+    "p0_comida_Pechuga_de_Pavo_side_idx2": {
+        "id": "p0_comida_Pechuga_de_Pavo_side_idx2",
         "name": "Pechuga de Pavo a la Plancha",
         "calories": 248.4,
         "protein": 28.000000000000004,
@@ -143,8 +119,8 @@ const foodDatabase = {
         "isSideDish": true,
         "mealCategory": "acompanamiento"
     },
-    "p0_cena_Calabacn_con_Cebolla_mainOnly_idx4": {
-        "id": "p0_cena_Calabacn_con_Cebolla_mainOnly_idx4",
+    "p0_cena_Calabacn_con_Cebolla_mainOnly_idx3": {
+        "id": "p0_cena_Calabacn_con_Cebolla_mainOnly_idx3",
         "name": "Calabacín con Cebolla a la Plancha",
         "calories": 148.4,
         "protein": 4,
@@ -185,8 +161,8 @@ const foodDatabase = {
         "isSideDish": false,
         "mealCategory": "plato_principal"
     },
-    "p0_cena_Revuelto_de_Huevos_side_idx5": {
-        "id": "p0_cena_Revuelto_de_Huevos_side_idx5",
+    "p0_cena_Revuelto_de_Huevos_side_idx4": {
+        "id": "p0_cena_Revuelto_de_Huevos_side_idx4",
         "name": "Revuelto de Huevos con Espárragos Trigueros",
         "calories": 326.7,
         "protein": 22,
@@ -227,32 +203,8 @@ const foodDatabase = {
         "isSideDish": true,
         "mealCategory": "acompanamiento"
     },
-    "p0_extra_Fruta_Densa_Pltano_mainOnly_idx6": {
-        "id": "p0_extra_Fruta_Densa_Pltano_mainOnly_idx6",
-        "name": "Fruta Densa (Plátano, Manzana)",
-        "calories": 72,
-        "protein": 0.6,
-        "carbs": 18,
-        "fats": 0.24,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe4bb91eb325b93d4a82.png",
-        "ingredients": [
-            {
-                "name": "Plátano",
-                "quantity": "1",
-                "unit": "unidad(es)",
-                "calories": 72,
-                "protein": 0.6,
-                "carbs": 18,
-                "fats": 0.24
-            }
-        ],
-        "preparation": "1. Seleccionar la fruta densa de preferencia (plátano, manzana, pera, etc.). 2. Para plátanos: pelar la piel y consumir directamente. 3. Para manzanas o peras: lavar bien la fruta. Se puede consumir con piel (rica en fibra) o pelada, según preferencia. Se puede comer entera a mordiscos o cortada en trozos.",
-        "originalBaseRecipeId": "ext_fruta_densa_pltano_manzana",
-        "isSideDish": false,
-        "mealCategory": "extra"
-    },
-    "p0_extra_Yogur_Protico_Sabores_mainOnly_idx7": {
-        "id": "p0_extra_Yogur_Protico_Sabores_mainOnly_idx7",
+    "p0_extra_Yogur_Protico_Sabores_mainOnly_idx5": {
+        "id": "p0_extra_Yogur_Protico_Sabores_mainOnly_idx5",
         "name": "Yogur Protéico (Sabores, Natural...)",
         "calories": 125,
         "protein": 6.25,
@@ -275,74 +227,74 @@ const foodDatabase = {
         "isSideDish": false,
         "mealCategory": "extra"
     },
-    "p1_desayuno_Tostada_de_Pan_mainOnly_idx0": {
-        "id": "p1_desayuno_Tostada_de_Pan_mainOnly_idx0",
-        "name": "Tostada de Pan de Centeno con Revuelto de Huevos y Jamón York",
-        "calories": 351,
-        "protein": 23.7,
-        "carbs": 17.1,
-        "fats": 20.9,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687d09e04d6fb7f271b84cc9.png",
+    "p1_desayuno_Revuelto_de_Huevos_mainOnly_idx0": {
+        "id": "p1_desayuno_Revuelto_de_Huevos_mainOnly_idx0",
+        "name": "Revuelto de Huevos y Claras con Jamón",
+        "calories": 324.7,
+        "protein": 25.3,
+        "carbs": 1.21,
+        "fats": 24.1,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682ad5e1e819fcb589a8a30e.png",
         "ingredients": [
             {
-                "name": "Tostada de Pan de Centeno",
+                "name": "Huevos",
                 "quantity": "1",
-                "unit": "rebanada(s)",
-                "calories": 81,
-                "protein": 2.6999999999999997,
-                "carbs": 15,
-                "fats": 0.8999999999999999
+                "unit": "unidad(es)",
+                "calories": 77.5,
+                "protein": 6.5,
+                "carbs": 0.55,
+                "fats": 5.5
             },
             {
-                "name": "Huevos",
+                "name": "Claras de Huevo",
                 "quantity": "2",
                 "unit": "unidad(es)",
-                "calories": 155,
-                "protein": 13,
-                "carbs": 1.1,
-                "fats": 11
+                "calories": 93,
+                "protein": 7.800000000000001,
+                "carbs": 0.66,
+                "fats": 6.6
             },
             {
-                "name": "Jamón York",
+                "name": "Jamón Serrano",
                 "quantity": "50",
                 "unit": "g",
-                "calories": 114.99999999999999,
-                "protein": 8,
-                "carbs": 1,
-                "fats": 9
+                "calories": 110.00000000000001,
+                "protein": 11,
+                "carbs": 0,
+                "fats": 7.000000000000001
+            },
+            {
+                "name": "Aceite de Oliva Virgen Extra",
+                "quantity": "5",
+                "unit": "g",
+                "calories": 44.2,
+                "protein": 0,
+                "carbs": 0,
+                "fats": 5
             }
         ],
-        "preparation": "1. Tostar el pan de centeno. 2. Preparar un revuelto de huevos con taquitos de jamón york. 3. Servir el revuelto sobre la tostada.",
-        "originalBaseRecipeId": "des_tostada_de_pan_de_centeno_con_revuelto_de_huevos_y_jamn_york",
+        "preparation": "1. Batir los huevos y las claras. 2. Cortar el jamón en taquitos o tiras. 3. Saltear ligeramente el jamón en una sartén con una pizca de aceite (opcional). 4. Verter la mezcla de huevo y remover constantemente a fuego medio-bajo hasta que cuaje al gusto.",
+        "originalBaseRecipeId": "des_revuelto_de_huevos_y_claras_con_jamn",
         "isSideDish": false,
         "mealCategory": "desayuno"
     },
-    "p1_comida_Poke_de_aguacate_mainOnly_idx1": {
-        "id": "p1_comida_Poke_de_aguacate_mainOnly_idx1",
-        "name": "Poke de aguacate, mango, tomate, soja, cebolla, arroz y pollo",
-        "calories": 749.9,
-        "protein": 54.95,
-        "carbs": 63.25,
-        "fats": 29.549999999999997,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684efa4ef6c48db833a5b1af.png",
+    "p1_comida_Ensalada_con_Pollo_mainOnly_idx1": {
+        "id": "p1_comida_Ensalada_con_Pollo_mainOnly_idx1",
+        "name": "Ensalada con Pollo y Queso de Burgos",
+        "calories": 543.9,
+        "protein": 66.9,
+        "carbs": 15.25,
+        "fats": 21.65,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afdceb91eb360843d4a0b.png",
         "ingredients": [
             {
-                "name": "Aguacate",
-                "quantity": "30",
+                "name": "Canónigos",
+                "quantity": "75",
                 "unit": "g",
-                "calories": 135,
-                "protein": 3,
-                "carbs": 4.5,
-                "fats": 12
-            },
-            {
-                "name": "Mango",
-                "quantity": "50",
-                "unit": "g",
-                "calories": 30,
-                "protein": 0.25,
-                "carbs": 7.5,
-                "fats": 0.1
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
             },
             {
                 "name": "Tomate",
@@ -355,30 +307,30 @@ const foodDatabase = {
             },
             {
                 "name": "Cebolla",
-                "quantity": "50",
+                "quantity": "75",
                 "unit": "g",
-                "calories": 15,
-                "protein": 1,
-                "carbs": 2.5,
-                "fats": 0.1
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
             },
             {
-                "name": "Arroz",
-                "quantity": "60",
+                "name": "Queso de Burgos 0%",
+                "quantity": "100",
                 "unit": "g",
-                "calories": 219,
-                "protein": 7.199999999999999,
-                "carbs": 45,
-                "fats": 1.2
+                "calories": 100,
+                "protein": 12,
+                "carbs": 4,
+                "fats": 4
             },
             {
                 "name": "Pechuga de Pollo",
-                "quantity": "150",
+                "quantity": "180",
                 "unit": "g",
-                "calories": 240,
-                "protein": 42.00000000000001,
+                "calories": 288,
+                "protein": 50.400000000000006,
                 "carbs": 0,
-                "fats": 6
+                "fats": 7.2
             },
             {
                 "name": "Aceite de Oliva Virgen Extra",
@@ -390,8 +342,8 @@ const foodDatabase = {
                 "fats": 10
             }
         ],
-        "preparation": "1. Cocer el arroz (preferiblemente de sushi o grano corto siguiendo las instrucciones del paquete) y dejar enfriar. 2. Cocinar la pechuga de pollo (hervida, a la plancha o al vapor) y cortarla en dados. Dejar enfriar. 3. Cortar el aguacate y el mango en dados. Picar el tomate en dados pequeños y la cebolla (preferiblemente morada) en juliana fina o brunoise. 4. Para el aliño, mezclar en un cuenco salsa de soja, un chorrito de aceite de sésamo, zumo de lima o limón y opcionalmente un poco de jengibre rallado y miel o sirope de agave. 5. En un bol individual, colocar una base de arroz. Disponer encima de forma separada y estética: el pollo, aguacate, mango, tomate y cebolla. 6. Rociar generosamente con el aliño justo antes de servir. Opcional: espolvorear con semillas de sésamo tostadas o furikake.",
-        "originalBaseRecipeId": "cc_poke_de_aguacate_mango_tomate_soja_cebolla_arroz_y_pollo",
+        "preparation": "1. Cocinar la pechuga de pollo (a la plancha, hervida o asada) y cortarla en tiras o dados. 2. Lavar los canónigos y escurrirlos bien. Cortar los tomates (cherry por la mitad, o normales en gajos) y la cebolla en rodajas finas o juliana. Cortar el queso de Burgos 0% en dados o láminas. 3. En un bol o plato grande, disponer una base de canónigos. Añadir encima el tomate, la cebolla, el pollo y el queso de Burgos. 4. Aliñar con aceite de oliva virgen extra, vinagre (de manzana o Módena) y sal al gusto.",
+        "originalBaseRecipeId": "cc_ensalada_con_pollo_y_queso_de_burgos",
         "isSideDish": false,
         "mealCategory": "comida_cena_completa"
     },
@@ -471,7 +423,7 @@ const foodDatabase = {
         "protein": 9,
         "carbs": 23.75,
         "fats": 15.1,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afea2b91eb35e413d4ab6.png",
+        "image": "",
         "ingredients": [
             {
                 "name": "Yogur Protéico",
@@ -551,20 +503,20 @@ const foodDatabase = {
     "p2_comida_Ensala_de_Patata_mainOnly_idx1": {
         "id": "p2_comida_Ensala_de_Patata_mainOnly_idx1",
         "name": "Ensala de Patata, Atún y Huevo",
-        "calories": 587.5,
-        "protein": 58.50000000000001,
-        "carbs": 55.55,
-        "fats": 12.3,
+        "calories": 542.5,
+        "protein": 57.50000000000001,
+        "carbs": 45.55,
+        "fats": 12.25,
         "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afc08b91eb31afe3d4796.png",
         "ingredients": [
             {
                 "name": "Patata",
-                "quantity": "200",
+                "quantity": "150",
                 "unit": "g",
-                "calories": 180,
-                "protein": 4,
-                "carbs": 40,
-                "fats": 0.2
+                "calories": 135,
+                "protein": 3,
+                "carbs": 30,
+                "fats": 0.15
             },
             {
                 "name": "Pimiento Verde",
@@ -775,12 +727,240 @@ const foodDatabase = {
         "originalBaseRecipeId": "ext_fruta_densa_pltano_manzana",
         "isSideDish": false,
         "mealCategory": "extra"
+    },
+    "p3_desayuno_Yogurt_Protico_con_mainOnly_idx0": {
+        "id": "p3_desayuno_Yogurt_Protico_con_mainOnly_idx0",
+        "name": "Yogurt Protéico con Frutos Rojos y Secos",
+        "calories": 290,
+        "protein": 9.5,
+        "carbs": 24.5,
+        "fats": 17.1,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afea2b91eb35e413d4ab6.png",
+        "ingredients": [
+            {
+                "name": "Yogur Protéico",
+                "quantity": "1",
+                "unit": "unidad(es)",
+                "calories": 125,
+                "protein": 6.25,
+                "carbs": 12.5,
+                "fats": 5
+            },
+            {
+                "name": "Frutos Rojos",
+                "quantity": "50",
+                "unit": "g",
+                "calories": 30,
+                "protein": 0.25,
+                "carbs": 7.5,
+                "fats": 0.1
+            },
+            {
+                "name": "Frutos Secos",
+                "quantity": "30",
+                "unit": "g",
+                "calories": 135,
+                "protein": 3,
+                "carbs": 4.5,
+                "fats": 12
+            }
+        ],
+        "preparation": "1. En un bol, verter el yogur proteico. 2. Añadir los frutos rojos frescos o descongelados. 3. Espolvorear con los frutos secos troceados por encima. Servir inmediatamente.",
+        "originalBaseRecipeId": "des_yogurt_protico_con_frutos_rojos_y_secos",
+        "isSideDish": false,
+        "mealCategory": "desayuno"
+    },
+    "p3_comida_Patata_con_brcoli_mainOnly_idx1": {
+        "id": "p3_comida_Patata_con_brcoli_mainOnly_idx1",
+        "name": "Patata con brócoli y pollo asado",
+        "calories": 533.9,
+        "protein": 54.900000000000006,
+        "carbs": 33.75,
+        "fats": 17.5,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687de454838c601605b6e271.png",
+        "ingredients": [
+            {
+                "name": "Patata",
+                "quantity": "150",
+                "unit": "g",
+                "calories": 135,
+                "protein": 3,
+                "carbs": 30,
+                "fats": 0.15
+            },
+            {
+                "name": "Brócoli",
+                "quantity": "75",
+                "unit": "g",
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
+            },
+            {
+                "name": "Pechuga de Pollo",
+                "quantity": "180",
+                "unit": "g",
+                "calories": 288,
+                "protein": 50.400000000000006,
+                "carbs": 0,
+                "fats": 7.2
+            },
+            {
+                "name": "Aceite de Oliva Virgen Extra",
+                "quantity": "10",
+                "unit": "g",
+                "calories": 88.4,
+                "protein": 0,
+                "carbs": 0,
+                "fats": 10
+            }
+        ],
+        "preparation": "1. Cocer la patata y el brócoli al vapor o en agua hirviendo hasta que estén tiernos. 2. Cocinar la pechuga de pollo a la plancha o asada al horno, sazonada al gusto. 3. Servir la patata y el brócoli como base y colocar el pollo troceado por encima. Aliñar con aceite de oliva y especias si se desea.",
+        "originalBaseRecipeId": "cc_patata_con_brcoli_y_pollo_asado",
+        "isSideDish": false,
+        "mealCategory": "comida_cena_completa"
+    },
+    "p3_cena_Musakka_de_Patata_mainOnly_idx2": {
+        "id": "p3_cena_Musakka_de_Patata_mainOnly_idx2",
+        "name": "Musakka de Patata al horno con verduras y carne picada",
+        "calories": 659.9,
+        "protein": 41.4,
+        "carbs": 41.85,
+        "fats": 34.9,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684efda5653a2c17a7172d67.png",
+        "ingredients": [
+            {
+                "name": "Patata",
+                "quantity": "150",
+                "unit": "g",
+                "calories": 135,
+                "protein": 3,
+                "carbs": 30,
+                "fats": 0.15
+            },
+            {
+                "name": "Cebolla",
+                "quantity": "75",
+                "unit": "g",
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
+            },
+            {
+                "name": "Berenjena",
+                "quantity": "75",
+                "unit": "g",
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
+            },
+            {
+                "name": "Tomate Frito",
+                "quantity": "75",
+                "unit": "g",
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
+            },
+            {
+                "name": "Queso Rallado",
+                "quantity": "30",
+                "unit": "g",
+                "calories": 105,
+                "protein": 7.5,
+                "carbs": 0.6,
+                "fats": 7.5
+            },
+            {
+                "name": "Carne Picada Mixta (Ternera y Cerdo)",
+                "quantity": "120",
+                "unit": "g",
+                "calories": 264,
+                "protein": 26.4,
+                "carbs": 0,
+                "fats": 16.8
+            },
+            {
+                "name": "Aceite de Oliva Virgen Extra",
+                "quantity": "10",
+                "unit": "g",
+                "calories": 88.4,
+                "protein": 0,
+                "carbs": 0,
+                "fats": 10
+            }
+        ],
+        "preparation": "1. Precalentar el horno a 180°C. Pelar y cortar las patatas en rodajas finas (aproximadamente 0.5 cm). Cortar la berenjena en rodajas similares. Picar la cebolla. 2. En una sartén, calentar aceite y sofreír la cebolla hasta que esté blanda. Añadir la carne picada mixta y cocinar hasta que se dore. Escurrir el exceso de grasa. Incorporar tomate frito, sal, pimienta y orégano. Cocinar unos minutos. 3. En una fuente para horno, montar la musakka: colocar una capa de rodajas de patata en el fondo, luego una capa de rodajas de berenjena, y encima una capa de la mezcla de carne. Repetir las capas hasta terminar con una capa de patata o berenjena. 4. Opcional: cubrir con salsa bechamel y espolvorear con queso rallado. 5. Hornear durante 40-50 minutos, o hasta que las patatas y berenjenas estén tiernas y la superficie dorada. Dejar reposar unos minutos antes de servir.",
+        "originalBaseRecipeId": "cc_musakka_de_patata_al_horno_con_verduras_y_carne_picada",
+        "isSideDish": false,
+        "mealCategory": "comida_cena_completa"
+    },
+    "p3_extra_Batido_Whey_de_mainOnly_idx3": {
+        "id": "p3_extra_Batido_Whey_de_mainOnly_idx3",
+        "name": "Batido Whey de Proteínas",
+        "calories": 164,
+        "protein": 26.5,
+        "carbs": 6.5,
+        "fats": 3.2,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684f021af6c48d41b5a5c003.png",
+        "ingredients": [
+            {
+                "name": "Proteína Whey en Polvo",
+                "quantity": "30",
+                "unit": "g",
+                "calories": 114,
+                "protein": 24,
+                "carbs": 1.5,
+                "fats": 1.2
+            },
+            {
+                "name": "Agua",
+                "quantity": "50",
+                "unit": "g",
+                "calories": 50,
+                "protein": 2.5,
+                "carbs": 5,
+                "fats": 2
+            }
+        ],
+        "preparation": "1. En un shaker (vaso mezclador con rejilla o bola), añadir la cantidad recomendada de proteína en polvo (whey) según las indicaciones del producto (normalmente 1 scoop o cazo dosificador). 2. Añadir la cantidad de líquido deseada (agua, leche o bebida vegetal; unos 200-300 ml suelen ser suficientes). 3. Cerrar bien el shaker. 4. Agitar enérgicamente durante unos 20-30 segundos hasta que el polvo esté completamente disuelto y no haya grumos. 5. Consumir inmediatamente, preferiblemente después del entrenamiento o según las necesidades proteicas individuales.",
+        "originalBaseRecipeId": "ext_batido_whey_de_protenas",
+        "isSideDish": false,
+        "mealCategory": "extra"
+    },
+    "p3_extra_Fruta_Densa_Pltano_mainOnly_idx4": {
+        "id": "p3_extra_Fruta_Densa_Pltano_mainOnly_idx4",
+        "name": "Fruta Densa (Plátano, Manzana)",
+        "calories": 72,
+        "protein": 0.6,
+        "carbs": 18,
+        "fats": 0.24,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe4bb91eb325b93d4a82.png",
+        "ingredients": [
+            {
+                "name": "Plátano",
+                "quantity": "1",
+                "unit": "unidad(es)",
+                "calories": 72,
+                "protein": 0.6,
+                "carbs": 18,
+                "fats": 0.24
+            }
+        ],
+        "preparation": "1. Seleccionar la fruta densa de preferencia (plátano, manzana, pera, etc.). 2. Para plátanos: pelar la piel y consumir directamente. 3. Para manzanas o peras: lavar bien la fruta. Se puede consumir con piel (rica en fibra) o pelada, según preferencia. Se puede comer entera a mordiscos o cortada en trozos.",
+        "originalBaseRecipeId": "ext_fruta_densa_pltano_manzana",
+        "isSideDish": false,
+        "mealCategory": "extra"
     }
 };
 
 const dailyMenus = [
   {
-    "name": "Opciones 1",
+    "name": "Lowcarb1",
     "targetMacros": {
       "calories": 2000,
       "protein": 150,
@@ -788,24 +968,22 @@ const dailyMenus = [
     },
     "useCustomMacros": true,
     "desayuno": [
-      "p0_desayuno_Batido_Whey_de_mainOnly_idx0",
-      "p0_desayuno_Fruta_Ctrica_Mandarina_mainOnly_idx1"
+      "p0_desayuno_Batido_Whey_de_mainOnly_idx0"
     ],
     "comida": [
-      "p0_comida_Ensalada_de_Lentejas_mainOnly_idx2",
-      "p0_comida_Pechuga_de_Pavo_side_idx3"
+      "p0_comida_Ensalada_de_Lentejas_mainOnly_idx1",
+      "p0_comida_Pechuga_de_Pavo_side_idx2"
     ],
     "cena": [
-      "p0_cena_Calabacn_con_Cebolla_mainOnly_idx4",
-      "p0_cena_Revuelto_de_Huevos_side_idx5"
+      "p0_cena_Calabacn_con_Cebolla_mainOnly_idx3",
+      "p0_cena_Revuelto_de_Huevos_side_idx4"
     ],
     "extra": [
-      "p0_extra_Fruta_Densa_Pltano_mainOnly_idx6",
-      "p0_extra_Yogur_Protico_Sabores_mainOnly_idx7"
+      "p0_extra_Yogur_Protico_Sabores_mainOnly_idx5"
     ]
   },
   {
-    "name": "Opciones 2",
+    "name": "Lowcarb2",
     "targetMacros": {
       "calories": 2000,
       "protein": 160,
@@ -813,10 +991,10 @@ const dailyMenus = [
     },
     "useCustomMacros": true,
     "desayuno": [
-      "p1_desayuno_Tostada_de_Pan_mainOnly_idx0"
+      "p1_desayuno_Revuelto_de_Huevos_mainOnly_idx0"
     ],
     "comida": [
-      "p1_comida_Poke_de_aguacate_mainOnly_idx1"
+      "p1_comida_Ensalada_con_Pollo_mainOnly_idx1"
     ],
     "cena": [
       "p1_cena_Wok_de_Verduras_mainOnly_idx2"
@@ -826,7 +1004,7 @@ const dailyMenus = [
     ]
   },
   {
-    "name": "Opciones 3",
+    "name": "Libre 1",
     "targetMacros": {
       "calories": 2000,
       "protein": 160,
@@ -847,10 +1025,33 @@ const dailyMenus = [
       "p2_extra_Tortitas_de_Legumbres_mainOnly_idx4",
       "p2_extra_Fruta_Densa_Pltano_mainOnly_idx5"
     ]
+  },
+  {
+    "name": "Libre 2",
+    "targetMacros": {
+      "calories": 2000,
+      "protein": 150,
+      "carbs": 200
+    },
+    "useCustomMacros": true,
+    "desayuno": [
+      "p3_desayuno_Yogurt_Protico_con_mainOnly_idx0"
+    ],
+    "comida": [
+      "p3_comida_Patata_con_brcoli_mainOnly_idx1"
+    ],
+    "cena": [
+      "p3_cena_Musakka_de_Patata_mainOnly_idx2"
+    ],
+    "extra": [
+      "p3_extra_Batido_Whey_de_mainOnly_idx3",
+      "p3_extra_Fruta_Densa_Pltano_mainOnly_idx4"
+    ]
   }
 ];
 
 // Detalles de los planes exportados:
-// Plan: Opciones 1, Calorías Objetivo: 2000, Proteínas Objetivo: 150, Carbohidratos Objetivo: 200
-// Plan: Opciones 2, Calorías Objetivo: 2000, Proteínas Objetivo: 160, Carbohidratos Objetivo: 200
-// Plan: Opciones 3, Calorías Objetivo: 2000, Proteínas Objetivo: 160, Carbohidratos Objetivo: 200
+// Plan: Lowcarb1, Calorías Objetivo: 2000, Proteínas Objetivo: 150, Carbohidratos Objetivo: 200
+// Plan: Lowcarb2, Calorías Objetivo: 2000, Proteínas Objetivo: 160, Carbohidratos Objetivo: 200
+// Plan: Libre 1, Calorías Objetivo: 2000, Proteínas Objetivo: 160, Carbohidratos Objetivo: 200
+// Plan: Libre 2, Calorías Objetivo: 2000, Proteínas Objetivo: 150, Carbohidratos Objetivo: 200
