@@ -290,6 +290,30 @@ const foodDatabase = {
         "isSideDish": false,
         "mealCategory": "extra"
     },
+    "p0_extra_Fruta_Densa_Pltano_mainOnly_idx6": {
+        "id": "p0_extra_Fruta_Densa_Pltano_mainOnly_idx6",
+        "name": "Fruta Densa (Plátano, Manzana)",
+        "calories": 90,
+        "protein": 0.75,
+        "carbs": 22.5,
+        "fats": 0.3,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe4bb91eb325b93d4a82.png",
+        "ingredients": [
+            {
+                "name": "Manzana",
+                "quantity": "1",
+                "unit": "unidad(es)",
+                "calories": 90,
+                "protein": 0.75,
+                "carbs": 22.5,
+                "fats": 0.3
+            }
+        ],
+        "preparation": "1. Seleccionar la fruta densa de preferencia (plátano, manzana, pera, etc.). 2. Para plátanos: pelar la piel y consumir directamente. 3. Para manzanas o peras: lavar bien la fruta. Se puede consumir con piel (rica en fibra) o pelada, según preferencia. Se puede comer entera a mordiscos o cortada en trozos.",
+        "originalBaseRecipeId": "ext_fruta_densa_pltano_manzana",
+        "isSideDish": false,
+        "mealCategory": "extra"
+    },
     "p1_desayuno_Revuelto_de_Huevos_mainOnly_idx0": {
         "id": "p1_desayuno_Revuelto_de_Huevos_mainOnly_idx0",
         "name": "Revuelto de Huevos y Claras con Jamón",
@@ -605,6 +629,30 @@ const foodDatabase = {
         "isSideDish": false,
         "mealCategory": "extra"
     },
+    "p1_extra_Fruta_Densa_Pltano_mainOnly_idx6": {
+        "id": "p1_extra_Fruta_Densa_Pltano_mainOnly_idx6",
+        "name": "Fruta Densa (Plátano, Manzana)",
+        "calories": 72,
+        "protein": 0.6,
+        "carbs": 18,
+        "fats": 0.24,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe4bb91eb325b93d4a82.png",
+        "ingredients": [
+            {
+                "name": "Plátano",
+                "quantity": "1",
+                "unit": "unidad(es)",
+                "calories": 72,
+                "protein": 0.6,
+                "carbs": 18,
+                "fats": 0.24
+            }
+        ],
+        "preparation": "1. Seleccionar la fruta densa de preferencia (plátano, manzana, pera, etc.). 2. Para plátanos: pelar la piel y consumir directamente. 3. Para manzanas o peras: lavar bien la fruta. Se puede consumir con piel (rica en fibra) o pelada, según preferencia. Se puede comer entera a mordiscos o cortada en trozos.",
+        "originalBaseRecipeId": "ext_fruta_densa_pltano_manzana",
+        "isSideDish": false,
+        "mealCategory": "extra"
+    },
     "p2_desayuno_Porridge_de_Avena_mainOnly_idx0": {
         "id": "p2_desayuno_Porridge_de_Avena_mainOnly_idx0",
         "name": "Porridge de Avena y Frutos Rojos",
@@ -845,6 +893,48 @@ const foodDatabase = {
         ],
         "preparation": "Lavar y pelar la fruta. Consumir directamente.",
         "originalBaseRecipeId": "ext_fruta_ctrica_mandarina_kiwi_naranja",
+        "isSideDish": false,
+        "mealCategory": "extra"
+    },
+    "p2_extra_Frutos_Secos_Mezcla_mainOnly_idx6": {
+        "id": "p2_extra_Frutos_Secos_Mezcla_mainOnly_idx6",
+        "name": "Frutos Secos (Mezcla)",
+        "calories": 135,
+        "protein": 3,
+        "carbs": 4.5,
+        "fats": 12,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68525c0b1d27cfeb580a55f7.png",
+        "ingredients": [
+            {
+                "name": "Anacardos",
+                "quantity": "10",
+                "unit": "g",
+                "calories": 45,
+                "protein": 1,
+                "carbs": 1.5,
+                "fats": 4
+            },
+            {
+                "name": "Almendras",
+                "quantity": "10",
+                "unit": "g",
+                "calories": 45,
+                "protein": 1,
+                "carbs": 1.5,
+                "fats": 4
+            },
+            {
+                "name": "Nueces",
+                "quantity": "10",
+                "unit": "g",
+                "calories": 45,
+                "protein": 1,
+                "carbs": 1.5,
+                "fats": 4
+            }
+        ],
+        "preparation": "Consumir directamente como un snack energético y nutritivo. Se puede tomar un puñado (ej. 25-30g) o ajustar la cantidad según las necesidades calóricas.",
+        "originalBaseRecipeId": "ext_frutos_secos_mezcla",
         "isSideDish": false,
         "mealCategory": "extra"
     },
@@ -1117,7 +1207,8 @@ const dailyMenus = [
     ],
     "extra": [
       "p0_extra_Batido_Whey_de_mainOnly_idx4",
-      "p0_extra_Queso_Fresco_Batido_mainOnly_idx5"
+      "p0_extra_Queso_Fresco_Batido_mainOnly_idx5",
+      "p0_extra_Fruta_Densa_Pltano_mainOnly_idx6"
     ]
   },
   {
@@ -1140,7 +1231,8 @@ const dailyMenus = [
     ],
     "extra": [
       "p1_extra_Yogurt_Protico_con_mainOnly_idx4",
-      "p1_extra_Batido_Whey_de_mainOnly_idx5"
+      "p1_extra_Batido_Whey_de_mainOnly_idx5",
+      "p1_extra_Fruta_Densa_Pltano_mainOnly_idx6"
     ]
   },
   {
@@ -1163,7 +1255,8 @@ const dailyMenus = [
       "p2_cena_Merluza_a_la_side_idx4"
     ],
     "extra": [
-      "p2_extra_Fruta_Ctrica_Mandarina_mainOnly_idx5"
+      "p2_extra_Fruta_Ctrica_Mandarina_mainOnly_idx5",
+      "p2_extra_Frutos_Secos_Mezcla_mainOnly_idx6"
     ]
   },
   {
