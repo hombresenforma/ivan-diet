@@ -5,10 +5,10 @@ const foodDatabase = {
     "p0_desayuno_Tostada_de_Centeno_mainOnly_idx0": {
         "id": "p0_desayuno_Tostada_de_Centeno_mainOnly_idx0",
         "name": "Tostada de Centeno con Huevo y Queso Cottage",
-        "calories": 424.4,
-        "protein": 27.7,
-        "carbs": 20.1,
-        "fats": 25.9,
+        "calories": 296.9,
+        "protein": 15.2,
+        "carbs": 17.55,
+        "fats": 18.4,
         "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682ad5cf9b8ed31c657c80e8.png",
         "ingredients": [
             {
@@ -22,21 +22,21 @@ const foodDatabase = {
             },
             {
                 "name": "Huevo",
-                "quantity": "2",
+                "quantity": "1",
                 "unit": "unidad(es)",
-                "calories": 155,
-                "protein": 13,
-                "carbs": 1.1,
-                "fats": 11
+                "calories": 77.5,
+                "protein": 6.5,
+                "carbs": 0.55,
+                "fats": 5.5
             },
             {
                 "name": "Queso Cottage",
-                "quantity": "100",
+                "quantity": "50",
                 "unit": "g",
-                "calories": 100,
-                "protein": 12,
-                "carbs": 4,
-                "fats": 4
+                "calories": 50,
+                "protein": 6,
+                "carbs": 2,
+                "fats": 2
             },
             {
                 "name": "Aceite de Oliva Virgen Extra",
@@ -272,10 +272,10 @@ const foodDatabase = {
     "p1_desayuno_Tostada_de_Pan_mainOnly_idx0": {
         "id": "p1_desayuno_Tostada_de_Pan_mainOnly_idx0",
         "name": "Tostada de Pan de Centeno con Revuelto de Huevos y Jamón York",
-        "calories": 374,
-        "protein": 25.299999999999997,
-        "carbs": 17.3,
-        "fats": 22.7,
+        "calories": 351,
+        "protein": 23.7,
+        "carbs": 17.1,
+        "fats": 20.9,
         "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687d09e04d6fb7f271b84cc9.png",
         "ingredients": [
             {
@@ -298,12 +298,12 @@ const foodDatabase = {
             },
             {
                 "name": "Jamón York",
-                "quantity": "60",
+                "quantity": "50",
                 "unit": "g",
-                "calories": 138,
-                "protein": 9.6,
-                "carbs": 1.2,
-                "fats": 10.799999999999999
+                "calories": 114.99999999999999,
+                "protein": 8,
+                "carbs": 1,
+                "fats": 9
             }
         ],
         "preparation": "1. Tostar el pan de centeno. 2. Preparar un revuelto de huevos con taquitos de jamón york. 3. Servir el revuelto sobre la tostada.",
@@ -491,41 +491,8 @@ const foodDatabase = {
         "isSideDish": false,
         "mealCategory": "extra"
     },
-    "p2_desayuno_Tostada_de_centeno_mainOnly_idx0": {
-        "id": "p2_desayuno_Tostada_de_centeno_mainOnly_idx0",
-        "name": "Tostada de centeno con jamón ibérico",
-        "calories": 213,
-        "protein": 15.899999999999999,
-        "carbs": 15,
-        "fats": 9.3,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6887226c7537da60484d071f.png",
-        "ingredients": [
-            {
-                "name": "Tostada de Pan de Centeno",
-                "quantity": "1",
-                "unit": "rebanada(s)",
-                "calories": 81,
-                "protein": 2.6999999999999997,
-                "carbs": 15,
-                "fats": 0.8999999999999999
-            },
-            {
-                "name": "Jamón Ibérico",
-                "quantity": "60",
-                "unit": "g",
-                "calories": 132,
-                "protein": 13.2,
-                "carbs": 0,
-                "fats": 8.4
-            }
-        ],
-        "preparation": "1. Tostar el pan de centeno. 2. Colocar las lonchas de jamón ibérico por encima. Opcional: añadir un chorrito de aceite de oliva.",
-        "originalBaseRecipeId": "des_tostada_de_centeno_con_jamn_ibrico",
-        "isSideDish": false,
-        "mealCategory": "desayuno"
-    },
-    "p2_comida_Ensala_de_Patata_mainOnly_idx1": {
-        "id": "p2_comida_Ensala_de_Patata_mainOnly_idx1",
+    "p2_comida_Ensala_de_Patata_mainOnly_idx0": {
+        "id": "p2_comida_Ensala_de_Patata_mainOnly_idx0",
         "name": "Ensala de Patata, Atún y Huevo",
         "calories": 667.5,
         "protein": 63.00000000000001,
@@ -611,8 +578,8 @@ const foodDatabase = {
         "isSideDish": false,
         "mealCategory": "comida_cena_completa"
     },
-    "p2_cena_Fajitas_de_Pollo_mainOnly_idx2": {
-        "id": "p2_cena_Fajitas_de_Pollo_mainOnly_idx2",
+    "p2_cena_Fajitas_de_Pollo_mainOnly_idx1": {
+        "id": "p2_cena_Fajitas_de_Pollo_mainOnly_idx1",
         "name": "Fajitas de Pollo y Verduras",
         "calories": 664.4,
         "protein": 57.2,
@@ -689,8 +656,8 @@ const foodDatabase = {
         "isSideDish": false,
         "mealCategory": "comida_cena_completa"
     },
-    "p2_extra_Yogur_Protico_Sabores_mainOnly_idx3": {
-        "id": "p2_extra_Yogur_Protico_Sabores_mainOnly_idx3",
+    "p2_extra_Yogur_Protico_Sabores_mainOnly_idx2": {
+        "id": "p2_extra_Yogur_Protico_Sabores_mainOnly_idx2",
         "name": "Yogur Protéico (Sabores, Natural...)",
         "calories": 125,
         "protein": 6.25,
@@ -713,8 +680,8 @@ const foodDatabase = {
         "isSideDish": false,
         "mealCategory": "extra"
     },
-    "p2_extra_Fruta_Ctrica_Mandarina_mainOnly_idx4": {
-        "id": "p2_extra_Fruta_Ctrica_Mandarina_mainOnly_idx4",
+    "p2_extra_Fruta_Ctrica_Mandarina_mainOnly_idx3": {
+        "id": "p2_extra_Fruta_Ctrica_Mandarina_mainOnly_idx3",
         "name": "Fruta Cítrica (Mandarina, Kiwi, Naranja...)",
         "calories": 90,
         "protein": 0.75,
@@ -737,59 +704,8 @@ const foodDatabase = {
         "isSideDish": false,
         "mealCategory": "extra"
     },
-    "p3_desayuno_Sandwich_Vegetal_de_mainOnly_idx0": {
-        "id": "p3_desayuno_Sandwich_Vegetal_de_mainOnly_idx0",
-        "name": "Sandwich Vegetal de Atún",
-        "calories": 462,
-        "protein": 51.400000000000006,
-        "carbs": 40,
-        "fats": 8.2,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cd60954a1880bed54596d.png",
-        "ingredients": [
-            {
-                "name": "Pan de Centeno",
-                "quantity": "2",
-                "unit": "rebanada(s)",
-                "calories": 162,
-                "protein": 5.3999999999999995,
-                "carbs": 30,
-                "fats": 1.7999999999999998
-            },
-            {
-                "name": "Atún en Conserva",
-                "quantity": "150",
-                "unit": "g",
-                "calories": 240,
-                "protein": 42.00000000000001,
-                "carbs": 0,
-                "fats": 6
-            },
-            {
-                "name": "Tomate",
-                "quantity": "100",
-                "unit": "g",
-                "calories": 30,
-                "protein": 2,
-                "carbs": 5,
-                "fats": 0.2
-            },
-            {
-                "name": "Lechuga",
-                "quantity": "100",
-                "unit": "g",
-                "calories": 30,
-                "protein": 2,
-                "carbs": 5,
-                "fats": 0.2
-            }
-        ],
-        "preparation": "1. Prepara un bocadillo con un par de rebanadas de Pan de Centeno. 2. Añade el Atún y opcionalmente tomate y lechuga.",
-        "originalBaseRecipeId": "des_sandwich_vegetal_de_atn",
-        "isSideDish": false,
-        "mealCategory": "desayuno"
-    },
-    "p3_comida_Alcachofa_salteada_con_mainOnly_idx1": {
-        "id": "p3_comida_Alcachofa_salteada_con_mainOnly_idx1",
+    "p3_comida_Alcachofa_salteada_con_mainOnly_idx0": {
+        "id": "p3_comida_Alcachofa_salteada_con_mainOnly_idx0",
         "name": "Alcachofa salteada con jamón, huevo",
         "calories": 383.4,
         "protein": 26,
@@ -839,8 +755,8 @@ const foodDatabase = {
         "isSideDish": false,
         "mealCategory": "plato_principal"
     },
-    "p3_comida_SolomilloFilete_de_Ternera_side_idx2": {
-        "id": "p3_comida_SolomilloFilete_de_Ternera_side_idx2",
+    "p3_comida_SolomilloFilete_de_Ternera_side_idx1": {
+        "id": "p3_comida_SolomilloFilete_de_Ternera_side_idx1",
         "name": "Solomillo/Filete de Ternera a la Plancha",
         "calories": 352.4,
         "protein": 26.4,
@@ -872,8 +788,92 @@ const foodDatabase = {
         "isSideDish": true,
         "mealCategory": "acompanamiento"
     },
-    "p3_extra_Yogur_Protico_Sabores_mainOnly_idx3": {
-        "id": "p3_extra_Yogur_Protico_Sabores_mainOnly_idx3",
+    "p3_cena_Crema_de_Verduras_mainOnly_idx2": {
+        "id": "p3_cena_Crema_de_Verduras_mainOnly_idx2",
+        "name": "Crema de Verduras Variadas",
+        "calories": 117.5,
+        "protein": 7,
+        "carbs": 16.25,
+        "fats": 2.45,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cd68425d68cc771ebd10a.png",
+        "ingredients": [
+            {
+                "name": "Calabaza",
+                "quantity": "75",
+                "unit": "g",
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
+            },
+            {
+                "name": "Tomate",
+                "quantity": "75",
+                "unit": "g",
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
+            },
+            {
+                "name": "Cebolla",
+                "quantity": "75",
+                "unit": "g",
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
+            },
+            {
+                "name": "Agua",
+                "quantity": "50",
+                "unit": "g",
+                "calories": 50,
+                "protein": 2.5,
+                "carbs": 5,
+                "fats": 2
+            }
+        ],
+        "preparation": "1. Puedes comprar una crema preparada o bien cocinar unas cuantas verduras en una olla.",
+        "originalBaseRecipeId": "pp_crema_de_verduras_variadas",
+        "isSideDish": false,
+        "mealCategory": "plato_principal"
+    },
+    "p3_cena_Merluza_a_la_side_idx3": {
+        "id": "p3_cena_Merluza_a_la_side_idx3",
+        "name": "Merluza a la Plancha",
+        "calories": 328.4,
+        "protein": 42.00000000000001,
+        "carbs": 0,
+        "fats": 16,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684f001d4d606642b1333279.png",
+        "ingredients": [
+            {
+                "name": "Filete de Merluza",
+                "quantity": "150",
+                "unit": "g",
+                "calories": 240,
+                "protein": 42.00000000000001,
+                "carbs": 0,
+                "fats": 6
+            },
+            {
+                "name": "Aceite de Oliva Virgen Extra",
+                "quantity": "10",
+                "unit": "g",
+                "calories": 88.4,
+                "protein": 0,
+                "carbs": 0,
+                "fats": 10
+            }
+        ],
+        "preparation": "1. Sazonar los filetes o rodajas de merluza con sal, pimienta y opcionalmente un poco de ajo en polvo o perejil picado. 2. Calentar una plancha o sartén antiadherente a fuego medio-alto con un chorrito de aceite de oliva virgen extra. 3. Cuando el aceite esté caliente, colocar la merluza en la plancha. Cocinar durante unos 3-5 minutos por cada lado, dependiendo del grosor del pescado, hasta que esté opaca, bien cocida por dentro y se desmenuce fácilmente con un tenedor. Evitar cocinarla en exceso para que no quede seca. 4. Servir inmediatamente, opcionalmente con un chorrito de zumo de limón fresco por encima.",
+        "originalBaseRecipeId": "ac_merluza_a_la_plancha",
+        "isSideDish": true,
+        "mealCategory": "acompanamiento"
+    },
+    "p3_extra_Yogur_Protico_Sabores_mainOnly_idx4": {
+        "id": "p3_extra_Yogur_Protico_Sabores_mainOnly_idx4",
         "name": "Yogur Protéico (Sabores, Natural...)",
         "calories": 125,
         "protein": 6.25,
@@ -896,8 +896,8 @@ const foodDatabase = {
         "isSideDish": false,
         "mealCategory": "extra"
     },
-    "p3_extra_Fruta_Ctrica_Mandarina_mainOnly_idx4": {
-        "id": "p3_extra_Fruta_Ctrica_Mandarina_mainOnly_idx4",
+    "p3_extra_Fruta_Ctrica_Mandarina_mainOnly_idx5": {
+        "id": "p3_extra_Fruta_Ctrica_Mandarina_mainOnly_idx5",
         "name": "Fruta Cítrica (Mandarina, Kiwi, Naranja...)",
         "calories": 90,
         "protein": 0.75,
@@ -969,46 +969,45 @@ const dailyMenus = [
     ]
   },
   {
-    "name": "ENTRENO 2",
+    "name": "AYUNO 1",
     "targetMacros": {
       "calories": 2000,
       "protein": 160,
       "carbs": 200
     },
     "useCustomMacros": true,
-    "desayuno": [
-      "p2_desayuno_Tostada_de_centeno_mainOnly_idx0"
-    ],
+    "desayuno": [],
     "comida": [
-      "p2_comida_Ensala_de_Patata_mainOnly_idx1"
+      "p2_comida_Ensala_de_Patata_mainOnly_idx0"
     ],
     "cena": [
-      "p2_cena_Fajitas_de_Pollo_mainOnly_idx2"
+      "p2_cena_Fajitas_de_Pollo_mainOnly_idx1"
     ],
     "extra": [
-      "p2_extra_Yogur_Protico_Sabores_mainOnly_idx3",
-      "p2_extra_Fruta_Ctrica_Mandarina_mainOnly_idx4"
+      "p2_extra_Yogur_Protico_Sabores_mainOnly_idx2",
+      "p2_extra_Fruta_Ctrica_Mandarina_mainOnly_idx3"
     ]
   },
   {
-    "name": "AYUNO",
+    "name": "AYUNO 2",
     "targetMacros": {
       "calories": 2000,
       "protein": 150,
       "carbs": 200
     },
     "useCustomMacros": true,
-    "desayuno": [
-      "p3_desayuno_Sandwich_Vegetal_de_mainOnly_idx0"
-    ],
+    "desayuno": [],
     "comida": [
-      "p3_comida_Alcachofa_salteada_con_mainOnly_idx1",
-      "p3_comida_SolomilloFilete_de_Ternera_side_idx2"
+      "p3_comida_Alcachofa_salteada_con_mainOnly_idx0",
+      "p3_comida_SolomilloFilete_de_Ternera_side_idx1"
     ],
-    "cena": [],
+    "cena": [
+      "p3_cena_Crema_de_Verduras_mainOnly_idx2",
+      "p3_cena_Merluza_a_la_side_idx3"
+    ],
     "extra": [
-      "p3_extra_Yogur_Protico_Sabores_mainOnly_idx3",
-      "p3_extra_Fruta_Ctrica_Mandarina_mainOnly_idx4"
+      "p3_extra_Yogur_Protico_Sabores_mainOnly_idx4",
+      "p3_extra_Fruta_Ctrica_Mandarina_mainOnly_idx5"
     ]
   }
 ];
@@ -1016,5 +1015,5 @@ const dailyMenus = [
 // Detalles de los planes exportados:
 // Plan: LIBRE, Calorías Objetivo: 2000, Proteínas Objetivo: 150, Carbohidratos Objetivo: 200
 // Plan: ENTRENO 1, Calorías Objetivo: 2000, Proteínas Objetivo: 160, Carbohidratos Objetivo: 200
-// Plan: ENTRENO 2, Calorías Objetivo: 2000, Proteínas Objetivo: 160, Carbohidratos Objetivo: 200
-// Plan: AYUNO, Calorías Objetivo: 2000, Proteínas Objetivo: 150, Carbohidratos Objetivo: 200
+// Plan: AYUNO 1, Calorías Objetivo: 2000, Proteínas Objetivo: 160, Carbohidratos Objetivo: 200
+// Plan: AYUNO 2, Calorías Objetivo: 2000, Proteínas Objetivo: 150, Carbohidratos Objetivo: 200
