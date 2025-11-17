@@ -456,7 +456,7 @@ const foodDatabase = {
         "protein": 9.55,
         "carbs": 26,
         "fats": 17.12,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afea2b91eb35e413d4ab6.png",
+        "image": "",
         "ingredients": [
             {
                 "name": "Yogur Protéico",
@@ -736,6 +736,192 @@ const foodDatabase = {
         "originalBaseRecipeId": "ext_fruta_ctrica_mandarina_kiwi_naranja",
         "isSideDish": false,
         "mealCategory": "extra"
+    },
+    "p3_desayuno_Sandwich_Vegetal_de_mainOnly_idx0": {
+        "id": "p3_desayuno_Sandwich_Vegetal_de_mainOnly_idx0",
+        "name": "Sandwich Vegetal de Atún",
+        "calories": 391.5,
+        "protein": 41.5,
+        "carbs": 36.25,
+        "fats": 6.85,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cd60954a1880bed54596d.png",
+        "ingredients": [
+            {
+                "name": "Pan de Centeno",
+                "quantity": "2",
+                "unit": "rebanada(s)",
+                "calories": 162,
+                "protein": 5.3999999999999995,
+                "carbs": 30,
+                "fats": 1.7999999999999998
+            },
+            {
+                "name": "Atún en Conserva",
+                "quantity": "120",
+                "unit": "g",
+                "calories": 192,
+                "protein": 33.6,
+                "carbs": 0,
+                "fats": 4.8
+            },
+            {
+                "name": "Tomate",
+                "quantity": "75",
+                "unit": "g",
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
+            },
+            {
+                "name": "Lechuga",
+                "quantity": "50",
+                "unit": "g",
+                "calories": 15,
+                "protein": 1,
+                "carbs": 2.5,
+                "fats": 0.1
+            }
+        ],
+        "preparation": "1. Prepara un bocadillo con un par de rebanadas de Pan de Centeno. 2. Añade el Atún y opcionalmente tomate y lechuga.",
+        "originalBaseRecipeId": "des_sandwich_vegetal_de_atn",
+        "isSideDish": false,
+        "mealCategory": "desayuno"
+    },
+    "p3_comida_Wrap_de_pollo_mainOnly_idx1": {
+        "id": "p3_comida_Wrap_de_pollo_mainOnly_idx1",
+        "name": "Wrap de pollo hervido con verduras y arroz",
+        "calories": 741,
+        "protein": 60.900000000000006,
+        "carbs": 93.75,
+        "fats": 10.65,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684ef7e26202d54cb0de24e8.png",
+        "ingredients": [
+            {
+                "name": "Pechuga de Pollo",
+                "quantity": "150",
+                "unit": "g",
+                "calories": 240,
+                "protein": 42.00000000000001,
+                "carbs": 0,
+                "fats": 6
+            },
+            {
+                "name": "Arroz",
+                "quantity": "30",
+                "unit": "g",
+                "calories": 109.5,
+                "protein": 3.5999999999999996,
+                "carbs": 22.5,
+                "fats": 0.6
+            },
+            {
+                "name": "Brócoli",
+                "quantity": "75",
+                "unit": "g",
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
+            },
+            {
+                "name": "Zanahoria",
+                "quantity": "75",
+                "unit": "g",
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
+            },
+            {
+                "name": "Cebolla",
+                "quantity": "75",
+                "unit": "g",
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
+            },
+            {
+                "name": "Tortilla de Wrap",
+                "quantity": "2",
+                "unit": "unidad(es)",
+                "calories": 324,
+                "protein": 10.799999999999999,
+                "carbs": 60,
+                "fats": 3.5999999999999996
+            }
+        ],
+        "preparation": "1. Hervir la pechuga de pollo en agua con sal hasta que esté cocida (unos 15-20 minutos). Dejar enfriar un poco y desmenuzar o cortar en trozos pequeños. 2. Cocer el arroz según las instrucciones del paquete. 3. Cocer al vapor o hervir el brócoli (en floretes pequeños) y la zanahoria (cortada en juliana o dados pequeños) hasta que estén tiernos pero crujientes. Picar la cebolla finamente (puede usarse cruda o salteada ligeramente). 4. Calentar ligeramente la tortilla de wrap para que sea más flexible. 5. Extender una capa fina de arroz cocido sobre la tortilla, dejando un borde libre. Distribuir encima el pollo desmenuzado, el brócoli, la zanahoria y la cebolla. 6. Opcional: añadir una salsa ligera (yogur con hierbas, hummus, etc.). Enrollar el wrap firmemente, doblando los extremos hacia adentro si se prefiere.",
+        "originalBaseRecipeId": "cc_wrap_de_pollo_hervido_con_verduras_y_arroz",
+        "isSideDish": false,
+        "mealCategory": "comida_cena_completa"
+    },
+    "p3_extra_Yogur_Protico_Sabores_mainOnly_idx2": {
+        "id": "p3_extra_Yogur_Protico_Sabores_mainOnly_idx2",
+        "name": "Yogur Protéico (Sabores, Natural...)",
+        "calories": 125,
+        "protein": 6.25,
+        "carbs": 12.5,
+        "fats": 5,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd789b8ed38b127cbc09.png",
+        "ingredients": [
+            {
+                "name": "Yogur Protéico",
+                "quantity": "1",
+                "unit": "unidad(es)",
+                "calories": 125,
+                "protein": 6.25,
+                "carbs": 12.5,
+                "fats": 5
+            }
+        ],
+        "preparation": "1. Seleccionar el yogur proteico de preferencia (natural o con sabores). 2. Abrir el envase. 3. Consumir directamente con una cuchara. Opcional: se puede acompañar de frutas frescas troceadas, frutos secos, semillas o un poco de miel o edulcorante si es natural y se desea endulzar.",
+        "originalBaseRecipeId": "ext_yogur_protico_sabores_natural",
+        "isSideDish": false,
+        "mealCategory": "extra"
+    },
+    "p3_extra_Frutos_Secos_Mezcla_mainOnly_idx3": {
+        "id": "p3_extra_Frutos_Secos_Mezcla_mainOnly_idx3",
+        "name": "Frutos Secos (Mezcla)",
+        "calories": 135,
+        "protein": 3,
+        "carbs": 4.5,
+        "fats": 12,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68525c0b1d27cfeb580a55f7.png",
+        "ingredients": [
+            {
+                "name": "Anacardos",
+                "quantity": "10",
+                "unit": "g",
+                "calories": 45,
+                "protein": 1,
+                "carbs": 1.5,
+                "fats": 4
+            },
+            {
+                "name": "Almendras",
+                "quantity": "10",
+                "unit": "g",
+                "calories": 45,
+                "protein": 1,
+                "carbs": 1.5,
+                "fats": 4
+            },
+            {
+                "name": "Nueces",
+                "quantity": "10",
+                "unit": "g",
+                "calories": 45,
+                "protein": 1,
+                "carbs": 1.5,
+                "fats": 4
+            }
+        ],
+        "preparation": "Consumir directamente como un snack energético y nutritivo. Se puede tomar un puñado (ej. 25-30g) o ajustar la cantidad según las necesidades calóricas.",
+        "originalBaseRecipeId": "ext_frutos_secos_mezcla",
+        "isSideDish": false,
+        "mealCategory": "extra"
     }
 };
 
@@ -806,6 +992,26 @@ const dailyMenus = [
       "p2_extra_Yogur_Protico_Sabores_mainOnly_idx3",
       "p2_extra_Fruta_Ctrica_Mandarina_mainOnly_idx4"
     ]
+  },
+  {
+    "name": "Ayuno",
+    "targetMacros": {
+      "calories": 2000,
+      "protein": 150,
+      "carbs": 200
+    },
+    "useCustomMacros": true,
+    "desayuno": [
+      "p3_desayuno_Sandwich_Vegetal_de_mainOnly_idx0"
+    ],
+    "comida": [
+      "p3_comida_Wrap_de_pollo_mainOnly_idx1"
+    ],
+    "cena": [],
+    "extra": [
+      "p3_extra_Yogur_Protico_Sabores_mainOnly_idx2",
+      "p3_extra_Frutos_Secos_Mezcla_mainOnly_idx3"
+    ]
   }
 ];
 
@@ -813,3 +1019,4 @@ const dailyMenus = [
 // Plan: LIBRE, Calorías Objetivo: 2000, Proteínas Objetivo: 150, Carbohidratos Objetivo: 200
 // Plan: ENTRENO 1, Calorías Objetivo: 2000, Proteínas Objetivo: 160, Carbohidratos Objetivo: 200
 // Plan: ENTRENO 2, Calorías Objetivo: 2000, Proteínas Objetivo: 160, Carbohidratos Objetivo: 200
+// Plan: Ayuno, Calorías Objetivo: 2000, Proteínas Objetivo: 150, Carbohidratos Objetivo: 200
