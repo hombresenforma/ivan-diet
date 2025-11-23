@@ -2,72 +2,63 @@
 // La variable 'foodCategories' no se incluye aquí ya que se importa desde la app.
 
 const foodDatabase = {
-    "p0_comida_Poke_de_aguacate_mainOnly_idx0": {
-        "id": "p0_comida_Poke_de_aguacate_mainOnly_idx0",
-        "name": "Poke de aguacate, mango, tomate, soja, cebolla, arroz y pollo",
-        "calories": 675.9,
-        "protein": 53.18,
-        "carbs": 61,
-        "fats": 26.77,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684efa4ef6c48db833a5b1af.png",
+    "p0_comida_Gnoccis_con_sofrito_mainOnly_idx0": {
+        "id": "p0_comida_Gnoccis_con_sofrito_mainOnly_idx0",
+        "name": "Gnoccis con sofrito de ternera, calabacín, cebolla y cerdo",
+        "calories": 729,
+        "protein": 43.9,
+        "carbs": 85,
+        "fats": 21.7,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684efd20653a2c44bb172cef.png",
         "ingredients": [
             {
-                "name": "Pechuga de Pollo (cruda)",
-                "quantity": "200",
+                "name": "Gnocchis",
+                "quantity": "150",
                 "unit": "g",
-                "calories": 220.57,
-                "protein": 45.71,
+                "calories": 405,
+                "protein": 13.5,
+                "carbs": 75,
+                "fats": 4.5
+            },
+            {
+                "name": "Carne Picada Mixta (Ternera y Cerdo)",
+                "quantity": "120",
+                "unit": "g",
+                "calories": 264,
+                "protein": 26.4,
                 "carbs": 0,
-                "fats": 4.57
+                "fats": 16.8
             },
             {
-                "name": "Arroz (crudo)",
-                "quantity": "60",
-                "unit": "g",
-                "calories": 216,
-                "protein": 4.8,
-                "carbs": 48,
-                "fats": 1.2
-            },
-            {
-                "name": "Aguacate",
+                "name": "Calabacín",
                 "quantity": "75",
                 "unit": "g",
-                "calories": 120,
-                "protein": 2,
-                "carbs": 7,
-                "fats": 11
-            },
-            {
-                "name": "Tomate",
-                "quantity": "50",
-                "unit": "g",
-                "calories": 9.33,
-                "protein": 0.67,
-                "carbs": 2,
-                "fats": 0
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
             },
             {
                 "name": "Cebolla",
-                "quantity": "50",
+                "quantity": "75",
                 "unit": "g",
-                "calories": 20,
-                "protein": 0,
-                "carbs": 4,
-                "fats": 0
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
             },
             {
-                "name": "Aceite de Oliva Virgen Extra",
-                "quantity": "10",
+                "name": "Tomate Frito",
+                "quantity": "50",
                 "unit": "g",
-                "calories": 90,
-                "protein": 0,
-                "carbs": 0,
-                "fats": 10
+                "calories": 15,
+                "protein": 1,
+                "carbs": 2.5,
+                "fats": 0.1
             }
         ],
-        "preparation": "Cocinar el arroz y el pollo. Cortar el resto de los ingredientes y mezclarlo todo. Aderezar con aceite de oliva.",
-        "originalBaseRecipeId": "cc_poke_de_aguacate_mango_tomate_soja_cebolla_arroz_y_pollo",
+        "preparation": "1. Picar finamente la cebolla. Rallar o picar el calabacín en dados pequeños. 2. En una sartén grande, calentar un poco de aceite de oliva y sofreír la cebolla hasta que esté transparente. 3. Añadir la carne picada mixta y cocinar a fuego medio-alto, deshaciendo los grumos, hasta que se dore. 4. Incorporar el calabacín y cocinar unos minutos hasta que empiece a ablandarse. Añadir el tomate frito y sazonar con sal, pimienta y orégano o albahaca al gusto. Cocinar a fuego lento durante 10-15 minutos para que la salsa espese ligeramente y se mezclen los sabores. 5. Mientras tanto, cocer los gnocchis según las instrucciones del paquete (normalmente están listos cuando flotan en la superficie del agua hirviendo, unos 2-3 minutos). 6. Escurrir los gnocchis y mezclarlos suavemente con la salsa de carne y verduras. Servir caliente, opcionalmente con queso parmesano rallado.",
+        "originalBaseRecipeId": "cc_gnoccis_con_sofrito_de_ternera_calabacn_cebolla_y_cerdo",
         "isSideDish": false,
         "mealCategory": "comida_cena_completa"
     },
@@ -189,7 +180,7 @@ const foodDatabase = {
         "protein": 18,
         "carbs": 25,
         "fats": 17,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afea2b91eb35e413d4ab6.png",
+        "image": "",
         "ingredients": [
             {
                 "name": "Yogur Protéico",
@@ -712,6 +703,225 @@ const foodDatabase = {
         "originalBaseRecipeId": "ext_batido_whey_de_protenas",
         "isSideDish": false,
         "mealCategory": "extra"
+    },
+    "p2_extra_Fruta_Densa_Pltano_mainOnly_idx5": {
+        "id": "p2_extra_Fruta_Densa_Pltano_mainOnly_idx5",
+        "name": "Fruta Densa (Plátano, Manzana)",
+        "calories": 72,
+        "protein": 0.6,
+        "carbs": 18,
+        "fats": 0.24,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe4bb91eb325b93d4a82.png",
+        "ingredients": [
+            {
+                "name": "Plátano",
+                "quantity": "1",
+                "unit": "unidad(es)",
+                "calories": 72,
+                "protein": 0.6,
+                "carbs": 18,
+                "fats": 0.24
+            }
+        ],
+        "preparation": "1. Seleccionar la fruta densa de preferencia (plátano, manzana, pera, etc.). 2. Para plátanos: pelar la piel y consumir directamente. 3. Para manzanas o peras: lavar bien la fruta. Se puede consumir con piel (rica en fibra) o pelada, según preferencia. Se puede comer entera a mordiscos o cortada en trozos.",
+        "originalBaseRecipeId": "ext_fruta_densa_pltano_manzana",
+        "isSideDish": false,
+        "mealCategory": "extra"
+    },
+    "p3_desayuno_Yogurt_Protico_con_mainOnly_idx0": {
+        "id": "p3_desayuno_Yogurt_Protico_con_mainOnly_idx0",
+        "name": "Yogurt Protéico con Frutos Rojos y Secos",
+        "calories": 421,
+        "protein": 15.8,
+        "carbs": 38.5,
+        "fats": 22.119999999999997,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afea2b91eb35e413d4ab6.png",
+        "ingredients": [
+            {
+                "name": "Yogur Protéico",
+                "quantity": "2",
+                "unit": "unidad(es)",
+                "calories": 250,
+                "protein": 12.5,
+                "carbs": 25,
+                "fats": 10
+            },
+            {
+                "name": "Frutos Rojos",
+                "quantity": "60",
+                "unit": "g",
+                "calories": 36,
+                "protein": 0.3,
+                "carbs": 9,
+                "fats": 0.12
+            },
+            {
+                "name": "Frutos Secos",
+                "quantity": "30",
+                "unit": "g",
+                "calories": 135,
+                "protein": 3,
+                "carbs": 4.5,
+                "fats": 12
+            }
+        ],
+        "preparation": "1. En un bol, verter el yogur proteico. 2. Añadir los frutos rojos frescos o descongelados. 3. Espolvorear con los frutos secos troceados por encima. Servir inmediatamente.",
+        "originalBaseRecipeId": "des_yogurt_protico_con_frutos_rojos_y_secos",
+        "isSideDish": false,
+        "mealCategory": "desayuno"
+    },
+    "p3_comida_Fajitas_de_Pollo_mainOnly_idx1": {
+        "id": "p3_comida_Fajitas_de_Pollo_mainOnly_idx1",
+        "name": "Fajitas de Pollo y Verduras",
+        "calories": 634.4,
+        "protein": 55.2,
+        "carbs": 55,
+        "fats": 19,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afcef0ed50608b742ff33.png",
+        "ingredients": [
+            {
+                "name": "Pan de Fajita",
+                "quantity": "2",
+                "unit": "unidad(es)",
+                "calories": 216,
+                "protein": 7.199999999999999,
+                "carbs": 40,
+                "fats": 2.4
+            },
+            {
+                "name": "Tomate",
+                "quantity": "75",
+                "unit": "g",
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
+            },
+            {
+                "name": "Pimiento Rojo",
+                "quantity": "75",
+                "unit": "g",
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
+            },
+            {
+                "name": "Pimiento Verde",
+                "quantity": "75",
+                "unit": "g",
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
+            },
+            {
+                "name": "Cebolla",
+                "quantity": "75",
+                "unit": "g",
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
+            },
+            {
+                "name": "Pechuga de Pollo",
+                "quantity": "150",
+                "unit": "g",
+                "calories": 240,
+                "protein": 42.00000000000001,
+                "carbs": 0,
+                "fats": 6
+            },
+            {
+                "name": "Aceite de Oliva Virgen Extra",
+                "quantity": "10",
+                "unit": "g",
+                "calories": 88.4,
+                "protein": 0,
+                "carbs": 0,
+                "fats": 10
+            }
+        ],
+        "preparation": "1. Cortar la pechuga de pollo en tiras finas. Cortar el pimiento rojo, pimiento Verde y cebolla en juliana. Picar el tomate en dados pequeños. 2. Calentar un poco de aceite en una sartén grande. Saltear el pollo hasta que esté dorado y cocido. Retirar y reservar. 3. En la misma sartén, añadir un poco más de aceite si es necesario y saltear las verduras (pimientos y cebolla) hasta que estén tiernas pero crujientes. 4. Volver a añadir el pollo a la sartén con las verduras. Sazonar con especias para fajitas (opcional) o sal y pimienta. Mezclar bien. 5. Calentar las tortillas de fajita según las instrucciones del paquete. 6. Rellenar las tortillas con la mezcla de pollo y verduras, y añadir el tomate fresco picado por encima. Opcional: servir con guacamole, crema agria o salsa.",
+        "originalBaseRecipeId": "cc_fajitas_de_pollo_y_verduras",
+        "isSideDish": false,
+        "mealCategory": "comida_cena_completa"
+    },
+    "p3_cena_Sopa_de_Galets_mainOnly_idx2": {
+        "id": "p3_cena_Sopa_de_Galets_mainOnly_idx2",
+        "name": "Sopa de Galets y Pelota de carne de Vacuno",
+        "calories": 543,
+        "protein": 37.599999999999994,
+        "carbs": 55,
+        "fats": 18.4,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6922d159995c4b0151a32409.png",
+        "ingredients": [
+            {
+                "name": "Galets",
+                "quantity": "60",
+                "unit": "g",
+                "calories": 219,
+                "protein": 7.199999999999999,
+                "carbs": 45,
+                "fats": 1.2
+            },
+            {
+                "name": "Carne Picada de Vacuno",
+                "quantity": "120",
+                "unit": "g",
+                "calories": 264,
+                "protein": 26.4,
+                "carbs": 0,
+                "fats": 16.8
+            },
+            {
+                "name": "Caldo de Carne",
+                "quantity": "200",
+                "unit": "g",
+                "calories": 60,
+                "protein": 4,
+                "carbs": 10,
+                "fats": 0.4
+            }
+        ],
+        "preparation": "1. Mezclar la carne picada con el huevo, un poco de pan rallado, ajo y perejil para formar las pelotas. 2. Poner el caldo de carne a hervir. 3. Cuando hierva, añadir las pelotas y los galets. 4. Cocinar a fuego medio durante 15-20 minutos hasta que la pasta esté lista y la carne cocida.",
+        "originalBaseRecipeId": "cc_sopa_de_galets_y_pelota_de_carne_de_vacuno",
+        "isSideDish": false,
+        "mealCategory": "comida_cena_completa"
+    },
+    "p3_extra_Fruta_Densa_Pltano_mainOnly_idx3": {
+        "id": "p3_extra_Fruta_Densa_Pltano_mainOnly_idx3",
+        "name": "Fruta Densa (Plátano, Manzana)",
+        "calories": 162,
+        "protein": 1.35,
+        "carbs": 40.5,
+        "fats": 0.54,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe4bb91eb325b93d4a82.png",
+        "ingredients": [
+            {
+                "name": "Plátano",
+                "quantity": "1",
+                "unit": "unidad(es)",
+                "calories": 72,
+                "protein": 0.6,
+                "carbs": 18,
+                "fats": 0.24
+            },
+            {
+                "name": "Manzana",
+                "quantity": "1",
+                "unit": "unidad(es)",
+                "calories": 90,
+                "protein": 0.75,
+                "carbs": 22.5,
+                "fats": 0.3
+            }
+        ],
+        "preparation": "1. Seleccionar la fruta densa de preferencia (plátano, manzana, pera, etc.). 2. Para plátanos: pelar la piel y consumir directamente. 3. Para manzanas o peras: lavar bien la fruta. Se puede consumir con piel (rica en fibra) o pelada, según preferencia. Se puede comer entera a mordiscos o cortada en trozos.",
+        "originalBaseRecipeId": "ext_fruta_densa_pltano_manzana",
+        "isSideDish": false,
+        "mealCategory": "extra"
     }
 };
 
@@ -726,7 +936,7 @@ const dailyMenus = [
     "useCustomMacros": true,
     "desayuno": [],
     "comida": [
-      "p0_comida_Poke_de_aguacate_mainOnly_idx0"
+      "p0_comida_Gnoccis_con_sofrito_mainOnly_idx0"
     ],
     "cena": [
       "p0_cena_Ensala_de_Patata_mainOnly_idx1"
@@ -777,7 +987,29 @@ const dailyMenus = [
       "p2_cena_Hamburguesa_de_PavoPollo_side_idx3"
     ],
     "extra": [
-      "p2_extra_Batido_Whey_de_mainOnly_idx4"
+      "p2_extra_Batido_Whey_de_mainOnly_idx4",
+      "p2_extra_Fruta_Densa_Pltano_mainOnly_idx5"
+    ]
+  },
+  {
+    "name": "Completo 2",
+    "targetMacros": {
+      "calories": 1700,
+      "protein": 140,
+      "carbs": 150
+    },
+    "useCustomMacros": true,
+    "desayuno": [
+      "p3_desayuno_Yogurt_Protico_con_mainOnly_idx0"
+    ],
+    "comida": [
+      "p3_comida_Fajitas_de_Pollo_mainOnly_idx1"
+    ],
+    "cena": [
+      "p3_cena_Sopa_de_Galets_mainOnly_idx2"
+    ],
+    "extra": [
+      "p3_extra_Fruta_Densa_Pltano_mainOnly_idx3"
     ]
   }
 ];
@@ -786,3 +1018,4 @@ const dailyMenus = [
 // Plan: Ayuno 1, Calorías Objetivo: 1700, Proteínas Objetivo: 140, Carbohidratos Objetivo: 150
 // Plan: Ayuno 2, Calorías Objetivo: 1700, Proteínas Objetivo: 140, Carbohidratos Objetivo: 150
 // Plan: Completo 1, Calorías Objetivo: 1700, Proteínas Objetivo: 140, Carbohidratos Objetivo: 150
+// Plan: Completo 2, Calorías Objetivo: 1700, Proteínas Objetivo: 140, Carbohidratos Objetivo: 150
