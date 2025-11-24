@@ -158,10 +158,10 @@ const foodDatabase = {
     "p0_cena_Poke_de_aguacate_mainOnly_idx3": {
         "id": "p0_cena_Poke_de_aguacate_mainOnly_idx3",
         "name": "Poke de aguacate, mango, tomate, soja, cebolla, arroz y pollo",
-        "calories": 785.15,
-        "protein": 56.150000000000006,
-        "carbs": 70.25,
-        "fats": 29.759999999999998,
+        "calories": 876.4,
+        "protein": 59.150000000000006,
+        "carbs": 89,
+        "fats": 30.259999999999998,
         "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684efa4ef6c48db833a5b1af.png",
         "ingredients": [
             {
@@ -202,12 +202,12 @@ const foodDatabase = {
             },
             {
                 "name": "Arroz",
-                "quantity": "75",
+                "quantity": "100",
                 "unit": "g",
-                "calories": 273.75,
-                "protein": 8.999999999999998,
-                "carbs": 56.25,
-                "fats": 1.5
+                "calories": 365,
+                "protein": 11.999999999999998,
+                "carbs": 75,
+                "fats": 2
             },
             {
                 "name": "Pechuga de Pollo",
@@ -497,20 +497,20 @@ const foodDatabase = {
     "p1_cena_Patatas_Cocidas_con_mainOnly_idx3": {
         "id": "p1_cena_Patatas_Cocidas_con_mainOnly_idx3",
         "name": "Patatas Cocidas con Salteado de Verduras y Hamburguesa a la plancha",
-        "calories": 597.5,
-        "protein": 36.5,
-        "carbs": 52,
-        "fats": 26.05,
+        "calories": 636,
+        "protein": 37.5,
+        "carbs": 60.50000000000001,
+        "fats": 26.1,
         "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cf8559b0c6709fc9afa98.png",
         "ingredients": [
             {
                 "name": "Patata (cruda)",
-                "quantity": "250",
+                "quantity": "300",
                 "unit": "g",
-                "calories": 192.5,
-                "protein": 5,
-                "carbs": 42.5,
-                "fats": 0.25
+                "calories": 231,
+                "protein": 6,
+                "carbs": 51.00000000000001,
+                "fats": 0.3
             },
             {
                 "name": "Pimiento Verde",
@@ -626,6 +626,30 @@ const foodDatabase = {
         ],
         "preparation": "1. Verter el yogur en un bol. 2. Añadir los cereales de avena y los frutos rojos por encima.",
         "originalBaseRecipeId": "ext_yogur_proteico_con_cereales_de_avena",
+        "isSideDish": false,
+        "mealCategory": "extra"
+    },
+    "p1_extra_Fruta_Densa_Pltano_mainOnly_idx6": {
+        "id": "p1_extra_Fruta_Densa_Pltano_mainOnly_idx6",
+        "name": "Fruta Densa (Plátano, Manzana)",
+        "calories": 90,
+        "protein": 0.75,
+        "carbs": 22.5,
+        "fats": 0.3,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe4bb91eb325b93d4a82.png",
+        "ingredients": [
+            {
+                "name": "Manzana",
+                "quantity": "1",
+                "unit": "unidad(es)",
+                "calories": 90,
+                "protein": 0.75,
+                "carbs": 22.5,
+                "fats": 0.3
+            }
+        ],
+        "preparation": "1. Seleccionar la fruta densa de preferencia (plátano, manzana, pera, etc.). 2. Para plátanos: pelar la piel y consumir directamente. 3. Para manzanas o peras: lavar bien la fruta. Se puede consumir con piel (rica en fibra) o pelada, según preferencia. Se puede comer entera a mordiscos o cortada en trozos.",
+        "originalBaseRecipeId": "ext_fruta_densa_pltano_manzana",
         "isSideDish": false,
         "mealCategory": "extra"
     },
@@ -1312,7 +1336,8 @@ const dailyMenus = [
     ],
     "extra": [
       "p1_extra_Frutos_Secos_Mezcla_mainOnly_idx4",
-      "p1_extra_Yogur_Proteico_con_mainOnly_idx5"
+      "p1_extra_Yogur_Proteico_con_mainOnly_idx5",
+      "p1_extra_Fruta_Densa_Pltano_mainOnly_idx6"
     ]
   },
   {
