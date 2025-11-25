@@ -2,143 +2,41 @@
 // La variable 'foodCategories' no se incluye aquí ya que se importa desde la app.
 
 const foodDatabase = {
-    "p0_desayuno_FajitaWrap_de_Jamn_mainOnly_idx0": {
-        "id": "p0_desayuno_FajitaWrap_de_Jamn_mainOnly_idx0",
-        "name": "Fajita/Wrap de Jamón y Queso",
-        "calories": 566.4,
-        "protein": 29.6,
-        "carbs": 22.8,
-        "fats": 39.2,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68a36fb52e34b733ba5c5630.png",
+    "p0_desayuno_Tostada_de_Centeno_mainOnly_idx0": {
+        "id": "p0_desayuno_Tostada_de_Centeno_mainOnly_idx0",
+        "name": "Tostada de Centeno con Huevo y Aguacate",
+        "calories": 707.9,
+        "protein": 29.9,
+        "carbs": 39.15,
+        "fats": 48.3,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687a695da648331355d3b0b2.png",
         "ingredients": [
             {
-                "name": "Pan de Fajita",
-                "quantity": "1",
+                "name": "Tostada de Pan de Centeno",
+                "quantity": "2",
+                "unit": "rebanada(s)",
+                "calories": 162,
+                "protein": 5.3999999999999995,
+                "carbs": 30,
+                "fats": 1.7999999999999998
+            },
+            {
+                "name": "Huevos",
+                "quantity": "3",
                 "unit": "unidad(es)",
-                "calories": 108,
-                "protein": 3.5999999999999996,
-                "carbs": 20,
-                "fats": 1.2
-            },
-            {
-                "name": "Jamón Cocido",
-                "quantity": "100",
-                "unit": "g",
-                "calories": 229.99999999999997,
-                "protein": 16,
-                "carbs": 2,
-                "fats": 18
-            },
-            {
-                "name": "Queso Havarti Light",
-                "quantity": "40",
-                "unit": "g",
-                "calories": 140,
-                "protein": 10,
-                "carbs": 0.8,
-                "fats": 10
-            },
-            {
-                "name": "Aceite de Oliva Virgen Extra",
-                "quantity": "10",
-                "unit": "g",
-                "calories": 88.4,
-                "protein": 0,
-                "carbs": 0,
-                "fats": 10
-            }
-        ],
-        "preparation": "1. Calentar la tortilla de fajita. 2. Añadir el jamón cocido y el queso. 3. Doblar y servir. 4. Opcional: añadir un chorrito de aceite de oliva.",
-        "originalBaseRecipeId": "des_fajitawrap_de_jamn_y_queso",
-        "isSideDish": false,
-        "mealCategory": "desayuno"
-    },
-    "p0_comida_Ensalada_de_garbanzos_mainOnly_idx1": {
-        "id": "p0_comida_Ensalada_de_garbanzos_mainOnly_idx1",
-        "name": "Ensalada de garbanzos con verduras y queso",
-        "calories": 497.5,
-        "protein": 31.5,
-        "carbs": 52.75,
-        "fats": 17.200000000000003,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68ff252d3f16b5241c27c1e4.png",
-        "ingredients": [
-            {
-                "name": "Garbanzos en Conserva",
-                "quantity": "150",
-                "unit": "g",
-                "calories": 195,
-                "protein": 12,
-                "carbs": 33,
-                "fats": 0.75
+                "calories": 232.5,
+                "protein": 19.5,
+                "carbs": 1.6500000000000001,
+                "fats": 16.5
             },
             {
                 "name": "Aguacate",
-                "quantity": "30",
+                "quantity": "50",
                 "unit": "g",
-                "calories": 135,
-                "protein": 3,
-                "carbs": 4.5,
-                "fats": 12
-            },
-            {
-                "name": "Pepino",
-                "quantity": "75",
-                "unit": "g",
-                "calories": 22.5,
-                "protein": 1.5,
-                "carbs": 3.75,
-                "fats": 0.15
-            },
-            {
-                "name": "Tomates Cherry",
-                "quantity": "75",
-                "unit": "g",
-                "calories": 22.5,
-                "protein": 1.5,
-                "carbs": 3.75,
-                "fats": 0.15
-            },
-            {
-                "name": "Espinacas",
-                "quantity": "75",
-                "unit": "g",
-                "calories": 22.5,
-                "protein": 1.5,
-                "carbs": 3.75,
-                "fats": 0.15
-            },
-            {
-                "name": "Queso de Burgos 0%",
-                "quantity": "100",
-                "unit": "g",
-                "calories": 100,
-                "protein": 12,
-                "carbs": 4,
-                "fats": 4
-            }
-        ],
-        "preparation": "1. Enjuagar los garbanzos y escurrirlos. 2. Picar el aguacate, pepino y tomates cherry. 3. Mezclar todos los ingredientes en un bol con las espinacas. 4. Cortar el queso de Burgos en dados y añadirlo a la ensalada. 5. Aliñar al gusto con aceite de oliva, vinagre y sal.",
-        "originalBaseRecipeId": "pp_ensalada_de_garbanzos_con_verduras_y_queso",
-        "isSideDish": false,
-        "mealCategory": "plato_principal"
-    },
-    "p0_comida_Pechuga_de_Pavo_side_idx2": {
-        "id": "p0_comida_Pechuga_de_Pavo_side_idx2",
-        "name": "Pechuga de Pavo a la Plancha",
-        "calories": 248.4,
-        "protein": 28.000000000000004,
-        "carbs": 0,
-        "fats": 14,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684f003ef6c48dfc43a5bdb3.png",
-        "ingredients": [
-            {
-                "name": "Pechuga de Pavo",
-                "quantity": "100",
-                "unit": "g",
-                "calories": 160,
-                "protein": 28.000000000000004,
-                "carbs": 0,
-                "fats": 4
+                "calories": 225,
+                "protein": 5,
+                "carbs": 7.5,
+                "fats": 20
             },
             {
                 "name": "Aceite de Oliva Virgen Extra",
@@ -150,73 +48,133 @@ const foodDatabase = {
                 "fats": 10
             }
         ],
-        "preparation": "1. Si los filetes de pechuga de pavo son muy gruesos, se pueden abrir tipo libro o golpear ligeramente para que tengan un grosor más uniforme y se cocinen mejor. 2. Sazonar los filetes de pavo con sal, pimienta y tus especias favoritas (ej. orégano, pimentón dulce, curry en polvo, hierbas provenzales). 3. Calentar una plancha o sartén antiadherente a fuego medio-alto con una gota de aceite de oliva. 4. Cocinar la pechuga de pavo durante unos 3-4 minutos por cada lado, o hasta que esté dorada por fuera y completamente cocida por dentro (sin partes rosadas). El tiempo exacto dependerá del grosor.",
-        "originalBaseRecipeId": "ac_pechuga_de_pavo_a_la_plancha",
-        "isSideDish": true,
-        "mealCategory": "acompanamiento"
+        "preparation": "1. Tostar el pan de centeno. 2. Cocinar los huevos al gusto (revueltos, pochados, a la plancha). 3. Machacar el aguacate sobre las tostadas y añadir aceite y especias.",
+        "originalBaseRecipeId": "des_tostada_de_centeno_con_huevo_y_aguacate",
+        "isSideDish": false,
+        "mealCategory": "desayuno"
     },
-    "p0_cena_Ensalada_de_berenjena_mainOnly_idx3": {
-        "id": "p0_cena_Ensalada_de_berenjena_mainOnly_idx3",
-        "name": "Ensalada de berenjena y tomate asado, queso y pollo con arroz",
-        "calories": 592.4,
-        "protein": 52.2,
-        "carbs": 52.5,
-        "fats": 17.5,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684ef97c6202d51cbcde28c8.png",
+    "p0_comida_Estofado_de_Lentejas_mainOnly_idx1": {
+        "id": "p0_comida_Estofado_de_Lentejas_mainOnly_idx1",
+        "name": "Estofado de Lentejas con Verduras y Costilla",
+        "calories": 665,
+        "protein": 54,
+        "carbs": 56.5,
+        "fats": 22.5,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6922cf648c174dc51742182c.png",
         "ingredients": [
             {
-                "name": "Berenjena",
-                "quantity": "75",
+                "name": "Lentejas Cocidas",
+                "quantity": "200",
                 "unit": "g",
-                "calories": 22.5,
-                "protein": 1.5,
-                "carbs": 3.75,
-                "fats": 0.15
+                "calories": 260,
+                "protein": 16,
+                "carbs": 44,
+                "fats": 1
             },
             {
-                "name": "Tomate",
-                "quantity": "75",
-                "unit": "g",
-                "calories": 22.5,
-                "protein": 1.5,
-                "carbs": 3.75,
-                "fats": 0.15
-            },
-            {
-                "name": "Pechuga de Pollo",
+                "name": "Costilla de Cerdo",
                 "quantity": "150",
                 "unit": "g",
-                "calories": 240,
-                "protein": 42.00000000000001,
+                "calories": 330,
+                "protein": 33,
                 "carbs": 0,
-                "fats": 6
+                "fats": 21.000000000000004
             },
             {
-                "name": "Arroz",
-                "quantity": "60",
+                "name": "Zanahoria",
+                "quantity": "100",
                 "unit": "g",
-                "calories": 219,
-                "protein": 7.199999999999999,
-                "carbs": 45,
-                "fats": 1.2
+                "calories": 30,
+                "protein": 2,
+                "carbs": 5,
+                "fats": 0.2
             },
             {
-                "name": "Aceite de Oliva Virgen Extra",
-                "quantity": "10",
+                "name": "Pimiento Rojo",
+                "quantity": "75",
                 "unit": "g",
-                "calories": 88.4,
-                "protein": 0,
-                "carbs": 0,
-                "fats": 10
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
+            },
+            {
+                "name": "Cebolla",
+                "quantity": "75",
+                "unit": "g",
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
             }
         ],
-        "preparation": "1. Precalentar el horno a 200°C. Cortar la berenjena en rodajas o dados y los tomates por la mitad o en cuartos. Rociar con aceite de oliva, salpimentar y asar durante 20-25 minutos o hasta que estén tiernos. 2. Cocinar la pechuga de pollo (a la plancha, asada o hervida) y cortarla en trozos o tiras. 3. Cocer el arroz según las instrucciones del paquete. Puede usarse caliente, tibio o frío. 4. Cortar el queso (tipo feta, mozzarella fresca, o el de preferencia) en dados. 5. En un bol grande, combinar el arroz, la berenjena y tomate asados, el pollo y el queso. 6. Aliñar con aceite de oliva virgen extra, vinagre balsámico (opcional) y hierbas frescas como albahaca u orégano. Mezclar suavemente.",
-        "originalBaseRecipeId": "cc_ensalada_de_berenjena_y_tomate_asado_queso_y_pollo_con_arroz",
+        "preparation": "1. Sofreír la costilla troceada hasta dorar. 2. Añadir las verduras picadas y pochar. 3. Añadir las lentejas (si son de bote, lavadas; si son secas, remojadas) y cubrir con agua/caldo. 4. Cocer hasta que todo esté tierno. Sazonar con laurel y pimentón.",
+        "originalBaseRecipeId": "cc_estofado_de_lentejas_con_verduras_y_costilla",
         "isSideDish": false,
         "mealCategory": "comida_cena_completa"
     },
-    "p0_extra_Batido_Whey_de_mainOnly_idx4": {
-        "id": "p0_extra_Batido_Whey_de_mainOnly_idx4",
+    "p0_cena_Falso_Risotto_de_mainOnly_idx2": {
+        "id": "p0_cena_Falso_Risotto_de_mainOnly_idx2",
+        "name": "Falso Risotto de Coliflor con Pollo y Setas",
+        "calories": 481.4,
+        "protein": 57.400000000000006,
+        "carbs": 17.5,
+        "fats": 17.900000000000002,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6922cee78c174d4e6d420b9d.png",
+        "ingredients": [
+            {
+                "name": "Coliflor",
+                "quantity": "200",
+                "unit": "g",
+                "calories": 60,
+                "protein": 4,
+                "carbs": 10,
+                "fats": 0.4
+            },
+            {
+                "name": "Pechuga de Pollo",
+                "quantity": "180",
+                "unit": "g",
+                "calories": 288,
+                "protein": 50.400000000000006,
+                "carbs": 0,
+                "fats": 7.2
+            },
+            {
+                "name": "Champiñones",
+                "quantity": "75",
+                "unit": "g",
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
+            },
+            {
+                "name": "Cebolla",
+                "quantity": "75",
+                "unit": "g",
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
+            },
+            {
+                "name": "Aceite de Oliva Virgen Extra",
+                "quantity": "10",
+                "unit": "g",
+                "calories": 88.4,
+                "protein": 0,
+                "carbs": 0,
+                "fats": 10
+            }
+        ],
+        "preparation": "1. Rallar la coliflor hasta que parezca arroz. 2. Saltear pollo y champiñones con cebolla. 3. Añadir la coliflor y saltear 5 min (no debe ablandarse demasiado). 4. Sazonar al gusto.",
+        "originalBaseRecipeId": "cc_falso_risotto_de_coliflor_con_pollo_y_setas",
+        "isSideDish": false,
+        "mealCategory": "comida_cena_completa"
+    },
+    "p0_extra_Batido_Whey_de_mainOnly_idx3": {
+        "id": "p0_extra_Batido_Whey_de_mainOnly_idx3",
         "name": "Batido Whey de Proteínas",
         "calories": 164,
         "protein": 26.5,
@@ -248,8 +206,8 @@ const foodDatabase = {
         "isSideDish": false,
         "mealCategory": "extra"
     },
-    "p0_extra_Queso_Fresco_Batido_mainOnly_idx5": {
-        "id": "p0_extra_Queso_Fresco_Batido_mainOnly_idx5",
+    "p0_extra_Queso_Fresco_Batido_mainOnly_idx4": {
+        "id": "p0_extra_Queso_Fresco_Batido_mainOnly_idx4",
         "name": "Queso Fresco Batido con Frutos Rojos y Miel",
         "calories": 118,
         "protein": 10.5,
@@ -290,8 +248,8 @@ const foodDatabase = {
         "isSideDish": false,
         "mealCategory": "extra"
     },
-    "p0_extra_Fruta_Densa_Pltano_mainOnly_idx6": {
-        "id": "p0_extra_Fruta_Densa_Pltano_mainOnly_idx6",
+    "p0_extra_Fruta_Densa_Pltano_mainOnly_idx5": {
+        "id": "p0_extra_Fruta_Densa_Pltano_mainOnly_idx5",
         "name": "Fruta Densa (Plátano, Manzana)",
         "calories": 90,
         "protein": 0.75,
@@ -314,83 +272,50 @@ const foodDatabase = {
         "isSideDish": false,
         "mealCategory": "extra"
     },
-    "p1_desayuno_Revuelto_de_Huevos_mainOnly_idx0": {
-        "id": "p1_desayuno_Revuelto_de_Huevos_mainOnly_idx0",
-        "name": "Revuelto de Huevos y Claras con Jamón",
-        "calories": 415.4,
-        "protein": 29.200000000000003,
-        "carbs": 1.54,
-        "fats": 32.400000000000006,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682ad5e1e819fcb589a8a30e.png",
-        "ingredients": [
-            {
-                "name": "Huevos",
-                "quantity": "1",
-                "unit": "unidad(es)",
-                "calories": 77.5,
-                "protein": 6.5,
-                "carbs": 0.55,
-                "fats": 5.5
-            },
-            {
-                "name": "Claras de Huevo",
-                "quantity": "3",
-                "unit": "unidad(es)",
-                "calories": 139.5,
-                "protein": 11.700000000000001,
-                "carbs": 0.9900000000000001,
-                "fats": 9.9
-            },
-            {
-                "name": "Jamón Serrano",
-                "quantity": "50",
-                "unit": "g",
-                "calories": 110.00000000000001,
-                "protein": 11,
-                "carbs": 0,
-                "fats": 7.000000000000001
-            },
-            {
-                "name": "Aceite de Oliva Virgen Extra",
-                "quantity": "10",
-                "unit": "g",
-                "calories": 88.4,
-                "protein": 0,
-                "carbs": 0,
-                "fats": 10
-            }
-        ],
-        "preparation": "1. Batir los huevos y las claras. 2. Cortar el jamón en taquitos o tiras. 3. Saltear ligeramente el jamón en una sartén con una pizca de aceite (opcional). 4. Verter la mezcla de huevo y remover constantemente a fuego medio-bajo hasta que cuaje al gusto.",
-        "originalBaseRecipeId": "ext_revuelto_de_huevos_y_claras_con_jamn",
-        "isSideDish": false,
-        "mealCategory": "extra"
-    },
-    "p1_desayuno_Tostada_de_Pan_mainOnly_idx1": {
-        "id": "p1_desayuno_Tostada_de_Pan_mainOnly_idx1",
-        "name": "Tostada de Pan Wasa",
-        "calories": 54,
-        "protein": 1.7999999999999998,
-        "carbs": 10,
-        "fats": 0.6,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68e7f0c3fa127234824855fb.png",
+    "p1_desayuno_Pan_wasa_con_mainOnly_idx0": {
+        "id": "p1_desayuno_Pan_wasa_con_mainOnly_idx0",
+        "name": "Pan wasa con Jamón dulce y Aguacate",
+        "calories": 490,
+        "protein": 20.5,
+        "carbs": 24.1,
+        "fats": 35.3,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68cc568b05b71972b49f95e0.png",
         "ingredients": [
             {
                 "name": "Pan Wasa",
-                "quantity": "2",
+                "quantity": "3",
                 "unit": "rebanada(s)",
-                "calories": 54,
-                "protein": 1.7999999999999998,
-                "carbs": 10,
-                "fats": 0.6
+                "calories": 81,
+                "protein": 2.6999999999999997,
+                "carbs": 15,
+                "fats": 0.8999999999999999
+            },
+            {
+                "name": "Jamón Cocido",
+                "quantity": "80",
+                "unit": "g",
+                "calories": 184,
+                "protein": 12.8,
+                "carbs": 1.6,
+                "fats": 14.399999999999999
+            },
+            {
+                "name": "Aguacate",
+                "quantity": "50",
+                "unit": "g",
+                "calories": 225,
+                "protein": 5,
+                "carbs": 7.5,
+                "fats": 20
             }
         ],
-        "preparation": "1. Servir como base para otros ingredientes o como acompañamiento.",
-        "originalBaseRecipeId": "des_tostada_de_pan_wasa",
+        "preparation": "1. Untar el aguacate sobre el pan wasa. 2. Añadir el jamón dulce por encima.",
+        "originalBaseRecipeId": "ext_pan_wasa_con_jamn_dulce_y_aguacate",
         "isSideDish": false,
-        "mealCategory": "desayuno"
+        "mealCategory": "extra"
     },
-    "p1_comida_Poke_de_aguacate_mainOnly_idx2": {
-        "id": "p1_comida_Poke_de_aguacate_mainOnly_idx2",
+    "p1_comida_Poke_de_aguacate_mainOnly_idx1": {
+        "id": "p1_comida_Poke_de_aguacate_mainOnly_idx1",
         "name": "Poke de aguacate, mango, tomate, soja, cebolla, arroz y pollo",
         "calories": 839,
         "protein": 71.7,
@@ -476,8 +401,8 @@ const foodDatabase = {
         "isSideDish": false,
         "mealCategory": "comida_cena_completa"
     },
-    "p1_cena_Fajitas_de_Pollo_mainOnly_idx3": {
-        "id": "p1_cena_Fajitas_de_Pollo_mainOnly_idx3",
+    "p1_cena_Fajitas_de_Pollo_mainOnly_idx2": {
+        "id": "p1_cena_Fajitas_de_Pollo_mainOnly_idx2",
         "name": "Fajitas de Pollo y Verduras",
         "calories": 556.4,
         "protein": 53.60000000000001,
@@ -554,8 +479,8 @@ const foodDatabase = {
         "isSideDish": false,
         "mealCategory": "comida_cena_completa"
     },
-    "p1_extra_Yogurt_Protico_con_mainOnly_idx4": {
-        "id": "p1_extra_Yogurt_Protico_con_mainOnly_idx4",
+    "p1_extra_Yogurt_Protico_con_mainOnly_idx3": {
+        "id": "p1_extra_Yogurt_Protico_con_mainOnly_idx3",
         "name": "Yogurt Protéico con Frutos Rojos y Secos",
         "calories": 255,
         "protein": 17.6,
@@ -596,8 +521,8 @@ const foodDatabase = {
         "isSideDish": false,
         "mealCategory": "extra"
     },
-    "p1_extra_Batido_Whey_de_mainOnly_idx5": {
-        "id": "p1_extra_Batido_Whey_de_mainOnly_idx5",
+    "p1_extra_Batido_Whey_de_mainOnly_idx4": {
+        "id": "p1_extra_Batido_Whey_de_mainOnly_idx4",
         "name": "Batido Whey de Proteínas",
         "calories": 164,
         "protein": 26.5,
@@ -629,8 +554,8 @@ const foodDatabase = {
         "isSideDish": false,
         "mealCategory": "extra"
     },
-    "p1_extra_Fruta_Densa_Pltano_mainOnly_idx6": {
-        "id": "p1_extra_Fruta_Densa_Pltano_mainOnly_idx6",
+    "p1_extra_Fruta_Densa_Pltano_mainOnly_idx5": {
+        "id": "p1_extra_Fruta_Densa_Pltano_mainOnly_idx5",
         "name": "Fruta Densa (Plátano, Manzana)",
         "calories": 72,
         "protein": 0.6,
@@ -1196,19 +1121,18 @@ const dailyMenus = [
     },
     "useCustomMacros": true,
     "desayuno": [
-      "p0_desayuno_FajitaWrap_de_Jamn_mainOnly_idx0"
+      "p0_desayuno_Tostada_de_Centeno_mainOnly_idx0"
     ],
     "comida": [
-      "p0_comida_Ensalada_de_garbanzos_mainOnly_idx1",
-      "p0_comida_Pechuga_de_Pavo_side_idx2"
+      "p0_comida_Estofado_de_Lentejas_mainOnly_idx1"
     ],
     "cena": [
-      "p0_cena_Ensalada_de_berenjena_mainOnly_idx3"
+      "p0_cena_Falso_Risotto_de_mainOnly_idx2"
     ],
     "extra": [
-      "p0_extra_Batido_Whey_de_mainOnly_idx4",
-      "p0_extra_Queso_Fresco_Batido_mainOnly_idx5",
-      "p0_extra_Fruta_Densa_Pltano_mainOnly_idx6"
+      "p0_extra_Batido_Whey_de_mainOnly_idx3",
+      "p0_extra_Queso_Fresco_Batido_mainOnly_idx4",
+      "p0_extra_Fruta_Densa_Pltano_mainOnly_idx5"
     ]
   },
   {
@@ -1220,19 +1144,18 @@ const dailyMenus = [
     },
     "useCustomMacros": true,
     "desayuno": [
-      "p1_desayuno_Revuelto_de_Huevos_mainOnly_idx0",
-      "p1_desayuno_Tostada_de_Pan_mainOnly_idx1"
+      "p1_desayuno_Pan_wasa_con_mainOnly_idx0"
     ],
     "comida": [
-      "p1_comida_Poke_de_aguacate_mainOnly_idx2"
+      "p1_comida_Poke_de_aguacate_mainOnly_idx1"
     ],
     "cena": [
-      "p1_cena_Fajitas_de_Pollo_mainOnly_idx3"
+      "p1_cena_Fajitas_de_Pollo_mainOnly_idx2"
     ],
     "extra": [
-      "p1_extra_Yogurt_Protico_con_mainOnly_idx4",
-      "p1_extra_Batido_Whey_de_mainOnly_idx5",
-      "p1_extra_Fruta_Densa_Pltano_mainOnly_idx6"
+      "p1_extra_Yogurt_Protico_con_mainOnly_idx3",
+      "p1_extra_Batido_Whey_de_mainOnly_idx4",
+      "p1_extra_Fruta_Densa_Pltano_mainOnly_idx5"
     ]
   },
   {
