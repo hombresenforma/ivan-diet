@@ -459,101 +459,95 @@ const foodDatabase = {
         "isSideDish": false,
         "mealCategory": "desayuno"
     },
-    "p2_comida_Ensalada_de_Lentejas_mainOnly_idx1": {
-        "id": "p2_comida_Ensalada_de_Lentejas_mainOnly_idx1",
-        "name": "Ensalada de Lentejas",
-        "calories": 285,
-        "protein": 25,
-        "carbs": 32,
-        "fats": 5.7,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682aff5a365e949c0a73d706.png",
+    "p2_comida_Ensalada_de_Pasta_mainOnly_idx1": {
+        "id": "p2_comida_Ensalada_de_Pasta_mainOnly_idx1",
+        "name": "Ensalada de Pasta con Pollo",
+        "calories": 688.9,
+        "protein": 57.400000000000006,
+        "carbs": 70,
+        "fats": 18.1,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afc47b91eb349463d47dd.png",
         "ingredients": [
             {
-                "name": "Lentejas Cocidas",
-                "quantity": "100",
+                "name": "Pasta Integral",
+                "quantity": "70",
                 "unit": "g",
-                "calories": 130,
-                "protein": 8,
-                "carbs": 22,
-                "fats": 0.5
+                "calories": 255.5,
+                "protein": 8.4,
+                "carbs": 52.5,
+                "fats": 1.4000000000000001
+            },
+            {
+                "name": "Canónigos",
+                "quantity": "50",
+                "unit": "g",
+                "calories": 15,
+                "protein": 1,
+                "carbs": 2.5,
+                "fats": 0.1
             },
             {
                 "name": "Tomate",
-                "quantity": "50",
+                "quantity": "75",
                 "unit": "g",
-                "calories": 15,
-                "protein": 1,
-                "carbs": 2.5,
-                "fats": 0.1
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
+            },
+            {
+                "name": "Pimiento Rojo",
+                "quantity": "75",
+                "unit": "g",
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
+            },
+            {
+                "name": "Pimiento Verde",
+                "quantity": "75",
+                "unit": "g",
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
             },
             {
                 "name": "Cebolla",
-                "quantity": "50",
+                "quantity": "75",
                 "unit": "g",
-                "calories": 15,
-                "protein": 1,
-                "carbs": 2.5,
-                "fats": 0.1
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
             },
             {
-                "name": "Queso de Burgos 0%",
-                "quantity": "125",
+                "name": "Pechuga de Pollo",
+                "quantity": "150",
                 "unit": "g",
-                "calories": 125,
-                "protein": 15,
-                "carbs": 5,
-                "fats": 5
-            }
-        ],
-        "preparation": "1. Si usas lentejas de bote, enjuagarlas bien bajo el grifo y escurrirlas. Si las cocinas, déjalas enfriar. 2. Picar el tomate y la cebolla (preferiblemente morada) en dados pequeños. Cortar el queso de Burgos 0% y el aguacate en dados. 3. En un bol grande, mezclar con cuidado las lentejas, el tomate, la cebolla, el queso de Burgos y el aguacate. 4. Aliñar con aceite de oliva virgen extra, vinagre (de manzana o Jerez) y sal al gusto. Opcional: añadir cilantro fresco picado o comino molido para un toque diferente.",
-        "originalBaseRecipeId": "pp_ensalada_de_lentejas",
-        "isSideDish": false,
-        "mealCategory": "plato_principal"
-    },
-    "p2_comida_Revuelto_de_Huevos_side_idx2": {
-        "id": "p2_comida_Revuelto_de_Huevos_side_idx2",
-        "name": "Revuelto de Huevos con Espárragos Trigueros",
-        "calories": 171.7,
-        "protein": 9,
-        "carbs": 5.55,
-        "fats": 12.5,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684f019a532eaa9f6977a78c.png",
-        "ingredients": [
-            {
-                "name": "Espárragos Trigueros",
-                "quantity": "50",
-                "unit": "g",
-                "calories": 50,
-                "protein": 2.5,
-                "carbs": 5,
-                "fats": 2
-            },
-            {
-                "name": "Huevos",
-                "quantity": "1",
-                "unit": "unidad(es)",
-                "calories": 77.5,
-                "protein": 6.5,
-                "carbs": 0.55,
-                "fats": 5.5
+                "calories": 240,
+                "protein": 42.00000000000001,
+                "carbs": 0,
+                "fats": 6
             },
             {
                 "name": "Aceite de Oliva Virgen Extra",
-                "quantity": "5",
+                "quantity": "10",
                 "unit": "g",
-                "calories": 44.2,
+                "calories": 88.4,
                 "protein": 0,
                 "carbs": 0,
-                "fats": 5
+                "fats": 10
             }
         ],
-        "preparation": "1. Lavar los espárragos trigueros y cortar la parte inferior más dura del tallo. Trocear los espárragos en trozos de unos 2-3 cm. 2. Batir los huevos en un bol con una pizca de sal y pimienta. 3. Calentar un poco de aceite de oliva en una sartén a fuego medio. Añadir los espárragos troceados y saltear durante 3-5 minutos, o hasta que estén tiernos pero aún crujientes. 4. Verter los huevos batidos sobre los espárragos en la sartén. 5. Remover suavemente con una espátula, mezclando los huevos con los espárragos, hasta que los huevos estén cuajados al gusto. Servir caliente.",
-        "originalBaseRecipeId": "ac_revuelto_de_huevos_con_esprragos_trigueros",
-        "isSideDish": true,
-        "mealCategory": "acompanamiento"
+        "preparation": "1. Cocer la pasta según las instrucciones del paquete. Escurrir, pasar por agua fría para detener la cocción y dejar enfriar. 2. Cocinar la pechuga de pollo (a la plancha, hervida o asada) y desmenuzarla o cortarla en dados. 3. Lavar los canónigos. Picar el tomate, pimiento rojo, pimiento verde y cebolla en trozos pequeños. 4. En un bol grande, combinar la pasta fría, el pollo, los canónigos y las verduras picadas. 5. Aliñar con aceite de oliva virgen extra, vinagre o tu salsa para ensaladas favorita (ej. yogur, mostaza y miel). Salpimentar al gusto.",
+        "originalBaseRecipeId": "cc_ensalada_de_pasta_con_pollo",
+        "isSideDish": false,
+        "mealCategory": "comida_cena_completa"
     },
-    "p2_cena_Wok_de_Verduras_mainOnly_idx3": {
-        "id": "p2_cena_Wok_de_Verduras_mainOnly_idx3",
+    "p2_cena_Wok_de_Verduras_mainOnly_idx2": {
+        "id": "p2_cena_Wok_de_Verduras_mainOnly_idx2",
         "name": "Wok de Verduras con Salmón",
         "calories": 472.4,
         "protein": 34.4,
@@ -621,8 +615,8 @@ const foodDatabase = {
         "isSideDish": false,
         "mealCategory": "comida_cena_completa"
     },
-    "p2_extra_Queso_Fresco_Batido_mainOnly_idx4": {
-        "id": "p2_extra_Queso_Fresco_Batido_mainOnly_idx4",
+    "p2_extra_Queso_Fresco_Batido_mainOnly_idx3": {
+        "id": "p2_extra_Queso_Fresco_Batido_mainOnly_idx3",
         "name": "Queso Fresco Batido con Frutos Rojos y Miel",
         "calories": 180,
         "protein": 15.875,
@@ -663,8 +657,8 @@ const foodDatabase = {
         "isSideDish": false,
         "mealCategory": "extra"
     },
-    "p2_extra_Matcha_Late_mainOnly_idx5": {
-        "id": "p2_extra_Matcha_Late_mainOnly_idx5",
+    "p2_extra_Matcha_Late_mainOnly_idx4": {
+        "id": "p2_extra_Matcha_Late_mainOnly_idx4",
         "name": "Matcha Late",
         "calories": 0,
         "protein": 0,
@@ -677,8 +671,8 @@ const foodDatabase = {
         "isSideDish": false,
         "mealCategory": "extra"
     },
-    "p2_extra_Pan_de_Centeno_mainOnly_idx6": {
-        "id": "p2_extra_Pan_de_Centeno_mainOnly_idx6",
+    "p2_extra_Pan_de_Centeno_mainOnly_idx5": {
+        "id": "p2_extra_Pan_de_Centeno_mainOnly_idx5",
         "name": "Pan de Centeno",
         "calories": 81,
         "protein": 2.6999999999999997,
@@ -1020,7 +1014,7 @@ const dailyMenus = [
     ]
   },
   {
-    "name": "Ayuno Comida",
+    "name": "Entreno 1",
     "targetMacros": {
       "calories": 1997,
       "protein": 150,
@@ -1031,20 +1025,19 @@ const dailyMenus = [
       "p2_desayuno_FajitaWrap_de_Jamn_mainOnly_idx0"
     ],
     "comida": [
-      "p2_comida_Ensalada_de_Lentejas_mainOnly_idx1",
-      "p2_comida_Revuelto_de_Huevos_side_idx2"
+      "p2_comida_Ensalada_de_Pasta_mainOnly_idx1"
     ],
     "cena": [
-      "p2_cena_Wok_de_Verduras_mainOnly_idx3"
+      "p2_cena_Wok_de_Verduras_mainOnly_idx2"
     ],
     "extra": [
-      "p2_extra_Queso_Fresco_Batido_mainOnly_idx4",
-      "p2_extra_Matcha_Late_mainOnly_idx5",
-      "p2_extra_Pan_de_Centeno_mainOnly_idx6"
+      "p2_extra_Queso_Fresco_Batido_mainOnly_idx3",
+      "p2_extra_Matcha_Late_mainOnly_idx4",
+      "p2_extra_Pan_de_Centeno_mainOnly_idx5"
     ]
   },
   {
-    "name": "Refeed",
+    "name": "Entreno 2",
     "targetMacros": {
       "calories": 1997,
       "protein": 150,
@@ -1072,5 +1065,5 @@ const dailyMenus = [
 // Detalles de los planes exportados:
 // Plan: Ayuno 1, Calorías Objetivo: 1997, Proteínas Objetivo: 150, Carbohidratos Objetivo: 200
 // Plan: Ayuno 2, Calorías Objetivo: 1997, Proteínas Objetivo: 150, Carbohidratos Objetivo: 200
-// Plan: Ayuno Comida, Calorías Objetivo: 1997, Proteínas Objetivo: 150, Carbohidratos Objetivo: 200
-// Plan: Refeed, Calorías Objetivo: 1997, Proteínas Objetivo: 150, Carbohidratos Objetivo: 200
+// Plan: Entreno 1, Calorías Objetivo: 1997, Proteínas Objetivo: 150, Carbohidratos Objetivo: 200
+// Plan: Entreno 2, Calorías Objetivo: 1997, Proteínas Objetivo: 150, Carbohidratos Objetivo: 200
