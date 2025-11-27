@@ -458,45 +458,27 @@ const foodDatabase = {
         "isSideDish": false,
         "mealCategory": "comida_cena_completa"
     },
-    "p1_extra_Yogur_Protico_con_mainOnly_idx4": {
-        "id": "p1_extra_Yogur_Protico_con_mainOnly_idx4",
-        "name": "Yogur Protéico con Frutos Rojos y Secos",
-        "calories": 245,
-        "protein": 8.5,
-        "carbs": 23,
-        "fats": 13.1,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afea2b91eb35e413d4ab6.png",
+    "p1_extra_Batido_Whey_de_mainOnly_idx4": {
+        "id": "p1_extra_Batido_Whey_de_mainOnly_idx4",
+        "name": "Batido Whey de Proteínas",
+        "calories": 114,
+        "protein": 24,
+        "carbs": 1.5,
+        "fats": 1.2,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684f021af6c48d41b5a5c003.png",
         "ingredients": [
             {
-                "name": "Yogur Protéico",
-                "quantity": "1",
-                "unit": "unidad(es)",
-                "calories": 125,
-                "protein": 6.25,
-                "carbs": 12.5,
-                "fats": 5
-            },
-            {
-                "name": "Frutos Rojos",
-                "quantity": "50",
+                "name": "Proteína Whey en Polvo",
+                "quantity": "30",
                 "unit": "g",
-                "calories": 30,
-                "protein": 0.25,
-                "carbs": 7.5,
-                "fats": 0.1
-            },
-            {
-                "name": "Frutos Secos",
-                "quantity": "20",
-                "unit": "g",
-                "calories": 90,
-                "protein": 2,
-                "carbs": 3,
-                "fats": 8
+                "calories": 114,
+                "protein": 24,
+                "carbs": 1.5,
+                "fats": 1.2
             }
         ],
-        "preparation": "1. En un bol, verter el yogur proteico. 2. Añadir los frutos rojos frescos o descongelados. 3. Espolvorear con los frutos secos troceados por encima. Servir inmediatamente.",
-        "originalBaseRecipeId": "ext_yogur_protico_con_frutos_rojos_y_secos",
+        "preparation": "1. En un shaker (vaso mezclador con rejilla o bola), añadir la cantidad recomendada de proteína en polvo (whey) según las indicaciones del producto (normalmente 1 scoop o cazo dosificador). 2. Añadir la cantidad de líquido deseada (agua, leche o bebida vegetal; unos 200-300 ml suelen ser suficientes). 3. Cerrar bien el shaker. 4. Agitar enérgicamente durante unos 20-30 segundos hasta que el polvo esté completamente disuelto y no haya grumos. 5. Consumir inmediatamente, preferiblemente después del entrenamiento o según las necesidades proteicas individuales.",
+        "originalBaseRecipeId": "ext_batido_whey_de_protenas",
         "isSideDish": false,
         "mealCategory": "extra"
     },
@@ -821,7 +803,7 @@ const dailyMenus = [
       "p1_cena_Fajitas_de_Pollo_mainOnly_idx3"
     ],
     "extra": [
-      "p1_extra_Yogur_Protico_con_mainOnly_idx4",
+      "p1_extra_Batido_Whey_de_mainOnly_idx4",
       "p1_extra_Fruta_Densa_Pltano_mainOnly_idx5"
     ]
   },
