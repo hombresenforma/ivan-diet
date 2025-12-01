@@ -281,10 +281,10 @@ const foodDatabase = {
     "p1_desayuno_Tostada_de_Pan_mainOnly_idx0": {
         "id": "p1_desayuno_Tostada_de_Pan_mainOnly_idx0",
         "name": "Tostada de Pan de Centeno con Revuelto de Huevos y Jamón York",
-        "calories": 351,
-        "protein": 23.7,
-        "carbs": 17.1,
-        "fats": 20.9,
+        "calories": 273.5,
+        "protein": 17.2,
+        "carbs": 16.55,
+        "fats": 15.4,
         "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687d09e04d6fb7f271b84cc9.png",
         "ingredients": [
             {
@@ -298,12 +298,12 @@ const foodDatabase = {
             },
             {
                 "name": "Huevos",
-                "quantity": "2",
+                "quantity": "1",
                 "unit": "unidad(es)",
-                "calories": 155,
-                "protein": 13,
-                "carbs": 1.1,
-                "fats": 11
+                "calories": 77.5,
+                "protein": 6.5,
+                "carbs": 0.55,
+                "fats": 5.5
             },
             {
                 "name": "Jamón York",
@@ -461,11 +461,11 @@ const foodDatabase = {
     "p1_extra_Yogurt_Protico_con_mainOnly_idx3": {
         "id": "p1_extra_Yogurt_Protico_con_mainOnly_idx3",
         "name": "Yogurt Protéico con Frutos Rojos y Secos",
-        "calories": 273.5,
-        "protein": 9.05,
-        "carbs": 25.25,
-        "fats": 15.120000000000001,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afea2b91eb35e413d4ab6.png",
+        "calories": 161,
+        "protein": 6.55,
+        "carbs": 21.5,
+        "fats": 5.12,
+        "image": "",
         "ingredients": [
             {
                 "name": "Yogur Protéico",
@@ -484,15 +484,6 @@ const foodDatabase = {
                 "protein": 0.3,
                 "carbs": 9,
                 "fats": 0.12
-            },
-            {
-                "name": "Frutos Secos",
-                "quantity": "25",
-                "unit": "g",
-                "calories": 112.5,
-                "protein": 2.5,
-                "carbs": 3.75,
-                "fats": 10
             }
         ],
         "preparation": "1. En un bol, verter el yogur proteico. 2. Añadir los frutos rojos frescos o descongelados. 3. Espolvorear con los frutos secos troceados por encima. Servir inmediatamente.",
@@ -536,20 +527,20 @@ const foodDatabase = {
     "p2_comida_Ensala_de_Patata_mainOnly_idx1": {
         "id": "p2_comida_Ensala_de_Patata_mainOnly_idx1",
         "name": "Ensala de Patata, Atún y Huevo",
-        "calories": 667.5,
-        "protein": 63.00000000000001,
-        "carbs": 65.55,
-        "fats": 14.5,
+        "calories": 545,
+        "protein": 55.50000000000001,
+        "carbs": 55,
+        "fats": 8.95,
         "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afc08b91eb31afe3d4796.png",
         "ingredients": [
             {
                 "name": "Patata",
-                "quantity": "200",
+                "quantity": "150",
                 "unit": "g",
-                "calories": 180,
-                "protein": 4,
-                "carbs": 40,
-                "fats": 0.2
+                "calories": 135,
+                "protein": 3,
+                "carbs": 30,
+                "fats": 0.15
             },
             {
                 "name": "Pimiento Verde",
@@ -604,15 +595,6 @@ const foodDatabase = {
                 "protein": 42.00000000000001,
                 "carbs": 0,
                 "fats": 6
-            },
-            {
-                "name": "Huevo Cocido",
-                "quantity": "1",
-                "unit": "unidad(es)",
-                "calories": 77.5,
-                "protein": 6.5,
-                "carbs": 0.55,
-                "fats": 5.5
             }
         ],
         "preparation": "1. Cocer las patatas con piel en agua con sal hasta que estén tiernas (unos 20-25 minutos). Dejar enfriar, pelar y cortar en dados. 2. Cocer los huevos en agua hirviendo durante 10 minutos. Dejar enfriar, pelar y cortar en rodajas o trozos. 3. Picar finamente el pimiento verde, pimiento rojo, cebolla y tomate. 4. En un bol grande, mezclar las patatas, los huevos, las verduras picadas, el maíz dulce (escurrido) y el atún (escurrido y desmenuzado). 5. Aliñar con aceite de oliva virgen extra, vinagre y sal al gusto. Mezclar con cuidado.",
@@ -721,30 +703,6 @@ const foodDatabase = {
         "originalBaseRecipeId": "ext_yogur_protico_sabores_natural",
         "isSideDish": false,
         "mealCategory": "extra"
-    },
-    "p2_extra_Tortitas_de_Legumbres_mainOnly_idx4": {
-        "id": "p2_extra_Tortitas_de_Legumbres_mainOnly_idx4",
-        "name": "Tortitas de Legumbres (Mercadona)",
-        "calories": 32,
-        "protein": 1.6,
-        "carbs": 3.2,
-        "fats": 1.28,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682affdd9b8ed3082d7cbefc.png",
-        "ingredients": [
-            {
-                "name": "Tortitas de Legumbres",
-                "quantity": "4",
-                "unit": "unidad(es)",
-                "calories": 32,
-                "protein": 1.6,
-                "carbs": 3.2,
-                "fats": 1.28
-            }
-        ],
-        "preparation": "1. Abrir el paquete de tortitas de legumbres. 2. Consumir directamente como snack crujiente. Son ideales para picar entre horas o como una alternativa más saludable a otros snacks procesados. Se pueden acompañar de hummus, guacamole o queso fresco si se desea algo más completo.",
-        "originalBaseRecipeId": "ext_tortitas_de_legumbres_mercadona",
-        "isSideDish": false,
-        "mealCategory": "extra"
     }
 };
 
@@ -812,8 +770,7 @@ const dailyMenus = [
       "p2_cena_Fajitas_de_Pollo_mainOnly_idx2"
     ],
     "extra": [
-      "p2_extra_Yogur_Protico_Sabores_mainOnly_idx3",
-      "p2_extra_Tortitas_de_Legumbres_mainOnly_idx4"
+      "p2_extra_Yogur_Protico_Sabores_mainOnly_idx3"
     ]
   }
 ];
