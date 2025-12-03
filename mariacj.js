@@ -5,20 +5,20 @@ const foodDatabase = {
     "p0_desayuno_Tostada_de_Centeno_mainOnly_idx0": {
         "id": "p0_desayuno_Tostada_de_Centeno_mainOnly_idx0",
         "name": "Tostada de Centeno con Queso Cottage y Cherries",
-        "calories": 233,
-        "protein": 12.8,
-        "carbs": 35.5,
-        "fats": 3.94,
+        "calories": 152,
+        "protein": 10.1,
+        "carbs": 20.5,
+        "fats": 3.04,
         "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68792fea2035ba213493e87e.png",
         "ingredients": [
             {
                 "name": "Tostada de Pan de Centeno",
-                "quantity": "2",
+                "quantity": "1",
                 "unit": "rebanada(s)",
-                "calories": 162,
-                "protein": 5.3999999999999995,
-                "carbs": 30,
-                "fats": 1.7999999999999998
+                "calories": 81,
+                "protein": 2.6999999999999997,
+                "carbs": 15,
+                "fats": 0.8999999999999999
             },
             {
                 "name": "Tomates Cherry",
@@ -449,14 +449,14 @@ const foodDatabase = {
         "isSideDish": true,
         "mealCategory": "acompanamiento"
     },
-    "p1_extra_Yogurt_Protico_con_mainOnly_idx5": {
-        "id": "p1_extra_Yogurt_Protico_con_mainOnly_idx5",
-        "name": "Yogurt Protéico con Frutos Rojos y Secos",
-        "calories": 233,
-        "protein": 8.4,
-        "carbs": 20,
-        "fats": 13.059999999999999,
-        "image": "",
+    "p1_extra_Yogur_Protico_Sabores_mainOnly_idx5": {
+        "id": "p1_extra_Yogur_Protico_Sabores_mainOnly_idx5",
+        "name": "Yogur Protéico (Sabores, Natural...)",
+        "calories": 125,
+        "protein": 6.25,
+        "carbs": 12.5,
+        "fats": 5,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd789b8ed38b127cbc09.png",
         "ingredients": [
             {
                 "name": "Yogur Protéico",
@@ -466,28 +466,10 @@ const foodDatabase = {
                 "protein": 6.25,
                 "carbs": 12.5,
                 "fats": 5
-            },
-            {
-                "name": "Frutos Rojos",
-                "quantity": "30",
-                "unit": "g",
-                "calories": 18,
-                "protein": 0.15,
-                "carbs": 4.5,
-                "fats": 0.06
-            },
-            {
-                "name": "Frutos Secos",
-                "quantity": "20",
-                "unit": "g",
-                "calories": 90,
-                "protein": 2,
-                "carbs": 3,
-                "fats": 8
             }
         ],
-        "preparation": "1. En un bol, verter el yogur proteico. 2. Añadir los frutos rojos frescos o descongelados. 3. Espolvorear con los frutos secos troceados por encima. Servir inmediatamente.",
-        "originalBaseRecipeId": "ext_yogurt_protico_con_frutos_rojos_y_secos",
+        "preparation": "1. Seleccionar el yogur proteico de preferencia (natural o con sabores). 2. Abrir el envase. 3. Consumir directamente con una cuchara. Opcional: se puede acompañar de frutas frescas troceadas, frutos secos, semillas o un poco de miel o edulcorante si es natural y se desea endulzar.",
+        "originalBaseRecipeId": "ext_yogur_protico_sabores_natural",
         "isSideDish": false,
         "mealCategory": "extra"
     },
@@ -608,17 +590,17 @@ const foodDatabase = {
         "isSideDish": true,
         "mealCategory": "acompanamiento"
     },
-    "p2_cena_Ensalada_de_Tomate_mainOnly_idx3": {
-        "id": "p2_cena_Ensalada_de_Tomate_mainOnly_idx3",
-        "name": "Ensalada de Tomate, Ajo y Cebolla",
-        "calories": 110,
-        "protein": 6.5,
-        "carbs": 15,
-        "fats": 2.4000000000000004,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe199b8ed3c4d37cbd18.png",
+    "p2_cena_Falso_Risotto_de_mainOnly_idx3": {
+        "id": "p2_cena_Falso_Risotto_de_mainOnly_idx3",
+        "name": "Falso Risotto de Coliflor con Pollo y Setas",
+        "calories": 388.4,
+        "protein": 46.00000000000001,
+        "carbs": 10,
+        "fats": 16.4,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6922cee78c174d4e6d420b9d.png",
         "ingredients": [
             {
-                "name": "Tomate",
+                "name": "Coliflor",
                 "quantity": "100",
                 "unit": "g",
                 "calories": 30,
@@ -627,46 +609,31 @@ const foodDatabase = {
                 "fats": 0.2
             },
             {
-                "name": "Ajo",
+                "name": "Pechuga de Pollo",
+                "quantity": "150",
+                "unit": "g",
+                "calories": 240,
+                "protein": 42.00000000000001,
+                "carbs": 0,
+                "fats": 6
+            },
+            {
+                "name": "Champiñones",
                 "quantity": "50",
                 "unit": "g",
-                "calories": 50,
-                "protein": 2.5,
-                "carbs": 5,
-                "fats": 2
+                "calories": 15,
+                "protein": 1,
+                "carbs": 2.5,
+                "fats": 0.1
             },
             {
                 "name": "Cebolla",
-                "quantity": "100",
+                "quantity": "50",
                 "unit": "g",
-                "calories": 30,
-                "protein": 2,
-                "carbs": 5,
-                "fats": 0.2
-            }
-        ],
-        "preparation": "1. Lavar bien los tomates y cortarlos en rodajas, gajos o dados, según preferencia. 2. Pelar y picar la cebolla en juliana fina. Para suavizar su sabor, se puede dejar en remojo en agua fría con un poco de vinagre durante 10 minutos y luego escurrir. 3. Pelar y picar el ajo muy finamente, o machacarlo en un mortero. 4. En un bol o fuente, combinar el tomate, la cebolla y el ajo. 5. Aliñar generosamente con aceite de oliva virgen extra de buena calidad, un poco de vinagre (opcional, preferiblemente de Jerez o manzana) y sal. Mezclar bien y dejar reposar unos minutos antes de servir para que se integren los sabores. Opcional: añadir orégano fresco o seco.",
-        "originalBaseRecipeId": "pp_ensalada_de_tomate_ajo_y_cebolla",
-        "isSideDish": false,
-        "mealCategory": "plato_principal"
-    },
-    "p2_cena_Cinta_de_Cerdo_side_idx4": {
-        "id": "p2_cena_Cinta_de_Cerdo_side_idx4",
-        "name": "Cinta de Cerdo a la Plancha",
-        "calories": 352.4,
-        "protein": 26.4,
-        "carbs": 0,
-        "fats": 26.8,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684f007b4d606644a53332bf.png",
-        "ingredients": [
-            {
-                "name": "Cinta de Lomo de Cerdo",
-                "quantity": "120",
-                "unit": "g",
-                "calories": 264,
-                "protein": 26.4,
-                "carbs": 0,
-                "fats": 16.8
+                "calories": 15,
+                "protein": 1,
+                "carbs": 2.5,
+                "fats": 0.1
             },
             {
                 "name": "Aceite de Oliva Virgen Extra",
@@ -678,13 +645,13 @@ const foodDatabase = {
                 "fats": 10
             }
         ],
-        "preparation": "1. Sazonar los filetes de cinta de lomo de cerdo por ambos lados con sal, pimienta y ajo en polvo (opcional). 2. Calentar una plancha o sartén antiadherente a fuego medio-alto con un poco de aceite de oliva. 3. Cocinar los filetes de lomo durante unos 2-4 minutos por cada lado, dependiendo del grosor y del punto de cocción deseado. Es importante no cocinarlos en exceso para evitar que queden secos. Deben estar dorados por fuera y bien hechos por dentro.",
-        "originalBaseRecipeId": "ac_cinta_de_cerdo_a_la_plancha",
-        "isSideDish": true,
-        "mealCategory": "acompanamiento"
+        "preparation": "1. Rallar la coliflor hasta que parezca arroz. 2. Saltear pollo y champiñones con cebolla. 3. Añadir la coliflor y saltear 5 min (no debe ablandarse demasiado). 4. Sazonar al gusto.",
+        "originalBaseRecipeId": "cc_falso_risotto_de_coliflor_con_pollo_y_setas",
+        "isSideDish": false,
+        "mealCategory": "comida_cena_completa"
     },
-    "p2_extra_Queso_Fresco_Batido_mainOnly_idx5": {
-        "id": "p2_extra_Queso_Fresco_Batido_mainOnly_idx5",
+    "p2_extra_Queso_Fresco_Batido_mainOnly_idx4": {
+        "id": "p2_extra_Queso_Fresco_Batido_mainOnly_idx4",
         "name": "Queso Fresco Batido con Frutos Rojos y Miel",
         "calories": 148,
         "protein": 15.4,
@@ -770,10 +737,10 @@ const foodDatabase = {
     "p3_comida_Alcachofa_salteada_con_mainOnly_idx1": {
         "id": "p3_comida_Alcachofa_salteada_con_mainOnly_idx1",
         "name": "Alcachofa salteada con jamón, huevo",
-        "calories": 413.4,
-        "protein": 28,
-        "carbs": 11.1,
-        "fats": 28.400000000000002,
+        "calories": 335.9,
+        "protein": 21.5,
+        "carbs": 10.55,
+        "fats": 22.900000000000002,
         "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684efb33f6c48d7f13a5b29b.png",
         "ingredients": [
             {
@@ -796,12 +763,12 @@ const foodDatabase = {
             },
             {
                 "name": "Huevo Cocido",
-                "quantity": "2",
+                "quantity": "1",
                 "unit": "unidad(es)",
-                "calories": 155,
-                "protein": 13,
-                "carbs": 1.1,
-                "fats": 11
+                "calories": 77.5,
+                "protein": 6.5,
+                "carbs": 0.55,
+                "fats": 5.5
             },
             {
                 "name": "Aceite de Oliva Virgen Extra",
@@ -995,7 +962,7 @@ const dailyMenus = [
       "p1_cena_SolomilloFilete_de_Ternera_side_idx4"
     ],
     "extra": [
-      "p1_extra_Yogurt_Protico_con_mainOnly_idx5"
+      "p1_extra_Yogur_Protico_Sabores_mainOnly_idx5"
     ]
   },
   {
@@ -1014,11 +981,10 @@ const dailyMenus = [
       "p2_comida_Hamburguesa_de_PavoPollo_side_idx2"
     ],
     "cena": [
-      "p2_cena_Ensalada_de_Tomate_mainOnly_idx3",
-      "p2_cena_Cinta_de_Cerdo_side_idx4"
+      "p2_cena_Falso_Risotto_de_mainOnly_idx3"
     ],
     "extra": [
-      "p2_extra_Queso_Fresco_Batido_mainOnly_idx5"
+      "p2_extra_Queso_Fresco_Batido_mainOnly_idx4"
     ]
   },
   {
