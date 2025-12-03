@@ -239,8 +239,227 @@ const foodDatabase = {
         "isSideDish": false,
         "mealCategory": "extra"
     },
-    "p1_desayuno_Tostada_de_Pan_mainOnly_idx0": {
-        "id": "p1_desayuno_Tostada_de_Pan_mainOnly_idx0",
+    "p1_desayuno_Tostada_de_Centeno_mainOnly_idx0": {
+        "id": "p1_desayuno_Tostada_de_Centeno_mainOnly_idx0",
+        "name": "Tostada de Centeno con Huevo y Queso Cottage",
+        "calories": 296,
+        "protein": 22.9,
+        "carbs": 18.5,
+        "fats": 14.3,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682ad5cf9b8ed31c657c80e8.png",
+        "ingredients": [
+            {
+                "name": "Tostada de Pan de Centeno",
+                "quantity": "1",
+                "unit": "rebanada(s)",
+                "calories": 81,
+                "protein": 2.6999999999999997,
+                "carbs": 15,
+                "fats": 0.8999999999999999
+            },
+            {
+                "name": "Huevo",
+                "quantity": "2",
+                "unit": "unidad(es)",
+                "calories": 155,
+                "protein": 13,
+                "carbs": 1.1,
+                "fats": 11
+            },
+            {
+                "name": "Queso Cottage",
+                "quantity": "60",
+                "unit": "g",
+                "calories": 60,
+                "protein": 7.199999999999999,
+                "carbs": 2.4,
+                "fats": 2.4
+            }
+        ],
+        "preparation": "1. Tostar el pan de centeno. 2. Cocinar los huevos al gusto (revueltos, pochados, a la plancha). 3. Untar el queso cottage sobre las tostadas. 4. Añadir el aguacate laminado (si se usa en la receta ajustada) y los huevos encima.",
+        "originalBaseRecipeId": "des_tostada_de_centeno_con_huevo_y_queso_cottage",
+        "isSideDish": false,
+        "mealCategory": "desayuno"
+    },
+    "p1_comida_Patatas_Cocidas_con_mainOnly_idx1": {
+        "id": "p1_comida_Patatas_Cocidas_con_mainOnly_idx1",
+        "name": "Patatas Cocidas con Salteado de Verduras y Hamburguesa a la plancha",
+        "calories": 520.9,
+        "protein": 23.5,
+        "carbs": 43.25,
+        "fats": 28.6,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cf8559b0c6709fc9afa98.png",
+        "ingredients": [
+            {
+                "name": "Patata",
+                "quantity": "150",
+                "unit": "g",
+                "calories": 135,
+                "protein": 3,
+                "carbs": 30,
+                "fats": 0.15
+            },
+            {
+                "name": "Pimiento Verde",
+                "quantity": "75",
+                "unit": "g",
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
+            },
+            {
+                "name": "Pimiento Rojo",
+                "quantity": "75",
+                "unit": "g",
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
+            },
+            {
+                "name": "Cebolla",
+                "quantity": "75",
+                "unit": "g",
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
+            },
+            {
+                "name": "Hamburguesa de Pavo-Pollo",
+                "quantity": "100",
+                "unit": "g",
+                "calories": 229.99999999999997,
+                "protein": 16,
+                "carbs": 2,
+                "fats": 18
+            },
+            {
+                "name": "Aceite de Oliva Virgen Extra",
+                "quantity": "10",
+                "unit": "g",
+                "calories": 88.4,
+                "protein": 0,
+                "carbs": 0,
+                "fats": 10
+            }
+        ],
+        "preparation": "1. Cocer las patatas en agua con sal. 2. Mientras, saltear las verduras (pimiento, cebolla) en una sartén. 3. Cocinar la hamburguesa a la plancha. 4. Servir las patatas cocidas con el salteado de verduras y la hamburguesa.",
+        "originalBaseRecipeId": "cc_patatas_cocidas_con_salteado_de_verduras_y_hamburguesa_a_la_plancha",
+        "isSideDish": false,
+        "mealCategory": "comida_cena_completa"
+    },
+    "p1_cena_Falso_Risotto_de_mainOnly_idx2": {
+        "id": "p1_cena_Falso_Risotto_de_mainOnly_idx2",
+        "name": "Falso Risotto de Coliflor con Pollo y Setas",
+        "calories": 433.4,
+        "protein": 49.00000000000001,
+        "carbs": 17.5,
+        "fats": 16.700000000000003,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6922cee78c174d4e6d420b9d.png",
+        "ingredients": [
+            {
+                "name": "Coliflor",
+                "quantity": "200",
+                "unit": "g",
+                "calories": 60,
+                "protein": 4,
+                "carbs": 10,
+                "fats": 0.4
+            },
+            {
+                "name": "Pechuga de Pollo",
+                "quantity": "150",
+                "unit": "g",
+                "calories": 240,
+                "protein": 42.00000000000001,
+                "carbs": 0,
+                "fats": 6
+            },
+            {
+                "name": "Champiñones",
+                "quantity": "75",
+                "unit": "g",
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
+            },
+            {
+                "name": "Cebolla",
+                "quantity": "75",
+                "unit": "g",
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
+            },
+            {
+                "name": "Aceite de Oliva Virgen Extra",
+                "quantity": "10",
+                "unit": "g",
+                "calories": 88.4,
+                "protein": 0,
+                "carbs": 0,
+                "fats": 10
+            }
+        ],
+        "preparation": "1. Rallar la coliflor hasta que parezca arroz. 2. Saltear pollo y champiñones con cebolla. 3. Añadir la coliflor y saltear 5 min (no debe ablandarse demasiado). 4. Sazonar al gusto.",
+        "originalBaseRecipeId": "cc_falso_risotto_de_coliflor_con_pollo_y_setas",
+        "isSideDish": false,
+        "mealCategory": "comida_cena_completa"
+    },
+    "p1_extra_Fruta_Ctrica_Mandarina_mainOnly_idx3": {
+        "id": "p1_extra_Fruta_Ctrica_Mandarina_mainOnly_idx3",
+        "name": "Fruta Cítrica (Mandarina, Kiwi, Naranja...)",
+        "calories": 90,
+        "protein": 0.75,
+        "carbs": 22.5,
+        "fats": 0.3,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd3d0ed506305442ffe4.png",
+        "ingredients": [
+            {
+                "name": "Naranja",
+                "quantity": "1",
+                "unit": "unidad(es)",
+                "calories": 90,
+                "protein": 0.75,
+                "carbs": 22.5,
+                "fats": 0.3
+            }
+        ],
+        "preparation": "1. Seleccionar la fruta cítrica de preferencia (mandarina, kiwi, naranja, pomelo, etc.). 2. Lavar bien la fruta bajo el grifo. 3. Para mandarinas y naranjas: pelar la piel con las manos o con ayuda de un cuchillo. Separar los gajos si se desea. 4. Para kiwis: cortar por la mitad y comer la pulpa con una cucharita, o pelar con un cuchillo y cortar en rodajas. 5. Para pomelos: cortar por la mitad y extraer los gajos, o comer con cuchara. Consumir directamente.",
+        "originalBaseRecipeId": "ext_fruta_ctrica_mandarina_kiwi_naranja",
+        "isSideDish": false,
+        "mealCategory": "extra"
+    },
+    "p1_extra_Yogur_Protico_Sabores_mainOnly_idx4": {
+        "id": "p1_extra_Yogur_Protico_Sabores_mainOnly_idx4",
+        "name": "Yogur Protéico (Sabores, Natural...)",
+        "calories": 125,
+        "protein": 6.25,
+        "carbs": 12.5,
+        "fats": 5,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd789b8ed38b127cbc09.png",
+        "ingredients": [
+            {
+                "name": "Yogur Protéico",
+                "quantity": "1",
+                "unit": "unidad(es)",
+                "calories": 125,
+                "protein": 6.25,
+                "carbs": 12.5,
+                "fats": 5
+            }
+        ],
+        "preparation": "1. Seleccionar el yogur proteico de preferencia (natural o con sabores). 2. Abrir el envase. 3. Consumir directamente con una cuchara. Opcional: se puede acompañar de frutas frescas troceadas, frutos secos, semillas o un poco de miel o edulcorante si es natural y se desea endulzar.",
+        "originalBaseRecipeId": "ext_yogur_protico_sabores_natural",
+        "isSideDish": false,
+        "mealCategory": "extra"
+    },
+    "p2_desayuno_Tostada_de_Pan_mainOnly_idx0": {
+        "id": "p2_desayuno_Tostada_de_Pan_mainOnly_idx0",
         "name": "Tostada de Pan de Centeno con Revuelto de Huevos y Jamón York",
         "calories": 273.5,
         "protein": 17.2,
@@ -281,8 +500,8 @@ const foodDatabase = {
         "isSideDish": false,
         "mealCategory": "desayuno"
     },
-    "p1_comida_Ensalada_de_Lentejas_mainOnly_idx1": {
-        "id": "p1_comida_Ensalada_de_Lentejas_mainOnly_idx1",
+    "p2_comida_Ensalada_de_Lentejas_mainOnly_idx1": {
+        "id": "p2_comida_Ensalada_de_Lentejas_mainOnly_idx1",
         "name": "Ensalada de Lentejas",
         "calories": 472.5,
         "protein": 30.9,
@@ -332,8 +551,8 @@ const foodDatabase = {
         "isSideDish": false,
         "mealCategory": "plato_principal"
     },
-    "p1_comida_Fiambre_de_PavoPollo_side_idx2": {
-        "id": "p1_comida_Fiambre_de_PavoPollo_side_idx2",
+    "p2_comida_Fiambre_de_PavoPollo_side_idx2": {
+        "id": "p2_comida_Fiambre_de_PavoPollo_side_idx2",
         "name": "Fiambre de Pavo/Pollo",
         "calories": 184,
         "protein": 12.8,
@@ -356,8 +575,8 @@ const foodDatabase = {
         "isSideDish": true,
         "mealCategory": "acompanamiento"
     },
-    "p1_cena_Fajitas_de_Pollo_mainOnly_idx3": {
-        "id": "p1_cena_Fajitas_de_Pollo_mainOnly_idx3",
+    "p2_cena_Fajitas_de_Pollo_mainOnly_idx3": {
+        "id": "p2_cena_Fajitas_de_Pollo_mainOnly_idx3",
         "name": "Fajitas de Pollo y Verduras",
         "calories": 510.4,
         "protein": 48.800000000000004,
@@ -434,8 +653,8 @@ const foodDatabase = {
         "isSideDish": false,
         "mealCategory": "comida_cena_completa"
     },
-    "p1_extra_Yogur_Protico_Sabores_mainOnly_idx4": {
-        "id": "p1_extra_Yogur_Protico_Sabores_mainOnly_idx4",
+    "p2_extra_Yogur_Protico_Sabores_mainOnly_idx4": {
+        "id": "p2_extra_Yogur_Protico_Sabores_mainOnly_idx4",
         "name": "Yogur Protéico (Sabores, Natural...)",
         "calories": 125,
         "protein": 6.25,
@@ -458,8 +677,8 @@ const foodDatabase = {
         "isSideDish": false,
         "mealCategory": "extra"
     },
-    "p1_extra_Fruta_Ctrica_Mandarina_mainOnly_idx5": {
-        "id": "p1_extra_Fruta_Ctrica_Mandarina_mainOnly_idx5",
+    "p2_extra_Fruta_Ctrica_Mandarina_mainOnly_idx5": {
+        "id": "p2_extra_Fruta_Ctrica_Mandarina_mainOnly_idx5",
         "name": "Fruta Cítrica (Mandarina, Kiwi, Naranja...)",
         "calories": 45,
         "protein": 0.375,
@@ -482,41 +701,50 @@ const foodDatabase = {
         "isSideDish": false,
         "mealCategory": "extra"
     },
-    "p2_desayuno_Tostada_de_centeno_mainOnly_idx0": {
-        "id": "p2_desayuno_Tostada_de_centeno_mainOnly_idx0",
-        "name": "Tostada de centeno con jamón ibérico",
-        "calories": 191,
-        "protein": 13.7,
-        "carbs": 15,
-        "fats": 7.9,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6887226c7537da60484d071f.png",
+    "p3_desayuno_Porridge_de_Avena_mainOnly_idx0": {
+        "id": "p3_desayuno_Porridge_de_Avena_mainOnly_idx0",
+        "name": "Porridge de Avena y Frutos Rojos",
+        "calories": 349,
+        "protein": 12.45,
+        "carbs": 62.5,
+        "fats": 5.3,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afdf19b8ed348797cbcd8.png",
         "ingredients": [
             {
-                "name": "Tostada de Pan de Centeno",
-                "quantity": "1",
-                "unit": "rebanada(s)",
-                "calories": 81,
-                "protein": 2.6999999999999997,
-                "carbs": 15,
-                "fats": 0.8999999999999999
+                "name": "Copos de Avena",
+                "quantity": "60",
+                "unit": "g",
+                "calories": 219,
+                "protein": 7.199999999999999,
+                "carbs": 45,
+                "fats": 1.2
             },
             {
-                "name": "Jamón Ibérico",
+                "name": "Leche",
+                "quantity": "100",
+                "unit": "g",
+                "calories": 100,
+                "protein": 5,
+                "carbs": 10,
+                "fats": 4
+            },
+            {
+                "name": "Frutos Rojos",
                 "quantity": "50",
                 "unit": "g",
-                "calories": 110.00000000000001,
-                "protein": 11,
-                "carbs": 0,
-                "fats": 7.000000000000001
+                "calories": 30,
+                "protein": 0.25,
+                "carbs": 7.5,
+                "fats": 0.1
             }
         ],
-        "preparation": "1. Tostar el pan de centeno. 2. Colocar las lonchas de jamón ibérico por encima. Opcional: añadir un chorrito de aceite de oliva.",
-        "originalBaseRecipeId": "des_tostada_de_centeno_con_jamn_ibrico",
+        "preparation": "1. En un cazo, cocinar los copos de avena con la leche o bebida vegetal a fuego medio, removiendo constantemente hasta que espese y la avena esté cocida (unos 5-7 minutos). 2. Servir caliente en un bol con los frutos rojos por encima. Opcional: añadir canela o edulcorante al gusto.",
+        "originalBaseRecipeId": "des_porridge_de_avena_y_frutos_rojos",
         "isSideDish": false,
         "mealCategory": "desayuno"
     },
-    "p2_comida_Ensalada_con_Pollo_mainOnly_idx1": {
-        "id": "p2_comida_Ensalada_con_Pollo_mainOnly_idx1",
+    "p3_comida_Ensalada_con_Pollo_mainOnly_idx1": {
+        "id": "p3_comida_Ensalada_con_Pollo_mainOnly_idx1",
         "name": "Ensalada con Pollo y Queso de Burgos",
         "calories": 510.4,
         "protein": 58.8,
@@ -584,8 +812,8 @@ const foodDatabase = {
         "isSideDish": false,
         "mealCategory": "comida_cena_completa"
     },
-    "p2_cena_Ensalada_de_garbanzos_mainOnly_idx2": {
-        "id": "p2_cena_Ensalada_de_garbanzos_mainOnly_idx2",
+    "p3_cena_Ensalada_de_garbanzos_mainOnly_idx2": {
+        "id": "p3_cena_Ensalada_de_garbanzos_mainOnly_idx2",
         "name": "Ensalada de garbanzos con verduras y queso",
         "calories": 495,
         "protein": 32.4,
@@ -644,8 +872,8 @@ const foodDatabase = {
         "isSideDish": false,
         "mealCategory": "plato_principal"
     },
-    "p2_cena_Huevo_Duro_Cocido_side_idx3": {
-        "id": "p2_cena_Huevo_Duro_Cocido_side_idx3",
+    "p3_cena_Huevo_Duro_Cocido_side_idx3": {
+        "id": "p3_cena_Huevo_Duro_Cocido_side_idx3",
         "name": "Huevo Duro Cocido",
         "calories": 155,
         "protein": 13,
@@ -668,32 +896,8 @@ const foodDatabase = {
         "isSideDish": true,
         "mealCategory": "acompanamiento"
     },
-    "p2_extra_Yogur_Protico_Sabores_mainOnly_idx4": {
-        "id": "p2_extra_Yogur_Protico_Sabores_mainOnly_idx4",
-        "name": "Yogur Protéico (Sabores, Natural...)",
-        "calories": 125,
-        "protein": 6.25,
-        "carbs": 12.5,
-        "fats": 5,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd789b8ed38b127cbc09.png",
-        "ingredients": [
-            {
-                "name": "Yogur Protéico",
-                "quantity": "1",
-                "unit": "unidad(es)",
-                "calories": 125,
-                "protein": 6.25,
-                "carbs": 12.5,
-                "fats": 5
-            }
-        ],
-        "preparation": "1. Seleccionar el yogur proteico de preferencia (natural o con sabores). 2. Abrir el envase. 3. Consumir directamente con una cuchara. Opcional: se puede acompañar de frutas frescas troceadas, frutos secos, semillas o un poco de miel o edulcorante si es natural y se desea endulzar.",
-        "originalBaseRecipeId": "ext_yogur_protico_sabores_natural",
-        "isSideDish": false,
-        "mealCategory": "extra"
-    },
-    "p2_extra_Fruta_Ctrica_Mandarina_mainOnly_idx5": {
-        "id": "p2_extra_Fruta_Ctrica_Mandarina_mainOnly_idx5",
+    "p3_extra_Fruta_Ctrica_Mandarina_mainOnly_idx4": {
+        "id": "p3_extra_Fruta_Ctrica_Mandarina_mainOnly_idx4",
         "name": "Fruta Cítrica (Mandarina, Kiwi, Naranja...)",
         "calories": 96,
         "protein": 0.8,
@@ -720,7 +924,7 @@ const foodDatabase = {
 
 const dailyMenus = [
   {
-    "name": "Opciones 1",
+    "name": "Entreno",
     "targetMacros": {
       "calories": 2000,
       "protein": 150,
@@ -742,6 +946,28 @@ const dailyMenus = [
     ]
   },
   {
+    "name": "Descanso",
+    "targetMacros": {
+      "calories": 2000,
+      "protein": 150,
+      "carbs": 200
+    },
+    "useCustomMacros": true,
+    "desayuno": [
+      "p1_desayuno_Tostada_de_Centeno_mainOnly_idx0"
+    ],
+    "comida": [
+      "p1_comida_Patatas_Cocidas_con_mainOnly_idx1"
+    ],
+    "cena": [
+      "p1_cena_Falso_Risotto_de_mainOnly_idx2"
+    ],
+    "extra": [
+      "p1_extra_Fruta_Ctrica_Mandarina_mainOnly_idx3",
+      "p1_extra_Yogur_Protico_Sabores_mainOnly_idx4"
+    ]
+  },
+  {
     "name": "Hotel 1",
     "targetMacros": {
       "calories": 2000,
@@ -750,18 +976,18 @@ const dailyMenus = [
     },
     "useCustomMacros": true,
     "desayuno": [
-      "p1_desayuno_Tostada_de_Pan_mainOnly_idx0"
+      "p2_desayuno_Tostada_de_Pan_mainOnly_idx0"
     ],
     "comida": [
-      "p1_comida_Ensalada_de_Lentejas_mainOnly_idx1",
-      "p1_comida_Fiambre_de_PavoPollo_side_idx2"
+      "p2_comida_Ensalada_de_Lentejas_mainOnly_idx1",
+      "p2_comida_Fiambre_de_PavoPollo_side_idx2"
     ],
     "cena": [
-      "p1_cena_Fajitas_de_Pollo_mainOnly_idx3"
+      "p2_cena_Fajitas_de_Pollo_mainOnly_idx3"
     ],
     "extra": [
-      "p1_extra_Yogur_Protico_Sabores_mainOnly_idx4",
-      "p1_extra_Fruta_Ctrica_Mandarina_mainOnly_idx5"
+      "p2_extra_Yogur_Protico_Sabores_mainOnly_idx4",
+      "p2_extra_Fruta_Ctrica_Mandarina_mainOnly_idx5"
     ]
   },
   {
@@ -773,23 +999,23 @@ const dailyMenus = [
     },
     "useCustomMacros": true,
     "desayuno": [
-      "p2_desayuno_Tostada_de_centeno_mainOnly_idx0"
+      "p3_desayuno_Porridge_de_Avena_mainOnly_idx0"
     ],
     "comida": [
-      "p2_comida_Ensalada_con_Pollo_mainOnly_idx1"
+      "p3_comida_Ensalada_con_Pollo_mainOnly_idx1"
     ],
     "cena": [
-      "p2_cena_Ensalada_de_garbanzos_mainOnly_idx2",
-      "p2_cena_Huevo_Duro_Cocido_side_idx3"
+      "p3_cena_Ensalada_de_garbanzos_mainOnly_idx2",
+      "p3_cena_Huevo_Duro_Cocido_side_idx3"
     ],
     "extra": [
-      "p2_extra_Yogur_Protico_Sabores_mainOnly_idx4",
-      "p2_extra_Fruta_Ctrica_Mandarina_mainOnly_idx5"
+      "p3_extra_Fruta_Ctrica_Mandarina_mainOnly_idx4"
     ]
   }
 ];
 
 // Detalles de los planes exportados:
-// Plan: Opciones 1, Calorías Objetivo: 2000, Proteínas Objetivo: 150, Carbohidratos Objetivo: 200
+// Plan: Entreno, Calorías Objetivo: 2000, Proteínas Objetivo: 150, Carbohidratos Objetivo: 200
+// Plan: Descanso, Calorías Objetivo: 2000, Proteínas Objetivo: 150, Carbohidratos Objetivo: 200
 // Plan: Hotel 1, Calorías Objetivo: 2000, Proteínas Objetivo: 160, Carbohidratos Objetivo: 200
 // Plan: Hotel 2, Calorías Objetivo: 2000, Proteínas Objetivo: 160, Carbohidratos Objetivo: 200
