@@ -805,6 +805,258 @@ const foodDatabase = {
         "originalBaseRecipeId": "ext_frutos_secos_mezcla",
         "isSideDish": false,
         "mealCategory": "extra"
+    },
+    "p3_desayuno_Tostada_de_Centeno_mainOnly_idx0": {
+        "id": "p3_desayuno_Tostada_de_Centeno_mainOnly_idx0",
+        "name": "Tostada de Centeno con Huevo y Aguacate",
+        "calories": 459.4,
+        "protein": 18.7,
+        "carbs": 20.6,
+        "fats": 33.9,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687a695da648331355d3b0b2.png",
+        "ingredients": [
+            {
+                "name": "Tostada de Pan de Centeno",
+                "quantity": "1",
+                "unit": "rebanada(s)",
+                "calories": 81,
+                "protein": 2.6999999999999997,
+                "carbs": 15,
+                "fats": 0.8999999999999999
+            },
+            {
+                "name": "Huevos",
+                "quantity": "2",
+                "unit": "unidad(es)",
+                "calories": 155,
+                "protein": 13,
+                "carbs": 1.1,
+                "fats": 11
+            },
+            {
+                "name": "Aguacate",
+                "quantity": "30",
+                "unit": "g",
+                "calories": 135,
+                "protein": 3,
+                "carbs": 4.5,
+                "fats": 12
+            },
+            {
+                "name": "Aceite de Oliva Virgen Extra",
+                "quantity": "10",
+                "unit": "g",
+                "calories": 88.4,
+                "protein": 0,
+                "carbs": 0,
+                "fats": 10
+            }
+        ],
+        "preparation": "1. Tostar el pan de centeno. 2. Cocinar los huevos al gusto (revueltos, pochados, a la plancha). 3. Machacar el aguacate sobre las tostadas y añadir aceite y especias.",
+        "originalBaseRecipeId": "des_tostada_de_centeno_con_huevo_y_aguacate",
+        "isSideDish": false,
+        "mealCategory": "desayuno"
+    },
+    "p3_comida_Estofado_de_Ternera_mainOnly_idx1": {
+        "id": "p3_comida_Estofado_de_Ternera_mainOnly_idx1",
+        "name": "Estofado de Ternera con Alcachofas y Setas",
+        "calories": 493.50000000000006,
+        "protein": 46.1,
+        "carbs": 16.25,
+        "fats": 25.849999999999998,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6922cd70f96c9c3ef3256a9c.png",
+        "ingredients": [
+            {
+                "name": "Ternera para guisar",
+                "quantity": "180",
+                "unit": "g",
+                "calories": 396.00000000000006,
+                "protein": 39.6,
+                "carbs": 0,
+                "fats": 25.200000000000003
+            },
+            {
+                "name": "Alcachofas",
+                "quantity": "75",
+                "unit": "g",
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
+            },
+            {
+                "name": "Setas",
+                "quantity": "75",
+                "unit": "g",
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
+            },
+            {
+                "name": "Cebolla",
+                "quantity": "75",
+                "unit": "g",
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
+            },
+            {
+                "name": "Caldo de Carne",
+                "quantity": "100",
+                "unit": "g",
+                "calories": 30,
+                "protein": 2,
+                "carbs": 5,
+                "fats": 0.2
+            }
+        ],
+        "preparation": "1. Salpimentar y sellar la ternera en una olla. Reservar. 2. En el mismo aceite, sofreír cebolla y ajo. 3. Añadir las setas y alcachofas (limpias). 4. Reincorporar la carne, cubrir con caldo y cocer a fuego lento hasta que la carne esté tierna (aprox 45-60 min).",
+        "originalBaseRecipeId": "cc_estofado_de_ternera_con_alcachofas_y_setas",
+        "isSideDish": false,
+        "mealCategory": "comida_cena_completa"
+    },
+    "p3_cena_Juda_verde_con_mainOnly_idx2": {
+        "id": "p3_cena_Juda_verde_con_mainOnly_idx2",
+        "name": "Judía verde con patata y Zanahoria",
+        "calories": 255,
+        "protein": 9,
+        "carbs": 52.5,
+        "fats": 0.7,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cf5c1ddc9c1507857434b.png",
+        "ingredients": [
+            {
+                "name": "Judía Verde",
+                "quantity": "150",
+                "unit": "g",
+                "calories": 45,
+                "protein": 3,
+                "carbs": 7.5,
+                "fats": 0.3
+            },
+            {
+                "name": "Patata",
+                "quantity": "200",
+                "unit": "g",
+                "calories": 180,
+                "protein": 4,
+                "carbs": 40,
+                "fats": 0.2
+            },
+            {
+                "name": "Zanahoria",
+                "quantity": "100",
+                "unit": "g",
+                "calories": 30,
+                "protein": 2,
+                "carbs": 5,
+                "fats": 0.2
+            }
+        ],
+        "preparation": "1. Lavar y cortar las judías verdes, pelar y cortar las patatas y zanahorias. 2. Cocer todas las verduras en agua con sal hasta que estén tiernas. 3. Escurrir y servir. Aliñar con aceite de oliva virgen extra.",
+        "originalBaseRecipeId": "pp_juda_verde_con_patata_y_zanahoria",
+        "isSideDish": false,
+        "mealCategory": "plato_principal"
+    },
+    "p3_cena_Merluza_a_la_side_idx3": {
+        "id": "p3_cena_Merluza_a_la_side_idx3",
+        "name": "Merluza a la Plancha",
+        "calories": 328.4,
+        "protein": 42.00000000000001,
+        "carbs": 0,
+        "fats": 16,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684f001d4d606642b1333279.png",
+        "ingredients": [
+            {
+                "name": "Filete de Merluza",
+                "quantity": "150",
+                "unit": "g",
+                "calories": 240,
+                "protein": 42.00000000000001,
+                "carbs": 0,
+                "fats": 6
+            },
+            {
+                "name": "Aceite de Oliva Virgen Extra",
+                "quantity": "10",
+                "unit": "g",
+                "calories": 88.4,
+                "protein": 0,
+                "carbs": 0,
+                "fats": 10
+            }
+        ],
+        "preparation": "1. Sazonar los filetes o rodajas de merluza con sal, pimienta y opcionalmente un poco de ajo en polvo o perejil picado. 2. Calentar una plancha o sartén antiadherente a fuego medio-alto con un chorrito de aceite de oliva virgen extra. 3. Cuando el aceite esté caliente, colocar la merluza en la plancha. Cocinar durante unos 3-5 minutos por cada lado, dependiendo del grosor del pescado, hasta que esté opaca, bien cocida por dentro y se desmenuce fácilmente con un tenedor. Evitar cocinarla en exceso para que no quede seca. 4. Servir inmediatamente, opcionalmente con un chorrito de zumo de limón fresco por encima.",
+        "originalBaseRecipeId": "ac_merluza_a_la_plancha",
+        "isSideDish": true,
+        "mealCategory": "acompanamiento"
+    },
+    "p3_extra_Frutos_Secos_Mezcla_mainOnly_idx4": {
+        "id": "p3_extra_Frutos_Secos_Mezcla_mainOnly_idx4",
+        "name": "Frutos Secos (Mezcla)",
+        "calories": 135,
+        "protein": 3,
+        "carbs": 4.5,
+        "fats": 12,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68525c0b1d27cfeb580a55f7.png",
+        "ingredients": [
+            {
+                "name": "Anacardos",
+                "quantity": "10",
+                "unit": "g",
+                "calories": 45,
+                "protein": 1,
+                "carbs": 1.5,
+                "fats": 4
+            },
+            {
+                "name": "Almendras",
+                "quantity": "10",
+                "unit": "g",
+                "calories": 45,
+                "protein": 1,
+                "carbs": 1.5,
+                "fats": 4
+            },
+            {
+                "name": "Nueces",
+                "quantity": "10",
+                "unit": "g",
+                "calories": 45,
+                "protein": 1,
+                "carbs": 1.5,
+                "fats": 4
+            }
+        ],
+        "preparation": "Consumir directamente como un snack energético y nutritivo. Se puede tomar un puñado (ej. 25-30g) o ajustar la cantidad según las necesidades calóricas.",
+        "originalBaseRecipeId": "ext_frutos_secos_mezcla",
+        "isSideDish": false,
+        "mealCategory": "extra"
+    },
+    "p3_extra_Yogur_Protico_Sabores_mainOnly_idx5": {
+        "id": "p3_extra_Yogur_Protico_Sabores_mainOnly_idx5",
+        "name": "Yogur Protéico (Sabores, Natural...)",
+        "calories": 125,
+        "protein": 6.25,
+        "carbs": 12.5,
+        "fats": 5,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd789b8ed38b127cbc09.png",
+        "ingredients": [
+            {
+                "name": "Yogur Protéico",
+                "quantity": "1",
+                "unit": "unidad(es)",
+                "calories": 125,
+                "protein": 6.25,
+                "carbs": 12.5,
+                "fats": 5
+            }
+        ],
+        "preparation": "1. Seleccionar el yogur proteico de preferencia (natural o con sabores). 2. Abrir el envase. 3. Consumir directamente con una cuchara. Opcional: se puede acompañar de frutas frescas troceadas, frutos secos, semillas o un poco de miel o edulcorante si es natural y se desea endulzar.",
+        "originalBaseRecipeId": "ext_yogur_protico_sabores_natural",
+        "isSideDish": false,
+        "mealCategory": "extra"
     }
 };
 
@@ -876,6 +1128,29 @@ const dailyMenus = [
       "p2_extra_Yogur_Protico_Sabores_mainOnly_idx4",
       "p2_extra_Frutos_Secos_Mezcla_mainOnly_idx5"
     ]
+  },
+  {
+    "name": "Opciones 4",
+    "targetMacros": {
+      "calories": 2000,
+      "protein": 150,
+      "carbs": 200
+    },
+    "useCustomMacros": true,
+    "desayuno": [
+      "p3_desayuno_Tostada_de_Centeno_mainOnly_idx0"
+    ],
+    "comida": [
+      "p3_comida_Estofado_de_Ternera_mainOnly_idx1"
+    ],
+    "cena": [
+      "p3_cena_Juda_verde_con_mainOnly_idx2",
+      "p3_cena_Merluza_a_la_side_idx3"
+    ],
+    "extra": [
+      "p3_extra_Frutos_Secos_Mezcla_mainOnly_idx4",
+      "p3_extra_Yogur_Protico_Sabores_mainOnly_idx5"
+    ]
   }
 ];
 
@@ -883,3 +1158,4 @@ const dailyMenus = [
 // Plan: Opciones 1, Calorías Objetivo: 2000, Proteínas Objetivo: 150, Carbohidratos Objetivo: 200
 // Plan: Opciones 2, Calorías Objetivo: 2000, Proteínas Objetivo: 160, Carbohidratos Objetivo: 200
 // Plan: Opciones 3, Calorías Objetivo: 2000, Proteínas Objetivo: 160, Carbohidratos Objetivo: 200
+// Plan: Opciones 4, Calorías Objetivo: 2000, Proteínas Objetivo: 150, Carbohidratos Objetivo: 200
