@@ -5,10 +5,10 @@ const foodDatabase = {
     "p0_desayuno_Revuelto_de_Huevos_mainOnly_idx0": {
         "id": "p0_desayuno_Revuelto_de_Huevos_mainOnly_idx0",
         "name": "Revuelto de Huevos y Claras con Jamón",
-        "calories": 514.9,
-        "protein": 37.900000000000006,
+        "calories": 492.9,
+        "protein": 35.7,
         "carbs": 2.0900000000000003,
-        "fats": 39.3,
+        "fats": 37.9,
         "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682ad5e1e819fcb589a8a30e.png",
         "ingredients": [
             {
@@ -31,12 +31,12 @@ const foodDatabase = {
             },
             {
                 "name": "Jamón Serrano",
-                "quantity": "60",
+                "quantity": "50",
                 "unit": "g",
-                "calories": 132,
-                "protein": 13.2,
+                "calories": 110.00000000000001,
+                "protein": 11,
                 "carbs": 0,
-                "fats": 8.4
+                "fats": 7.000000000000001
             },
             {
                 "name": "Aceite de Oliva Virgen Extra",
@@ -77,72 +77,72 @@ const foodDatabase = {
         "isSideDish": false,
         "mealCategory": "desayuno"
     },
-    "p0_cena_Wok_de_Verduras_mainOnly_idx2": {
-        "id": "p0_cena_Wok_de_Verduras_mainOnly_idx2",
-        "name": "Wok de Verduras con Salmón",
-        "calories": 663.4,
-        "protein": 53,
-        "carbs": 22.5,
-        "fats": 38.900000000000006,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afda0b91eb330dd3d49b2.png",
+    "p0_cena_Wrap_de_pollo_mainOnly_idx2": {
+        "id": "p0_cena_Wrap_de_pollo_mainOnly_idx2",
+        "name": "Wrap de pollo hervido con verduras y arroz",
+        "calories": 1133.5,
+        "protein": 80.7,
+        "carbs": 161.25,
+        "fats": 14.650000000000002,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684ef7e26202d54cb0de24e8.png",
         "ingredients": [
             {
-                "name": "Tomate",
-                "quantity": "150",
+                "name": "Pechuga de Pollo",
+                "quantity": "180",
                 "unit": "g",
-                "calories": 45,
-                "protein": 3,
-                "carbs": 7.5,
-                "fats": 0.3
+                "calories": 288,
+                "protein": 50.400000000000006,
+                "carbs": 0,
+                "fats": 7.2
             },
             {
-                "name": "Pimiento Rojo",
-                "quantity": "100",
+                "name": "Arroz",
+                "quantity": "80",
                 "unit": "g",
-                "calories": 30,
-                "protein": 2,
-                "carbs": 5,
-                "fats": 0.2
+                "calories": 292,
+                "protein": 9.6,
+                "carbs": 60,
+                "fats": 1.6
             },
             {
-                "name": "Pimiento Verde",
-                "quantity": "100",
+                "name": "Brócoli",
+                "quantity": "75",
                 "unit": "g",
-                "calories": 30,
-                "protein": 2,
-                "carbs": 5,
-                "fats": 0.2
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
+            },
+            {
+                "name": "Zanahoria",
+                "quantity": "75",
+                "unit": "g",
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
             },
             {
                 "name": "Cebolla",
-                "quantity": "100",
+                "quantity": "75",
                 "unit": "g",
-                "calories": 30,
-                "protein": 2,
-                "carbs": 5,
-                "fats": 0.2
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
             },
             {
-                "name": "Lomo de Salmón",
-                "quantity": "200",
-                "unit": "g",
-                "calories": 440.00000000000006,
-                "protein": 44,
-                "carbs": 0,
-                "fats": 28.000000000000004
-            },
-            {
-                "name": "Aceite de Oliva Virgen Extra",
-                "quantity": "10",
-                "unit": "g",
-                "calories": 88.4,
-                "protein": 0,
-                "carbs": 0,
-                "fats": 10
+                "name": "Tortilla de Wrap",
+                "quantity": "3",
+                "unit": "unidad(es)",
+                "calories": 486.00000000000006,
+                "protein": 16.2,
+                "carbs": 90,
+                "fats": 5.3999999999999995
             }
         ],
-        "preparation": "1. Cortar el salmón en dados de tamaño mediano. Picar el tomate, pimiento rojo, pimiento verde y cebolla en trozos adecuados para wok (ej. juliana gruesa o dados). 2. Calentar un wok o sartén grande con un poco de aceite a fuego alto. Saltear el salmón unos 2-3 minutos hasta que esté dorado por fuera pero ligeramente crudo por dentro. Retirar y reservar. 3. Añadir las verduras más duras (cebolla, pimientos) al wok y saltear durante 3-4 minutos. Luego añadir el tomate y saltear 1-2 minutos más. 4. Incorporar el salmón de nuevo al wok. Añadir salsa de soja (baja en sodio preferiblemente) y un toque de jengibre rallado o ajo picado (opcional). Mezclar bien y cocinar por 1-2 minutos más hasta que el salmón esté cocido y todo bien caliente. Servir inmediatamente, opcionalmente sobre una base de arroz o noodles.",
-        "originalBaseRecipeId": "cc_wok_de_verduras_con_salmn",
+        "preparation": "1. Hervir la pechuga de pollo en agua con sal hasta que esté cocida (unos 15-20 minutos). Dejar enfriar un poco y desmenuzar o cortar en trozos pequeños. 2. Cocer el arroz según las instrucciones del paquete. 3. Cocer al vapor o hervir el brócoli (en floretes pequeños) y la zanahoria (cortada en juliana o dados pequeños) hasta que estén tiernos pero crujientes. Picar la cebolla finamente (puede usarse cruda o salteada ligeramente). 4. Calentar ligeramente la tortilla de wrap para que sea más flexible. 5. Extender una capa fina de arroz cocido sobre la tortilla, dejando un borde libre. Distribuir encima el pollo desmenuzado, el brócoli, la zanahoria y la cebolla. 6. Opcional: añadir una salsa ligera (yogur con hierbas, hummus, etc.). Enrollar el wrap firmemente, doblando los extremos hacia adentro si se prefiere.",
+        "originalBaseRecipeId": "cc_wrap_de_pollo_hervido_con_verduras_y_arroz",
         "isSideDish": false,
         "mealCategory": "comida_cena_completa"
     },
@@ -191,10 +191,10 @@ const foodDatabase = {
     "p1_desayuno_Pan_wasa_con_mainOnly_idx0": {
         "id": "p1_desayuno_Pan_wasa_con_mainOnly_idx0",
         "name": "Pan wasa con Jamón dulce y Aguacate",
-        "calories": 509,
-        "protein": 22.8,
-        "carbs": 19.5,
-        "fats": 38.6,
+        "calories": 327,
+        "protein": 14.399999999999999,
+        "carbs": 15.7,
+        "fats": 23.4,
         "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68cc568b05b71972b49f95e0.png",
         "ingredients": [
             {
@@ -208,21 +208,21 @@ const foodDatabase = {
             },
             {
                 "name": "Jamón Cocido",
-                "quantity": "100",
+                "quantity": "60",
                 "unit": "g",
-                "calories": 229.99999999999997,
-                "protein": 16,
-                "carbs": 2,
-                "fats": 18
+                "calories": 138,
+                "protein": 9.6,
+                "carbs": 1.2,
+                "fats": 10.799999999999999
             },
             {
                 "name": "Aguacate",
-                "quantity": "50",
+                "quantity": "30",
                 "unit": "g",
-                "calories": 225,
-                "protein": 5,
-                "carbs": 7.5,
-                "fats": 20
+                "calories": 135,
+                "protein": 3,
+                "carbs": 4.5,
+                "fats": 12
             }
         ],
         "preparation": "1. Untar el aguacate sobre el pan wasa. 2. Añadir el jamón dulce por encima.",
@@ -230,41 +230,23 @@ const foodDatabase = {
         "isSideDish": false,
         "mealCategory": "extra"
     },
-    "p1_cena_Ensala_de_Patata_mainOnly_idx1": {
-        "id": "p1_cena_Ensala_de_Patata_mainOnly_idx1",
-        "name": "Ensala de Patata, Atún y Huevo",
-        "calories": 715,
-        "protein": 67.5,
-        "carbs": 61.1,
-        "fats": 19.8,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afc08b91eb31afe3d4796.png",
+    "p1_cena_Musakka_de_Patata_mainOnly_idx1": {
+        "id": "p1_cena_Musakka_de_Patata_mainOnly_idx1",
+        "name": "Musakka de Patata al horno con verduras y carne picada",
+        "calories": 895.9,
+        "protein": 53.5,
+        "carbs": 72.05,
+        "fats": 41.75,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684efda5653a2c17a7172d67.png",
         "ingredients": [
             {
                 "name": "Patata",
-                "quantity": "200",
+                "quantity": "300",
                 "unit": "g",
-                "calories": 180,
-                "protein": 4,
-                "carbs": 40,
-                "fats": 0.2
-            },
-            {
-                "name": "Pimiento Verde",
-                "quantity": "75",
-                "unit": "g",
-                "calories": 22.5,
-                "protein": 1.5,
-                "carbs": 3.75,
-                "fats": 0.15
-            },
-            {
-                "name": "Pimiento Rojo",
-                "quantity": "75",
-                "unit": "g",
-                "calories": 22.5,
-                "protein": 1.5,
-                "carbs": 3.75,
-                "fats": 0.15
+                "calories": 270,
+                "protein": 6,
+                "carbs": 60,
+                "fats": 0.3
             },
             {
                 "name": "Cebolla",
@@ -276,7 +258,7 @@ const foodDatabase = {
                 "fats": 0.15
             },
             {
-                "name": "Tomate",
+                "name": "Berenjena",
                 "quantity": "75",
                 "unit": "g",
                 "calories": 22.5,
@@ -285,35 +267,44 @@ const foodDatabase = {
                 "fats": 0.15
             },
             {
-                "name": "Maíz",
-                "quantity": "50",
+                "name": "Tomate Frito",
+                "quantity": "75",
                 "unit": "g",
-                "calories": 50,
-                "protein": 2.5,
-                "carbs": 5,
-                "fats": 2
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
             },
             {
-                "name": "Atún en Conserva",
+                "name": "Queso Rallado",
+                "quantity": "40",
+                "unit": "g",
+                "calories": 140,
+                "protein": 10,
+                "carbs": 0.8,
+                "fats": 10
+            },
+            {
+                "name": "Carne Picada Mixta (Ternera y Cerdo)",
                 "quantity": "150",
                 "unit": "g",
-                "calories": 240,
-                "protein": 42.00000000000001,
+                "calories": 330,
+                "protein": 33,
                 "carbs": 0,
-                "fats": 6
+                "fats": 21.000000000000004
             },
             {
-                "name": "Huevo Cocido",
-                "quantity": "2",
-                "unit": "unidad(es)",
-                "calories": 155,
-                "protein": 13,
-                "carbs": 1.1,
-                "fats": 11
+                "name": "Aceite de Oliva Virgen Extra",
+                "quantity": "10",
+                "unit": "g",
+                "calories": 88.4,
+                "protein": 0,
+                "carbs": 0,
+                "fats": 10
             }
         ],
-        "preparation": "1. Cocer las patatas con piel en agua con sal hasta que estén tiernas (unos 20-25 minutos). Dejar enfriar, pelar y cortar en dados. 2. Cocer los huevos en agua hirviendo durante 10 minutos. Dejar enfriar, pelar y cortar en rodajas o trozos. 3. Picar finamente el pimiento verde, pimiento rojo, cebolla y tomate. 4. En un bol grande, mezclar las patatas, los huevos, las verduras picadas, el maíz dulce (escurrido) y el atún (escurrido y desmenuzado). 5. Aliñar con aceite de oliva virgen extra, vinagre y sal al gusto. Mezclar con cuidado.",
-        "originalBaseRecipeId": "cc_ensala_de_patata_atn_y_huevo",
+        "preparation": "1. Precalentar el horno a 180°C. Pelar y cortar las patatas en rodajas finas (aproximadamente 0.5 cm). Cortar la berenjena en rodajas similares. Picar la cebolla. 2. En una sartén, calentar aceite y sofreír la cebolla hasta que esté blanda. Añadir la carne picada mixta y cocinar hasta que se dore. Escurrir el exceso de grasa. Incorporar tomate frito, sal, pimienta y orégano. Cocinar unos minutos. 3. En una fuente para horno, montar la musakka: colocar una capa de rodajas de patata en el fondo, luego una capa de rodajas de berenjena, y encima una capa de la mezcla de carne. Repetir las capas hasta terminar con una capa de patata o berenjena. 4. Opcional: cubrir con salsa bechamel y espolvorear con queso rallado. 5. Hornear durante 40-50 minutos, o hasta que las patatas y berenjenas estén tiernas y la superficie dorada. Dejar reposar unos minutos antes de servir.",
+        "originalBaseRecipeId": "cc_musakka_de_patata_al_horno_con_verduras_y_carne_picada",
         "isSideDish": false,
         "mealCategory": "comida_cena_completa"
     },
@@ -350,8 +341,218 @@ const foodDatabase = {
         "isSideDish": false,
         "mealCategory": "extra"
     },
-    "p2_desayuno_Tostada_de_Centeno_mainOnly_idx0": {
-        "id": "p2_desayuno_Tostada_de_Centeno_mainOnly_idx0",
+    "p1_extra_Fruta_Ctrica_Mandarina_mainOnly_idx3": {
+        "id": "p1_extra_Fruta_Ctrica_Mandarina_mainOnly_idx3",
+        "name": "Fruta Cítrica (Mandarina, Kiwi, Naranja...)",
+        "calories": 45,
+        "protein": 0.375,
+        "carbs": 11.25,
+        "fats": 0.15,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd3d0ed506305442ffe4.png",
+        "ingredients": [
+            {
+                "name": "Kiwi",
+                "quantity": "1",
+                "unit": "unidad(es)",
+                "calories": 45,
+                "protein": 0.375,
+                "carbs": 11.25,
+                "fats": 0.15
+            }
+        ],
+        "preparation": "1. Seleccionar la fruta cítrica de preferencia (mandarina, kiwi, naranja, pomelo, etc.). 2. Lavar bien la fruta bajo el grifo. 3. Para mandarinas y naranjas: pelar la piel con las manos o con ayuda de un cuchillo. Separar los gajos si se desea. 4. Para kiwis: cortar por la mitad y comer la pulpa con una cucharita, o pelar con un cuchillo y cortar en rodajas. 5. Para pomelos: cortar por la mitad y extraer los gajos, o comer con cuchara. Consumir directamente.",
+        "originalBaseRecipeId": "ext_fruta_ctrica_mandarina_kiwi_naranja",
+        "isSideDish": false,
+        "mealCategory": "extra"
+    },
+    "p2_desayuno_Porridge_de_Avena_mainOnly_idx0": {
+        "id": "p2_desayuno_Porridge_de_Avena_mainOnly_idx0",
+        "name": "Porridge de Avena y Frutos Rojos",
+        "calories": 399,
+        "protein": 14.95,
+        "carbs": 67.5,
+        "fats": 7.3,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afdf19b8ed348797cbcd8.png",
+        "ingredients": [
+            {
+                "name": "Copos de Avena",
+                "quantity": "60",
+                "unit": "g",
+                "calories": 219,
+                "protein": 7.199999999999999,
+                "carbs": 45,
+                "fats": 1.2
+            },
+            {
+                "name": "Leche",
+                "quantity": "150",
+                "unit": "g",
+                "calories": 150,
+                "protein": 7.5,
+                "carbs": 15,
+                "fats": 6
+            },
+            {
+                "name": "Frutos Rojos",
+                "quantity": "50",
+                "unit": "g",
+                "calories": 30,
+                "protein": 0.25,
+                "carbs": 7.5,
+                "fats": 0.1
+            }
+        ],
+        "preparation": "1. En un cazo, cocinar los copos de avena con la leche o bebida vegetal a fuego medio, removiendo constantemente hasta que espese y la avena esté cocida (unos 5-7 minutos). 2. Servir caliente en un bol con los frutos rojos por encima. Opcional: añadir canela o edulcorante al gusto.",
+        "originalBaseRecipeId": "des_porridge_de_avena_y_frutos_rojos",
+        "isSideDish": false,
+        "mealCategory": "desayuno"
+    },
+    "p2_cena_Ensalada_de_garbanzos_mainOnly_idx1": {
+        "id": "p2_cena_Ensalada_de_garbanzos_mainOnly_idx1",
+        "name": "Ensalada de garbanzos con verduras y queso",
+        "calories": 672.5,
+        "protein": 39.9,
+        "carbs": 67.55,
+        "fats": 26.249999999999996,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68ff252d3f16b5241c27c1e4.png",
+        "ingredients": [
+            {
+                "name": "Garbanzos en Conserva",
+                "quantity": "200",
+                "unit": "g",
+                "calories": 260,
+                "protein": 16,
+                "carbs": 44,
+                "fats": 1
+            },
+            {
+                "name": "Aguacate",
+                "quantity": "50",
+                "unit": "g",
+                "calories": 225,
+                "protein": 5,
+                "carbs": 7.5,
+                "fats": 20
+            },
+            {
+                "name": "Pepino",
+                "quantity": "75",
+                "unit": "g",
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
+            },
+            {
+                "name": "Tomates Cherry",
+                "quantity": "75",
+                "unit": "g",
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
+            },
+            {
+                "name": "Espinacas",
+                "quantity": "75",
+                "unit": "g",
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
+            },
+            {
+                "name": "Queso de Burgos 0%",
+                "quantity": "120",
+                "unit": "g",
+                "calories": 120,
+                "protein": 14.399999999999999,
+                "carbs": 4.8,
+                "fats": 4.8
+            }
+        ],
+        "preparation": "1. Enjuagar los garbanzos y escurrirlos. 2. Picar el aguacate, pepino y tomates cherry. 3. Mezclar todos los ingredientes en un bol con las espinacas. 4. Cortar el queso de Burgos en dados y añadirlo a la ensalada. 5. Aliñar al gusto con aceite de oliva, vinagre y sal.",
+        "originalBaseRecipeId": "pp_ensalada_de_garbanzos_con_verduras_y_queso",
+        "isSideDish": false,
+        "mealCategory": "plato_principal"
+    },
+    "p2_cena_Merluza_a_la_side_idx2": {
+        "id": "p2_cena_Merluza_a_la_side_idx2",
+        "name": "Merluza a la Plancha",
+        "calories": 328.4,
+        "protein": 42.00000000000001,
+        "carbs": 0,
+        "fats": 16,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684f001d4d606642b1333279.png",
+        "ingredients": [
+            {
+                "name": "Filete de Merluza",
+                "quantity": "150",
+                "unit": "g",
+                "calories": 240,
+                "protein": 42.00000000000001,
+                "carbs": 0,
+                "fats": 6
+            },
+            {
+                "name": "Aceite de Oliva Virgen Extra",
+                "quantity": "10",
+                "unit": "g",
+                "calories": 88.4,
+                "protein": 0,
+                "carbs": 0,
+                "fats": 10
+            }
+        ],
+        "preparation": "1. Sazonar los filetes o rodajas de merluza con sal, pimienta y opcionalmente un poco de ajo en polvo o perejil picado. 2. Calentar una plancha o sartén antiadherente a fuego medio-alto con un chorrito de aceite de oliva virgen extra. 3. Cuando el aceite esté caliente, colocar la merluza en la plancha. Cocinar durante unos 3-5 minutos por cada lado, dependiendo del grosor del pescado, hasta que esté opaca, bien cocida por dentro y se desmenuce fácilmente con un tenedor. Evitar cocinarla en exceso para que no quede seca. 4. Servir inmediatamente, opcionalmente con un chorrito de zumo de limón fresco por encima.",
+        "originalBaseRecipeId": "ac_merluza_a_la_plancha",
+        "isSideDish": true,
+        "mealCategory": "acompanamiento"
+    },
+    "p2_extra_Yogur_Protico_con_mainOnly_idx3": {
+        "id": "p2_extra_Yogur_Protico_con_mainOnly_idx3",
+        "name": "Yogur Protéico con Frutos Rojos y Secos",
+        "calories": 290,
+        "protein": 9.5,
+        "carbs": 24.5,
+        "fats": 17.1,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afea2b91eb35e413d4ab6.png",
+        "ingredients": [
+            {
+                "name": "Yogur Protéico",
+                "quantity": "1",
+                "unit": "unidad(es)",
+                "calories": 125,
+                "protein": 6.25,
+                "carbs": 12.5,
+                "fats": 5
+            },
+            {
+                "name": "Frutos Rojos",
+                "quantity": "50",
+                "unit": "g",
+                "calories": 30,
+                "protein": 0.25,
+                "carbs": 7.5,
+                "fats": 0.1
+            },
+            {
+                "name": "Frutos Secos",
+                "quantity": "30",
+                "unit": "g",
+                "calories": 135,
+                "protein": 3,
+                "carbs": 4.5,
+                "fats": 12
+            }
+        ],
+        "preparation": "1. En un bol, verter el yogur proteico. 2. Añadir los frutos rojos frescos o descongelados. 3. Espolvorear con los frutos secos troceados por encima. Servir inmediatamente.",
+        "originalBaseRecipeId": "ext_yogur_protico_con_frutos_rojos_y_secos",
+        "isSideDish": false,
+        "mealCategory": "extra"
+    },
+    "p3_desayuno_Tostada_de_Centeno_mainOnly_idx0": {
+        "id": "p3_desayuno_Tostada_de_Centeno_mainOnly_idx0",
         "name": "Tostada de Centeno con Queso Cottage y Cherries",
         "calories": 240,
         "protein": 13.799999999999999,
@@ -392,8 +593,8 @@ const foodDatabase = {
         "isSideDish": false,
         "mealCategory": "desayuno"
     },
-    "p2_desayuno_Fruta_Ctrica_Mandarina_mainOnly_idx1": {
-        "id": "p2_desayuno_Fruta_Ctrica_Mandarina_mainOnly_idx1",
+    "p3_desayuno_Fruta_Ctrica_Mandarina_mainOnly_idx1": {
+        "id": "p3_desayuno_Fruta_Ctrica_Mandarina_mainOnly_idx1",
         "name": "Fruta Cítrica (Mandarina, Kiwi, Naranja...)",
         "calories": 45,
         "protein": 0.375,
@@ -416,8 +617,8 @@ const foodDatabase = {
         "isSideDish": false,
         "mealCategory": "extra"
     },
-    "p2_comida_Fajitas_de_Pollo_mainOnly_idx2": {
-        "id": "p2_comida_Fajitas_de_Pollo_mainOnly_idx2",
+    "p3_comida_Fajitas_de_Pollo_mainOnly_idx2": {
+        "id": "p3_comida_Fajitas_de_Pollo_mainOnly_idx2",
         "name": "Fajitas de Pollo y Verduras",
         "calories": 586.4,
         "protein": 46.8,
@@ -494,8 +695,8 @@ const foodDatabase = {
         "isSideDish": false,
         "mealCategory": "comida_cena_completa"
     },
-    "p2_cena_Crema_de_Verduras_mainOnly_idx3": {
-        "id": "p2_cena_Crema_de_Verduras_mainOnly_idx3",
+    "p3_cena_Crema_de_Verduras_mainOnly_idx3": {
+        "id": "p3_cena_Crema_de_Verduras_mainOnly_idx3",
         "name": "Crema de Verduras Variadas",
         "calories": 117.5,
         "protein": 7,
@@ -545,8 +746,8 @@ const foodDatabase = {
         "isSideDish": false,
         "mealCategory": "plato_principal"
     },
-    "p2_cena_Revuelto_de_Huevos_side_idx4": {
-        "id": "p2_cena_Revuelto_de_Huevos_side_idx4",
+    "p3_cena_Revuelto_de_Huevos_side_idx4": {
+        "id": "p3_cena_Revuelto_de_Huevos_side_idx4",
         "name": "Revuelto de Huevos con Espárragos Trigueros",
         "calories": 420.9,
         "protein": 24.5,
@@ -587,8 +788,8 @@ const foodDatabase = {
         "isSideDish": true,
         "mealCategory": "acompanamiento"
     },
-    "p2_extra_Queso_Fresco_Batido_mainOnly_idx5": {
-        "id": "p2_extra_Queso_Fresco_Batido_mainOnly_idx5",
+    "p3_extra_Queso_Fresco_Batido_mainOnly_idx5": {
+        "id": "p3_extra_Queso_Fresco_Batido_mainOnly_idx5",
         "name": "Queso Fresco Batido con Frutos Rojos y Miel",
         "calories": 290,
         "protein": 30.75,
@@ -633,7 +834,7 @@ const foodDatabase = {
 
 const dailyMenus = [
   {
-    "name": "OPCIONES 1",
+    "name": "ENTRENO",
     "targetMacros": {
       "calories": 1800,
       "protein": 150,
@@ -646,14 +847,14 @@ const dailyMenus = [
     ],
     "comida": [],
     "cena": [
-      "p0_cena_Wok_de_Verduras_mainOnly_idx2"
+      "p0_cena_Wrap_de_pollo_mainOnly_idx2"
     ],
     "extra": [
       "p0_extra_Yogur_Protico_con_mainOnly_idx3"
     ]
   },
   {
-    "name": "OPCIONES 2",
+    "name": "LIBRE 1",
     "targetMacros": {
       "calories": 1800,
       "protein": 150,
@@ -665,10 +866,31 @@ const dailyMenus = [
     ],
     "comida": [],
     "cena": [
-      "p1_cena_Ensala_de_Patata_mainOnly_idx1"
+      "p1_cena_Musakka_de_Patata_mainOnly_idx1"
     ],
     "extra": [
-      "p1_extra_Yogur_Griego_Desnatado_mainOnly_idx2"
+      "p1_extra_Yogur_Griego_Desnatado_mainOnly_idx2",
+      "p1_extra_Fruta_Ctrica_Mandarina_mainOnly_idx3"
+    ]
+  },
+  {
+    "name": "LIBRE 2",
+    "targetMacros": {
+      "calories": 1800,
+      "protein": 150,
+      "carbs": 150
+    },
+    "useCustomMacros": true,
+    "desayuno": [
+      "p2_desayuno_Porridge_de_Avena_mainOnly_idx0"
+    ],
+    "comida": [],
+    "cena": [
+      "p2_cena_Ensalada_de_garbanzos_mainOnly_idx1",
+      "p2_cena_Merluza_a_la_side_idx2"
+    ],
+    "extra": [
+      "p2_extra_Yogur_Protico_con_mainOnly_idx3"
     ]
   },
   {
@@ -680,23 +902,24 @@ const dailyMenus = [
     },
     "useCustomMacros": true,
     "desayuno": [
-      "p2_desayuno_Tostada_de_Centeno_mainOnly_idx0",
-      "p2_desayuno_Fruta_Ctrica_Mandarina_mainOnly_idx1"
+      "p3_desayuno_Tostada_de_Centeno_mainOnly_idx0",
+      "p3_desayuno_Fruta_Ctrica_Mandarina_mainOnly_idx1"
     ],
     "comida": [
-      "p2_comida_Fajitas_de_Pollo_mainOnly_idx2"
+      "p3_comida_Fajitas_de_Pollo_mainOnly_idx2"
     ],
     "cena": [
-      "p2_cena_Crema_de_Verduras_mainOnly_idx3",
-      "p2_cena_Revuelto_de_Huevos_side_idx4"
+      "p3_cena_Crema_de_Verduras_mainOnly_idx3",
+      "p3_cena_Revuelto_de_Huevos_side_idx4"
     ],
     "extra": [
-      "p2_extra_Queso_Fresco_Batido_mainOnly_idx5"
+      "p3_extra_Queso_Fresco_Batido_mainOnly_idx5"
     ]
   }
 ];
 
 // Detalles de los planes exportados:
-// Plan: OPCIONES 1, Calorías Objetivo: 1800, Proteínas Objetivo: 150, Carbohidratos Objetivo: 150
-// Plan: OPCIONES 2, Calorías Objetivo: 1800, Proteínas Objetivo: 150, Carbohidratos Objetivo: 150
+// Plan: ENTRENO, Calorías Objetivo: 1800, Proteínas Objetivo: 150, Carbohidratos Objetivo: 150
+// Plan: LIBRE 1, Calorías Objetivo: 1800, Proteínas Objetivo: 150, Carbohidratos Objetivo: 150
+// Plan: LIBRE 2, Calorías Objetivo: 1800, Proteínas Objetivo: 150, Carbohidratos Objetivo: 150
 // Plan: FIN DE SEMANA, Calorías Objetivo: 1800, Proteínas Objetivo: 150, Carbohidratos Objetivo: 150
