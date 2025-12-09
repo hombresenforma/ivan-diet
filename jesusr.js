@@ -293,20 +293,20 @@ const foodDatabase = {
     "p0_extra_Queso_Fresco_Batido_mainOnly_idx6": {
         "id": "p0_extra_Queso_Fresco_Batido_mainOnly_idx6",
         "name": "Queso Fresco Batido con Frutos Rojos y Miel",
-        "calories": 160,
-        "protein": 11,
-        "carbs": 24.4,
-        "fats": 2.5,
+        "calories": 208.4,
+        "protein": 17,
+        "carbs": 26.799999999999997,
+        "fats": 3.7,
         "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6879302d02da47667d446b43.png",
         "ingredients": [
             {
                 "name": "Queso Fresco Batido",
-                "quantity": "125",
+                "quantity": "200",
                 "unit": "g",
-                "calories": 80,
-                "protein": 10,
-                "carbs": 4,
-                "fats": 2
+                "calories": 128,
+                "protein": 16,
+                "carbs": 6.4,
+                "fats": 3.2
             },
             {
                 "name": "Frutos Rojos",
@@ -410,20 +410,20 @@ const foodDatabase = {
     "p1_comida_Ensalada_de_Pasta_mainOnly_idx2": {
         "id": "p1_comida_Ensalada_de_Pasta_mainOnly_idx2",
         "name": "Ensalada de Pasta con Pollo",
-        "calories": 734.5,
-        "protein": 66.6,
-        "carbs": 61.25,
-        "fats": 23.25,
+        "calories": 787.1,
+        "protein": 68.56,
+        "carbs": 71.75,
+        "fats": 23.55,
         "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afc47b91eb349463d47dd.png",
         "ingredients": [
             {
                 "name": "Pasta (cruda)",
-                "quantity": "75",
+                "quantity": "90",
                 "unit": "g",
-                "calories": 263,
-                "protein": 9.8,
-                "carbs": 52.5,
-                "fats": 1.5
+                "calories": 315.6,
+                "protein": 11.760000000000002,
+                "carbs": 62.99999999999999,
+                "fats": 1.8
             },
             {
                 "name": "Pechuga de Pollo (cruda)",
@@ -707,10 +707,10 @@ const foodDatabase = {
     "p2_comida_Fajitas_de_Pollo_mainOnly_idx1": {
         "id": "p2_comida_Fajitas_de_Pollo_mainOnly_idx1",
         "name": "Fajitas de Pollo y Verduras",
-        "calories": 652,
-        "protein": 69,
-        "carbs": 46,
-        "fats": 20,
+        "calories": 728,
+        "protein": 72,
+        "carbs": 61.00000000000001,
+        "fats": 21.5,
         "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afcef0ed50608b742ff33.png",
         "ingredients": [
             {
@@ -724,12 +724,12 @@ const foodDatabase = {
             },
             {
                 "name": "Pan de Fajita",
-                "quantity": "50",
+                "quantity": "75",
                 "unit": "g",
-                "calories": 150,
-                "protein": 4,
-                "carbs": 28,
-                "fats": 3
+                "calories": 225,
+                "protein": 6,
+                "carbs": 42.00000000000001,
+                "fats": 4.5
             },
             {
                 "name": "Tomate",
@@ -887,20 +887,20 @@ const foodDatabase = {
     "p2_extra_Yogurt_Protico_con_mainOnly_idx4": {
         "id": "p2_extra_Yogurt_Protico_con_mainOnly_idx4",
         "name": "Yogurt Protéico con Frutos Rojos y Secos",
-        "calories": 280,
-        "protein": 18,
-        "carbs": 16,
-        "fats": 17,
+        "calories": 475,
+        "protein": 33.666666666666664,
+        "carbs": 24.666666666666668,
+        "fats": 28.666666666666668,
         "image": "",
         "ingredients": [
             {
                 "name": "Yogur Protéico",
-                "quantity": "125",
+                "quantity": "250",
                 "unit": "g",
-                "calories": 75,
-                "protein": 13,
-                "carbs": 6,
-                "fats": 1
+                "calories": 150,
+                "protein": 26,
+                "carbs": 12,
+                "fats": 2
             },
             {
                 "name": "Frutos Rojos",
@@ -913,12 +913,12 @@ const foodDatabase = {
             },
             {
                 "name": "Frutos Secos",
-                "quantity": "30",
+                "quantity": "50",
                 "unit": "g",
-                "calories": 180,
-                "protein": 4,
-                "carbs": 4,
-                "fats": 16
+                "calories": 300,
+                "protein": 6.666666666666667,
+                "carbs": 6.666666666666667,
+                "fats": 26.666666666666668
             }
         ],
         "preparation": "1. Verter el yogur proteico en un bol. 2. Añadir los frutos rojos y los frutos secos por encima. 3. Mezclar si se desea antes de consumir.",
@@ -1013,20 +1013,20 @@ const foodDatabase = {
     "p3_comida_Ensala_de_Patata_mainOnly_idx1": {
         "id": "p3_comida_Ensala_de_Patata_mainOnly_idx1",
         "name": "Ensala de Patata, Atún y Huevo",
-        "calories": 734,
-        "protein": 55.9,
-        "carbs": 62.83,
-        "fats": 28.7,
+        "calories": 811,
+        "protein": 57.9,
+        "carbs": 79.83,
+        "fats": 28.8,
         "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afc08b91eb31afe3d4796.png",
         "ingredients": [
             {
                 "name": "Patata",
-                "quantity": "200",
+                "quantity": "300",
                 "unit": "g",
-                "calories": 154,
-                "protein": 4,
-                "carbs": 34,
-                "fats": 0.2
+                "calories": 231,
+                "protein": 6,
+                "carbs": 51.00000000000001,
+                "fats": 0.3
             },
             {
                 "name": "Pimiento Verde",
@@ -1193,20 +1193,20 @@ const foodDatabase = {
     "p3_extra_Frutos_Secos_Mezcla_mainOnly_idx4": {
         "id": "p3_extra_Frutos_Secos_Mezcla_mainOnly_idx4",
         "name": "Frutos Secos (Mezcla)",
-        "calories": 231,
-        "protein": 7.8,
-        "carbs": 9.7,
-        "fats": 19.7,
+        "calories": 291.4,
+        "protein": 9.45,
+        "carbs": 11.940000000000001,
+        "fats": 25.11,
         "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68525c0b1d27cfeb580a55f7.png",
         "ingredients": [
             {
                 "name": "Anacardos",
-                "quantity": "10",
+                "quantity": "15",
                 "unit": "g",
-                "calories": 55.3,
-                "protein": 1.82,
-                "carbs": 3.02,
-                "fats": 4.38
+                "calories": 82.94999999999999,
+                "protein": 2.73,
+                "carbs": 4.53,
+                "fats": 6.57
             },
             {
                 "name": "Almendras",
@@ -1219,12 +1219,12 @@ const foodDatabase = {
             },
             {
                 "name": "Nueces",
-                "quantity": "5",
+                "quantity": "10",
                 "unit": "g",
-                "calories": 32.7,
-                "protein": 0.76,
-                "carbs": 0.69,
-                "fats": 3.26
+                "calories": 65.4,
+                "protein": 1.52,
+                "carbs": 1.38,
+                "fats": 6.52
             },
             {
                 "name": "Pistachos",
@@ -1244,20 +1244,20 @@ const foodDatabase = {
     "p3_extra_Yogur_Protico_Sabores_mainOnly_idx5": {
         "id": "p3_extra_Yogur_Protico_Sabores_mainOnly_idx5",
         "name": "Yogur Protéico (Sabores, Natural...)",
-        "calories": 81,
-        "protein": 13.3,
-        "carbs": 5,
-        "fats": 0.3,
+        "calories": 162.5,
+        "protein": 26.5,
+        "carbs": 10,
+        "fats": 0.5,
         "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd789b8ed38b127cbc09.png",
         "ingredients": [
             {
                 "name": "Yogur Protéico",
-                "quantity": "125",
+                "quantity": "250",
                 "unit": "g",
-                "calories": 81.25,
-                "protein": 13.25,
-                "carbs": 5,
-                "fats": 0.25
+                "calories": 162.5,
+                "protein": 26.5,
+                "carbs": 10,
+                "fats": 0.5
             }
         ],
         "preparation": "Abrir el envase de yogur protéico y consumir directamente. Se puede acompañar con otros ingredientes si se desea.",
