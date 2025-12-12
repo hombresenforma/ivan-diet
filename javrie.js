@@ -575,62 +575,53 @@ const foodDatabase = {
         "isSideDish": false,
         "mealCategory": "extra"
     },
-    "p2_comida_Ensala_de_Patata_mainOnly_idx2": {
-        "id": "p2_comida_Ensala_de_Patata_mainOnly_idx2",
-        "name": "Ensala de Patata, Atún y Huevo",
-        "calories": 667.5,
-        "protein": 63.00000000000001,
-        "carbs": 65.55,
-        "fats": 14.5,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afc08b91eb31afe3d4796.png",
+    "p2_comida_Estofado_de_Ternera_mainOnly_idx2": {
+        "id": "p2_comida_Estofado_de_Ternera_mainOnly_idx2",
+        "name": "Estofado de Ternera con Alcachofas y Setas",
+        "calories": 404,
+        "protein": 34.9,
+        "carbs": 20,
+        "fats": 19.399999999999995,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6922cd70f96c9c3ef3256a9c.png",
         "ingredients": [
             {
-                "name": "Patata",
-                "quantity": "200",
+                "name": "Ternera para guisar",
+                "quantity": "120",
                 "unit": "g",
-                "calories": 180,
-                "protein": 4,
-                "carbs": 40,
-                "fats": 0.2
+                "calories": 264,
+                "protein": 26.4,
+                "carbs": 0,
+                "fats": 16.8
             },
             {
-                "name": "Pimiento Verde",
-                "quantity": "100",
+                "name": "Alcachofas",
+                "quantity": "75",
                 "unit": "g",
-                "calories": 30,
-                "protein": 2,
-                "carbs": 5,
-                "fats": 0.2
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
             },
             {
-                "name": "Pimiento Rojo",
-                "quantity": "100",
+                "name": "Setas",
+                "quantity": "75",
                 "unit": "g",
-                "calories": 30,
-                "protein": 2,
-                "carbs": 5,
-                "fats": 0.2
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
             },
             {
                 "name": "Cebolla",
-                "quantity": "100",
+                "quantity": "75",
                 "unit": "g",
-                "calories": 30,
-                "protein": 2,
-                "carbs": 5,
-                "fats": 0.2
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
             },
             {
-                "name": "Tomate",
-                "quantity": "100",
-                "unit": "g",
-                "calories": 30,
-                "protein": 2,
-                "carbs": 5,
-                "fats": 0.2
-            },
-            {
-                "name": "Maíz",
+                "name": "Ajo",
                 "quantity": "50",
                 "unit": "g",
                 "calories": 50,
@@ -639,26 +630,17 @@ const foodDatabase = {
                 "fats": 2
             },
             {
-                "name": "Atún en Conserva",
-                "quantity": "150",
+                "name": "Caldo de Carne",
+                "quantity": "75",
                 "unit": "g",
-                "calories": 240,
-                "protein": 42.00000000000001,
-                "carbs": 0,
-                "fats": 6
-            },
-            {
-                "name": "Huevo Cocido",
-                "quantity": "1",
-                "unit": "unidad(es)",
-                "calories": 77.5,
-                "protein": 6.5,
-                "carbs": 0.55,
-                "fats": 5.5
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
             }
         ],
-        "preparation": "1. Cocer las patatas con piel en agua con sal hasta que estén tiernas (unos 20-25 minutos). Dejar enfriar, pelar y cortar en dados. 2. Cocer los huevos en agua hirviendo durante 10 minutos. Dejar enfriar, pelar y cortar en rodajas o trozos. 3. Picar finamente el pimiento verde, pimiento rojo, cebolla y tomate. 4. En un bol grande, mezclar las patatas, los huevos, las verduras picadas, el maíz dulce (escurrido) y el atún (escurrido y desmenuzado). 5. Aliñar con aceite de oliva virgen extra, vinagre y sal al gusto. Mezclar con cuidado.",
-        "originalBaseRecipeId": "cc_ensala_de_patata_atn_y_huevo",
+        "preparation": "1. Salpimentar y sellar la ternera en una olla. Reservar. 2. En el mismo aceite, sofreír cebolla y ajo. 3. Añadir las setas y alcachofas (limpias). 4. Reincorporar la carne, cubrir con caldo y cocer a fuego lento hasta que la carne esté tierna (aprox 45-60 min).",
+        "originalBaseRecipeId": "cc_estofado_de_ternera_con_alcachofas_y_setas",
         "isSideDish": false,
         "mealCategory": "comida_cena_completa"
     },
@@ -740,8 +722,254 @@ const foodDatabase = {
         "isSideDish": false,
         "mealCategory": "comida_cena_completa"
     },
-    "p2_extra_Yogur_Protico_Sabores_mainOnly_idx4": {
-        "id": "p2_extra_Yogur_Protico_Sabores_mainOnly_idx4",
+    "p2_extra_Yogur_Protico_con_mainOnly_idx4": {
+        "id": "p2_extra_Yogur_Protico_con_mainOnly_idx4",
+        "name": "Yogur Protéico con Frutos Rojos y Secos",
+        "calories": 267.5,
+        "protein": 9,
+        "carbs": 23.75,
+        "fats": 15.1,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afea2b91eb35e413d4ab6.png",
+        "ingredients": [
+            {
+                "name": "Yogur Protéico",
+                "quantity": "1",
+                "unit": "unidad(es)",
+                "calories": 125,
+                "protein": 6.25,
+                "carbs": 12.5,
+                "fats": 5
+            },
+            {
+                "name": "Frutos Rojos",
+                "quantity": "50",
+                "unit": "g",
+                "calories": 30,
+                "protein": 0.25,
+                "carbs": 7.5,
+                "fats": 0.1
+            },
+            {
+                "name": "Frutos Secos",
+                "quantity": "25",
+                "unit": "g",
+                "calories": 112.5,
+                "protein": 2.5,
+                "carbs": 3.75,
+                "fats": 10
+            }
+        ],
+        "preparation": "1. En un bol, verter el yogur proteico. 2. Añadir los frutos rojos frescos o descongelados. 3. Espolvorear con los frutos secos troceados por encima. Servir inmediatamente.",
+        "originalBaseRecipeId": "ext_yogur_protico_con_frutos_rojos_y_secos",
+        "isSideDish": false,
+        "mealCategory": "extra"
+    },
+    "p3_desayuno_Revuelto_de_Huevos_mainOnly_idx0": {
+        "id": "p3_desayuno_Revuelto_de_Huevos_mainOnly_idx0",
+        "name": "Revuelto de Huevos y Claras con Jamón",
+        "calories": 415.4,
+        "protein": 29.200000000000003,
+        "carbs": 1.54,
+        "fats": 32.400000000000006,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682ad5e1e819fcb589a8a30e.png",
+        "ingredients": [
+            {
+                "name": "Huevos",
+                "quantity": "1",
+                "unit": "unidad(es)",
+                "calories": 77.5,
+                "protein": 6.5,
+                "carbs": 0.55,
+                "fats": 5.5
+            },
+            {
+                "name": "Claras de Huevo",
+                "quantity": "3",
+                "unit": "unidad(es)",
+                "calories": 139.5,
+                "protein": 11.700000000000001,
+                "carbs": 0.9900000000000001,
+                "fats": 9.9
+            },
+            {
+                "name": "Jamón Serrano",
+                "quantity": "50",
+                "unit": "g",
+                "calories": 110.00000000000001,
+                "protein": 11,
+                "carbs": 0,
+                "fats": 7.000000000000001
+            },
+            {
+                "name": "Aceite de Oliva Virgen Extra",
+                "quantity": "10",
+                "unit": "g",
+                "calories": 88.4,
+                "protein": 0,
+                "carbs": 0,
+                "fats": 10
+            }
+        ],
+        "preparation": "1. Batir los huevos y las claras. 2. Cortar el jamón en taquitos o tiras. 3. Saltear ligeramente el jamón en una sartén con una pizca de aceite (opcional). 4. Verter la mezcla de huevo y remover constantemente a fuego medio-bajo hasta que cuaje al gusto.",
+        "originalBaseRecipeId": "des_revuelto_de_huevos_y_claras_con_jamn",
+        "isSideDish": false,
+        "mealCategory": "desayuno"
+    },
+    "p3_comida_Potaje_de_Garbanzos_mainOnly_idx1": {
+        "id": "p3_comida_Potaje_de_Garbanzos_mainOnly_idx1",
+        "name": "Potaje de Garbanzos con Espinacas y Bacalao",
+        "calories": 685,
+        "protein": 72.5,
+        "carbs": 46.6,
+        "fats": 20.05,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6922cfb06984f10e4539887a.png",
+        "ingredients": [
+            {
+                "name": "Garbanzos Cocidos",
+                "quantity": "150",
+                "unit": "g",
+                "calories": 195,
+                "protein": 12,
+                "carbs": 33,
+                "fats": 0.75
+            },
+            {
+                "name": "Bacalao Desalado",
+                "quantity": "150",
+                "unit": "g",
+                "calories": 240,
+                "protein": 42.00000000000001,
+                "carbs": 0,
+                "fats": 6
+            },
+            {
+                "name": "Espinacas",
+                "quantity": "75",
+                "unit": "g",
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
+            },
+            {
+                "name": "Cebolla",
+                "quantity": "75",
+                "unit": "g",
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
+            },
+            {
+                "name": "Ajo",
+                "quantity": "50",
+                "unit": "g",
+                "calories": 50,
+                "protein": 2.5,
+                "carbs": 5,
+                "fats": 2
+            },
+            {
+                "name": "Huevo Cocido",
+                "quantity": "2",
+                "unit": "unidad(es)",
+                "calories": 155,
+                "protein": 13,
+                "carbs": 1.1,
+                "fats": 11
+            }
+        ],
+        "preparation": "1. Sofreír cebolla y ajo. 2. Añadir espinacas y rehogar. 3. Añadir garbanzos y caldo (o agua). Cocer 10 min. 4. Añadir el bacalao desmigado y cocer 5 min más. 5. Servir con huevo duro picado.",
+        "originalBaseRecipeId": "cc_potaje_de_garbanzos_con_espinacas_y_bacalao",
+        "isSideDish": false,
+        "mealCategory": "comida_cena_completa"
+    },
+    "p3_cena_Crema_de_Verduras_mainOnly_idx2": {
+        "id": "p3_cena_Crema_de_Verduras_mainOnly_idx2",
+        "name": "Crema de Verduras Variadas",
+        "calories": 117.5,
+        "protein": 7,
+        "carbs": 16.25,
+        "fats": 2.45,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cd68425d68cc771ebd10a.png",
+        "ingredients": [
+            {
+                "name": "Calabaza",
+                "quantity": "75",
+                "unit": "g",
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
+            },
+            {
+                "name": "Tomate",
+                "quantity": "75",
+                "unit": "g",
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
+            },
+            {
+                "name": "Cebolla",
+                "quantity": "75",
+                "unit": "g",
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
+            },
+            {
+                "name": "Agua",
+                "quantity": "50",
+                "unit": "g",
+                "calories": 50,
+                "protein": 2.5,
+                "carbs": 5,
+                "fats": 2
+            }
+        ],
+        "preparation": "1. Puedes comprar una crema preparada o bien cocinar unas cuantas verduras en una olla.",
+        "originalBaseRecipeId": "pp_crema_de_verduras_variadas",
+        "isSideDish": false,
+        "mealCategory": "plato_principal"
+    },
+    "p3_cena_Hamburguesa_de_PavoPollo_side_idx3": {
+        "id": "p3_cena_Hamburguesa_de_PavoPollo_side_idx3",
+        "name": "Hamburguesa de Pavo-Pollo",
+        "calories": 318.4,
+        "protein": 16,
+        "carbs": 2,
+        "fats": 28,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afcbc9b8ed3b6397cbb33.png",
+        "ingredients": [
+            {
+                "name": "Hamburguesa de Pavo-Pollo",
+                "quantity": "100",
+                "unit": "g",
+                "calories": 229.99999999999997,
+                "protein": 16,
+                "carbs": 2,
+                "fats": 18
+            },
+            {
+                "name": "Aceite de Oliva Virgen Extra",
+                "quantity": "10",
+                "unit": "g",
+                "calories": 88.4,
+                "protein": 0,
+                "carbs": 0,
+                "fats": 10
+            }
+        ],
+        "preparation": "1. Si la hamburguesa es casera a partir de carne picada, sazonar la carne con sal, pimienta, ajo en polvo y perejil picado (opcional) y formar la hamburguesa. Si es comprada, ya está lista. 2. Calentar una plancha o sartén antiadherente a fuego medio-alto con una gota de aceite de oliva (opcional, si la sartén no es muy antiadherente). 3. Cocinar la hamburguesa durante 4-6 minutos por cada lado, o hasta que esté bien cocida por dentro (temperatura interna de 74°C o 165°F) y dorada por fuera. Evitar aplastarla para que no pierda jugosidad.",
+        "originalBaseRecipeId": "ac_hamburguesa_de_pavopollo",
+        "isSideDish": true,
+        "mealCategory": "acompanamiento"
+    },
+    "p3_extra_Yogur_Protico_Sabores_mainOnly_idx4": {
+        "id": "p3_extra_Yogur_Protico_Sabores_mainOnly_idx4",
         "name": "Yogur Protéico (Sabores, Natural...)",
         "calories": 125,
         "protein": 6.25,
@@ -763,36 +991,12 @@ const foodDatabase = {
         "originalBaseRecipeId": "ext_yogur_protico_sabores_natural",
         "isSideDish": false,
         "mealCategory": "extra"
-    },
-    "p2_extra_Tortitas_de_Legumbres_mainOnly_idx5": {
-        "id": "p2_extra_Tortitas_de_Legumbres_mainOnly_idx5",
-        "name": "Tortitas de Legumbres (Mercadona)",
-        "calories": 32,
-        "protein": 1.6,
-        "carbs": 3.2,
-        "fats": 1.28,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682affdd9b8ed3082d7cbefc.png",
-        "ingredients": [
-            {
-                "name": "Tortitas de Legumbres",
-                "quantity": "4",
-                "unit": "unidad(es)",
-                "calories": 32,
-                "protein": 1.6,
-                "carbs": 3.2,
-                "fats": 1.28
-            }
-        ],
-        "preparation": "1. Abrir el paquete de tortitas de legumbres. 2. Consumir directamente como snack crujiente. Son ideales para picar entre horas o como una alternativa más saludable a otros snacks procesados. Se pueden acompañar de hummus, guacamole o queso fresco si se desea algo más completo.",
-        "originalBaseRecipeId": "ext_tortitas_de_legumbres_mercadona",
-        "isSideDish": false,
-        "mealCategory": "extra"
     }
 };
 
 const dailyMenus = [
   {
-    "name": "Opciones 1",
+    "name": "Entreno 1",
     "targetMacros": {
       "calories": 2000,
       "protein": 150,
@@ -816,7 +1020,7 @@ const dailyMenus = [
     ]
   },
   {
-    "name": "Opciones 2",
+    "name": "Entreno 2",
     "targetMacros": {
       "calories": 2000,
       "protein": 160,
@@ -837,7 +1041,7 @@ const dailyMenus = [
     ]
   },
   {
-    "name": "Opciones 3",
+    "name": "Libre 1",
     "targetMacros": {
       "calories": 2000,
       "protein": 160,
@@ -849,19 +1053,41 @@ const dailyMenus = [
       "p2_desayuno_Fruta_Ctrica_Mandarina_mainOnly_idx1"
     ],
     "comida": [
-      "p2_comida_Ensala_de_Patata_mainOnly_idx2"
+      "p2_comida_Estofado_de_Ternera_mainOnly_idx2"
     ],
     "cena": [
       "p2_cena_Fajitas_de_Pollo_mainOnly_idx3"
     ],
     "extra": [
-      "p2_extra_Yogur_Protico_Sabores_mainOnly_idx4",
-      "p2_extra_Tortitas_de_Legumbres_mainOnly_idx5"
+      "p2_extra_Yogur_Protico_con_mainOnly_idx4"
+    ]
+  },
+  {
+    "name": "Libre 2",
+    "targetMacros": {
+      "calories": 2000,
+      "protein": 150,
+      "carbs": 200
+    },
+    "useCustomMacros": true,
+    "desayuno": [
+      "p3_desayuno_Revuelto_de_Huevos_mainOnly_idx0"
+    ],
+    "comida": [
+      "p3_comida_Potaje_de_Garbanzos_mainOnly_idx1"
+    ],
+    "cena": [
+      "p3_cena_Crema_de_Verduras_mainOnly_idx2",
+      "p3_cena_Hamburguesa_de_PavoPollo_side_idx3"
+    ],
+    "extra": [
+      "p3_extra_Yogur_Protico_Sabores_mainOnly_idx4"
     ]
   }
 ];
 
 // Detalles de los planes exportados:
-// Plan: Opciones 1, Calorías Objetivo: 2000, Proteínas Objetivo: 150, Carbohidratos Objetivo: 200
-// Plan: Opciones 2, Calorías Objetivo: 2000, Proteínas Objetivo: 160, Carbohidratos Objetivo: 200
-// Plan: Opciones 3, Calorías Objetivo: 2000, Proteínas Objetivo: 160, Carbohidratos Objetivo: 200
+// Plan: Entreno 1, Calorías Objetivo: 2000, Proteínas Objetivo: 150, Carbohidratos Objetivo: 200
+// Plan: Entreno 2, Calorías Objetivo: 2000, Proteínas Objetivo: 160, Carbohidratos Objetivo: 200
+// Plan: Libre 1, Calorías Objetivo: 2000, Proteínas Objetivo: 160, Carbohidratos Objetivo: 200
+// Plan: Libre 2, Calorías Objetivo: 2000, Proteínas Objetivo: 150, Carbohidratos Objetivo: 200
