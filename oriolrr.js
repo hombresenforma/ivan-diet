@@ -1160,10 +1160,10 @@ const foodDatabase = {
     "p4_desayuno_Tortitas_de_Avena_mainOnly_idx0": {
         "id": "p4_desayuno_Tortitas_de_Avena_mainOnly_idx0",
         "name": "Tortitas de Avena con Frutos Rojos",
-        "calories": 522,
-        "protein": 31.075000000000003,
-        "carbs": 50.84,
-        "fats": 22.049999999999997,
+        "calories": 477,
+        "protein": 30.700000000000003,
+        "carbs": 39.59,
+        "fats": 21.9,
         "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682ad5d9e819fce58fa8a30c.png",
         "ingredients": [
             {
@@ -1192,15 +1192,6 @@ const foodDatabase = {
                 "protein": 13,
                 "carbs": 1.1,
                 "fats": 11
-            },
-            {
-                "name": "Frutos Rojos",
-                "quantity": "75",
-                "unit": "g",
-                "calories": 45,
-                "protein": 0.375,
-                "carbs": 11.25,
-                "fats": 0.15
             }
         ],
         "preparation": "1. Mezclar la harina de avena, claras de huevo, y huevo entero (si se usa) con un poco de leche o bebida vegetal hasta obtener una masa homogénea. 2. Cocinar las tortitas en una sartén antiadherente caliente por ambos lados hasta que estén doradas. 3. Servir con los frutos rojos por encima.",
@@ -1208,17 +1199,50 @@ const foodDatabase = {
         "isSideDish": false,
         "mealCategory": "desayuno"
     },
-    "p4_comida_Ensalada_de_garbanzos_mainOnly_idx1": {
-        "id": "p4_comida_Ensalada_de_garbanzos_mainOnly_idx1",
-        "name": "Ensalada de garbanzos con verduras y queso",
-        "calories": 497.5,
-        "protein": 31.5,
-        "carbs": 52.75,
-        "fats": 17.200000000000003,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68ff252d3f16b5241c27c1e4.png",
+    "p4_desayuno_Yogur_Proteico_con_mainOnly_idx1": {
+        "id": "p4_desayuno_Yogur_Proteico_con_mainOnly_idx1",
+        "name": "Yogur Proteico con Cereales de Avena",
+        "calories": 380.5,
+        "protein": 14.65,
+        "carbs": 65,
+        "fats": 6.4,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68e7ef66df76fef1b58db3f2.png",
         "ingredients": [
             {
-                "name": "Garbanzos en Conserva",
+                "name": "Yogur Protéico",
+                "quantity": "1",
+                "unit": "unidad(es)",
+                "calories": 125,
+                "protein": 6.25,
+                "carbs": 12.5,
+                "fats": 5
+            },
+            {
+                "name": "Cereales de Avena",
+                "quantity": "70",
+                "unit": "g",
+                "calories": 255.5,
+                "protein": 8.4,
+                "carbs": 52.5,
+                "fats": 1.4000000000000001
+            }
+        ],
+        "preparation": "1. Verter el yogur en un bol. 2. Añadir los cereales de avena y los frutos rojos por encima.",
+        "originalBaseRecipeId": "ext_yogur_proteico_con_cereales_de_avena",
+        "isSideDish": false,
+        "mealCategory": "extra"
+    },
+    "p4_comida_Estofado_de_Lentejas_mainOnly_idx2": {
+        "id": "p4_comida_Estofado_de_Lentejas_mainOnly_idx2",
+        "name": "Estofado de Lentejas con Verduras y Costilla",
+        "calories": 576.5,
+        "protein": 45.4,
+        "carbs": 49.25,
+        "fats": 19.999999999999996,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6922cf648c174dc51742182c.png",
+        "ingredients": [
+            {
+                "name": "Lentejas Cocidas",
                 "quantity": "150",
                 "unit": "g",
                 "calories": 195,
@@ -1227,16 +1251,16 @@ const foodDatabase = {
                 "fats": 0.75
             },
             {
-                "name": "Aguacate",
-                "quantity": "30",
+                "name": "Costilla de Cerdo",
+                "quantity": "120",
                 "unit": "g",
-                "calories": 135,
-                "protein": 3,
-                "carbs": 4.5,
-                "fats": 12
+                "calories": 264,
+                "protein": 26.4,
+                "carbs": 0,
+                "fats": 16.8
             },
             {
-                "name": "Pepino",
+                "name": "Zanahoria",
                 "quantity": "75",
                 "unit": "g",
                 "calories": 22.5,
@@ -1245,88 +1269,13 @@ const foodDatabase = {
                 "fats": 0.15
             },
             {
-                "name": "Tomates Cherry",
+                "name": "Pimiento Rojo",
                 "quantity": "75",
                 "unit": "g",
                 "calories": 22.5,
                 "protein": 1.5,
                 "carbs": 3.75,
                 "fats": 0.15
-            },
-            {
-                "name": "Espinacas",
-                "quantity": "75",
-                "unit": "g",
-                "calories": 22.5,
-                "protein": 1.5,
-                "carbs": 3.75,
-                "fats": 0.15
-            },
-            {
-                "name": "Queso de Burgos 0%",
-                "quantity": "100",
-                "unit": "g",
-                "calories": 100,
-                "protein": 12,
-                "carbs": 4,
-                "fats": 4
-            }
-        ],
-        "preparation": "1. Enjuagar los garbanzos y escurrirlos. 2. Picar el aguacate, pepino y tomates cherry. 3. Mezclar todos los ingredientes en un bol con las espinacas. 4. Cortar el queso de Burgos en dados y añadirlo a la ensalada. 5. Aliñar al gusto con aceite de oliva, vinagre y sal.",
-        "originalBaseRecipeId": "pp_ensalada_de_garbanzos_con_verduras_y_queso",
-        "isSideDish": false,
-        "mealCategory": "plato_principal"
-    },
-    "p4_comida_Fiambre_de_PavoPollo_side_idx2": {
-        "id": "p4_comida_Fiambre_de_PavoPollo_side_idx2",
-        "name": "Fiambre de Pavo/Pollo",
-        "calories": 229.99999999999997,
-        "protein": 16,
-        "carbs": 2,
-        "fats": 18,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68f27f364c291a8923682d43.png",
-        "ingredients": [
-            {
-                "name": "Fiambre de Pavo/Pollo",
-                "quantity": "100",
-                "unit": "g",
-                "calories": 229.99999999999997,
-                "protein": 16,
-                "carbs": 2,
-                "fats": 18
-            }
-        ],
-        "preparation": "Servir las lonchas directamente o añadir a ensaladas y bocadillos.",
-        "originalBaseRecipeId": "ac_fiambre_de_pavopollo",
-        "isSideDish": true,
-        "mealCategory": "acompanamiento"
-    },
-    "p4_cena_Ensalada_de_Tomate_mainOnly_idx3": {
-        "id": "p4_cena_Ensalada_de_Tomate_mainOnly_idx3",
-        "name": "Ensalada de Tomate, Aguacate, Cebolla y Lima",
-        "calories": 420,
-        "protein": 13,
-        "carbs": 25,
-        "fats": 30.549999999999997,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cf9a725d68c4bc3ec3502.png",
-        "ingredients": [
-            {
-                "name": "Tomate",
-                "quantity": "200",
-                "unit": "g",
-                "calories": 60,
-                "protein": 4,
-                "carbs": 10,
-                "fats": 0.4
-            },
-            {
-                "name": "Aguacate",
-                "quantity": "75",
-                "unit": "g",
-                "calories": 337.5,
-                "protein": 7.5,
-                "carbs": 11.25,
-                "fats": 30
             },
             {
                 "name": "Cebolla",
@@ -1336,30 +1285,66 @@ const foodDatabase = {
                 "protein": 1.5,
                 "carbs": 3.75,
                 "fats": 0.15
+            },
+            {
+                "name": "Ajo",
+                "quantity": "50",
+                "unit": "g",
+                "calories": 50,
+                "protein": 2.5,
+                "carbs": 5,
+                "fats": 2
             }
         ],
-        "preparation": "1. Cortar el tomate y el aguacate en dados. 2. Picar la cebolla en juliana fina. 3. Mezclar todos los ingredientes en un bol. 4. Exprimir el zumo de media lima por encima, añadir aceite de oliva y sal. Mezclar bien.",
-        "originalBaseRecipeId": "pp_ensalada_de_tomate_aguacate_cebolla_y_lima",
+        "preparation": "1. Sofreír la costilla troceada hasta dorar. 2. Añadir las verduras picadas y pochar. 3. Añadir las lentejas (si son de bote, lavadas; si son secas, remojadas) y cubrir con agua/caldo. 4. Cocer hasta que todo esté tierno. Sazonar con laurel y pimentón.",
+        "originalBaseRecipeId": "cc_estofado_de_lentejas_con_verduras_y_costilla",
         "isSideDish": false,
-        "mealCategory": "plato_principal"
+        "mealCategory": "comida_cena_completa"
     },
-    "p4_cena_Cinta_de_Cerdo_side_idx4": {
-        "id": "p4_cena_Cinta_de_Cerdo_side_idx4",
-        "name": "Cinta de Cerdo a la Plancha",
-        "calories": 352.4,
-        "protein": 26.4,
-        "carbs": 0,
-        "fats": 26.8,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684f007b4d606644a53332bf.png",
+    "p4_cena_Falso_Risotto_de_mainOnly_idx3": {
+        "id": "p4_cena_Falso_Risotto_de_mainOnly_idx3",
+        "name": "Falso Risotto de Coliflor con Pollo y Setas",
+        "calories": 433.4,
+        "protein": 49.00000000000001,
+        "carbs": 17.5,
+        "fats": 16.700000000000003,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6922cee78c174d4e6d420b9d.png",
         "ingredients": [
             {
-                "name": "Cinta de Lomo de Cerdo",
-                "quantity": "120",
+                "name": "Coliflor",
+                "quantity": "200",
                 "unit": "g",
-                "calories": 264,
-                "protein": 26.4,
+                "calories": 60,
+                "protein": 4,
+                "carbs": 10,
+                "fats": 0.4
+            },
+            {
+                "name": "Pechuga de Pollo",
+                "quantity": "150",
+                "unit": "g",
+                "calories": 240,
+                "protein": 42.00000000000001,
                 "carbs": 0,
-                "fats": 16.8
+                "fats": 6
+            },
+            {
+                "name": "Champiñones",
+                "quantity": "75",
+                "unit": "g",
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
+            },
+            {
+                "name": "Cebolla",
+                "quantity": "75",
+                "unit": "g",
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
             },
             {
                 "name": "Aceite de Oliva Virgen Extra",
@@ -1371,10 +1356,52 @@ const foodDatabase = {
                 "fats": 10
             }
         ],
-        "preparation": "1. Sazonar los filetes de cinta de lomo de cerdo por ambos lados con sal, pimienta y ajo en polvo (opcional). 2. Calentar una plancha o sartén antiadherente a fuego medio-alto con un poco de aceite de oliva. 3. Cocinar los filetes de lomo durante unos 2-4 minutos por cada lado, dependiendo del grosor y del punto de cocción deseado. Es importante no cocinarlos en exceso para evitar que queden secos. Deben estar dorados por fuera y bien hechos por dentro.",
-        "originalBaseRecipeId": "ac_cinta_de_cerdo_a_la_plancha",
-        "isSideDish": true,
-        "mealCategory": "acompanamiento"
+        "preparation": "1. Rallar la coliflor hasta que parezca arroz. 2. Saltear pollo y champiñones con cebolla. 3. Añadir la coliflor y saltear 5 min (no debe ablandarse demasiado). 4. Sazonar al gusto.",
+        "originalBaseRecipeId": "cc_falso_risotto_de_coliflor_con_pollo_y_setas",
+        "isSideDish": false,
+        "mealCategory": "comida_cena_completa"
+    },
+    "p4_extra_Queso_Fresco_Batido_mainOnly_idx4": {
+        "id": "p4_extra_Queso_Fresco_Batido_mainOnly_idx4",
+        "name": "Queso Fresco Batido con Frutos Rojos y Miel",
+        "calories": 160,
+        "protein": 15.5,
+        "carbs": 13,
+        "fats": 5.3,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6879302d02da47667d446b43.png",
+        "ingredients": [
+            {
+                "name": "Queso Fresco Batido",
+                "quantity": "1",
+                "unit": "unidad(es)",
+                "calories": 125,
+                "protein": 15,
+                "carbs": 5,
+                "fats": 5
+            },
+            {
+                "name": "Frutos Rojos",
+                "quantity": "50",
+                "unit": "g",
+                "calories": 30,
+                "protein": 0.25,
+                "carbs": 7.5,
+                "fats": 0.1
+            },
+            {
+                "name": "Miel Cruda",
+                "quantity": "5",
+                "unit": "g",
+                "calories": 5,
+                "protein": 0.25,
+                "carbs": 0.5,
+                "fats": 0.2
+            }
+        ],
+        "preparation": "1. En un bol, verter el queso fresco. 2. Añadir los frutos rojos frescos o descongelados. 3. Echar la cantidad de miel acordada por encima.",
+        "originalBaseRecipeId": "ext_queso_fresco_batido_con_frutos_rojos_y_miel",
+        "isSideDish": false,
+        "mealCategory": "extra"
     }
 };
 
@@ -1474,7 +1501,7 @@ const dailyMenus = [
     ]
   },
   {
-    "name": "Libre 2",
+    "name": "Libre 2 INVIERNO",
     "targetMacros": {
       "calories": 2000,
       "protein": 160,
@@ -1482,17 +1509,18 @@ const dailyMenus = [
     },
     "useCustomMacros": true,
     "desayuno": [
-      "p4_desayuno_Tortitas_de_Avena_mainOnly_idx0"
+      "p4_desayuno_Tortitas_de_Avena_mainOnly_idx0",
+      "p4_desayuno_Yogur_Proteico_con_mainOnly_idx1"
     ],
     "comida": [
-      "p4_comida_Ensalada_de_garbanzos_mainOnly_idx1",
-      "p4_comida_Fiambre_de_PavoPollo_side_idx2"
+      "p4_comida_Estofado_de_Lentejas_mainOnly_idx2"
     ],
     "cena": [
-      "p4_cena_Ensalada_de_Tomate_mainOnly_idx3",
-      "p4_cena_Cinta_de_Cerdo_side_idx4"
+      "p4_cena_Falso_Risotto_de_mainOnly_idx3"
     ],
-    "extra": []
+    "extra": [
+      "p4_extra_Queso_Fresco_Batido_mainOnly_idx4"
+    ]
   }
 ];
 
@@ -1501,4 +1529,4 @@ const dailyMenus = [
 // Plan: Medio, Calorías Objetivo: 2000, Proteínas Objetivo: 160, Carbohidratos Objetivo: 180
 // Plan: Medio, Calorías Objetivo: 2000, Proteínas Objetivo: 160, Carbohidratos Objetivo: 220
 // Plan: Libre 1, Calorías Objetivo: 2000, Proteínas Objetivo: 160, Carbohidratos Objetivo: 180
-// Plan: Libre 2, Calorías Objetivo: 2000, Proteínas Objetivo: 160, Carbohidratos Objetivo: 220
+// Plan: Libre 2 INVIERNO, Calorías Objetivo: 2000, Proteínas Objetivo: 160, Carbohidratos Objetivo: 220
