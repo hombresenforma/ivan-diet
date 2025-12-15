@@ -922,6 +922,228 @@ const foodDatabase = {
         "originalBaseRecipeId": "ext_frutos_secos_mezcla",
         "isSideDish": false,
         "mealCategory": "extra"
+    },
+    "p4_desayuno_Porridge_de_Avena_mainOnly_idx0": {
+        "id": "p4_desayuno_Porridge_de_Avena_mainOnly_idx0",
+        "name": "Porridge de Avena y Frutos Rojos",
+        "calories": 312.5,
+        "protein": 11.25,
+        "carbs": 55,
+        "fats": 5.1,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afdf19b8ed348797cbcd8.png",
+        "ingredients": [
+            {
+                "name": "Copos de Avena",
+                "quantity": "50",
+                "unit": "g",
+                "calories": 182.5,
+                "protein": 6,
+                "carbs": 37.5,
+                "fats": 1
+            },
+            {
+                "name": "Leche",
+                "quantity": "100",
+                "unit": "g",
+                "calories": 100,
+                "protein": 5,
+                "carbs": 10,
+                "fats": 4
+            },
+            {
+                "name": "Frutos Rojos",
+                "quantity": "50",
+                "unit": "g",
+                "calories": 30,
+                "protein": 0.25,
+                "carbs": 7.5,
+                "fats": 0.1
+            }
+        ],
+        "preparation": "1. En un cazo, cocinar los copos de avena con la leche o bebida vegetal a fuego medio, removiendo constantemente hasta que espese y la avena esté cocida (unos 5-7 minutos). 2. Servir caliente en un bol con los frutos rojos por encima. Opcional: añadir canela o edulcorante al gusto.",
+        "originalBaseRecipeId": "des_porridge_de_avena_y_frutos_rojos",
+        "isSideDish": false,
+        "mealCategory": "desayuno"
+    },
+    "p4_comida_Estofado_de_Lentejas_mainOnly_idx1": {
+        "id": "p4_comida_Estofado_de_Lentejas_mainOnly_idx1",
+        "name": "Estofado de Lentejas con Verduras y Costilla",
+        "calories": 576.5,
+        "protein": 45.4,
+        "carbs": 49.25,
+        "fats": 19.999999999999996,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6922cf648c174dc51742182c.png",
+        "ingredients": [
+            {
+                "name": "Lentejas Cocidas",
+                "quantity": "150",
+                "unit": "g",
+                "calories": 195,
+                "protein": 12,
+                "carbs": 33,
+                "fats": 0.75
+            },
+            {
+                "name": "Costilla de Cerdo",
+                "quantity": "120",
+                "unit": "g",
+                "calories": 264,
+                "protein": 26.4,
+                "carbs": 0,
+                "fats": 16.8
+            },
+            {
+                "name": "Zanahoria",
+                "quantity": "75",
+                "unit": "g",
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
+            },
+            {
+                "name": "Pimiento Rojo",
+                "quantity": "75",
+                "unit": "g",
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
+            },
+            {
+                "name": "Cebolla",
+                "quantity": "75",
+                "unit": "g",
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
+            },
+            {
+                "name": "Ajo",
+                "quantity": "50",
+                "unit": "g",
+                "calories": 50,
+                "protein": 2.5,
+                "carbs": 5,
+                "fats": 2
+            }
+        ],
+        "preparation": "1. Sofreír la costilla troceada hasta dorar. 2. Añadir las verduras picadas y pochar. 3. Añadir las lentejas (si son de bote, lavadas; si son secas, remojadas) y cubrir con agua/caldo. 4. Cocer hasta que todo esté tierno. Sazonar con laurel y pimentón.",
+        "originalBaseRecipeId": "cc_estofado_de_lentejas_con_verduras_y_costilla",
+        "isSideDish": false,
+        "mealCategory": "comida_cena_completa"
+    },
+    "p4_cena_Falso_Risotto_de_mainOnly_idx2": {
+        "id": "p4_cena_Falso_Risotto_de_mainOnly_idx2",
+        "name": "Falso Risotto de Coliflor con Pollo y Setas",
+        "calories": 433.4,
+        "protein": 49.00000000000001,
+        "carbs": 17.5,
+        "fats": 16.700000000000003,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6922cee78c174d4e6d420b9d.png",
+        "ingredients": [
+            {
+                "name": "Coliflor",
+                "quantity": "200",
+                "unit": "g",
+                "calories": 60,
+                "protein": 4,
+                "carbs": 10,
+                "fats": 0.4
+            },
+            {
+                "name": "Pechuga de Pollo",
+                "quantity": "150",
+                "unit": "g",
+                "calories": 240,
+                "protein": 42.00000000000001,
+                "carbs": 0,
+                "fats": 6
+            },
+            {
+                "name": "Champiñones",
+                "quantity": "75",
+                "unit": "g",
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
+            },
+            {
+                "name": "Cebolla",
+                "quantity": "75",
+                "unit": "g",
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
+            },
+            {
+                "name": "Aceite de Oliva Virgen Extra",
+                "quantity": "10",
+                "unit": "g",
+                "calories": 88.4,
+                "protein": 0,
+                "carbs": 0,
+                "fats": 10
+            }
+        ],
+        "preparation": "1. Rallar la coliflor hasta que parezca arroz. 2. Saltear pollo y champiñones con cebolla. 3. Añadir la coliflor y saltear 5 min (no debe ablandarse demasiado). 4. Sazonar al gusto.",
+        "originalBaseRecipeId": "cc_falso_risotto_de_coliflor_con_pollo_y_setas",
+        "isSideDish": false,
+        "mealCategory": "comida_cena_completa"
+    },
+    "p4_extra_FajitaWrap_de_Jamn_mainOnly_idx3": {
+        "id": "p4_extra_FajitaWrap_de_Jamn_mainOnly_idx3",
+        "name": "Fajita/Wrap de Jamón y Queso",
+        "calories": 418.2,
+        "protein": 22.3,
+        "carbs": 22,
+        "fats": 26.299999999999997,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68a36fb52e34b733ba5c5630.png",
+        "ingredients": [
+            {
+                "name": "Pan de Fajita",
+                "quantity": "1",
+                "unit": "unidad(es)",
+                "calories": 108,
+                "protein": 3.5999999999999996,
+                "carbs": 20,
+                "fats": 1.2
+            },
+            {
+                "name": "Jamón Cocido",
+                "quantity": "70",
+                "unit": "g",
+                "calories": 161,
+                "protein": 11.200000000000001,
+                "carbs": 1.4000000000000001,
+                "fats": 12.6
+            },
+            {
+                "name": "Queso Havarti Light",
+                "quantity": "30",
+                "unit": "g",
+                "calories": 105,
+                "protein": 7.5,
+                "carbs": 0.6,
+                "fats": 7.5
+            },
+            {
+                "name": "Aceite de Oliva Virgen Extra",
+                "quantity": "5",
+                "unit": "g",
+                "calories": 44.2,
+                "protein": 0,
+                "carbs": 0,
+                "fats": 5
+            }
+        ],
+        "preparation": "1. Calentar la tortilla de fajita. 2. Añadir el jamón cocido y el queso. 3. Doblar y servir. 4. Opcional: añadir un chorrito de aceite de oliva.",
+        "originalBaseRecipeId": "ext_fajitawrap_de_jamn_y_queso",
+        "isSideDish": false,
+        "mealCategory": "extra"
     }
 };
 
@@ -1012,6 +1234,27 @@ const dailyMenus = [
       "p3_extra_Yogur_Protico_Sabores_mainOnly_idx2",
       "p3_extra_Frutos_Secos_Mezcla_mainOnly_idx3"
     ]
+  },
+  {
+    "name": "INVIERNO",
+    "targetMacros": {
+      "calories": 2000,
+      "protein": 150,
+      "carbs": 200
+    },
+    "useCustomMacros": true,
+    "desayuno": [
+      "p4_desayuno_Porridge_de_Avena_mainOnly_idx0"
+    ],
+    "comida": [
+      "p4_comida_Estofado_de_Lentejas_mainOnly_idx1"
+    ],
+    "cena": [
+      "p4_cena_Falso_Risotto_de_mainOnly_idx2"
+    ],
+    "extra": [
+      "p4_extra_FajitaWrap_de_Jamn_mainOnly_idx3"
+    ]
   }
 ];
 
@@ -1020,3 +1263,4 @@ const dailyMenus = [
 // Plan: ENTRENO 1, Calorías Objetivo: 2000, Proteínas Objetivo: 160, Carbohidratos Objetivo: 200
 // Plan: ENTRENO 2, Calorías Objetivo: 2000, Proteínas Objetivo: 160, Carbohidratos Objetivo: 200
 // Plan: Ayuno, Calorías Objetivo: 2000, Proteínas Objetivo: 150, Carbohidratos Objetivo: 200
+// Plan: INVIERNO, Calorías Objetivo: 2000, Proteínas Objetivo: 150, Carbohidratos Objetivo: 200
