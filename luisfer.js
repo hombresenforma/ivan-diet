@@ -53,50 +53,23 @@ const foodDatabase = {
         "isSideDish": false,
         "mealCategory": "desayuno"
     },
-    "p0_comida_Ensalada_de_Lentejas_mainOnly_idx1": {
-        "id": "p0_comida_Ensalada_de_Lentejas_mainOnly_idx1",
-        "name": "Ensalada de Lentejas",
-        "calories": 575,
-        "protein": 37.4,
-        "carbs": 63.3,
-        "fats": 18.2,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682aff5a365e949c0a73d706.png",
+    "p0_comida_Ensalada_de_garbanzos_mainOnly_idx1": {
+        "id": "p0_comida_Ensalada_de_garbanzos_mainOnly_idx1",
+        "name": "Ensalada de garbanzos con verduras y queso",
+        "calories": 497.5,
+        "protein": 31.5,
+        "carbs": 52.75,
+        "fats": 17.200000000000003,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68ff252d3f16b5241c27c1e4.png",
         "ingredients": [
             {
-                "name": "Lentejas Cocidas",
-                "quantity": "200",
+                "name": "Garbanzos en Conserva",
+                "quantity": "150",
                 "unit": "g",
-                "calories": 260,
-                "protein": 16,
-                "carbs": 44,
-                "fats": 1
-            },
-            {
-                "name": "Tomate",
-                "quantity": "100",
-                "unit": "g",
-                "calories": 30,
-                "protein": 2,
-                "carbs": 5,
-                "fats": 0.2
-            },
-            {
-                "name": "Cebolla",
-                "quantity": "100",
-                "unit": "g",
-                "calories": 30,
-                "protein": 2,
-                "carbs": 5,
-                "fats": 0.2
-            },
-            {
-                "name": "Queso de Burgos 0%",
-                "quantity": "120",
-                "unit": "g",
-                "calories": 120,
-                "protein": 14.399999999999999,
-                "carbs": 4.8,
-                "fats": 4.8
+                "calories": 195,
+                "protein": 12,
+                "carbs": 33,
+                "fats": 0.75
             },
             {
                 "name": "Aguacate",
@@ -106,20 +79,56 @@ const foodDatabase = {
                 "protein": 3,
                 "carbs": 4.5,
                 "fats": 12
+            },
+            {
+                "name": "Pepino",
+                "quantity": "75",
+                "unit": "g",
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
+            },
+            {
+                "name": "Tomates Cherry",
+                "quantity": "75",
+                "unit": "g",
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
+            },
+            {
+                "name": "Espinacas",
+                "quantity": "75",
+                "unit": "g",
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
+            },
+            {
+                "name": "Queso de Burgos 0%",
+                "quantity": "100",
+                "unit": "g",
+                "calories": 100,
+                "protein": 12,
+                "carbs": 4,
+                "fats": 4
             }
         ],
-        "preparation": "1. Si usas lentejas de bote, enjuagarlas bien bajo el grifo y escurrirlas. Si las cocinas, déjalas enfriar. 2. Picar el tomate y la cebolla (preferiblemente morada) en dados pequeños. Cortar el queso de Burgos 0% y el aguacate en dados. 3. En un bol grande, mezclar con cuidado las lentejas, el tomate, la cebolla, el queso de Burgos y el aguacate. 4. Aliñar con aceite de oliva virgen extra, vinagre (de manzana o Jerez) y sal al gusto. Opcional: añadir cilantro fresco picado o comino molido para un toque diferente.",
-        "originalBaseRecipeId": "pp_ensalada_de_lentejas",
+        "preparation": "1. Enjuagar los garbanzos y escurrirlos. 2. Picar el aguacate, pepino y tomates cherry. 3. Mezclar todos los ingredientes en un bol con las espinacas. 4. Cortar el queso de Burgos en dados y añadirlo a la ensalada. 5. Aliñar al gusto con aceite de oliva, vinagre y sal.",
+        "originalBaseRecipeId": "pp_ensalada_de_garbanzos_con_verduras_y_queso",
         "isSideDish": false,
         "mealCategory": "plato_principal"
     },
     "p0_comida_Pechuga_de_Pavo_side_idx2": {
         "id": "p0_comida_Pechuga_de_Pavo_side_idx2",
         "name": "Pechuga de Pavo a la Plancha",
-        "calories": 248.4,
+        "calories": 204.2,
         "protein": 28.000000000000004,
         "carbs": 0,
-        "fats": 14,
+        "fats": 9,
         "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684f003ef6c48dfc43a5bdb3.png",
         "ingredients": [
             {
@@ -133,12 +142,12 @@ const foodDatabase = {
             },
             {
                 "name": "Aceite de Oliva Virgen Extra",
-                "quantity": "10",
+                "quantity": "5",
                 "unit": "g",
-                "calories": 88.4,
+                "calories": 44.2,
                 "protein": 0,
                 "carbs": 0,
-                "fats": 10
+                "fats": 5
             }
         ],
         "preparation": "1. Si los filetes de pechuga de pavo son muy gruesos, se pueden abrir tipo libro o golpear ligeramente para que tengan un grosor más uniforme y se cocinen mejor. 2. Sazonar los filetes de pavo con sal, pimienta y tus especias favoritas (ej. orégano, pimentón dulce, curry en polvo, hierbas provenzales). 3. Calentar una plancha o sartén antiadherente a fuego medio-alto con una gota de aceite de oliva. 4. Cocinar la pechuga de pavo durante unos 3-4 minutos por cada lado, o hasta que esté dorada por fuera y completamente cocida por dentro (sin partes rosadas). El tiempo exacto dependerá del grosor.",
@@ -320,26 +329,17 @@ const foodDatabase = {
         "isSideDish": false,
         "mealCategory": "desayuno"
     },
-    "p1_comida_Patatas_Cocidas_con_mainOnly_idx1": {
-        "id": "p1_comida_Patatas_Cocidas_con_mainOnly_idx1",
-        "name": "Patatas Cocidas con Salteado de Verduras y Hamburguesa a la plancha",
-        "calories": 566.9,
-        "protein": 26.7,
-        "carbs": 43.65,
-        "fats": 32.2,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cf8559b0c6709fc9afa98.png",
+    "p1_comida_Ensalada_con_Pollo_mainOnly_idx1": {
+        "id": "p1_comida_Ensalada_con_Pollo_mainOnly_idx1",
+        "name": "Ensalada con Pollo y Queso de Burgos",
+        "calories": 515.9,
+        "protein": 60.900000000000006,
+        "carbs": 16.05,
+        "fats": 21.25,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afdceb91eb360843d4a0b.png",
         "ingredients": [
             {
-                "name": "Patata",
-                "quantity": "150",
-                "unit": "g",
-                "calories": 135,
-                "protein": 3,
-                "carbs": 30,
-                "fats": 0.15
-            },
-            {
-                "name": "Pimiento Verde",
+                "name": "Canónigos",
                 "quantity": "75",
                 "unit": "g",
                 "calories": 22.5,
@@ -348,7 +348,7 @@ const foodDatabase = {
                 "fats": 0.15
             },
             {
-                "name": "Pimiento Rojo",
+                "name": "Tomate",
                 "quantity": "75",
                 "unit": "g",
                 "calories": 22.5,
@@ -366,13 +366,22 @@ const foodDatabase = {
                 "fats": 0.15
             },
             {
-                "name": "Hamburguesa de Pavo-Pollo",
+                "name": "Queso de Burgos 0%",
                 "quantity": "120",
                 "unit": "g",
-                "calories": 276,
-                "protein": 19.2,
-                "carbs": 2.4,
-                "fats": 21.599999999999998
+                "calories": 120,
+                "protein": 14.399999999999999,
+                "carbs": 4.8,
+                "fats": 4.8
+            },
+            {
+                "name": "Pechuga de Pollo",
+                "quantity": "150",
+                "unit": "g",
+                "calories": 240,
+                "protein": 42.00000000000001,
+                "carbs": 0,
+                "fats": 6
             },
             {
                 "name": "Aceite de Oliva Virgen Extra",
@@ -384,8 +393,8 @@ const foodDatabase = {
                 "fats": 10
             }
         ],
-        "preparation": "1. Cocer las patatas en agua con sal. 2. Mientras, saltear las verduras (pimiento, cebolla) en una sartén. 3. Cocinar la hamburguesa a la plancha. 4. Servir las patatas cocidas con el salteado de verduras y la hamburguesa.",
-        "originalBaseRecipeId": "cc_patatas_cocidas_con_salteado_de_verduras_y_hamburguesa_a_la_plancha",
+        "preparation": "1. Cocinar la pechuga de pollo (a la plancha, hervida o asada) y cortarla en tiras o dados. 2. Lavar los canónigos y escurrirlos bien. Cortar los tomates (cherry por la mitad, o normales en gajos) y la cebolla en rodajas finas o juliana. Cortar el queso de Burgos 0% en dados o láminas. 3. En un bol o plato grande, disponer una base de canónigos. Añadir encima el tomate, la cebolla, el pollo y el queso de Burgos. 4. Aliñar con aceite de oliva virgen extra, vinagre (de manzana o Módena) y sal al gusto.",
+        "originalBaseRecipeId": "cc_ensalada_con_pollo_y_queso_de_burgos",
         "isSideDish": false,
         "mealCategory": "comida_cena_completa"
     },
@@ -491,14 +500,14 @@ const foodDatabase = {
         "isSideDish": false,
         "mealCategory": "extra"
     },
-    "p2_desayuno_Tostada_de_centeno_mainOnly_idx0": {
-        "id": "p2_desayuno_Tostada_de_centeno_mainOnly_idx0",
-        "name": "Tostada de centeno con jamón ibérico",
-        "calories": 191,
-        "protein": 13.7,
-        "carbs": 15,
-        "fats": 7.9,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6887226c7537da60484d071f.png",
+    "p2_desayuno_Tostada_de_Centeno_mainOnly_idx0": {
+        "id": "p2_desayuno_Tostada_de_Centeno_mainOnly_idx0",
+        "name": "Tostada de Centeno con Queso Cottage y Cherries",
+        "calories": 171,
+        "protein": 12.7,
+        "carbs": 20.5,
+        "fats": 4,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68792fea2035ba213493e87e.png",
         "ingredients": [
             {
                 "name": "Tostada de Pan de Centeno",
@@ -510,95 +519,86 @@ const foodDatabase = {
                 "fats": 0.8999999999999999
             },
             {
-                "name": "Jamón Ibérico",
+                "name": "Tomates Cherry",
                 "quantity": "50",
                 "unit": "g",
-                "calories": 110.00000000000001,
-                "protein": 11,
-                "carbs": 0,
-                "fats": 7.000000000000001
+                "calories": 15,
+                "protein": 1,
+                "carbs": 2.5,
+                "fats": 0.1
+            },
+            {
+                "name": "Queso Cottage",
+                "quantity": "75",
+                "unit": "g",
+                "calories": 75,
+                "protein": 9,
+                "carbs": 3,
+                "fats": 3
             }
         ],
-        "preparation": "1. Tostar el pan de centeno. 2. Colocar las lonchas de jamón ibérico por encima. Opcional: añadir un chorrito de aceite de oliva.",
-        "originalBaseRecipeId": "des_tostada_de_centeno_con_jamn_ibrico",
+        "preparation": "1. Tostar el pan de centeno. 2. Untar el queso cottage sobre las tostadas y añadir los cherries por encima con especias.",
+        "originalBaseRecipeId": "des_tostada_de_centeno_con_queso_cottage_y_cherries",
         "isSideDish": false,
         "mealCategory": "desayuno"
     },
-    "p2_comida_Ensala_de_Patata_mainOnly_idx1": {
-        "id": "p2_comida_Ensala_de_Patata_mainOnly_idx1",
-        "name": "Ensala de Patata, Atún y Huevo",
-        "calories": 545,
-        "protein": 55.50000000000001,
-        "carbs": 55,
-        "fats": 8.95,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afc08b91eb31afe3d4796.png",
+    "p2_comida_Estofado_de_Lentejas_mainOnly_idx1": {
+        "id": "p2_comida_Estofado_de_Lentejas_mainOnly_idx1",
+        "name": "Estofado de Lentejas con Verduras y Costilla",
+        "calories": 482.5,
+        "protein": 38.5,
+        "carbs": 44.25,
+        "fats": 15.200000000000003,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6922cf648c174dc51742182c.png",
         "ingredients": [
             {
-                "name": "Patata",
+                "name": "Lentejas Cocidas",
                 "quantity": "150",
                 "unit": "g",
-                "calories": 135,
-                "protein": 3,
-                "carbs": 30,
+                "calories": 195,
+                "protein": 12,
+                "carbs": 33,
+                "fats": 0.75
+            },
+            {
+                "name": "Costilla de Cerdo",
+                "quantity": "100",
+                "unit": "g",
+                "calories": 220.00000000000003,
+                "protein": 22,
+                "carbs": 0,
+                "fats": 14.000000000000002
+            },
+            {
+                "name": "Zanahoria",
+                "quantity": "75",
+                "unit": "g",
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
                 "fats": 0.15
             },
             {
-                "name": "Pimiento Verde",
-                "quantity": "100",
-                "unit": "g",
-                "calories": 30,
-                "protein": 2,
-                "carbs": 5,
-                "fats": 0.2
-            },
-            {
                 "name": "Pimiento Rojo",
-                "quantity": "100",
+                "quantity": "75",
                 "unit": "g",
-                "calories": 30,
-                "protein": 2,
-                "carbs": 5,
-                "fats": 0.2
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
             },
             {
                 "name": "Cebolla",
-                "quantity": "100",
+                "quantity": "75",
                 "unit": "g",
-                "calories": 30,
-                "protein": 2,
-                "carbs": 5,
-                "fats": 0.2
-            },
-            {
-                "name": "Tomate",
-                "quantity": "100",
-                "unit": "g",
-                "calories": 30,
-                "protein": 2,
-                "carbs": 5,
-                "fats": 0.2
-            },
-            {
-                "name": "Maíz",
-                "quantity": "50",
-                "unit": "g",
-                "calories": 50,
-                "protein": 2.5,
-                "carbs": 5,
-                "fats": 2
-            },
-            {
-                "name": "Atún en Conserva",
-                "quantity": "150",
-                "unit": "g",
-                "calories": 240,
-                "protein": 42.00000000000001,
-                "carbs": 0,
-                "fats": 6
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
             }
         ],
-        "preparation": "1. Cocer las patatas con piel en agua con sal hasta que estén tiernas (unos 20-25 minutos). Dejar enfriar, pelar y cortar en dados. 2. Cocer los huevos en agua hirviendo durante 10 minutos. Dejar enfriar, pelar y cortar en rodajas o trozos. 3. Picar finamente el pimiento verde, pimiento rojo, cebolla y tomate. 4. En un bol grande, mezclar las patatas, los huevos, las verduras picadas, el maíz dulce (escurrido) y el atún (escurrido y desmenuzado). 5. Aliñar con aceite de oliva virgen extra, vinagre y sal al gusto. Mezclar con cuidado.",
-        "originalBaseRecipeId": "cc_ensala_de_patata_atn_y_huevo",
+        "preparation": "1. Sofreír la costilla troceada hasta dorar. 2. Añadir las verduras picadas y pochar. 3. Añadir las lentejas (si son de bote, lavadas; si son secas, remojadas) y cubrir con agua/caldo. 4. Cocer hasta que todo esté tierno. Sazonar con laurel y pimentón.",
+        "originalBaseRecipeId": "cc_estofado_de_lentejas_con_verduras_y_costilla",
         "isSideDish": false,
         "mealCategory": "comida_cena_completa"
     },
@@ -719,7 +719,7 @@ const dailyMenus = [
       "p0_desayuno_Sandwich_Vegetal_de_mainOnly_idx0"
     ],
     "comida": [
-      "p0_comida_Ensalada_de_Lentejas_mainOnly_idx1",
+      "p0_comida_Ensalada_de_garbanzos_mainOnly_idx1",
       "p0_comida_Pechuga_de_Pavo_side_idx2"
     ],
     "cena": [
@@ -743,7 +743,7 @@ const dailyMenus = [
       "p1_desayuno_Tostada_de_Pan_mainOnly_idx0"
     ],
     "comida": [
-      "p1_comida_Patatas_Cocidas_con_mainOnly_idx1"
+      "p1_comida_Ensalada_con_Pollo_mainOnly_idx1"
     ],
     "cena": [
       "p1_cena_Wok_de_Verduras_mainOnly_idx2"
@@ -761,10 +761,10 @@ const dailyMenus = [
     },
     "useCustomMacros": true,
     "desayuno": [
-      "p2_desayuno_Tostada_de_centeno_mainOnly_idx0"
+      "p2_desayuno_Tostada_de_Centeno_mainOnly_idx0"
     ],
     "comida": [
-      "p2_comida_Ensala_de_Patata_mainOnly_idx1"
+      "p2_comida_Estofado_de_Lentejas_mainOnly_idx1"
     ],
     "cena": [
       "p2_cena_Fajitas_de_Pollo_mainOnly_idx2"
