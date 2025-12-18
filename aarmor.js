@@ -323,20 +323,20 @@ const foodDatabase = {
     "p1_comida_Ensala_de_Patata_mainOnly_idx2": {
         "id": "p1_comida_Ensala_de_Patata_mainOnly_idx2",
         "name": "Ensala de Patata, Atún y Huevo",
-        "calories": 605,
-        "protein": 55.50000000000001,
-        "carbs": 70,
-        "fats": 8.85,
+        "calories": 560,
+        "protein": 54.50000000000001,
+        "carbs": 60,
+        "fats": 8.8,
         "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afc08b91eb31afe3d4796.png",
         "ingredients": [
             {
                 "name": "Patata",
-                "quantity": "250",
+                "quantity": "200",
                 "unit": "g",
-                "calories": 225,
-                "protein": 5,
-                "carbs": 50,
-                "fats": 0.25
+                "calories": 180,
+                "protein": 4,
+                "carbs": 40,
+                "fats": 0.2
             },
             {
                 "name": "Pimiento Verde",
@@ -808,6 +808,264 @@ const foodDatabase = {
         "originalBaseRecipeId": "ext_frutos_secos_mezcla",
         "isSideDish": false,
         "mealCategory": "extra"
+    },
+    "p3_desayuno_Tostada_de_Centeno_mainOnly_idx0": {
+        "id": "p3_desayuno_Tostada_de_Centeno_mainOnly_idx0",
+        "name": "Tostada de Centeno con Queso Cottage y Cherries",
+        "calories": 247,
+        "protein": 14.8,
+        "carbs": 35.3,
+        "fats": 4.7,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68792fea2035ba213493e87e.png",
+        "ingredients": [
+            {
+                "name": "Tostada de Pan de Centeno",
+                "quantity": "2",
+                "unit": "rebanada(s)",
+                "calories": 162,
+                "protein": 5.3999999999999995,
+                "carbs": 30,
+                "fats": 1.7999999999999998
+            },
+            {
+                "name": "Tomates Cherry",
+                "quantity": "50",
+                "unit": "g",
+                "calories": 15,
+                "protein": 1,
+                "carbs": 2.5,
+                "fats": 0.1
+            },
+            {
+                "name": "Queso Cottage",
+                "quantity": "70",
+                "unit": "g",
+                "calories": 70,
+                "protein": 8.4,
+                "carbs": 2.8000000000000003,
+                "fats": 2.8000000000000003
+            }
+        ],
+        "preparation": "1. Tostar el pan de centeno. 2. Untar el queso cottage sobre las tostadas y añadir los cherries por encima con especias.",
+        "originalBaseRecipeId": "des_tostada_de_centeno_con_queso_cottage_y_cherries",
+        "isSideDish": false,
+        "mealCategory": "desayuno"
+    },
+    "p3_comida_Ensalada_de_Lentejas_mainOnly_idx1": {
+        "id": "p3_comida_Ensalada_de_Lentejas_mainOnly_idx1",
+        "name": "Ensalada de Lentejas",
+        "calories": 540,
+        "protein": 34,
+        "carbs": 60,
+        "fats": 17.3,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682aff5a365e949c0a73d706.png",
+        "ingredients": [
+            {
+                "name": "Lentejas Cocidas",
+                "quantity": "200",
+                "unit": "g",
+                "calories": 260,
+                "protein": 16,
+                "carbs": 44,
+                "fats": 1
+            },
+            {
+                "name": "Tomate",
+                "quantity": "75",
+                "unit": "g",
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
+            },
+            {
+                "name": "Cebolla",
+                "quantity": "75",
+                "unit": "g",
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
+            },
+            {
+                "name": "Queso de Burgos 0%",
+                "quantity": "100",
+                "unit": "g",
+                "calories": 100,
+                "protein": 12,
+                "carbs": 4,
+                "fats": 4
+            },
+            {
+                "name": "Aguacate",
+                "quantity": "30",
+                "unit": "g",
+                "calories": 135,
+                "protein": 3,
+                "carbs": 4.5,
+                "fats": 12
+            }
+        ],
+        "preparation": "1. Si usas lentejas de bote, enjuagarlas bien bajo el grifo y escurrirlas. Si las cocinas, déjalas enfriar. 2. Picar el tomate y la cebolla (preferiblemente morada) en dados pequeños. Cortar el queso de Burgos 0% y el aguacate en dados. 3. En un bol grande, mezclar con cuidado las lentejas, el tomate, la cebolla, el queso de Burgos y el aguacate. 4. Aliñar con aceite de oliva virgen extra, vinagre (de manzana o Jerez) y sal al gusto. Opcional: añadir cilantro fresco picado o comino molido para un toque diferente.",
+        "originalBaseRecipeId": "pp_ensalada_de_lentejas",
+        "isSideDish": false,
+        "mealCategory": "plato_principal"
+    },
+    "p3_comida_Revuelto_de_Huevos_side_idx2": {
+        "id": "p3_comida_Revuelto_de_Huevos_side_idx2",
+        "name": "Revuelto de Huevos con Queso Habarti Light",
+        "calories": 260,
+        "protein": 20.5,
+        "carbs": 1.7000000000000002,
+        "fats": 18.5,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684f0183653a2c532c17327c.png",
+        "ingredients": [
+            {
+                "name": "Huevos",
+                "quantity": "2",
+                "unit": "unidad(es)",
+                "calories": 155,
+                "protein": 13,
+                "carbs": 1.1,
+                "fats": 11
+            },
+            {
+                "name": "Queso Havarti Light",
+                "quantity": "30",
+                "unit": "g",
+                "calories": 105,
+                "protein": 7.5,
+                "carbs": 0.6,
+                "fats": 7.5
+            }
+        ],
+        "preparation": "1. Batir los huevos en un bol con una pizca de sal y pimienta. 2. Cortar el queso Havarti light en trocitos pequeños o rallarlo. 3. Calentar una sartén antiadherente a fuego medio con una pizca de aceite de oliva o mantequilla (opcional). 4. Verter los huevos batidos en la sartén caliente. Dejar que empiecen a cuajar ligeramente por los bordes. 5. Añadir los trocitos de queso Havarti light distribuyéndolos por encima de los huevos. 6. Remover suavemente con una espátula, llevando los bordes cuajados hacia el centro y permitiendo que la parte líquida fluya hacia los lados, hasta que los huevos estén cuajados al gusto (más jugosos o más secos) y el queso esté derretido e integrado. Servir inmediatamente.",
+        "originalBaseRecipeId": "ac_revuelto_de_huevos_con_queso_habarti_light",
+        "isSideDish": true,
+        "mealCategory": "acompanamiento"
+    },
+    "p3_cena_Calabacn_con_Cebolla_mainOnly_idx3": {
+        "id": "p3_cena_Calabacn_con_Cebolla_mainOnly_idx3",
+        "name": "Calabacín con Cebolla a la Plancha",
+        "calories": 133.4,
+        "protein": 3,
+        "carbs": 7.5,
+        "fats": 10.3,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afc8e9b8ed35d8e7cbb0e.png",
+        "ingredients": [
+            {
+                "name": "Calabacín",
+                "quantity": "75",
+                "unit": "g",
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
+            },
+            {
+                "name": "Cebolla",
+                "quantity": "75",
+                "unit": "g",
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
+            },
+            {
+                "name": "Aceite de Oliva Virgen Extra",
+                "quantity": "10",
+                "unit": "g",
+                "calories": 88.4,
+                "protein": 0,
+                "carbs": 0,
+                "fats": 10
+            }
+        ],
+        "preparation": "1. Lavar el calabacín y cortarlo en rodajas de aproximadamente 0.5 a 1 cm de grosor. Pelar y cortar la cebolla en juliana o rodajas. 2. Calentar una plancha o sartén grande con un chorrito de aceite de oliva a fuego medio-alto. 3. Colocar las rodajas de calabacín y la cebolla sobre la plancha caliente. Cocinar durante 3-5 minutos por cada lado, o hasta que estén tiernos y presenten marcas doradas de la plancha. 4. Sazonar con sal, pimienta y opcionalmente un poco de ajo en polvo u orégano durante la cocción o al final.",
+        "originalBaseRecipeId": "pp_calabacn_con_cebolla_a_la_plancha",
+        "isSideDish": false,
+        "mealCategory": "plato_principal"
+    },
+    "p3_cena_Merluza_a_la_side_idx4": {
+        "id": "p3_cena_Merluza_a_la_side_idx4",
+        "name": "Merluza a la Plancha",
+        "calories": 328.4,
+        "protein": 42.00000000000001,
+        "carbs": 0,
+        "fats": 16,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684f001d4d606642b1333279.png",
+        "ingredients": [
+            {
+                "name": "Filete de Merluza",
+                "quantity": "150",
+                "unit": "g",
+                "calories": 240,
+                "protein": 42.00000000000001,
+                "carbs": 0,
+                "fats": 6
+            },
+            {
+                "name": "Aceite de Oliva Virgen Extra",
+                "quantity": "10",
+                "unit": "g",
+                "calories": 88.4,
+                "protein": 0,
+                "carbs": 0,
+                "fats": 10
+            }
+        ],
+        "preparation": "1. Sazonar los filetes o rodajas de merluza con sal, pimienta y opcionalmente un poco de ajo en polvo o perejil picado. 2. Calentar una plancha o sartén antiadherente a fuego medio-alto con un chorrito de aceite de oliva virgen extra. 3. Cuando el aceite esté caliente, colocar la merluza en la plancha. Cocinar durante unos 3-5 minutos por cada lado, dependiendo del grosor del pescado, hasta que esté opaca, bien cocida por dentro y se desmenuce fácilmente con un tenedor. Evitar cocinarla en exceso para que no quede seca. 4. Servir inmediatamente, opcionalmente con un chorrito de zumo de limón fresco por encima.",
+        "originalBaseRecipeId": "ac_merluza_a_la_plancha",
+        "isSideDish": true,
+        "mealCategory": "acompanamiento"
+    },
+    "p3_extra_Fruta_Ctrica_Mandarina_mainOnly_idx5": {
+        "id": "p3_extra_Fruta_Ctrica_Mandarina_mainOnly_idx5",
+        "name": "Fruta Cítrica (Mandarina, Kiwi, Naranja...)",
+        "calories": 45,
+        "protein": 0.375,
+        "carbs": 11.25,
+        "fats": 0.15,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd3d0ed506305442ffe4.png",
+        "ingredients": [
+            {
+                "name": "Kiwi",
+                "quantity": "1",
+                "unit": "unidad(es)",
+                "calories": 45,
+                "protein": 0.375,
+                "carbs": 11.25,
+                "fats": 0.15
+            }
+        ],
+        "preparation": "1. Seleccionar la fruta cítrica de preferencia (mandarina, kiwi, naranja, pomelo, etc.). 2. Lavar bien la fruta bajo el grifo. 3. Para mandarinas y naranjas: pelar la piel con las manos o con ayuda de un cuchillo. Separar los gajos si se desea. 4. Para kiwis: cortar por la mitad y comer la pulpa con una cucharita, o pelar con un cuchillo y cortar en rodajas. 5. Para pomelos: cortar por la mitad y extraer los gajos, o comer con cuchara. Consumir directamente.",
+        "originalBaseRecipeId": "ext_fruta_ctrica_mandarina_kiwi_naranja",
+        "isSideDish": false,
+        "mealCategory": "extra"
+    },
+    "p3_extra_Yogur_Protico_Sabores_mainOnly_idx6": {
+        "id": "p3_extra_Yogur_Protico_Sabores_mainOnly_idx6",
+        "name": "Yogur Protéico (Sabores, Natural...)",
+        "calories": 125,
+        "protein": 6.25,
+        "carbs": 12.5,
+        "fats": 5,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd789b8ed38b127cbc09.png",
+        "ingredients": [
+            {
+                "name": "Yogur Protéico",
+                "quantity": "1",
+                "unit": "unidad(es)",
+                "calories": 125,
+                "protein": 6.25,
+                "carbs": 12.5,
+                "fats": 5
+            }
+        ],
+        "preparation": "1. Seleccionar el yogur proteico de preferencia (natural o con sabores). 2. Abrir el envase. 3. Consumir directamente con una cuchara. Opcional: se puede acompañar de frutas frescas troceadas, frutos secos, semillas o un poco de miel o edulcorante si es natural y se desea endulzar.",
+        "originalBaseRecipeId": "ext_yogur_protico_sabores_natural",
+        "isSideDish": false,
+        "mealCategory": "extra"
     }
 };
 
@@ -881,6 +1139,30 @@ const dailyMenus = [
       "p2_extra_Yogur_Protico_Sabores_mainOnly_idx5",
       "p2_extra_Frutos_Secos_Mezcla_mainOnly_idx6"
     ]
+  },
+  {
+    "name": "Libre 3",
+    "targetMacros": {
+      "calories": 1800,
+      "protein": 150,
+      "carbs": 150
+    },
+    "useCustomMacros": true,
+    "desayuno": [
+      "p3_desayuno_Tostada_de_Centeno_mainOnly_idx0"
+    ],
+    "comida": [
+      "p3_comida_Ensalada_de_Lentejas_mainOnly_idx1",
+      "p3_comida_Revuelto_de_Huevos_side_idx2"
+    ],
+    "cena": [
+      "p3_cena_Calabacn_con_Cebolla_mainOnly_idx3",
+      "p3_cena_Merluza_a_la_side_idx4"
+    ],
+    "extra": [
+      "p3_extra_Fruta_Ctrica_Mandarina_mainOnly_idx5",
+      "p3_extra_Yogur_Protico_Sabores_mainOnly_idx6"
+    ]
   }
 ];
 
@@ -888,3 +1170,4 @@ const dailyMenus = [
 // Plan: Libre 1, Calorías Objetivo: 1800, Proteínas Objetivo: 150, Carbohidratos Objetivo: 150
 // Plan: Entreno, Calorías Objetivo: 1800, Proteínas Objetivo: 150, Carbohidratos Objetivo: 150
 // Plan: Libre 2, Calorías Objetivo: 1800, Proteínas Objetivo: 150, Carbohidratos Objetivo: 150
+// Plan: Libre 3, Calorías Objetivo: 1800, Proteínas Objetivo: 150, Carbohidratos Objetivo: 150
