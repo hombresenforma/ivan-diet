@@ -518,101 +518,68 @@ const foodDatabase = {
         "isSideDish": false,
         "mealCategory": "extra"
     },
-    "p2_desayuno_Tostada_de_centeno_mainOnly_idx0": {
-        "id": "p2_desayuno_Tostada_de_centeno_mainOnly_idx0",
-        "name": "Tostada de centeno con jamón ibérico",
-        "calories": 213,
-        "protein": 15.899999999999999,
-        "carbs": 15,
-        "fats": 9.3,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6887226c7537da60484d071f.png",
+    "p2_desayuno_Revuelto_de_Huevos_mainOnly_idx0": {
+        "id": "p2_desayuno_Revuelto_de_Huevos_mainOnly_idx0",
+        "name": "Revuelto de Huevos y Claras con Jamón",
+        "calories": 327.2,
+        "protein": 24.800000000000004,
+        "carbs": 1.54,
+        "fats": 24.6,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682ad5e1e819fcb589a8a30e.png",
         "ingredients": [
             {
-                "name": "Tostada de Pan de Centeno",
+                "name": "Huevos",
                 "quantity": "1",
-                "unit": "rebanada(s)",
-                "calories": 81,
-                "protein": 2.6999999999999997,
-                "carbs": 15,
-                "fats": 0.8999999999999999
+                "unit": "unidad(es)",
+                "calories": 77.5,
+                "protein": 6.5,
+                "carbs": 0.55,
+                "fats": 5.5
             },
             {
-                "name": "Jamón Ibérico",
-                "quantity": "60",
+                "name": "Claras de Huevo",
+                "quantity": "3",
+                "unit": "unidad(es)",
+                "calories": 139.5,
+                "protein": 11.700000000000001,
+                "carbs": 0.9900000000000001,
+                "fats": 9.9
+            },
+            {
+                "name": "Jamón Serrano",
+                "quantity": "30",
                 "unit": "g",
-                "calories": 132,
-                "protein": 13.2,
+                "calories": 66,
+                "protein": 6.6,
                 "carbs": 0,
-                "fats": 8.4
+                "fats": 4.2
+            },
+            {
+                "name": "Aceite de Oliva Virgen Extra",
+                "quantity": "5",
+                "unit": "g",
+                "calories": 44.2,
+                "protein": 0,
+                "carbs": 0,
+                "fats": 5
             }
         ],
-        "preparation": "1. Tostar el pan de centeno. 2. Colocar las lonchas de jamón ibérico por encima. Opcional: añadir un chorrito de aceite de oliva.",
-        "originalBaseRecipeId": "des_tostada_de_centeno_con_jamn_ibrico",
+        "preparation": "1. Batir los huevos y las claras. 2. Cortar el jamón en taquitos o tiras. 3. Saltear ligeramente el jamón en una sartén con una pizca de aceite (opcional). 4. Verter la mezcla de huevo y remover constantemente a fuego medio-bajo hasta que cuaje al gusto.",
+        "originalBaseRecipeId": "des_revuelto_de_huevos_y_claras_con_jamn",
         "isSideDish": false,
         "mealCategory": "desayuno"
     },
-    "p2_desayuno_Fruta_Ctrica_Mandarina_mainOnly_idx1": {
-        "id": "p2_desayuno_Fruta_Ctrica_Mandarina_mainOnly_idx1",
-        "name": "Fruta Cítrica (Mandarina, Kiwi, Naranja...)",
-        "calories": 45,
-        "protein": 0.375,
-        "carbs": 11.25,
-        "fats": 0.15,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd3d0ed506305442ffe4.png",
+    "p2_comida_Ensalada_con_Pollo_mainOnly_idx1": {
+        "id": "p2_comida_Ensalada_con_Pollo_mainOnly_idx1",
+        "name": "Ensalada con Pollo y Queso de Burgos",
+        "calories": 495.9,
+        "protein": 58.50000000000001,
+        "carbs": 15.25,
+        "fats": 20.45,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afdceb91eb360843d4a0b.png",
         "ingredients": [
             {
-                "name": "Kiwi",
-                "quantity": "1",
-                "unit": "unidad(es)",
-                "calories": 45,
-                "protein": 0.375,
-                "carbs": 11.25,
-                "fats": 0.15
-            }
-        ],
-        "preparation": "1. Seleccionar la fruta cítrica de preferencia (mandarina, kiwi, naranja, pomelo, etc.). 2. Lavar bien la fruta bajo el grifo. 3. Para mandarinas y naranjas: pelar la piel con las manos o con ayuda de un cuchillo. Separar los gajos si se desea. 4. Para kiwis: cortar por la mitad y comer la pulpa con una cucharita, o pelar con un cuchillo y cortar en rodajas. 5. Para pomelos: cortar por la mitad y extraer los gajos, o comer con cuchara. Consumir directamente.",
-        "originalBaseRecipeId": "ext_fruta_ctrica_mandarina_kiwi_naranja",
-        "isSideDish": false,
-        "mealCategory": "extra"
-    },
-    "p2_comida_Ensala_de_Patata_mainOnly_idx2": {
-        "id": "p2_comida_Ensala_de_Patata_mainOnly_idx2",
-        "name": "Ensala de Patata, Atún y Huevo",
-        "calories": 634.5,
-        "protein": 53.6,
-        "carbs": 70.55,
-        "fats": 13.15,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afc08b91eb31afe3d4796.png",
-        "ingredients": [
-            {
-                "name": "Patata",
-                "quantity": "250",
-                "unit": "g",
-                "calories": 225,
-                "protein": 5,
-                "carbs": 50,
-                "fats": 0.25
-            },
-            {
-                "name": "Pimiento Verde",
-                "quantity": "75",
-                "unit": "g",
-                "calories": 22.5,
-                "protein": 1.5,
-                "carbs": 3.75,
-                "fats": 0.15
-            },
-            {
-                "name": "Pimiento Rojo",
-                "quantity": "75",
-                "unit": "g",
-                "calories": 22.5,
-                "protein": 1.5,
-                "carbs": 3.75,
-                "fats": 0.15
-            },
-            {
-                "name": "Cebolla",
+                "name": "Canónigos",
                 "quantity": "75",
                 "unit": "g",
                 "calories": 22.5,
@@ -630,40 +597,49 @@ const foodDatabase = {
                 "fats": 0.15
             },
             {
-                "name": "Maíz",
-                "quantity": "50",
+                "name": "Cebolla",
+                "quantity": "75",
                 "unit": "g",
-                "calories": 50,
-                "protein": 2.5,
-                "carbs": 5,
-                "fats": 2
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
             },
             {
-                "name": "Atún en Conserva",
-                "quantity": "120",
+                "name": "Queso de Burgos 0%",
+                "quantity": "100",
                 "unit": "g",
-                "calories": 192,
-                "protein": 33.6,
+                "calories": 100,
+                "protein": 12,
+                "carbs": 4,
+                "fats": 4
+            },
+            {
+                "name": "Pechuga de Pollo",
+                "quantity": "150",
+                "unit": "g",
+                "calories": 240,
+                "protein": 42.00000000000001,
                 "carbs": 0,
-                "fats": 4.8
+                "fats": 6
             },
             {
-                "name": "Huevo Cocido",
-                "quantity": "1",
-                "unit": "unidad(es)",
-                "calories": 77.5,
-                "protein": 6.5,
-                "carbs": 0.55,
-                "fats": 5.5
+                "name": "Aceite de Oliva Virgen Extra",
+                "quantity": "10",
+                "unit": "g",
+                "calories": 88.4,
+                "protein": 0,
+                "carbs": 0,
+                "fats": 10
             }
         ],
-        "preparation": "1. Cocer las patatas con piel en agua con sal hasta que estén tiernas (unos 20-25 minutos). Dejar enfriar, pelar y cortar en dados. 2. Cocer los huevos en agua hirviendo durante 10 minutos. Dejar enfriar, pelar y cortar en rodajas o trozos. 3. Picar finamente el pimiento verde, pimiento rojo, cebolla y tomate. 4. En un bol grande, mezclar las patatas, los huevos, las verduras picadas, el maíz dulce (escurrido) y el atún (escurrido y desmenuzado). 5. Aliñar con aceite de oliva virgen extra, vinagre y sal al gusto. Mezclar con cuidado.",
-        "originalBaseRecipeId": "cc_ensala_de_patata_atn_y_huevo",
+        "preparation": "1. Cocinar la pechuga de pollo (a la plancha, hervida o asada) y cortarla en tiras o dados. 2. Lavar los canónigos y escurrirlos bien. Cortar los tomates (cherry por la mitad, o normales en gajos) y la cebolla en rodajas finas o juliana. Cortar el queso de Burgos 0% en dados o láminas. 3. En un bol o plato grande, disponer una base de canónigos. Añadir encima el tomate, la cebolla, el pollo y el queso de Burgos. 4. Aliñar con aceite de oliva virgen extra, vinagre (de manzana o Módena) y sal al gusto.",
+        "originalBaseRecipeId": "cc_ensalada_con_pollo_y_queso_de_burgos",
         "isSideDish": false,
         "mealCategory": "comida_cena_completa"
     },
-    "p2_cena_Fajitas_de_Pollo_mainOnly_idx3": {
-        "id": "p2_cena_Fajitas_de_Pollo_mainOnly_idx3",
+    "p2_cena_Fajitas_de_Pollo_mainOnly_idx2": {
+        "id": "p2_cena_Fajitas_de_Pollo_mainOnly_idx2",
         "name": "Fajitas de Pollo y Verduras",
         "calories": 712.4,
         "protein": 65.60000000000001,
@@ -740,8 +716,8 @@ const foodDatabase = {
         "isSideDish": false,
         "mealCategory": "comida_cena_completa"
     },
-    "p2_extra_Yogur_Protico_Sabores_mainOnly_idx4": {
-        "id": "p2_extra_Yogur_Protico_Sabores_mainOnly_idx4",
+    "p2_extra_Yogur_Protico_Sabores_mainOnly_idx3": {
+        "id": "p2_extra_Yogur_Protico_Sabores_mainOnly_idx3",
         "name": "Yogur Protéico (Sabores, Natural...)",
         "calories": 125,
         "protein": 6.25,
@@ -764,96 +740,45 @@ const foodDatabase = {
         "isSideDish": false,
         "mealCategory": "extra"
     },
-    "p2_extra_Frutos_Secos_Mezcla_mainOnly_idx5": {
-        "id": "p2_extra_Frutos_Secos_Mezcla_mainOnly_idx5",
-        "name": "Frutos Secos (Mezcla)",
-        "calories": 135,
-        "protein": 3,
-        "carbs": 4.5,
-        "fats": 12,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68525c0b1d27cfeb580a55f7.png",
+    "p3_desayuno_Yogurt_Protico_con_mainOnly_idx0": {
+        "id": "p3_desayuno_Yogurt_Protico_con_mainOnly_idx0",
+        "name": "Yogurt Protéico con Frutos Rojos y Secos",
+        "calories": 370,
+        "protein": 14.75,
+        "carbs": 35.5,
+        "fats": 18.1,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afea2b91eb35e413d4ab6.png",
         "ingredients": [
             {
-                "name": "Anacardos",
-                "quantity": "10",
-                "unit": "g",
-                "calories": 45,
-                "protein": 1,
-                "carbs": 1.5,
-                "fats": 4
-            },
-            {
-                "name": "Almendras",
-                "quantity": "10",
-                "unit": "g",
-                "calories": 45,
-                "protein": 1,
-                "carbs": 1.5,
-                "fats": 4
-            },
-            {
-                "name": "Nueces",
-                "quantity": "10",
-                "unit": "g",
-                "calories": 45,
-                "protein": 1,
-                "carbs": 1.5,
-                "fats": 4
-            }
-        ],
-        "preparation": "Consumir directamente como un snack energético y nutritivo. Se puede tomar un puñado (ej. 25-30g) o ajustar la cantidad según las necesidades calóricas.",
-        "originalBaseRecipeId": "ext_frutos_secos_mezcla",
-        "isSideDish": false,
-        "mealCategory": "extra"
-    },
-    "p3_desayuno_Tostada_de_Centeno_mainOnly_idx0": {
-        "id": "p3_desayuno_Tostada_de_Centeno_mainOnly_idx0",
-        "name": "Tostada de Centeno con Huevo y Aguacate",
-        "calories": 459.4,
-        "protein": 18.7,
-        "carbs": 20.6,
-        "fats": 33.9,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687a695da648331355d3b0b2.png",
-        "ingredients": [
-            {
-                "name": "Tostada de Pan de Centeno",
-                "quantity": "1",
-                "unit": "rebanada(s)",
-                "calories": 81,
-                "protein": 2.6999999999999997,
-                "carbs": 15,
-                "fats": 0.8999999999999999
-            },
-            {
-                "name": "Huevos",
+                "name": "Yogur Protéico",
                 "quantity": "2",
                 "unit": "unidad(es)",
-                "calories": 155,
-                "protein": 13,
-                "carbs": 1.1,
-                "fats": 11
-            },
-            {
-                "name": "Aguacate",
-                "quantity": "30",
-                "unit": "g",
-                "calories": 135,
-                "protein": 3,
-                "carbs": 4.5,
-                "fats": 12
-            },
-            {
-                "name": "Aceite de Oliva Virgen Extra",
-                "quantity": "10",
-                "unit": "g",
-                "calories": 88.4,
-                "protein": 0,
-                "carbs": 0,
+                "calories": 250,
+                "protein": 12.5,
+                "carbs": 25,
                 "fats": 10
+            },
+            {
+                "name": "Frutos Rojos",
+                "quantity": "50",
+                "unit": "g",
+                "calories": 30,
+                "protein": 0.25,
+                "carbs": 7.5,
+                "fats": 0.1
+            },
+            {
+                "name": "Frutos Secos",
+                "quantity": "20",
+                "unit": "g",
+                "calories": 90,
+                "protein": 2,
+                "carbs": 3,
+                "fats": 8
             }
         ],
-        "preparation": "1. Tostar el pan de centeno. 2. Cocinar los huevos al gusto (revueltos, pochados, a la plancha). 3. Machacar el aguacate sobre las tostadas y añadir aceite y especias.",
-        "originalBaseRecipeId": "des_tostada_de_centeno_con_huevo_y_aguacate",
+        "preparation": "1. En un bol, verter el yogur proteico. 2. Añadir los frutos rojos frescos o descongelados. 3. Espolvorear con los frutos secos troceados por encima. Servir inmediatamente.",
+        "originalBaseRecipeId": "des_yogurt_protico_con_frutos_rojos_y_secos",
         "isSideDish": false,
         "mealCategory": "desayuno"
     },
@@ -920,38 +845,38 @@ const foodDatabase = {
     "p3_cena_Juda_verde_con_mainOnly_idx2": {
         "id": "p3_cena_Juda_verde_con_mainOnly_idx2",
         "name": "Judía verde con patata y Zanahoria",
-        "calories": 255,
-        "protein": 9,
-        "carbs": 52.5,
-        "fats": 0.7,
+        "calories": 172.5,
+        "protein": 7.5,
+        "carbs": 33.75,
+        "fats": 0.65,
         "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cf5c1ddc9c1507857434b.png",
         "ingredients": [
             {
                 "name": "Judía Verde",
-                "quantity": "150",
+                "quantity": "200",
                 "unit": "g",
-                "calories": 45,
-                "protein": 3,
-                "carbs": 7.5,
-                "fats": 0.3
+                "calories": 60,
+                "protein": 4,
+                "carbs": 10,
+                "fats": 0.4
             },
             {
                 "name": "Patata",
-                "quantity": "200",
+                "quantity": "100",
                 "unit": "g",
-                "calories": 180,
-                "protein": 4,
-                "carbs": 40,
-                "fats": 0.2
+                "calories": 90,
+                "protein": 2,
+                "carbs": 20,
+                "fats": 0.1
             },
             {
                 "name": "Zanahoria",
-                "quantity": "100",
+                "quantity": "75",
                 "unit": "g",
-                "calories": 30,
-                "protein": 2,
-                "carbs": 5,
-                "fats": 0.2
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
             }
         ],
         "preparation": "1. Lavar y cortar las judías verdes, pelar y cortar las patatas y zanahorias. 2. Cocer todas las verduras en agua con sal hasta que estén tiernas. 3. Escurrir y servir. Aliñar con aceite de oliva virgen extra.",
@@ -1062,7 +987,7 @@ const foodDatabase = {
 
 const dailyMenus = [
   {
-    "name": "Opciones 1",
+    "name": "Entreno 1",
     "targetMacros": {
       "calories": 2000,
       "protein": 150,
@@ -1086,7 +1011,7 @@ const dailyMenus = [
     ]
   },
   {
-    "name": "Opciones 2",
+    "name": "Entreno 2",
     "targetMacros": {
       "calories": 2000,
       "protein": 160,
@@ -1107,7 +1032,7 @@ const dailyMenus = [
     ]
   },
   {
-    "name": "Opciones 3",
+    "name": "Libre 1",
     "targetMacros": {
       "calories": 2000,
       "protein": 160,
@@ -1115,22 +1040,20 @@ const dailyMenus = [
     },
     "useCustomMacros": true,
     "desayuno": [
-      "p2_desayuno_Tostada_de_centeno_mainOnly_idx0",
-      "p2_desayuno_Fruta_Ctrica_Mandarina_mainOnly_idx1"
+      "p2_desayuno_Revuelto_de_Huevos_mainOnly_idx0"
     ],
     "comida": [
-      "p2_comida_Ensala_de_Patata_mainOnly_idx2"
+      "p2_comida_Ensalada_con_Pollo_mainOnly_idx1"
     ],
     "cena": [
-      "p2_cena_Fajitas_de_Pollo_mainOnly_idx3"
+      "p2_cena_Fajitas_de_Pollo_mainOnly_idx2"
     ],
     "extra": [
-      "p2_extra_Yogur_Protico_Sabores_mainOnly_idx4",
-      "p2_extra_Frutos_Secos_Mezcla_mainOnly_idx5"
+      "p2_extra_Yogur_Protico_Sabores_mainOnly_idx3"
     ]
   },
   {
-    "name": "Opciones 4",
+    "name": "Libre 2",
     "targetMacros": {
       "calories": 2000,
       "protein": 150,
@@ -1138,7 +1061,7 @@ const dailyMenus = [
     },
     "useCustomMacros": true,
     "desayuno": [
-      "p3_desayuno_Tostada_de_Centeno_mainOnly_idx0"
+      "p3_desayuno_Yogurt_Protico_con_mainOnly_idx0"
     ],
     "comida": [
       "p3_comida_Estofado_de_Ternera_mainOnly_idx1"
@@ -1155,7 +1078,7 @@ const dailyMenus = [
 ];
 
 // Detalles de los planes exportados:
-// Plan: Opciones 1, Calorías Objetivo: 2000, Proteínas Objetivo: 150, Carbohidratos Objetivo: 200
-// Plan: Opciones 2, Calorías Objetivo: 2000, Proteínas Objetivo: 160, Carbohidratos Objetivo: 200
-// Plan: Opciones 3, Calorías Objetivo: 2000, Proteínas Objetivo: 160, Carbohidratos Objetivo: 200
-// Plan: Opciones 4, Calorías Objetivo: 2000, Proteínas Objetivo: 150, Carbohidratos Objetivo: 200
+// Plan: Entreno 1, Calorías Objetivo: 2000, Proteínas Objetivo: 150, Carbohidratos Objetivo: 200
+// Plan: Entreno 2, Calorías Objetivo: 2000, Proteínas Objetivo: 160, Carbohidratos Objetivo: 200
+// Plan: Libre 1, Calorías Objetivo: 2000, Proteínas Objetivo: 160, Carbohidratos Objetivo: 200
+// Plan: Libre 2, Calorías Objetivo: 2000, Proteínas Objetivo: 150, Carbohidratos Objetivo: 200
