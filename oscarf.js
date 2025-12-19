@@ -1108,6 +1108,228 @@ const foodDatabase = {
         "originalBaseRecipeId": "ext_fruta_densa_pltano_manzana",
         "isSideDish": false,
         "mealCategory": "extra"
+    },
+    "p4_desayuno_Tortitas_de_Avena_mainOnly_idx0": {
+        "id": "p4_desayuno_Tortitas_de_Avena_mainOnly_idx0",
+        "name": "Tortitas de Avena con Frutos Rojos",
+        "calories": 466,
+        "protein": 25.65,
+        "carbs": 54.04,
+        "fats": 16.700000000000003,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682ad5d9e819fce58fa8a30c.png",
+        "ingredients": [
+            {
+                "name": "Harina de Avena",
+                "quantity": "60",
+                "unit": "g",
+                "calories": 219,
+                "protein": 7.199999999999999,
+                "carbs": 45,
+                "fats": 1.2
+            },
+            {
+                "name": "Claras de Huevo",
+                "quantity": "3",
+                "unit": "unidad(es)",
+                "calories": 139.5,
+                "protein": 11.700000000000001,
+                "carbs": 0.9900000000000001,
+                "fats": 9.9
+            },
+            {
+                "name": "Huevo",
+                "quantity": "1",
+                "unit": "unidad(es)",
+                "calories": 77.5,
+                "protein": 6.5,
+                "carbs": 0.55,
+                "fats": 5.5
+            },
+            {
+                "name": "Frutos Rojos",
+                "quantity": "50",
+                "unit": "g",
+                "calories": 30,
+                "protein": 0.25,
+                "carbs": 7.5,
+                "fats": 0.1
+            }
+        ],
+        "preparation": "1. Mezclar la harina de avena, claras de huevo, y huevo entero (si se usa) con un poco de leche o bebida vegetal hasta obtener una masa homogénea. 2. Cocinar las tortitas en una sartén antiadherente caliente por ambos lados hasta que estén doradas. 3. Servir con los frutos rojos por encima.",
+        "originalBaseRecipeId": "des_tortitas_de_avena_con_frutos_rojos",
+        "isSideDish": false,
+        "mealCategory": "desayuno"
+    },
+    "p4_comida_Ensalada_de_berenjena_mainOnly_idx1": {
+        "id": "p4_comida_Ensalada_de_berenjena_mainOnly_idx1",
+        "name": "Ensalada de berenjena y tomate asado, queso y pollo con arroz",
+        "calories": 647.15,
+        "protein": 54.00000000000001,
+        "carbs": 63.75,
+        "fats": 17.8,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684ef97c6202d51cbcde28c8.png",
+        "ingredients": [
+            {
+                "name": "Berenjena",
+                "quantity": "75",
+                "unit": "g",
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
+            },
+            {
+                "name": "Tomate",
+                "quantity": "75",
+                "unit": "g",
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
+            },
+            {
+                "name": "Pechuga de Pollo",
+                "quantity": "150",
+                "unit": "g",
+                "calories": 240,
+                "protein": 42.00000000000001,
+                "carbs": 0,
+                "fats": 6
+            },
+            {
+                "name": "Arroz",
+                "quantity": "75",
+                "unit": "g",
+                "calories": 273.75,
+                "protein": 9,
+                "carbs": 56.25,
+                "fats": 1.5
+            },
+            {
+                "name": "Aceite de Oliva Virgen Extra",
+                "quantity": "10",
+                "unit": "g",
+                "calories": 88.4,
+                "protein": 0,
+                "carbs": 0,
+                "fats": 10
+            }
+        ],
+        "preparation": "1. Precalentar el horno a 200°C. Cortar la berenjena en rodajas o dados y los tomates por la mitad o en cuartos. Rociar con aceite de oliva, salpimentar y asar durante 20-25 minutos o hasta que estén tiernos. 2. Cocinar la pechuga de pollo (a la plancha, asada o hervida) y cortarla en trozos o tiras. 3. Cocer el arroz según las instrucciones del paquete. Puede usarse caliente, tibio o frío. 4. Cortar el queso (tipo feta, mozzarella fresca, o el de preferencia) en dados. 5. En un bol grande, combinar el arroz, la berenjena y tomate asados, el pollo y el queso. 6. Aliñar con aceite de oliva virgen extra, vinagre balsámico (opcional) y hierbas frescas como albahaca u orégano. Mezclar suavemente.",
+        "originalBaseRecipeId": "cc_ensalada_de_berenjena_y_tomate_asado_queso_y_pollo_con_arroz",
+        "isSideDish": false,
+        "mealCategory": "comida_cena_completa"
+    },
+    "p4_cena_Sopa_de_Galets_mainOnly_idx2": {
+        "id": "p4_cena_Sopa_de_Galets_mainOnly_idx2",
+        "name": "Sopa de Galets y Pelota de carne de Vacuno",
+        "calories": 922.5,
+        "protein": 56.8,
+        "carbs": 99.85,
+        "fats": 31.650000000000002,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6922d159995c4b0151a32409.png",
+        "ingredients": [
+            {
+                "name": "Galets",
+                "quantity": "80",
+                "unit": "g",
+                "calories": 292,
+                "protein": 9.6,
+                "carbs": 60,
+                "fats": 1.6
+            },
+            {
+                "name": "Carne Picada de Vacuno",
+                "quantity": "120",
+                "unit": "g",
+                "calories": 264,
+                "protein": 26.4,
+                "carbs": 0,
+                "fats": 16.8
+            },
+            {
+                "name": "Huevo",
+                "quantity": "2",
+                "unit": "unidad(es)",
+                "calories": 155,
+                "protein": 13,
+                "carbs": 1.1,
+                "fats": 11
+            },
+            {
+                "name": "Pan Rallado",
+                "quantity": "70",
+                "unit": "g",
+                "calories": 189,
+                "protein": 6.3,
+                "carbs": 35,
+                "fats": 2.1
+            },
+            {
+                "name": "Caldo de Carne",
+                "quantity": "75",
+                "unit": "g",
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
+            }
+        ],
+        "preparation": "1. Mezclar la carne picada con el huevo, un poco de pan rallado, ajo y perejil para formar las pelotas. 2. Poner el caldo de carne a hervir. 3. Cuando hierva, añadir las pelotas y los galets. 4. Cocinar a fuego medio durante 15-20 minutos hasta que la pasta esté lista y la carne cocida.",
+        "originalBaseRecipeId": "cc_sopa_de_galets_y_pelota_de_carne_de_vacuno",
+        "isSideDish": false,
+        "mealCategory": "comida_cena_completa"
+    },
+    "p4_extra_FajitaWrap_de_Jamn_mainOnly_idx3": {
+        "id": "p4_extra_FajitaWrap_de_Jamn_mainOnly_idx3",
+        "name": "Fajita/Wrap de Jamón y Queso",
+        "calories": 395.2,
+        "protein": 20.7,
+        "carbs": 21.8,
+        "fats": 24.5,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68a36fb52e34b733ba5c5630.png",
+        "ingredients": [
+            {
+                "name": "Pan de Fajita",
+                "quantity": "1",
+                "unit": "unidad(es)",
+                "calories": 108,
+                "protein": 3.5999999999999996,
+                "carbs": 20,
+                "fats": 1.2
+            },
+            {
+                "name": "Jamón Cocido",
+                "quantity": "60",
+                "unit": "g",
+                "calories": 138,
+                "protein": 9.6,
+                "carbs": 1.2,
+                "fats": 10.799999999999999
+            },
+            {
+                "name": "Queso Havarti Light",
+                "quantity": "30",
+                "unit": "g",
+                "calories": 105,
+                "protein": 7.5,
+                "carbs": 0.6,
+                "fats": 7.5
+            },
+            {
+                "name": "Aceite de Oliva Virgen Extra",
+                "quantity": "5",
+                "unit": "g",
+                "calories": 44.2,
+                "protein": 0,
+                "carbs": 0,
+                "fats": 5
+            }
+        ],
+        "preparation": "1. Calentar la tortilla de fajita. 2. Añadir el jamón cocido y el queso. 3. Doblar y servir. 4. Opcional: añadir un chorrito de aceite de oliva.",
+        "originalBaseRecipeId": "ext_fajitawrap_de_jamn_y_queso",
+        "isSideDish": false,
+        "mealCategory": "extra"
     }
 };
 
@@ -1202,6 +1424,27 @@ const dailyMenus = [
       "p3_extra_Sandwich_Vegetal_de_mainOnly_idx3",
       "p3_extra_Fruta_Densa_Pltano_mainOnly_idx4"
     ]
+  },
+  {
+    "name": "EXTRAS",
+    "targetMacros": {
+      "calories": 2000,
+      "protein": 150,
+      "carbs": 150
+    },
+    "useCustomMacros": true,
+    "desayuno": [
+      "p4_desayuno_Tortitas_de_Avena_mainOnly_idx0"
+    ],
+    "comida": [
+      "p4_comida_Ensalada_de_berenjena_mainOnly_idx1"
+    ],
+    "cena": [
+      "p4_cena_Sopa_de_Galets_mainOnly_idx2"
+    ],
+    "extra": [
+      "p4_extra_FajitaWrap_de_Jamn_mainOnly_idx3"
+    ]
   }
 ];
 
@@ -1210,3 +1453,4 @@ const dailyMenus = [
 // Plan: Entreno 2, Calorías Objetivo: 2000, Proteínas Objetivo: 150, Carbohidratos Objetivo: 150
 // Plan: Libre, Calorías Objetivo: 1800, Proteínas Objetivo: 160, Carbohidratos Objetivo: 100
 // Plan: Ayuno, Calorías Objetivo: 1800, Proteínas Objetivo: 160, Carbohidratos Objetivo: 100
+// Plan: EXTRAS, Calorías Objetivo: 2000, Proteínas Objetivo: 150, Carbohidratos Objetivo: 150
