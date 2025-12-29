@@ -56,10 +56,10 @@ const foodDatabase = {
     "p0_comida_Poke_de_aguacate_mainOnly_idx1": {
         "id": "p0_comida_Poke_de_aguacate_mainOnly_idx1",
         "name": "Poke de aguacate, mango, tomate, soja, cebolla, arroz y pollo",
-        "calories": 696.4,
-        "protein": 49.650000000000006,
-        "carbs": 57,
-        "fats": 28.9,
+        "calories": 611.65,
+        "protein": 47.6,
+        "carbs": 38.25,
+        "fats": 28.5,
         "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684efa4ef6c48db833a5b1af.png",
         "ingredients": [
             {
@@ -72,22 +72,13 @@ const foodDatabase = {
                 "fats": 12
             },
             {
-                "name": "Mango",
-                "quantity": "50",
-                "unit": "g",
-                "calories": 30,
-                "protein": 0.25,
-                "carbs": 7.5,
-                "fats": 0.1
-            },
-            {
                 "name": "Arroz",
-                "quantity": "60",
+                "quantity": "45",
                 "unit": "g",
-                "calories": 219,
-                "protein": 7.199999999999999,
-                "carbs": 45,
-                "fats": 1.2
+                "calories": 164.25,
+                "protein": 5.3999999999999995,
+                "carbs": 33.75,
+                "fats": 0.9
             },
             {
                 "name": "Pechuga de Pollo",
@@ -698,27 +689,267 @@ const foodDatabase = {
         "isSideDish": false,
         "mealCategory": "extra"
     },
-    "p2_extra_Tortitas_de_Legumbres_mainOnly_idx5": {
-        "id": "p2_extra_Tortitas_de_Legumbres_mainOnly_idx5",
-        "name": "Tortitas de Legumbres (Mercadona)",
-        "calories": 32,
-        "protein": 1.6,
-        "carbs": 3.2,
-        "fats": 1.28,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682affdd9b8ed3082d7cbefc.png",
+    "p3_desayuno_Tostada_de_Centeno_mainOnly_idx0": {
+        "id": "p3_desayuno_Tostada_de_Centeno_mainOnly_idx0",
+        "name": "Tostada de Centeno con Huevo y Aguacate",
+        "calories": 415.2,
+        "protein": 18.7,
+        "carbs": 20.6,
+        "fats": 28.9,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687a695da648331355d3b0b2.png",
         "ingredients": [
             {
-                "name": "Tortitas de Legumbres",
-                "quantity": "4",
+                "name": "Tostada de Pan de Centeno",
+                "quantity": "1",
+                "unit": "rebanada(s)",
+                "calories": 81,
+                "protein": 2.6999999999999997,
+                "carbs": 15,
+                "fats": 0.8999999999999999
+            },
+            {
+                "name": "Huevos",
+                "quantity": "2",
                 "unit": "unidad(es)",
-                "calories": 32,
-                "protein": 1.6,
-                "carbs": 3.2,
-                "fats": 1.28
+                "calories": 155,
+                "protein": 13,
+                "carbs": 1.1,
+                "fats": 11
+            },
+            {
+                "name": "Aguacate",
+                "quantity": "30",
+                "unit": "g",
+                "calories": 135,
+                "protein": 3,
+                "carbs": 4.5,
+                "fats": 12
+            },
+            {
+                "name": "Aceite de Oliva Virgen Extra",
+                "quantity": "5",
+                "unit": "g",
+                "calories": 44.2,
+                "protein": 0,
+                "carbs": 0,
+                "fats": 5
             }
         ],
-        "preparation": "1. Abrir el paquete de tortitas de legumbres. 2. Consumir directamente como snack crujiente. Son ideales para picar entre horas o como una alternativa más saludable a otros snacks procesados. Se pueden acompañar de hummus, guacamole o queso fresco si se desea algo más completo.",
-        "originalBaseRecipeId": "ext_tortitas_de_legumbres_mercadona",
+        "preparation": "1. Tostar el pan de centeno. 2. Cocinar los huevos al gusto (revueltos, pochados, a la plancha). 3. Machacar el aguacate sobre las tostadas y añadir aceite y especias.",
+        "originalBaseRecipeId": "des_tostada_de_centeno_con_huevo_y_aguacate",
+        "isSideDish": false,
+        "mealCategory": "desayuno"
+    },
+    "p3_comida_Ensalada_de_Pasta_mainOnly_idx1": {
+        "id": "p3_comida_Ensalada_de_Pasta_mainOnly_idx1",
+        "name": "Ensalada de Pasta con Pollo",
+        "calories": 595.2,
+        "protein": 53.6,
+        "carbs": 63,
+        "fats": 12.52,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afc47b91eb349463d47dd.png",
+        "ingredients": [
+            {
+                "name": "Pasta Integral",
+                "quantity": "60",
+                "unit": "g",
+                "calories": 219,
+                "protein": 7.199999999999999,
+                "carbs": 45,
+                "fats": 1.2
+            },
+            {
+                "name": "Canónigos",
+                "quantity": "60",
+                "unit": "g",
+                "calories": 18,
+                "protein": 1.2,
+                "carbs": 3,
+                "fats": 0.12
+            },
+            {
+                "name": "Tomate",
+                "quantity": "75",
+                "unit": "g",
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
+            },
+            {
+                "name": "Pimiento Rojo",
+                "quantity": "75",
+                "unit": "g",
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
+            },
+            {
+                "name": "Pimiento Verde",
+                "quantity": "75",
+                "unit": "g",
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
+            },
+            {
+                "name": "Cebolla",
+                "quantity": "75",
+                "unit": "g",
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
+            },
+            {
+                "name": "Pechuga de Pollo",
+                "quantity": "140",
+                "unit": "g",
+                "calories": 224,
+                "protein": 39.2,
+                "carbs": 0,
+                "fats": 5.6000000000000005
+            },
+            {
+                "name": "Aceite de Oliva Virgen Extra",
+                "quantity": "5",
+                "unit": "g",
+                "calories": 44.2,
+                "protein": 0,
+                "carbs": 0,
+                "fats": 5
+            }
+        ],
+        "preparation": "1. Cocer la pasta según las instrucciones del paquete. Escurrir, pasar por agua fría para detener la cocción y dejar enfriar. 2. Cocinar la pechuga de pollo (a la plancha, hervida o asada) y desmenuzarla o cortarla en dados. 3. Lavar los canónigos. Picar el tomate, pimiento rojo, pimiento verde y cebolla en trozos pequeños. 4. En un bol grande, combinar la pasta fría, el pollo, los canónigos y las verduras picadas. 5. Aliñar con aceite de oliva virgen extra, vinagre o tu salsa para ensaladas favorita (ej. yogur, mostaza y miel). Salpimentar al gusto.",
+        "originalBaseRecipeId": "cc_ensalada_de_pasta_con_pollo",
+        "isSideDish": false,
+        "mealCategory": "comida_cena_completa"
+    },
+    "p3_cena_Fajitas_de_Pollo_mainOnly_idx2": {
+        "id": "p3_cena_Fajitas_de_Pollo_mainOnly_idx2",
+        "name": "Fajitas de Pollo y Verduras",
+        "calories": 634.4,
+        "protein": 55.2,
+        "carbs": 55,
+        "fats": 19,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afcef0ed50608b742ff33.png",
+        "ingredients": [
+            {
+                "name": "Pan de Fajita",
+                "quantity": "2",
+                "unit": "unidad(es)",
+                "calories": 216,
+                "protein": 7.199999999999999,
+                "carbs": 40,
+                "fats": 2.4
+            },
+            {
+                "name": "Tomate",
+                "quantity": "75",
+                "unit": "g",
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
+            },
+            {
+                "name": "Pimiento Rojo",
+                "quantity": "75",
+                "unit": "g",
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
+            },
+            {
+                "name": "Pimiento Verde",
+                "quantity": "75",
+                "unit": "g",
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
+            },
+            {
+                "name": "Cebolla",
+                "quantity": "75",
+                "unit": "g",
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
+            },
+            {
+                "name": "Pechuga de Pollo",
+                "quantity": "150",
+                "unit": "g",
+                "calories": 240,
+                "protein": 42.00000000000001,
+                "carbs": 0,
+                "fats": 6
+            },
+            {
+                "name": "Aceite de Oliva Virgen Extra",
+                "quantity": "10",
+                "unit": "g",
+                "calories": 88.4,
+                "protein": 0,
+                "carbs": 0,
+                "fats": 10
+            }
+        ],
+        "preparation": "1. Cortar la pechuga de pollo en tiras finas. Cortar el pimiento rojo, pimiento Verde y cebolla en juliana. Picar el tomate en dados pequeños. 2. Calentar un poco de aceite en una sartén grande. Saltear el pollo hasta que esté dorado y cocido. Retirar y reservar. 3. En la misma sartén, añadir un poco más de aceite si es necesario y saltear las verduras (pimientos y cebolla) hasta que estén tiernas pero crujientes. 4. Volver a añadir el pollo a la sartén con las verduras. Sazonar con especias para fajitas (opcional) o sal y pimienta. Mezclar bien. 5. Calentar las tortillas de fajita según las instrucciones del paquete. 6. Rellenar las tortillas con la mezcla de pollo y verduras, y añadir el tomate fresco picado por encima. Opcional: servir con guacamole, crema agria o salsa.",
+        "originalBaseRecipeId": "cc_fajitas_de_pollo_y_verduras",
+        "isSideDish": false,
+        "mealCategory": "comida_cena_completa"
+    },
+    "p3_extra_Yogur_Protico_Sabores_mainOnly_idx3": {
+        "id": "p3_extra_Yogur_Protico_Sabores_mainOnly_idx3",
+        "name": "Yogur Protéico (Sabores, Natural...)",
+        "calories": 125,
+        "protein": 6.25,
+        "carbs": 12.5,
+        "fats": 5,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd789b8ed38b127cbc09.png",
+        "ingredients": [
+            {
+                "name": "Yogur Protéico",
+                "quantity": "1",
+                "unit": "unidad(es)",
+                "calories": 125,
+                "protein": 6.25,
+                "carbs": 12.5,
+                "fats": 5
+            }
+        ],
+        "preparation": "1. Seleccionar el yogur proteico de preferencia (natural o con sabores). 2. Abrir el envase. 3. Consumir directamente con una cuchara. Opcional: se puede acompañar de frutas frescas troceadas, frutos secos, semillas o un poco de miel o edulcorante si es natural y se desea endulzar.",
+        "originalBaseRecipeId": "ext_yogur_protico_sabores_natural",
+        "isSideDish": false,
+        "mealCategory": "extra"
+    },
+    "p3_extra_Fruta_Ctrica_Mandarina_mainOnly_idx4": {
+        "id": "p3_extra_Fruta_Ctrica_Mandarina_mainOnly_idx4",
+        "name": "Fruta Cítrica (Mandarina, Kiwi, Naranja...)",
+        "calories": 45,
+        "protein": 0.375,
+        "carbs": 11.25,
+        "fats": 0.15,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd3d0ed506305442ffe4.png",
+        "ingredients": [
+            {
+                "name": "Kiwi",
+                "quantity": "1",
+                "unit": "unidad(es)",
+                "calories": 45,
+                "protein": 0.375,
+                "carbs": 11.25,
+                "fats": 0.15
+            }
+        ],
+        "preparation": "1. Seleccionar la fruta cítrica de preferencia (mandarina, kiwi, naranja, pomelo, etc.). 2. Lavar bien la fruta bajo el grifo. 3. Para mandarinas y naranjas: pelar la piel con las manos o con ayuda de un cuchillo. Separar los gajos si se desea. 4. Para kiwis: cortar por la mitad y comer la pulpa con una cucharita, o pelar con un cuchillo y cortar en rodajas. 5. Para pomelos: cortar por la mitad y extraer los gajos, o comer con cuchara. Consumir directamente.",
+        "originalBaseRecipeId": "ext_fruta_ctrica_mandarina_kiwi_naranja",
         "isSideDish": false,
         "mealCategory": "extra"
     }
@@ -790,8 +1021,29 @@ const dailyMenus = [
       "p2_cena_Wok_de_Verduras_mainOnly_idx3"
     ],
     "extra": [
-      "p2_extra_Yogur_Protico_Sabores_mainOnly_idx4",
-      "p2_extra_Tortitas_de_Legumbres_mainOnly_idx5"
+      "p2_extra_Yogur_Protico_Sabores_mainOnly_idx4"
+    ]
+  },
+  {
+    "name": "ENTRENO 2",
+    "targetMacros": {
+      "calories": 1800,
+      "protein": 150,
+      "carbs": 150
+    },
+    "useCustomMacros": true,
+    "desayuno": [
+      "p3_desayuno_Tostada_de_Centeno_mainOnly_idx0"
+    ],
+    "comida": [
+      "p3_comida_Ensalada_de_Pasta_mainOnly_idx1"
+    ],
+    "cena": [
+      "p3_cena_Fajitas_de_Pollo_mainOnly_idx2"
+    ],
+    "extra": [
+      "p3_extra_Yogur_Protico_Sabores_mainOnly_idx3",
+      "p3_extra_Fruta_Ctrica_Mandarina_mainOnly_idx4"
     ]
   }
 ];
@@ -800,3 +1052,4 @@ const dailyMenus = [
 // Plan: LIBRE 1, Calorías Objetivo: 1800, Proteínas Objetivo: 150, Carbohidratos Objetivo: 150
 // Plan: ENTRENO, Calorías Objetivo: 1800, Proteínas Objetivo: 150, Carbohidratos Objetivo: 150
 // Plan: LIBRE 2, Calorías Objetivo: 1800, Proteínas Objetivo: 150, Carbohidratos Objetivo: 150
+// Plan: ENTRENO 2, Calorías Objetivo: 1800, Proteínas Objetivo: 150, Carbohidratos Objetivo: 150
