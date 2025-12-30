@@ -703,6 +703,234 @@ const foodDatabase = {
         "originalBaseRecipeId": "ext_yogur_protico_sabores_natural",
         "isSideDish": false,
         "mealCategory": "extra"
+    },
+    "p3_desayuno_Tostada_de_Centeno_mainOnly_idx0": {
+        "id": "p3_desayuno_Tostada_de_Centeno_mainOnly_idx0",
+        "name": "Tostada de Centeno con Huevo y Aguacate",
+        "calories": 415.2,
+        "protein": 18.7,
+        "carbs": 20.6,
+        "fats": 28.9,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687a695da648331355d3b0b2.png",
+        "ingredients": [
+            {
+                "name": "Tostada de Pan de Centeno",
+                "quantity": "1",
+                "unit": "rebanada(s)",
+                "calories": 81,
+                "protein": 2.6999999999999997,
+                "carbs": 15,
+                "fats": 0.8999999999999999
+            },
+            {
+                "name": "Huevos",
+                "quantity": "2",
+                "unit": "unidad(es)",
+                "calories": 155,
+                "protein": 13,
+                "carbs": 1.1,
+                "fats": 11
+            },
+            {
+                "name": "Aguacate",
+                "quantity": "30",
+                "unit": "g",
+                "calories": 135,
+                "protein": 3,
+                "carbs": 4.5,
+                "fats": 12
+            },
+            {
+                "name": "Aceite de Oliva Virgen Extra",
+                "quantity": "5",
+                "unit": "g",
+                "calories": 44.2,
+                "protein": 0,
+                "carbs": 0,
+                "fats": 5
+            }
+        ],
+        "preparation": "1. Tostar el pan de centeno. 2. Cocinar los huevos al gusto (revueltos, pochados, a la plancha). 3. Machacar el aguacate sobre las tostadas y añadir aceite y especias.",
+        "originalBaseRecipeId": "des_tostada_de_centeno_con_huevo_y_aguacate",
+        "isSideDish": false,
+        "mealCategory": "desayuno"
+    },
+    "p3_comida_Ensala_de_Patata_mainOnly_idx1": {
+        "id": "p3_comida_Ensala_de_Patata_mainOnly_idx1",
+        "name": "Ensala de Patata, Atún y Huevo",
+        "calories": 510,
+        "protein": 52.00000000000001,
+        "carbs": 55,
+        "fats": 6.8,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afc08b91eb31afe3d4796.png",
+        "ingredients": [
+            {
+                "name": "Patata",
+                "quantity": "200",
+                "unit": "g",
+                "calories": 180,
+                "protein": 4,
+                "carbs": 40,
+                "fats": 0.2
+            },
+            {
+                "name": "Pimiento Verde",
+                "quantity": "75",
+                "unit": "g",
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
+            },
+            {
+                "name": "Pimiento Rojo",
+                "quantity": "75",
+                "unit": "g",
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
+            },
+            {
+                "name": "Cebolla",
+                "quantity": "75",
+                "unit": "g",
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
+            },
+            {
+                "name": "Tomate",
+                "quantity": "75",
+                "unit": "g",
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
+            },
+            {
+                "name": "Atún en Conserva",
+                "quantity": "150",
+                "unit": "g",
+                "calories": 240,
+                "protein": 42.00000000000001,
+                "carbs": 0,
+                "fats": 6
+            }
+        ],
+        "preparation": "1. Cocer las patatas con piel en agua con sal hasta que estén tiernas (unos 20-25 minutos). Dejar enfriar, pelar y cortar en dados. 2. Cocer los huevos en agua hirviendo durante 10 minutos. Dejar enfriar, pelar y cortar en rodajas o trozos. 3. Picar finamente el pimiento verde, pimiento rojo, cebolla y tomate. 4. En un bol grande, mezclar las patatas, los huevos, las verduras picadas, el maíz dulce (escurrido) y el atún (escurrido y desmenuzado). 5. Aliñar con aceite de oliva virgen extra, vinagre y sal al gusto. Mezclar con cuidado.",
+        "originalBaseRecipeId": "cc_ensala_de_patata_atn_y_huevo",
+        "isSideDish": false,
+        "mealCategory": "comida_cena_completa"
+    },
+    "p3_cena_Sopa_de_Galets_mainOnly_idx2": {
+        "id": "p3_cena_Sopa_de_Galets_mainOnly_idx2",
+        "name": "Sopa de Galets y Pelota de carne de Vacuno",
+        "calories": 528,
+        "protein": 36.599999999999994,
+        "carbs": 52.5,
+        "fats": 18.3,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6922d159995c4b0151a32409.png",
+        "ingredients": [
+            {
+                "name": "Galets",
+                "quantity": "60",
+                "unit": "g",
+                "calories": 219,
+                "protein": 7.199999999999999,
+                "carbs": 45,
+                "fats": 1.2
+            },
+            {
+                "name": "Carne Picada de Vacuno",
+                "quantity": "120",
+                "unit": "g",
+                "calories": 264,
+                "protein": 26.4,
+                "carbs": 0,
+                "fats": 16.8
+            },
+            {
+                "name": "Caldo de Carne",
+                "quantity": "150",
+                "unit": "g",
+                "calories": 45,
+                "protein": 3,
+                "carbs": 7.5,
+                "fats": 0.3
+            }
+        ],
+        "preparation": "1. Mezclar la carne picada con el huevo, un poco de pan rallado, ajo y perejil para formar las pelotas. 2. Poner el caldo de carne a hervir. 3. Cuando hierva, añadir las pelotas y los galets. 4. Cocinar a fuego medio durante 15-20 minutos hasta que la pasta esté lista y la carne cocida.",
+        "originalBaseRecipeId": "cc_sopa_de_galets_y_pelota_de_carne_de_vacuno",
+        "isSideDish": false,
+        "mealCategory": "comida_cena_completa"
+    },
+    "p3_extra_Queso_Fresco_Batido_mainOnly_idx3": {
+        "id": "p3_extra_Queso_Fresco_Batido_mainOnly_idx3",
+        "name": "Queso Fresco Batido con Frutos Rojos y Miel",
+        "calories": 165,
+        "protein": 15.75,
+        "carbs": 13.5,
+        "fats": 5.5,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6879302d02da47667d446b43.png",
+        "ingredients": [
+            {
+                "name": "Queso Fresco Batido",
+                "quantity": "1",
+                "unit": "unidad(es)",
+                "calories": 125,
+                "protein": 15,
+                "carbs": 5,
+                "fats": 5
+            },
+            {
+                "name": "Frutos Rojos",
+                "quantity": "50",
+                "unit": "g",
+                "calories": 30,
+                "protein": 0.25,
+                "carbs": 7.5,
+                "fats": 0.1
+            },
+            {
+                "name": "Miel Cruda",
+                "quantity": "10",
+                "unit": "g",
+                "calories": 10,
+                "protein": 0.5,
+                "carbs": 1,
+                "fats": 0.4
+            }
+        ],
+        "preparation": "1. En un bol, verter el queso fresco. 2. Añadir los frutos rojos frescos o descongelados. 3. Echar la cantidad de miel acordada por encima.",
+        "originalBaseRecipeId": "ext_queso_fresco_batido_con_frutos_rojos_y_miel",
+        "isSideDish": false,
+        "mealCategory": "extra"
+    },
+    "p3_extra_Fruta_Densa_Pltano_mainOnly_idx4": {
+        "id": "p3_extra_Fruta_Densa_Pltano_mainOnly_idx4",
+        "name": "Fruta Densa (Plátano, Manzana)",
+        "calories": 90,
+        "protein": 0.75,
+        "carbs": 22.5,
+        "fats": 0.3,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe4bb91eb325b93d4a82.png",
+        "ingredients": [
+            {
+                "name": "Manzana",
+                "quantity": "1",
+                "unit": "unidad(es)",
+                "calories": 90,
+                "protein": 0.75,
+                "carbs": 22.5,
+                "fats": 0.3
+            }
+        ],
+        "preparation": "1. Seleccionar la fruta densa de preferencia (plátano, manzana, pera, etc.). 2. Para plátanos: pelar la piel y consumir directamente. 3. Para manzanas o peras: lavar bien la fruta. Se puede consumir con piel (rica en fibra) o pelada, según preferencia. Se puede comer entera a mordiscos o cortada en trozos.",
+        "originalBaseRecipeId": "ext_fruta_densa_pltano_manzana",
+        "isSideDish": false,
+        "mealCategory": "extra"
     }
 };
 
@@ -772,6 +1000,28 @@ const dailyMenus = [
     "extra": [
       "p2_extra_Yogur_Protico_Sabores_mainOnly_idx3"
     ]
+  },
+  {
+    "name": "ENTRENO 2",
+    "targetMacros": {
+      "calories": 2000,
+      "protein": 150,
+      "carbs": 200
+    },
+    "useCustomMacros": true,
+    "desayuno": [
+      "p3_desayuno_Tostada_de_Centeno_mainOnly_idx0"
+    ],
+    "comida": [
+      "p3_comida_Ensala_de_Patata_mainOnly_idx1"
+    ],
+    "cena": [
+      "p3_cena_Sopa_de_Galets_mainOnly_idx2"
+    ],
+    "extra": [
+      "p3_extra_Queso_Fresco_Batido_mainOnly_idx3",
+      "p3_extra_Fruta_Densa_Pltano_mainOnly_idx4"
+    ]
   }
 ];
 
@@ -779,3 +1029,4 @@ const dailyMenus = [
 // Plan: ENTRENO, Calorías Objetivo: 2000, Proteínas Objetivo: 150, Carbohidratos Objetivo: 200
 // Plan: Libre 1, Calorías Objetivo: 2000, Proteínas Objetivo: 160, Carbohidratos Objetivo: 200
 // Plan: Libre 2, Calorías Objetivo: 2000, Proteínas Objetivo: 160, Carbohidratos Objetivo: 200
+// Plan: ENTRENO 2, Calorías Objetivo: 2000, Proteínas Objetivo: 150, Carbohidratos Objetivo: 200
