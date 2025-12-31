@@ -245,45 +245,45 @@ const foodDatabase = {
         "isSideDish": false,
         "mealCategory": "extra"
     },
-    "p1_desayuno_Yogurt_Protico_con_mainOnly_idx0": {
-        "id": "p1_desayuno_Yogurt_Protico_con_mainOnly_idx0",
-        "name": "Yogurt Protéico con Frutos Rojos y Secos",
-        "calories": 427,
-        "protein": 15.85,
-        "carbs": 40,
-        "fats": 22.14,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afea2b91eb35e413d4ab6.png",
+    "p1_desayuno_Tostada_de_Pan_mainOnly_idx0": {
+        "id": "p1_desayuno_Tostada_de_Pan_mainOnly_idx0",
+        "name": "Tostada de Pan de Centeno con Revuelto de Huevos y Jamón York",
+        "calories": 296.5,
+        "protein": 18.799999999999997,
+        "carbs": 16.75,
+        "fats": 17.2,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687d09e04d6fb7f271b84cc9.png",
         "ingredients": [
             {
-                "name": "Yogur Protéico",
-                "quantity": "2",
+                "name": "Tostada de Pan de Centeno",
+                "quantity": "1",
+                "unit": "rebanada(s)",
+                "calories": 81,
+                "protein": 2.6999999999999997,
+                "carbs": 15,
+                "fats": 0.8999999999999999
+            },
+            {
+                "name": "Huevos",
+                "quantity": "1",
                 "unit": "unidad(es)",
-                "calories": 250,
-                "protein": 12.5,
-                "carbs": 25,
-                "fats": 10
+                "calories": 77.5,
+                "protein": 6.5,
+                "carbs": 0.55,
+                "fats": 5.5
             },
             {
-                "name": "Frutos Rojos",
-                "quantity": "70",
+                "name": "Jamón York",
+                "quantity": "60",
                 "unit": "g",
-                "calories": 42,
-                "protein": 0.35000000000000003,
-                "carbs": 10.5,
-                "fats": 0.14
-            },
-            {
-                "name": "Frutos Secos",
-                "quantity": "30",
-                "unit": "g",
-                "calories": 135,
-                "protein": 3,
-                "carbs": 4.5,
-                "fats": 12
+                "calories": 138,
+                "protein": 9.6,
+                "carbs": 1.2,
+                "fats": 10.799999999999999
             }
         ],
-        "preparation": "1. En un bol, verter el yogur proteico. 2. Añadir los frutos rojos frescos o descongelados. 3. Espolvorear con los frutos secos troceados por encima. Servir inmediatamente.",
-        "originalBaseRecipeId": "des_yogurt_protico_con_frutos_rojos_y_secos",
+        "preparation": "1. Tostar el pan de centeno. 2. Preparar un revuelto de huevos con taquitos de jamón york. 3. Servir el revuelto sobre la tostada.",
+        "originalBaseRecipeId": "des_tostada_de_pan_de_centeno_con_revuelto_de_huevos_y_jamn_york",
         "isSideDish": false,
         "mealCategory": "desayuno"
     },
@@ -758,45 +758,54 @@ const foodDatabase = {
         "isSideDish": false,
         "mealCategory": "extra"
     },
-    "p3_desayuno_Porridge_de_Avena_mainOnly_idx0": {
-        "id": "p3_desayuno_Porridge_de_Avena_mainOnly_idx0",
-        "name": "Porridge de Avena y Frutos Rojos",
-        "calories": 349,
-        "protein": 12.45,
-        "carbs": 62.5,
-        "fats": 5.3,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afdf19b8ed348797cbcd8.png",
+    "p3_desayuno_Revuelto_de_Huevos_mainOnly_idx0": {
+        "id": "p3_desayuno_Revuelto_de_Huevos_mainOnly_idx0",
+        "name": "Revuelto de Huevos y Claras con Jamón",
+        "calories": 349.2,
+        "protein": 27.000000000000004,
+        "carbs": 1.54,
+        "fats": 26,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682ad5e1e819fcb589a8a30e.png",
         "ingredients": [
             {
-                "name": "Copos de Avena",
-                "quantity": "60",
-                "unit": "g",
-                "calories": 219,
-                "protein": 7.199999999999999,
-                "carbs": 45,
-                "fats": 1.2
+                "name": "Huevos",
+                "quantity": "1",
+                "unit": "unidad(es)",
+                "calories": 77.5,
+                "protein": 6.5,
+                "carbs": 0.55,
+                "fats": 5.5
             },
             {
-                "name": "Leche",
-                "quantity": "100",
-                "unit": "g",
-                "calories": 100,
-                "protein": 5,
-                "carbs": 10,
-                "fats": 4
+                "name": "Claras de Huevo",
+                "quantity": "3",
+                "unit": "unidad(es)",
+                "calories": 139.5,
+                "protein": 11.700000000000001,
+                "carbs": 0.9900000000000001,
+                "fats": 9.9
             },
             {
-                "name": "Frutos Rojos",
-                "quantity": "50",
+                "name": "Jamón Serrano",
+                "quantity": "40",
                 "unit": "g",
-                "calories": 30,
-                "protein": 0.25,
-                "carbs": 7.5,
-                "fats": 0.1
+                "calories": 88,
+                "protein": 8.8,
+                "carbs": 0,
+                "fats": 5.6000000000000005
+            },
+            {
+                "name": "Aceite de Oliva Virgen Extra",
+                "quantity": "5",
+                "unit": "g",
+                "calories": 44.2,
+                "protein": 0,
+                "carbs": 0,
+                "fats": 5
             }
         ],
-        "preparation": "1. En un cazo, cocinar los copos de avena con la leche o bebida vegetal a fuego medio, removiendo constantemente hasta que espese y la avena esté cocida (unos 5-7 minutos). 2. Servir caliente en un bol con los frutos rojos por encima. Opcional: añadir canela o edulcorante al gusto.",
-        "originalBaseRecipeId": "des_porridge_de_avena_y_frutos_rojos",
+        "preparation": "1. Batir los huevos y las claras. 2. Cortar el jamón en taquitos o tiras. 3. Saltear ligeramente el jamón en una sartén con una pizca de aceite (opcional). 4. Verter la mezcla de huevo y remover constantemente a fuego medio-bajo hasta que cuaje al gusto.",
+        "originalBaseRecipeId": "des_revuelto_de_huevos_y_claras_con_jamn",
         "isSideDish": false,
         "mealCategory": "desayuno"
     },
@@ -1015,7 +1024,7 @@ const dailyMenus = [
     },
     "useCustomMacros": true,
     "desayuno": [
-      "p1_desayuno_Yogurt_Protico_con_mainOnly_idx0"
+      "p1_desayuno_Tostada_de_Pan_mainOnly_idx0"
     ],
     "comida": [
       "p1_comida_Ensalada_de_garbanzos_mainOnly_idx1",
@@ -1061,7 +1070,7 @@ const dailyMenus = [
     },
     "useCustomMacros": true,
     "desayuno": [
-      "p3_desayuno_Porridge_de_Avena_mainOnly_idx0"
+      "p3_desayuno_Revuelto_de_Huevos_mainOnly_idx0"
     ],
     "comida": [
       "p3_comida_Poke_de_aguacate_mainOnly_idx1"
