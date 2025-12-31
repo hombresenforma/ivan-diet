@@ -2,176 +2,101 @@
 // La variable 'foodCategories' no se incluye aquí ya que se importa desde la app.
 
 const foodDatabase = {
-    "p0_desayuno_Sandwich_Vegetal_de_mainOnly_idx0": {
-        "id": "p0_desayuno_Sandwich_Vegetal_de_mainOnly_idx0",
-        "name": "Sandwich Vegetal de Jamón York",
-        "calories": 437,
-        "protein": 24.4,
-        "carbs": 39.5,
-        "fats": 20.1,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cd5829b0c67f95e9a8e7e.png",
+    "p0_desayuno_Porridge_de_Avena_mainOnly_idx0": {
+        "id": "p0_desayuno_Porridge_de_Avena_mainOnly_idx0",
+        "name": "Porridge de Avena y Frutos Rojos",
+        "calories": 385.5,
+        "protein": 13.65,
+        "carbs": 70,
+        "fats": 5.5,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afdf19b8ed348797cbcd8.png",
         "ingredients": [
             {
-                "name": "Pan de Centeno",
-                "quantity": "2",
-                "unit": "rebanada(s)",
-                "calories": 162,
-                "protein": 5.3999999999999995,
-                "carbs": 30,
-                "fats": 1.7999999999999998
+                "name": "Copos de Avena",
+                "quantity": "70",
+                "unit": "g",
+                "calories": 255.5,
+                "protein": 8.4,
+                "carbs": 52.5,
+                "fats": 1.4000000000000001
             },
             {
-                "name": "Jamón York",
+                "name": "Leche",
                 "quantity": "100",
                 "unit": "g",
-                "calories": 229.99999999999997,
-                "protein": 16,
-                "carbs": 2,
-                "fats": 18
-            },
-            {
-                "name": "Tomate",
-                "quantity": "100",
-                "unit": "g",
-                "calories": 30,
-                "protein": 2,
-                "carbs": 5,
-                "fats": 0.2
-            },
-            {
-                "name": "Lechuga",
-                "quantity": "50",
-                "unit": "g",
-                "calories": 15,
-                "protein": 1,
-                "carbs": 2.5,
-                "fats": 0.1
-            }
-        ],
-        "preparation": "1. Prepara un bocadillo con un par de rebanadas de Pan de Centeno. 2. Añade el Pavo o Jamón York y opcionalmente tomate y lechuga.",
-        "originalBaseRecipeId": "des_sandwich_vegetal_de_jamn_york",
-        "isSideDish": false,
-        "mealCategory": "desayuno"
-    },
-    "p0_comida_Ensalada_de_Lentejas_mainOnly_idx1": {
-        "id": "p0_comida_Ensalada_de_Lentejas_mainOnly_idx1",
-        "name": "Ensalada de Lentejas",
-        "calories": 575,
-        "protein": 37.4,
-        "carbs": 63.3,
-        "fats": 18.2,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682aff5a365e949c0a73d706.png",
-        "ingredients": [
-            {
-                "name": "Lentejas Cocidas",
-                "quantity": "200",
-                "unit": "g",
-                "calories": 260,
-                "protein": 16,
-                "carbs": 44,
-                "fats": 1
-            },
-            {
-                "name": "Tomate",
-                "quantity": "100",
-                "unit": "g",
-                "calories": 30,
-                "protein": 2,
-                "carbs": 5,
-                "fats": 0.2
-            },
-            {
-                "name": "Cebolla",
-                "quantity": "100",
-                "unit": "g",
-                "calories": 30,
-                "protein": 2,
-                "carbs": 5,
-                "fats": 0.2
-            },
-            {
-                "name": "Queso de Burgos 0%",
-                "quantity": "120",
-                "unit": "g",
-                "calories": 120,
-                "protein": 14.399999999999999,
-                "carbs": 4.8,
-                "fats": 4.8
-            },
-            {
-                "name": "Aguacate",
-                "quantity": "30",
-                "unit": "g",
-                "calories": 135,
-                "protein": 3,
-                "carbs": 4.5,
-                "fats": 12
-            }
-        ],
-        "preparation": "1. Si usas lentejas de bote, enjuagarlas bien bajo el grifo y escurrirlas. Si las cocinas, déjalas enfriar. 2. Picar el tomate y la cebolla (preferiblemente morada) en dados pequeños. Cortar el queso de Burgos 0% y el aguacate en dados. 3. En un bol grande, mezclar con cuidado las lentejas, el tomate, la cebolla, el queso de Burgos y el aguacate. 4. Aliñar con aceite de oliva virgen extra, vinagre (de manzana o Jerez) y sal al gusto. Opcional: añadir cilantro fresco picado o comino molido para un toque diferente.",
-        "originalBaseRecipeId": "pp_ensalada_de_lentejas",
-        "isSideDish": false,
-        "mealCategory": "plato_principal"
-    },
-    "p0_comida_Pechuga_de_Pavo_side_idx2": {
-        "id": "p0_comida_Pechuga_de_Pavo_side_idx2",
-        "name": "Pechuga de Pavo a la Plancha",
-        "calories": 248.4,
-        "protein": 28.000000000000004,
-        "carbs": 0,
-        "fats": 14,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684f003ef6c48dfc43a5bdb3.png",
-        "ingredients": [
-            {
-                "name": "Pechuga de Pavo",
-                "quantity": "100",
-                "unit": "g",
-                "calories": 160,
-                "protein": 28.000000000000004,
-                "carbs": 0,
+                "calories": 100,
+                "protein": 5,
+                "carbs": 10,
                 "fats": 4
             },
             {
-                "name": "Aceite de Oliva Virgen Extra",
-                "quantity": "10",
-                "unit": "g",
-                "calories": 88.4,
-                "protein": 0,
-                "carbs": 0,
-                "fats": 10
-            }
-        ],
-        "preparation": "1. Si los filetes de pechuga de pavo son muy gruesos, se pueden abrir tipo libro o golpear ligeramente para que tengan un grosor más uniforme y se cocinen mejor. 2. Sazonar los filetes de pavo con sal, pimienta y tus especias favoritas (ej. orégano, pimentón dulce, curry en polvo, hierbas provenzales). 3. Calentar una plancha o sartén antiadherente a fuego medio-alto con una gota de aceite de oliva. 4. Cocinar la pechuga de pavo durante unos 3-4 minutos por cada lado, o hasta que esté dorada por fuera y completamente cocida por dentro (sin partes rosadas). El tiempo exacto dependerá del grosor.",
-        "originalBaseRecipeId": "ac_pechuga_de_pavo_a_la_plancha",
-        "isSideDish": true,
-        "mealCategory": "acompanamiento"
-    },
-    "p0_cena_Calabacn_con_Cebolla_mainOnly_idx3": {
-        "id": "p0_cena_Calabacn_con_Cebolla_mainOnly_idx3",
-        "name": "Calabacín con Cebolla a la Plancha",
-        "calories": 148.4,
-        "protein": 4,
-        "carbs": 10,
-        "fats": 10.4,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afc8e9b8ed35d8e7cbb0e.png",
-        "ingredients": [
-            {
-                "name": "Calabacín",
-                "quantity": "100",
+                "name": "Frutos Rojos",
+                "quantity": "50",
                 "unit": "g",
                 "calories": 30,
-                "protein": 2,
-                "carbs": 5,
-                "fats": 0.2
+                "protein": 0.25,
+                "carbs": 7.5,
+                "fats": 0.1
+            }
+        ],
+        "preparation": "1. En un cazo, cocinar los copos de avena con la leche o bebida vegetal a fuego medio, removiendo constantemente hasta que espese y la avena esté cocida (unos 5-7 minutos). 2. Servir caliente en un bol con los frutos rojos por encima. Opcional: añadir canela o edulcorante al gusto.",
+        "originalBaseRecipeId": "des_porridge_de_avena_y_frutos_rojos",
+        "isSideDish": false,
+        "mealCategory": "desayuno"
+    },
+    "p0_comida_Pasta_de_lentejas_mainOnly_idx1": {
+        "id": "p0_comida_Pasta_de_lentejas_mainOnly_idx1",
+        "name": "Pasta de lentejas con sofrito de ternera y cerdo",
+        "calories": 680.9,
+        "protein": 49.5,
+        "carbs": 44.25,
+        "fats": 32.2,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684efc77653a2c50f9172c7c.png",
+        "ingredients": [
+            {
+                "name": "Pasta de Lentejas",
+                "quantity": "150",
+                "unit": "g",
+                "calories": 195,
+                "protein": 12,
+                "carbs": 33,
+                "fats": 0.75
+            },
+            {
+                "name": "Carne Picada Mixta (Ternera y Cerdo)",
+                "quantity": "150",
+                "unit": "g",
+                "calories": 330,
+                "protein": 33,
+                "carbs": 0,
+                "fats": 21.000000000000004
+            },
+            {
+                "name": "Calabacín",
+                "quantity": "75",
+                "unit": "g",
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
             },
             {
                 "name": "Cebolla",
-                "quantity": "100",
+                "quantity": "75",
                 "unit": "g",
-                "calories": 30,
-                "protein": 2,
-                "carbs": 5,
-                "fats": 0.2
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
+            },
+            {
+                "name": "Zanahoria",
+                "quantity": "75",
+                "unit": "g",
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
             },
             {
                 "name": "Aceite de Oliva Virgen Extra",
@@ -183,85 +108,103 @@ const foodDatabase = {
                 "fats": 10
             }
         ],
-        "preparation": "1. Lavar el calabacín y cortarlo en rodajas de aproximadamente 0.5 a 1 cm de grosor. Pelar y cortar la cebolla en juliana o rodajas. 2. Calentar una plancha o sartén grande con un chorrito de aceite de oliva a fuego medio-alto. 3. Colocar las rodajas de calabacín y la cebolla sobre la plancha caliente. Cocinar durante 3-5 minutos por cada lado, o hasta que estén tiernos y presenten marcas doradas de la plancha. 4. Sazonar con sal, pimienta y opcionalmente un poco de ajo en polvo u orégano durante la cocción o al final.",
-        "originalBaseRecipeId": "pp_calabacn_con_cebolla_a_la_plancha",
+        "preparation": "1. Cocinar la pasta de lentejas según las instrucciones del paquete hasta que esté al dente. Escurrir y reservar. 2. Picar finamente la cebolla y la zanahoria. Rallar o picar el calabacín en dados pequeños. 3. En una sartén grande, calentar un poco de aceite de oliva y sofreír la cebolla y zanahoria hasta que estén blandas. 4. Añadir la carne picada mixta (ternera y cerdo) y cocinar a fuego medio-alto, deshaciendo los grumos con una cuchara, hasta que se dore. 5. Incorporar el calabacín y cocinar unos minutos más hasta que esté tierno. Añadir salsa de tomate (opcional, o tomate triturado natural) y sazonar al gusto con sal, pimienta, orégano o albahaca. Cocinar a fuego lento durante 10-15 minutos para que se integren los sabores. 6. Mezclar la pasta de lentejas escurrida con el sofrito. Servir caliente, opcionalmente con queso parmesano rallado.",
+        "originalBaseRecipeId": "cc_pasta_de_lentejas_con_sofrito_de_ternera_y_cerdo",
         "isSideDish": false,
-        "mealCategory": "plato_principal"
+        "mealCategory": "comida_cena_completa"
     },
-    "p0_cena_Revuelto_de_Huevos_side_idx4": {
-        "id": "p0_cena_Revuelto_de_Huevos_side_idx4",
-        "name": "Revuelto de Huevos con Espárragos Trigueros",
-        "calories": 249.2,
-        "protein": 15.5,
-        "carbs": 6.1,
-        "fats": 18,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684f019a532eaa9f6977a78c.png",
+    "p0_cena_Falso_Risotto_de_mainOnly_idx2": {
+        "id": "p0_cena_Falso_Risotto_de_mainOnly_idx2",
+        "name": "Falso Risotto de Coliflor con Pollo y Setas",
+        "calories": 433.4,
+        "protein": 49.00000000000001,
+        "carbs": 17.5,
+        "fats": 16.700000000000003,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6922cee78c174d4e6d420b9d.png",
         "ingredients": [
             {
-                "name": "Espárragos Trigueros",
-                "quantity": "50",
+                "name": "Coliflor",
+                "quantity": "200",
                 "unit": "g",
-                "calories": 50,
-                "protein": 2.5,
-                "carbs": 5,
-                "fats": 2
+                "calories": 60,
+                "protein": 4,
+                "carbs": 10,
+                "fats": 0.4
             },
             {
-                "name": "Huevos",
-                "quantity": "2",
-                "unit": "unidad(es)",
-                "calories": 155,
-                "protein": 13,
-                "carbs": 1.1,
-                "fats": 11
+                "name": "Pechuga de Pollo",
+                "quantity": "150",
+                "unit": "g",
+                "calories": 240,
+                "protein": 42.00000000000001,
+                "carbs": 0,
+                "fats": 6
+            },
+            {
+                "name": "Champiñones",
+                "quantity": "75",
+                "unit": "g",
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
+            },
+            {
+                "name": "Cebolla",
+                "quantity": "75",
+                "unit": "g",
+                "calories": 22.5,
+                "protein": 1.5,
+                "carbs": 3.75,
+                "fats": 0.15
             },
             {
                 "name": "Aceite de Oliva Virgen Extra",
-                "quantity": "5",
+                "quantity": "10",
                 "unit": "g",
-                "calories": 44.2,
+                "calories": 88.4,
                 "protein": 0,
                 "carbs": 0,
-                "fats": 5
+                "fats": 10
             }
         ],
-        "preparation": "1. Lavar los espárragos trigueros y cortar la parte inferior más dura del tallo. Trocear los espárragos en trozos de unos 2-3 cm. 2. Batir los huevos en un bol con una pizca de sal y pimienta. 3. Calentar un poco de aceite de oliva en una sartén a fuego medio. Añadir los espárragos troceados y saltear durante 3-5 minutos, o hasta que estén tiernos pero aún crujientes. 4. Verter los huevos batidos sobre los espárragos en la sartén. 5. Remover suavemente con una espátula, mezclando los huevos con los espárragos, hasta que los huevos estén cuajados al gusto. Servir caliente.",
-        "originalBaseRecipeId": "ac_revuelto_de_huevos_con_esprragos_trigueros",
-        "isSideDish": true,
-        "mealCategory": "acompanamiento"
+        "preparation": "1. Rallar la coliflor hasta que parezca arroz. 2. Saltear pollo y champiñones con cebolla. 3. Añadir la coliflor y saltear 5 min (no debe ablandarse demasiado). 4. Sazonar al gusto.",
+        "originalBaseRecipeId": "cc_falso_risotto_de_coliflor_con_pollo_y_setas",
+        "isSideDish": false,
+        "mealCategory": "comida_cena_completa"
     },
-    "p0_extra_Fruta_Densa_Pltano_mainOnly_idx5": {
-        "id": "p0_extra_Fruta_Densa_Pltano_mainOnly_idx5",
-        "name": "Fruta Densa (Plátano, Manzana)",
-        "calories": 72,
-        "protein": 0.6,
-        "carbs": 18,
-        "fats": 0.24,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe4bb91eb325b93d4a82.png",
+    "p0_extra_Fruta_Ctrica_Mandarina_mainOnly_idx3": {
+        "id": "p0_extra_Fruta_Ctrica_Mandarina_mainOnly_idx3",
+        "name": "Fruta Cítrica (Mandarina, Kiwi, Naranja...)",
+        "calories": 45,
+        "protein": 0.375,
+        "carbs": 11.25,
+        "fats": 0.15,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd3d0ed506305442ffe4.png",
         "ingredients": [
             {
-                "name": "Plátano",
+                "name": "Kiwi",
                 "quantity": "1",
                 "unit": "unidad(es)",
-                "calories": 72,
-                "protein": 0.6,
-                "carbs": 18,
-                "fats": 0.24
+                "calories": 45,
+                "protein": 0.375,
+                "carbs": 11.25,
+                "fats": 0.15
             }
         ],
-        "preparation": "1. Seleccionar la fruta densa de preferencia (plátano, manzana, pera, etc.). 2. Para plátanos: pelar la piel y consumir directamente. 3. Para manzanas o peras: lavar bien la fruta. Se puede consumir con piel (rica en fibra) o pelada, según preferencia. Se puede comer entera a mordiscos o cortada en trozos.",
-        "originalBaseRecipeId": "ext_fruta_densa_pltano_manzana",
+        "preparation": "1. Seleccionar la fruta cítrica de preferencia (mandarina, kiwi, naranja, pomelo, etc.). 2. Lavar bien la fruta bajo el grifo. 3. Para mandarinas y naranjas: pelar la piel con las manos o con ayuda de un cuchillo. Separar los gajos si se desea. 4. Para kiwis: cortar por la mitad y comer la pulpa con una cucharita, o pelar con un cuchillo y cortar en rodajas. 5. Para pomelos: cortar por la mitad y extraer los gajos, o comer con cuchara. Consumir directamente.",
+        "originalBaseRecipeId": "ext_fruta_ctrica_mandarina_kiwi_naranja",
         "isSideDish": false,
         "mealCategory": "extra"
     },
-    "p0_extra_Yogur_Protico_Sabores_mainOnly_idx6": {
-        "id": "p0_extra_Yogur_Protico_Sabores_mainOnly_idx6",
-        "name": "Yogur Protéico (Sabores, Natural...)",
-        "calories": 125,
-        "protein": 6.25,
-        "carbs": 12.5,
-        "fats": 5,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd789b8ed38b127cbc09.png",
+    "p0_extra_Yogur_Protico_con_mainOnly_idx4": {
+        "id": "p0_extra_Yogur_Protico_con_mainOnly_idx4",
+        "name": "Yogur Protéico con Frutos Rojos y Secos",
+        "calories": 245,
+        "protein": 8.5,
+        "carbs": 23,
+        "fats": 13.1,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afea2b91eb35e413d4ab6.png",
         "ingredients": [
             {
                 "name": "Yogur Protéico",
@@ -271,10 +214,28 @@ const foodDatabase = {
                 "protein": 6.25,
                 "carbs": 12.5,
                 "fats": 5
+            },
+            {
+                "name": "Frutos Rojos",
+                "quantity": "50",
+                "unit": "g",
+                "calories": 30,
+                "protein": 0.25,
+                "carbs": 7.5,
+                "fats": 0.1
+            },
+            {
+                "name": "Frutos Secos",
+                "quantity": "20",
+                "unit": "g",
+                "calories": 90,
+                "protein": 2,
+                "carbs": 3,
+                "fats": 8
             }
         ],
-        "preparation": "1. Seleccionar el yogur proteico de preferencia (natural o con sabores). 2. Abrir el envase. 3. Consumir directamente con una cuchara. Opcional: se puede acompañar de frutas frescas troceadas, frutos secos, semillas o un poco de miel o edulcorante si es natural y se desea endulzar.",
-        "originalBaseRecipeId": "ext_yogur_protico_sabores_natural",
+        "preparation": "1. En un bol, verter el yogur proteico. 2. Añadir los frutos rojos frescos o descongelados. 3. Espolvorear con los frutos secos troceados por encima. Servir inmediatamente.",
+        "originalBaseRecipeId": "ext_yogur_protico_con_frutos_rojos_y_secos",
         "isSideDish": false,
         "mealCategory": "extra"
     },
@@ -995,19 +956,17 @@ const dailyMenus = [
     },
     "useCustomMacros": true,
     "desayuno": [
-      "p0_desayuno_Sandwich_Vegetal_de_mainOnly_idx0"
+      "p0_desayuno_Porridge_de_Avena_mainOnly_idx0"
     ],
     "comida": [
-      "p0_comida_Ensalada_de_Lentejas_mainOnly_idx1",
-      "p0_comida_Pechuga_de_Pavo_side_idx2"
+      "p0_comida_Pasta_de_lentejas_mainOnly_idx1"
     ],
     "cena": [
-      "p0_cena_Calabacn_con_Cebolla_mainOnly_idx3",
-      "p0_cena_Revuelto_de_Huevos_side_idx4"
+      "p0_cena_Falso_Risotto_de_mainOnly_idx2"
     ],
     "extra": [
-      "p0_extra_Fruta_Densa_Pltano_mainOnly_idx5",
-      "p0_extra_Yogur_Protico_Sabores_mainOnly_idx6"
+      "p0_extra_Fruta_Ctrica_Mandarina_mainOnly_idx3",
+      "p0_extra_Yogur_Protico_con_mainOnly_idx4"
     ]
   },
   {
