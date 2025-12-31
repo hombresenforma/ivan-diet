@@ -53,59 +53,65 @@ const foodDatabase = {
         "isSideDish": false,
         "mealCategory": "desayuno"
     },
-    "p0_comida_Wok_de_Verduras_mainOnly_idx1": {
-        "id": "p0_comida_Wok_de_Verduras_mainOnly_idx1",
-        "name": "Wok de Verduras con Salmón",
-        "calories": 508.4,
-        "protein": 39,
-        "carbs": 15,
-        "fats": 31.600000000000005,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afda0b91eb330dd3d49b2.png",
+    "p0_comida_Juda_verde_con_mainOnly_idx1": {
+        "id": "p0_comida_Juda_verde_con_mainOnly_idx1",
+        "name": "Judía verde con patata y Zanahoria",
+        "calories": 232.5,
+        "protein": 7.5,
+        "carbs": 48.75,
+        "fats": 0.55,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cf5c1ddc9c1507857434b.png",
         "ingredients": [
             {
-                "name": "Tomate",
+                "name": "Judía Verde",
+                "quantity": "100",
+                "unit": "g",
+                "calories": 30,
+                "protein": 2,
+                "carbs": 5,
+                "fats": 0.2
+            },
+            {
+                "name": "Patata",
+                "quantity": "200",
+                "unit": "g",
+                "calories": 180,
+                "protein": 4,
+                "carbs": 40,
+                "fats": 0.2
+            },
+            {
+                "name": "Zanahoria",
                 "quantity": "75",
                 "unit": "g",
                 "calories": 22.5,
                 "protein": 1.5,
                 "carbs": 3.75,
                 "fats": 0.15
-            },
+            }
+        ],
+        "preparation": "1. Lavar y cortar las judías verdes, pelar y cortar las patatas y zanahorias. 2. Cocer todas las verduras en agua con sal hasta que estén tiernas. 3. Escurrir y servir. Aliñar con aceite de oliva virgen extra.",
+        "originalBaseRecipeId": "pp_juda_verde_con_patata_y_zanahoria",
+        "isSideDish": false,
+        "mealCategory": "plato_principal"
+    },
+    "p0_comida_Hamburguesa_de_PavoPollo_side_idx2": {
+        "id": "p0_comida_Hamburguesa_de_PavoPollo_side_idx2",
+        "name": "Hamburguesa de Pavo-Pollo",
+        "calories": 433.4,
+        "protein": 24,
+        "carbs": 3,
+        "fats": 37,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afcbc9b8ed3b6397cbb33.png",
+        "ingredients": [
             {
-                "name": "Pimiento Rojo",
-                "quantity": "75",
-                "unit": "g",
-                "calories": 22.5,
-                "protein": 1.5,
-                "carbs": 3.75,
-                "fats": 0.15
-            },
-            {
-                "name": "Pimiento Verde",
-                "quantity": "75",
-                "unit": "g",
-                "calories": 22.5,
-                "protein": 1.5,
-                "carbs": 3.75,
-                "fats": 0.15
-            },
-            {
-                "name": "Cebolla",
-                "quantity": "75",
-                "unit": "g",
-                "calories": 22.5,
-                "protein": 1.5,
-                "carbs": 3.75,
-                "fats": 0.15
-            },
-            {
-                "name": "Lomo de Salmón",
+                "name": "Hamburguesa de Pavo-Pollo",
                 "quantity": "150",
                 "unit": "g",
-                "calories": 330,
-                "protein": 33,
-                "carbs": 0,
-                "fats": 21.000000000000004
+                "calories": 345,
+                "protein": 24,
+                "carbs": 3,
+                "fats": 27
             },
             {
                 "name": "Aceite de Oliva Virgen Extra",
@@ -117,37 +123,37 @@ const foodDatabase = {
                 "fats": 10
             }
         ],
-        "preparation": "1. Cortar el salmón en dados de tamaño mediano. Picar el tomate, pimiento rojo, pimiento verde y cebolla en trozos adecuados para wok (ej. juliana gruesa o dados). 2. Calentar un wok o sartén grande con un poco de aceite a fuego alto. Saltear el salmón unos 2-3 minutos hasta que esté dorado por fuera pero ligeramente crudo por dentro. Retirar y reservar. 3. Añadir las verduras más duras (cebolla, pimientos) al wok y saltear durante 3-4 minutos. Luego añadir el tomate y saltear 1-2 minutos más. 4. Incorporar el salmón de nuevo al wok. Añadir salsa de soja (baja en sodio preferiblemente) y un toque de jengibre rallado o ajo picado (opcional). Mezclar bien y cocinar por 1-2 minutos más hasta que el salmón esté cocido y todo bien caliente. Servir inmediatamente, opcionalmente sobre una base de arroz o noodles.",
-        "originalBaseRecipeId": "cc_wok_de_verduras_con_salmn",
-        "isSideDish": false,
-        "mealCategory": "comida_cena_completa"
+        "preparation": "1. Si la hamburguesa es casera a partir de carne picada, sazonar la carne con sal, pimienta, ajo en polvo y perejil picado (opcional) y formar la hamburguesa. Si es comprada, ya está lista. 2. Calentar una plancha o sartén antiadherente a fuego medio-alto con una gota de aceite de oliva (opcional, si la sartén no es muy antiadherente). 3. Cocinar la hamburguesa durante 4-6 minutos por cada lado, o hasta que esté bien cocida por dentro (temperatura interna de 74°C o 165°F) y dorada por fuera. Evitar aplastarla para que no pierda jugosidad.",
+        "originalBaseRecipeId": "ac_hamburguesa_de_pavopollo",
+        "isSideDish": true,
+        "mealCategory": "acompanamiento"
     },
-    "p0_cena_Ensalada_de_Tomate_mainOnly_idx2": {
-        "id": "p0_cena_Ensalada_de_Tomate_mainOnly_idx2",
-        "name": "Ensalada de Tomate, Ajo y Cebolla",
-        "calories": 95,
-        "protein": 5.5,
-        "carbs": 12.5,
-        "fats": 2.3,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe199b8ed3c4d37cbd18.png",
+    "p0_cena_Ensalada_de_Tomate_mainOnly_idx3": {
+        "id": "p0_cena_Ensalada_de_Tomate_mainOnly_idx3",
+        "name": "Ensalada de Tomate, Aguacate, Cebolla y Lima",
+        "calories": 202.5,
+        "protein": 7.5,
+        "carbs": 15.75,
+        "fats": 12.450000000000001,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cf9a725d68c4bc3ec3502.png",
         "ingredients": [
             {
                 "name": "Tomate",
-                "quantity": "75",
+                "quantity": "150",
                 "unit": "g",
-                "calories": 22.5,
-                "protein": 1.5,
-                "carbs": 3.75,
-                "fats": 0.15
+                "calories": 45,
+                "protein": 3,
+                "carbs": 7.5,
+                "fats": 0.3
             },
             {
-                "name": "Ajo",
-                "quantity": "50",
+                "name": "Aguacate",
+                "quantity": "30",
                 "unit": "g",
-                "calories": 50,
-                "protein": 2.5,
-                "carbs": 5,
-                "fats": 2
+                "calories": 135,
+                "protein": 3,
+                "carbs": 4.5,
+                "fats": 12
             },
             {
                 "name": "Cebolla",
@@ -159,13 +165,13 @@ const foodDatabase = {
                 "fats": 0.15
             }
         ],
-        "preparation": "1. Lavar bien los tomates y cortarlos en rodajas, gajos o dados, según preferencia. 2. Pelar y picar la cebolla en juliana fina. Para suavizar su sabor, se puede dejar en remojo en agua fría con un poco de vinagre durante 10 minutos y luego escurrir. 3. Pelar y picar el ajo muy finamente, o machacarlo en un mortero. 4. En un bol o fuente, combinar el tomate, la cebolla y el ajo. 5. Aliñar generosamente con aceite de oliva virgen extra de buena calidad, un poco de vinagre (opcional, preferiblemente de Jerez o manzana) y sal. Mezclar bien y dejar reposar unos minutos antes de servir para que se integren los sabores. Opcional: añadir orégano fresco o seco.",
-        "originalBaseRecipeId": "pp_ensalada_de_tomate_ajo_y_cebolla",
+        "preparation": "1. Cortar el tomate y el aguacate en dados. 2. Picar la cebolla en juliana fina. 3. Mezclar todos los ingredientes en un bol. 4. Exprimir el zumo de media lima por encima, añadir aceite de oliva y sal. Mezclar bien.",
+        "originalBaseRecipeId": "pp_ensalada_de_tomate_aguacate_cebolla_y_lima",
         "isSideDish": false,
         "mealCategory": "plato_principal"
     },
-    "p0_cena_Revuelto_de_Huevos_side_idx3": {
-        "id": "p0_cena_Revuelto_de_Huevos_side_idx3",
+    "p0_cena_Revuelto_de_Huevos_side_idx4": {
+        "id": "p0_cena_Revuelto_de_Huevos_side_idx4",
         "name": "Revuelto de Huevos con Queso Habarti Light",
         "calories": 260,
         "protein": 20.5,
@@ -197,17 +203,17 @@ const foodDatabase = {
         "isSideDish": true,
         "mealCategory": "acompanamiento"
     },
-    "p0_extra_Yogur_Protico_con_mainOnly_idx4": {
-        "id": "p0_extra_Yogur_Protico_con_mainOnly_idx4",
-        "name": "Yogur Protéico con Frutos Rojos y Secos",
-        "calories": 290,
-        "protein": 9.5,
-        "carbs": 24.5,
-        "fats": 17.1,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afea2b91eb35e413d4ab6.png",
+    "p0_extra_Yogur_Griego_Desnatado_mainOnly_idx5": {
+        "id": "p0_extra_Yogur_Griego_Desnatado_mainOnly_idx5",
+        "name": "Yogur Griego Desnatado con Proteína en Polvo",
+        "calories": 239,
+        "protein": 30.25,
+        "carbs": 14,
+        "fats": 6.2,
+        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68e7efa6d27b18380fc8e8fd.png",
         "ingredients": [
             {
-                "name": "Yogur Protéico",
+                "name": "Yogur Griego Desnatado",
                 "quantity": "1",
                 "unit": "unidad(es)",
                 "calories": 125,
@@ -216,31 +222,22 @@ const foodDatabase = {
                 "fats": 5
             },
             {
-                "name": "Frutos Rojos",
-                "quantity": "50",
-                "unit": "g",
-                "calories": 30,
-                "protein": 0.25,
-                "carbs": 7.5,
-                "fats": 0.1
-            },
-            {
-                "name": "Frutos Secos",
+                "name": "Proteína en Polvo",
                 "quantity": "30",
                 "unit": "g",
-                "calories": 135,
-                "protein": 3,
-                "carbs": 4.5,
-                "fats": 12
+                "calories": 114,
+                "protein": 24,
+                "carbs": 1.5,
+                "fats": 1.2
             }
         ],
-        "preparation": "1. En un bol, verter el yogur proteico. 2. Añadir los frutos rojos frescos o descongelados. 3. Espolvorear con los frutos secos troceados por encima. Servir inmediatamente.",
-        "originalBaseRecipeId": "ext_yogur_protico_con_frutos_rojos_y_secos",
+        "preparation": "1. Mezclar el yogur griego con la proteína en polvo en un bol hasta que esté bien integrado y sin grumos.",
+        "originalBaseRecipeId": "ext_yogur_griego_desnatado_con_protena_en_polvo",
         "isSideDish": false,
         "mealCategory": "extra"
     },
-    "p0_extra_Fruta_Densa_Pltano_mainOnly_idx5": {
-        "id": "p0_extra_Fruta_Densa_Pltano_mainOnly_idx5",
+    "p0_extra_Fruta_Densa_Pltano_mainOnly_idx6": {
+        "id": "p0_extra_Fruta_Densa_Pltano_mainOnly_idx6",
         "name": "Fruta Densa (Plátano, Manzana)",
         "calories": 72,
         "protein": 0.6,
@@ -266,10 +263,10 @@ const foodDatabase = {
     "p1_desayuno_Tostada_de_centeno_mainOnly_idx0": {
         "id": "p1_desayuno_Tostada_de_centeno_mainOnly_idx0",
         "name": "Tostada de centeno con jamón ibérico",
-        "calories": 294,
-        "protein": 18.599999999999998,
+        "calories": 316,
+        "protein": 20.8,
         "carbs": 30,
-        "fats": 10.2,
+        "fats": 11.600000000000001,
         "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6887226c7537da60484d071f.png",
         "ingredients": [
             {
@@ -283,12 +280,12 @@ const foodDatabase = {
             },
             {
                 "name": "Jamón Ibérico",
-                "quantity": "60",
+                "quantity": "70",
                 "unit": "g",
-                "calories": 132,
-                "protein": 13.2,
+                "calories": 154,
+                "protein": 15.4,
                 "carbs": 0,
-                "fats": 8.4
+                "fats": 9.8
             }
         ],
         "preparation": "1. Tostar el pan de centeno. 2. Colocar las lonchas de jamón ibérico por encima. Opcional: añadir un chorrito de aceite de oliva.",
@@ -575,32 +572,8 @@ const foodDatabase = {
         "isSideDish": false,
         "mealCategory": "desayuno"
     },
-    "p2_desayuno_Yogur_Protico_Sabores_mainOnly_idx1": {
-        "id": "p2_desayuno_Yogur_Protico_Sabores_mainOnly_idx1",
-        "name": "Yogur Protéico (Sabores, Natural...)",
-        "calories": 125,
-        "protein": 6.25,
-        "carbs": 12.5,
-        "fats": 5,
-        "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd789b8ed38b127cbc09.png",
-        "ingredients": [
-            {
-                "name": "Yogur Protéico",
-                "quantity": "1",
-                "unit": "unidad(es)",
-                "calories": 125,
-                "protein": 6.25,
-                "carbs": 12.5,
-                "fats": 5
-            }
-        ],
-        "preparation": "1. Seleccionar el yogur proteico de preferencia (natural o con sabores). 2. Abrir el envase. 3. Consumir directamente con una cuchara. Opcional: se puede acompañar de frutas frescas troceadas, frutos secos, semillas o un poco de miel o edulcorante si es natural y se desea endulzar.",
-        "originalBaseRecipeId": "ext_yogur_protico_sabores_natural",
-        "isSideDish": false,
-        "mealCategory": "extra"
-    },
-    "p2_comida_Ensalada_de_garbanzos_mainOnly_idx2": {
-        "id": "p2_comida_Ensalada_de_garbanzos_mainOnly_idx2",
+    "p2_comida_Ensalada_de_garbanzos_mainOnly_idx1": {
+        "id": "p2_comida_Ensalada_de_garbanzos_mainOnly_idx1",
         "name": "Ensalada de garbanzos con verduras y queso",
         "calories": 427.5,
         "protein": 32.5,
@@ -659,8 +632,8 @@ const foodDatabase = {
         "isSideDish": false,
         "mealCategory": "plato_principal"
     },
-    "p2_comida_Fiambre_de_PavoPollo_side_idx3": {
-        "id": "p2_comida_Fiambre_de_PavoPollo_side_idx3",
+    "p2_comida_Fiambre_de_PavoPollo_side_idx2": {
+        "id": "p2_comida_Fiambre_de_PavoPollo_side_idx2",
         "name": "Fiambre de Pavo/Pollo",
         "calories": 229.99999999999997,
         "protein": 16,
@@ -683,8 +656,8 @@ const foodDatabase = {
         "isSideDish": true,
         "mealCategory": "acompanamiento"
     },
-    "p2_cena_Crema_de_Calabacn_mainOnly_idx4": {
-        "id": "p2_cena_Crema_de_Calabacn_mainOnly_idx4",
+    "p2_cena_Crema_de_Calabacn_mainOnly_idx3": {
+        "id": "p2_cena_Crema_de_Calabacn_mainOnly_idx3",
         "name": "Crema de Calabacín con Huevo Poché y Jamón",
         "calories": 296,
         "protein": 25.4,
@@ -743,8 +716,8 @@ const foodDatabase = {
         "isSideDish": false,
         "mealCategory": "comida_cena_completa"
     },
-    "p2_extra_Yogur_Protico_Sabores_mainOnly_idx5": {
-        "id": "p2_extra_Yogur_Protico_Sabores_mainOnly_idx5",
+    "p2_extra_Yogur_Protico_Sabores_mainOnly_idx4": {
+        "id": "p2_extra_Yogur_Protico_Sabores_mainOnly_idx4",
         "name": "Yogur Protéico (Sabores, Natural...)",
         "calories": 125,
         "protein": 6.25,
@@ -767,8 +740,8 @@ const foodDatabase = {
         "isSideDish": false,
         "mealCategory": "extra"
     },
-    "p2_extra_Frutos_Secos_Mezcla_mainOnly_idx6": {
-        "id": "p2_extra_Frutos_Secos_Mezcla_mainOnly_idx6",
+    "p2_extra_Frutos_Secos_Mezcla_mainOnly_idx5": {
+        "id": "p2_extra_Frutos_Secos_Mezcla_mainOnly_idx5",
         "name": "Frutos Secos (Mezcla)",
         "calories": 135,
         "protein": 3,
@@ -1071,7 +1044,7 @@ const foodDatabase = {
 
 const dailyMenus = [
   {
-    "name": "Libre 1",
+    "name": "ENTRENO",
     "targetMacros": {
       "calories": 1800,
       "protein": 150,
@@ -1082,15 +1055,16 @@ const dailyMenus = [
       "p0_desayuno_Tostada_de_Centeno_mainOnly_idx0"
     ],
     "comida": [
-      "p0_comida_Wok_de_Verduras_mainOnly_idx1"
+      "p0_comida_Juda_verde_con_mainOnly_idx1",
+      "p0_comida_Hamburguesa_de_PavoPollo_side_idx2"
     ],
     "cena": [
-      "p0_cena_Ensalada_de_Tomate_mainOnly_idx2",
-      "p0_cena_Revuelto_de_Huevos_side_idx3"
+      "p0_cena_Ensalada_de_Tomate_mainOnly_idx3",
+      "p0_cena_Revuelto_de_Huevos_side_idx4"
     ],
     "extra": [
-      "p0_extra_Yogur_Protico_con_mainOnly_idx4",
-      "p0_extra_Fruta_Densa_Pltano_mainOnly_idx5"
+      "p0_extra_Yogur_Griego_Desnatado_mainOnly_idx5",
+      "p0_extra_Fruta_Densa_Pltano_mainOnly_idx6"
     ]
   },
   {
@@ -1125,19 +1099,18 @@ const dailyMenus = [
     },
     "useCustomMacros": true,
     "desayuno": [
-      "p2_desayuno_Tostada_de_Pan_mainOnly_idx0",
-      "p2_desayuno_Yogur_Protico_Sabores_mainOnly_idx1"
+      "p2_desayuno_Tostada_de_Pan_mainOnly_idx0"
     ],
     "comida": [
-      "p2_comida_Ensalada_de_garbanzos_mainOnly_idx2",
-      "p2_comida_Fiambre_de_PavoPollo_side_idx3"
+      "p2_comida_Ensalada_de_garbanzos_mainOnly_idx1",
+      "p2_comida_Fiambre_de_PavoPollo_side_idx2"
     ],
     "cena": [
-      "p2_cena_Crema_de_Calabacn_mainOnly_idx4"
+      "p2_cena_Crema_de_Calabacn_mainOnly_idx3"
     ],
     "extra": [
-      "p2_extra_Yogur_Protico_Sabores_mainOnly_idx5",
-      "p2_extra_Frutos_Secos_Mezcla_mainOnly_idx6"
+      "p2_extra_Yogur_Protico_Sabores_mainOnly_idx4",
+      "p2_extra_Frutos_Secos_Mezcla_mainOnly_idx5"
     ]
   },
   {
@@ -1167,7 +1140,7 @@ const dailyMenus = [
 ];
 
 // Detalles de los planes exportados:
-// Plan: Libre 1, Calorías Objetivo: 1800, Proteínas Objetivo: 150, Carbohidratos Objetivo: 150
+// Plan: ENTRENO, Calorías Objetivo: 1800, Proteínas Objetivo: 150, Carbohidratos Objetivo: 150
 // Plan: Entreno, Calorías Objetivo: 1800, Proteínas Objetivo: 150, Carbohidratos Objetivo: 150
 // Plan: Libre 2, Calorías Objetivo: 1800, Proteínas Objetivo: 150, Carbohidratos Objetivo: 150
 // Plan: Libre 3, Calorías Objetivo: 1800, Proteínas Objetivo: 150, Carbohidratos Objetivo: 150
