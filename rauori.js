@@ -349,55 +349,56 @@ const foodDatabase = {
     "isSideDish": false
   },
   "p1_m0": {
-    "name": "Tostada de Pan de Centeno con Revuelto de Huevos y Jamón York",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687d09e04d6fb7f271b84cc9.png",
-    "calories": 351,
-    "protein": 23.7,
-    "carbs": 17.1,
-    "fats": 20.9,
+    "name": "Revuelto de Huevos y Claras con Jamón",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682ad5e1e819fcb589a8a30e.png",
+    "calories": 293.7,
+    "protein": 22.700000000000003,
+    "carbs": 0.9900000000000001,
+    "fats": 21.900000000000002,
     "ingredients": [
       {
-        "name": "Tostada de Pan de Centeno",
-        "quantity": "1",
-        "unit": "rebanada(s)",
-        "calories": 81,
-        "protein": 2.6999999999999997,
-        "carbs": 15,
-        "fats": 0.8999999999999999,
-        "baseCalories": 81,
-        "baseProtein": 2.6999999999999997,
-        "baseCarbs": 15,
-        "baseFats": 0.8999999999999999
-      },
-      {
-        "name": "Huevos",
-        "quantity": "2",
+        "name": "Claras de Huevo",
+        "quantity": "3",
         "unit": "unidad(es)",
-        "calories": 155,
-        "protein": 13,
-        "carbs": 1.1,
-        "fats": 11,
-        "baseCalories": 77.5,
-        "baseProtein": 6.5,
-        "baseCarbs": 0.55,
-        "baseFats": 5.5
+        "gramsPerUnit": 30,
+        "calories": 139.5,
+        "protein": 11.700000000000001,
+        "carbs": 0.9900000000000001,
+        "fats": 9.9,
+        "baseCalories": 1.55,
+        "baseProtein": 0.13,
+        "baseCarbs": 0.011000000000000001,
+        "baseFats": 0.11
       },
       {
-        "name": "Jamón York",
+        "name": "Jamón Serrano",
         "quantity": "50",
         "unit": "g",
-        "calories": 114.99999999999999,
-        "protein": 8,
-        "carbs": 1,
-        "fats": 9,
-        "baseCalories": 2.3,
-        "baseProtein": 0.16,
-        "baseCarbs": 0.02,
-        "baseFats": 0.18
+        "calories": 110.00000000000001,
+        "protein": 11,
+        "carbs": 0,
+        "fats": 7.000000000000001,
+        "baseCalories": 2.2,
+        "baseProtein": 0.22,
+        "baseCarbs": 0,
+        "baseFats": 0.14
+      },
+      {
+        "name": "Aceite de Oliva Virgen Extra",
+        "quantity": "5",
+        "unit": "g",
+        "calories": 44.2,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 5,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1
       }
     ],
-    "preparation": "1. Tostar el pan de centeno. 2. Preparar un revuelto de huevos con taquitos de jamón york. 3. Servir el revuelto sobre la tostada.",
-    "originalBaseRecipeId": "des_tostada_de_pan_de_centeno_con_revuelto_de_huevos_y_jamn_york",
+    "preparation": "1. Batir los huevos y las claras. 2. Cortar el jamón en taquitos o tiras. 3. Saltear ligeramente el jamón en una sartén con una pizca de aceite (opcional). 4. Verter la mezcla de huevo y remover constantemente a fuego medio-bajo hasta que cuaje al gusto.",
+    "originalBaseRecipeId": "des_revuelto_de_huevos_y_claras_con_jamn",
     "isSideDish": false
   },
   "p1_m1": {
@@ -518,47 +519,34 @@ const foodDatabase = {
     "isSideDish": false
   },
   "p1_m2": {
-    "name": "Wok de Verduras con Salmón",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afda0b91eb330dd3d49b2.png",
-    "calories": 472.4,
-    "protein": 34.4,
-    "carbs": 20,
-    "fats": 27.6,
+    "name": "Crema de Verduras Variadas",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cd68425d68cc771ebd10a.png",
+    "calories": 117.5,
+    "protein": 7,
+    "carbs": 16.25,
+    "fats": 2.45,
     "ingredients": [
       {
+        "name": "Calabaza",
+        "quantity": "75",
+        "unit": "g",
+        "calories": 22.5,
+        "protein": 1.5,
+        "carbs": 3.75,
+        "fats": 0.15,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
         "name": "Tomate",
-        "quantity": "100",
+        "quantity": "75",
         "unit": "g",
-        "calories": 30,
-        "protein": 2,
-        "carbs": 5,
-        "fats": 0.2,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Pimiento Rojo",
-        "quantity": "100",
-        "unit": "g",
-        "calories": 30,
-        "protein": 2,
-        "carbs": 5,
-        "fats": 0.2,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Pimiento Verde",
-        "quantity": "100",
-        "unit": "g",
-        "calories": 30,
-        "protein": 2,
-        "carbs": 5,
-        "fats": 0.2,
+        "calories": 22.5,
+        "protein": 1.5,
+        "carbs": 3.75,
+        "fats": 0.15,
         "baseCalories": 0.3,
         "baseProtein": 0.02,
         "baseCarbs": 0.05,
@@ -566,46 +554,33 @@ const foodDatabase = {
       },
       {
         "name": "Cebolla",
-        "quantity": "100",
+        "quantity": "75",
         "unit": "g",
-        "calories": 30,
-        "protein": 2,
-        "carbs": 5,
-        "fats": 0.2,
+        "calories": 22.5,
+        "protein": 1.5,
+        "carbs": 3.75,
+        "fats": 0.15,
         "baseCalories": 0.3,
         "baseProtein": 0.02,
         "baseCarbs": 0.05,
         "baseFats": 0.002
       },
       {
-        "name": "Lomo de Salmón",
-        "quantity": "120",
+        "name": "Agua",
+        "quantity": "50",
         "unit": "g",
-        "calories": 264,
-        "protein": 26.4,
-        "carbs": 0,
-        "fats": 16.8,
-        "baseCalories": 2.2,
-        "baseProtein": 0.22,
-        "baseCarbs": 0,
-        "baseFats": 0.14
-      },
-      {
-        "name": "Aceite de Oliva Virgen Extra",
-        "quantity": "10",
-        "unit": "g",
-        "calories": 88.4,
-        "protein": 0,
-        "carbs": 0,
-        "fats": 10,
-        "baseCalories": 8.84,
-        "baseProtein": 0,
-        "baseCarbs": 0,
-        "baseFats": 1
+        "calories": 50,
+        "protein": 2.5,
+        "carbs": 5,
+        "fats": 2,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
       }
     ],
-    "preparation": "1. Cortar el salmón en dados de tamaño mediano. Picar el tomate, pimiento rojo, pimiento verde y cebolla en trozos adecuados para wok (ej. juliana gruesa o dados). 2. Calentar un wok o sartén grande con un poco de aceite a fuego alto. Saltear el salmón unos 2-3 minutos hasta que esté dorado por fuera pero ligeramente crudo por dentro. Retirar y reservar. 3. Añadir las verduras más duras (cebolla, pimientos) al wok y saltear durante 3-4 minutos. Luego añadir el tomate y saltear 1-2 minutos más. 4. Incorporar el salmón de nuevo al wok. Añadir salsa de soja (baja en sodio preferiblemente) y un toque de jengibre rallado o ojo picado (opcional). Mezclar bien y cocinar por 1-2 minutos más hasta que el salmón esté cocido y todo bien caliente. Servir inmediatamente, opcionalmente sobre una base de arroz o noodles.",
-    "originalBaseRecipeId": "cc_wok_de_verduras_con_salmn",
+    "preparation": "1. Puedes comprar una crema preparada o bien cocinar unas cuantas verduras en una olla.",
+    "originalBaseRecipeId": "pp_crema_de_verduras_variadas",
     "isSideDish": false
   },
   "p1_m3": {
@@ -658,6 +633,72 @@ const foodDatabase = {
     ],
     "preparation": "1. En un bol, verter el yogur proteico. 2. Añadir los frutos rojos frescos o descongelados. 3. Espolvorear con los frutos secos troceados por encima. Servir inmediatamente.",
     "originalBaseRecipeId": "ext_yogurt_protico_con_frutos_rojos_y_secos",
+    "isSideDish": false
+  },
+  "p1_m4": {
+    "name": "Pan de Centeno",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6879305ee8df5478eb937c5e.png",
+    "calories": 81,
+    "protein": 2.6999999999999997,
+    "carbs": 15,
+    "fats": 0.8999999999999999,
+    "ingredients": [
+      {
+        "name": "Pan de Centeno",
+        "quantity": "1",
+        "unit": "rebanada(s)",
+        "gramsPerUnit": 30,
+        "calories": 81,
+        "protein": 2.6999999999999997,
+        "carbs": 15,
+        "fats": 0.8999999999999999,
+        "baseCalories": 2.7,
+        "baseProtein": 0.09,
+        "baseCarbs": 0.5,
+        "baseFats": 0.029999999999999995
+      }
+    ],
+    "preparation": "1. Cortar una rebanada de pan de centeno o intengral y acompañar con otra comida.",
+    "originalBaseRecipeId": "ext_pan_de_centeno",
+    "isSideDish": false
+  },
+  "p1_m5": {
+    "name": "Merluza a la Plancha",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684f001d4d606642b1333279.png",
+    "calories": 328.4,
+    "protein": 42.00000000000001,
+    "carbs": 0,
+    "fats": 16,
+    "ingredients": [
+      {
+        "name": "Filete de Merluza",
+        "quantity": "150",
+        "unit": "g",
+        "calories": 240,
+        "protein": 42.00000000000001,
+        "carbs": 0,
+        "fats": 6,
+        "baseCalories": 1.6,
+        "baseProtein": 0.28,
+        "baseCarbs": 0,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Aceite de Oliva Virgen Extra",
+        "quantity": "10",
+        "unit": "g",
+        "calories": 88.4,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 10,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1
+      }
+    ],
+    "preparation": "1. Sazonar los filetes o rodajas de merluza con sal, pimienta y opcionalmente un poco de ajo en polvo o perejil picado. 2. Calentar una plancha o sartén antiadherente a fuego medio-alto con un chorrito de aceite de oliva virgen extra. 3. Cuando el aceite esté caliente, colocar la merluza en la plancha. Cocinar durante unos 3-5 minutos por cada lado, dependiendo del grosor del pescado, hasta que esté opaca, bien cocida por dentro y se desmenuce fácilmente con un tenedor. 4. Servir inmediatamente, opcionalmente con un chorrito de zumo de limón fresco por encima.",
+    "originalBaseRecipeId": "ac_merluza_a_la_plancha",
     "isSideDish": false
   },
   "p2_m0": {
@@ -1032,13 +1073,15 @@ const dailyMenus = [
       "carbs": 200
     },
     "desayuno": [
-      "p1_m0"
+      "p1_m0",
+      "p1_m4"
     ],
     "comida": [
       "p1_m1"
     ],
     "cena": [
-      "p1_m2"
+      "p1_m2",
+      "p1_m5"
     ],
     "extra": [
       "p1_m3"
