@@ -441,6 +441,72 @@ const foodDatabase = {
     "isSideDish": false
   },
   "p2_m0": {
+    "name": "Alcachofa salteada con jamón, huevo",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684efb33f6c48d7f13a5b29b.png",
+    "calories": 619.4,
+    "protein": 46.6,
+    "carbs": 9.7,
+    "fats": 43.5,
+    "ingredients": [
+      {
+        "name": "Alcachofa",
+        "quantity": "150",
+        "unit": "g",
+        "calories": 45,
+        "protein": 3,
+        "carbs": 7.5,
+        "fats": 0.3,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Jamón Serrano",
+        "quantity": "80",
+        "unit": "g",
+        "calories": 176,
+        "protein": 17.6,
+        "carbs": 0,
+        "fats": 11.200000000000001,
+        "baseCalories": 2.2,
+        "baseProtein": 0.22000000000000003,
+        "baseCarbs": 0,
+        "baseFats": 0.14
+      },
+      {
+        "name": "Huevo Cocido",
+        "quantity": "4",
+        "unit": "unidad(es)",
+        "gramsPerUnit": 50,
+        "calories": 310,
+        "protein": 26,
+        "carbs": 2.2,
+        "fats": 22,
+        "baseCalories": 1.55,
+        "baseProtein": 0.13,
+        "baseCarbs": 0.011000000000000001,
+        "baseFats": 0.11
+      },
+      {
+        "name": "Aceite de Oliva Virgen Extra",
+        "quantity": "10",
+        "unit": "g",
+        "calories": 88.4,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 10,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1
+      }
+    ],
+    "preparation": "1. Limpiar las alcachofas frescas, quitando las hojas exteriores más duras, el tallo (pelándolo) y las puntas. Cortarlas en cuartos u octavos y retirar el heno interior si lo tuvieran. Cocerlas en agua con sal y un chorrito de limón hasta que estén tiernas. 2. Cocer un huevo en agua hirviendo durante 10 minutos hasta que esté duro. Dejar enfriar, pelar y picar o cortar en gajos. 3. Cortar el jamón serrano en taquitos o tiras. 4. En una sartén, calentar un poco de aceite de oliva y saltear el jamón hasta que esté ligeramente crujiente. 5. Añadir las alcachofas a la sartén y saltear junto con el jamón durante unos minutos para que tomen sabor. 6. Servir las alcachofas con jamón y colocar el huevo cocido picado o en gajos por encima.",
+    "originalBaseRecipeId": "pp_alcachofa_salteada_con_jamn_huevo",
+    "isSideDish": false
+  },
+  "p2_m1": {
     "name": "Patatas Gajo al Horno o Air Fryer",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cd8b854a1885423545b10.png",
     "calories": 386,
@@ -492,7 +558,7 @@ const foodDatabase = {
     "originalBaseRecipeId": "pp_patatas_gajo_al_horno_o_air_fryer",
     "isSideDish": false
   },
-  "p2_m1": {
+  "p2_m2": {
     "name": "Solomillo/Filete de Ternera a la Plancha",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe6c0ed5060d3743015a.png",
     "calories": 418.4,
@@ -529,72 +595,6 @@ const foodDatabase = {
     ],
     "preparation": "1. Sacar el filete o solomillo de ternera del refrigerador unos 15-20 minutos antes de cocinar para que se temple. 2. Sazonar la carne con sal y pimienta negra recién molida justo antes de ponerla en la plancha. 3. Calentar una plancha o sartén de fondo grueso a fuego alto hasta que esté bien caliente. Añadir una gota de aceite de oliva y extenderlo. 4. Cocinar el filete al gusto. 5. Dejar reposar la carne un par de minutos antes de servir para que los jugos se redistribuyan.",
     "originalBaseRecipeId": "ac_solomillofilete_de_ternera_a_la_plancha",
-    "isSideDish": false
-  },
-  "p2_m2": {
-    "name": "Alcachofa salteada con jamón, huevo",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684efb33f6c48d7f13a5b29b.png",
-    "calories": 619.4,
-    "protein": 46.6,
-    "carbs": 9.7,
-    "fats": 43.5,
-    "ingredients": [
-      {
-        "name": "Alcachofa",
-        "quantity": "150",
-        "unit": "g",
-        "calories": 45,
-        "protein": 3,
-        "carbs": 7.5,
-        "fats": 0.3,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Jamón Serrano",
-        "quantity": "80",
-        "unit": "g",
-        "calories": 176,
-        "protein": 17.6,
-        "carbs": 0,
-        "fats": 11.200000000000001,
-        "baseCalories": 2.2,
-        "baseProtein": 0.22,
-        "baseCarbs": 0,
-        "baseFats": 0.14
-      },
-      {
-        "name": "Huevo Cocido",
-        "quantity": "4",
-        "unit": "unidad(es)",
-        "gramsPerUnit": 50,
-        "calories": 310,
-        "protein": 26,
-        "carbs": 2.2,
-        "fats": 22,
-        "baseCalories": 1.55,
-        "baseProtein": 0.13,
-        "baseCarbs": 0.011000000000000001,
-        "baseFats": 0.11
-      },
-      {
-        "name": "Aceite de Oliva Virgen Extra",
-        "quantity": "10",
-        "unit": "g",
-        "calories": 88.4,
-        "protein": 0,
-        "carbs": 0,
-        "fats": 10,
-        "baseCalories": 8.84,
-        "baseProtein": 0,
-        "baseCarbs": 0,
-        "baseFats": 1
-      }
-    ],
-    "preparation": "1. Limpiar las alcachofas frescas, quitando las hojas exteriores más duras, el tallo (pelándolo) y las puntas. Cortarlas en cuartos u octavos y retirar el heno interior si lo tuvieran. Cocerlas en agua con sal y un chorrito de limón hasta que estén tiernas. 2. Cocer un huevo en agua hirviendo durante 10 minutos hasta que esté duro. Dejar enfriar, pelar y picar o cortar en gajos. 3. Cortar el jamón serrano en taquitos o tiras. 4. En una sartén, calentar un poco de aceite de oliva y saltear el jamón hasta que esté ligeramente crujiente. 5. Añadir las alcachofas a la sartén y saltear junto con el jamón durante unos minutos para que tomen sabor. 6. Servir las alcachofas con jamón y colocar el huevo cocido picado o en gajos por encima.",
-    "originalBaseRecipeId": "pp_alcachofa_salteada_con_jamn_huevo",
     "isSideDish": false
   },
   "p2_m3": {
@@ -716,6 +716,46 @@ const foodDatabase = {
     "isSideDish": false
   },
   "p3_m1": {
+    "name": "Revuelto de Huevos con Queso Habarti Light",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684f0183653a2c532c17327c.png",
+    "calories": 337.5,
+    "protein": 27,
+    "carbs": 2.25,
+    "fats": 24,
+    "ingredients": [
+      {
+        "name": "Huevos",
+        "quantity": "3",
+        "unit": "unidad(es)",
+        "gramsPerUnit": 50,
+        "calories": 232.5,
+        "protein": 19.5,
+        "carbs": 1.6500000000000001,
+        "fats": 16.5,
+        "baseCalories": 1.55,
+        "baseProtein": 0.13,
+        "baseCarbs": 0.011000000000000001,
+        "baseFats": 0.11
+      },
+      {
+        "name": "Queso Havarti Light",
+        "quantity": "30",
+        "unit": "g",
+        "calories": 105,
+        "protein": 7.5,
+        "carbs": 0.6,
+        "fats": 7.5,
+        "baseCalories": 3.5,
+        "baseProtein": 0.25,
+        "baseCarbs": 0.02,
+        "baseFats": 0.25
+      }
+    ],
+    "preparation": "1. Batir los huevos en un bol con una pizca de sal y pimienta. 2. Cortar el queso Havarti light en trocitos pequeños o rallarlo. 3. Calentar una sartén antiadherente a fuego medio con una pizca de aceite de oliva o mantequilla (opcional). 4. Verter los huevos batidos en la sartén caliente. Dejar que empiecen a cuajar ligeramente por los bordes. 5. Añadir los trocitos de queso Havarti light distribuyéndolos por encima de los huevos. 6. Remover suavemente con una espátula, llevando los bordes cuajados hacia el centro y permitiendo que la parte líquida fluya hacia los lados, hasta que los huevos estén cuajados al gusto y el queso esté derretido e integrado.",
+    "originalBaseRecipeId": "ac_revuelto_de_huevos_con_queso_habarti_light",
+    "isSideDish": false
+  },
+  "p3_m2": {
     "name": "Musakka de Patata al horno con verduras y carne picada",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684efda5653a2c17a7172d67.png",
     "calories": 763.4,
@@ -804,46 +844,6 @@ const foodDatabase = {
     ],
     "preparation": "1. Precalentar el horno a 180°C. Pelar y cortar las patatas en rodajas finas (aproximadamente 0.5 cm). Cortar la berenjena en rodajas similares. Picar la cebolla. 2. En una sartén, calentar aceite y sofreír la cebolla hasta que esté blanda. Añadir la carne picada mixta y cocinar hasta que se dore. Escurrir el exceso de grasa. Incorporar tomate frito, sal, pimienta y orégano. Cocinar unos minutos. 3. En una fuente para horno, montar la musakka: colocar una capa de rodajas de patata en el fondo, luego una capa de rodajas de berenjena, y encima una capa de la mezcla de carne. Repetir las capas hasta terminar con una capa de patata o berenjena. 4. Opcional: cubrir con salsa bechamel y espolvorear con queso rallado. 5. Hornear durante 40-50 minutos, o hasta que las patatas y berenjenas estén tiernas y la superficie dorada. Dejar reposar unos minutos antes de servir.",
     "originalBaseRecipeId": "cc_musakka_de_patata_al_horno_con_verduras_y_carne_picada",
-    "isSideDish": false
-  },
-  "p3_m2": {
-    "name": "Revuelto de Huevos con Queso Habarti Light",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684f0183653a2c532c17327c.png",
-    "calories": 337.5,
-    "protein": 27,
-    "carbs": 2.25,
-    "fats": 24,
-    "ingredients": [
-      {
-        "name": "Huevos",
-        "quantity": "3",
-        "unit": "unidad(es)",
-        "gramsPerUnit": 50,
-        "calories": 232.5,
-        "protein": 19.5,
-        "carbs": 1.6500000000000001,
-        "fats": 16.5,
-        "baseCalories": 1.55,
-        "baseProtein": 0.13,
-        "baseCarbs": 0.011000000000000001,
-        "baseFats": 0.11
-      },
-      {
-        "name": "Queso Havarti Light",
-        "quantity": "30",
-        "unit": "g",
-        "calories": 105,
-        "protein": 7.5,
-        "carbs": 0.6,
-        "fats": 7.5,
-        "baseCalories": 3.5,
-        "baseProtein": 0.25,
-        "baseCarbs": 0.02,
-        "baseFats": 0.25
-      }
-    ],
-    "preparation": "1. Batir los huevos en un bol con una pizca de sal y pimienta. 2. Cortar el queso Havarti light en trocitos pequeños o rallarlo. 3. Calentar una sartén antiadherente a fuego medio con una pizca de aceite de oliva o mantequilla (opcional). 4. Verter los huevos batidos en la sartén caliente. Dejar que empiecen a cuajar ligeramente por los bordes. 5. Añadir los trocitos de queso Havarti light distribuyéndolos por encima de los huevos. 6. Remover suavemente con una espátula, llevando los bordes cuajados hacia el centro y permitiendo que la parte líquida fluya hacia los lados, hasta que los huevos estén cuajados al gusto y el queso esté derretido e integrado.",
-    "originalBaseRecipeId": "ac_revuelto_de_huevos_con_queso_habarti_light",
     "isSideDish": false
   },
   "p3_m3": {
@@ -967,7 +967,7 @@ const dailyMenus = [
     ]
   },
   {
-    "name": "Completo 1",
+    "name": "Ayuno 3",
     "targetMacros": {
       "calories": 1700,
       "protein": 140,
@@ -975,18 +975,18 @@ const dailyMenus = [
     },
     "desayuno": [],
     "comida": [
-      "p2_m2"
+      "p2_m0"
     ],
     "cena": [
-      "p2_m0",
-      "p2_m1"
+      "p2_m1",
+      "p2_m2"
     ],
     "extra": [
       "p2_m3"
     ]
   },
   {
-    "name": "Completo 2",
+    "name": "Ayuno 4",
     "targetMacros": {
       "calories": 1700,
       "protein": 140,
@@ -995,10 +995,10 @@ const dailyMenus = [
     "desayuno": [],
     "comida": [
       "p3_m0",
-      "p3_m2"
+      "p3_m1"
     ],
     "cena": [
-      "p3_m1"
+      "p3_m2"
     ],
     "extra": [
       "p3_m3",
