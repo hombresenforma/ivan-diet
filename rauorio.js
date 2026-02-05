@@ -4,7 +4,7 @@
 //
 // =========================================================================
 // =========================================================================
-// DATOS DEL PLAN (3 DÍAS)
+// DATOS DEL PLAN (4 DÍAS)
 //
 // =========================================================================
 // =========================================================================
@@ -402,6 +402,33 @@ const foodDatabase = {
     "isSideDish": false
   },
   "p1_m1": {
+    "name": "Pan de Centeno",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6879305ee8df5478eb937c5e.png",
+    "calories": 81,
+    "protein": 2.6999999999999997,
+    "carbs": 15,
+    "fats": 0.8999999999999999,
+    "ingredients": [
+      {
+        "name": "Pan de Centeno",
+        "quantity": "1",
+        "unit": "rebanada(s)",
+        "gramsPerUnit": 30,
+        "calories": 81,
+        "protein": 2.6999999999999997,
+        "carbs": 15,
+        "fats": 0.8999999999999999,
+        "baseCalories": 2.7,
+        "baseProtein": 0.09,
+        "baseCarbs": 0.5,
+        "baseFats": 0.029999999999999995
+      }
+    ],
+    "preparation": "1. Cortar una rebanada de pan de centeno o intengral y acompañar con otra comida.",
+    "originalBaseRecipeId": "ext_pan_de_centeno",
+    "isSideDish": false
+  },
+  "p1_m2": {
     "name": "Ensalada de Pasta con Pollo",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afc47b91eb349463d47dd.png",
     "calories": 726.4,
@@ -518,7 +545,7 @@ const foodDatabase = {
     "originalBaseRecipeId": "cc_ensalada_de_pasta_con_pollo",
     "isSideDish": false
   },
-  "p1_m2": {
+  "p1_m3": {
     "name": "Crema de Verduras Variadas",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cd68425d68cc771ebd10a.png",
     "calories": 117.5,
@@ -583,7 +610,46 @@ const foodDatabase = {
     "originalBaseRecipeId": "pp_crema_de_verduras_variadas",
     "isSideDish": false
   },
-  "p1_m3": {
+  "p1_m4": {
+    "name": "Merluza a la Plancha",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684f001d4d606642b1333279.png",
+    "calories": 328.4,
+    "protein": 42.00000000000001,
+    "carbs": 0,
+    "fats": 16,
+    "ingredients": [
+      {
+        "name": "Filete de Merluza",
+        "quantity": "150",
+        "unit": "g",
+        "calories": 240,
+        "protein": 42.00000000000001,
+        "carbs": 0,
+        "fats": 6,
+        "baseCalories": 1.6,
+        "baseProtein": 0.28,
+        "baseCarbs": 0,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Aceite de Oliva Virgen Extra",
+        "quantity": "10",
+        "unit": "g",
+        "calories": 88.4,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 10,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1
+      }
+    ],
+    "preparation": "1. Sazonar los filetes o rodajas de merluza con sal, pimienta y opcionalmente un poco de ajo en polvo o perejil picado. 2. Calentar una plancha o sartén antiadherente a fuego medio-alto con un chorrito de aceite de oliva virgen extra. 3. Cuando el aceite esté caliente, colocar la merluza en la plancha. Cocinar durante unos 3-5 minutos por cada lado, dependiendo del grosor del pescado, hasta que esté opaca, bien cocida por dentro y se desmenuce fácilmente con un tenedor. 4. Servir inmediatamente, opcionalmente con un chorrito de zumo de limón fresco por encima.",
+    "originalBaseRecipeId": "ac_merluza_a_la_plancha",
+    "isSideDish": false
+  },
+  "p1_m5": {
     "name": "Yogurt Protéico con Frutos Rojos y Secos",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afea2b91eb35e413d4ab6.png",
     "calories": 296,
@@ -633,72 +699,6 @@ const foodDatabase = {
     ],
     "preparation": "1. En un bol, verter el yogur proteico. 2. Añadir los frutos rojos frescos o descongelados. 3. Espolvorear con los frutos secos troceados por encima. Servir inmediatamente.",
     "originalBaseRecipeId": "ext_yogurt_protico_con_frutos_rojos_y_secos",
-    "isSideDish": false
-  },
-  "p1_m4": {
-    "name": "Pan de Centeno",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6879305ee8df5478eb937c5e.png",
-    "calories": 81,
-    "protein": 2.6999999999999997,
-    "carbs": 15,
-    "fats": 0.8999999999999999,
-    "ingredients": [
-      {
-        "name": "Pan de Centeno",
-        "quantity": "1",
-        "unit": "rebanada(s)",
-        "gramsPerUnit": 30,
-        "calories": 81,
-        "protein": 2.6999999999999997,
-        "carbs": 15,
-        "fats": 0.8999999999999999,
-        "baseCalories": 2.7,
-        "baseProtein": 0.09,
-        "baseCarbs": 0.5,
-        "baseFats": 0.029999999999999995
-      }
-    ],
-    "preparation": "1. Cortar una rebanada de pan de centeno o intengral y acompañar con otra comida.",
-    "originalBaseRecipeId": "ext_pan_de_centeno",
-    "isSideDish": false
-  },
-  "p1_m5": {
-    "name": "Merluza a la Plancha",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684f001d4d606642b1333279.png",
-    "calories": 328.4,
-    "protein": 42.00000000000001,
-    "carbs": 0,
-    "fats": 16,
-    "ingredients": [
-      {
-        "name": "Filete de Merluza",
-        "quantity": "150",
-        "unit": "g",
-        "calories": 240,
-        "protein": 42.00000000000001,
-        "carbs": 0,
-        "fats": 6,
-        "baseCalories": 1.6,
-        "baseProtein": 0.28,
-        "baseCarbs": 0,
-        "baseFats": 0.04
-      },
-      {
-        "name": "Aceite de Oliva Virgen Extra",
-        "quantity": "10",
-        "unit": "g",
-        "calories": 88.4,
-        "protein": 0,
-        "carbs": 0,
-        "fats": 10,
-        "baseCalories": 8.84,
-        "baseProtein": 0,
-        "baseCarbs": 0,
-        "baseFats": 1
-      }
-    ],
-    "preparation": "1. Sazonar los filetes o rodajas de merluza con sal, pimienta y opcionalmente un poco de ajo en polvo o perejil picado. 2. Calentar una plancha o sartén antiadherente a fuego medio-alto con un chorrito de aceite de oliva virgen extra. 3. Cuando el aceite esté caliente, colocar la merluza en la plancha. Cocinar durante unos 3-5 minutos por cada lado, dependiendo del grosor del pescado, hasta que esté opaca, bien cocida por dentro y se desmenuce fácilmente con un tenedor. 4. Servir inmediatamente, opcionalmente con un chorrito de zumo de limón fresco por encima.",
-    "originalBaseRecipeId": "ac_merluza_a_la_plancha",
     "isSideDish": false
   },
   "p2_m0": {
@@ -1038,6 +1038,281 @@ const foodDatabase = {
     "preparation": "1. Abrir el paquete de tortitas de legumbres. 2. Consumir directamente como snack crujiente. Son ideales para picar entre horas o como una alternativa más saludable a otros snacks procesados. Se pueden acompañar de hummus, guacamole o queso fresco si se desea algo más completo.",
     "originalBaseRecipeId": "ext_tortitas_de_legumbres_mercadona",
     "isSideDish": false
+  },
+  "p3_m0": {
+    "name": "Yogurt Protéico con Frutos Rojos y Secos",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afea2b91eb35e413d4ab6.png",
+    "calories": 290,
+    "protein": 9.5,
+    "carbs": 24.5,
+    "fats": 17.1,
+    "ingredients": [
+      {
+        "name": "Yogur Protéico",
+        "quantity": "1",
+        "unit": "unidad(es)",
+        "gramsPerUnit": 125,
+        "calories": 125,
+        "protein": 6.25,
+        "carbs": 12.5,
+        "fats": 5,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Frutos Rojos",
+        "quantity": "50",
+        "unit": "g",
+        "calories": 30,
+        "protein": 0.25,
+        "carbs": 7.5,
+        "fats": 0.1,
+        "baseCalories": 0.6,
+        "baseProtein": 0.005,
+        "baseCarbs": 0.15,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Frutos Secos",
+        "quantity": "30",
+        "unit": "g",
+        "calories": 135,
+        "protein": 3,
+        "carbs": 4.5,
+        "fats": 12,
+        "baseCalories": 4.5,
+        "baseProtein": 0.1,
+        "baseCarbs": 0.15,
+        "baseFats": 0.4
+      }
+    ],
+    "preparation": "1. En un bol, verter el yogur proteico. 2. Añadir los frutos rojos frescos o descongelados. 3. Espolvorear con los frutos secos troceados por encima. Servir inmediatamente.",
+    "originalBaseRecipeId": "des_yogurt_protico_con_frutos_rojos_y_secos",
+    "isSideDish": false
+  },
+  "p3_m1": {
+    "name": "Ensalada de berenjena y tomate asado, queso y pollo con arroz",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684ef97c6202d51cbcde28c8.png",
+    "calories": 827.9,
+    "protein": 66.10000000000001,
+    "carbs": 72.05,
+    "fats": 28.05,
+    "ingredients": [
+      {
+        "name": "Berenjena",
+        "quantity": "75",
+        "unit": "g",
+        "calories": 22.5,
+        "protein": 1.5,
+        "carbs": 3.75,
+        "fats": 0.15,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Tomate",
+        "quantity": "150",
+        "unit": "g",
+        "calories": 45,
+        "protein": 3,
+        "carbs": 7.5,
+        "fats": 0.3,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Queso de Cabra",
+        "quantity": "40",
+        "unit": "g",
+        "calories": 140,
+        "protein": 10,
+        "carbs": 0.8,
+        "fats": 10,
+        "baseCalories": 3.5,
+        "baseProtein": 0.25,
+        "baseCarbs": 0.02,
+        "baseFats": 0.25
+      },
+      {
+        "name": "Pechuga de Pollo",
+        "quantity": "150",
+        "unit": "g",
+        "calories": 240,
+        "protein": 42.00000000000001,
+        "carbs": 0,
+        "fats": 6,
+        "baseCalories": 1.6,
+        "baseProtein": 0.28,
+        "baseCarbs": 0,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Arroz",
+        "quantity": "80",
+        "unit": "g",
+        "calories": 292,
+        "protein": 9.6,
+        "carbs": 60,
+        "fats": 1.6,
+        "baseCalories": 3.65,
+        "baseProtein": 0.12,
+        "baseCarbs": 0.75,
+        "baseFats": 0.02
+      },
+      {
+        "name": "Aceite de Oliva Virgen Extra",
+        "quantity": "10",
+        "unit": "g",
+        "calories": 88.4,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 10,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1
+      }
+    ],
+    "preparation": "1. Precalentar el horno a 200°C. Cortar la berenjena en rodajas o dados y los tomates por la mitad o en cuartos. Rociar con aceite de oliva, salpimentar y asar durante 20-25 minutos o hasta que estén tiernos. 2. Cocinar la pechuga de pollo (a la plancha, asada o hervida) y cortarla en trozos o tiras. 3. Cocer el arroz según las instrucciones del paquete. Puede usarse caliente, tibio o frío. 4. Cortar el queso (tipo feta, mozzarella fresca, o el de preferencia) en dados. 5. En un bol grande, combinar el arroz, la berenjena y tomate asados, el pollo y el queso. 6. Aliñar con aceite de oliva virgen extra, vinagre balsámico (opcional) y hierbas frescas como albahaca u orégano. Mezclar suavemente.",
+    "originalBaseRecipeId": "cc_ensalada_de_berenjena_y_tomate_asado_queso_y_pollo_con_arroz",
+    "isSideDish": false
+  },
+  "p3_m2": {
+    "name": "Falso Risotto de Coliflor con Pollo y Setas",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6922cee78c174d4e6d420b9d.png",
+    "calories": 395.9,
+    "protein": 46.50000000000001,
+    "carbs": 11.25,
+    "fats": 16.450000000000003,
+    "ingredients": [
+      {
+        "name": "Coliflor",
+        "quantity": "75",
+        "unit": "g",
+        "calories": 22.5,
+        "protein": 1.5,
+        "carbs": 3.75,
+        "fats": 0.15,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Pechuga de Pollo",
+        "quantity": "150",
+        "unit": "g",
+        "calories": 240,
+        "protein": 42.00000000000001,
+        "carbs": 0,
+        "fats": 6,
+        "baseCalories": 1.6,
+        "baseProtein": 0.28,
+        "baseCarbs": 0,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Champiñones",
+        "quantity": "75",
+        "unit": "g",
+        "calories": 22.5,
+        "protein": 1.5,
+        "carbs": 3.75,
+        "fats": 0.15,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Cebolla",
+        "quantity": "75",
+        "unit": "g",
+        "calories": 22.5,
+        "protein": 1.5,
+        "carbs": 3.75,
+        "fats": 0.15,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Aceite de Oliva Virgen Extra",
+        "quantity": "10",
+        "unit": "g",
+        "calories": 88.4,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 10,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1
+      }
+    ],
+    "preparation": "1. Rallar la coliflor hasta que parezca arroz. 2. Saltear pollo y champiñones con cebolla. 3. Añadir la coliflor y saltear 5 min (no debe ablandarse demasiado). 4. Sazonar al gusto.",
+    "originalBaseRecipeId": "cc_falso_risotto_de_coliflor_con_pollo_y_setas",
+    "isSideDish": false
+  },
+  "p3_m3": {
+    "name": "Pan wasa con Queso Cottage y Aguacate",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68cc56bf05b71918b19fbf96.png",
+    "calories": 289,
+    "protein": 16.8,
+    "carbs": 18.5,
+    "fats": 16.6,
+    "ingredients": [
+      {
+        "name": "Pan Wasa",
+        "quantity": "2",
+        "unit": "rebanada(s)",
+        "gramsPerUnit": 10,
+        "calories": 54,
+        "protein": 1.7999999999999998,
+        "carbs": 10,
+        "fats": 0.6,
+        "baseCalories": 2.7,
+        "baseProtein": 0.09,
+        "baseCarbs": 0.5,
+        "baseFats": 0.03
+      },
+      {
+        "name": "Queso Cottage",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 100,
+        "protein": 12,
+        "carbs": 4,
+        "fats": 4,
+        "baseCalories": 1,
+        "baseProtein": 0.12,
+        "baseCarbs": 0.04,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Aguacate",
+        "quantity": "30",
+        "unit": "g",
+        "calories": 135,
+        "protein": 3,
+        "carbs": 4.5,
+        "fats": 12,
+        "baseCalories": 4.5,
+        "baseProtein": 0.1,
+        "baseCarbs": 0.15,
+        "baseFats": 0.4
+      }
+    ],
+    "preparation": "1. Untar el queso cottage y el aguacate sobre el pan wasa.",
+    "originalBaseRecipeId": "ext_pan_wasa_con_queso_cottage_y_aguacate",
+    "isSideDish": false
   }
 };
 
@@ -1074,17 +1349,17 @@ const dailyMenus = [
     },
     "desayuno": [
       "p1_m0",
-      "p1_m4"
-    ],
-    "comida": [
       "p1_m1"
     ],
+    "comida": [
+      "p1_m2"
+    ],
     "cena": [
-      "p1_m2",
-      "p1_m5"
+      "p1_m3",
+      "p1_m4"
     ],
     "extra": [
-      "p1_m3"
+      "p1_m5"
     ]
   },
   {
@@ -1107,6 +1382,26 @@ const dailyMenus = [
     "extra": [
       "p2_m4",
       "p2_m5"
+    ]
+  },
+  {
+    "name": "Opciones 4",
+    "targetMacros": {
+      "calories": 1800,
+      "protein": 150,
+      "carbs": 150
+    },
+    "desayuno": [
+      "p3_m0"
+    ],
+    "comida": [
+      "p3_m1"
+    ],
+    "cena": [
+      "p3_m2"
+    ],
+    "extra": [
+      "p3_m3"
     ]
   }
 ];
