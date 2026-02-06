@@ -4,7 +4,7 @@
 //
 // =========================================================================
 // =========================================================================
-// DATOS DEL PLAN (3 DÍAS)
+// DATOS DEL PLAN (4 DÍAS)
 //
 // =========================================================================
 // =========================================================================
@@ -673,20 +673,20 @@ const foodDatabase = {
   "p2_m0": {
     "name": "Pan wasa con Huevo, Aguacate y Cherries",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68cc56abf782ba4c11b42a44.png",
-    "calories": 281.5,
-    "protein": 12.3,
-    "carbs": 17.55,
-    "fats": 18.200000000000003,
+    "calories": 254.5,
+    "protein": 11.4,
+    "carbs": 12.55,
+    "fats": 17.900000000000002,
     "ingredients": [
       {
         "name": "Pan Wasa",
-        "quantity": "2",
+        "quantity": "1",
         "unit": "rebanada(s)",
         "gramsPerUnit": 10,
-        "calories": 54,
-        "protein": 1.7999999999999998,
-        "carbs": 10,
-        "fats": 0.6,
+        "calories": 27,
+        "protein": 0.8999999999999999,
+        "carbs": 5,
+        "fats": 0.3,
         "baseCalories": 2.7,
         "baseProtein": 0.09,
         "baseCarbs": 0.5,
@@ -855,15 +855,305 @@ const foodDatabase = {
     "isSideDish": false
   },
   "p2_m3": {
-    "name": "Pimientos Salteados con Cebolla y Tomate Cherry.",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cd7144d6fb7451eb7bbf9.png",
-    "calories": 155.9,
-    "protein": 4.5,
-    "carbs": 11.25,
-    "fats": 10.45,
+    "name": "Crema de Calabacín con Huevo Poché y Jamón",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6922cdb9f96c9c55f5257809.png",
+    "calories": 370,
+    "protein": 31.8,
+    "carbs": 16.7,
+    "fats": 19.200000000000003,
     "ingredients": [
       {
+        "name": "Calabacín",
+        "quantity": "150",
+        "unit": "g",
+        "calories": 45,
+        "protein": 3,
+        "carbs": 7.5,
+        "fats": 0.3,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Puerro",
+        "quantity": "150",
+        "unit": "g",
+        "calories": 45,
+        "protein": 3,
+        "carbs": 7.5,
+        "fats": 0.3,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Quesito Light",
+        "quantity": "1",
+        "unit": "unidad(es)",
+        "gramsPerUnit": 15,
+        "calories": 15,
+        "protein": 1.7999999999999998,
+        "carbs": 0.6,
+        "fats": 0.6,
+        "baseCalories": 1,
+        "baseProtein": 0.11999999999999998,
+        "baseCarbs": 0.04,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Jamón Serrano",
+        "quantity": "50",
+        "unit": "g",
+        "calories": 110.00000000000001,
+        "protein": 11,
+        "carbs": 0,
+        "fats": 7.000000000000001,
+        "baseCalories": 2.2,
+        "baseProtein": 0.22,
+        "baseCarbs": 0,
+        "baseFats": 0.14
+      },
+      {
+        "name": "Huevo",
+        "quantity": "2",
+        "unit": "unidad(es)",
+        "gramsPerUnit": 50,
+        "calories": 155,
+        "protein": 13,
+        "carbs": 1.1,
+        "fats": 11,
+        "baseCalories": 1.55,
+        "baseProtein": 0.13,
+        "baseCarbs": 0.011000000000000001,
+        "baseFats": 0.11
+      }
+    ],
+    "preparation": "1. Sofreír puerro y calabacín. Cubrir con agua y cocer. Triturar añadiendo el quesito para cremosidad. 2. Escalfar el huevo en agua hirviendo con vinagre (3-4 min). 3. Servir la crema con el huevo encima y virutas de jamón.",
+    "originalBaseRecipeId": "cc_crema_de_calabacn_con_huevo_poch_y_jamn",
+    "isSideDish": false
+  },
+  "p2_m4": {
+    "name": "Yogur Protéico con Frutos Rojos y Secos",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afea2b91eb35e413d4ab6.png",
+    "calories": 245,
+    "protein": 8.5,
+    "carbs": 23,
+    "fats": 13.1,
+    "ingredients": [
+      {
+        "name": "Yogur Protéico",
+        "quantity": "1",
+        "unit": "unidad(es)",
+        "gramsPerUnit": 125,
+        "calories": 125,
+        "protein": 6.25,
+        "carbs": 12.5,
+        "fats": 5,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Frutos Rojos",
+        "quantity": "50",
+        "unit": "g",
+        "calories": 30,
+        "protein": 0.25,
+        "carbs": 7.5,
+        "fats": 0.1,
+        "baseCalories": 0.6,
+        "baseProtein": 0.005,
+        "baseCarbs": 0.15,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Frutos Secos",
+        "quantity": "20",
+        "unit": "g",
+        "calories": 90,
+        "protein": 2,
+        "carbs": 3,
+        "fats": 8,
+        "baseCalories": 4.5,
+        "baseProtein": 0.1,
+        "baseCarbs": 0.15,
+        "baseFats": 0.4
+      }
+    ],
+    "preparation": "1. En un bol, verter el yogur proteico. 2. Añadir los frutos rojos frescos o descongelados. 3. Espolvorear con los frutos secos troceados por encima.",
+    "originalBaseRecipeId": "ext_yogur_protico_con_frutos_rojos_y_secos",
+    "isSideDish": false
+  },
+  "p3_m0": {
+    "name": "Revuelto de Huevos con Jamón",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682ad5e1e819fcb589a8a30e.png",
+    "calories": 353.4,
+    "protein": 24,
+    "carbs": 1.1,
+    "fats": 28,
+    "ingredients": [
+      {
+        "name": "Huevos",
+        "quantity": "2",
+        "unit": "unidad(es)",
+        "gramsPerUnit": 50,
+        "calories": 155,
+        "protein": 13,
+        "carbs": 1.1,
+        "fats": 11,
+        "baseCalories": 1.55,
+        "baseProtein": 0.13,
+        "baseCarbs": 0.011000000000000001,
+        "baseFats": 0.11
+      },
+      {
+        "name": "Jamón Serrano",
+        "quantity": "50",
+        "unit": "g",
+        "calories": 110.00000000000001,
+        "protein": 11,
+        "carbs": 0,
+        "fats": 7.000000000000001,
+        "baseCalories": 2.2,
+        "baseProtein": 0.22,
+        "baseCarbs": 0,
+        "baseFats": 0.14
+      },
+      {
+        "name": "Aceite de Oliva Virgen Extra",
+        "quantity": "10",
+        "unit": "g",
+        "calories": 88.4,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 10,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1
+      }
+    ],
+    "preparation": "1. Batir los huevos. 2. Cortar el jamón en taquitos o tiras. 3. Saltear ligeramente el jamón en una sartén con una pizca de aceite (opcional). 4. Verter los huevos batidos y remover constantemente a fuego medio-bajo hasta que cuajen al gusto.",
+    "originalBaseRecipeId": "des_revuelto_de_huevos_con_jamn",
+    "isSideDish": false
+  },
+  "p3_m1": {
+    "name": "Ensalada tibia de garbanzos al pesto con berenjena y espinacas",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684ef8f6f6c48d704ca5ae98.png",
+    "calories": 433.4,
+    "protein": 18,
+    "carbs": 46,
+    "fats": 19.15,
+    "ingredients": [
+      {
+        "name": "Garbanzos Cocidos",
+        "quantity": "150",
+        "unit": "g",
+        "calories": 195,
+        "protein": 12,
+        "carbs": 33,
+        "fats": 0.75,
+        "baseCalories": 1.3,
+        "baseProtein": 0.08,
+        "baseCarbs": 0.22,
+        "baseFats": 0.005
+      },
+      {
+        "name": "Pesto",
+        "quantity": "20",
+        "unit": "g",
+        "calories": 90,
+        "protein": 2,
+        "carbs": 3,
+        "fats": 8,
+        "baseCalories": 4.5,
+        "baseProtein": 0.1,
+        "baseCarbs": 0.15,
+        "baseFats": 0.4
+      },
+      {
+        "name": "Berenjena",
+        "quantity": "150",
+        "unit": "g",
+        "calories": 45,
+        "protein": 3,
+        "carbs": 7.5,
+        "fats": 0.3,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Espinacas",
+        "quantity": "50",
+        "unit": "g",
+        "calories": 15,
+        "protein": 1,
+        "carbs": 2.5,
+        "fats": 0.1,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Aceite de Oliva Virgen Extra",
+        "quantity": "10",
+        "unit": "g",
+        "calories": 88.4,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 10,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1
+      }
+    ],
+    "preparation": "1. Precalentar el horno a 200°C. Cortar la berenjena en dados, rociar con un poco de aceite de oliva, salpimentar y asar en el horno durante 15-20 minutos o hasta que esté tierna y dorada. 2. Si usas garbanzos de bote, enjuagarlos y escurrirlos bien. Calentarlos ligeramente en una sartén o en el microondas. 3. En un bol grande, mezclar los garbanzos calientes con la cantidad deseada de pesto. 4. Añadir la berenjena asada y las espinacas frescas. Mezclar suavemente para combinar todos los ingredientes. 5. Servir tibia.",
+    "originalBaseRecipeId": "pp_ensalada_tibia_de_garbanzos_al_pesto_con_berenjena_y_espinacas",
+    "isSideDish": false
+  },
+  "p3_m2": {
+    "name": "Wok de Verduras con Salmón",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afda0b91eb330dd3d49b2.png",
+    "calories": 442.4,
+    "protein": 32.4,
+    "carbs": 15,
+    "fats": 27.400000000000002,
+    "ingredients": [
+      {
+        "name": "Tomate",
+        "quantity": "75",
+        "unit": "g",
+        "calories": 22.5,
+        "protein": 1.5,
+        "carbs": 3.75,
+        "fats": 0.15,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
         "name": "Pimiento Rojo",
+        "quantity": "75",
+        "unit": "g",
+        "calories": 22.5,
+        "protein": 1.5,
+        "carbs": 3.75,
+        "fats": 0.15,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Pimiento Verde",
         "quantity": "75",
         "unit": "g",
         "calories": 22.5,
@@ -889,52 +1179,13 @@ const foodDatabase = {
         "baseFats": 0.002
       },
       {
-        "name": "Tomate Cherry",
-        "quantity": "75",
+        "name": "Lomo de Salmón",
+        "quantity": "120",
         "unit": "g",
-        "calories": 22.5,
-        "protein": 1.5,
-        "carbs": 3.75,
-        "fats": 0.15,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Aceite de Oliva Virgen Extra",
-        "quantity": "10",
-        "unit": "g",
-        "calories": 88.4,
-        "protein": 0,
+        "calories": 264,
+        "protein": 26.4,
         "carbs": 0,
-        "fats": 10,
-        "baseCalories": 8.84,
-        "baseProtein": 0,
-        "baseCarbs": 0,
-        "baseFats": 1
-      }
-    ],
-    "preparation": "1. Lavar las verduras y cortarlas a láminas finas a lo largo. 2. Poner un poco de aceite en una sartén y saltear las verduras.",
-    "originalBaseRecipeId": "pp_pimientos_salteados_con_cebolla_y_tomate_cherry",
-    "isSideDish": false
-  },
-  "p2_m4": {
-    "name": "Solomillo/Filete de Ternera a la Plancha",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe6c0ed506003743015a.png",
-    "calories": 418.4,
-    "protein": 33,
-    "carbs": 0,
-    "fats": 31.000000000000004,
-    "ingredients": [
-      {
-        "name": "Solomillo de Ternera",
-        "quantity": "150",
-        "unit": "g",
-        "calories": 330,
-        "protein": 33,
-        "carbs": 0,
-        "fats": 21.000000000000004,
+        "fats": 16.8,
         "baseCalories": 2.2,
         "baseProtein": 0.22,
         "baseCarbs": 0,
@@ -954,92 +1205,67 @@ const foodDatabase = {
         "baseFats": 1
       }
     ],
-    "preparation": "1. Sacar el filete o solomillo de ternera del refrigerador unos 15-20 minutos antes de cocinar para que se temple. 2. Sazonar la carne con sal y pimienta negra recién molida justo antes de ponerla en la plancha. 3. Calentar una plancha o sartén de fondo grueso a fuego alto hasta que esté bien caliente. Añadir una gota de aceite de oliva y extenderlo. 4. Cocinar el filete al gusto. 5. Dejar reposar la carne un par de minutos antes de servir para que los jugos se redistribuyan.",
-    "originalBaseRecipeId": "ac_solomillofilete_de_ternera_a_la_plancha",
-    "isSideDish": true
-  },
-  "p2_m5": {
-    "name": "Frutos Secos (Mezcla)",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68525c0b1d27cfeb580a55f7.png",
-    "calories": 135,
-    "protein": 3,
-    "carbs": 4.5,
-    "fats": 12,
-    "ingredients": [
-      {
-        "name": "Anacardos",
-        "quantity": "10",
-        "unit": "g",
-        "calories": 45,
-        "protein": 1,
-        "carbs": 1.5,
-        "fats": 4,
-        "baseCalories": 4.5,
-        "baseProtein": 0.1,
-        "baseCarbs": 0.15,
-        "baseFats": 0.4
-      },
-      {
-        "name": "Almendras",
-        "quantity": "10",
-        "unit": "g",
-        "calories": 45,
-        "protein": 1,
-        "carbs": 1.5,
-        "fats": 4,
-        "baseCalories": 4.5,
-        "baseProtein": 0.1,
-        "baseCarbs": 0.15,
-        "baseFats": 0.4
-      },
-      {
-        "name": "Nueces",
-        "quantity": "5",
-        "unit": "g",
-        "calories": 22.5,
-        "protein": 0.5,
-        "carbs": 0.75,
-        "fats": 2,
-        "baseCalories": 4.5,
-        "baseProtein": 0.1,
-        "baseCarbs": 0.15,
-        "baseFats": 0.4
-      },
-      {
-        "name": "Pistachos",
-        "quantity": "5",
-        "unit": "g",
-        "calories": 22.5,
-        "protein": 0.5,
-        "carbs": 0.75,
-        "fats": 2,
-        "baseCalories": 4.5,
-        "baseProtein": 0.1,
-        "baseCarbs": 0.15,
-        "baseFats": 0.4
-      }
-    ],
-    "preparation": "Consumir directamente como un snack energético y nutritivo.",
-    "originalBaseRecipeId": "ext_frutos_secos_mezcla",
+    "preparation": "1. Cortar el salmón en dados de tamaño mediano. Picar el tomate, pimiento rojo, pimiento verde y cebolla en trozos adecuados para wok (ej. juliana gruesa o dados). 2. Calentar un wok o sartén grande con un poco de aceite a fuego alto. Saltear el salmón unos 2-3 minutos hasta que esté dorado por fuera pero ligeramente crudo por dentro. Retirar y reservar. 3. Añadir las verduras más duras (cebolla, pimientos) al wok y saltear durante 3-4 minutos. Luego añadir el tomate y saltear 1-2 minutos más. 4. Incorporar el salmón de nuevo al wok. Añadir salsa de soja (baja en sodio preferiblemente) y un toque de jengibre rallado o ajo picado (opcional). Mezclar bien y cocinar por 1-2 minutos más hasta que el salmón esté cocido y todo bien caliente. Servir inmediatamente, opcionalmente sobre una base de arroz o noodles.",
+    "originalBaseRecipeId": "cc_wok_de_verduras_con_salmn",
     "isSideDish": false
   },
-  "p2_m6": {
-    "name": "Fruta Cítrica (Mandarina, Kiwi, Naranja...)",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd3d0ed506305442ffe4.png",
-    "calories": 90,
-    "protein": 0.75,
-    "carbs": 22.5,
-    "fats": 0.3,
+  "p3_m3": {
+    "name": "Yogur Griego Desnatado con Proteína en Polvo",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68e7efa6d27b18380fc8e8fd.png",
+    "calories": 239,
+    "protein": 30.25,
+    "carbs": 14,
+    "fats": 6.2,
     "ingredients": [
       {
-        "name": "Naranja",
+        "name": "Yogur Griego Desnatado",
         "quantity": "1",
         "unit": "unidad(es)",
-        "gramsPerUnit": 150,
-        "calories": 90,
-        "protein": 0.75,
-        "carbs": 22.5,
-        "fats": 0.3,
+        "gramsPerUnit": 125,
+        "calories": 125,
+        "protein": 6.25,
+        "carbs": 12.5,
+        "fats": 5,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Proteína en Polvo",
+        "quantity": "30",
+        "unit": "g",
+        "calories": 114,
+        "protein": 24,
+        "carbs": 1.5,
+        "fats": 1.2,
+        "baseCalories": 3.8,
+        "baseProtein": 0.8,
+        "baseCarbs": 0.05,
+        "baseFats": 0.04
+      }
+    ],
+    "preparation": "1. Mezclar el yogur griego con la proteína en polvo en un bol hasta que esté bien integrado.",
+    "originalBaseRecipeId": "ext_yogur_griego_desnatado_con_protena_en_polvo",
+    "isSideDish": false
+  },
+  "p3_m4": {
+    "name": "Fruta Cítrica (Mandarina, Kiwi, Naranja...)",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd3d0ed506305442ffe4.png",
+    "calories": 45,
+    "protein": 0.375,
+    "carbs": 11.25,
+    "fats": 0.15,
+    "ingredients": [
+      {
+        "name": "Kiwi",
+        "quantity": "1",
+        "unit": "unidad(es)",
+        "gramsPerUnit": 75,
+        "calories": 45,
+        "protein": 0.375,
+        "carbs": 11.25,
+        "fats": 0.15,
         "baseCalories": 0.6,
         "baseProtein": 0.005,
         "baseCarbs": 0.15,
@@ -1054,7 +1280,7 @@ const foodDatabase = {
 
 const dailyMenus = [
   {
-    "name": "Día 1",
+    "name": "Entreno 1",
     "targetMacros": {
       "calories": 1800,
       "protein": 150,
@@ -1076,7 +1302,7 @@ const dailyMenus = [
     ]
   },
   {
-    "name": "Día 2",
+    "name": "Entreno 2",
     "targetMacros": {
       "calories": 1800,
       "protein": 150,
@@ -1098,7 +1324,7 @@ const dailyMenus = [
     ]
   },
   {
-    "name": "Día 3",
+    "name": "Libre 1",
     "targetMacros": {
       "calories": 1800,
       "protein": 150,
@@ -1112,12 +1338,31 @@ const dailyMenus = [
       "p2_m2"
     ],
     "cena": [
-      "p2_m3",
-      "p2_m4"
+      "p2_m3"
     ],
     "extra": [
-      "p2_m5",
-      "p2_m6"
+      "p2_m4"
+    ]
+  },
+  {
+    "name": "Libre 2",
+    "targetMacros": {
+      "calories": 1800,
+      "protein": 150,
+      "carbs": 150
+    },
+    "desayuno": [
+      "p3_m0"
+    ],
+    "comida": [
+      "p3_m1"
+    ],
+    "cena": [
+      "p3_m2"
+    ],
+    "extra": [
+      "p3_m3",
+      "p3_m4"
     ]
   }
 ];
