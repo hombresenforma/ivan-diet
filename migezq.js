@@ -1,39 +1,39 @@
+// Titulo: Plan de Alimentación
+// Alergias: 
 const foodDatabase = {
   "p0_m0": {
     "name": "Tostada de Centeno con Huevo y Aguacate",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687a695da648331355d3b0b2.png",
-    "calories": 459.4,
-    "protein": 18.7,
-    "carbs": 20.6,
-    "fats": 33.9,
+    "calories": 459,
+    "protein": 19,
+    "carbs": 21,
+    "fats": 34,
     "ingredients": [
       {
         "name": "Tostada de Pan de Centeno",
         "quantity": "1",
         "unit": "rebanada(s)",
-        "gramsPerUnit": 30,
         "calories": 81,
         "protein": 2.6999999999999997,
         "carbs": 15,
         "fats": 0.8999999999999999,
-        "baseCalories": 2.7,
-        "baseProtein": 0.09,
-        "baseCarbs": 0.5,
-        "baseFats": 0.029999999999999995
+        "baseCalories": 81,
+        "baseProtein": 2.6999999999999997,
+        "baseCarbs": 15,
+        "baseFats": 0.8999999999999999
       },
       {
         "name": "Huevos",
         "quantity": "2",
         "unit": "unidad(es)",
-        "gramsPerUnit": 50,
         "calories": 155,
         "protein": 13,
         "carbs": 1.1,
         "fats": 11,
-        "baseCalories": 1.55,
-        "baseProtein": 0.13,
-        "baseCarbs": 0.011000000000000001,
-        "baseFats": 0.11
+        "baseCalories": 77.5,
+        "baseProtein": 6.5,
+        "baseCarbs": 0.55,
+        "baseFats": 5.5
       },
       {
         "name": "Aguacate",
@@ -68,10 +68,10 @@ const foodDatabase = {
   "p0_m1": {
     "name": "Estofado de Lentejas con Verduras y Costilla",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6922cf648c174dc51742182c.png",
-    "calories": 576.5,
-    "protein": 45.4,
-    "carbs": 49.25,
-    "fats": 19.999999999999996,
+    "calories": 577,
+    "protein": 45,
+    "carbs": 49,
+    "fats": 20,
     "ingredients": [
       {
         "name": "Lentejas Cocidas",
@@ -158,10 +158,10 @@ const foodDatabase = {
   "p0_m2": {
     "name": "Boniato asado con ensalada de tomate",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684efcd1f6c48df26aa5ba5b.png",
-    "calories": 290.9,
-    "protein": 7.5,
-    "carbs": 41.25,
-    "fats": 10.6,
+    "calories": 291,
+    "protein": 8,
+    "carbs": 41,
+    "fats": 11,
     "ingredients": [
       {
         "name": "Boniato",
@@ -222,8 +222,8 @@ const foodDatabase = {
   "p0_m3": {
     "name": "Merluza a la Plancha",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684f001d4d606642b1333279.png",
-    "calories": 328.4,
-    "protein": 42.00000000000001,
+    "calories": 328,
+    "protein": 42,
     "carbs": 0,
     "fats": 16,
     "ingredients": [
@@ -261,23 +261,22 @@ const foodDatabase = {
     "name": "Yogur Protéico (Sabores, Natural...)",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd789b8ed38b127cbc09.png",
     "calories": 125,
-    "protein": 6.25,
-    "carbs": 12.5,
+    "protein": 6,
+    "carbs": 13,
     "fats": 5,
     "ingredients": [
       {
         "name": "Yogur Protéico",
         "quantity": "1",
         "unit": "unidad(es)",
-        "gramsPerUnit": 125,
         "calories": 125,
         "protein": 6.25,
         "carbs": 12.5,
         "fats": 5,
-        "baseCalories": 1,
-        "baseProtein": 0.05,
-        "baseCarbs": 0.1,
-        "baseFats": 0.04
+        "baseCalories": 125,
+        "baseProtein": 6.25,
+        "baseCarbs": 12.5,
+        "baseFats": 5
       }
     ],
     "preparation": "1. Seleccionar el yogur proteico de preferencia. 2. Abrir el envase. 3. Consumir directamente con una cuchara.",
@@ -287,23 +286,22 @@ const foodDatabase = {
     "name": "Fruta Densa (Plátano, Manzana)",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe4bb91eb325b93d4a82.png",
     "calories": 72,
-    "protein": 0.6,
+    "protein": 1,
     "carbs": 18,
-    "fats": 0.24,
+    "fats": 0,
     "ingredients": [
       {
         "name": "Plátano",
         "quantity": "1",
         "unit": "unidad(es)",
-        "gramsPerUnit": 120,
         "calories": 72,
         "protein": 0.6,
         "carbs": 18,
         "fats": 0.24,
-        "baseCalories": 0.6,
-        "baseProtein": 0.005,
-        "baseCarbs": 0.15,
-        "baseFats": 0.002
+        "baseCalories": 72,
+        "baseProtein": 0.6,
+        "baseCarbs": 18,
+        "baseFats": 0.24
       }
     ],
     "preparation": "1. Seleccionar la fruta densa de preferencia. 2. Para plátanos: pelar la piel y consumir directamente. 3. Para manzanas o peras: lavar bien la fruta. Se puede consumir con piel o pelada.",
@@ -313,37 +311,35 @@ const foodDatabase = {
     "name": "Tostada de Pan de Centeno con Revuelto de Huevos y Jamón York",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687d09e04d6fb7f271b84cc9.png",
     "calories": 351,
-    "protein": 23.7,
-    "carbs": 17.1,
-    "fats": 20.9,
+    "protein": 24,
+    "carbs": 17,
+    "fats": 21,
     "ingredients": [
       {
         "name": "Tostada de Pan de Centeno",
         "quantity": "1",
         "unit": "rebanada(s)",
-        "gramsPerUnit": 30,
         "calories": 81,
         "protein": 2.6999999999999997,
         "carbs": 15,
         "fats": 0.8999999999999999,
-        "baseCalories": 2.7,
-        "baseProtein": 0.09,
-        "baseCarbs": 0.5,
-        "baseFats": 0.029999999999999995
+        "baseCalories": 81,
+        "baseProtein": 2.6999999999999997,
+        "baseCarbs": 15,
+        "baseFats": 0.8999999999999999
       },
       {
         "name": "Huevos",
         "quantity": "2",
         "unit": "unidad(es)",
-        "gramsPerUnit": 50,
         "calories": 155,
         "protein": 13,
         "carbs": 1.1,
         "fats": 11,
-        "baseCalories": 1.55,
-        "baseProtein": 0.13,
-        "baseCarbs": 0.011000000000000001,
-        "baseFats": 0.11
+        "baseCalories": 77.5,
+        "baseProtein": 6.5,
+        "baseCarbs": 0.55,
+        "baseFats": 5.5
       },
       {
         "name": "Jamón York",
@@ -366,9 +362,9 @@ const foodDatabase = {
     "name": "Ensala de Patata, Atún y Huevo",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afc08b91eb31afe3d4796.png",
     "calories": 760,
-    "protein": 68.5,
-    "carbs": 71.1,
-    "fats": 19.85,
+    "protein": 69,
+    "carbs": 71,
+    "fats": 20,
     "ingredients": [
       {
         "name": "Patata",
@@ -465,15 +461,14 @@ const foodDatabase = {
         "name": "Huevo Cocido",
         "quantity": "2",
         "unit": "unidad(es)",
-        "gramsPerUnit": 50,
         "calories": 155,
         "protein": 13,
         "carbs": 1.1,
         "fats": 11,
-        "baseCalories": 1.55,
-        "baseProtein": 0.13,
-        "baseCarbs": 0.011000000000000001,
-        "baseFats": 0.11
+        "baseCalories": 77.5,
+        "baseProtein": 6.5,
+        "baseCarbs": 0.55,
+        "baseFats": 5.5
       }
     ],
     "preparation": "1. Cocer las patatas con piel en agua con sal hasta que estén tiernas (unos 20-25 minutos). Dejar enfriar, pelar y cortar en dados. 2. Cocer los huevos en agua hirviendo durante 10 minutos. Dejar enfriar, pelar y cortar en rodajas o trozos. 3. Picar finamente el pimiento verde, pimiento rojo, cebolla y tomate. 4. En un bol grande, mezclar las patatas, los huevos, las verduras picadas, el maíz dulce (escurrido) y el atún (escurrido y desmenuzado). 5. Aliñar con aceite de oliva virgen extra, vinagre y sal al gusto. Mezclar con cuidado.",
@@ -482,10 +477,10 @@ const foodDatabase = {
   "p1_m2": {
     "name": "Ensalada de Tomate, Ajo y Cebolla",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe199b8ed3c4d37cbd18.png",
-    "calories": 67.5,
-    "protein": 4.5,
-    "carbs": 11.25,
-    "fats": 0.44999999999999996,
+    "calories": 68,
+    "protein": 5,
+    "carbs": 11,
+    "fats": 0,
     "ingredients": [
       {
         "name": "Tomate",
@@ -520,10 +515,10 @@ const foodDatabase = {
   "p1_m3": {
     "name": "Solomillo/Filete de Ternera a la Plancha",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe6c0ed5060d3743015a.png",
-    "calories": 418.4,
+    "calories": 418,
     "protein": 33,
     "carbs": 0,
-    "fats": 31.000000000000004,
+    "fats": 31,
     "ingredients": [
       {
         "name": "Solomillo de Ternera",
@@ -559,23 +554,22 @@ const foodDatabase = {
     "name": "Fruta Cítrica (Mandarina, Kiwi, Naranja...)",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd3d0ed506305442ffe4.png",
     "calories": 45,
-    "protein": 0.375,
-    "carbs": 11.25,
-    "fats": 0.15,
+    "protein": 0,
+    "carbs": 11,
+    "fats": 0,
     "ingredients": [
       {
         "name": "Kiwi",
         "quantity": "1",
         "unit": "unidad(es)",
-        "gramsPerUnit": 75,
         "calories": 45,
         "protein": 0.375,
         "carbs": 11.25,
         "fats": 0.15,
-        "baseCalories": 0.6,
-        "baseProtein": 0.005,
-        "baseCarbs": 0.15,
-        "baseFats": 0.002
+        "baseCalories": 45,
+        "baseProtein": 0.375,
+        "baseCarbs": 11.25,
+        "baseFats": 0.15
       }
     ],
     "preparation": "1. Seleccionar la fruta cítrica de preferencia. 2. Lavar bien la fruta bajo el grifo. 3. Para mandarinas y naranjas: pelar la piel con las manos. 4. Para kiwis: cortar por la mitad y comer la pulpa con una cucharita.",
@@ -585,23 +579,22 @@ const foodDatabase = {
     "name": "Yogur Protéico (Sabores, Natural...)",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd789b8ed38b127cbc09.png",
     "calories": 125,
-    "protein": 6.25,
-    "carbs": 12.5,
+    "protein": 6,
+    "carbs": 13,
     "fats": 5,
     "ingredients": [
       {
         "name": "Yogur Protéico",
         "quantity": "1",
         "unit": "unidad(es)",
-        "gramsPerUnit": 125,
         "calories": 125,
         "protein": 6.25,
         "carbs": 12.5,
         "fats": 5,
-        "baseCalories": 1,
-        "baseProtein": 0.05,
-        "baseCarbs": 0.1,
-        "baseFats": 0.04
+        "baseCalories": 125,
+        "baseProtein": 6.25,
+        "baseCarbs": 12.5,
+        "baseFats": 5
       }
     ],
     "preparation": "1. Seleccionar el yogur proteico de preferencia. 2. Abrir el envase. 3. Consumir directamente con una cuchara.",
@@ -610,24 +603,23 @@ const foodDatabase = {
   "p2_m0": {
     "name": "Yogurt Protéico con Frutos Rojos y Secos",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afea2b91eb35e413d4ab6.png",
-    "calories": 267.5,
+    "calories": 268,
     "protein": 9,
-    "carbs": 23.75,
-    "fats": 15.1,
+    "carbs": 24,
+    "fats": 15,
     "ingredients": [
       {
         "name": "Yogur Protéico",
         "quantity": "1",
         "unit": "unidad(es)",
-        "gramsPerUnit": 125,
         "calories": 125,
         "protein": 6.25,
         "carbs": 12.5,
         "fats": 5,
-        "baseCalories": 1,
-        "baseProtein": 0.05,
-        "baseCarbs": 0.1,
-        "baseFats": 0.04
+        "baseCalories": 125,
+        "baseProtein": 6.25,
+        "baseCarbs": 12.5,
+        "baseFats": 5
       },
       {
         "name": "Frutos Rojos",
@@ -662,10 +654,10 @@ const foodDatabase = {
   "p2_m1": {
     "name": "Musakka de Patata al horno con verduras y carne picada",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684efda5653a2c17a7172d67.png",
-    "calories": 739.9,
-    "protein": 44.9,
-    "carbs": 52.05,
-    "fats": 37.45,
+    "calories": 740,
+    "protein": 45,
+    "carbs": 52,
+    "fats": 37,
     "ingredients": [
       {
         "name": "Patata",
@@ -765,10 +757,10 @@ const foodDatabase = {
   "p2_m2": {
     "name": "Pimientos Salteados con Cebolla y Tomate Cherry.",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cd7144d6fb7451eb7bbf9.png",
-    "calories": 155.9,
-    "protein": 4.5,
-    "carbs": 11.25,
-    "fats": 10.45,
+    "calories": 156,
+    "protein": 5,
+    "carbs": 11,
+    "fats": 10,
     "ingredients": [
       {
         "name": "Pimiento Rojo",
@@ -829,8 +821,8 @@ const foodDatabase = {
   "p2_m3": {
     "name": "Pechuga de Pavo a la Plancha",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684f003ef6c48dfc43a5bdb3.png",
-    "calories": 328.4,
-    "protein": 42.00000000000001,
+    "calories": 328,
+    "protein": 42,
     "carbs": 0,
     "fats": 16,
     "ingredients": [
@@ -868,23 +860,22 @@ const foodDatabase = {
     "name": "Fruta Densa (Plátano, Manzana)",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe4bb91eb325b93d4a82.png",
     "calories": 90,
-    "protein": 0.75,
-    "carbs": 22.5,
-    "fats": 0.3,
+    "protein": 1,
+    "carbs": 23,
+    "fats": 0,
     "ingredients": [
       {
         "name": "Manzana",
         "quantity": "1",
         "unit": "unidad(es)",
-        "gramsPerUnit": 150,
         "calories": 90,
         "protein": 0.75,
         "carbs": 22.5,
         "fats": 0.3,
-        "baseCalories": 0.6,
-        "baseProtein": 0.005,
-        "baseCarbs": 0.15,
-        "baseFats": 0.002
+        "baseCalories": 90,
+        "baseProtein": 0.75,
+        "baseCarbs": 22.5,
+        "baseFats": 0.3
       }
     ],
     "preparation": "1. Seleccionar la fruta densa de preferencia. 2. Para plátanos: pelar la piel y consumir directamente. 3. Para manzanas o peras: lavar bien la fruta. Se puede consumir con piel o pelada.",
@@ -895,7 +886,7 @@ const foodDatabase = {
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68525c0b1d27cfeb580a55f7.png",
     "calories": 135,
     "protein": 3,
-    "carbs": 4.5,
+    "carbs": 5,
     "fats": 12,
     "ingredients": [
       {
@@ -940,6 +931,248 @@ const foodDatabase = {
     ],
     "preparation": "Consumir directamente como un snack energético y nutritivo.",
     "originalBaseRecipeId": "ext_frutos_secos_mezcla"
+  },
+  "p3_m0": {
+    "name": "Sandwich Vegetal de Atún",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cd60954a1880bed54596d.png",
+    "calories": 403,
+    "protein": 39,
+    "carbs": 35,
+    "fats": 10,
+    "ingredients": [
+      {
+        "name": "Pan de Centeno",
+        "quantity": "1",
+        "unit": "rebanada",
+        "calories": 108,
+        "protein": 3.5999999999999996,
+        "carbs": 20,
+        "fats": 1.2,
+        "baseCalories": 108,
+        "baseProtein": 3.5999999999999996,
+        "baseCarbs": 20,
+        "baseFats": 1.2
+      },
+      {
+        "name": "Atún en Conserva",
+        "quantity": "103",
+        "unit": "g",
+        "calories": 164.8,
+        "protein": 28.840000000000003,
+        "carbs": 0,
+        "fats": 4.12,
+        "baseCalories": 1.6,
+        "baseProtein": 0.28,
+        "baseCarbs": 0,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Tomate",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 30,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Lechuga",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 100,
+        "protein": 5,
+        "carbs": 10,
+        "fats": 4,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      }
+    ],
+    "preparation": "1. Prepara un bocadillo con un par de rebanadas de Pan de Centeno. 2. Añade el Atún y opcionalmente tomate y lechuga.",
+    "originalBaseRecipeId": "des_sandwich_vegetal_de_atn"
+  },
+  "p3_m1": {
+    "name": "Pasta de lentejas con sofrito de ternera y cerdo",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684efc77653a2c50f9172c7c.png",
+    "calories": 865,
+    "protein": 68,
+    "carbs": 58,
+    "fats": 37,
+    "ingredients": [
+      {
+        "name": "Pasta de Lentejas",
+        "quantity": "150",
+        "unit": "g",
+        "calories": 195,
+        "protein": 12,
+        "carbs": 33,
+        "fats": 0.75,
+        "baseCalories": 1.3,
+        "baseProtein": 0.08,
+        "baseCarbs": 0.22,
+        "baseFats": 0.005
+      },
+      {
+        "name": "Carne Picada Mixta (Ternera y Cerdo)",
+        "quantity": "200",
+        "unit": "g",
+        "calories": 440.00000000000006,
+        "protein": 44,
+        "carbs": 0,
+        "fats": 28.000000000000004,
+        "baseCalories": 2.2,
+        "baseProtein": 0.22,
+        "baseCarbs": 0,
+        "baseFats": 0.14
+      },
+      {
+        "name": "Calabacín",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 30,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Cebolla",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 100,
+        "protein": 5,
+        "carbs": 10,
+        "fats": 4,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Zanahoria",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 100,
+        "protein": 5,
+        "carbs": 10,
+        "fats": 4,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      }
+    ],
+    "preparation": "1. Cocinar la pasta de lentejas según las instrucciones del paquete hasta que esté al dente. Escurrir y reservar. 2. Picar finamente la cebolla y la zanahoria. Rallar o picar el calabacín en dados pequeños. 3. En una sartén grande, calentar un poco de aceite de oliva y sofreír la cebolla y zanahoria hasta que estén blandas. 4. Añadir la carne picada mixta (ternera y cerdo) y cocinar a fuego medio-alto, deshaciendo los grumos con una cuchara, hasta que se dore. 5. Incorporar el calabacín y cocinar unos minutos más hasta que esté tierno. Añadir salsa de tomate (opcional, o tomate triturado natural) y sazonar al gusto con sal, pimienta, orégano o albahaca. Cocinar a fuego lento durante 10-15 minutos para que se integren los sabores. 6. Mezclar la pasta de lentejas escurrida con el sofrito. Servir caliente, opcionalmente con queso parmesano rallado.",
+    "originalBaseRecipeId": "cc_pasta_de_lentejas_con_sofrito_de_ternera_y_cerdo"
+  },
+  "p3_m2": {
+    "name": "Fajitas de Pollo y Verduras",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afcef0ed50608b742ff33.png",
+    "calories": 463,
+    "protein": 43,
+    "carbs": 45,
+    "fats": 10,
+    "ingredients": [
+      {
+        "name": "Pan de Fajita",
+        "quantity": "1",
+        "unit": "rebanada",
+        "calories": 108,
+        "protein": 3.5999999999999996,
+        "carbs": 20,
+        "fats": 1.2,
+        "baseCalories": 108,
+        "baseProtein": 3.5999999999999996,
+        "baseCarbs": 20,
+        "baseFats": 1.2
+      },
+      {
+        "name": "Tomate",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 30,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Pimiento Rojo",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 30,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Pimiento Verde",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 30,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Cebolla",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 100,
+        "protein": 5,
+        "carbs": 10,
+        "fats": 4,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Pechuga de Pollo",
+        "quantity": "103",
+        "unit": "g",
+        "calories": 164.8,
+        "protein": 28.840000000000003,
+        "carbs": 0,
+        "fats": 4.12,
+        "baseCalories": 1.6,
+        "baseProtein": 0.28,
+        "baseCarbs": 0,
+        "baseFats": 0.04
+      }
+    ],
+    "preparation": "1. Cortar la pechuga de pollo en tiras finas. Cortar el pimiento rojo, pimiento Verde y cebolla en juliana. Picar el tomate en dados pequeños. 2. Calentar un poco de aceite en una sartén grande. Saltear el pollo hasta que esté dorado y cocido. Retirar y reservar. 3. En la misma sartén, añadir un poco más de aceite si es necesario y saltear las verduras (pimientos y cebolla) hasta que estén tiernas pero crujientes. 4. Volver a añadir el pollo a la sartén con las verduras. Sazonar con especias para fajitas (opcional) o sal y pimienta. Mezclar bien. 5. Calentar las tortillas de fajita según las instrucciones del paquete. 6. Rellenar las tortillas con la mezcla de pollo y verduras, y añadir el tomate fresco picado por encima. Opcional: servir con guacamole, crema agria o salsa.",
+    "originalBaseRecipeId": "cc_fajitas_de_pollo_y_verduras"
+  },
+  "p3_m3": {
+    "name": "Matcha Late",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afc6c365e94868a73d38f.png",
+    "calories": 0,
+    "protein": 0,
+    "carbs": 0,
+    "fats": 0,
+    "ingredients": [],
+    "preparation": "1. En un bol pequeño, tamizar 1-2 cucharaditas de té matcha en polvo. 2. Añadir una pequeña cantidad de agua caliente (unos 60 ml). 3. Batir enérgicamente con un batidor eléctrico pequeño hasta que no haya grumos y se forme una espuma fina. 4. Calentar la leche o bebida vegetal de elección (unos 180-200 ml). 5. Verter el matcha batido en una taza y luego añadir la leche caliente. Endulzar al gusto si se prefiere.",
+    "originalBaseRecipeId": "ext_matcha_late"
   }
 };
 const dailyMenus = [
@@ -1025,6 +1258,32 @@ const dailyMenus = [
     "extra": [
       "p2_m4",
       "p2_m5"
+    ]
+  },
+  {
+    "name": "Opciones 4",
+    "targetMacros": {
+      "calories": 1500,
+      "protein": 150,
+      "carbs": 150
+    },
+    "baselineTotals": {
+      "calories": 1722,
+      "protein": 149,
+      "carbs": 150,
+      "fats": 51
+    },
+    "desayuno": [
+      "p3_m0"
+    ],
+    "comida": [
+      "p3_m1"
+    ],
+    "cena": [
+      "p3_m2"
+    ],
+    "extra": [
+      "p3_m3"
     ]
   }
 ];
