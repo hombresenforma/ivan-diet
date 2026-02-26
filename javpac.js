@@ -1140,28 +1140,15 @@ const foodDatabase = {
     "originalBaseRecipeId": "cc_crema_de_calabacn_con_huevo_poch_y_jamn"
   },
   "p3_m3": {
-    "name": "Cereales de Trigo sin Azúcar",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68e7eff3a54d8879c640b271.png",
-    "calories": 363,
+    "name": "Yogur Proteico con Cereales de Avena",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68e7ef66df76fef1b58db3f2.png",
+    "calories": 396,
     "protein": 14,
-    "carbs": 64,
-    "fats": 5,
+    "carbs": 72,
+    "fats": 6,
     "ingredients": [
       {
-        "name": "Cereales de Trigo",
-        "quantity": "72",
-        "unit": "g",
-        "calories": 262.8,
-        "protein": 8.64,
-        "carbs": 54,
-        "fats": 1.44,
-        "baseCalories": 3.65,
-        "baseProtein": 0.12,
-        "baseCarbs": 0.75,
-        "baseFats": 0.02
-      },
-      {
-        "name": "Leche",
+        "name": "Yogur Protéico",
         "quantity": "100",
         "unit": "g",
         "calories": 100,
@@ -1172,10 +1159,36 @@ const foodDatabase = {
         "baseProtein": 0.05,
         "baseCarbs": 0.1,
         "baseFats": 0.04
+      },
+      {
+        "name": "Cereales de Avena",
+        "quantity": "70",
+        "unit": "g",
+        "calories": 255.5,
+        "protein": 8.4,
+        "carbs": 52.5,
+        "fats": 1.4000000000000001,
+        "baseCalories": 3.65,
+        "baseProtein": 0.12,
+        "baseCarbs": 0.75,
+        "baseFats": 0.02
+      },
+      {
+        "name": "Frutos Rojos",
+        "quantity": "80",
+        "unit": "g",
+        "calories": 40,
+        "protein": 0.8,
+        "carbs": 9.6,
+        "fats": 0.4,
+        "baseCalories": 0.5,
+        "baseProtein": 0.01,
+        "baseCarbs": 0.12,
+        "baseFats": 0.005
       }
     ],
-    "preparation": "1. Verter los cereales en un bol. 2. Añadir leche o bebida vegetal al gusto.",
-    "originalBaseRecipeId": "ext_cereales_de_trigo_sin_azcar"
+    "preparation": "1. Verter el yogur en un bol. 2. Añadir los cereales de avena y los frutos rojos por encima.",
+    "originalBaseRecipeId": "ext_yogur_proteico_con_cereales_de_avena"
   }
 };
 const dailyMenus = [
