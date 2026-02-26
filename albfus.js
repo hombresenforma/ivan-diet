@@ -53,60 +53,47 @@ const foodDatabase = {
     "originalBaseRecipeId": "des_yogurt_protico_con_frutos_rojos_y_secos"
   },
   "p0_m1": {
-    "name": "Wrap de pollo hervido con verduras y arroz",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684ef7e26202d54cb0de24e8.png",
-    "calories": 814,
-    "protein": 63,
-    "carbs": 109,
-    "fats": 11,
+    "name": "Ensala de Patata, Atún y Huevo",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afc08b91eb31afe3d4796.png",
+    "calories": 589,
+    "protein": 59,
+    "carbs": 46,
+    "fats": 16,
     "ingredients": [
       {
-        "name": "Pechuga de Pollo",
-        "quantity": "150",
+        "name": "Patata",
+        "quantity": "100",
         "unit": "g",
-        "calories": 240,
-        "protein": 42.00000000000001,
-        "carbs": 0,
-        "fats": 6,
-        "baseCalories": 1.6,
-        "baseProtein": 0.28,
-        "baseCarbs": 0,
-        "baseFats": 0.04
+        "calories": 90,
+        "protein": 2,
+        "carbs": 20,
+        "fats": 0.1,
+        "baseCalories": 0.9,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.2,
+        "baseFats": 0.001
       },
       {
-        "name": "Arroz",
-        "quantity": "50",
+        "name": "Pimiento Verde",
+        "quantity": "100",
         "unit": "g",
-        "calories": 182.5,
-        "protein": 6,
-        "carbs": 37.5,
-        "fats": 1,
-        "baseCalories": 3.65,
-        "baseProtein": 0.12,
-        "baseCarbs": 0.75,
-        "baseFats": 0.02
-      },
-      {
-        "name": "Brócoli",
-        "quantity": "75",
-        "unit": "g",
-        "calories": 22.5,
-        "protein": 1.5,
-        "carbs": 3.75,
-        "fats": 0.15,
+        "calories": 30,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
         "baseCalories": 0.3,
         "baseProtein": 0.02,
         "baseCarbs": 0.05,
         "baseFats": 0.002
       },
       {
-        "name": "Zanahoria",
-        "quantity": "75",
+        "name": "Pimiento Rojo",
+        "quantity": "100",
         "unit": "g",
-        "calories": 22.5,
-        "protein": 1.5,
-        "carbs": 3.75,
-        "fats": 0.15,
+        "calories": 30,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
         "baseCalories": 0.3,
         "baseProtein": 0.02,
         "baseCarbs": 0.05,
@@ -114,33 +101,59 @@ const foodDatabase = {
       },
       {
         "name": "Cebolla",
-        "quantity": "75",
+        "quantity": "100",
         "unit": "g",
-        "calories": 22.5,
-        "protein": 1.5,
-        "carbs": 3.75,
-        "fats": 0.15,
+        "calories": 100,
+        "protein": 5,
+        "carbs": 10,
+        "fats": 4,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Tomate",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 30,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
         "baseCalories": 0.3,
         "baseProtein": 0.02,
         "baseCarbs": 0.05,
         "baseFats": 0.002
       },
       {
-        "name": "Tortilla de Wrap",
-        "quantity": "2",
-        "unit": "unidad(es)",
-        "calories": 324,
-        "protein": 10.799999999999999,
-        "carbs": 60,
-        "fats": 3.5999999999999996,
-        "baseCalories": 162,
-        "baseProtein": 5.3999999999999995,
-        "baseCarbs": 30,
-        "baseFats": 1.7999999999999998
+        "name": "Atún en Conserva",
+        "quantity": "140",
+        "unit": "g",
+        "calories": 224,
+        "protein": 39.2,
+        "carbs": 0,
+        "fats": 5.6000000000000005,
+        "baseCalories": 1.6,
+        "baseProtein": 0.28,
+        "baseCarbs": 0,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Huevo Cocido",
+        "quantity": "1",
+        "unit": "ud",
+        "calories": 85.25,
+        "protein": 7.15,
+        "carbs": 0.6050000000000001,
+        "fats": 6.05,
+        "baseCalories": 85.25,
+        "baseProtein": 7.15,
+        "baseCarbs": 0.6050000000000001,
+        "baseFats": 6.05
       }
     ],
-    "preparation": "1. Hervir la pechuga de pollo en agua con sal hasta que esté cocida (unos 15-20 minutos). Dejar enfriar un poco y desmenuzar o cortar en trozos pequeños. 2. Cocer el arroz según las instrucciones del paquete. 3. Cocer al vapor o hervir el brócoli (en floretes pequeños) y la zanahoria (cortada en juliana o dados pequeños) hasta que estén tiernos pero crujientes. Picar la cebolla finamente (puede usarse cruda o salteada ligeramente). 4. Calentar ligeramente la tortilla de wrap para que sea más flexible. 5. Extender una capa fina de arroz cocido sobre la tortilla, dejando un borde libre. Distribuir encima el pollo desmenuzado, el brócoli, la zanahoria y la cebolla. 6. Opcional: añadir una salsa ligera (yogur con hierbas, hummus, etc.). Enrollar el wrap firmemente, doblando los extremos hacia adentro si se prefiere.",
-    "originalBaseRecipeId": "cc_wrap_de_pollo_hervido_con_verduras_y_arroz"
+    "preparation": "1. Cocer las patatas con piel en agua con sal hasta que estén tiernas (unos 20-25 minutos). Dejar enfriar, pelar y cortar en dados. 2. Cocer los huevos en agua hirviendo durante 10 minutos. Dejar enfriar, pelar y cortar en rodajas o trozos. 3. Picar finamente el pimiento verde, pimiento rojo, cebolla y tomate. 4. En un bol grande, mezclar las patatas, los huevos, las verduras picadas, el maíz dulce (escurrido) y el atún (escurrido y desmenuzado). 5. Aliñar con aceite de oliva virgen extra, vinagre y sal al gusto. Mezclar con cuidado.",
+    "originalBaseRecipeId": "cc_ensala_de_patata_atn_y_huevo"
   },
   "p0_m2": {
     "name": "Wok de Verduras con Salmón",
@@ -337,19 +350,19 @@ const foodDatabase = {
   "p1_m1": {
     "name": "Ensalada de Pasta con Pollo",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afc47b91eb349463d47dd.png",
-    "calories": 689,
-    "protein": 57,
-    "carbs": 70,
+    "calories": 616,
+    "protein": 55,
+    "carbs": 55,
     "fats": 18,
     "ingredients": [
       {
         "name": "Pasta Integral",
-        "quantity": "70",
+        "quantity": "50",
         "unit": "g",
-        "calories": 255.5,
-        "protein": 8.4,
-        "carbs": 52.5,
-        "fats": 1.4000000000000001,
+        "calories": 182.5,
+        "protein": 6.000000000000001,
+        "carbs": 37.5,
+        "fats": 1,
         "baseCalories": 3.65,
         "baseProtein": 0.12000000000000001,
         "baseCarbs": 0.75,
@@ -552,6 +565,44 @@ const foodDatabase = {
     "originalBaseRecipeId": "ext_yogur_protico_sabores_natural"
   },
   "p2_m0": {
+    "name": "Yogur Protéico con Frutos Rojos y Secos",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afea2b91eb35e413d4ab6.png",
+    "calories": 255,
+    "protein": 9,
+    "carbs": 17,
+    "fats": 17,
+    "ingredients": [
+      {
+        "name": "Yogur Protéico",
+        "quantity": "120",
+        "unit": "g",
+        "calories": 120,
+        "protein": 6,
+        "carbs": 12,
+        "fats": 4.8,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Frutos Secos",
+        "quantity": "30",
+        "unit": "g",
+        "calories": 135,
+        "protein": 3,
+        "carbs": 4.5,
+        "fats": 12,
+        "baseCalories": 4.5,
+        "baseProtein": 0.1,
+        "baseCarbs": 0.15,
+        "baseFats": 0.4
+      }
+    ],
+    "preparation": "1. En un bol, verter el yogur proteico. 2. Añadir los frutos rojos frescos o descongelados. 3. Espolvorear con los frutos secos troceados por encima.",
+    "originalBaseRecipeId": "ext_yogur_protico_con_frutos_rojos_y_secos"
+  },
+  "p2_m1": {
     "name": "Ensalada de Lentejas",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682aff5a365e949c0a73d706.png",
     "calories": 475,
@@ -628,7 +679,7 @@ const foodDatabase = {
     "preparation": "1. Si usas lentejas de bote, enjuagarlas bien bajo el grifo y escurrirlas. Si las cocinas, déjalas enfriar. 2. Picar el tomate y la cebolla (preferiblemente morada) en dados pequeños. Cortar el queso de Burgos 0% y el aguacate en dados. 3. En un bol grande, mezclar con cuidado las lentejas, el tomate, la cebolla, el queso de Burgos y el aguacate. 4. Aliñar con aceite de oliva virgen extra, vinagre (de manzana o Jerez) y sal al gusto.",
     "originalBaseRecipeId": "pp_ensalada_de_lentejas"
   },
-  "p2_m1": {
+  "p2_m2": {
     "name": "Pechuga de Pollo a Tiras",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68f27f90fb2e446db8a380a9.png",
     "calories": 284,
@@ -666,7 +717,7 @@ const foodDatabase = {
     "preparation": "Cocinar la pechuga de pollo a la plancha o cocida y cortar en tiras. Servir solo o añadir a otros platos.",
     "originalBaseRecipeId": "ac_pechuga_de_pollo_a_tiras"
   },
-  "p2_m2": {
+  "p2_m3": {
     "name": "Crema de Verduras Variadas",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cd68425d68cc771ebd10a.png",
     "calories": 118,
@@ -730,7 +781,7 @@ const foodDatabase = {
     "preparation": "1. Puedes comprar una crema preparada o bien cocinar unas cuantas verduras en una olla.",
     "originalBaseRecipeId": "pp_crema_de_verduras_variadas"
   },
-  "p2_m3": {
+  "p2_m4": {
     "name": "Merluza a la Plancha",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684f001d4d606642b1333279.png",
     "calories": 328,
@@ -768,7 +819,7 @@ const foodDatabase = {
     "preparation": "1. Sazonar los filetes o rodajas de merluza con sal, pimienta y opcionalmente un poco de ajo en polvo o perejil picado. 2. Calentar una plancha o sartén antiadherente a fuego medio-alto con un chorrito de aceite de oliva virgen extra. 3. Cuando el aceite esté caliente, colocar la merluza en la plancha. Cocinar durante unos 3-5 minutos por cada lado, dependiendo del grosor del pescado, hasta que esté opaca, bien cocida por dentro y se desmenuce fácilmente con un tenedor. 4. Servir inmediatamente, opcionalmente con un chorrito de zumo de limón fresco por encima.",
     "originalBaseRecipeId": "ac_merluza_a_la_plancha"
   },
-  "p2_m4": {
+  "p2_m5": {
     "name": "Fruta Cítrica (Mandarina, Kiwi, Naranja...)",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd3d0ed506305442ffe4.png",
     "calories": 100,
@@ -792,44 +843,6 @@ const foodDatabase = {
     ],
     "preparation": "1. Seleccionar la fruta cítrica de preferencia. 2. Lavar bien la fruta bajo el grifo. 3. Para mandarinas y naranjas: pelar la piel con las manos. 4. Para kiwis: cortar por la mitad y comer la pulpa con una cucharita.",
     "originalBaseRecipeId": "ext_fruta_ctrica_mandarina_kiwi_naranja"
-  },
-  "p2_m5": {
-    "name": "Yogur Protéico con Frutos Rojos y Secos",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afea2b91eb35e413d4ab6.png",
-    "calories": 255,
-    "protein": 9,
-    "carbs": 17,
-    "fats": 17,
-    "ingredients": [
-      {
-        "name": "Yogur Protéico",
-        "quantity": "120",
-        "unit": "g",
-        "calories": 120,
-        "protein": 6,
-        "carbs": 12,
-        "fats": 4.8,
-        "baseCalories": 1,
-        "baseProtein": 0.05,
-        "baseCarbs": 0.1,
-        "baseFats": 0.04
-      },
-      {
-        "name": "Frutos Secos",
-        "quantity": "30",
-        "unit": "g",
-        "calories": 135,
-        "protein": 3,
-        "carbs": 4.5,
-        "fats": 12,
-        "baseCalories": 4.5,
-        "baseProtein": 0.1,
-        "baseCarbs": 0.15,
-        "baseFats": 0.4
-      }
-    ],
-    "preparation": "1. En un bol, verter el yogur proteico. 2. Añadir los frutos rojos frescos o descongelados. 3. Espolvorear con los frutos secos troceados por encima.",
-    "originalBaseRecipeId": "ext_yogur_protico_con_frutos_rojos_y_secos"
   },
   "p3_m0": {
     "name": "Tostada de Pan de Centeno con Revuelto de Huevos y Jamón York",
@@ -1002,7 +1015,7 @@ const foodDatabase = {
         "carbs": 1.2,
         "fats": 1.2,
         "baseCalories": 1,
-        "baseProtein": 0.12,
+        "baseProtein": 0.11999999999999998,
         "baseCarbs": 0.04,
         "baseFats": 0.04
       },
@@ -1015,7 +1028,7 @@ const foodDatabase = {
         "carbs": 0,
         "fats": 5.6000000000000005,
         "baseCalories": 2.2,
-        "baseProtein": 0.22,
+        "baseProtein": 0.22000000000000003,
         "baseCarbs": 0,
         "baseFats": 0.14
       },
@@ -1053,7 +1066,7 @@ const foodDatabase = {
         "carbs": 4.8,
         "fats": 4.8,
         "baseCalories": 1,
-        "baseProtein": 0.12,
+        "baseProtein": 0.11999999999999998,
         "baseCarbs": 0.04,
         "baseFats": 0.04
       },
@@ -1168,18 +1181,18 @@ const dailyMenus = [
       "fats": 63
     },
     "desayuno": [
-      "p2_m5"
+      "p2_m0"
     ],
     "comida": [
-      "p2_m0",
-      "p2_m1"
+      "p2_m1",
+      "p2_m2"
     ],
     "cena": [
-      "p2_m2",
-      "p2_m3"
+      "p2_m3",
+      "p2_m4"
     ],
     "extra": [
-      "p2_m4"
+      "p2_m5"
     ]
   },
   {
