@@ -944,11 +944,280 @@ const foodDatabase = {
     ],
     "preparation": "Consumir directamente como un snack energético y nutritivo.",
     "originalBaseRecipeId": "ext_frutos_secos_mezcla"
+  },
+  "p3_m0": {
+    "name": "Tortitas de Avena con Frutos Rojos",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682ad5d9e819fce58fa8a30c.png",
+    "calories": 459,
+    "protein": 33,
+    "carbs": 64,
+    "fats": 8,
+    "ingredients": [
+      {
+        "name": "Harina de Avena",
+        "quantity": "70",
+        "unit": "g",
+        "calories": 255.5,
+        "protein": 8.4,
+        "carbs": 52.5,
+        "fats": 1.4000000000000001,
+        "baseCalories": 3.65,
+        "baseProtein": 0.12,
+        "baseCarbs": 0.75,
+        "baseFats": 0.02
+      },
+      {
+        "name": "Claras de Huevo",
+        "quantity": "150",
+        "unit": "g",
+        "calories": 78,
+        "protein": 16.5,
+        "carbs": 1.0499999999999998,
+        "fats": 0.3,
+        "baseCalories": 0.52,
+        "baseProtein": 0.11,
+        "baseCarbs": 0.006999999999999999,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Huevo",
+        "quantity": "1",
+        "unit": "ud",
+        "calories": 85.25,
+        "protein": 7.15,
+        "carbs": 0.6050000000000001,
+        "fats": 6.05,
+        "baseCalories": 85.25,
+        "baseProtein": 7.15,
+        "baseCarbs": 0.6050000000000001,
+        "baseFats": 6.05
+      },
+      {
+        "name": "Frutos Rojos",
+        "quantity": "80",
+        "unit": "g",
+        "calories": 40,
+        "protein": 0.8,
+        "carbs": 9.6,
+        "fats": 0.4,
+        "baseCalories": 0.5,
+        "baseProtein": 0.01,
+        "baseCarbs": 0.12,
+        "baseFats": 0.005
+      }
+    ],
+    "preparation": "1. Mezclar la harina de avena, claras de huevo, y huevo entero (si se usa) con un poco de leche o bebida vegetal hasta obtener una masa homogénea. 2. Cocinar las tortitas en una sartén antiadherente caliente por ambos lados hasta que estén doradas. 3. Servir con los frutos rojos por encima.",
+    "originalBaseRecipeId": "des_tortitas_de_avena_con_frutos_rojos"
+  },
+  "p3_m1": {
+    "name": "Solomillo de Ternera con Pimientos Salteados",
+    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/699b48a055d8bc3caf4b1f0b.png",
+    "calories": 388,
+    "protein": 27,
+    "carbs": 10,
+    "fats": 26,
+    "ingredients": [
+      {
+        "name": "Solomillo de Ternera",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 220.00000000000003,
+        "protein": 22,
+        "carbs": 0,
+        "fats": 14.000000000000002,
+        "baseCalories": 2.2,
+        "baseProtein": 0.22,
+        "baseCarbs": 0,
+        "baseFats": 0.14
+      },
+      {
+        "name": "Pimiento Rojo",
+        "quantity": "50",
+        "unit": "g",
+        "calories": 15,
+        "protein": 1,
+        "carbs": 2.5,
+        "fats": 0.1,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Pimiento Verde",
+        "quantity": "50",
+        "unit": "g",
+        "calories": 15,
+        "protein": 1,
+        "carbs": 2.5,
+        "fats": 0.1,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Cebolla",
+        "quantity": "50",
+        "unit": "g",
+        "calories": 50,
+        "protein": 2.5,
+        "carbs": 5,
+        "fats": 2,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Aceite de Oliva Virgen Extra",
+        "quantity": "10",
+        "unit": "g",
+        "calories": 88.4,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 10,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1
+      }
+    ],
+    "preparation": "1. Cortar los pimientos y la cebolla en tiras. 2. Saltear las verduras en una sartén con aceite hasta que estén tiernas. 3. Cocinar el solomillo de ternera a la plancha al punto deseado. 4. Servir el solomillo acompañado de los pimientos salteados.",
+    "originalBaseRecipeId": "cc_solomillo_de_ternera_con_pimientos_salteados"
+  },
+  "p3_m2": {
+    "name": "Ensalada de Queso Fresco, Pavo y Nueces",
+    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/699b499d20c03528200c03e2.png",
+    "calories": 858,
+    "protein": 60,
+    "carbs": 24,
+    "fats": 56,
+    "ingredients": [
+      {
+        "name": "Canónigos o Lechuga",
+        "quantity": "75",
+        "unit": "g",
+        "calories": 75,
+        "protein": 3.75,
+        "carbs": 7.5,
+        "fats": 3,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Queso Fresco",
+        "quantity": "75",
+        "unit": "g",
+        "calories": 262.5,
+        "protein": 18.75,
+        "carbs": 1.5,
+        "fats": 18.75,
+        "baseCalories": 3.5,
+        "baseProtein": 0.25,
+        "baseCarbs": 0.02,
+        "baseFats": 0.25
+      },
+      {
+        "name": "Pechuga de Pavo",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 160,
+        "protein": 28.000000000000004,
+        "carbs": 0,
+        "fats": 4,
+        "baseCalories": 1.6,
+        "baseProtein": 0.28,
+        "baseCarbs": 0,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Nueces",
+        "quantity": "75",
+        "unit": "g",
+        "calories": 337.5,
+        "protein": 7.5,
+        "carbs": 11.25,
+        "fats": 30,
+        "baseCalories": 4.5,
+        "baseProtein": 0.1,
+        "baseCarbs": 0.15,
+        "baseFats": 0.4
+      },
+      {
+        "name": "Tomates Cherry",
+        "quantity": "75",
+        "unit": "g",
+        "calories": 22.5,
+        "protein": 1.5,
+        "carbs": 3.75,
+        "fats": 0.15,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      }
+    ],
+    "preparation": "1. Lavar los canónigos y los tomates cherry. 2. Cortar el queso fresco y el pavo en dados. 3. Trocear las nueces. 4. En un bol, mezclar todos los ingredientes. 5. Aliñar con una vinagreta suave.",
+    "originalBaseRecipeId": "cc_ensalada_de_queso_fresco_pavo_y_nueces"
+  },
+  "p3_m3": {
+    "name": "Tostada de Centeno con Queso Cottage y Cherries",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68792fea2035ba213493e87e.png",
+    "calories": 143,
+    "protein": 6,
+    "carbs": 25,
+    "fats": 2,
+    "ingredients": [
+      {
+        "name": "Tostada de Pan de Centeno",
+        "quantity": "1",
+        "unit": "rebanada",
+        "calories": 108,
+        "protein": 3.5999999999999996,
+        "carbs": 20,
+        "fats": 1.2,
+        "baseCalories": 108,
+        "baseProtein": 3.5999999999999996,
+        "baseCarbs": 20,
+        "baseFats": 1.2
+      },
+      {
+        "name": "Tomates Cherry",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 30,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Queso Cottage",
+        "quantity": "5",
+        "unit": "g",
+        "calories": 5,
+        "protein": 0.6,
+        "carbs": 0.2,
+        "fats": 0.2,
+        "baseCalories": 1,
+        "baseProtein": 0.12,
+        "baseCarbs": 0.04,
+        "baseFats": 0.04
+      }
+    ],
+    "preparation": "1. Tostar el pan de centeno. 2. Untar el queso cottage sobre las tostadas y añadir los cherries por encima con especias.",
+    "originalBaseRecipeId": "ext_tostada_de_centeno_con_queso_cottage_y_cherries"
   }
 };
 const dailyMenus = [
   {
-    "name": "Opciones 1",
+    "name": "Opción 1",
     "targetMacros": {
       "calories": 1700,
       "protein": 140,
@@ -976,7 +1245,7 @@ const dailyMenus = [
     ]
   },
   {
-    "name": "Opciones 2",
+    "name": "Opción 2",
     "targetMacros": {
       "calories": 1700,
       "protein": 140,
@@ -1004,7 +1273,7 @@ const dailyMenus = [
     ]
   },
   {
-    "name": "Opciones 3",
+    "name": "Opción 3",
     "targetMacros": {
       "calories": 1800,
       "protein": 150,
@@ -1029,6 +1298,32 @@ const dailyMenus = [
     "extra": [
       "p2_m4",
       "p2_m5"
+    ]
+  },
+  {
+    "name": "Opción 4",
+    "targetMacros": {
+      "calories": 1850,
+      "protein": 150,
+      "carbs": 140
+    },
+    "baselineTotals": {
+      "calories": 2708,
+      "protein": 204,
+      "carbs": 271,
+      "fats": 85
+    },
+    "desayuno": [
+      "p3_m0"
+    ],
+    "comida": [
+      "p3_m1"
+    ],
+    "cena": [
+      "p3_m2"
+    ],
+    "extra": [
+      "p3_m3"
     ]
   }
 ];
