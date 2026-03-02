@@ -68,19 +68,19 @@ const foodDatabase = {
   "p0_m1": {
     "name": "Boniato asado con ensalada de tomate",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684efcd1f6c48df26aa5ba5b.png",
-    "calories": 308,
-    "protein": 9,
-    "carbs": 35,
+    "calories": 398,
+    "protein": 11,
+    "carbs": 55,
     "fats": 14,
     "ingredients": [
       {
         "name": "Boniato",
-        "quantity": "100",
+        "quantity": "200",
         "unit": "g",
-        "calories": 90,
-        "protein": 2,
-        "carbs": 20,
-        "fats": 0.1,
+        "calories": 180,
+        "protein": 4,
+        "carbs": 40,
+        "fats": 0.2,
         "baseCalories": 0.9,
         "baseProtein": 0.02,
         "baseCarbs": 0.2,
@@ -130,6 +130,31 @@ const foodDatabase = {
     "originalBaseRecipeId": "pp_boniato_asado_con_ensalada_de_tomate"
   },
   "p0_m2": {
+    "name": "Pechuga de Pollo a Tiras",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68f27f90fb2e446db8a380a9.png",
+    "calories": 240,
+    "protein": 42,
+    "carbs": 0,
+    "fats": 6,
+    "ingredients": [
+      {
+        "name": "Pechuga de Pollo",
+        "quantity": "150",
+        "unit": "g",
+        "calories": 240,
+        "protein": 42.00000000000001,
+        "carbs": 0,
+        "fats": 6,
+        "baseCalories": 1.6,
+        "baseProtein": 0.28,
+        "baseCarbs": 0,
+        "baseFats": 0.04
+      }
+    ],
+    "preparation": "Cocinar la pechuga de pollo a la plancha o cocida y cortar en tiras. Servir solo o añadir a otros platos.",
+    "originalBaseRecipeId": "ac_pechuga_de_pollo_a_tiras"
+  },
+  "p0_m3": {
     "name": "Crema de Verduras Variadas",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cd68425d68cc771ebd10a.png",
     "calories": 230,
@@ -180,7 +205,7 @@ const foodDatabase = {
     "preparation": "1. Puedes comprar una crema preparada o bien cocinar unas cuantas verduras en una olla.",
     "originalBaseRecipeId": "pp_crema_de_verduras_variadas"
   },
-  "p0_m3": {
+  "p0_m4": {
     "name": "Solomillo/Filete de Ternera a la Plancha",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe6c0ed5060d3743015a.png",
     "calories": 308,
@@ -218,7 +243,7 @@ const foodDatabase = {
     "preparation": "1. Sacar el filete o solomillo de ternera del refrigerador unos 15-20 minutos antes de cocinar para que se temple. 2. Sazonar la carne con sal y pimienta negra recién molida justo antes de ponerla en la plancha. 3. Calentar una plancha o sartén de fondo grueso a fuego alto hasta que esté bien caliente. Añadir una gota de aceite de oliva y extenderlo. 4. Cocinar el filete al gusto. 5. Dejar reposar la carne un par de minutos antes de servir para que los jugos se redistribuyan.",
     "originalBaseRecipeId": "ac_solomillofilete_de_ternera_a_la_plancha"
   },
-  "p0_m4": {
+  "p0_m5": {
     "name": "Yogur Protéico (Sabores, Natural...)",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd789b8ed38b127cbc09.png",
     "calories": 125,
@@ -243,7 +268,7 @@ const foodDatabase = {
     "preparation": "1. Seleccionar el yogur proteico de preferencia. 2. Abrir el envase. 3. Consumir directamente con una cuchara.",
     "originalBaseRecipeId": "ext_yogur_protico_sabores_natural"
   },
-  "p0_m5": {
+  "p0_m6": {
     "name": "Fruta Cítrica (Mandarina, Kiwi, Naranja...)",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd3d0ed506305442ffe4.png",
     "calories": 90,
@@ -267,31 +292,6 @@ const foodDatabase = {
     ],
     "preparation": "1. Seleccionar la fruta cítrica de preferencia. 2. Lavar bien la fruta bajo el grifo. 3. Para mandarinas y naranjas: pelar la piel con las manos. 4. Para kiwis: cortar por la mitad y comer la pulpa con una cucharita.",
     "originalBaseRecipeId": "ext_fruta_ctrica_mandarina_kiwi_naranja"
-  },
-  "p0_m6": {
-    "name": "Pechuga de Pollo a Tiras",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68f27f90fb2e446db8a380a9.png",
-    "calories": 240,
-    "protein": 42,
-    "carbs": 0,
-    "fats": 6,
-    "ingredients": [
-      {
-        "name": "Pechuga de Pollo",
-        "quantity": "150",
-        "unit": "g",
-        "calories": 240,
-        "protein": 42.00000000000001,
-        "carbs": 0,
-        "fats": 6,
-        "baseCalories": 1.6,
-        "baseProtein": 0.28,
-        "baseCarbs": 0,
-        "baseFats": 0.04
-      }
-    ],
-    "preparation": "Cocinar la pechuga de pollo a la plancha o cocida y cortar en tiras. Servir solo o añadir a otros platos.",
-    "originalBaseRecipeId": "ac_pechuga_de_pollo_a_tiras"
   },
   "p1_m0": {
     "name": "Tostada de Pan de Centeno con Revuelto de Huevos y Jamón York",
@@ -347,10 +347,10 @@ const foodDatabase = {
   "p1_m1": {
     "name": "Ensala de Patata, Atún y Huevo",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afc08b91eb31afe3d4796.png",
-    "calories": 502,
-    "protein": 37,
+    "calories": 622,
+    "protein": 58,
     "carbs": 61,
-    "fats": 11,
+    "fats": 14,
     "ingredients": [
       {
         "name": "Patata",
@@ -432,12 +432,12 @@ const foodDatabase = {
       },
       {
         "name": "Atún en Conserva",
-        "quantity": "65",
+        "quantity": "140",
         "unit": "g",
-        "calories": 104,
-        "protein": 18.200000000000003,
+        "calories": 224,
+        "protein": 39.2,
         "carbs": 0,
-        "fats": 2.6,
+        "fats": 5.6000000000000005,
         "baseCalories": 1.6,
         "baseProtein": 0.28,
         "baseCarbs": 0,
@@ -574,6 +574,31 @@ const foodDatabase = {
     ],
     "preparation": "1. En un bol, verter el yogur proteico. 2. Añadir los frutos rojos frescos o descongelados. 3. Espolvorear con los frutos secos troceados por encima. Servir inmediatamente.",
     "originalBaseRecipeId": "des_yogurt_protico_con_frutos_rojos_y_secos"
+  },
+  "p1_m4": {
+    "name": "Fruta Densa (Plátano, Manzana)",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe4bb91eb325b93d4a82.png",
+    "calories": 90,
+    "protein": 1,
+    "carbs": 23,
+    "fats": 0,
+    "ingredients": [
+      {
+        "name": "Manzana",
+        "quantity": "1",
+        "unit": "ud",
+        "calories": 90,
+        "protein": 0.75,
+        "carbs": 22.5,
+        "fats": 0.3,
+        "baseCalories": 90,
+        "baseProtein": 0.75,
+        "baseCarbs": 22.5,
+        "baseFats": 0.3
+      }
+    ],
+    "preparation": "1. Seleccionar la fruta densa de preferencia. 2. Para plátanos: pelar la piel y consumir directamente. 3. Para manzanas o peras: lavar bien la fruta. Se puede consumir con piel o pelada.",
+    "originalBaseRecipeId": "ext_fruta_densa_pltano_manzana"
   },
   "p2_m0": {
     "name": "Tostada de centeno con jamón ibérico",
@@ -820,7 +845,7 @@ const foodDatabase = {
 };
 const dailyMenus = [
   {
-    "name": "Opciones 1",
+    "name": "Entreno 1",
     "targetMacros": {
       "calories": 1700,
       "protein": 140,
@@ -837,19 +862,19 @@ const dailyMenus = [
     ],
     "comida": [
       "p0_m1",
-      "p0_m6"
+      "p0_m2"
     ],
     "cena": [
-      "p0_m2",
-      "p0_m3"
+      "p0_m3",
+      "p0_m4"
     ],
     "extra": [
-      "p0_m4",
-      "p0_m5"
+      "p0_m5",
+      "p0_m6"
     ]
   },
   {
-    "name": "Opciones 2",
+    "name": "Entreno 2",
     "targetMacros": {
       "calories": 1700,
       "protein": 140,
@@ -871,11 +896,12 @@ const dailyMenus = [
       "p1_m2"
     ],
     "extra": [
-      "p1_m3"
+      "p1_m3",
+      "p1_m4"
     ]
   },
   {
-    "name": "Opciones 3",
+    "name": "Libre 1",
     "targetMacros": {
       "calories": 1800,
       "protein": 150,
