@@ -846,29 +846,29 @@ const foodDatabase = {
     "originalBaseRecipeId": "cc_patatas_cocidas_con_salteado_de_verduras_y_hamburguesa_a_la_plancha"
   },
   "p2_m3": {
-    "name": "Fruta Densa (Plátano, Manzana)",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe4bb91eb325b93d4a82.png",
+    "name": "Crema de Cacahuete",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68ee03e1c8952ccb30699d34.png",
     "calories": 90,
-    "protein": 1,
-    "carbs": 23,
-    "fats": 0,
+    "protein": 2,
+    "carbs": 3,
+    "fats": 8,
     "ingredients": [
       {
-        "name": "Manzana",
-        "quantity": "1",
-        "unit": "unidad(es)",
+        "name": "Crema de Cacahuete",
+        "quantity": "20",
+        "unit": "g",
         "calories": 90,
-        "protein": 0.75,
-        "carbs": 22.5,
-        "fats": 0.3,
-        "baseCalories": 90,
-        "baseProtein": 0.75,
-        "baseCarbs": 22.5,
-        "baseFats": 0.3
+        "protein": 2,
+        "carbs": 3,
+        "fats": 8,
+        "baseCalories": 4.5,
+        "baseProtein": 0.1,
+        "baseCarbs": 0.15,
+        "baseFats": 0.4
       }
     ],
-    "preparation": "1. Seleccionar la fruta densa de preferencia. 2. Para plátanos: pelar la piel y consumir directamente. 3. Para manzanas o peras: lavar bien la fruta. Se puede consumir con piel o pelada.",
-    "originalBaseRecipeId": "ext_fruta_densa_pltano_manzana"
+    "preparation": "Untar sobre tostadas, añadir a batidos o consumir directamente.",
+    "originalBaseRecipeId": "des_crema_de_cacahuete"
   },
   "p2_m4": {
     "name": "Frutos Secos (Mezcla)",
@@ -1169,7 +1169,7 @@ const foodDatabase = {
         "carbs": 52.5,
         "fats": 1.4000000000000001,
         "baseCalories": 3.65,
-        "baseProtein": 0.12,
+        "baseProtein": 0.12000000000000001,
         "baseCarbs": 0.75,
         "baseFats": 0.02
       },
