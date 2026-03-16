@@ -168,15 +168,28 @@ const foodDatabase = {
     "originalBaseRecipeId": "ac_pechuga_de_pavo_a_la_plancha"
   },
   "p0_m3": {
-    "name": "Calabacín con Cebolla a la Plancha",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afc8e9b8ed35d8e7cbb0e.png",
-    "calories": 148,
-    "protein": 4,
-    "carbs": 10,
-    "fats": 10,
+    "name": "Ensalada Variada con Queso Curado",
+    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69b669e55b89c7b78c9662f6.png",
+    "calories": 600,
+    "protein": 28,
+    "carbs": 31,
+    "fats": 40,
     "ingredients": [
       {
-        "name": "Calabacín",
+        "name": "Canónigos",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 100,
+        "protein": 5,
+        "carbs": 10,
+        "fats": 4,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Tomates Cherry",
         "quantity": "100",
         "unit": "g",
         "calories": 30,
@@ -189,45 +202,7 @@ const foodDatabase = {
         "baseFats": 0.002
       },
       {
-        "name": "Cebolla",
-        "quantity": "100",
-        "unit": "g",
-        "calories": 30,
-        "protein": 2,
-        "carbs": 5,
-        "fats": 0.2,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Aceite de Oliva Virgen Extra",
-        "quantity": "10",
-        "unit": "g",
-        "calories": 88.4,
-        "protein": 0,
-        "carbs": 0,
-        "fats": 10,
-        "baseCalories": 8.84,
-        "baseProtein": 0,
-        "baseCarbs": 0,
-        "baseFats": 1
-      }
-    ],
-    "preparation": "1. Lavar el calabacín y cortarlo en rodajas de aproximadamente 0.5 a 1 cm de grosor. Pelar y cortar la cebolla en juliana o rodajas. 2. Calentar una plancha o sartén grande con un chorrito de aceite de oliva a fuego medio-alto. 3. Colocar las rodajas de calabacín y la cebolla sobre la plancha caliente. Cocinar durante 3-5 minutos por cada lado, o hasta que estén tiernos y presenten marcas doradas de la plancha. 4. Sazonar con sal, pimienta y opcionalmente un poco de ajo en polvo u orégano durante la cocción o al final.",
-    "originalBaseRecipeId": "pp_calabacn_con_cebolla_a_la_plancha"
-  },
-  "p0_m4": {
-    "name": "Revuelto de Huevos con Espárragos Trigueros",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684f019a532eaa9f6977a78c.png",
-    "calories": 327,
-    "protein": 22,
-    "carbs": 7,
-    "fats": 24,
-    "ingredients": [
-      {
-        "name": "Espárragos Trigueros",
+        "name": "Zanahoria Rallada",
         "quantity": "50",
         "unit": "g",
         "calories": 50,
@@ -240,36 +215,49 @@ const foodDatabase = {
         "baseFats": 0.04
       },
       {
-        "name": "Huevos",
-        "quantity": "3",
-        "unit": "unidad(es)",
-        "calories": 232.5,
-        "protein": 19.5,
-        "carbs": 1.6500000000000001,
-        "fats": 16.5,
-        "baseCalories": 77.5,
-        "baseProtein": 6.5,
-        "baseCarbs": 0.55,
-        "baseFats": 5.5
+        "name": "Aguacate",
+        "quantity": "50",
+        "unit": "g",
+        "calories": 225,
+        "protein": 5,
+        "carbs": 7.5,
+        "fats": 20,
+        "baseCalories": 4.5,
+        "baseProtein": 0.1,
+        "baseCarbs": 0.15,
+        "baseFats": 0.4
       },
       {
-        "name": "Aceite de Oliva Virgen Extra",
-        "quantity": "5",
+        "name": "Queso Curado de Cabra",
+        "quantity": "50",
         "unit": "g",
-        "calories": 44.2,
-        "protein": 0,
-        "carbs": 0,
-        "fats": 5,
-        "baseCalories": 8.84,
-        "baseProtein": 0,
-        "baseCarbs": 0,
-        "baseFats": 1
+        "calories": 175,
+        "protein": 12.5,
+        "carbs": 1,
+        "fats": 12.5,
+        "baseCalories": 3.5,
+        "baseProtein": 0.25,
+        "baseCarbs": 0.02,
+        "baseFats": 0.25
+      },
+      {
+        "name": "Pipas de Calabaza",
+        "quantity": "20",
+        "unit": "g",
+        "calories": 20,
+        "protein": 1,
+        "carbs": 2,
+        "fats": 0.8,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
       }
     ],
-    "preparation": "1. Lavar los espárragos trigueros y cortar la parte inferior más dura del tallo. Trocear los espárragos en trozos de unos 2-3 cm. 2. Batir los huevos en un bol con una pizca de sal y pimienta. 3. Calentar un poco de aceite de oliva en una sartén a fuego medio. Añadir los espárragos troceados y saltear durante 3-5 minutos, o hasta que estén tiernos pero aún crujientes. 4. Verter los huevos batidos sobre los espárragos en la sartén. 5. Remover suavemente con una espátula, mezclando los huevos con los espárragos, hasta que los huevos estén cuajados al gusto. Servir caliente.",
-    "originalBaseRecipeId": "ac_revuelto_de_huevos_con_esprragos_trigueros"
+    "preparation": "1. Lavar los canónigos y los tomates cherry. 2. Rallar la zanahoria. 3. Cortar el aguacate y el queso curado en dados. 4. En un bol, mezclar todos los ingredientes. 5. Añadir las pipas de calabaza por encima y aliñar al gusto.",
+    "originalBaseRecipeId": "cc_ensalada_variada_con_queso_curado"
   },
-  "p0_m5": {
+  "p0_m4": {
     "name": "Fruta Densa (Plátano, Manzana)",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe4bb91eb325b93d4a82.png",
     "calories": 72,
@@ -294,7 +282,7 @@ const foodDatabase = {
     "preparation": "1. Seleccionar la fruta densa de preferencia (plátano, manzana, pera, etc.). 2. Para plátanos: pelar la piel y consumir directamente. 3. Para manzanas o peras: lavar bien la fruta. Se puede consumir con piel (rica en fibra) o pelada, según preferencia. Se puede comer entera a mordiscos o cortada en trozos.",
     "originalBaseRecipeId": "ext_fruta_densa_pltano_manzana"
   },
-  "p0_m6": {
+  "p0_m5": {
     "name": "Yogur Protéico (Sabores, Natural...)",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd789b8ed38b127cbc09.png",
     "calories": 125,
@@ -371,107 +359,55 @@ const foodDatabase = {
     "originalBaseRecipeId": "des_tostada_de_pan_de_centeno_con_revuelto_de_huevos_y_jamn_york"
   },
   "p1_m1": {
-    "name": "Poke de aguacate, mango, tomate, soja, cebolla, arroz y pollo",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684efa4ef6c48db833a5b1af.png",
-    "calories": 750,
-    "protein": 55,
-    "carbs": 63,
-    "fats": 30,
+    "name": "Pasta tricolor con pisto de verduras, y carne picada",
+    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69b50fe5fc5128125e8bc1e4.png",
+    "calories": 472,
+    "protein": 19,
+    "carbs": 80,
+    "fats": 8,
     "ingredients": [
       {
-        "name": "Aguacate",
-        "quantity": "30",
+        "name": "Pasta Tricolor",
+        "quantity": "80",
         "unit": "g",
-        "calories": 135,
-        "protein": 3,
-        "carbs": 4.5,
-        "fats": 12,
-        "baseCalories": 4.5,
-        "baseProtein": 0.1,
-        "baseCarbs": 0.15,
-        "baseFats": 0.4
-      },
-      {
-        "name": "Mango",
-        "quantity": "50",
-        "unit": "g",
-        "calories": 30,
-        "protein": 0.25,
-        "carbs": 7.5,
-        "fats": 0.1,
-        "baseCalories": 0.6,
-        "baseProtein": 0.005,
-        "baseCarbs": 0.15,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Tomate",
-        "quantity": "75",
-        "unit": "g",
-        "calories": 22.5,
-        "protein": 1.5,
-        "carbs": 3.75,
-        "fats": 0.15,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Cebolla",
-        "quantity": "50",
-        "unit": "g",
-        "calories": 15,
-        "protein": 1,
-        "carbs": 2.5,
-        "fats": 0.1,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Arroz",
-        "quantity": "60",
-        "unit": "g",
-        "calories": 219,
-        "protein": 7.199999999999999,
-        "carbs": 45,
-        "fats": 1.2,
+        "calories": 292,
+        "protein": 9.6,
+        "carbs": 60,
+        "fats": 1.6,
         "baseCalories": 3.65,
-        "baseProtein": 0.11999999999999998,
+        "baseProtein": 0.12,
         "baseCarbs": 0.75,
         "baseFats": 0.02
       },
       {
-        "name": "Pechuga de Pollo",
-        "quantity": "150",
+        "name": "Pisto de Verduras",
+        "quantity": "100",
         "unit": "g",
-        "calories": 240,
-        "protein": 42.00000000000001,
-        "carbs": 0,
-        "fats": 6,
-        "baseCalories": 1.6,
-        "baseProtein": 0.28,
-        "baseCarbs": 0,
-        "baseFats": 0.04
+        "calories": 30,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
       },
       {
-        "name": "Aceite de Oliva Virgen Extra",
-        "quantity": "10",
+        "name": "Carne Picada",
+        "quantity": "150",
         "unit": "g",
-        "calories": 88.4,
-        "protein": 0,
-        "carbs": 0,
-        "fats": 10,
-        "baseCalories": 8.84,
-        "baseProtein": 0,
-        "baseCarbs": 0,
-        "baseFats": 1
+        "calories": 150,
+        "protein": 7.5,
+        "carbs": 15,
+        "fats": 6,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
       }
     ],
-    "preparation": "1. Cocer el arroz (preferiblemente de sushi o grano corto siguiendo las instrucciones del paquete) y dejar enfriar. 2. Cocinar la pechuga de pollo (hervida, a la plancha o al vapor) y cortarla en dados. Dejar enfriar. 3. Cortar el aguacate y el mango en dados. Picar el tomate en dados pequeños y la cebolla (preferiblemente morada) en juliana fina o brunoise. 4. Para el aliño, mezclar en un cuenco salsa de soja, un chorrito de aceite de sésamo, zumo de lima o limón y opcionalmente un poco de jengibre rallado y miel o sirope de agave. 5. En un bol individual, colocar una base de arroz. Disponer encima de forma separada y estética: el pollo, aguacate, mango, tomate y cebolla. 6. Rociar generosamente con el aliño justo antes de servir. Opcional: espolvorear con semillas de sésamo tostadas o furikake.",
-    "originalBaseRecipeId": "cc_poke_de_aguacate_mango_tomate_soja_cebolla_arroz_y_pollo"
+    "preparation": "1. Cocer la pasta. 2. Saltear la carne picada con el pisto. 3. Mezclar todo.",
+    "originalBaseRecipeId": "cc_pasta_tricolor_con_pisto_de_verduras_y_carne_picada"
   },
   "p1_m2": {
     "name": "Wok de Verduras con Salmón",
@@ -910,10 +846,10 @@ const foodDatabase = {
   "p3_m1": {
     "name": "Ensalada con Pollo y Queso de Burgos",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afdceb91eb360843d4a0b.png",
-    "calories": 511,
-    "protein": 60,
+    "calories": 591,
+    "protein": 74,
     "carbs": 18,
-    "fats": 21,
+    "fats": 23,
     "ingredients": [
       {
         "name": "Canónigos",
@@ -969,12 +905,12 @@ const foodDatabase = {
       },
       {
         "name": "Pechuga de Pollo",
-        "quantity": "150",
+        "quantity": "200",
         "unit": "g",
-        "calories": 240,
-        "protein": 42.00000000000001,
+        "calories": 320,
+        "protein": 56.00000000000001,
         "carbs": 0,
-        "fats": 6,
+        "fats": 8,
         "baseCalories": 1.6,
         "baseProtein": 0.28,
         "baseCarbs": 0,
@@ -998,93 +934,54 @@ const foodDatabase = {
     "originalBaseRecipeId": "cc_ensalada_con_pollo_y_queso_de_burgos"
   },
   "p3_m2": {
-    "name": "Crema de Verduras Variadas",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cd68425d68cc771ebd10a.png",
-    "calories": 118,
-    "protein": 7,
-    "carbs": 16,
-    "fats": 2,
+    "name": "Fruta Cítrica (Mandarina, Kiwi, Naranja...)",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd3d0ed506305442ffe4.png",
+    "calories": 180,
+    "protein": 2,
+    "carbs": 45,
+    "fats": 1,
     "ingredients": [
       {
-        "name": "Calabaza",
-        "quantity": "75",
-        "unit": "g",
-        "calories": 22.5,
+        "name": "Kiwi",
+        "quantity": "2",
+        "unit": "ud",
+        "calories": 180,
         "protein": 1.5,
-        "carbs": 3.75,
-        "fats": 0.15,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
-      },
+        "carbs": 45,
+        "fats": 0.6,
+        "baseCalories": 90,
+        "baseProtein": 0.75,
+        "baseCarbs": 22.5,
+        "baseFats": 0.3
+      }
+    ],
+    "preparation": "1. Seleccionar la fruta cítrica de preferencia. 2. Lavar bien la fruta bajo el grifo. 3. Para mandarinas y naranjas: pelar la piel con las manos. 4. Para kiwis: cortar por la mitad y comer la pulpa con una cucharita.",
+    "originalBaseRecipeId": "ext_fruta_ctrica_mandarina_kiwi_naranja"
+  },
+  "p3_m3": {
+    "name": "Batido Whey de Proteínas",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684f021af6c48d41b5a5c003.png",
+    "calories": 114,
+    "protein": 24,
+    "carbs": 2,
+    "fats": 1,
+    "ingredients": [
       {
-        "name": "Tomate",
-        "quantity": "75",
+        "name": "Proteína Whey en Polvo",
+        "quantity": "30",
         "unit": "g",
-        "calories": 22.5,
-        "protein": 1.5,
-        "carbs": 3.75,
-        "fats": 0.15,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
+        "calories": 114,
+        "protein": 24,
+        "carbs": 1.5,
+        "fats": 1.2,
+        "baseCalories": 3.8,
+        "baseProtein": 0.8,
         "baseCarbs": 0.05,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Cebolla",
-        "quantity": "75",
-        "unit": "g",
-        "calories": 22.5,
-        "protein": 1.5,
-        "carbs": 3.75,
-        "fats": 0.15,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Agua",
-        "quantity": "50",
-        "unit": "g",
-        "calories": 50,
-        "protein": 2.5,
-        "carbs": 5,
-        "fats": 2,
-        "baseCalories": 1,
-        "baseProtein": 0.05,
-        "baseCarbs": 0.1,
         "baseFats": 0.04
       }
     ],
-    "preparation": "1. Puedes comprar una crema preparada o bien cocinar unas cuantas verduras en una olla.",
-    "originalBaseRecipeId": "pp_crema_de_verduras_variadas"
-  },
-  "p3_m3": {
-    "name": "Cinta de Cerdo a la Plancha",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684f007b4d606644a53332bf.png",
-    "calories": 330,
-    "protein": 33,
-    "carbs": 0,
-    "fats": 21,
-    "ingredients": [
-      {
-        "name": "Cinta de Lomo de Cerdo",
-        "quantity": "150",
-        "unit": "g",
-        "calories": 330,
-        "protein": 33,
-        "carbs": 0,
-        "fats": 21.000000000000004,
-        "baseCalories": 2.2,
-        "baseProtein": 0.22,
-        "baseCarbs": 0,
-        "baseFats": 0.14
-      }
-    ],
-    "preparation": "1. Sazonar los filetes de cinta de lomo de cerdo por ambos lados con sal, pimienta y ajo en polvo (opcional). 2. Calentar una plancha o sartén antiadherente a fuego medio-alto con un poco de aceite de oliva. 3. Cocinar los filetes de lomo durante unos 2-4 minutos por cada lado, dependiendo del grosor y del punto de cocción deseado. Es importante no cocinarlos en exceso para evitar que queden secos.",
-    "originalBaseRecipeId": "ac_cinta_de_cerdo_a_la_plancha"
+    "preparation": "1. En un shaker, añadir la cantidad recomendada de proteína en polvo. 2. Añadir la cantidad de líquido deseada (unos 200-300 ml). 3. Cerrar bien el shaker. 4. Agitar enérgicamente durante unos 20-30 segundos hasta que el polvo esté completamente disuelto.",
+    "originalBaseRecipeId": "ext_batido_whey_de_protenas"
   }
 };
 const dailyMenus = [
@@ -1109,12 +1006,11 @@ const dailyMenus = [
       "p0_m2"
     ],
     "cena": [
-      "p0_m3",
-      "p0_m4"
+      "p0_m3"
     ],
     "extra": [
-      "p0_m5",
-      "p0_m6"
+      "p0_m4",
+      "p0_m5"
     ]
   },
   {
@@ -1170,7 +1066,7 @@ const dailyMenus = [
     "extra": []
   },
   {
-    "name": "Libre 2",
+    "name": "Ayuno CENA",
     "targetMacros": {
       "calories": 2000,
       "protein": 150,
@@ -1188,10 +1084,10 @@ const dailyMenus = [
     "comida": [
       "p3_m1"
     ],
-    "cena": [
+    "cena": [],
+    "extra": [
       "p3_m2",
       "p3_m3"
-    ],
-    "extra": []
+    ]
   }
 ];
