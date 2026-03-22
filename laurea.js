@@ -1213,6 +1213,198 @@ const foodDatabase = {
     ],
     "preparation": "1. Seleccionar la fruta cítrica de preferencia. 2. Lavar bien la fruta bajo el grifo. 3. Para mandarinas y naranjas: pelar la piel con las manos. 4. Para kiwis: cortar por la mitad y comer la pulpa con una cucharita.",
     "originalBaseRecipeId": "ext_fruta_ctrica_mandarina_kiwi_naranja"
+  },
+  "p4_m0": {
+    "name": "Tostada de salmon ahumado y queso crema",
+    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69b512ae277ba07965ecc3bf.png",
+    "calories": 415,
+    "protein": 29,
+    "carbs": 21,
+    "fats": 22,
+    "ingredients": [
+      {
+        "name": "Pan de Centeno",
+        "quantity": "1",
+        "unit": "rebanada",
+        "calories": 108,
+        "protein": 3.5999999999999996,
+        "carbs": 20,
+        "fats": 1.2,
+        "baseCalories": 108,
+        "baseProtein": 3.5999999999999996,
+        "baseCarbs": 20,
+        "baseFats": 1.2
+      },
+      {
+        "name": "Salmón Ahumado",
+        "quantity": "60",
+        "unit": "g",
+        "calories": 132,
+        "protein": 13.2,
+        "carbs": 0,
+        "fats": 8.4,
+        "baseCalories": 2.2,
+        "baseProtein": 0.22,
+        "baseCarbs": 0,
+        "baseFats": 0.14
+      },
+      {
+        "name": "Queso Crema",
+        "quantity": "50",
+        "unit": "g",
+        "calories": 175,
+        "protein": 12.5,
+        "carbs": 1,
+        "fats": 12.5,
+        "baseCalories": 3.5,
+        "baseProtein": 0.25,
+        "baseCarbs": 0.02,
+        "baseFats": 0.25
+      }
+    ],
+    "preparation": "1. Tostar el pan. 2. Untar el queso crema. 3. Colocar el salmón ahumado encima.",
+    "originalBaseRecipeId": "des_tostada_de_salmon_ahumado_y_queso_crema"
+  },
+  "p4_m1": {
+    "name": "Falso Risotto de Coliflor con Pollo y Setas",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6922cee78c174d4e6d420b9d.png",
+    "calories": 490,
+    "protein": 55,
+    "carbs": 25,
+    "fats": 16,
+    "ingredients": [
+      {
+        "name": "Coliflor",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 100,
+        "protein": 5,
+        "carbs": 10,
+        "fats": 4,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Pechuga de Pollo",
+        "quantity": "150",
+        "unit": "g",
+        "calories": 240,
+        "protein": 42.00000000000001,
+        "carbs": 0,
+        "fats": 6,
+        "baseCalories": 1.6,
+        "baseProtein": 0.28,
+        "baseCarbs": 0,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Champiñones",
+        "quantity": "50",
+        "unit": "g",
+        "calories": 50,
+        "protein": 2.5,
+        "carbs": 5,
+        "fats": 2,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Cebolla",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 100,
+        "protein": 5,
+        "carbs": 10,
+        "fats": 4,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      }
+    ],
+    "preparation": "1. Rallar la coliflor hasta que parezca arroz. 2. Saltear pollo y champiñones con cebolla. 3. Añadir la coliflor y saltear 5 min (no debe ablandarse demasiado). 4. Sazonar al gusto.",
+    "originalBaseRecipeId": "cc_falso_risotto_de_coliflor_con_pollo_y_setas"
+  },
+  "p4_m2": {
+    "name": "Pizza Casera",
+    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69b51257bfc81f59120b3a5a.png",
+    "calories": 611,
+    "protein": 56,
+    "carbs": 65,
+    "fats": 12,
+    "ingredients": [
+      {
+        "name": "Masa de Cereales",
+        "quantity": "70",
+        "unit": "g",
+        "calories": 255.5,
+        "protein": 8.4,
+        "carbs": 52.5,
+        "fats": 1.4000000000000001,
+        "baseCalories": 3.65,
+        "baseProtein": 0.12,
+        "baseCarbs": 0.75,
+        "baseFats": 0.02
+      },
+      {
+        "name": "Tomate Frito",
+        "quantity": "50",
+        "unit": "g",
+        "calories": 15,
+        "protein": 1,
+        "carbs": 2.5,
+        "fats": 0.1,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Mozzarella Light",
+        "quantity": "50",
+        "unit": "g",
+        "calories": 50,
+        "protein": 2.5,
+        "carbs": 5,
+        "fats": 2,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Pechuga de Pollo",
+        "quantity": "150",
+        "unit": "g",
+        "calories": 240,
+        "protein": 42.00000000000001,
+        "carbs": 0,
+        "fats": 6,
+        "baseCalories": 1.6,
+        "baseProtein": 0.28,
+        "baseCarbs": 0,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Jamón Dulce",
+        "quantity": "50",
+        "unit": "g",
+        "calories": 50,
+        "protein": 2.5,
+        "carbs": 5,
+        "fats": 2,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      }
+    ],
+    "preparation": "1. Extender la masa. 2. Añadir tomate, queso, pollo y jamón. 3. Hornear hasta que esté dorada.",
+    "originalBaseRecipeId": "cc_pizza_casera"
   }
 };
 const dailyMenus = [
@@ -1325,5 +1517,29 @@ const dailyMenus = [
       "p3_m3",
       "p3_m4"
     ]
+  },
+  {
+    "name": "EXTRAS",
+    "targetMacros": {
+      "calories": 1500,
+      "protein": 150,
+      "carbs": 150
+    },
+    "baselineTotals": {
+      "calories": 1996,
+      "protein": 151,
+      "carbs": 122,
+      "fats": 91
+    },
+    "desayuno": [
+      "p4_m0"
+    ],
+    "comida": [
+      "p4_m1"
+    ],
+    "cena": [
+      "p4_m2"
+    ],
+    "extra": []
   }
 ];
