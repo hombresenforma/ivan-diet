@@ -361,19 +361,19 @@ const foodDatabase = {
   "p1_m1": {
     "name": "Ensala de Patata, Atún y Huevo",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afc08b91eb31afe3d4796.png",
-    "calories": 760,
-    "protein": 69,
-    "carbs": 71,
+    "calories": 670,
+    "protein": 67,
+    "carbs": 51,
     "fats": 20,
     "ingredients": [
       {
         "name": "Patata",
-        "quantity": "250",
+        "quantity": "150",
         "unit": "g",
-        "calories": 225,
-        "protein": 5,
-        "carbs": 50,
-        "fats": 0.25,
+        "calories": 135,
+        "protein": 3,
+        "carbs": 30,
+        "fats": 0.15,
         "baseCalories": 0.9,
         "baseProtein": 0.02,
         "baseCarbs": 0.2,
@@ -654,19 +654,19 @@ const foodDatabase = {
   "p2_m1": {
     "name": "Musakka de Patata al horno con verduras y carne picada",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684efda5653a2c17a7172d67.png",
-    "calories": 740,
-    "protein": 45,
-    "carbs": 52,
+    "calories": 668,
+    "protein": 43,
+    "carbs": 36,
     "fats": 37,
     "ingredients": [
       {
         "name": "Patata",
-        "quantity": "200",
+        "quantity": "120",
         "unit": "g",
-        "calories": 180,
-        "protein": 4,
-        "carbs": 40,
-        "fats": 0.2,
+        "calories": 108,
+        "protein": 2.4,
+        "carbs": 24,
+        "fats": 0.12,
         "baseCalories": 0.9,
         "baseProtein": 0.02,
         "baseCarbs": 0.2,
@@ -999,19 +999,19 @@ const foodDatabase = {
   "p3_m1": {
     "name": "Pasta de lentejas con sofrito de ternera y cerdo",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684efc77653a2c50f9172c7c.png",
-    "calories": 865,
-    "protein": 68,
-    "carbs": 58,
+    "calories": 930,
+    "protein": 72,
+    "carbs": 69,
     "fats": 37,
     "ingredients": [
       {
         "name": "Pasta de Lentejas",
-        "quantity": "150",
+        "quantity": "200",
         "unit": "g",
-        "calories": 195,
-        "protein": 12,
-        "carbs": 33,
-        "fats": 0.75,
+        "calories": 260,
+        "protein": 16,
+        "carbs": 44,
+        "fats": 1,
         "baseCalories": 1.3,
         "baseProtein": 0.08,
         "baseCarbs": 0.22,
@@ -1076,10 +1076,10 @@ const foodDatabase = {
   "p3_m2": {
     "name": "Fajitas de Pollo y Verduras",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afcef0ed50608b742ff33.png",
-    "calories": 463,
-    "protein": 43,
+    "calories": 538,
+    "protein": 57,
     "carbs": 45,
-    "fats": 10,
+    "fats": 12,
     "ingredients": [
       {
         "name": "Pan de Fajita",
@@ -1148,12 +1148,12 @@ const foodDatabase = {
       },
       {
         "name": "Pechuga de Pollo",
-        "quantity": "103",
+        "quantity": "150",
         "unit": "g",
-        "calories": 164.8,
-        "protein": 28.840000000000003,
+        "calories": 240,
+        "protein": 42.00000000000001,
         "carbs": 0,
-        "fats": 4.12,
+        "fats": 6,
         "baseCalories": 1.6,
         "baseProtein": 0.28,
         "baseCarbs": 0,
@@ -1177,7 +1177,7 @@ const foodDatabase = {
 };
 const dailyMenus = [
   {
-    "name": "Opciones 1",
+    "name": "Entreno 1",
     "targetMacros": {
       "calories": 1700,
       "protein": 140,
@@ -1205,7 +1205,7 @@ const dailyMenus = [
     ]
   },
   {
-    "name": "Opciones 2",
+    "name": "Libre 1",
     "targetMacros": {
       "calories": 1700,
       "protein": 140,
@@ -1233,7 +1233,7 @@ const dailyMenus = [
     ]
   },
   {
-    "name": "Opciones 3",
+    "name": "Libre 2",
     "targetMacros": {
       "calories": 1800,
       "protein": 150,
@@ -1261,7 +1261,7 @@ const dailyMenus = [
     ]
   },
   {
-    "name": "Opciones 4",
+    "name": "Entreno 2",
     "targetMacros": {
       "calories": 1500,
       "protein": 150,
