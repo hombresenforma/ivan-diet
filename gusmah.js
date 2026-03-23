@@ -158,19 +158,19 @@ const foodDatabase = {
   "p0_m2": {
     "name": "Boniato asado con ensalada de tomate",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684efcd1f6c48df26aa5ba5b.png",
-    "calories": 291,
-    "protein": 8,
-    "carbs": 41,
-    "fats": 11,
+    "calories": 231,
+    "protein": 6,
+    "carbs": 29,
+    "fats": 10,
     "ingredients": [
       {
         "name": "Boniato",
-        "quantity": "150",
+        "quantity": "100",
         "unit": "g",
-        "calories": 135,
-        "protein": 3,
-        "carbs": 30,
-        "fats": 0.15,
+        "calories": 90,
+        "protein": 2,
+        "carbs": 20,
+        "fats": 0.1,
         "baseCalories": 0.9,
         "baseProtein": 0.02,
         "baseCarbs": 0.2,
@@ -178,12 +178,12 @@ const foodDatabase = {
       },
       {
         "name": "Tomate",
-        "quantity": "150",
+        "quantity": "100",
         "unit": "g",
-        "calories": 45,
-        "protein": 3,
-        "carbs": 7.5,
-        "fats": 0.3,
+        "calories": 30,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
         "baseCalories": 0.3,
         "baseProtein": 0.02,
         "baseCarbs": 0.05,
@@ -361,19 +361,19 @@ const foodDatabase = {
   "p1_m1": {
     "name": "Ensala de Patata, Atún y Huevo",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afc08b91eb31afe3d4796.png",
-    "calories": 760,
-    "protein": 69,
-    "carbs": 71,
+    "calories": 715,
+    "protein": 68,
+    "carbs": 61,
     "fats": 20,
     "ingredients": [
       {
         "name": "Patata",
-        "quantity": "250",
+        "quantity": "200",
         "unit": "g",
-        "calories": 225,
-        "protein": 5,
-        "carbs": 50,
-        "fats": 0.25,
+        "calories": 180,
+        "protein": 4,
+        "carbs": 40,
+        "fats": 0.2,
         "baseCalories": 0.9,
         "baseProtein": 0.02,
         "baseCarbs": 0.2,
@@ -931,11 +931,241 @@ const foodDatabase = {
     ],
     "preparation": "Consumir directamente como un snack energético y nutritivo.",
     "originalBaseRecipeId": "ext_frutos_secos_mezcla"
+  },
+  "p3_m0": {
+    "name": "Revuelto de Huevos con Jamón",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682ad5e1e819fcb589a8a30e.png",
+    "calories": 305,
+    "protein": 29,
+    "carbs": 1,
+    "fats": 20,
+    "ingredients": [
+      {
+        "name": "Huevos",
+        "quantity": "1",
+        "unit": "ud",
+        "calories": 85.25,
+        "protein": 7.15,
+        "carbs": 0.6050000000000001,
+        "fats": 6.05,
+        "baseCalories": 85.25,
+        "baseProtein": 7.15,
+        "baseCarbs": 0.6050000000000001,
+        "baseFats": 6.05
+      },
+      {
+        "name": "Jamón Serrano",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 220.00000000000003,
+        "protein": 22,
+        "carbs": 0,
+        "fats": 14.000000000000002,
+        "baseCalories": 2.2,
+        "baseProtein": 0.22,
+        "baseCarbs": 0,
+        "baseFats": 0.14
+      }
+    ],
+    "preparation": "1. Batir los huevos. 2. Cortar el jamón en taquitos o tiras. 3. Saltear ligeramente el jamón en una sartén con una pizca de aceite (opcional). 4. Verter los huevos batidos y remover constantemente a fuego medio-bajo hasta que cuajen al gusto.",
+    "originalBaseRecipeId": "des_revuelto_de_huevos_con_jamn"
+  },
+  "p3_m1": {
+    "name": "Pasta de lentejas con sofrito de ternera y cerdo",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684efc77653a2c50f9172c7c.png",
+    "calories": 930,
+    "protein": 72,
+    "carbs": 69,
+    "fats": 37,
+    "ingredients": [
+      {
+        "name": "Pasta de Lentejas",
+        "quantity": "200",
+        "unit": "g",
+        "calories": 260,
+        "protein": 16,
+        "carbs": 44,
+        "fats": 1,
+        "baseCalories": 1.3,
+        "baseProtein": 0.08,
+        "baseCarbs": 0.22,
+        "baseFats": 0.005
+      },
+      {
+        "name": "Carne Picada Mixta (Ternera y Cerdo)",
+        "quantity": "200",
+        "unit": "g",
+        "calories": 440.00000000000006,
+        "protein": 44,
+        "carbs": 0,
+        "fats": 28.000000000000004,
+        "baseCalories": 2.2,
+        "baseProtein": 0.22,
+        "baseCarbs": 0,
+        "baseFats": 0.14
+      },
+      {
+        "name": "Calabacín",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 30,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Cebolla",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 100,
+        "protein": 5,
+        "carbs": 10,
+        "fats": 4,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Zanahoria",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 100,
+        "protein": 5,
+        "carbs": 10,
+        "fats": 4,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      }
+    ],
+    "preparation": "1. Cocinar la pasta de lentejas según las instrucciones del paquete hasta que esté al dente. Escurrir y reservar. 2. Picar finamente la cebolla y la zanahoria. Rallar o picar el calabacín en dados pequeños. 3. En una sartén grande, calentar un poco de aceite de oliva y sofreír la cebolla y zanahoria hasta que estén blandas. 4. Añadir la carne picada mixta (ternera y cerdo) y cocinar a fuego medio-alto, deshaciendo los grumos con una cuchara, hasta que se dore. 5. Incorporar el calabacín y cocinar unos minutos más hasta que esté tierno. Añadir salsa de tomate (opcional, o tomate triturado natural) y sazonar al gusto con sal, pimienta, orégano o albahaca. Cocinar a fuego lento durante 10-15 minutos para que se integren los sabores. 6. Mezclar la pasta de lentejas escurrida con el sofrito. Servir caliente, opcionalmente con queso parmesano rallado.",
+    "originalBaseRecipeId": "cc_pasta_de_lentejas_con_sofrito_de_ternera_y_cerdo"
+  },
+  "p3_m2": {
+    "name": "Fajitas de Pollo y Verduras",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afcef0ed50608b742ff33.png",
+    "calories": 443,
+    "protein": 51,
+    "carbs": 33,
+    "fats": 10,
+    "ingredients": [
+      {
+        "name": "Pan de Fajita",
+        "quantity": "1",
+        "unit": "rebanada",
+        "calories": 108,
+        "protein": 3.5999999999999996,
+        "carbs": 20,
+        "fats": 1.2,
+        "baseCalories": 108,
+        "baseProtein": 3.5999999999999996,
+        "baseCarbs": 20,
+        "baseFats": 1.2
+      },
+      {
+        "name": "Tomate",
+        "quantity": "50",
+        "unit": "g",
+        "calories": 15,
+        "protein": 1,
+        "carbs": 2.5,
+        "fats": 0.1,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Pimiento Rojo",
+        "quantity": "50",
+        "unit": "g",
+        "calories": 15,
+        "protein": 1,
+        "carbs": 2.5,
+        "fats": 0.1,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Pimiento Verde",
+        "quantity": "50",
+        "unit": "g",
+        "calories": 15,
+        "protein": 1,
+        "carbs": 2.5,
+        "fats": 0.1,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Cebolla",
+        "quantity": "50",
+        "unit": "g",
+        "calories": 50,
+        "protein": 2.5,
+        "carbs": 5,
+        "fats": 2,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Pechuga de Pollo",
+        "quantity": "150",
+        "unit": "g",
+        "calories": 240,
+        "protein": 42.00000000000001,
+        "carbs": 0,
+        "fats": 6,
+        "baseCalories": 1.6,
+        "baseProtein": 0.28,
+        "baseCarbs": 0,
+        "baseFats": 0.04
+      }
+    ],
+    "preparation": "1. Cortar la pechuga de pollo en tiras finas. Cortar el pimiento rojo, pimiento Verde y cebolla en juliana. Picar el tomate en dados pequeños. 2. Calentar un poco de aceite en una sartén grande. Saltear el pollo hasta que esté dorado y cocido. Retirar y reservar. 3. En la misma sartén, añadir un poco más de aceite si es necesario y saltear las verduras (pimientos y cebolla) hasta que estén tiernas pero crujientes. 4. Volver a añadir el pollo a la sartén con las verduras. Sazonar con especias para fajitas (opcional) o sal y pimienta. Mezclar bien. 5. Calentar las tortillas de fajita según las instrucciones del paquete. 6. Rellenar las tortillas con la mezcla de pollo y verduras, y añadir el tomate fresco picado por encima. Opcional: servir con guacamole, crema agria o salsa.",
+    "originalBaseRecipeId": "cc_fajitas_de_pollo_y_verduras"
+  },
+  "p3_m3": {
+    "name": "Yogur Griego Danone",
+    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69b519f7cab7f7a128c9b43c.png",
+    "calories": 100,
+    "protein": 5,
+    "carbs": 10,
+    "fats": 4,
+    "ingredients": [
+      {
+        "name": "Yogur Griego Danone",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 100,
+        "protein": 5,
+        "carbs": 10,
+        "fats": 4,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      }
+    ],
+    "preparation": "Consumir directamente.",
+    "originalBaseRecipeId": "ext_yogur_griego_danone"
   }
 };
 const dailyMenus = [
   {
-    "name": "Opciones 1",
+    "name": "Opción 1",
     "targetMacros": {
       "calories": 1700,
       "protein": 140,
@@ -963,7 +1193,7 @@ const dailyMenus = [
     ]
   },
   {
-    "name": "Opciones 2",
+    "name": "Opción 2",
     "targetMacros": {
       "calories": 1700,
       "protein": 140,
@@ -991,7 +1221,7 @@ const dailyMenus = [
     ]
   },
   {
-    "name": "Opciones 3",
+    "name": "Opción 3",
     "targetMacros": {
       "calories": 1800,
       "protein": 150,
@@ -1016,6 +1246,32 @@ const dailyMenus = [
     "extra": [
       "p2_m4",
       "p2_m5"
+    ]
+  },
+  {
+    "name": "Opción 4",
+    "targetMacros": {
+      "calories": 1800,
+      "protein": 150,
+      "carbs": 150
+    },
+    "baselineTotals": {
+      "calories": 1831,
+      "protein": 161,
+      "carbs": 150,
+      "fats": 73
+    },
+    "desayuno": [
+      "p3_m0"
+    ],
+    "comida": [
+      "p3_m1"
+    ],
+    "cena": [
+      "p3_m2"
+    ],
+    "extra": [
+      "p3_m3"
     ]
   }
 ];
