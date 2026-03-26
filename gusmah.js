@@ -258,54 +258,55 @@ const foodDatabase = {
     "originalBaseRecipeId": "ac_merluza_a_la_plancha"
   },
   "p0_m4": {
-    "name": "Yogur Protéico (Sabores, Natural...)",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd789b8ed38b127cbc09.png",
-    "calories": 125,
-    "protein": 6,
-    "carbs": 13,
-    "fats": 5,
+    "name": "Yogur Protéico con Frutos Rojos y Secos",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afea2b91eb35e413d4ab6.png",
+    "calories": 275,
+    "protein": 10,
+    "carbs": 21,
+    "fats": 17,
     "ingredients": [
       {
         "name": "Yogur Protéico",
-        "quantity": "1",
-        "unit": "unidad(es)",
+        "quantity": "125",
+        "unit": "g",
         "calories": 125,
         "protein": 6.25,
         "carbs": 12.5,
         "fats": 5,
-        "baseCalories": 125,
-        "baseProtein": 6.25,
-        "baseCarbs": 12.5,
-        "baseFats": 5
-      }
-    ],
-    "preparation": "1. Seleccionar el yogur proteico de preferencia. 2. Abrir el envase. 3. Consumir directamente con una cuchara.",
-    "originalBaseRecipeId": "ext_yogur_protico_sabores_natural"
-  },
-  "p0_m5": {
-    "name": "Fruta Densa (Plátano, Manzana)",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe4bb91eb325b93d4a82.png",
-    "calories": 72,
-    "protein": 1,
-    "carbs": 18,
-    "fats": 0,
-    "ingredients": [
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
       {
-        "name": "Plátano",
-        "quantity": "1",
-        "unit": "unidad(es)",
-        "calories": 72,
-        "protein": 0.6,
-        "carbs": 18,
-        "fats": 0.24,
-        "baseCalories": 72,
-        "baseProtein": 0.6,
-        "baseCarbs": 18,
-        "baseFats": 0.24
+        "name": "Frutos Rojos",
+        "quantity": "30",
+        "unit": "g",
+        "calories": 15,
+        "protein": 0.3,
+        "carbs": 3.5999999999999996,
+        "fats": 0.15,
+        "baseCalories": 0.5,
+        "baseProtein": 0.01,
+        "baseCarbs": 0.12,
+        "baseFats": 0.005
+      },
+      {
+        "name": "Frutos Secos",
+        "quantity": "30",
+        "unit": "g",
+        "calories": 135,
+        "protein": 3,
+        "carbs": 4.5,
+        "fats": 12,
+        "baseCalories": 4.5,
+        "baseProtein": 0.1,
+        "baseCarbs": 0.15,
+        "baseFats": 0.4
       }
     ],
-    "preparation": "1. Seleccionar la fruta densa de preferencia. 2. Para plátanos: pelar la piel y consumir directamente. 3. Para manzanas o peras: lavar bien la fruta. Se puede consumir con piel o pelada.",
-    "originalBaseRecipeId": "ext_fruta_densa_pltano_manzana"
+    "preparation": "1. En un bol, verter el yogur proteico. 2. Añadir los frutos rojos frescos o descongelados. 3. Espolvorear con los frutos secos troceados por encima.",
+    "originalBaseRecipeId": "ext_yogur_protico_con_frutos_rojos_y_secos"
   },
   "p1_m0": {
     "name": "Tostada de Pan de Centeno con Revuelto de Huevos y Jamón York",
@@ -1138,29 +1139,55 @@ const foodDatabase = {
     "originalBaseRecipeId": "cc_fajitas_de_pollo_y_verduras"
   },
   "p3_m3": {
-    "name": "Yogur Griego Danone",
-    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69b519f7cab7f7a128c9b43c.png",
-    "calories": 100,
-    "protein": 5,
-    "carbs": 10,
-    "fats": 4,
+    "name": "Frutos Secos (Mezcla)",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68525c0b1d27cfeb580a55f7.png",
+    "calories": 130,
+    "protein": 4,
+    "carbs": 7,
+    "fats": 10,
     "ingredients": [
       {
-        "name": "Yogur Griego Danone",
-        "quantity": "100",
+        "name": "Anacardos",
+        "quantity": "20",
         "unit": "g",
-        "calories": 100,
-        "protein": 5,
-        "carbs": 10,
-        "fats": 4,
+        "calories": 20,
+        "protein": 1,
+        "carbs": 2,
+        "fats": 0.8,
         "baseCalories": 1,
         "baseProtein": 0.05,
         "baseCarbs": 0.1,
         "baseFats": 0.04
+      },
+      {
+        "name": "Almendras",
+        "quantity": "20",
+        "unit": "g",
+        "calories": 20,
+        "protein": 1,
+        "carbs": 2,
+        "fats": 0.8,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Nueces",
+        "quantity": "20",
+        "unit": "g",
+        "calories": 90,
+        "protein": 2,
+        "carbs": 3,
+        "fats": 8,
+        "baseCalories": 4.5,
+        "baseProtein": 0.1,
+        "baseCarbs": 0.15,
+        "baseFats": 0.4
       }
     ],
-    "preparation": "Consumir directamente.",
-    "originalBaseRecipeId": "ext_yogur_griego_danone"
+    "preparation": "Consumir directamente como un snack energético y nutritivo.",
+    "originalBaseRecipeId": "ext_frutos_secos_mezcla"
   }
 };
 const dailyMenus = [
@@ -1188,8 +1215,7 @@ const dailyMenus = [
       "p0_m3"
     ],
     "extra": [
-      "p0_m4",
-      "p0_m5"
+      "p0_m4"
     ]
   },
   {
