@@ -2,172 +2,134 @@
 // Alergias: 
 const foodDatabase = {
   "p0_m0": {
-    "name": "Sandwich Vegetal de Jamón York",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cd5829b0c67f95e9a8e7e.png",
-    "calories": 353,
-    "protein": 19,
-    "carbs": 36,
-    "fats": 15,
+    "name": "Fajita/Wrap de Jamón y Queso",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68a36fb52e34b733ba5c5630.png",
+    "calories": 430,
+    "protein": 23,
+    "carbs": 22,
+    "fats": 27,
     "ingredients": [
       {
-        "name": "Pan de Centeno",
-        "quantity": "2",
-        "unit": "rebanada(s)",
-        "calories": 162,
-        "protein": 5.3999999999999995,
-        "carbs": 30,
-        "fats": 1.7999999999999998,
-        "baseCalories": 81,
-        "baseProtein": 2.6999999999999997,
-        "baseCarbs": 15,
-        "baseFats": 0.8999999999999999
+        "name": "Pan de Fajita",
+        "quantity": "1",
+        "unit": "rebanada",
+        "calories": 108,
+        "protein": 3.5999999999999996,
+        "carbs": 20,
+        "fats": 1.2,
+        "baseCalories": 108,
+        "baseProtein": 3.5999999999999996,
+        "baseCarbs": 20,
+        "baseFats": 1.2
       },
       {
-        "name": "Jamón York",
-        "quantity": "70",
+        "name": "Jamón Cocido",
+        "quantity": "60",
         "unit": "g",
-        "calories": 161,
-        "protein": 11.200000000000001,
-        "carbs": 1.4000000000000001,
-        "fats": 12.6,
+        "calories": 138,
+        "protein": 9.6,
+        "carbs": 1.2,
+        "fats": 10.799999999999999,
         "baseCalories": 2.3,
         "baseProtein": 0.16,
         "baseCarbs": 0.02,
         "baseFats": 0.18
       },
       {
-        "name": "Tomate",
-        "quantity": "50",
+        "name": "Queso Havarti Light",
+        "quantity": "40",
         "unit": "g",
-        "calories": 15,
-        "protein": 1,
-        "carbs": 2.5,
-        "fats": 0.1,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Lechuga",
-        "quantity": "50",
-        "unit": "g",
-        "calories": 15,
-        "protein": 1,
-        "carbs": 2.5,
-        "fats": 0.1,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
-      }
-    ],
-    "preparation": "1. Prepara un bocadillo con un par de rebanadas de Pan de Centeno. 2. Añade el Pavo o Jamón York y opcionalmente tomate y lechuga.",
-    "originalBaseRecipeId": "ext_sandwich_vegetal_de_jamn_york"
-  },
-  "p0_m1": {
-    "name": "Ensalada de Lentejas",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682aff5a365e949c0a73d706.png",
-    "calories": 440,
-    "protein": 22,
-    "carbs": 56,
-    "fats": 13,
-    "ingredients": [
-      {
-        "name": "Lentejas Cocidas",
-        "quantity": "200",
-        "unit": "g",
-        "calories": 260,
-        "protein": 16,
-        "carbs": 44,
-        "fats": 1,
-        "baseCalories": 1.3,
-        "baseProtein": 0.08,
-        "baseCarbs": 0.22,
-        "baseFats": 0.005
-      },
-      {
-        "name": "Tomate",
-        "quantity": "75",
-        "unit": "g",
-        "calories": 22.5,
-        "protein": 1.5,
-        "carbs": 3.75,
-        "fats": 0.15,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Cebolla",
-        "quantity": "75",
-        "unit": "g",
-        "calories": 22.5,
-        "protein": 1.5,
-        "carbs": 3.75,
-        "fats": 0.15,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Aguacate",
-        "quantity": "30",
-        "unit": "g",
-        "calories": 135,
-        "protein": 3,
-        "carbs": 4.5,
-        "fats": 12,
-        "baseCalories": 4.5,
-        "baseProtein": 0.1,
-        "baseCarbs": 0.15,
-        "baseFats": 0.4
-      }
-    ],
-    "preparation": "1. Si usas lentejas de bote, enjuagarlas bien bajo el grifo y escurrirlas. Si las cocinas, déjalas enfriar. 2. Picar el tomate y la cebolla (preferiblemente morada) en dados pequeños. Cortar el queso de Burgos 0% y el aguacate en dados. 3. En un bol grande, mezclar con cuidado las lentejas, el tomate, la cebolla, el queso de Burgos y el aguacate. 4. Aliñar con aceite de oliva virgen extra, vinagre (de manzana o Jerez) y sal al gusto. Opcional: añadir cilantro fresco picado o comino molido para un toque diferente.",
-    "originalBaseRecipeId": "pp_ensalada_de_lentejas"
-  },
-  "p0_m2": {
-    "name": "Pechuga de Pavo a la Plancha",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684f003ef6c48dfc43a5bdb3.png",
-    "calories": 248,
-    "protein": 28,
-    "carbs": 0,
-    "fats": 14,
-    "ingredients": [
-      {
-        "name": "Pechuga de Pavo",
-        "quantity": "100",
-        "unit": "g",
-        "calories": 160,
-        "protein": 28.000000000000004,
-        "carbs": 0,
-        "fats": 4,
-        "baseCalories": 1.6,
-        "baseProtein": 0.28,
-        "baseCarbs": 0,
-        "baseFats": 0.04
+        "calories": 140,
+        "protein": 10,
+        "carbs": 0.8,
+        "fats": 10,
+        "baseCalories": 3.5,
+        "baseProtein": 0.25,
+        "baseCarbs": 0.02,
+        "baseFats": 0.25
       },
       {
         "name": "Aceite de Oliva Virgen Extra",
-        "quantity": "10",
+        "quantity": "5",
         "unit": "g",
-        "calories": 88.4,
+        "calories": 44.2,
         "protein": 0,
         "carbs": 0,
-        "fats": 10,
+        "fats": 5,
         "baseCalories": 8.84,
         "baseProtein": 0,
         "baseCarbs": 0,
         "baseFats": 1
       }
     ],
-    "preparation": "1. Si los filetes de pechuga de pavo son muy gruesos, se pueden abrir tipo libro o golpear ligeramente para que tengan un grosor más uniforme y se cocinen mejor. 2. Sazonar los filetes de pavo con sal, pimienta y tus especias favoritas (ej. orégano, pimentón dulce, curry en polvo, hierbas provenzales). 3. Calentar una plancha o sartén antiadherente a fuego medio-alto con una gota de aceite de oliva. 4. Cocinar la pechuga de pavo durante unos 3-4 minutos por cada lado, o hasta que esté dorada por fuera y completamente cocida por dentro (sin partes rosadas). El tiempo exacto dependerá del grosor.",
-    "originalBaseRecipeId": "ac_pechuga_de_pavo_a_la_plancha"
+    "preparation": "1. Calentar la tortilla de fajita. 2. Añadir el jamón cocido y el queso. 3. Doblar y servir. 4. Opcional: añadir un chorrito de aceite de oliva.",
+    "originalBaseRecipeId": "des_fajitawrap_de_jamn_y_queso"
   },
-  "p0_m3": {
+  "p0_m1": {
+    "name": "Ensaladilla Rápida de Huevo y Aguacate",
+    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69b51223cab7f763d6c921f6.png",
+    "calories": 608,
+    "protein": 44,
+    "carbs": 19,
+    "fats": 39,
+    "ingredients": [
+      {
+        "name": "Huevo Cocido",
+        "quantity": "2",
+        "unit": "ud",
+        "calories": 170.5,
+        "protein": 14.3,
+        "carbs": 1.2100000000000002,
+        "fats": 12.1,
+        "baseCalories": 85.25,
+        "baseProtein": 7.15,
+        "baseCarbs": 0.6050000000000001,
+        "baseFats": 6.05
+      },
+      {
+        "name": "Aguacate",
+        "quantity": "50",
+        "unit": "g",
+        "calories": 225,
+        "protein": 5,
+        "carbs": 7.5,
+        "fats": 20,
+        "baseCalories": 4.5,
+        "baseProtein": 0.1,
+        "baseCarbs": 0.15,
+        "baseFats": 0.4
+      },
+      {
+        "name": "Atún",
+        "quantity": "70",
+        "unit": "g",
+        "calories": 112,
+        "protein": 19.6,
+        "carbs": 0,
+        "fats": 2.8000000000000003,
+        "baseCalories": 1.6,
+        "baseProtein": 0.28,
+        "baseCarbs": 0,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Cebolla",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 100,
+        "protein": 5,
+        "carbs": 10,
+        "fats": 4,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      }
+    ],
+    "preparation": "1. Picar el huevo cocido y el aguacate. 2. Mezclar con el atún y la cebolla picada. 3. Aliñar al gusto.",
+    "originalBaseRecipeId": "cc_ensaladilla_rpida_de_huevo_y_aguacate"
+  },
+  "p0_m2": {
     "name": "Ensalada Variada con Queso Curado",
     "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69b669e55b89c7b78c9662f6.png",
     "calories": 600,
@@ -257,7 +219,7 @@ const foodDatabase = {
     "preparation": "1. Lavar los canónigos y los tomates cherry. 2. Rallar la zanahoria. 3. Cortar el aguacate y el queso curado en dados. 4. En un bol, mezclar todos los ingredientes. 5. Añadir las pipas de calabaza por encima y aliñar al gusto.",
     "originalBaseRecipeId": "cc_ensalada_variada_con_queso_curado"
   },
-  "p0_m4": {
+  "p0_m3": {
     "name": "Fruta Densa (Plátano, Manzana)",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe4bb91eb325b93d4a82.png",
     "calories": 72,
@@ -282,7 +244,7 @@ const foodDatabase = {
     "preparation": "1. Seleccionar la fruta densa de preferencia (plátano, manzana, pera, etc.). 2. Para plátanos: pelar la piel y consumir directamente. 3. Para manzanas o peras: lavar bien la fruta. Se puede consumir con piel (rica en fibra) o pelada, según preferencia. Se puede comer entera a mordiscos o cortada en trozos.",
     "originalBaseRecipeId": "ext_fruta_densa_pltano_manzana"
   },
-  "p0_m5": {
+  "p0_m4": {
     "name": "Yogur Protéico (Sabores, Natural...)",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd789b8ed38b127cbc09.png",
     "calories": 125,
@@ -1002,15 +964,14 @@ const dailyMenus = [
       "p0_m0"
     ],
     "comida": [
-      "p0_m1",
-      "p0_m2"
+      "p0_m1"
     ],
     "cena": [
-      "p0_m3"
+      "p0_m2"
     ],
     "extra": [
-      "p0_m4",
-      "p0_m5"
+      "p0_m3",
+      "p0_m4"
     ]
   },
   {
