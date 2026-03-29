@@ -310,10 +310,10 @@ const foodDatabase = {
   "p1_m0": {
     "name": "Tostada de Pan de Centeno con Revuelto de Huevos y Jamón York",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687d09e04d6fb7f271b84cc9.png",
-    "calories": 351,
-    "protein": 24,
-    "carbs": 17,
-    "fats": 21,
+    "calories": 409,
+    "protein": 28,
+    "carbs": 18,
+    "fats": 25,
     "ingredients": [
       {
         "name": "Tostada de Pan de Centeno",
@@ -343,12 +343,12 @@ const foodDatabase = {
       },
       {
         "name": "Jamón York",
-        "quantity": "50",
+        "quantity": "75",
         "unit": "g",
-        "calories": 114.99999999999999,
-        "protein": 8,
-        "carbs": 1,
-        "fats": 9,
+        "calories": 172.5,
+        "protein": 12,
+        "carbs": 1.5,
+        "fats": 13.5,
         "baseCalories": 2.3,
         "baseProtein": 0.16,
         "baseCarbs": 0.02,
@@ -361,19 +361,19 @@ const foodDatabase = {
   "p1_m1": {
     "name": "Ensala de Patata, Atún y Huevo",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afc08b91eb31afe3d4796.png",
-    "calories": 660,
-    "protein": 55,
-    "carbs": 64,
+    "calories": 570,
+    "protein": 53,
+    "carbs": 44,
     "fats": 19,
     "ingredients": [
       {
         "name": "Patata",
-        "quantity": "200",
+        "quantity": "100",
         "unit": "g",
-        "calories": 180,
-        "protein": 4,
-        "carbs": 40,
-        "fats": 0.2,
+        "calories": 90,
+        "protein": 2,
+        "carbs": 20,
+        "fats": 0.1,
         "baseCalories": 0.9,
         "baseProtein": 0.02,
         "baseCarbs": 0.2,
@@ -475,57 +475,6 @@ const foodDatabase = {
     "originalBaseRecipeId": "cc_ensala_de_patata_atn_y_huevo"
   },
   "p1_m2": {
-    "name": "Crema de Verduras Variadas",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cd68425d68cc771ebd10a.png",
-    "calories": 230,
-    "protein": 12,
-    "carbs": 25,
-    "fats": 8,
-    "ingredients": [
-      {
-        "name": "Calabaza",
-        "quantity": "100",
-        "unit": "g",
-        "calories": 100,
-        "protein": 5,
-        "carbs": 10,
-        "fats": 4,
-        "baseCalories": 1,
-        "baseProtein": 0.05,
-        "baseCarbs": 0.1,
-        "baseFats": 0.04
-      },
-      {
-        "name": "Tomate",
-        "quantity": "100",
-        "unit": "g",
-        "calories": 30,
-        "protein": 2,
-        "carbs": 5,
-        "fats": 0.2,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Cebolla",
-        "quantity": "100",
-        "unit": "g",
-        "calories": 100,
-        "protein": 5,
-        "carbs": 10,
-        "fats": 4,
-        "baseCalories": 1,
-        "baseProtein": 0.05,
-        "baseCarbs": 0.1,
-        "baseFats": 0.04
-      }
-    ],
-    "preparation": "1. Puedes comprar una crema preparada o bien cocinar unas cuantas verduras en una olla.",
-    "originalBaseRecipeId": "pp_crema_de_verduras_variadas"
-  },
-  "p1_m3": {
     "name": "Solomillo/Filete de Ternera a la Plancha",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe6c0ed5060d3743015a.png",
     "calories": 418,
@@ -563,7 +512,7 @@ const foodDatabase = {
     "preparation": "1. Sacar el filete o solomillo de ternera del refrigerador unos 15-20 minutos antes de cocinar para que se temple. 2. Sazonar la carne con sal y pimienta negra recién molida justo antes de ponerla en la plancha. 3. Calentar una plancha o sartén de fondo grueso a fuego alto hasta que esté bien caliente. Añadir una gota de aceite de oliva y extenderlo. 4. Cocinar el filete al gusto. 5. Dejar reposar la carne un par de minutos antes de servir para que los jugos se redistribuyan.",
     "originalBaseRecipeId": "ac_solomillofilete_de_ternera_a_la_plancha"
   },
-  "p1_m4": {
+  "p1_m3": {
     "name": "Fruta Cítrica (Mandarina, Kiwi, Naranja...)",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd3d0ed506305442ffe4.png",
     "calories": 45,
@@ -588,7 +537,7 @@ const foodDatabase = {
     "preparation": "1. Seleccionar la fruta cítrica de preferencia. 2. Lavar bien la fruta bajo el grifo. 3. Para mandarinas y naranjas: pelar la piel con las manos. 4. Para kiwis: cortar por la mitad y comer la pulpa con una cucharita.",
     "originalBaseRecipeId": "ext_fruta_ctrica_mandarina_kiwi_naranja"
   },
-  "p1_m5": {
+  "p1_m4": {
     "name": "Yogur Protéico (Sabores, Natural...)",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd789b8ed38b127cbc09.png",
     "calories": 125,
@@ -616,9 +565,9 @@ const foodDatabase = {
   "p2_m0": {
     "name": "Yogurt Protéico con Frutos Rojos y Secos",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afea2b91eb35e413d4ab6.png",
-    "calories": 268,
+    "calories": 253,
     "protein": 9,
-    "carbs": 24,
+    "carbs": 20,
     "fats": 15,
     "ingredients": [
       {
@@ -636,12 +585,12 @@ const foodDatabase = {
       },
       {
         "name": "Frutos Rojos",
-        "quantity": "50",
+        "quantity": "25",
         "unit": "g",
-        "calories": 30,
-        "protein": 0.25,
-        "carbs": 7.5,
-        "fats": 0.1,
+        "calories": 15,
+        "protein": 0.125,
+        "carbs": 3.75,
+        "fats": 0.05,
         "baseCalories": 0.6,
         "baseProtein": 0.005,
         "baseCarbs": 0.15,
@@ -665,107 +614,55 @@ const foodDatabase = {
     "originalBaseRecipeId": "des_yogurt_protico_con_frutos_rojos_y_secos"
   },
   "p2_m1": {
-    "name": "Musakka de Patata al horno con verduras y carne picada",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684efda5653a2c17a7172d67.png",
-    "calories": 761,
-    "protein": 51,
-    "carbs": 42,
-    "fats": 42,
+    "name": "Pasta tricolor con pisto de verduras, y carne picada",
+    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69b50fe5fc5128125e8bc1e4.png",
+    "calories": 545,
+    "protein": 22,
+    "carbs": 95,
+    "fats": 8,
     "ingredients": [
       {
-        "name": "Patata",
+        "name": "Pasta Tricolor",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 365,
+        "protein": 12,
+        "carbs": 75,
+        "fats": 2,
+        "baseCalories": 3.65,
+        "baseProtein": 0.12,
+        "baseCarbs": 0.75,
+        "baseFats": 0.02
+      },
+      {
+        "name": "Pisto de Verduras",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 30,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Carne Picada",
         "quantity": "150",
         "unit": "g",
-        "calories": 135,
-        "protein": 3,
-        "carbs": 30,
-        "fats": 0.15,
-        "baseCalories": 0.9,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.2,
-        "baseFats": 0.001
-      },
-      {
-        "name": "Cebolla",
-        "quantity": "75",
-        "unit": "g",
-        "calories": 22.5,
-        "protein": 1.5,
-        "carbs": 3.75,
-        "fats": 0.15,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Berenjena",
-        "quantity": "75",
-        "unit": "g",
-        "calories": 22.5,
-        "protein": 1.5,
-        "carbs": 3.75,
-        "fats": 0.15,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Tomate Frito",
-        "quantity": "75",
-        "unit": "g",
-        "calories": 22.5,
-        "protein": 1.5,
-        "carbs": 3.75,
-        "fats": 0.15,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Queso Rallado",
-        "quantity": "40",
-        "unit": "g",
-        "calories": 140,
-        "protein": 10,
-        "carbs": 0.8,
-        "fats": 10,
-        "baseCalories": 3.5,
-        "baseProtein": 0.25,
-        "baseCarbs": 0.02,
-        "baseFats": 0.25
-      },
-      {
-        "name": "Carne Picada Mixta (Ternera y Cerdo)",
-        "quantity": "150",
-        "unit": "g",
-        "calories": 330,
-        "protein": 33,
-        "carbs": 0,
-        "fats": 21.000000000000004,
-        "baseCalories": 2.2,
-        "baseProtein": 0.22,
-        "baseCarbs": 0,
-        "baseFats": 0.14
-      },
-      {
-        "name": "Aceite de Oliva Virgen Extra",
-        "quantity": "10",
-        "unit": "g",
-        "calories": 88.4,
-        "protein": 0,
-        "carbs": 0,
-        "fats": 10,
-        "baseCalories": 8.84,
-        "baseProtein": 0,
-        "baseCarbs": 0,
-        "baseFats": 1
+        "calories": 150,
+        "protein": 7.5,
+        "carbs": 15,
+        "fats": 6,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
       }
     ],
-    "preparation": "1. Precalentar el horno a 180°C. Pelar y cortar las patatas en rodajas finas (aproximadamente 0.5 cm). Cortar la berenjena en rodajas similares. Picar la cebolla. 2. En una sartén, calentar aceite y sofreír la cebolla hasta que esté blanda. Añadir la carne picada mixta y cocinar hasta que se dore. Escurrir el exceso de grasa. Incorporar tomate frito, sal, pimienta y orégano. Cocinar unos minutos. 3. En una fuente para horno, montar la musakka: colocar una capa de rodajas de patata en el fondo, luego una capa de rodajas de berenjena, y encima una capa de la mezcla de carne. Repetir las capas hasta terminar con una capa de patata o berenjena. 4. Opcional: cubrir con salsa bechamel y espolvorear con queso rallado. 5. Hornear durante 40-50 minutos, o hasta que las patatas y berenjenas estén tiernas y la superficie dorada. Dejar reposar unos minutos antes de servir.",
-    "originalBaseRecipeId": "cc_musakka_de_patata_al_horno_con_verduras_y_carne_picada"
+    "preparation": "1. Cocer la pasta. 2. Saltear la carne picada con el pisto. 3. Mezclar todo.",
+    "originalBaseRecipeId": "cc_pasta_tricolor_con_pisto_de_verduras_y_carne_picada"
   },
   "p2_m2": {
     "name": "Pimientos Salteados con Cebolla y Tomate Cherry.",
@@ -946,76 +843,50 @@ const foodDatabase = {
     "originalBaseRecipeId": "ext_frutos_secos_mezcla"
   },
   "p3_m0": {
-    "name": "Tortitas de Avena con Frutos Rojos",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682ad5d9e819fce58fa8a30c.png",
-    "calories": 459,
-    "protein": 33,
-    "carbs": 64,
-    "fats": 8,
+    "name": "Tostada de centeno con jamón ibérico",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6887226c7537da60484d071f.png",
+    "calories": 436,
+    "protein": 29,
+    "carbs": 40,
+    "fats": 16,
     "ingredients": [
       {
-        "name": "Harina de Avena",
-        "quantity": "70",
-        "unit": "g",
-        "calories": 255.5,
-        "protein": 8.4,
-        "carbs": 52.5,
-        "fats": 1.4000000000000001,
-        "baseCalories": 3.65,
-        "baseProtein": 0.12,
-        "baseCarbs": 0.75,
-        "baseFats": 0.02
+        "name": "Tostada de Pan de Centeno",
+        "quantity": "2",
+        "unit": "rebanada",
+        "calories": 216,
+        "protein": 7.199999999999999,
+        "carbs": 40,
+        "fats": 2.4,
+        "baseCalories": 108,
+        "baseProtein": 3.5999999999999996,
+        "baseCarbs": 20,
+        "baseFats": 1.2
       },
       {
-        "name": "Claras de Huevo",
-        "quantity": "150",
+        "name": "Jamón Ibérico",
+        "quantity": "100",
         "unit": "g",
-        "calories": 78,
-        "protein": 16.5,
-        "carbs": 1.0499999999999998,
-        "fats": 0.3,
-        "baseCalories": 0.52,
-        "baseProtein": 0.11,
-        "baseCarbs": 0.006999999999999999,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Huevo",
-        "quantity": "1",
-        "unit": "ud",
-        "calories": 85.25,
-        "protein": 7.15,
-        "carbs": 0.6050000000000001,
-        "fats": 6.05,
-        "baseCalories": 85.25,
-        "baseProtein": 7.15,
-        "baseCarbs": 0.6050000000000001,
-        "baseFats": 6.05
-      },
-      {
-        "name": "Frutos Rojos",
-        "quantity": "80",
-        "unit": "g",
-        "calories": 40,
-        "protein": 0.8,
-        "carbs": 9.6,
-        "fats": 0.4,
-        "baseCalories": 0.5,
-        "baseProtein": 0.01,
-        "baseCarbs": 0.12,
-        "baseFats": 0.005
+        "calories": 220.00000000000003,
+        "protein": 22,
+        "carbs": 0,
+        "fats": 14.000000000000002,
+        "baseCalories": 2.2,
+        "baseProtein": 0.22,
+        "baseCarbs": 0,
+        "baseFats": 0.14
       }
     ],
-    "preparation": "1. Mezclar la harina de avena, claras de huevo, y huevo entero (si se usa) con un poco de leche o bebida vegetal hasta obtener una masa homogénea. 2. Cocinar las tortitas en una sartén antiadherente caliente por ambos lados hasta que estén doradas. 3. Servir con los frutos rojos por encima.",
-    "originalBaseRecipeId": "des_tortitas_de_avena_con_frutos_rojos"
+    "preparation": "1. Tostar el pan de centeno. 2. Colocar las lonchas de jamón ibérico por encima. Opcional: añadir un chorrito de aceite de oliva.",
+    "originalBaseRecipeId": "des_tostada_de_centeno_con_jamn_ibrico"
   },
   "p3_m1": {
     "name": "Solomillo de Ternera con Pimientos Salteados",
     "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/699b48a055d8bc3caf4b1f0b.png",
-    "calories": 498,
+    "calories": 410,
     "protein": 38,
     "carbs": 10,
-    "fats": 33,
+    "fats": 23,
     "ingredients": [
       {
         "name": "Solomillo de Ternera",
@@ -1068,19 +939,6 @@ const foodDatabase = {
         "baseProtein": 0.05,
         "baseCarbs": 0.1,
         "baseFats": 0.04
-      },
-      {
-        "name": "Aceite de Oliva Virgen Extra",
-        "quantity": "10",
-        "unit": "g",
-        "calories": 88.4,
-        "protein": 0,
-        "carbs": 0,
-        "fats": 10,
-        "baseCalories": 8.84,
-        "baseProtein": 0,
-        "baseCarbs": 0,
-        "baseFats": 1
       }
     ],
     "preparation": "1. Cortar los pimientos y la cebolla en tiras. 2. Saltear las verduras en una sartén con aceite hasta que estén tiernas. 3. Cocinar el solomillo de ternera a la plancha al punto deseado. 4. Servir el solomillo acompañado de los pimientos salteados.",
@@ -1162,62 +1020,11 @@ const foodDatabase = {
     ],
     "preparation": "1. Lavar los canónigos y los tomates cherry. 2. Cortar el queso fresco y el pavo en dados. 3. Trocear las nueces. 4. En un bol, mezclar todos los ingredientes. 5. Aliñar con una vinagreta suave.",
     "originalBaseRecipeId": "cc_ensalada_de_queso_fresco_pavo_y_nueces"
-  },
-  "p3_m3": {
-    "name": "Tostada de Centeno con Queso Cottage y Cherries",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68792fea2035ba213493e87e.png",
-    "calories": 143,
-    "protein": 6,
-    "carbs": 25,
-    "fats": 2,
-    "ingredients": [
-      {
-        "name": "Tostada de Pan de Centeno",
-        "quantity": "1",
-        "unit": "rebanada",
-        "calories": 108,
-        "protein": 3.5999999999999996,
-        "carbs": 20,
-        "fats": 1.2,
-        "baseCalories": 108,
-        "baseProtein": 3.5999999999999996,
-        "baseCarbs": 20,
-        "baseFats": 1.2
-      },
-      {
-        "name": "Tomates Cherry",
-        "quantity": "100",
-        "unit": "g",
-        "calories": 30,
-        "protein": 2,
-        "carbs": 5,
-        "fats": 0.2,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Queso Cottage",
-        "quantity": "5",
-        "unit": "g",
-        "calories": 5,
-        "protein": 0.6,
-        "carbs": 0.2,
-        "fats": 0.2,
-        "baseCalories": 1,
-        "baseProtein": 0.12,
-        "baseCarbs": 0.04,
-        "baseFats": 0.04
-      }
-    ],
-    "preparation": "1. Tostar el pan de centeno. 2. Untar el queso cottage sobre las tostadas y añadir los cherries por encima con especias.",
-    "originalBaseRecipeId": "ext_tostada_de_centeno_con_queso_cottage_y_cherries"
   }
 };
 const dailyMenus = [
   {
-    "name": "Opción 1",
+    "name": "Entreno 1",
     "targetMacros": {
       "calories": 1700,
       "protein": 140,
@@ -1245,7 +1052,7 @@ const dailyMenus = [
     ]
   },
   {
-    "name": "Opción 2",
+    "name": "Libre 1",
     "targetMacros": {
       "calories": 1700,
       "protein": 140,
@@ -1264,16 +1071,15 @@ const dailyMenus = [
       "p1_m1"
     ],
     "cena": [
-      "p1_m2",
-      "p1_m3"
+      "p1_m2"
     ],
     "extra": [
-      "p1_m4",
-      "p1_m5"
+      "p1_m3",
+      "p1_m4"
     ]
   },
   {
-    "name": "Opción 3",
+    "name": "Entreno 2",
     "targetMacros": {
       "calories": 1800,
       "protein": 150,
@@ -1301,7 +1107,7 @@ const dailyMenus = [
     ]
   },
   {
-    "name": "Opción 4",
+    "name": "Libre 2",
     "targetMacros": {
       "calories": 1850,
       "protein": 150,
@@ -1322,8 +1128,6 @@ const dailyMenus = [
     "cena": [
       "p3_m2"
     ],
-    "extra": [
-      "p3_m3"
-    ]
+    "extra": []
   }
 ];
