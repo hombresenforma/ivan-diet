@@ -198,7 +198,7 @@ const foodDatabase = {
         "carbs": 2.85,
         "fats": 0.114,
         "baseCalories": 0.3,
-        "baseProtein": 0.02,
+        "baseProtein": 0.020000000000000004,
         "baseCarbs": 0.05,
         "baseFats": 0.002
       },
@@ -475,42 +475,55 @@ const foodDatabase = {
     "originalBaseRecipeId": "cc_ensala_de_patata_atn_y_huevo"
   },
   "p1_m2": {
-    "name": "Ensalada de Tomate, Ajo y Cebolla",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe199b8ed3c4d37cbd18.png",
-    "calories": 60,
-    "protein": 4,
-    "carbs": 10,
-    "fats": 0,
+    "name": "Alcachofa salteada con jamón, huevo",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684efb33f6c48d7f13a5b29b.png",
+    "calories": 165,
+    "protein": 14,
+    "carbs": 3,
+    "fats": 11,
     "ingredients": [
       {
-        "name": "Tomate",
-        "quantity": "125",
+        "name": "Alcachofa",
+        "quantity": "25",
         "unit": "g",
-        "calories": 37.5,
-        "protein": 2.5,
-        "carbs": 6.25,
-        "fats": 0.25,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
+        "calories": 25,
+        "protein": 1.25,
+        "carbs": 2.5,
+        "fats": 1,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
       },
       {
-        "name": "Cebolla",
-        "quantity": "75",
+        "name": "Jamón Serrano",
+        "quantity": "25",
         "unit": "g",
-        "calories": 22.5,
-        "protein": 1.5,
-        "carbs": 3.75,
-        "fats": 0.15,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
+        "calories": 55.00000000000001,
+        "protein": 5.5,
+        "carbs": 0,
+        "fats": 3.5000000000000004,
+        "baseCalories": 2.2,
+        "baseProtein": 0.22,
+        "baseCarbs": 0,
+        "baseFats": 0.14
+      },
+      {
+        "name": "Huevo Cocido",
+        "quantity": "1",
+        "unit": "ud",
+        "calories": 85.25,
+        "protein": 7.15,
+        "carbs": 0.6050000000000001,
+        "fats": 6.05,
+        "baseCalories": 85.25,
+        "baseProtein": 7.15,
+        "baseCarbs": 0.6050000000000001,
+        "baseFats": 6.05
       }
     ],
-    "preparation": "1. Lavar bien los tomates y cortarlos en rodajas, gajos o dados, según preferencia. 2. Pelar y picar la cebolla en juliana fina. Para suavizar su sabor, se puede dejar en remojo en agua fría con un poco de vinagre durante 10 minutos y luego escurrir. 3. Pelar y picar el ajo muy finamente, o machacarlo en un mortero. 4. En un bol o fuente, combinar el tomate, la cebolla y el ajo. 5. Aliñar generosamente con aceite de oliva virgen extra de buena calidad, un poco de vinagre (opcional, preferiblemente de Jerez o manzana) y sal. Mezclar bien y dejar reposar unos minutos antes de servir para que se integren los sabores.",
-    "originalBaseRecipeId": "pp_ensalada_de_tomate_ajo_y_cebolla"
+    "preparation": "1. Limpiar las alcachofas frescas, quitando las hojas exteriores más duras, el tallo (pelándolo) y las puntas. Cortarlas en cuartos u octavos y retirar el heno interior si lo tuvieran. Cocerlas en agua con sal y un chorrito de limón hasta que estén tiernas. 2. Cocer un huevo en agua hirviendo durante 10 minutos hasta que esté duro. Dejar enfriar, pelar y picar o cortar en gajos. 3. Cortar el jamón serrano en taquitos o tiras. 4. En una sartén, calentar un poco de aceite de oliva y saltear el jamón hasta que esté ligeramente crujiente. 5. Añadir las alcachofas a la sartén y saltear junto con el jamón durante unos minutos para que tomen sabor. 6. Servir las alcachofas con jamón y colocar el huevo cocido picado o en gajos por encima.",
+    "originalBaseRecipeId": "pp_alcachofa_salteada_con_jamn_huevo"
   },
   "p1_m3": {
     "name": "Solomillo/Filete de Ternera a la Plancha",
