@@ -893,6 +893,247 @@ const foodDatabase = {
     ],
     "preparation": "Consumir directamente como un snack energético y nutritivo.",
     "originalBaseRecipeId": "ext_frutos_secos_mezcla"
+  },
+  "p3_m0": {
+    "name": "Yogurt Protéico con Frutos Rojos y Secos",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afea2b91eb35e413d4ab6.png",
+    "calories": 590,
+    "protein": 16,
+    "carbs": 35,
+    "fats": 44,
+    "ingredients": [
+      {
+        "name": "Yogur Protéico",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 100,
+        "protein": 5,
+        "carbs": 10,
+        "fats": 4,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Frutos Rojos",
+        "quantity": "80",
+        "unit": "g",
+        "calories": 40,
+        "protein": 0.8,
+        "carbs": 9.6,
+        "fats": 0.4,
+        "baseCalories": 0.5,
+        "baseProtein": 0.01,
+        "baseCarbs": 0.12,
+        "baseFats": 0.005
+      },
+      {
+        "name": "Frutos Secos",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 450,
+        "protein": 10,
+        "carbs": 15,
+        "fats": 40,
+        "baseCalories": 4.5,
+        "baseProtein": 0.1,
+        "baseCarbs": 0.15,
+        "baseFats": 0.4
+      }
+    ],
+    "preparation": "1. En un bol, verter el yogur proteico. 2. Añadir los frutos rojos frescos o descongelados. 3. Espolvorear con los frutos secos troceados por encima. Servir inmediatamente.",
+    "originalBaseRecipeId": "des_yogurt_protico_con_frutos_rojos_y_secos"
+  },
+  "p3_m1": {
+    "name": "Berenjenas Rellenas de Pavo al Horno",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6922cdf6e7de6638e2767e27.png",
+    "calories": 557,
+    "protein": 51,
+    "carbs": 18,
+    "fats": 28,
+    "ingredients": [
+      {
+        "name": "Berenjena",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 30,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Carne Picada de Pavo",
+        "quantity": "80",
+        "unit": "g",
+        "calories": 128,
+        "protein": 22.400000000000002,
+        "carbs": 0,
+        "fats": 3.2,
+        "baseCalories": 1.6,
+        "baseProtein": 0.28,
+        "baseCarbs": 0,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Cebolla",
+        "quantity": "85",
+        "unit": "g",
+        "calories": 85,
+        "protein": 4.25,
+        "carbs": 8.5,
+        "fats": 3.4,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Tomate Frito",
+        "quantity": "55",
+        "unit": "g",
+        "calories": 16.5,
+        "protein": 1.1,
+        "carbs": 2.75,
+        "fats": 0.11,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Queso Havarti Light",
+        "quantity": "85",
+        "unit": "g",
+        "calories": 297.5,
+        "protein": 21.25,
+        "carbs": 1.7,
+        "fats": 21.25,
+        "baseCalories": 3.5,
+        "baseProtein": 0.25,
+        "baseCarbs": 0.02,
+        "baseFats": 0.25
+      }
+    ],
+    "preparation": "1. Asar las berenjenas partidas por la mitad. Vaciar la carne. 2. Sofreír cebolla y carne de pavo. Añadir la carne de berenjena picada y tomate. 3. Rellenar las pieles, cubrir con queso y gratinar.",
+    "originalBaseRecipeId": "cc_berenjenas_rellenas_de_pavo_al_horno"
+  },
+  "p3_m2": {
+    "name": "Calabacín con Cebolla a la Plancha",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afc8e9b8ed35d8e7cbb0e.png",
+    "calories": 111,
+    "protein": 6,
+    "carbs": 13,
+    "fats": 4,
+    "ingredients": [
+      {
+        "name": "Calabacín",
+        "quantity": "85",
+        "unit": "g",
+        "calories": 25.5,
+        "protein": 1.7,
+        "carbs": 4.25,
+        "fats": 0.17,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Cebolla",
+        "quantity": "85",
+        "unit": "g",
+        "calories": 85,
+        "protein": 4.25,
+        "carbs": 8.5,
+        "fats": 3.4,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      }
+    ],
+    "preparation": "1. Lavar el calabacín y cortarlo en rodajas de aproximadamente 0.5 a 1 cm de grosor. Pelar y cortar la cebolla en juliana o rodajas. 2. Calentar una plancha o sartén grande con un chorrito de aceite de oliva a fuego medio-alto. 3. Colocar las rodajas de calabacín y la cebolla sobre la plancha caliente. Cocinar durante 3-5 minutos por cada lado, o hasta que estén tiernos y presenten marcas doradas de la plancha. 4. Sazonar con sal, pimienta y opcionalmente un poco de ajo en polvo u orégano durante la cocción o al final.",
+    "originalBaseRecipeId": "pp_calabacn_con_cebolla_a_la_plancha"
+  },
+  "p3_m3": {
+    "name": "Onza de Chocolate 85%",
+    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69b51011eba487f7273f1096.png",
+    "calories": 193,
+    "protein": 2,
+    "carbs": 11,
+    "fats": 14,
+    "ingredients": [
+      {
+        "name": "Chocolate 85%",
+        "quantity": "35",
+        "unit": "g",
+        "calories": 192.5,
+        "protein": 2.1,
+        "carbs": 10.5,
+        "fats": 14,
+        "baseCalories": 5.5,
+        "baseProtein": 0.06,
+        "baseCarbs": 0.3,
+        "baseFats": 0.4
+      }
+    ],
+    "preparation": "Consumir directamente.",
+    "originalBaseRecipeId": "ext_onza_de_chocolate_85"
+  },
+  "p3_m4": {
+    "name": "Pechuga de Pollo a la Plancha",
+    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69b66b3087f0f2415505fc9a.png",
+    "calories": 240,
+    "protein": 42,
+    "carbs": 0,
+    "fats": 6,
+    "ingredients": [
+      {
+        "name": "Pechuga de Pollo",
+        "quantity": "150",
+        "unit": "g",
+        "calories": 240,
+        "protein": 42.00000000000001,
+        "carbs": 0,
+        "fats": 6,
+        "baseCalories": 1.6,
+        "baseProtein": 0.28,
+        "baseCarbs": 0,
+        "baseFats": 0.04
+      }
+    ],
+    "preparation": "1. Sazonar la pechuga de pollo con sal, pimienta y especias al gusto. 2. Calentar una plancha o sartén antiadherente con una gota de aceite. 3. Cocinar la pechuga hasta que esté dorada por fuera y cocida por dentro.",
+    "originalBaseRecipeId": "ac_pechuga_de_pollo_a_la_plancha"
+  },
+  "p3_m5": {
+    "name": "Fruta Densa (Plátano, Manzana)",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe4bb91eb325b93d4a82.png",
+    "calories": 90,
+    "protein": 1,
+    "carbs": 23,
+    "fats": 0,
+    "ingredients": [
+      {
+        "name": "Manzana",
+        "quantity": "1",
+        "unit": "ud",
+        "calories": 90,
+        "protein": 0.75,
+        "carbs": 22.5,
+        "fats": 0.3,
+        "baseCalories": 90,
+        "baseProtein": 0.75,
+        "baseCarbs": 22.5,
+        "baseFats": 0.3
+      }
+    ],
+    "preparation": "1. Seleccionar la fruta densa de preferencia. 2. Para plátanos: pelar la piel y consumir directamente. 3. Para manzanas o peras: lavar bien la fruta. Se puede consumir con piel o pelada.",
+    "originalBaseRecipeId": "ext_fruta_densa_pltano_manzana"
   }
 };
 const dailyMenus = [
@@ -977,6 +1218,34 @@ const dailyMenus = [
     "extra": [
       "p2_m4",
       "p2_m5"
+    ]
+  },
+  {
+    "name": "Día 4",
+    "targetMacros": {
+      "calories": 1700,
+      "protein": 150,
+      "carbs": 150
+    },
+    "baselineTotals": {
+      "calories": 1828,
+      "protein": 150,
+      "carbs": 150,
+      "fats": 70
+    },
+    "desayuno": [
+      "p3_m0"
+    ],
+    "comida": [
+      "p3_m1"
+    ],
+    "cena": [
+      "p3_m2",
+      "p3_m4"
+    ],
+    "extra": [
+      "p3_m3",
+      "p3_m5"
     ]
   }
 ];
