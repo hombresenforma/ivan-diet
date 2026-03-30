@@ -364,7 +364,7 @@ const foodDatabase = {
         "carbs": 37.5,
         "fats": 1,
         "baseCalories": 3.65,
-        "baseProtein": 0.12000000000000001,
+        "baseProtein": 0.12000000000000002,
         "baseCarbs": 0.75,
         "baseFats": 0.02
       },
@@ -603,34 +603,34 @@ const foodDatabase = {
     "originalBaseRecipeId": "ext_yogur_protico_con_frutos_rojos_y_secos"
   },
   "p2_m1": {
-    "name": "Ensalada de Lentejas",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682aff5a365e949c0a73d706.png",
-    "calories": 475,
-    "protein": 30,
-    "carbs": 49,
-    "fats": 17,
+    "name": "Ensalada con Pollo y Queso de Burgos",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afdceb91eb360843d4a0b.png",
+    "calories": 520,
+    "protein": 61,
+    "carbs": 26,
+    "fats": 16,
     "ingredients": [
       {
-        "name": "Lentejas Cocidas",
-        "quantity": "150",
+        "name": "Canónigos",
+        "quantity": "80",
         "unit": "g",
-        "calories": 195,
-        "protein": 12,
-        "carbs": 33,
-        "fats": 0.75,
-        "baseCalories": 1.3,
-        "baseProtein": 0.08,
-        "baseCarbs": 0.22,
-        "baseFats": 0.005
+        "calories": 80,
+        "protein": 4,
+        "carbs": 8,
+        "fats": 3.2,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
       },
       {
         "name": "Tomate",
-        "quantity": "75",
+        "quantity": "100",
         "unit": "g",
-        "calories": 22.5,
-        "protein": 1.5,
-        "carbs": 3.75,
-        "fats": 0.15,
+        "calories": 30,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
         "baseCalories": 0.3,
         "baseProtein": 0.02,
         "baseCarbs": 0.05,
@@ -638,55 +638,30 @@ const foodDatabase = {
       },
       {
         "name": "Cebolla",
-        "quantity": "75",
-        "unit": "g",
-        "calories": 22.5,
-        "protein": 1.5,
-        "carbs": 3.75,
-        "fats": 0.15,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Queso de Burgos 0%",
         "quantity": "100",
         "unit": "g",
         "calories": 100,
-        "protein": 12,
-        "carbs": 4,
+        "protein": 5,
+        "carbs": 10,
         "fats": 4,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Queso de Burgos 0%",
+        "quantity": "70",
+        "unit": "g",
+        "calories": 70,
+        "protein": 8.4,
+        "carbs": 2.8000000000000003,
+        "fats": 2.8000000000000003,
         "baseCalories": 1,
         "baseProtein": 0.12,
         "baseCarbs": 0.04,
         "baseFats": 0.04
       },
-      {
-        "name": "Aguacate",
-        "quantity": "30",
-        "unit": "g",
-        "calories": 135,
-        "protein": 3,
-        "carbs": 4.5,
-        "fats": 12,
-        "baseCalories": 4.5,
-        "baseProtein": 0.1,
-        "baseCarbs": 0.15,
-        "baseFats": 0.4
-      }
-    ],
-    "preparation": "1. Si usas lentejas de bote, enjuagarlas bien bajo el grifo y escurrirlas. Si las cocinas, déjalas enfriar. 2. Picar el tomate y la cebolla (preferiblemente morada) en dados pequeños. Cortar el queso de Burgos 0% y el aguacate en dados. 3. En un bol grande, mezclar con cuidado las lentejas, el tomate, la cebolla, el queso de Burgos y el aguacate. 4. Aliñar con aceite de oliva virgen extra, vinagre (de manzana o Jerez) y sal al gusto.",
-    "originalBaseRecipeId": "pp_ensalada_de_lentejas"
-  },
-  "p2_m2": {
-    "name": "Pechuga de Pollo a Tiras",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68f27f90fb2e446db8a380a9.png",
-    "calories": 284,
-    "protein": 42,
-    "carbs": 0,
-    "fats": 11,
-    "ingredients": [
       {
         "name": "Pechuga de Pollo",
         "quantity": "150",
@@ -699,25 +674,12 @@ const foodDatabase = {
         "baseProtein": 0.28,
         "baseCarbs": 0,
         "baseFats": 0.04
-      },
-      {
-        "name": "Aceite de Oliva Virgen Extra",
-        "quantity": "5",
-        "unit": "g",
-        "calories": 44.2,
-        "protein": 0,
-        "carbs": 0,
-        "fats": 5,
-        "baseCalories": 8.84,
-        "baseProtein": 0,
-        "baseCarbs": 0,
-        "baseFats": 1
       }
     ],
-    "preparation": "Cocinar la pechuga de pollo a la plancha o cocida y cortar en tiras. Servir solo o añadir a otros platos.",
-    "originalBaseRecipeId": "ac_pechuga_de_pollo_a_tiras"
+    "preparation": "1. Cocinar la pechuga de pollo (a la plancha, hervida o asada) y cortarla en tiras o dados. 2. Lavar los canónigos y escurrirlos bien. Cortar los tomates (cherry por la mitad, o normales en gajos) y la cebolla en rodajas finas o juliana. Cortar el queso de Burgos 0% en dados o láminas. 3. En un bol o plato grande, disponer una base de canónigos. Añadir encima el tomate, la cebolla, el pollo y el queso de Burgos. 4. Aliñar con aceite de oliva virgen extra, vinagre (de manzana o Módena) y sal al gusto.",
+    "originalBaseRecipeId": "cc_ensalada_con_pollo_y_queso_de_burgos"
   },
-  "p2_m3": {
+  "p2_m2": {
     "name": "Crema de Verduras Variadas",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cd68425d68cc771ebd10a.png",
     "calories": 118,
@@ -781,7 +743,7 @@ const foodDatabase = {
     "preparation": "1. Puedes comprar una crema preparada o bien cocinar unas cuantas verduras en una olla.",
     "originalBaseRecipeId": "pp_crema_de_verduras_variadas"
   },
-  "p2_m4": {
+  "p2_m3": {
     "name": "Merluza a la Plancha",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684f001d4d606642b1333279.png",
     "calories": 328,
@@ -819,7 +781,7 @@ const foodDatabase = {
     "preparation": "1. Sazonar los filetes o rodajas de merluza con sal, pimienta y opcionalmente un poco de ajo en polvo o perejil picado. 2. Calentar una plancha o sartén antiadherente a fuego medio-alto con un chorrito de aceite de oliva virgen extra. 3. Cuando el aceite esté caliente, colocar la merluza en la plancha. Cocinar durante unos 3-5 minutos por cada lado, dependiendo del grosor del pescado, hasta que esté opaca, bien cocida por dentro y se desmenuce fácilmente con un tenedor. 4. Servir inmediatamente, opcionalmente con un chorrito de zumo de limón fresco por encima.",
     "originalBaseRecipeId": "ac_merluza_a_la_plancha"
   },
-  "p2_m5": {
+  "p2_m4": {
     "name": "Fruta Cítrica (Mandarina, Kiwi, Naranja...)",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd3d0ed506305442ffe4.png",
     "calories": 100,
@@ -845,26 +807,13 @@ const foodDatabase = {
     "originalBaseRecipeId": "ext_fruta_ctrica_mandarina_kiwi_naranja"
   },
   "p3_m0": {
-    "name": "Tostada de Pan de Centeno con Revuelto de Huevos y Jamón York",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687d09e04d6fb7f271b84cc9.png",
-    "calories": 308,
-    "protein": 19,
-    "carbs": 22,
-    "fats": 16,
+    "name": "Revuelto de Huevos y Claras con Jamón",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682ad5e1e819fcb589a8a30e.png",
+    "calories": 242,
+    "protein": 28,
+    "carbs": 1,
+    "fats": 13,
     "ingredients": [
-      {
-        "name": "Tostada de Pan de Centeno",
-        "quantity": "1",
-        "unit": "rebanada",
-        "calories": 108,
-        "protein": 3.5999999999999996,
-        "carbs": 20,
-        "fats": 1.2,
-        "baseCalories": 108,
-        "baseProtein": 3.5999999999999996,
-        "baseCarbs": 20,
-        "baseFats": 1.2
-      },
       {
         "name": "Huevos",
         "quantity": "1",
@@ -879,21 +828,34 @@ const foodDatabase = {
         "baseFats": 6.05
       },
       {
-        "name": "Jamón York",
+        "name": "Claras de Huevo",
+        "quantity": "90",
+        "unit": "g",
+        "calories": 46.800000000000004,
+        "protein": 9.9,
+        "carbs": 0.6299999999999999,
+        "fats": 0.18,
+        "baseCalories": 0.52,
+        "baseProtein": 0.11,
+        "baseCarbs": 0.006999999999999999,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Jamón Serrano",
         "quantity": "50",
         "unit": "g",
-        "calories": 114.99999999999999,
-        "protein": 8,
-        "carbs": 1,
-        "fats": 9,
-        "baseCalories": 2.3,
-        "baseProtein": 0.16,
-        "baseCarbs": 0.02,
-        "baseFats": 0.18
+        "calories": 110.00000000000001,
+        "protein": 11,
+        "carbs": 0,
+        "fats": 7.000000000000001,
+        "baseCalories": 2.2,
+        "baseProtein": 0.22,
+        "baseCarbs": 0,
+        "baseFats": 0.14
       }
     ],
-    "preparation": "1. Tostar el pan de centeno. 2. Preparar un revuelto de huevos con taquitos de jamón york. 3. Servir el revuelto sobre la tostada.",
-    "originalBaseRecipeId": "des_tostada_de_pan_de_centeno_con_revuelto_de_huevos_y_jamn_york"
+    "preparation": "1. Batir los huevos y las claras. 2. Cortar el jamón en taquitos o tiras. 3. Saltear ligeramente el jamón en una sartén con una pizca de aceite (opcional). 4. Verter la mezcla de huevo y remover constantemente a fuego medio-bajo hasta que cuaje al gusto.",
+    "originalBaseRecipeId": "des_revuelto_de_huevos_y_claras_con_jamn"
   },
   "p3_m1": {
     "name": "Berenjenas Rellenas de Pavo al Horno",
@@ -1184,15 +1146,14 @@ const dailyMenus = [
       "p2_m0"
     ],
     "comida": [
-      "p2_m1",
-      "p2_m2"
+      "p2_m1"
     ],
     "cena": [
-      "p2_m3",
-      "p2_m4"
+      "p2_m2",
+      "p2_m3"
     ],
     "extra": [
-      "p2_m5"
+      "p2_m4"
     ]
   },
   {
