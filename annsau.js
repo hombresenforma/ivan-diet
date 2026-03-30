@@ -1087,6 +1087,57 @@ const foodDatabase = {
     ],
     "preparation": "1. Cocinar la pechuga de pollo (a la plancha, hervida o asada) y cortarla en tiras o dados. 2. Lavar los canónigos y escurrirlos bien. Cortar los tomates (cherry por la mitad, o normales en gajos) y la cebolla en rodajas finas o juliana. Cortar el queso de Burgos 0% en dados o láminas. 3. En un bol o plato grande, disponer una base de canónigos. Añadir encima el tomate, la cebolla, el pollo y el queso de Burgos. 4. Aliñar con aceite de oliva virgen extra, vinagre (de manzana o Módena) y sal al gusto.",
     "originalBaseRecipeId": "cc_ensalada_con_pollo_y_queso_de_burgos"
+  },
+  "p3_m3": {
+    "name": "Yogurt Protéico con Frutos Rojos y Secos",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afea2b91eb35e413d4ab6.png",
+    "calories": 203,
+    "protein": 8,
+    "carbs": 18,
+    "fats": 11,
+    "ingredients": [
+      {
+        "name": "Yogur Protéico",
+        "quantity": "120",
+        "unit": "g",
+        "calories": 120,
+        "protein": 6,
+        "carbs": 12,
+        "fats": 4.8,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Frutos Rojos",
+        "quantity": "30",
+        "unit": "g",
+        "calories": 15,
+        "protein": 0.3,
+        "carbs": 3.5999999999999996,
+        "fats": 0.15,
+        "baseCalories": 0.5,
+        "baseProtein": 0.01,
+        "baseCarbs": 0.12,
+        "baseFats": 0.005
+      },
+      {
+        "name": "Frutos Secos",
+        "quantity": "15",
+        "unit": "g",
+        "calories": 67.5,
+        "protein": 1.5,
+        "carbs": 2.25,
+        "fats": 6,
+        "baseCalories": 4.5,
+        "baseProtein": 0.1,
+        "baseCarbs": 0.15,
+        "baseFats": 0.4
+      }
+    ],
+    "preparation": "1. En un bol, verter el yogur proteico. 2. Añadir los frutos rojos frescos o descongelados. 3. Espolvorear con los frutos secos troceados por encima. Servir inmediatamente.",
+    "originalBaseRecipeId": "des_yogurt_protico_con_frutos_rojos_y_secos"
   }
 };
 const dailyMenus = [
@@ -1193,6 +1244,8 @@ const dailyMenus = [
     "cena": [
       "p3_m2"
     ],
-    "extra": []
+    "extra": [
+      "p3_m3"
+    ]
   }
 ];
