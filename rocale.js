@@ -841,6 +841,247 @@ const foodDatabase = {
     ],
     "preparation": "1. Seleccionar la fruta densa de preferencia. 2. Para plátanos: pelar la piel y consumir directamente. 3. Para manzanas o peras: lavar bien la fruta. Se puede consumir con piel o pelada.",
     "originalBaseRecipeId": "ext_fruta_densa_pltano_manzana"
+  },
+  "p3_m0": {
+    "name": "Tortitas de Avena con Frutos Rojos",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682ad5d9e819fce58fa8a30c.png",
+    "calories": 503,
+    "protein": 34,
+    "carbs": 60,
+    "fats": 14,
+    "ingredients": [
+      {
+        "name": "Harina de Avena",
+        "quantity": "70",
+        "unit": "g",
+        "calories": 255.5,
+        "protein": 8.4,
+        "carbs": 52.5,
+        "fats": 1.4000000000000001,
+        "baseCalories": 3.65,
+        "baseProtein": 0.12,
+        "baseCarbs": 0.75,
+        "baseFats": 0.02
+      },
+      {
+        "name": "Claras de Huevo",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 52,
+        "protein": 11,
+        "carbs": 0.7,
+        "fats": 0.2,
+        "baseCalories": 0.52,
+        "baseProtein": 0.11,
+        "baseCarbs": 0.006999999999999999,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Huevo",
+        "quantity": "2",
+        "unit": "ud",
+        "calories": 170.5,
+        "protein": 14.3,
+        "carbs": 1.2100000000000002,
+        "fats": 12.1,
+        "baseCalories": 85.25,
+        "baseProtein": 7.15,
+        "baseCarbs": 0.6050000000000001,
+        "baseFats": 6.05
+      },
+      {
+        "name": "Frutos Rojos",
+        "quantity": "50",
+        "unit": "g",
+        "calories": 25,
+        "protein": 0.5,
+        "carbs": 6,
+        "fats": 0.25,
+        "baseCalories": 0.5,
+        "baseProtein": 0.01,
+        "baseCarbs": 0.12,
+        "baseFats": 0.005
+      }
+    ],
+    "preparation": "1. Mezclar la harina de avena, claras de huevo, y huevo entero (si se usa) con un poco de leche o bebida vegetal hasta obtener una masa homogénea. 2. Cocinar las tortitas en una sartén antiadherente caliente por ambos lados hasta que estén doradas. 3. Servir con los frutos rojos por encima.",
+    "originalBaseRecipeId": "des_tortitas_de_avena_con_frutos_rojos"
+  },
+  "p3_m1": {
+    "name": "Pasta tricolor con pisto de verduras, y carne picada",
+    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69b50fe5fc5128125e8bc1e4.png",
+    "calories": 515,
+    "protein": 20,
+    "carbs": 92,
+    "fats": 7,
+    "ingredients": [
+      {
+        "name": "Pasta Tricolor",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 365,
+        "protein": 12,
+        "carbs": 75,
+        "fats": 2,
+        "baseCalories": 3.65,
+        "baseProtein": 0.12,
+        "baseCarbs": 0.75,
+        "baseFats": 0.02
+      },
+      {
+        "name": "Pisto de Verduras",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 30,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Carne Picada",
+        "quantity": "120",
+        "unit": "g",
+        "calories": 120,
+        "protein": 6,
+        "carbs": 12,
+        "fats": 4.8,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      }
+    ],
+    "preparation": "1. Cocer la pasta. 2. Saltear la carne picada con el pisto. 3. Mezclar todo.",
+    "originalBaseRecipeId": "cc_pasta_tricolor_con_pisto_de_verduras_y_carne_picada"
+  },
+  "p3_m2": {
+    "name": "Pimientos Salteados con Cebolla y Tomate Cherry.",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cd7144d6fb7451eb7bbf9.png",
+    "calories": 160,
+    "protein": 9,
+    "carbs": 20,
+    "fats": 4,
+    "ingredients": [
+      {
+        "name": "Pimiento Rojo",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 30,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Cebolla",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 100,
+        "protein": 5,
+        "carbs": 10,
+        "fats": 4,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Tomate Cherry",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 30,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      }
+    ],
+    "preparation": "1. Lavar las verduras y cortarlas a láminas finas a lo largo. 2. Poner un poco de aceite en una sartén y saltear las verduras.",
+    "originalBaseRecipeId": "pp_pimientos_salteados_con_cebolla_y_tomate_cherry"
+  },
+  "p3_m3": {
+    "name": "Yogur Protéico (Sabores, Natural...)",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd789b8ed38b127cbc09.png",
+    "calories": 100,
+    "protein": 5,
+    "carbs": 10,
+    "fats": 4,
+    "ingredients": [
+      {
+        "name": "Yogur Protéico",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 100,
+        "protein": 5,
+        "carbs": 10,
+        "fats": 4,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      }
+    ],
+    "preparation": "1. Seleccionar el yogur proteico de preferencia. 2. Abrir el envase. 3. Consumir directamente con una cuchara.",
+    "originalBaseRecipeId": "ext_yogur_protico_sabores_natural"
+  },
+  "p3_m4": {
+    "name": "Lenguado a la Plancha",
+    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69b66f8887f0f23298065695.png",
+    "calories": 200,
+    "protein": 10,
+    "carbs": 20,
+    "fats": 8,
+    "ingredients": [
+      {
+        "name": "Lenguado",
+        "quantity": "200",
+        "unit": "g",
+        "calories": 200,
+        "protein": 10,
+        "carbs": 20,
+        "fats": 8,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      }
+    ],
+    "preparation": "1. Sazonar el lenguado con sal y pimienta. 2. Calentar una plancha o sartén con un poco de aceite. 3. Cocinar el lenguado por ambos lados hasta que esté dorado y cocido.",
+    "originalBaseRecipeId": "ac_lenguado_a_la_plancha"
+  },
+  "p3_m5": {
+    "name": "Fruta Cítrica (Mandarina, Kiwi, Naranja...)",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd3d0ed506305442ffe4.png",
+    "calories": 90,
+    "protein": 1,
+    "carbs": 23,
+    "fats": 0,
+    "ingredients": [
+      {
+        "name": "Kiwi",
+        "quantity": "1",
+        "unit": "ud",
+        "calories": 90,
+        "protein": 0.75,
+        "carbs": 22.5,
+        "fats": 0.3,
+        "baseCalories": 90,
+        "baseProtein": 0.75,
+        "baseCarbs": 22.5,
+        "baseFats": 0.3
+      }
+    ],
+    "preparation": "1. Seleccionar la fruta cítrica de preferencia. 2. Lavar bien la fruta bajo el grifo. 3. Para mandarinas y naranjas: pelar la piel con las manos. 4. Para kiwis: cortar por la mitad y comer la pulpa con una cucharita.",
+    "originalBaseRecipeId": "ext_fruta_ctrica_mandarina_kiwi_naranja"
   }
 };
 const dailyMenus = [
@@ -925,6 +1166,34 @@ const dailyMenus = [
     ],
     "extra": [
       "p2_m4"
+    ]
+  },
+  {
+    "name": "Libre 2",
+    "targetMacros": {
+      "calories": 1800,
+      "protein": 150,
+      "carbs": 150
+    },
+    "baselineTotals": {
+      "calories": 1540,
+      "protein": 150,
+      "carbs": 150,
+      "fats": 35
+    },
+    "desayuno": [
+      "p3_m0"
+    ],
+    "comida": [
+      "p3_m1"
+    ],
+    "cena": [
+      "p3_m2",
+      "p3_m4"
+    ],
+    "extra": [
+      "p3_m3",
+      "p3_m5"
     ]
   }
 ];
