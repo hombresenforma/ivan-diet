@@ -1230,7 +1230,7 @@ const foodDatabase = {
 };
 const dailyMenus = [
   {
-    "name": "Opciones 1",
+    "name": "Libre 1",
     "targetMacros": {
       "calories": 1700,
       "protein": 140,
@@ -1258,7 +1258,7 @@ const dailyMenus = [
     ]
   },
   {
-    "name": "Opciones 2",
+    "name": "Entreno 1",
     "targetMacros": {
       "calories": 1700,
       "protein": 140,
@@ -1286,7 +1286,7 @@ const dailyMenus = [
     ]
   },
   {
-    "name": "Opciones 3",
+    "name": "Libre 2",
     "targetMacros": {
       "calories": 1800,
       "protein": 150,
@@ -1314,7 +1314,7 @@ const dailyMenus = [
     ]
   },
   {
-    "name": "Opcion 4",
+    "name": "Entreno 2",
     "targetMacros": {
       "calories": 1600,
       "protein": 150,
