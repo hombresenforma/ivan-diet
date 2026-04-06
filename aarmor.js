@@ -4,19 +4,19 @@ const foodDatabase = {
   "p0_m0": {
     "name": "Tostada de Centeno con Huevo y Aguacate",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687a695da648331355d3b0b2.png",
-    "calories": 459,
-    "protein": 19,
-    "carbs": 21,
-    "fats": 34,
+    "calories": 540,
+    "protein": 21,
+    "carbs": 36,
+    "fats": 35,
     "ingredients": [
       {
         "name": "Tostada de Pan de Centeno",
-        "quantity": "1",
+        "quantity": "2",
         "unit": "rebanada(s)",
-        "calories": 81,
-        "protein": 2.6999999999999997,
-        "carbs": 15,
-        "fats": 0.8999999999999999,
+        "calories": 162,
+        "protein": 5.3999999999999995,
+        "carbs": 30,
+        "fats": 1.7999999999999998,
         "baseCalories": 81,
         "baseProtein": 2.6999999999999997,
         "baseCarbs": 15,
@@ -309,19 +309,19 @@ const foodDatabase = {
   "p1_m0": {
     "name": "Tostada de centeno con jamón ibérico",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6887226c7537da60484d071f.png",
-    "calories": 191,
-    "protein": 14,
-    "carbs": 15,
-    "fats": 8,
+    "calories": 294,
+    "protein": 19,
+    "carbs": 30,
+    "fats": 10,
     "ingredients": [
       {
         "name": "Tostada de Pan de Centeno",
-        "quantity": "1",
+        "quantity": "2",
         "unit": "rebanada(s)",
-        "calories": 81,
-        "protein": 2.6999999999999997,
-        "carbs": 15,
-        "fats": 0.8999999999999999,
+        "calories": 162,
+        "protein": 5.3999999999999995,
+        "carbs": 30,
+        "fats": 1.7999999999999998,
         "baseCalories": 81,
         "baseProtein": 2.6999999999999997,
         "baseCarbs": 15,
@@ -329,12 +329,12 @@ const foodDatabase = {
       },
       {
         "name": "Jamón Ibérico",
-        "quantity": "50",
+        "quantity": "60",
         "unit": "g",
-        "calories": 110.00000000000001,
-        "protein": 11,
+        "calories": 132,
+        "protein": 13.2,
         "carbs": 0,
-        "fats": 7.000000000000001,
+        "fats": 8.4,
         "baseCalories": 2.2,
         "baseProtein": 0.22,
         "baseCarbs": 0,
@@ -945,6 +945,31 @@ const foodDatabase = {
     "preparation": "Consumir directamente como un snack energético y nutritivo. Se puede tomar un puñado (ej. 25-30g) o ajustar la cantidad según las necesidades calóricas.",
     "originalBaseRecipeId": "ext_frutos_secos_mezcla"
   },
+  "p2_m6": {
+    "name": "Fruta Densa (Plátano, Manzana)",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe4bb91eb325b93d4a82.png",
+    "calories": 90,
+    "protein": 1,
+    "carbs": 23,
+    "fats": 0,
+    "ingredients": [
+      {
+        "name": "Manzana",
+        "quantity": "1",
+        "unit": "ud",
+        "calories": 90,
+        "protein": 0.75,
+        "carbs": 22.5,
+        "fats": 0.3,
+        "baseCalories": 90,
+        "baseProtein": 0.75,
+        "baseCarbs": 22.5,
+        "baseFats": 0.3
+      }
+    ],
+    "preparation": "1. Seleccionar la fruta densa de preferencia (plátano, manzana, pera, etc.). 2. Para plátanos: pelar la piel y consumir directamente. 3. Para manzanas o peras: lavar bien la fruta. Se puede consumir con piel (rica en fibra) o pelada, según preferencia. Se puede comer entera a mordiscos o cortada en trozos.",
+    "originalBaseRecipeId": "ext_fruta_densa_pltano_manzana"
+  },
   "p3_m0": {
     "name": "Tostada de Centeno con Queso Cottage y Cherries",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68792fea2035ba213493e87e.png",
@@ -1176,29 +1201,29 @@ const foodDatabase = {
     "originalBaseRecipeId": "ac_merluza_a_la_plancha"
   },
   "p3_m4": {
-    "name": "Fruta Cítrica (Mandarina, Kiwi, Naranja...)",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd3d0ed506305442ffe4.png",
+    "name": "Fruta Densa (Plátano, Manzana)",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe4bb91eb325b93d4a82.png",
     "calories": 90,
     "protein": 1,
     "carbs": 23,
     "fats": 0,
     "ingredients": [
       {
-        "name": "Kiwi",
-        "quantity": "2",
-        "unit": "unidad(es)",
+        "name": "Manzana",
+        "quantity": "1",
+        "unit": "ud",
         "calories": 90,
         "protein": 0.75,
         "carbs": 22.5,
         "fats": 0.3,
-        "baseCalories": 45,
-        "baseProtein": 0.375,
-        "baseCarbs": 11.25,
-        "baseFats": 0.15
+        "baseCalories": 90,
+        "baseProtein": 0.75,
+        "baseCarbs": 22.5,
+        "baseFats": 0.3
       }
     ],
-    "preparation": "1. Seleccionar la fruta cítrica de preferencia (mandarina, kiwi, naranja, pomelo, etc.). 2. Lavar bien la fruta bajo el grifo. 3. Para mandarinas y naranjas: pelar la piel con las manos o con ayuda de un cuchillo. Separar los gajos si se desea. 4. Para kiwis: cortar por la mitad y comer la pulpa con una cucharita, o pelar con un cuchillo y cortar en rodajas. 5. Para pomelos: cortar por la mitad y extraer los gajos, o comer con cuchara. Consumir directamente.",
-    "originalBaseRecipeId": "ext_fruta_ctrica_mandarina_kiwi_naranja"
+    "preparation": "1. Seleccionar la fruta densa de preferencia (plátano, manzana, pera, etc.). 2. Para plátanos: pelar la piel y consumir directamente. 3. Para manzanas o peras: lavar bien la fruta. Se puede consumir con piel (rica en fibra) o pelada, según preferencia. Se puede comer entera a mordiscos o cortada en trozos.",
+    "originalBaseRecipeId": "ext_fruta_densa_pltano_manzana"
   },
   "p3_m5": {
     "name": "Yogur Protéico (Sabores, Natural...)",
@@ -1308,7 +1333,8 @@ const dailyMenus = [
     ],
     "extra": [
       "p2_m4",
-      "p2_m5"
+      "p2_m5",
+      "p2_m6"
     ]
   },
   {
