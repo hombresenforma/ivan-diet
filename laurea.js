@@ -640,15 +640,15 @@ const foodDatabase = {
     "originalBaseRecipeId": "ext_tortitas_de_legumbres_mercadona"
   },
   "p2_m0": {
-    "name": "Pan wasa con Jamón dulce y Aguacate",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68cc568b05b71972b49f95e0.png",
-    "calories": 358,
-    "protein": 15,
-    "carbs": 26,
-    "fats": 22,
+    "name": "Fajita/Wrap de Jamón y Queso",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68a36fb52e34b733ba5c5630.png",
+    "calories": 372,
+    "protein": 19,
+    "carbs": 22,
+    "fats": 23,
     "ingredients": [
       {
-        "name": "Pan Wasa",
+        "name": "Pan de Fajita",
         "quantity": "1",
         "unit": "rebanada",
         "calories": 108,
@@ -674,21 +674,34 @@ const foodDatabase = {
         "baseFats": 0.18
       },
       {
-        "name": "Aguacate",
+        "name": "Queso Havarti Light",
         "quantity": "30",
         "unit": "g",
-        "calories": 135,
-        "protein": 3,
-        "carbs": 4.5,
-        "fats": 12,
-        "baseCalories": 4.5,
-        "baseProtein": 0.1,
-        "baseCarbs": 0.15,
-        "baseFats": 0.4
+        "calories": 105,
+        "protein": 7.5,
+        "carbs": 0.6,
+        "fats": 7.5,
+        "baseCalories": 3.5,
+        "baseProtein": 0.25,
+        "baseCarbs": 0.02,
+        "baseFats": 0.25
+      },
+      {
+        "name": "Aceite de Oliva Virgen Extra",
+        "quantity": "5",
+        "unit": "g",
+        "calories": 44.2,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 5,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1
       }
     ],
-    "preparation": "1. Untar el aguacate sobre el pan wasa. 2. Añadir el jamón dulce por encima.",
-    "originalBaseRecipeId": "des_pan_wasa_con_jamn_dulce_y_aguacate"
+    "preparation": "1. Calentar la tortilla de fajita. 2. Añadir el jamón cocido y el queso. 3. Doblar y servir. 4. Opcional: añadir un chorrito de aceite de oliva.",
+    "originalBaseRecipeId": "des_fajitawrap_de_jamn_y_queso"
   },
   "p2_m1": {
     "name": "Ensalada de Lentejas",
@@ -985,64 +998,64 @@ const foodDatabase = {
     "originalBaseRecipeId": "des_revuelto_de_huevos_con_jamn"
   },
   "p3_m1": {
-    "name": "Ensalada tibia de garbanzos al pesto con berenjena y espinacas",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684ef8f6f6c48d704ca5ae98.png",
-    "calories": 433,
-    "protein": 18,
-    "carbs": 46,
-    "fats": 19,
+    "name": "Ensalada de Tomate Espárragos Blancos con Atún",
+    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/699b47f820c0359e700b32ca.png",
+    "calories": 492,
+    "protein": 49,
+    "carbs": 20,
+    "fats": 22,
     "ingredients": [
       {
-        "name": "Garbanzos Cocidos",
-        "quantity": "150",
+        "name": "Tomate",
+        "quantity": "100",
         "unit": "g",
-        "calories": 195,
-        "protein": 12,
-        "carbs": 33,
-        "fats": 0.75,
-        "baseCalories": 1.3,
-        "baseProtein": 0.08,
-        "baseCarbs": 0.22,
-        "baseFats": 0.005
-      },
-      {
-        "name": "Pesto",
-        "quantity": "20",
-        "unit": "g",
-        "calories": 90,
+        "calories": 30,
         "protein": 2,
-        "carbs": 3,
-        "fats": 8,
-        "baseCalories": 4.5,
-        "baseProtein": 0.1,
-        "baseCarbs": 0.15,
-        "baseFats": 0.4
-      },
-      {
-        "name": "Berenjena",
-        "quantity": "150",
-        "unit": "g",
-        "calories": 45,
-        "protein": 3,
-        "carbs": 7.5,
-        "fats": 0.3,
+        "carbs": 5,
+        "fats": 0.2,
         "baseCalories": 0.3,
         "baseProtein": 0.02,
         "baseCarbs": 0.05,
         "baseFats": 0.002
       },
       {
-        "name": "Espinacas",
+        "name": "Espárragos Blancos",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 100,
+        "protein": 5,
+        "carbs": 10,
+        "fats": 4,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Atún en Conserva",
+        "quantity": "140",
+        "unit": "g",
+        "calories": 224,
+        "protein": 39.2,
+        "carbs": 0,
+        "fats": 5.6000000000000005,
+        "baseCalories": 1.6,
+        "baseProtein": 0.28,
+        "baseCarbs": 0,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Cebolla",
         "quantity": "50",
         "unit": "g",
-        "calories": 15,
-        "protein": 1,
-        "carbs": 2.5,
-        "fats": 0.1,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
+        "calories": 50,
+        "protein": 2.5,
+        "carbs": 5,
+        "fats": 2,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
       },
       {
         "name": "Aceite de Oliva Virgen Extra",
@@ -1058,8 +1071,8 @@ const foodDatabase = {
         "baseFats": 1
       }
     ],
-    "preparation": "1. Precalentar el horno a 200°C. Cortar la berenjena en dados, rociar con un poco de aceite de oliva, salpimentar y asar en el horno durante 15-20 minutos o hasta que esté tierna y dorada. 2. Si usas garbanzos de bote, enjuagarlos y escurrirlos bien. Calentarlos ligeramente en una sartén o en el microondas. 3. En un bol grande, mezclar los garbanzos calientes con la cantidad deseada de pesto. 4. Añadir la berenjena asada y las espinacas frescas. Mezclar suavemente para combinar todos los ingredientes. 5. Servir tibia.",
-    "originalBaseRecipeId": "pp_ensalada_tibia_de_garbanzos_al_pesto_con_berenjena_y_espinacas"
+    "preparation": "1. Lavar y cortar los tomates en gajos. 2. Escurrir los espárragos blancos y el atún. 3. Picar la cebolla en juliana fina. 4. En una fuente, disponer los tomates, los espárragos y el atún. 5. Añadir la cebolla y aliñar con aceite de oliva, vinagre y sal al gusto.",
+    "originalBaseRecipeId": "cc_ensalada_de_tomate_esprragos_blancos_con_atn"
   },
   "p3_m2": {
     "name": "Wok de Verduras con Salmón",
@@ -1346,7 +1359,7 @@ const foodDatabase = {
         "carbs": 52.5,
         "fats": 1.4000000000000001,
         "baseCalories": 3.65,
-        "baseProtein": 0.12,
+        "baseProtein": 0.12000000000000001,
         "baseCarbs": 0.75,
         "baseFats": 0.02
       },
