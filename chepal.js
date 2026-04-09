@@ -121,7 +121,7 @@ const foodDatabase = {
         "carbs": 4.8,
         "fats": 4.8,
         "baseCalories": 1,
-        "baseProtein": 0.12,
+        "baseProtein": 0.11999999999999998,
         "baseCarbs": 0.04,
         "baseFats": 0.04
       },
@@ -892,11 +892,253 @@ const foodDatabase = {
     ],
     "preparation": "Consumir directamente como un snack energético y nutritivo.",
     "originalBaseRecipeId": "ext_frutos_secos_mezcla"
+  },
+  "p3_m0": {
+    "name": "Yogur Griego Desnatado con Proteína en Polvo",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68e7efa6d27b18380fc8e8fd.png",
+    "calories": 294,
+    "protein": 46,
+    "carbs": 13,
+    "fats": 6,
+    "ingredients": [
+      {
+        "name": "Yogur Griego Desnatado",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 100,
+        "protein": 5,
+        "carbs": 10,
+        "fats": 4,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Proteína en Polvo",
+        "quantity": "51",
+        "unit": "g",
+        "calories": 193.79999999999998,
+        "protein": 40.800000000000004,
+        "carbs": 2.5500000000000003,
+        "fats": 2.04,
+        "baseCalories": 3.8,
+        "baseProtein": 0.8,
+        "baseCarbs": 0.05,
+        "baseFats": 0.04
+      }
+    ],
+    "preparation": "1. Mezclar el yogur griego con la proteína en polvo en un bol hasta que esté bien integrado y sin grumos.",
+    "originalBaseRecipeId": "des_yogur_griego_desnatado_con_protena_en_polvo"
+  },
+  "p3_m1": {
+    "name": "Pasta tricolor con pisto de verduras, y carne picada",
+    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69b50fe5fc5128125e8bc1e4.png",
+    "calories": 610,
+    "protein": 25,
+    "carbs": 103,
+    "fats": 10,
+    "ingredients": [
+      {
+        "name": "Pasta Tricolor",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 365,
+        "protein": 12,
+        "carbs": 75,
+        "fats": 2,
+        "baseCalories": 3.65,
+        "baseProtein": 0.12,
+        "baseCarbs": 0.75,
+        "baseFats": 0.02
+      },
+      {
+        "name": "Pisto de Verduras",
+        "quantity": "150",
+        "unit": "g",
+        "calories": 45,
+        "protein": 3,
+        "carbs": 7.5,
+        "fats": 0.3,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Carne Picada",
+        "quantity": "200",
+        "unit": "g",
+        "calories": 200,
+        "protein": 10,
+        "carbs": 20,
+        "fats": 8,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      }
+    ],
+    "preparation": "1. Cocer la pasta. 2. Saltear la carne picada con el pisto. 3. Mezclar todo.",
+    "originalBaseRecipeId": "cc_pasta_tricolor_con_pisto_de_verduras_y_carne_picada"
+  },
+  "p3_m2": {
+    "name": "Ensalada de garbanzos con verduras",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68ff252d3f16b5241c27c1e4.png",
+    "calories": 313,
+    "protein": 14,
+    "carbs": 33,
+    "fats": 14,
+    "ingredients": [
+      {
+        "name": "Garbanzos en Conserva",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 130,
+        "protein": 8,
+        "carbs": 22,
+        "fats": 0.5,
+        "baseCalories": 1.3,
+        "baseProtein": 0.08,
+        "baseCarbs": 0.22,
+        "baseFats": 0.005
+      },
+      {
+        "name": "Aguacate",
+        "quantity": "30",
+        "unit": "g",
+        "calories": 135,
+        "protein": 3,
+        "carbs": 4.5,
+        "fats": 12,
+        "baseCalories": 4.5,
+        "baseProtein": 0.1,
+        "baseCarbs": 0.15,
+        "baseFats": 0.4
+      },
+      {
+        "name": "Pepino",
+        "quantity": "30",
+        "unit": "g",
+        "calories": 30,
+        "protein": 1.5,
+        "carbs": 3,
+        "fats": 1.2,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Tomates Cherry",
+        "quantity": "30",
+        "unit": "g",
+        "calories": 9,
+        "protein": 0.6,
+        "carbs": 1.5,
+        "fats": 0.06,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Espinacas",
+        "quantity": "30",
+        "unit": "g",
+        "calories": 9,
+        "protein": 0.6,
+        "carbs": 1.5,
+        "fats": 0.06,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      }
+    ],
+    "preparation": "1. Enjuagar los garbanzos y escurrirlos. 2. Picar el aguacate, pepino y tomates cherry. 3. Mezclar todos los ingredientes en un bol con las espinacas. 4. Cortar el queso de Burgos en dados y añadirlo a la ensalada. 5. Aliñar al gusto con aceite de oliva, vinagre y sal.",
+    "originalBaseRecipeId": "pp_ensalada_de_garbanzos_con_verduras_y_queso"
+  },
+  "p3_m3": {
+    "name": "Queso Fresco Batido con Frutos Rojos",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6879302d02da47667d446b43.png",
+    "calories": 195,
+    "protein": 9,
+    "carbs": 37,
+    "fats": 3,
+    "ingredients": [
+      {
+        "name": "Queso Fresco Batido",
+        "quantity": "51",
+        "unit": "g",
+        "calories": 51,
+        "protein": 6.12,
+        "carbs": 2.04,
+        "fats": 2.04,
+        "baseCalories": 1,
+        "baseProtein": 0.12,
+        "baseCarbs": 0.04,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Frutos Rojos",
+        "quantity": "288",
+        "unit": "g",
+        "calories": 144,
+        "protein": 2.88,
+        "carbs": 34.56,
+        "fats": 1.44,
+        "baseCalories": 0.5,
+        "baseProtein": 0.01,
+        "baseCarbs": 0.12,
+        "baseFats": 0.005
+      }
+    ],
+    "preparation": "1. En un bol, verter el queso fresco. 2. Añadir los frutos rojos frescos o descongelados. 3. Echar la cantidad de miel acordada por encima.",
+    "originalBaseRecipeId": "ext_queso_fresco_batido_con_frutos_rojos_y_miel"
+  },
+  "p3_m4": {
+    "name": "Hamburguesa de Pavo-Pollo",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afcbc9b8ed3b6397cbb33.png",
+    "calories": 274,
+    "protein": 16,
+    "carbs": 2,
+    "fats": 23,
+    "ingredients": [
+      {
+        "name": "Hamburguesa de Pavo-Pollo",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 229.99999999999997,
+        "protein": 16,
+        "carbs": 2,
+        "fats": 18,
+        "baseCalories": 2.3,
+        "baseProtein": 0.16,
+        "baseCarbs": 0.02,
+        "baseFats": 0.18
+      },
+      {
+        "name": "Aceite de Oliva Virgen Extra",
+        "quantity": "5",
+        "unit": "g",
+        "calories": 44.2,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 5,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1
+      }
+    ],
+    "preparation": "1. Si la hamburguesa es casera a partir de carne picada, sazonar la carne con sal, pimienta, ajo en polvo y perejil picado (opcional) y formar la hamburguesa. 2. Calentar una plancha o sartén antiadherente a fuego medio-alto con una gota de aceite de oliva. 3. Cocinar la hamburguesa durante 4-6 minutos por cada lado, o hasta que esté bien cocida por dentro y dorada por fuera.",
+    "originalBaseRecipeId": "ac_hamburguesa_de_pavopollo"
   }
 };
 const dailyMenus = [
   {
-    "name": "Opciones 1",
+    "name": "Opción 1",
     "targetMacros": {
       "calories": 1700,
       "protein": 140,
@@ -924,7 +1166,7 @@ const dailyMenus = [
     ]
   },
   {
-    "name": "Opciones 2",
+    "name": "Opción 2",
     "targetMacros": {
       "calories": 1700,
       "protein": 140,
@@ -952,7 +1194,7 @@ const dailyMenus = [
     ]
   },
   {
-    "name": "Opciones 3",
+    "name": "Opción 3",
     "targetMacros": {
       "calories": 1800,
       "protein": 150,
@@ -977,6 +1219,33 @@ const dailyMenus = [
     "extra": [
       "p2_m4",
       "p2_m5"
+    ]
+  },
+  {
+    "name": "Día 4",
+    "targetMacros": {
+      "calories": 1800,
+      "protein": 150,
+      "carbs": 150
+    },
+    "baselineTotals": {
+      "calories": 1735,
+      "protein": 150,
+      "carbs": 150,
+      "fats": 56
+    },
+    "desayuno": [
+      "p3_m0"
+    ],
+    "comida": [
+      "p3_m1"
+    ],
+    "cena": [
+      "p3_m2",
+      "p3_m4"
+    ],
+    "extra": [
+      "p3_m3"
     ]
   }
 ];
