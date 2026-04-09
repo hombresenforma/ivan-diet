@@ -1222,7 +1222,7 @@ const dailyMenus = [
     ]
   },
   {
-    "name": "Día 4",
+    "name": "Opción 4",
     "targetMacros": {
       "calories": 1800,
       "protein": 150,
