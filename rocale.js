@@ -68,19 +68,19 @@ const foodDatabase = {
   "p0_m1": {
     "name": "Boniato asado con ensalada de tomate",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684efcd1f6c48df26aa5ba5b.png",
-    "calories": 398,
-    "protein": 11,
-    "carbs": 55,
-    "fats": 14,
+    "calories": 488,
+    "protein": 13,
+    "carbs": 75,
+    "fats": 15,
     "ingredients": [
       {
         "name": "Boniato",
-        "quantity": "200",
+        "quantity": "300",
         "unit": "g",
-        "calories": 180,
-        "protein": 4,
-        "carbs": 40,
-        "fats": 0.2,
+        "calories": 270,
+        "protein": 6,
+        "carbs": 60,
+        "fats": 0.3,
         "baseCalories": 0.9,
         "baseProtein": 0.02,
         "baseCarbs": 0.2,
@@ -155,15 +155,15 @@ const foodDatabase = {
     "originalBaseRecipeId": "ac_pechuga_de_pollo_a_tiras"
   },
   "p0_m3": {
-    "name": "Crema de Verduras Variadas",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cd68425d68cc771ebd10a.png",
-    "calories": 230,
+    "name": "Judía verde con patata y Zanahoria",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cf5c1ddc9c1507857434b.png",
+    "calories": 290,
     "protein": 12,
-    "carbs": 25,
+    "carbs": 40,
     "fats": 8,
     "ingredients": [
       {
-        "name": "Calabaza",
+        "name": "Judía Verde",
         "quantity": "100",
         "unit": "g",
         "calories": 100,
@@ -176,20 +176,20 @@ const foodDatabase = {
         "baseFats": 0.04
       },
       {
-        "name": "Tomate",
+        "name": "Patata",
         "quantity": "100",
         "unit": "g",
-        "calories": 30,
+        "calories": 90,
         "protein": 2,
-        "carbs": 5,
-        "fats": 0.2,
-        "baseCalories": 0.3,
+        "carbs": 20,
+        "fats": 0.1,
+        "baseCalories": 0.9,
         "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
+        "baseCarbs": 0.2,
+        "baseFats": 0.001
       },
       {
-        "name": "Cebolla",
+        "name": "Zanahoria",
         "quantity": "100",
         "unit": "g",
         "calories": 100,
@@ -202,8 +202,8 @@ const foodDatabase = {
         "baseFats": 0.04
       }
     ],
-    "preparation": "1. Puedes comprar una crema preparada o bien cocinar unas cuantas verduras en una olla.",
-    "originalBaseRecipeId": "pp_crema_de_verduras_variadas"
+    "preparation": "1. Lavar y cortar las judías verdes, pelar y cortar las patatas y zanahorias. 2. Cocer todas las verduras en agua con sal hasta que estén tiernas. 3. Escurrir y servir. Aliñar con aceite de oliva virgen extra.",
+    "originalBaseRecipeId": "pp_juda_verde_con_patata_y_zanahoria"
   },
   "p0_m4": {
     "name": "Solomillo/Filete de Ternera a la Plancha",
@@ -347,19 +347,19 @@ const foodDatabase = {
   "p1_m1": {
     "name": "Ensala de Patata, Atún y Huevo",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afc08b91eb31afe3d4796.png",
-    "calories": 622,
-    "protein": 58,
-    "carbs": 61,
+    "calories": 712,
+    "protein": 60,
+    "carbs": 81,
     "fats": 14,
     "ingredients": [
       {
         "name": "Patata",
-        "quantity": "200",
+        "quantity": "300",
         "unit": "g",
-        "calories": 180,
-        "protein": 4,
-        "carbs": 40,
-        "fats": 0.2,
+        "calories": 270,
+        "protein": 6,
+        "carbs": 60,
+        "fats": 0.3,
         "baseCalories": 0.9,
         "baseProtein": 0.02,
         "baseCarbs": 0.2,
@@ -461,68 +461,68 @@ const foodDatabase = {
     "originalBaseRecipeId": "cc_ensala_de_patata_atn_y_huevo"
   },
   "p1_m2": {
-    "name": "Wok de Verduras con Salmón",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afda0b91eb330dd3d49b2.png",
-    "calories": 424,
-    "protein": 35,
-    "carbs": 20,
-    "fats": 21,
+    "name": "Falso Risotto de Coliflor con Pollo y Setas",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6922cee78c174d4e6d420b9d.png",
+    "calories": 540,
+    "protein": 57,
+    "carbs": 30,
+    "fats": 18,
     "ingredients": [
       {
-        "name": "Pimiento Rojo",
-        "quantity": "100",
+        "name": "Coliflor",
+        "quantity": "150",
         "unit": "g",
-        "calories": 30,
-        "protein": 2,
-        "carbs": 5,
-        "fats": 0.2,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Pimiento Verde",
-        "quantity": "100",
-        "unit": "g",
-        "calories": 30,
-        "protein": 2,
-        "carbs": 5,
-        "fats": 0.2,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Cebolla",
-        "quantity": "100",
-        "unit": "g",
-        "calories": 100,
-        "protein": 5,
-        "carbs": 10,
-        "fats": 4,
+        "calories": 150,
+        "protein": 7.5,
+        "carbs": 15,
+        "fats": 6,
         "baseCalories": 1,
         "baseProtein": 0.05,
         "baseCarbs": 0.1,
         "baseFats": 0.04
       },
       {
-        "name": "Lomo de Salmón",
-        "quantity": "120",
+        "name": "Pechuga de Pollo",
+        "quantity": "150",
         "unit": "g",
-        "calories": 264,
-        "protein": 26.4,
+        "calories": 240,
+        "protein": 42.00000000000001,
         "carbs": 0,
-        "fats": 16.8,
-        "baseCalories": 2.2,
-        "baseProtein": 0.22,
+        "fats": 6,
+        "baseCalories": 1.6,
+        "baseProtein": 0.28,
         "baseCarbs": 0,
-        "baseFats": 0.14
+        "baseFats": 0.04
+      },
+      {
+        "name": "Champiñones",
+        "quantity": "75",
+        "unit": "g",
+        "calories": 75,
+        "protein": 3.75,
+        "carbs": 7.5,
+        "fats": 3,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Cebolla",
+        "quantity": "75",
+        "unit": "g",
+        "calories": 75,
+        "protein": 3.75,
+        "carbs": 7.5,
+        "fats": 3,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
       }
     ],
-    "preparation": "1. Cortar el salmón en dados de tamaño mediano. Picar el tomate, pimiento rojo, pimiento verde y cebolla en trozos adecuados para wok (ej. juliana gruesa o dados). 2. Calentar un wok o sartén grande con un poco de aceite a fuego alto. Saltear el salmón unos 2-3 minutos hasta que esté dorado por fuera pero ligeramente crudo por dentro. Retirar y reservar. 3. Añadir las verduras más duras (cebolla, pimientos) al wok y saltear durante 3-4 minutos. Luego añadir el tomate y saltear 1-2 minutos más. 4. Incorporar el salmón de nuevo al wok. Añadir salsa de soja (baja en sodio preferiblemente) y un toque de jengibre rallado o ajo picado (opcional). Mezclar bien y cocinar por 1-2 minutos más hasta que el salmón esté cocido y todo bien caliente. Servir inmediatamente, opcionalmente sobre una base de arroz o noodles.",
-    "originalBaseRecipeId": "cc_wok_de_verduras_con_salmn"
+    "preparation": "1. Rallar la coliflor hasta que parezca arroz. 2. Saltear pollo y champiñones con cebolla. 3. Añadir la coliflor y saltear 5 min (no debe ablandarse demasiado). 4. Sazonar al gusto.",
+    "originalBaseRecipeId": "cc_falso_risotto_de_coliflor_con_pollo_y_setas"
   },
   "p1_m3": {
     "name": "Yogurt Protéico con Frutos Rojos y Secos",
@@ -859,7 +859,7 @@ const foodDatabase = {
         "carbs": 52.5,
         "fats": 1.4000000000000001,
         "baseCalories": 3.65,
-        "baseProtein": 0.12,
+        "baseProtein": 0.12000000000000001,
         "baseCarbs": 0.75,
         "baseFats": 0.02
       },
@@ -1009,31 +1009,6 @@ const foodDatabase = {
     "originalBaseRecipeId": "pp_pimientos_salteados_con_cebolla_y_tomate_cherry"
   },
   "p3_m3": {
-    "name": "Yogur Protéico (Sabores, Natural...)",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd789b8ed38b127cbc09.png",
-    "calories": 100,
-    "protein": 5,
-    "carbs": 10,
-    "fats": 4,
-    "ingredients": [
-      {
-        "name": "Yogur Protéico",
-        "quantity": "100",
-        "unit": "g",
-        "calories": 100,
-        "protein": 5,
-        "carbs": 10,
-        "fats": 4,
-        "baseCalories": 1,
-        "baseProtein": 0.05,
-        "baseCarbs": 0.1,
-        "baseFats": 0.04
-      }
-    ],
-    "preparation": "1. Seleccionar el yogur proteico de preferencia. 2. Abrir el envase. 3. Consumir directamente con una cuchara.",
-    "originalBaseRecipeId": "ext_yogur_protico_sabores_natural"
-  },
-  "p3_m4": {
     "name": "Lenguado a la Plancha",
     "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69b66f8887f0f23298065695.png",
     "calories": 200,
@@ -1057,6 +1032,31 @@ const foodDatabase = {
     ],
     "preparation": "1. Sazonar el lenguado con sal y pimienta. 2. Calentar una plancha o sartén con un poco de aceite. 3. Cocinar el lenguado por ambos lados hasta que esté dorado y cocido.",
     "originalBaseRecipeId": "ac_lenguado_a_la_plancha"
+  },
+  "p3_m4": {
+    "name": "Yogur Protéico (Sabores, Natural...)",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd789b8ed38b127cbc09.png",
+    "calories": 100,
+    "protein": 5,
+    "carbs": 10,
+    "fats": 4,
+    "ingredients": [
+      {
+        "name": "Yogur Protéico",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 100,
+        "protein": 5,
+        "carbs": 10,
+        "fats": 4,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      }
+    ],
+    "preparation": "1. Seleccionar el yogur proteico de preferencia. 2. Abrir el envase. 3. Consumir directamente con una cuchara.",
+    "originalBaseRecipeId": "ext_yogur_protico_sabores_natural"
   },
   "p3_m5": {
     "name": "Fruta Cítrica (Mandarina, Kiwi, Naranja...)",
@@ -1189,10 +1189,10 @@ const dailyMenus = [
     ],
     "cena": [
       "p3_m2",
-      "p3_m4"
+      "p3_m3"
     ],
     "extra": [
-      "p3_m3",
+      "p3_m4",
       "p3_m5"
     ]
   }
