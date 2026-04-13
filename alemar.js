@@ -361,19 +361,19 @@ const foodDatabase = {
   "p1_m1": {
     "name": "Ensala de Patata, Atún y Huevo",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afc08b91eb31afe3d4796.png",
-    "calories": 760,
-    "protein": 69,
-    "carbs": 71,
+    "calories": 670,
+    "protein": 67,
+    "carbs": 51,
     "fats": 20,
     "ingredients": [
       {
         "name": "Patata",
-        "quantity": "250",
+        "quantity": "150",
         "unit": "g",
-        "calories": 225,
-        "protein": 5,
-        "carbs": 50,
-        "fats": 0.25,
+        "calories": 135,
+        "protein": 3,
+        "carbs": 30,
+        "fats": 0.15,
         "baseCalories": 0.9,
         "baseProtein": 0.02,
         "baseCarbs": 0.2,
@@ -603,9 +603,9 @@ const foodDatabase = {
   "p2_m0": {
     "name": "Yogurt Protéico con Frutos Rojos y Secos",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afea2b91eb35e413d4ab6.png",
-    "calories": 268,
+    "calories": 253,
     "protein": 9,
-    "carbs": 24,
+    "carbs": 20,
     "fats": 15,
     "ingredients": [
       {
@@ -623,12 +623,12 @@ const foodDatabase = {
       },
       {
         "name": "Frutos Rojos",
-        "quantity": "50",
+        "quantity": "25",
         "unit": "g",
-        "calories": 30,
-        "protein": 0.25,
-        "carbs": 7.5,
-        "fats": 0.1,
+        "calories": 15,
+        "protein": 0.125,
+        "carbs": 3.75,
+        "fats": 0.05,
         "baseCalories": 0.6,
         "baseProtein": 0.005,
         "baseCarbs": 0.15,
@@ -654,19 +654,19 @@ const foodDatabase = {
   "p2_m1": {
     "name": "Musakka de Patata al horno con verduras y carne picada",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684efda5653a2c17a7172d67.png",
-    "calories": 740,
-    "protein": 45,
-    "carbs": 52,
+    "calories": 695,
+    "protein": 44,
+    "carbs": 42,
     "fats": 37,
     "ingredients": [
       {
         "name": "Patata",
-        "quantity": "200",
+        "quantity": "150",
         "unit": "g",
-        "calories": 180,
-        "protein": 4,
-        "carbs": 40,
-        "fats": 0.2,
+        "calories": 135,
+        "protein": 3,
+        "carbs": 30,
+        "fats": 0.15,
         "baseCalories": 0.9,
         "baseProtein": 0.02,
         "baseCarbs": 0.2,
@@ -821,19 +821,19 @@ const foodDatabase = {
   "p2_m3": {
     "name": "Pechuga de Pavo a la Plancha",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684f003ef6c48dfc43a5bdb3.png",
-    "calories": 328,
-    "protein": 42,
+    "calories": 408,
+    "protein": 56,
     "carbs": 0,
-    "fats": 16,
+    "fats": 18,
     "ingredients": [
       {
         "name": "Pechuga de Pavo",
-        "quantity": "150",
+        "quantity": "200",
         "unit": "g",
-        "calories": 240,
-        "protein": 42.00000000000001,
+        "calories": 320,
+        "protein": 56.00000000000001,
         "carbs": 0,
-        "fats": 6,
+        "fats": 8,
         "baseCalories": 1.6,
         "baseProtein": 0.28,
         "baseCarbs": 0,
@@ -971,82 +971,6 @@ const foodDatabase = {
     "originalBaseRecipeId": "des_tostada_de_centeno_con_jamn_ibrico"
   },
   "p3_m1": {
-    "name": "Fajita con Revuelto de Jamón Dulce",
-    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69b51120eba48737da3f22f1.png",
-    "calories": 587,
-    "protein": 32,
-    "carbs": 61,
-    "fats": 23,
-    "ingredients": [
-      {
-        "name": "Pan de Fajita",
-        "quantity": "2",
-        "unit": "rebanada",
-        "calories": 216,
-        "protein": 7.199999999999999,
-        "carbs": 40,
-        "fats": 2.4,
-        "baseCalories": 108,
-        "baseProtein": 3.5999999999999996,
-        "baseCarbs": 20,
-        "baseFats": 1.2
-      },
-      {
-        "name": "Jamón Dulce",
-        "quantity": "200",
-        "unit": "g",
-        "calories": 200,
-        "protein": 10,
-        "carbs": 20,
-        "fats": 8,
-        "baseCalories": 1,
-        "baseProtein": 0.05,
-        "baseCarbs": 0.1,
-        "baseFats": 0.04
-      },
-      {
-        "name": "Huevos",
-        "quantity": "2",
-        "unit": "ud",
-        "calories": 170.5,
-        "protein": 14.3,
-        "carbs": 1.2100000000000002,
-        "fats": 12.1,
-        "baseCalories": 85.25,
-        "baseProtein": 7.15,
-        "baseCarbs": 0.6050000000000001,
-        "baseFats": 6.05
-      }
-    ],
-    "preparation": "1. Preparar un revuelto con los huevos y el jamón dulce. 2. Rellenar la fajita caliente.",
-    "originalBaseRecipeId": "des_fajita_con_revuelto_de_jamn_dulce"
-  },
-  "p3_m2": {
-    "name": "Yogur Griego Danone",
-    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69b519f7cab7f7a128c9b43c.png",
-    "calories": 100,
-    "protein": 5,
-    "carbs": 10,
-    "fats": 4,
-    "ingredients": [
-      {
-        "name": "Yogur Griego Danone",
-        "quantity": "100",
-        "unit": "g",
-        "calories": 100,
-        "protein": 5,
-        "carbs": 10,
-        "fats": 4,
-        "baseCalories": 1,
-        "baseProtein": 0.05,
-        "baseCarbs": 0.1,
-        "baseFats": 0.04
-      }
-    ],
-    "preparation": "Consumir directamente.",
-    "originalBaseRecipeId": "ext_yogur_griego_danone"
-  },
-  "p3_m3": {
     "name": "Ensalada de berenjena y tomate asado, queso y pollo con arroz",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684ef97c6202d51cbcde28c8.png",
     "calories": 826,
@@ -1115,18 +1039,94 @@ const foodDatabase = {
         "carbs": 52.5,
         "fats": 1.4000000000000001,
         "baseCalories": 3.65,
-        "baseProtein": 0.12,
+        "baseProtein": 0.12000000000000001,
         "baseCarbs": 0.75,
         "baseFats": 0.02
       }
     ],
     "preparation": "1. Precalentar el horno a 200°C. Cortar la berenjena en rodajas o dados y los tomates por la mitad o en cuartos. Rociar con aceite de oliva, salpimentar y asar durante 20-25 minutos o hasta que estén tiernos. 2. Cocinar la pechuga de pollo (a la plancha, asada o hervida) y cortarla en trozos o tiras. 3. Cocer el arroz según las instrucciones del paquete. Puede usarse caliente, tibio o frío. 4. Cortar el queso (tipo feta, mozzarella fresca, o el de preferencia) en dados. 5. En un bol grande, combinar el arroz, la berenjena y tomate asados, el pollo y el queso. 6. Aliñar con aceite de oliva virgen extra, vinagre balsámico (opcional) y hierbas frescas como albahaca u orégano. Mezclar suavemente.",
     "originalBaseRecipeId": "cc_ensalada_de_berenjena_y_tomate_asado_queso_y_pollo_con_arroz"
+  },
+  "p3_m2": {
+    "name": "Fajita con Revuelto de Jamón Dulce",
+    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69b51120eba48737da3f22f1.png",
+    "calories": 587,
+    "protein": 32,
+    "carbs": 61,
+    "fats": 23,
+    "ingredients": [
+      {
+        "name": "Pan de Fajita",
+        "quantity": "2",
+        "unit": "rebanada",
+        "calories": 216,
+        "protein": 7.199999999999999,
+        "carbs": 40,
+        "fats": 2.4,
+        "baseCalories": 108,
+        "baseProtein": 3.5999999999999996,
+        "baseCarbs": 20,
+        "baseFats": 1.2
+      },
+      {
+        "name": "Jamón Dulce",
+        "quantity": "200",
+        "unit": "g",
+        "calories": 200,
+        "protein": 10,
+        "carbs": 20,
+        "fats": 8,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Huevos",
+        "quantity": "2",
+        "unit": "ud",
+        "calories": 170.5,
+        "protein": 14.3,
+        "carbs": 1.2100000000000002,
+        "fats": 12.1,
+        "baseCalories": 85.25,
+        "baseProtein": 7.15,
+        "baseCarbs": 0.6050000000000001,
+        "baseFats": 6.05
+      }
+    ],
+    "preparation": "1. Preparar un revuelto con los huevos y el jamón dulce. 2. Rellenar la fajita caliente.",
+    "originalBaseRecipeId": "des_fajita_con_revuelto_de_jamn_dulce"
+  },
+  "p3_m3": {
+    "name": "Yogur Griego Danone",
+    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69b519f7cab7f7a128c9b43c.png",
+    "calories": 100,
+    "protein": 5,
+    "carbs": 10,
+    "fats": 4,
+    "ingredients": [
+      {
+        "name": "Yogur Griego Danone",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 100,
+        "protein": 5,
+        "carbs": 10,
+        "fats": 4,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      }
+    ],
+    "preparation": "Consumir directamente.",
+    "originalBaseRecipeId": "ext_yogur_griego_danone"
   }
 };
 const dailyMenus = [
   {
-    "name": "Opción 1",
+    "name": "Entreno 1",
     "targetMacros": {
       "calories": 1700,
       "protein": 140,
@@ -1154,7 +1154,7 @@ const dailyMenus = [
     ]
   },
   {
-    "name": "Opción 2",
+    "name": "Libre 1",
     "targetMacros": {
       "calories": 1700,
       "protein": 140,
@@ -1182,7 +1182,7 @@ const dailyMenus = [
     ]
   },
   {
-    "name": "Opción 3",
+    "name": "Libre 2",
     "targetMacros": {
       "calories": 1800,
       "protein": 150,
@@ -1210,7 +1210,7 @@ const dailyMenus = [
     ]
   },
   {
-    "name": "Opción 4",
+    "name": "Entreno 2",
     "targetMacros": {
       "calories": 1750,
       "protein": 150,
@@ -1226,13 +1226,13 @@ const dailyMenus = [
       "p3_m0"
     ],
     "comida": [
-      "p3_m3"
-    ],
-    "cena": [
       "p3_m1"
     ],
-    "extra": [
+    "cena": [
       "p3_m2"
+    ],
+    "extra": [
+      "p3_m3"
     ]
   }
 ];
