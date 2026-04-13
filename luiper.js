@@ -4,10 +4,10 @@ const foodDatabase = {
   "p0_m0": {
     "name": "Tostada de Centeno con Huevo y Aguacate",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687a695da648331355d3b0b2.png",
-    "calories": 382,
+    "calories": 359,
     "protein": 12,
-    "carbs": 20,
-    "fats": 28,
+    "carbs": 19,
+    "fats": 26,
     "ingredients": [
       {
         "name": "Tostada de Pan de Centeno",
@@ -37,12 +37,12 @@ const foodDatabase = {
       },
       {
         "name": "Aguacate",
-        "quantity": "30",
+        "quantity": "25",
         "unit": "g",
-        "calories": 135,
-        "protein": 3,
-        "carbs": 4.5,
-        "fats": 12,
+        "calories": 112.5,
+        "protein": 2.5,
+        "carbs": 3.75,
+        "fats": 10,
         "baseCalories": 4.5,
         "baseProtein": 0.1,
         "baseCarbs": 0.15,
@@ -68,19 +68,19 @@ const foodDatabase = {
   "p0_m1": {
     "name": "Estofado de Lentejas con Verduras y Costilla",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6922cf648c174dc51742182c.png",
-    "calories": 577,
-    "protein": 45,
-    "carbs": 49,
+    "calories": 544,
+    "protein": 43,
+    "carbs": 44,
     "fats": 20,
     "ingredients": [
       {
         "name": "Lentejas Cocidas",
-        "quantity": "150",
+        "quantity": "125",
         "unit": "g",
-        "calories": 195,
-        "protein": 12,
-        "carbs": 33,
-        "fats": 0.75,
+        "calories": 162.5,
+        "protein": 10,
+        "carbs": 27.5,
+        "fats": 0.625,
         "baseCalories": 1.3,
         "baseProtein": 0.08,
         "baseCarbs": 0.22,
@@ -578,10 +578,10 @@ const foodDatabase = {
   "p2_m0": {
     "name": "Tostada de centeno con jamón ibérico",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6887226c7537da60484d071f.png",
-    "calories": 218,
-    "protein": 15,
+    "calories": 185,
+    "protein": 11,
     "carbs": 20,
-    "fats": 8,
+    "fats": 6,
     "ingredients": [
       {
         "name": "Tostada de Pan de Centeno",
@@ -598,12 +598,12 @@ const foodDatabase = {
       },
       {
         "name": "Jamón Ibérico",
-        "quantity": "50",
+        "quantity": "35",
         "unit": "g",
-        "calories": 110.00000000000001,
-        "protein": 11,
+        "calories": 77,
+        "protein": 7.7,
         "carbs": 0,
-        "fats": 7.000000000000001,
+        "fats": 4.9,
         "baseCalories": 2.2,
         "baseProtein": 0.22,
         "baseCarbs": 0,
@@ -616,19 +616,19 @@ const foodDatabase = {
   "p2_m1": {
     "name": "Musakka de Patata al horno con verduras y carne picada",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684efda5653a2c17a7172d67.png",
-    "calories": 740,
+    "calories": 722,
     "protein": 45,
-    "carbs": 52,
+    "carbs": 48,
     "fats": 37,
     "ingredients": [
       {
         "name": "Patata",
-        "quantity": "200",
+        "quantity": "180",
         "unit": "g",
-        "calories": 180,
-        "protein": 4,
-        "carbs": 40,
-        "fats": 0.2,
+        "calories": 162,
+        "protein": 3.6,
+        "carbs": 36,
+        "fats": 0.18,
         "baseCalories": 0.9,
         "baseProtein": 0.02,
         "baseCarbs": 0.2,
@@ -1061,31 +1061,6 @@ const foodDatabase = {
     "originalBaseRecipeId": "pp_calabacn_con_cebolla_a_la_plancha"
   },
   "p3_m3": {
-    "name": "Onza de Chocolate 85%",
-    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69b51011eba487f7273f1096.png",
-    "calories": 193,
-    "protein": 2,
-    "carbs": 11,
-    "fats": 14,
-    "ingredients": [
-      {
-        "name": "Chocolate 85%",
-        "quantity": "35",
-        "unit": "g",
-        "calories": 192.5,
-        "protein": 2.1,
-        "carbs": 10.5,
-        "fats": 14,
-        "baseCalories": 5.5,
-        "baseProtein": 0.06,
-        "baseCarbs": 0.3,
-        "baseFats": 0.4
-      }
-    ],
-    "preparation": "Consumir directamente.",
-    "originalBaseRecipeId": "ext_onza_de_chocolate_85"
-  },
-  "p3_m4": {
     "name": "Pechuga de Pollo a la Plancha",
     "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69b66b3087f0f2415505fc9a.png",
     "calories": 240,
@@ -1109,6 +1084,31 @@ const foodDatabase = {
     ],
     "preparation": "1. Sazonar la pechuga de pollo con sal, pimienta y especias al gusto. 2. Calentar una plancha o sartén antiadherente con una gota de aceite. 3. Cocinar la pechuga hasta que esté dorada por fuera y cocida por dentro.",
     "originalBaseRecipeId": "ac_pechuga_de_pollo_a_la_plancha"
+  },
+  "p3_m4": {
+    "name": "Onza de Chocolate 85%",
+    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69b51011eba487f7273f1096.png",
+    "calories": 193,
+    "protein": 2,
+    "carbs": 11,
+    "fats": 14,
+    "ingredients": [
+      {
+        "name": "Chocolate 85%",
+        "quantity": "35",
+        "unit": "g",
+        "calories": 192.5,
+        "protein": 2.1,
+        "carbs": 10.5,
+        "fats": 14,
+        "baseCalories": 5.5,
+        "baseProtein": 0.060000000000000005,
+        "baseCarbs": 0.3,
+        "baseFats": 0.4
+      }
+    ],
+    "preparation": "Consumir directamente.",
+    "originalBaseRecipeId": "ext_onza_de_chocolate_85"
   },
   "p3_m5": {
     "name": "Fruta Densa (Plátano, Manzana)",
@@ -1138,7 +1138,7 @@ const foodDatabase = {
 };
 const dailyMenus = [
   {
-    "name": "Opciones 1",
+    "name": "Libre 1",
     "targetMacros": {
       "calories": 1700,
       "protein": 140,
@@ -1165,7 +1165,7 @@ const dailyMenus = [
     ]
   },
   {
-    "name": "Opciones 2",
+    "name": "Entreno 1",
     "targetMacros": {
       "calories": 1700,
       "protein": 140,
@@ -1193,7 +1193,7 @@ const dailyMenus = [
     ]
   },
   {
-    "name": "Opciones 3",
+    "name": "Libre 2",
     "targetMacros": {
       "calories": 1800,
       "protein": 150,
@@ -1221,7 +1221,7 @@ const dailyMenus = [
     ]
   },
   {
-    "name": "Día 4",
+    "name": "Entreno 2",
     "targetMacros": {
       "calories": 1700,
       "protein": 150,
@@ -1241,10 +1241,10 @@ const dailyMenus = [
     ],
     "cena": [
       "p3_m2",
-      "p3_m4"
+      "p3_m3"
     ],
     "extra": [
-      "p3_m3",
+      "p3_m4",
       "p3_m5"
     ]
   }
