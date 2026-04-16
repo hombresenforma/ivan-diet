@@ -866,6 +866,339 @@ const foodDatabase = {
     ],
     "preparation": "Consumir directamente como un snack energético y nutritivo.",
     "originalBaseRecipeId": "ext_frutos_secos_mezcla"
+  },
+  "p3_m0": {
+    "name": "Tostada de centeno con jamón ibérico",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6887226c7537da60484d071f.png",
+    "calories": 328,
+    "protein": 26,
+    "carbs": 20,
+    "fats": 15,
+    "ingredients": [
+      {
+        "name": "Tostada de Pan de Centeno",
+        "quantity": "1",
+        "unit": "rebanada",
+        "calories": 108,
+        "protein": 3.5999999999999996,
+        "carbs": 20,
+        "fats": 1.2,
+        "baseCalories": 108,
+        "baseProtein": 3.5999999999999996,
+        "baseCarbs": 20,
+        "baseFats": 1.2
+      },
+      {
+        "name": "Jamón Ibérico",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 220.00000000000003,
+        "protein": 22,
+        "carbs": 0,
+        "fats": 14.000000000000002,
+        "baseCalories": 2.2,
+        "baseProtein": 0.22,
+        "baseCarbs": 0,
+        "baseFats": 0.14
+      }
+    ],
+    "preparation": "1. Tostar el pan de centeno. 2. Colocar las lonchas de jamón ibérico por encima. Opcional: añadir un chorrito de aceite de oliva.",
+    "originalBaseRecipeId": "des_tostada_de_centeno_con_jamn_ibrico"
+  },
+  "p3_m1": {
+    "name": "Gnoccis con sofrito de ternera, calabacín, cebolla y cerdo",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684efd20653a2c44bb172cef.png",
+    "calories": 431,
+    "protein": 30,
+    "carbs": 37,
+    "fats": 17,
+    "ingredients": [
+      {
+        "name": "Gnocchis",
+        "quantity": "1",
+        "unit": "rebanada",
+        "calories": 108,
+        "protein": 3.5999999999999996,
+        "carbs": 20,
+        "fats": 1.2,
+        "baseCalories": 108,
+        "baseProtein": 3.5999999999999996,
+        "baseCarbs": 20,
+        "baseFats": 1.2
+      },
+      {
+        "name": "Carne Picada Mixta (Ternera y Cerdo)",
+        "quantity": "85",
+        "unit": "g",
+        "calories": 187.00000000000003,
+        "protein": 18.7,
+        "carbs": 0,
+        "fats": 11.9,
+        "baseCalories": 2.2,
+        "baseProtein": 0.22,
+        "baseCarbs": 0,
+        "baseFats": 0.14
+      },
+      {
+        "name": "Calabacín",
+        "quantity": "85",
+        "unit": "g",
+        "calories": 25.5,
+        "protein": 1.7,
+        "carbs": 4.25,
+        "fats": 0.17,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Cebolla",
+        "quantity": "85",
+        "unit": "g",
+        "calories": 85,
+        "protein": 4.25,
+        "carbs": 8.5,
+        "fats": 3.4,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Tomate Frito",
+        "quantity": "85",
+        "unit": "g",
+        "calories": 25.5,
+        "protein": 1.7,
+        "carbs": 4.25,
+        "fats": 0.17,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      }
+    ],
+    "preparation": "1. Picar finamente la cebolla. Rallar o picar el calabacín en dados pequeños. 2. En una sartén grande, calentar un poco de aceite de oliva y sofreír la cebolla hasta que esté transparente. 3. Añadir la carne picada mixta y cocinar a fuego medio-alto, deshaciendo los grumos, hasta que se dore. 4. Incorporar el calabacín y cocinar unos minutos hasta que empiece a ablandarse. Añadir el tomate frito y sazonar con sal, pimienta y orégano o albahaca al gusto. Cocinar a fuego lento durante 10-15 minutos para que la salsa espese ligeramente y se mezclen los sabores. 5. Mientras tanto, cocer los gnocchis según las instrucciones del paquete (normalmente están listos cuando flotan en la superficie del agua hirviendo, unos 2-3 minutos). 6. Escurrir los gnocchis y mezclarlos suavemente con la salsa de carne y verduras. Servir caliente, opcionalmente con queso parmesano rallado.",
+    "originalBaseRecipeId": "cc_gnoccis_con_sofrito_de_ternera_calabacn_cebolla_y_cerdo"
+  },
+  "p3_m2": {
+    "name": "Fajitas de Pollo y Verduras",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afcef0ed50608b742ff33.png",
+    "calories": 474,
+    "protein": 45,
+    "carbs": 45,
+    "fats": 10,
+    "ingredients": [
+      {
+        "name": "Pan de Fajita",
+        "quantity": "1",
+        "unit": "rebanada",
+        "calories": 108,
+        "protein": 3.5999999999999996,
+        "carbs": 20,
+        "fats": 1.2,
+        "baseCalories": 108,
+        "baseProtein": 3.5999999999999996,
+        "baseCarbs": 20,
+        "baseFats": 1.2
+      },
+      {
+        "name": "Tomate",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 30,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Pimiento Rojo",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 30,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Pimiento Verde",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 30,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Cebolla",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 100,
+        "protein": 5,
+        "carbs": 10,
+        "fats": 4,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Pechuga de Pollo",
+        "quantity": "110",
+        "unit": "g",
+        "calories": 176,
+        "protein": 30.800000000000004,
+        "carbs": 0,
+        "fats": 4.4,
+        "baseCalories": 1.6,
+        "baseProtein": 0.28,
+        "baseCarbs": 0,
+        "baseFats": 0.04
+      }
+    ],
+    "preparation": "1. Cortar la pechuga de pollo en tiras finas. Cortar el pimiento rojo, pimiento Verde y cebolla en juliana. Picar el tomate en dados pequeños. 2. Calentar un poco de aceite en una sartén grande. Saltear el pollo hasta que esté dorado y cocido. Retirar y reservar. 3. En la misma sartén, añadir un poco más de aceite si es necesario y saltear las verduras (pimientos y cebolla) hasta que estén tiernas pero crujientes. 4. Volver a añadir el pollo a la sartén con las verduras. Sazonar con especias para fajitas (opcional) o sal y pimienta. Mezclar bien. 5. Calentar las tortillas de fajita según las instrucciones del paquete. 6. Rellenar las tortillas con la mezcla de pollo y verduras, y añadir el tomate fresco picado por encima. Opcional: servir con guacamole, crema agria o salsa.",
+    "originalBaseRecipeId": "cc_fajitas_de_pollo_y_verduras"
+  },
+  "p3_m3": {
+    "name": "Yogur Protéico con Frutos Rojos y Secos",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afea2b91eb35e413d4ab6.png",
+    "calories": 125,
+    "protein": 4,
+    "carbs": 10,
+    "fats": 8,
+    "ingredients": [
+      {
+        "name": "Yogur Protéico",
+        "quantity": "45",
+        "unit": "g",
+        "calories": 45,
+        "protein": 2.25,
+        "carbs": 4.5,
+        "fats": 1.8,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Frutos Rojos",
+        "quantity": "25",
+        "unit": "g",
+        "calories": 12.5,
+        "protein": 0.25,
+        "carbs": 3,
+        "fats": 0.125,
+        "baseCalories": 0.5,
+        "baseProtein": 0.01,
+        "baseCarbs": 0.12,
+        "baseFats": 0.005
+      },
+      {
+        "name": "Frutos Secos",
+        "quantity": "15",
+        "unit": "g",
+        "calories": 67.5,
+        "protein": 1.5,
+        "carbs": 2.25,
+        "fats": 6,
+        "baseCalories": 4.5,
+        "baseProtein": 0.1,
+        "baseCarbs": 0.15,
+        "baseFats": 0.4
+      }
+    ],
+    "preparation": "1. En un bol, verter el yogur proteico. 2. Añadir los frutos rojos frescos o descongelados. 3. Espolvorear con los frutos secos troceados por encima.",
+    "originalBaseRecipeId": "ext_yogur_protico_con_frutos_rojos_y_secos"
+  },
+  "p3_m4": {
+    "name": "Ensalada con Pollo y Queso de Burgos",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afdceb91eb360843d4a0b.png",
+    "calories": 441,
+    "protein": 48,
+    "carbs": 25,
+    "fats": 14,
+    "ingredients": [
+      {
+        "name": "Canónigos",
+        "quantity": "85",
+        "unit": "g",
+        "calories": 85,
+        "protein": 4.25,
+        "carbs": 8.5,
+        "fats": 3.4,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Tomate",
+        "quantity": "85",
+        "unit": "g",
+        "calories": 25.5,
+        "protein": 1.7,
+        "carbs": 4.25,
+        "fats": 0.17,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Cebolla",
+        "quantity": "85",
+        "unit": "g",
+        "calories": 85,
+        "protein": 4.25,
+        "carbs": 8.5,
+        "fats": 3.4,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Queso de Burgos 0%",
+        "quantity": "85",
+        "unit": "g",
+        "calories": 85,
+        "protein": 10.2,
+        "carbs": 3.4,
+        "fats": 3.4,
+        "baseCalories": 1,
+        "baseProtein": 0.12,
+        "baseCarbs": 0.04,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Pechuga de Pollo",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 160,
+        "protein": 28.000000000000004,
+        "carbs": 0,
+        "fats": 4,
+        "baseCalories": 1.6,
+        "baseProtein": 0.28,
+        "baseCarbs": 0,
+        "baseFats": 0.04
+      }
+    ],
+    "preparation": "1. Cocinar la pechuga de pollo (a la plancha, hervida o asada) y cortarla en tiras o dados. 2. Lavar los canónigos y escurrirlos bien. Cortar los tomates (cherry por la mitad, o normales en gajos) y la cebolla en rodajas finas o juliana. Cortar el queso de Burgos 0% en dados o láminas. 3. En un bol o plato grande, disponer una base de canónigos. Añadir encima el tomate, la cebolla, el pollo y el queso de Burgos. 4. Aliñar con aceite de oliva virgen extra, vinagre (de manzana o Módena) y sal al gusto.",
+    "originalBaseRecipeId": "cc_ensalada_con_pollo_y_queso_de_burgos"
   }
 };
 const dailyMenus = [
@@ -951,6 +1284,33 @@ const dailyMenus = [
     "extra": [
       "p2_m4",
       "p2_m5"
+    ]
+  },
+  {
+    "name": "Opcion 4",
+    "targetMacros": {
+      "calories": 1700,
+      "protein": 120,
+      "carbs": 100
+    },
+    "baselineTotals": {
+      "calories": 1501,
+      "protein": 120,
+      "carbs": 133,
+      "fats": 49
+    },
+    "desayuno": [
+      "p3_m0"
+    ],
+    "comida": [
+      "p3_m1"
+    ],
+    "cena": [
+      "p3_m2",
+      "p3_m4"
+    ],
+    "extra": [
+      "p3_m3"
     ]
   }
 ];
