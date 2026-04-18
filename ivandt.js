@@ -1,11 +1,14 @@
+// Última actualización: 18/04/2026
+
+
 const foodDatabase = {
   "p0_m0": {
     "name": "Sandwich Vegetal de Jamón York",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cd5829b0c67f95e9a8e7e.png",
     "calories": 353,
-    "protein": 18.6,
-    "carbs": 36.4,
-    "fats": 14.599999999999998,
+    "protein": 19,
+    "carbs": 36,
+    "fats": 15,
     "ingredients": [
       {
         "name": "Pan de Centeno",
@@ -70,7 +73,7 @@ const foodDatabase = {
     "calories": 440,
     "protein": 22,
     "carbs": 56,
-    "fats": 13.3,
+    "fats": 13,
     "ingredients": [
       {
         "name": "Lentejas Cocidas",
@@ -132,8 +135,8 @@ const foodDatabase = {
   "p0_m2": {
     "name": "Pechuga de Pavo a la Plancha",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684f003ef6c48dfc43a5bdb3.png",
-    "calories": 248.4,
-    "protein": 28.000000000000004,
+    "calories": 248,
+    "protein": 28,
     "carbs": 0,
     "fats": 14,
     "ingredients": [
@@ -171,10 +174,10 @@ const foodDatabase = {
   "p0_m3": {
     "name": "Calabacín con Cebolla a la Plancha",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afc8e9b8ed35d8e7cbb0e.png",
-    "calories": 148.4,
+    "calories": 148,
     "protein": 4,
     "carbs": 10,
-    "fats": 10.4,
+    "fats": 10,
     "ingredients": [
       {
         "name": "Calabacín",
@@ -223,10 +226,10 @@ const foodDatabase = {
   "p0_m4": {
     "name": "Revuelto de Huevos con Espárragos Trigueros",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684f019a532eaa9f6977a78c.png",
-    "calories": 326.7,
+    "calories": 327,
     "protein": 22,
-    "carbs": 6.65,
-    "fats": 23.5,
+    "carbs": 7,
+    "fats": 24,
     "ingredients": [
       {
         "name": "Espárragos Trigueros",
@@ -276,9 +279,9 @@ const foodDatabase = {
     "name": "Fruta Densa (Plátano, Manzana)",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe4bb91eb325b93d4a82.png",
     "calories": 72,
-    "protein": 0.6,
+    "protein": 1,
     "carbs": 18,
-    "fats": 0.24,
+    "fats": 0,
     "ingredients": [
       {
         "name": "Plátano",
@@ -302,8 +305,8 @@ const foodDatabase = {
     "name": "Yogur Protéico (Sabores, Natural...)",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd789b8ed38b127cbc09.png",
     "calories": 125,
-    "protein": 6.25,
-    "carbs": 12.5,
+    "protein": 6,
+    "carbs": 13,
     "fats": 5,
     "ingredients": [
       {
@@ -328,9 +331,9 @@ const foodDatabase = {
     "name": "Tostada de Pan de Centeno con Revuelto de Huevos y Jamón York",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687d09e04d6fb7f271b84cc9.png",
     "calories": 351,
-    "protein": 23.7,
-    "carbs": 17.1,
-    "fats": 20.9,
+    "protein": 24,
+    "carbs": 17,
+    "fats": 21,
     "ingredients": [
       {
         "name": "Tostada de Pan de Centeno",
@@ -379,10 +382,10 @@ const foodDatabase = {
   "p1_m1": {
     "name": "Poke de aguacate, mango, tomate, soja, cebolla, arroz y pollo",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684efa4ef6c48db833a5b1af.png",
-    "calories": 749.9,
-    "protein": 54.95,
-    "carbs": 63.25,
-    "fats": 29.549999999999997,
+    "calories": 750,
+    "protein": 55,
+    "carbs": 63,
+    "fats": 30,
     "ingredients": [
       {
         "name": "Aguacate",
@@ -483,10 +486,10 @@ const foodDatabase = {
   "p1_m2": {
     "name": "Wok de Verduras con Salmón",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afda0b91eb330dd3d49b2.png",
-    "calories": 442.4,
-    "protein": 32.4,
+    "calories": 442,
+    "protein": 32,
     "carbs": 15,
-    "fats": 27.400000000000002,
+    "fats": 27,
     "ingredients": [
       {
         "name": "Tomate",
@@ -575,9 +578,9 @@ const foodDatabase = {
     "name": "Yogurt Protéico con Frutos Rojos y Secos",
     "image": "",
     "calories": 167,
-    "protein": 6.6,
+    "protein": 7,
     "carbs": 23,
-    "fats": 5.14,
+    "fats": 5,
     "ingredients": [
       {
         "name": "Yogur Protéico",
@@ -614,9 +617,9 @@ const foodDatabase = {
     "name": "Pan wasa con Jamón Ibérico",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68cc570eeaa0586bf6a8d560.png",
     "calories": 159,
-    "protein": 14.1,
+    "protein": 14,
     "carbs": 5,
-    "fats": 8.700000000000001,
+    "fats": 9,
     "ingredients": [
       {
         "name": "Pan Wasa",
@@ -654,8 +657,8 @@ const foodDatabase = {
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68ff252d3f16b5241c27c1e4.png",
     "calories": 490,
     "protein": 31,
-    "carbs": 51.5,
-    "fats": 17.15,
+    "carbs": 52,
+    "fats": 17,
     "ingredients": [
       {
         "name": "Garbanzos en Conserva",
@@ -743,8 +746,8 @@ const foodDatabase = {
   "p2_m2": {
     "name": "Pechuga de Pavo a la Plancha",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684f003ef6c48dfc43a5bdb3.png",
-    "calories": 328.4,
-    "protein": 42.00000000000001,
+    "calories": 328,
+    "protein": 42,
     "carbs": 0,
     "fats": 16,
     "ingredients": [
@@ -782,10 +785,10 @@ const foodDatabase = {
   "p2_m3": {
     "name": "Ensalada de Tomate, Aguacate, Cebolla y Lima",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cf9a725d68c4bc3ec3502.png",
-    "calories": 193.5,
-    "protein": 6.9,
-    "carbs": 14.25,
-    "fats": 12.39,
+    "calories": 194,
+    "protein": 7,
+    "carbs": 14,
+    "fats": 12,
     "ingredients": [
       {
         "name": "Tomate",
@@ -834,10 +837,10 @@ const foodDatabase = {
   "p2_m4": {
     "name": "Solomillo/Filete de Ternera a la Plancha",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe6c0ed5060d3743015a.png",
-    "calories": 352.4,
-    "protein": 26.4,
+    "calories": 352,
+    "protein": 26,
     "carbs": 0,
-    "fats": 26.8,
+    "fats": 27,
     "ingredients": [
       {
         "name": "Solomillo de Ternera",
@@ -874,8 +877,8 @@ const foodDatabase = {
     "name": "Yogur Protéico (Sabores, Natural...)",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd789b8ed38b127cbc09.png",
     "calories": 125,
-    "protein": 6.25,
-    "carbs": 12.5,
+    "protein": 6,
+    "carbs": 13,
     "fats": 5,
     "ingredients": [
       {
@@ -900,9 +903,9 @@ const foodDatabase = {
     "name": "Fruta Cítrica (Mandarina, Kiwi, Naranja...)",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd3d0ed506305442ffe4.png",
     "calories": 45,
-    "protein": 0.375,
-    "carbs": 11.25,
-    "fats": 0.15,
+    "protein": 0,
+    "carbs": 11,
+    "fats": 0,
     "ingredients": [
       {
         "name": "Kiwi",
@@ -926,9 +929,9 @@ const foodDatabase = {
     "name": "Yogurt Protéico con Frutos Rojos y Secos",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afea2b91eb35e413d4ab6.png",
     "calories": 415,
-    "protein": 15.75,
+    "protein": 16,
     "carbs": 37,
-    "fats": 22.1,
+    "fats": 22,
     "ingredients": [
       {
         "name": "Yogur Protéico",
@@ -977,10 +980,10 @@ const foodDatabase = {
   "p3_m1": {
     "name": "Ensalada con Pollo y Queso de Burgos",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afdceb91eb360843d4a0b.png",
-    "calories": 510.9,
-    "protein": 59.50000000000001,
-    "carbs": 17.75,
-    "fats": 20.55,
+    "calories": 511,
+    "protein": 60,
+    "carbs": 18,
+    "fats": 21,
     "ingredients": [
       {
         "name": "Canónigos",
@@ -1068,10 +1071,10 @@ const foodDatabase = {
   "p3_m2": {
     "name": "Crema de Verduras Variadas",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cd68425d68cc771ebd10a.png",
-    "calories": 117.5,
+    "calories": 118,
     "protein": 7,
-    "carbs": 16.25,
-    "fats": 2.45,
+    "carbs": 16,
+    "fats": 2,
     "ingredients": [
       {
         "name": "Calabaza",
@@ -1133,10 +1136,10 @@ const foodDatabase = {
   "p3_m3": {
     "name": "Solomillo/Filete de Ternera a la Plancha",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe6c0ed5060d3743015a.png",
-    "calories": 418.4,
+    "calories": 418,
     "protein": 33,
     "carbs": 0,
-    "fats": 31.000000000000004,
+    "fats": 31,
     "ingredients": [
       {
         "name": "Solomillo de Ternera",
@@ -1173,8 +1176,8 @@ const foodDatabase = {
     "name": "Yogur Protéico (Sabores, Natural...)",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd789b8ed38b127cbc09.png",
     "calories": 125,
-    "protein": 6.25,
-    "carbs": 12.5,
+    "protein": 6,
+    "carbs": 13,
     "fats": 5,
     "ingredients": [
       {
@@ -1199,9 +1202,9 @@ const foodDatabase = {
     "name": "Fruta Cítrica (Mandarina, Kiwi, Naranja...)",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd3d0ed506305442ffe4.png",
     "calories": 48,
-    "protein": 0.4,
+    "protein": 0,
     "carbs": 12,
-    "fats": 0.16,
+    "fats": 0,
     "ingredients": [
       {
         "name": "Mandarina",
@@ -1220,19 +1223,131 @@ const foodDatabase = {
     "preparation": "1. Seleccionar la fruta cítrica de preferencia (mandarina, kiwi, naranja, pomelo, etc.). 2. Lavar bien la fruta bajo el grifo. 3. Para mandarinas y naranjas: pelar la piel con las manos o con ayuda de un cuchillo. Separar los gajos si se desea. 4. Para kiwis: cortar por la mitad y comer la pulpa con una cucharita, o pelar con un cuchillo y cortar en rodajas. 5. Para pomelos: cortar por la mitad y extraer los gajos, o comer con cuchara. Consumir directamente.",
     "originalBaseRecipeId": "ext_fruta_ctrica_mandarina_kiwi_naranja",
     "isSideDish": false
+  },
+  "des_porridge_avena_frutos_rojos": {
+    "name": "Porridge de Avena y Frutos Rojos",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afdf19b8ed348797cbcd8.png",
+    "calories": 441,
+    "protein": 19,
+    "carbs": 64,
+    "fats": 10,
+    "ingredients": [
+      {
+        "name": "Copos de Avena",
+        "quantity": "70",
+        "unit": "g",
+        "calories": 266,
+        "protein": 9.8,
+        "carbs": 46.2,
+        "fats": 4.2,
+        "baseCalories": 3.8,
+        "baseProtein": 0.14,
+        "baseCarbs": 0.66,
+        "baseFats": 0.06
+      },
+      {
+        "name": "Leche",
+        "quantity": "250",
+        "unit": "ml",
+        "calories": 150,
+        "protein": 8.8,
+        "carbs": 12.5,
+        "fats": 5,
+        "baseCalories": 0.6,
+        "baseProtein": 0.035,
+        "baseCarbs": 0.05,
+        "baseFats": 0.02
+      },
+      {
+        "name": "Frutos Rojos",
+        "quantity": "50",
+        "unit": "g",
+        "calories": 25,
+        "protein": 0.6,
+        "carbs": 5,
+        "fats": 0.6,
+        "baseCalories": 0.5,
+        "baseProtein": 0.0125,
+        "baseCarbs": 0.1,
+        "baseFats": 0.0125
+      }
+    ],
+    "preparation": "Cocer avena con leche y añadir frutos."
+  },
+  "des_revuelto_huevos_jamon": {
+    "name": "Revuelto de Huevos con Jamón",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682ad5e1e819fcb589a8a30e.png",
+    "calories": 222,
+    "protein": 22,
+    "carbs": 1,
+    "fats": 15,
+    "ingredients": [
+      {
+        "name": "Huevos",
+        "quantity": 2,
+        "unit": "unidades",
+        "calories": 150,
+        "protein": 14,
+        "carbs": 1,
+        "fats": 10,
+        "baseCalories": 75,
+        "baseProtein": 7,
+        "baseCarbs": 0.5,
+        "baseFats": 5
+      },
+      {
+        "name": "Jamón Serrano",
+        "quantity": "30",
+        "unit": "g",
+        "calories": 72,
+        "protein": 7.5,
+        "carbs": 0,
+        "fats": 4.5,
+        "baseCalories": 2.4,
+        "baseProtein": 0.25,
+        "baseCarbs": 0,
+        "baseFats": 0.15
+      }
+    ],
+    "preparation": "Batir huevos y saltear con jamón."
+  },
+  "ext_chocolate_85": {
+    "name": "Onza de Chocolate 85%",
+    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69b51011eba487f7273f1096.png",
+    "calories": 55,
+    "protein": 1,
+    "carbs": 2,
+    "fats": 4,
+    "ingredients": [
+      {
+        "name": "Chocolate 85%",
+        "quantity": 1,
+        "unit": "onza",
+        "calories": 55,
+        "protein": 1,
+        "carbs": 2,
+        "fats": 4,
+        "baseCalories": 55,
+        "baseProtein": 1,
+        "baseCarbs": 2,
+        "baseFats": 4
+      }
+    ],
+    "preparation": "Consumo ocasional."
   }
 };
-
 const dailyMenus = [
   {
-    "name": "Entreno 1",
+    "name": "new",
     "targetMacros": {
       "calories": 2000,
       "protein": 150,
       "carbs": 200
     },
     "desayuno": [
-      "p0_m0"
+      "des_porridge_avena_frutos_rojos",
+      "des_revuelto_huevos_jamon",
+      "ext_chocolate_85"
     ],
     "comida": [
       "p0_m1",
