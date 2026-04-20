@@ -32,7 +32,7 @@ const foodDatabase = {
         "fats": 0.3,
         "baseCalories": 0.52,
         "baseProtein": 0.11,
-        "baseCarbs": 0.006999999999999999,
+        "baseCarbs": 0.006999999999999998,
         "baseFats": 0.002
       },
       {
@@ -55,10 +55,10 @@ const foodDatabase = {
   "p0_m1": {
     "name": "Estofado de Lentejas con Verduras y Costilla",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6922cf648c174dc51742182c.png",
-    "calories": 512,
-    "protein": 41,
+    "calories": 468,
+    "protein": 37,
     "carbs": 38,
-    "fats": 20,
+    "fats": 17,
     "ingredients": [
       {
         "name": "Lentejas Cocidas",
@@ -75,12 +75,12 @@ const foodDatabase = {
       },
       {
         "name": "Costilla de Cerdo",
-        "quantity": "120",
+        "quantity": "100",
         "unit": "g",
-        "calories": 264,
-        "protein": 26.4,
+        "calories": 220.00000000000003,
+        "protein": 22,
         "carbs": 0,
-        "fats": 16.8,
+        "fats": 14.000000000000002,
         "baseCalories": 2.2,
         "baseProtein": 0.22,
         "baseCarbs": 0,
@@ -642,19 +642,19 @@ const foodDatabase = {
   "p2_m1": {
     "name": "Musakka de Patata al horno con verduras y carne picada",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684efda5653a2c17a7172d67.png",
-    "calories": 695,
-    "protein": 44,
-    "carbs": 42,
-    "fats": 37,
+    "calories": 806,
+    "protein": 52,
+    "carbs": 52,
+    "fats": 42,
     "ingredients": [
       {
         "name": "Patata",
-        "quantity": "150",
+        "quantity": "200",
         "unit": "g",
-        "calories": 135,
-        "protein": 3,
-        "carbs": 30,
-        "fats": 0.15,
+        "calories": 180,
+        "protein": 4,
+        "carbs": 40,
+        "fats": 0.2,
         "baseCalories": 0.9,
         "baseProtein": 0.02,
         "baseCarbs": 0.2,
@@ -714,12 +714,12 @@ const foodDatabase = {
       },
       {
         "name": "Carne Picada Mixta (Ternera y Cerdo)",
-        "quantity": "120",
+        "quantity": "150",
         "unit": "g",
-        "calories": 264,
-        "protein": 26.4,
+        "calories": 330,
+        "protein": 33,
         "carbs": 0,
-        "fats": 16.8,
+        "fats": 21.000000000000004,
         "baseCalories": 2.2,
         "baseProtein": 0.22,
         "baseCarbs": 0,
@@ -961,19 +961,19 @@ const foodDatabase = {
   "p3_m1": {
     "name": "Pasta de lentejas con sofrito de ternera y cerdo",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684efc77653a2c50f9172c7c.png",
-    "calories": 755,
-    "protein": 57,
-    "carbs": 58,
-    "fats": 30,
+    "calories": 930,
+    "protein": 72,
+    "carbs": 69,
+    "fats": 37,
     "ingredients": [
       {
         "name": "Pasta de Lentejas",
-        "quantity": "150",
+        "quantity": "200",
         "unit": "g",
-        "calories": 195,
-        "protein": 12,
-        "carbs": 33,
-        "fats": 0.75,
+        "calories": 260,
+        "protein": 16,
+        "carbs": 44,
+        "fats": 1,
         "baseCalories": 1.3,
         "baseProtein": 0.08,
         "baseCarbs": 0.22,
@@ -981,12 +981,12 @@ const foodDatabase = {
       },
       {
         "name": "Carne Picada Mixta (Ternera y Cerdo)",
-        "quantity": "150",
+        "quantity": "200",
         "unit": "g",
-        "calories": 330,
-        "protein": 33,
+        "calories": 440.00000000000006,
+        "protein": 44,
         "carbs": 0,
-        "fats": 21.000000000000004,
+        "fats": 28.000000000000004,
         "baseCalories": 2.2,
         "baseProtein": 0.22,
         "baseCarbs": 0,
@@ -1179,7 +1179,7 @@ const foodDatabase = {
 };
 const dailyMenus = [
   {
-    "name": "Opción 1",
+    "name": "Libre 1",
     "targetMacros": {
       "calories": 1700,
       "protein": 140,
@@ -1206,7 +1206,7 @@ const dailyMenus = [
     ]
   },
   {
-    "name": "Opción 2",
+    "name": "Libre 2",
     "targetMacros": {
       "calories": 1700,
       "protein": 140,
@@ -1234,7 +1234,7 @@ const dailyMenus = [
     ]
   },
   {
-    "name": "Opción 3",
+    "name": "Entreno 1",
     "targetMacros": {
       "calories": 1800,
       "protein": 150,
@@ -1262,7 +1262,7 @@ const dailyMenus = [
     ]
   },
   {
-    "name": "Opción 4",
+    "name": "Entreno 2",
     "targetMacros": {
       "calories": 1800,
       "protein": 150,
