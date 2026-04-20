@@ -1,4 +1,4 @@
-// Última actualización: 18/04/2026
+// Última actualización: 20/04/2026
 
 
 const foodDatabase = {
@@ -330,19 +330,19 @@ const foodDatabase = {
   "p1_m0": {
     "name": "Tostada de Pan de Centeno con Revuelto de Huevos y Jamón York",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687d09e04d6fb7f271b84cc9.png",
-    "calories": 351,
-    "protein": 24,
-    "carbs": 17,
-    "fats": 21,
+    "calories": 240,
+    "protein": 12,
+    "carbs": 31,
+    "fats": 7,
     "ingredients": [
       {
         "name": "Tostada de Pan de Centeno",
-        "quantity": "1",
+        "quantity": "2",
         "unit": "rebanada(s)",
-        "calories": 81,
-        "protein": 2.6999999999999997,
-        "carbs": 15,
-        "fats": 0.8999999999999999,
+        "calories": 162,
+        "protein": 5.4,
+        "carbs": 30,
+        "fats": 1.8,
         "baseCalories": 81,
         "baseProtein": 2.6999999999999997,
         "baseCarbs": 15,
@@ -350,29 +350,16 @@ const foodDatabase = {
       },
       {
         "name": "Huevos",
-        "quantity": "2",
+        "quantity": "1",
         "unit": "unidad(es)",
-        "calories": 155,
-        "protein": 13,
-        "carbs": 1.1,
-        "fats": 11,
+        "calories": 77.5,
+        "protein": 6.5,
+        "carbs": 0.6,
+        "fats": 5.5,
         "baseCalories": 77.5,
         "baseProtein": 6.5,
         "baseCarbs": 0.55,
         "baseFats": 5.5
-      },
-      {
-        "name": "Jamón York",
-        "quantity": "50",
-        "unit": "g",
-        "calories": 114.99999999999999,
-        "protein": 8,
-        "carbs": 1,
-        "fats": 9,
-        "baseCalories": 2.3,
-        "baseProtein": 0.16,
-        "baseCarbs": 0.02,
-        "baseFats": 0.18
       }
     ],
     "preparation": "1. Tostar el pan de centeno. 2. Preparar un revuelto de huevos con taquitos de jamón york. 3. Servir el revuelto sobre la tostada.",
@@ -1426,5 +1413,14 @@ const dailyMenus = [
       "p3_m4",
       "p3_m5"
     ]
+  },
+  {
+    "name": "dia 5",
+    "targetMacros": {
+      "calories": 2000,
+      "protein": 150,
+      "carbs": 200,
+      "fats": 60
+    }
   }
 ];
