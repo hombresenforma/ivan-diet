@@ -82,7 +82,7 @@ const foodDatabase = {
         "carbs": 52.5,
         "fats": 1.4000000000000001,
         "baseCalories": 3.65,
-        "baseProtein": 0.12,
+        "baseProtein": 0.12000000000000001,
         "baseCarbs": 0.75,
         "baseFats": 0.02
       },
@@ -268,6 +268,31 @@ const foodDatabase = {
     "preparation": "1. Seleccionar la fruta cítrica de preferencia. 2. Lavar bien la fruta bajo el grifo. 3. Para mandarinas y naranjas: pelar la piel con las manos. 4. Para kiwis: cortar por la mitad y comer la pulpa con una cucharita.",
     "originalBaseRecipeId": "ext_fruta_ctrica_mandarina_kiwi_naranja"
   },
+  "p0_m6": {
+    "name": "Onza de Chocolate 85%",
+    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69b51011eba487f7273f1096.png",
+    "calories": 55,
+    "protein": 1,
+    "carbs": 3,
+    "fats": 4,
+    "ingredients": [
+      {
+        "name": "Chocolate 85%",
+        "quantity": "10",
+        "unit": "g",
+        "calories": 55,
+        "protein": 0.6,
+        "carbs": 3,
+        "fats": 4,
+        "baseCalories": 5.5,
+        "baseProtein": 0.06,
+        "baseCarbs": 0.3,
+        "baseFats": 0.4
+      }
+    ],
+    "preparation": "Consumir directamente.",
+    "originalBaseRecipeId": "ext_onza_de_chocolate_85"
+  },
   "p1_m0": {
     "name": "Tostada de Centeno con Cottage y Pavo",
     "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69b669d75b89c7ceec966248.png",
@@ -388,7 +413,7 @@ const foodDatabase = {
         "carbs": 45,
         "fats": 1.2,
         "baseCalories": 3.65,
-        "baseProtein": 0.12,
+        "baseProtein": 0.11999999999999998,
         "baseCarbs": 0.75,
         "baseFats": 0.02
       },
@@ -523,13 +548,38 @@ const foodDatabase = {
     "preparation": "Pelar y consumir.",
     "originalBaseRecipeId": "ext_fruta_densa_pltano_manzana"
   },
+  "p1_m5": {
+    "name": "Onza de Chocolate 85%",
+    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69b51011eba487f7273f1096.png",
+    "calories": 55,
+    "protein": 1,
+    "carbs": 3,
+    "fats": 4,
+    "ingredients": [
+      {
+        "name": "Chocolate 85%",
+        "quantity": "10",
+        "unit": "g",
+        "calories": 55,
+        "protein": 0.6,
+        "carbs": 3,
+        "fats": 4,
+        "baseCalories": 5.5,
+        "baseProtein": 0.06,
+        "baseCarbs": 0.3,
+        "baseFats": 0.4
+      }
+    ],
+    "preparation": "Consumir directamente.",
+    "originalBaseRecipeId": "ext_onza_de_chocolate_85"
+  },
   "p2_m0": {
     "name": "Yogurt Protéico con Frutos Rojos y Secos",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afea2b91eb35e413d4ab6.png",
-    "calories": 280,
-    "protein": 10,
-    "carbs": 23,
-    "fats": 17,
+    "calories": 213,
+    "protein": 8,
+    "carbs": 20,
+    "fats": 11,
     "ingredients": [
       {
         "name": "Yogur Protéico",
@@ -559,12 +609,12 @@ const foodDatabase = {
       },
       {
         "name": "Frutos Secos",
-        "quantity": "30",
+        "quantity": "15",
         "unit": "g",
-        "calories": 135,
-        "protein": 3,
-        "carbs": 4.5,
-        "fats": 12,
+        "calories": 67.5,
+        "protein": 1.5,
+        "carbs": 2.25,
+        "fats": 6,
         "baseCalories": 4.5,
         "baseProtein": 0.1,
         "baseCarbs": 0.15,
@@ -577,19 +627,19 @@ const foodDatabase = {
   "p2_m1": {
     "name": "Ensalada de Lentejas",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682aff5a365e949c0a73d706.png",
-    "calories": 610,
-    "protein": 31,
-    "carbs": 58,
+    "calories": 545,
+    "protein": 27,
+    "carbs": 47,
     "fats": 27,
     "ingredients": [
       {
         "name": "Lentejas Cocidas",
-        "quantity": "150",
+        "quantity": "100",
         "unit": "g",
-        "calories": 195,
-        "protein": 12,
-        "carbs": 33,
-        "fats": 0.75,
+        "calories": 130,
+        "protein": 8,
+        "carbs": 22,
+        "fats": 0.5,
         "baseCalories": 1.3,
         "baseProtein": 0.08,
         "baseCarbs": 0.22,
@@ -630,7 +680,7 @@ const foodDatabase = {
         "carbs": 2.4,
         "fats": 2.4,
         "baseCalories": 1,
-        "baseProtein": 0.12,
+        "baseProtein": 0.11999999999999998,
         "baseCarbs": 0.04,
         "baseFats": 0.04
       },
@@ -652,6 +702,44 @@ const foodDatabase = {
     "originalBaseRecipeId": "pp_ensalada_de_lentejas"
   },
   "p2_m2": {
+    "name": "Solomillo/Filete de Ternera a la Plancha",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe6c0ed5060d3743015a.png",
+    "calories": 308,
+    "protein": 26,
+    "carbs": 0,
+    "fats": 22,
+    "ingredients": [
+      {
+        "name": "Solomillo de Ternera",
+        "quantity": "120",
+        "unit": "g",
+        "calories": 264,
+        "protein": 26.4,
+        "carbs": 0,
+        "fats": 16.8,
+        "baseCalories": 2.2,
+        "baseProtein": 0.22,
+        "baseCarbs": 0,
+        "baseFats": 0.14
+      },
+      {
+        "name": "Aceite de Oliva Virgen Extra",
+        "quantity": "5",
+        "unit": "g",
+        "calories": 44.2,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 5,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1
+      }
+    ],
+    "preparation": "1. Sacar el filete o solomillo de ternera del refrigerador unos 15-20 minutos antes de cocinar para que se temple. 2. Sazonar la carne con sal y pimienta negra recién molida justo antes de ponerla en la plancha. 3. Calentar una plancha o sartén de fondo grueso a fuego alto hasta que esté bien caliente. Añadir una gota de aceite de oliva y extenderlo. 4. Cocinar el filete al gusto. 5. Dejar reposar la carne un par de minutos antes de servir para que los jugos se redistribuyan.",
+    "originalBaseRecipeId": "ac_solomillofilete_de_ternera_a_la_plancha"
+  },
+  "p2_m3": {
     "name": "Berenjenas Rellenas de Pavo al Horno",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6922cdf6e7de6638e2767e27.png",
     "calories": 512,
@@ -728,48 +816,215 @@ const foodDatabase = {
     "preparation": "1. Asar las berenjenas partidas por la mitad. Vaciar la carne. 2. Sofreír cebolla y carne de pavo. Añadir la carne de berenjena picada y tomate. 3. Rellenar las pieles, cubrir con queso y gratinar.",
     "originalBaseRecipeId": "cc_berenjenas_rellenas_de_pavo_al_horno"
   },
-  "p2_m3": {
-    "name": "Solomillo/Filete de Ternera a la Plancha",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe6c0ed5060d3743015a.png",
-    "calories": 308,
-    "protein": 26,
-    "carbs": 0,
-    "fats": 22,
+  "p3_m0": {
+    "name": "Pan wasa con Queso Cottage y Aguacate",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68cc56bf05b71918b19fbf96.png",
+    "calories": 293,
+    "protein": 13,
+    "carbs": 27,
+    "fats": 15,
     "ingredients": [
       {
-        "name": "Solomillo de Ternera",
-        "quantity": "120",
+        "name": "Pan Wasa",
+        "quantity": "1",
+        "unit": "rebanada",
+        "calories": 108,
+        "protein": 3.5999999999999996,
+        "carbs": 20,
+        "fats": 1.2,
+        "baseCalories": 108,
+        "baseProtein": 3.5999999999999996,
+        "baseCarbs": 20,
+        "baseFats": 1.2
+      },
+      {
+        "name": "Queso Cottage",
+        "quantity": "50",
         "unit": "g",
-        "calories": 264,
-        "protein": 26.4,
+        "calories": 50,
+        "protein": 6,
+        "carbs": 2,
+        "fats": 2,
+        "baseCalories": 1,
+        "baseProtein": 0.12,
+        "baseCarbs": 0.04,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Aguacate",
+        "quantity": "30",
+        "unit": "g",
+        "calories": 135,
+        "protein": 3,
+        "carbs": 4.5,
+        "fats": 12,
+        "baseCalories": 4.5,
+        "baseProtein": 0.1,
+        "baseCarbs": 0.15,
+        "baseFats": 0.4
+      }
+    ],
+    "preparation": "1. Untar el queso cottage y el aguacate sobre el pan wasa.",
+    "originalBaseRecipeId": "des_pan_wasa_con_queso_cottage_y_aguacate"
+  },
+  "p3_m1": {
+    "name": "Ensalada de Queso Fresco, Pavo y Nueces",
+    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/699b499d20c03528200c03e2.png",
+    "calories": 743,
+    "protein": 73,
+    "carbs": 14,
+    "fats": 40,
+    "ingredients": [
+      {
+        "name": "Canónigos o Lechuga",
+        "quantity": "70",
+        "unit": "g",
+        "calories": 70,
+        "protein": 3.5,
+        "carbs": 7,
+        "fats": 2.8000000000000003,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Queso Fresco",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 350,
+        "protein": 25,
+        "carbs": 2,
+        "fats": 25,
+        "baseCalories": 3.5,
+        "baseProtein": 0.25,
+        "baseCarbs": 0.02,
+        "baseFats": 0.25
+      },
+      {
+        "name": "Pechuga de Pavo",
+        "quantity": "150",
+        "unit": "g",
+        "calories": 240,
+        "protein": 42.00000000000001,
         "carbs": 0,
-        "fats": 16.8,
+        "fats": 6,
+        "baseCalories": 1.6,
+        "baseProtein": 0.28,
+        "baseCarbs": 0,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Nueces",
+        "quantity": "15",
+        "unit": "g",
+        "calories": 67.5,
+        "protein": 1.5,
+        "carbs": 2.25,
+        "fats": 6,
+        "baseCalories": 4.5,
+        "baseProtein": 0.1,
+        "baseCarbs": 0.15,
+        "baseFats": 0.4
+      },
+      {
+        "name": "Tomates Cherry",
+        "quantity": "50",
+        "unit": "g",
+        "calories": 15,
+        "protein": 1,
+        "carbs": 2.5,
+        "fats": 0.1,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      }
+    ],
+    "preparation": "1. Lavar los canónigos y los tomates cherry. 2. Cortar el queso fresco y el pavo en dados. 3. Trocear las nueces. 4. En un bol, mezclar todos los ingredientes. 5. Aliñar con una vinagreta suave.",
+    "originalBaseRecipeId": "cc_ensalada_de_queso_fresco_pavo_y_nueces"
+  },
+  "p3_m2": {
+    "name": "Wok de Verduras con Salmón",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afda0b91eb330dd3d49b2.png",
+    "calories": 520,
+    "protein": 44,
+    "carbs": 25,
+    "fats": 26,
+    "ingredients": [
+      {
+        "name": "Tomate",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 30,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Pimiento Rojo",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 30,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Pimiento Verde",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 30,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Cebolla",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 100,
+        "protein": 5,
+        "carbs": 10,
+        "fats": 4,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Lomo de Salmón",
+        "quantity": "150",
+        "unit": "g",
+        "calories": 330,
+        "protein": 33,
+        "carbs": 0,
+        "fats": 21.000000000000004,
         "baseCalories": 2.2,
         "baseProtein": 0.22,
         "baseCarbs": 0,
         "baseFats": 0.14
-      },
-      {
-        "name": "Aceite de Oliva Virgen Extra",
-        "quantity": "5",
-        "unit": "g",
-        "calories": 44.2,
-        "protein": 0,
-        "carbs": 0,
-        "fats": 5,
-        "baseCalories": 8.84,
-        "baseProtein": 0,
-        "baseCarbs": 0,
-        "baseFats": 1
       }
     ],
-    "preparation": "1. Sacar el filete o solomillo de ternera del refrigerador unos 15-20 minutos antes de cocinar para que se temple. 2. Sazonar la carne con sal y pimienta negra recién molida justo antes de ponerla en la plancha. 3. Calentar una plancha o sartén de fondo grueso a fuego alto hasta que esté bien caliente. Añadir una gota de aceite de oliva y extenderlo. 4. Cocinar el filete al gusto. 5. Dejar reposar la carne un par de minutos antes de servir para que los jugos se redistribuyan.",
-    "originalBaseRecipeId": "ac_solomillofilete_de_ternera_a_la_plancha"
+    "preparation": "1. Cortar el salmón en dados de tamaño mediano. Picar el tomate, pimiento rojo, pimiento verde y cebolla en trozos adecuados para wok (ej. juliana gruesa o dados). 2. Calentar un wok o sartén grande con un poco de aceite a fuego alto. Saltear el salmón unos 2-3 minutos hasta que esté dorado por fuera pero ligeramente crudo por dentro. Retirar y reservar. 3. Añadir las verduras más duras (cebolla, pimientos) al wok y saltear durante 3-4 minutos. Luego añadir el tomate y saltear 1-2 minutos más. 4. Incorporar el salmón de nuevo al wok. Añadir salsa de soja (baja en sodio preferiblemente) y un toque de jengibre rallado o ajo picado (opcional). Mezclar bien y cocinar por 1-2 minutos más hasta que el salmón esté cocido y todo bien caliente. Servir inmediatamente, opcionalmente sobre una base de arroz o noodles.",
+    "originalBaseRecipeId": "cc_wok_de_verduras_con_salmn"
   }
 };
 const dailyMenus = [
   {
-    "name": "Opciones 1",
+    "name": "Entreno 1",
     "targetMacros": {
       "calories": 1700,
       "protein": 140,
@@ -793,11 +1048,12 @@ const dailyMenus = [
     ],
     "extra": [
       "p0_m4",
-      "p0_m5"
+      "p0_m5",
+      "p0_m6"
     ]
   },
   {
-    "name": "Opciones 2",
+    "name": "Entreno 2",
     "targetMacros": {
       "calories": 1800,
       "protein": 150,
@@ -820,11 +1076,12 @@ const dailyMenus = [
     ],
     "extra": [
       "p1_m3",
-      "p1_m4"
+      "p1_m4",
+      "p1_m5"
     ]
   },
   {
-    "name": "Opciones 3",
+    "name": "Libre 1",
     "targetMacros": {
       "calories": 1500,
       "protein": 150,
@@ -841,10 +1098,34 @@ const dailyMenus = [
     ],
     "comida": [
       "p2_m1",
-      "p2_m3"
+      "p2_m2"
     ],
     "cena": [
-      "p2_m2"
+      "p2_m3"
+    ],
+    "extra": []
+  },
+  {
+    "name": "Libre 2",
+    "targetMacros": {
+      "calories": 1500,
+      "protein": 150,
+      "carbs": 100
+    },
+    "baselineTotals": {
+      "calories": 1866,
+      "protein": 150,
+      "carbs": 104,
+      "fats": 83
+    },
+    "desayuno": [
+      "p3_m0"
+    ],
+    "comida": [
+      "p3_m1"
+    ],
+    "cena": [
+      "p3_m2"
     ],
     "extra": []
   }
