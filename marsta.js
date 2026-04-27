@@ -1,5 +1,7 @@
+// Última actualización: 27/04/2026
 // Titulo: Plan de Alimentación
-// Alergias: 
+// Alergias:
+
 const foodDatabase = {
   "p0_m0": {
     "name": "Yogurt Protéico con Frutos Rojos y Secos",
@@ -814,21 +816,252 @@ const foodDatabase = {
     ],
     "preparation": "Consumir directamente como un snack energético y nutritivo.",
     "originalBaseRecipeId": "ext_frutos_secos_mezcla"
+  },
+  "ac_solomillo_ternera_plancha": {
+    "name": "Solomillo de Ternera a la Plancha",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe6c0ed5060d3743015a.png",
+    "calories": 280,
+    "protein": 34,
+    "carbs": 0,
+    "fats": 15,
+    "ingredients": [
+      {
+        "name": "Solomillo Ternera",
+        "quantity": 150,
+        "unit": "g",
+        "calories": 250,
+        "protein": 34,
+        "carbs": 0,
+        "fats": 12,
+        "baseCalories": 1.6666666666666667,
+        "baseProtein": 0.22666666666666666,
+        "baseCarbs": 0,
+        "baseFats": 0.08
+      },
+      {
+        "name": "Aceite de Oliva",
+        "quantity": 3,
+        "unit": "ml",
+        "calories": 30,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 3,
+        "baseCalories": 10,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1
+      }
+    ],
+    "preparation": "Sellar a fuego fuerte."
+  },
+  "des_revuelto_huevos_jamon": {
+    "name": "Revuelto de Huevos con Jamón",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682ad5e1e819fcb589a8a30e.png",
+    "calories": 250,
+    "protein": 24,
+    "carbs": 1,
+    "fats": 16,
+    "ingredients": [
+      {
+        "name": "Huevos",
+        "quantity": 2,
+        "unit": "unidades",
+        "calories": 150,
+        "protein": 14,
+        "carbs": 1,
+        "fats": 10,
+        "baseCalories": 75,
+        "baseProtein": 7,
+        "baseCarbs": 0.5,
+        "baseFats": 5
+      },
+      {
+        "name": "Jamón Serrano",
+        "quantity": 40,
+        "unit": "g",
+        "calories": 96,
+        "protein": 10,
+        "carbs": 0,
+        "fats": 6,
+        "baseCalories": 2.4,
+        "baseProtein": 0.25,
+        "baseCarbs": 0,
+        "baseFats": 0.15
+      }
+    ],
+    "preparation": "Batir huevos y saltear con jamón."
+  },
+  "cc_ensalada_patata_atun_huevo": {
+    "name": "Ensala de Patata, Atún y Huevo",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afc08b91eb31afe3d4796.png",
+    "calories": 535,
+    "protein": 60,
+    "carbs": 58,
+    "fats": 7,
+    "ingredients": [
+      {
+        "name": "Patata cocida",
+        "quantity": "300",
+        "unit": "g",
+        "calories": 240,
+        "protein": 6,
+        "carbs": 54,
+        "fats": 0,
+        "baseCalories": 0.8,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.18,
+        "baseFats": 0
+      },
+      {
+        "name": "Atún al natural",
+        "quantity": "160",
+        "unit": "g",
+        "calories": 200,
+        "protein": 46,
+        "carbs": 0,
+        "fats": 2,
+        "baseCalories": 1.25,
+        "baseProtein": 0.2875,
+        "baseCarbs": 0,
+        "baseFats": 0.0125
+      },
+      {
+        "name": "Huevo cocido",
+        "quantity": 1,
+        "unit": "unidad",
+        "calories": 75,
+        "protein": 7,
+        "carbs": 0,
+        "fats": 5,
+        "baseCalories": 75,
+        "baseProtein": 7,
+        "baseCarbs": 0,
+        "baseFats": 5
+      },
+      {
+        "name": "Tomate",
+        "quantity": 100,
+        "unit": "g",
+        "calories": 20,
+        "protein": 1,
+        "carbs": 4,
+        "fats": 0,
+        "baseCalories": 0.2,
+        "baseProtein": 0.01,
+        "baseCarbs": 0.04,
+        "baseFats": 0
+      }
+    ],
+    "preparation": "Mezclar ingredientes troceados y aliñar."
+  },
+  "ext_yogur_proteico_frutos": {
+    "name": "Yogurt Protéico con Frutos Rojos y Secos",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afea2b91eb35e413d4ab6.png",
+    "calories": 230,
+    "protein": 18,
+    "carbs": 18,
+    "fats": 10,
+    "ingredients": [
+      {
+        "name": "Yogur Protéico",
+        "quantity": 125,
+        "unit": "g",
+        "calories": 90,
+        "protein": 12,
+        "carbs": 8,
+        "fats": 1,
+        "baseCalories": 0.72,
+        "baseProtein": 0.096,
+        "baseCarbs": 0.064,
+        "baseFats": 0.008
+      },
+      {
+        "name": "Frutos Rojos",
+        "quantity": 50,
+        "unit": "g",
+        "calories": 30,
+        "protein": 1,
+        "carbs": 6,
+        "fats": 0,
+        "baseCalories": 0.6,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.12,
+        "baseFats": 0
+      },
+      {
+        "name": "Nueces/Almendras",
+        "quantity": 15,
+        "unit": "g",
+        "calories": 110,
+        "protein": 5,
+        "carbs": 4,
+        "fats": 9,
+        "baseCalories": 7.333333333333333,
+        "baseProtein": 0.3333333333333333,
+        "baseCarbs": 0.26666666666666666,
+        "baseFats": 0.6
+      }
+    ],
+    "preparation": "Mezclar en un bol."
+  },
+  "cc_fajitas_pollo": {
+    "name": "Fajitas de Pollo y Verduras",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afcef0ed50608b742ff33.png",
+    "calories": 640,
+    "protein": 55,
+    "carbs": 55,
+    "fats": 20,
+    "ingredients": [
+      {
+        "name": "Tortilla de Trigo",
+        "quantity": 2,
+        "unit": "unidades",
+        "calories": 240,
+        "protein": 6,
+        "carbs": 42,
+        "fats": 5,
+        "baseCalories": 120,
+        "baseProtein": 3,
+        "baseCarbs": 21,
+        "baseFats": 2.5
+      },
+      {
+        "name": "Pechuga de Pollo",
+        "quantity": "200",
+        "unit": "g",
+        "calories": 320,
+        "protein": 46.7,
+        "carbs": 0,
+        "fats": 13.3,
+        "baseCalories": 1.6,
+        "baseProtein": 0.23333333333333334,
+        "baseCarbs": 0,
+        "baseFats": 0.06666666666666667
+      },
+      {
+        "name": "Pimientos y cebolla",
+        "quantity": "200",
+        "unit": "g",
+        "calories": 80,
+        "protein": 2.7,
+        "carbs": 13.3,
+        "fats": 1.3,
+        "baseCalories": 0.4,
+        "baseProtein": 0.013333333333333334,
+        "baseCarbs": 0.06666666666666667,
+        "baseFats": 0.006666666666666667
+      }
+    ],
+    "preparation": "Saltear pollo y verduras, rellenar tortillas."
   }
 };
 const dailyMenus = [
   {
-    "name": "Opciones 1",
+    "name": "opción 1",
     "targetMacros": {
       "calories": 1700,
       "protein": 140,
       "carbs": 140
-    },
-    "baselineTotals": {
-      "calories": 1852,
-      "protein": 121,
-      "carbs": 142,
-      "fats": 86
     },
     "desayuno": [
       "p0_m0"
@@ -839,7 +1072,7 @@ const dailyMenus = [
     ],
     "cena": [
       "p0_m2",
-      "p0_m3"
+      "ac_solomillo_ternera_plancha"
     ],
     "extra": [
       "p0_m4",
@@ -847,17 +1080,11 @@ const dailyMenus = [
     ]
   },
   {
-    "name": "Opciones 2",
+    "name": "opción 2",
     "targetMacros": {
       "calories": 1800,
       "protein": 150,
       "carbs": 150
-    },
-    "baselineTotals": {
-      "calories": 2065,
-      "protein": 150,
-      "carbs": 151,
-      "fats": 88
     },
     "desayuno": [
       "p1_m0"
@@ -874,17 +1101,11 @@ const dailyMenus = [
     ]
   },
   {
-    "name": "Opciones 3",
+    "name": "opción 3",
     "targetMacros": {
       "calories": 1700,
       "protein": 150,
       "carbs": 150
-    },
-    "baselineTotals": {
-      "calories": 1749,
-      "protein": 150,
-      "carbs": 150,
-      "fats": 57
     },
     "desayuno": [
       "p2_m0"
@@ -899,6 +1120,30 @@ const dailyMenus = [
     "extra": [
       "p2_m3",
       "p2_m5"
+    ]
+  },
+  {
+    "name": "Opción 4",
+    "targetMacros": {
+      "calories": 2000,
+      "protein": 150,
+      "carbs": 200,
+      "fats": 60
+    },
+    "desayuno": [
+      "des_revuelto_huevos_jamon"
+    ],
+    "comida": [
+      "cc_ensalada_patata_atun_huevo"
+    ],
+    "merienda": [
+      "ext_yogur_proteico_frutos"
+    ],
+    "cena": [
+      "cc_fajitas_pollo"
+    ],
+    "extra": [
+      "p1_m4"
     ]
   }
 ];
