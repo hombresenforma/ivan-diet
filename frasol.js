@@ -1,5 +1,7 @@
+// Última actualización: 27/04/2026
 // Titulo: Plan de Alimentación
-// Alergias: 
+// Alergias:
+
 const foodDatabase = {
   "p0_m0": {
     "name": "Tostada de Centeno con Queso Cottage y Cherries",
@@ -373,19 +375,19 @@ const foodDatabase = {
   "p1_m1": {
     "name": "Ensalada con Pollo y Queso de Burgos",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afdceb91eb360843d4a0b.png",
-    "calories": 496,
-    "protein": 59,
-    "carbs": 15,
-    "fats": 20,
+    "calories": 453,
+    "protein": 54,
+    "carbs": 11,
+    "fats": 19,
     "ingredients": [
       {
         "name": "Canónigos",
-        "quantity": "75",
+        "quantity": "55",
         "unit": "g",
-        "calories": 22.5,
-        "protein": 1.5,
-        "carbs": 3.75,
-        "fats": 0.15,
+        "calories": 16.5,
+        "protein": 1.1,
+        "carbs": 2.8,
+        "fats": 0.1,
         "baseCalories": 0.3,
         "baseProtein": 0.02,
         "baseCarbs": 0.05,
@@ -393,12 +395,12 @@ const foodDatabase = {
       },
       {
         "name": "Tomate",
-        "quantity": "75",
+        "quantity": "55",
         "unit": "g",
-        "calories": 22.5,
-        "protein": 1.5,
-        "carbs": 3.75,
-        "fats": 0.15,
+        "calories": 16.5,
+        "protein": 1.1,
+        "carbs": 2.8,
+        "fats": 0.1,
         "baseCalories": 0.3,
         "baseProtein": 0.02,
         "baseCarbs": 0.05,
@@ -406,12 +408,12 @@ const foodDatabase = {
       },
       {
         "name": "Cebolla",
-        "quantity": "75",
+        "quantity": "55",
         "unit": "g",
-        "calories": 22.5,
-        "protein": 1.5,
-        "carbs": 3.75,
-        "fats": 0.15,
+        "calories": 16.5,
+        "protein": 1.1,
+        "carbs": 2.8,
+        "fats": 0.1,
         "baseCalories": 0.3,
         "baseProtein": 0.02,
         "baseCarbs": 0.05,
@@ -419,12 +421,12 @@ const foodDatabase = {
       },
       {
         "name": "Queso de Burgos 0%",
-        "quantity": "100",
+        "quantity": "75",
         "unit": "g",
-        "calories": 100,
-        "protein": 12,
-        "carbs": 4,
-        "fats": 4,
+        "calories": 75,
+        "protein": 9,
+        "carbs": 3,
+        "fats": 3,
         "baseCalories": 1,
         "baseProtein": 0.12,
         "baseCarbs": 0.04,
@@ -463,19 +465,19 @@ const foodDatabase = {
   "p1_m2": {
     "name": "Wok de Verduras con Salmón",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afda0b91eb330dd3d49b2.png",
-    "calories": 377,
-    "protein": 26,
-    "carbs": 17,
-    "fats": 23,
+    "calories": 365,
+    "protein": 25,
+    "carbs": 15,
+    "fats": 22,
     "ingredients": [
       {
         "name": "Tomate",
-        "quantity": "85",
+        "quantity": "75",
         "unit": "g",
-        "calories": 25.5,
-        "protein": 1.7,
-        "carbs": 4.25,
-        "fats": 0.17,
+        "calories": 22.5,
+        "protein": 1.5,
+        "carbs": 3.8,
+        "fats": 0.1,
         "baseCalories": 0.3,
         "baseProtein": 0.02,
         "baseCarbs": 0.05,
@@ -483,12 +485,12 @@ const foodDatabase = {
       },
       {
         "name": "Pimiento Rojo",
-        "quantity": "85",
+        "quantity": "75",
         "unit": "g",
-        "calories": 25.5,
-        "protein": 1.7,
-        "carbs": 4.25,
-        "fats": 0.17,
+        "calories": 22.5,
+        "protein": 1.5,
+        "carbs": 3.8,
+        "fats": 0.1,
         "baseCalories": 0.3,
         "baseProtein": 0.02,
         "baseCarbs": 0.05,
@@ -496,12 +498,12 @@ const foodDatabase = {
       },
       {
         "name": "Pimiento Verde",
-        "quantity": "85",
+        "quantity": "75",
         "unit": "g",
-        "calories": 25.5,
-        "protein": 1.7,
-        "carbs": 4.25,
-        "fats": 0.17,
+        "calories": 22.5,
+        "protein": 1.5,
+        "carbs": 3.8,
+        "fats": 0.1,
         "baseCalories": 0.3,
         "baseProtein": 0.02,
         "baseCarbs": 0.05,
@@ -509,12 +511,12 @@ const foodDatabase = {
       },
       {
         "name": "Cebolla",
-        "quantity": "85",
+        "quantity": "75",
         "unit": "g",
-        "calories": 25.5,
-        "protein": 1.7,
-        "carbs": 4.25,
-        "fats": 0.17,
+        "calories": 22.5,
+        "protein": 1.5,
+        "carbs": 3.8,
+        "fats": 0.1,
         "baseCalories": 0.3,
         "baseProtein": 0.02,
         "baseCarbs": 0.05,
@@ -693,19 +695,19 @@ const foodDatabase = {
   "p2_m2": {
     "name": "Pimientos Salteados con Cebolla y Tomate Cherry.",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cd7144d6fb7451eb7bbf9.png",
-    "calories": 156,
-    "protein": 5,
-    "carbs": 11,
+    "calories": 147,
+    "protein": 4,
+    "carbs": 10,
     "fats": 10,
     "ingredients": [
       {
         "name": "Pimiento Rojo",
-        "quantity": "75",
+        "quantity": "65",
         "unit": "g",
-        "calories": 22.5,
-        "protein": 1.5,
-        "carbs": 3.75,
-        "fats": 0.15,
+        "calories": 19.5,
+        "protein": 1.3,
+        "carbs": 3.3,
+        "fats": 0.1,
         "baseCalories": 0.3,
         "baseProtein": 0.02,
         "baseCarbs": 0.05,
@@ -713,12 +715,12 @@ const foodDatabase = {
       },
       {
         "name": "Cebolla",
-        "quantity": "75",
+        "quantity": "65",
         "unit": "g",
-        "calories": 22.5,
-        "protein": 1.5,
-        "carbs": 3.75,
-        "fats": 0.15,
+        "calories": 19.5,
+        "protein": 1.3,
+        "carbs": 3.3,
+        "fats": 0.1,
         "baseCalories": 0.3,
         "baseProtein": 0.02,
         "baseCarbs": 0.05,
@@ -726,12 +728,12 @@ const foodDatabase = {
       },
       {
         "name": "Tomate Cherry",
-        "quantity": "75",
+        "quantity": "65",
         "unit": "g",
-        "calories": 22.5,
-        "protein": 1.5,
-        "carbs": 3.75,
-        "fats": 0.15,
+        "calories": 19.5,
+        "protein": 1.3,
+        "carbs": 3.3,
+        "fats": 0.1,
         "baseCalories": 0.3,
         "baseProtein": 0.02,
         "baseCarbs": 0.05,
@@ -1222,12 +1224,6 @@ const dailyMenus = [
       "protein": 150,
       "carbs": 200
     },
-    "baselineTotals": {
-      "calories": 1814,
-      "protein": 138,
-      "carbs": 175,
-      "fats": 58
-    },
     "desayuno": [
       "p0_m0",
       "p0_m1"
@@ -1251,12 +1247,6 @@ const dailyMenus = [
       "protein": 160,
       "carbs": 200
     },
-    "baselineTotals": {
-      "calories": 1615,
-      "protein": 127,
-      "carbs": 78,
-      "fats": 86
-    },
     "desayuno": [
       "p1_m0"
     ],
@@ -1276,12 +1266,6 @@ const dailyMenus = [
       "calories": 2000,
       "protein": 160,
       "carbs": 200
-    },
-    "baselineTotals": {
-      "calories": 1619,
-      "protein": 98,
-      "carbs": 77,
-      "fats": 99
     },
     "desayuno": [
       "p2_m0",
@@ -1306,12 +1290,6 @@ const dailyMenus = [
       "calories": 1800,
       "protein": 150,
       "carbs": 150
-    },
-    "baselineTotals": {
-      "calories": 2169,
-      "protein": 151,
-      "carbs": 150,
-      "fats": 103
     },
     "desayuno": [
       "p3_m0"
