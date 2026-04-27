@@ -1,5 +1,7 @@
+// Última actualización: 27/04/2026
 // Titulo: Plan de Alimentación
-// Alergias: 
+// Alergias:
+
 const foodDatabase = {
   "p0_m0": {
     "name": "Tostada de Centeno con Huevo y Aguacate",
@@ -157,9 +159,9 @@ const foodDatabase = {
   "p0_m3": {
     "name": "Judía verde con patata y Zanahoria",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cf5c1ddc9c1507857434b.png",
-    "calories": 290,
-    "protein": 12,
-    "carbs": 40,
+    "calories": 380,
+    "protein": 14,
+    "carbs": 60,
     "fats": 8,
     "ingredients": [
       {
@@ -177,12 +179,12 @@ const foodDatabase = {
       },
       {
         "name": "Patata",
-        "quantity": "100",
+        "quantity": "200",
         "unit": "g",
-        "calories": 90,
-        "protein": 2,
-        "carbs": 20,
-        "fats": 0.1,
+        "calories": 180,
+        "protein": 4,
+        "carbs": 40,
+        "fats": 0.2,
         "baseCalories": 0.9,
         "baseProtein": 0.02,
         "baseCarbs": 0.2,
@@ -1082,6 +1084,56 @@ const foodDatabase = {
     ],
     "preparation": "1. Seleccionar la fruta cítrica de preferencia. 2. Lavar bien la fruta bajo el grifo. 3. Para mandarinas y naranjas: pelar la piel con las manos. 4. Para kiwis: cortar por la mitad y comer la pulpa con una cucharita.",
     "originalBaseRecipeId": "ext_fruta_ctrica_mandarina_kiwi_naranja"
+  },
+  "cc_fajitas_pollo": {
+    "name": "Fajitas de Pollo y Verduras",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afcef0ed50608b742ff33.png",
+    "calories": 640,
+    "protein": 45,
+    "carbs": 70,
+    "fats": 18,
+    "ingredients": [
+      {
+        "name": "Tortilla de Trigo",
+        "quantity": "3",
+        "unit": "unidades",
+        "calories": 360,
+        "protein": 9,
+        "carbs": 63,
+        "fats": 7.5,
+        "baseCalories": 120,
+        "baseProtein": 3,
+        "baseCarbs": 21,
+        "baseFats": 2.5
+      },
+      {
+        "name": "Pechuga de Pollo",
+        "quantity": 150,
+        "unit": "g",
+        "calories": 240,
+        "protein": 35,
+        "carbs": 0,
+        "fats": 10,
+        "baseCalories": 1.6,
+        "baseProtein": 0.23333333333333334,
+        "baseCarbs": 0,
+        "baseFats": 0.06666666666666667
+      },
+      {
+        "name": "Pimientos y cebolla",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 40,
+        "protein": 1.3,
+        "carbs": 6.7,
+        "fats": 0.7,
+        "baseCalories": 0.4,
+        "baseProtein": 0.013333333333333334,
+        "baseCarbs": 0.06666666666666667,
+        "baseFats": 0.006666666666666667
+      }
+    ],
+    "preparation": "Saltear pollo y verduras, rellenar tortillas."
   }
 };
 const dailyMenus = [
@@ -1091,12 +1143,6 @@ const dailyMenus = [
       "calories": 1700,
       "protein": 140,
       "carbs": 140
-    },
-    "baselineTotals": {
-      "calories": 1852,
-      "protein": 121,
-      "carbs": 142,
-      "fats": 86
     },
     "desayuno": [
       "p0_m0"
@@ -1121,12 +1167,6 @@ const dailyMenus = [
       "protein": 140,
       "carbs": 140
     },
-    "baselineTotals": {
-      "calories": 1767,
-      "protein": 137,
-      "carbs": 123,
-      "fats": 77
-    },
     "desayuno": [
       "p1_m0"
     ],
@@ -1134,7 +1174,7 @@ const dailyMenus = [
       "p1_m1"
     ],
     "cena": [
-      "p1_m2"
+      "cc_fajitas_pollo"
     ],
     "extra": [
       "p1_m3",
@@ -1147,12 +1187,6 @@ const dailyMenus = [
       "calories": 1800,
       "protein": 150,
       "carbs": 150
-    },
-    "baselineTotals": {
-      "calories": 1717,
-      "protein": 105,
-      "carbs": 115,
-      "fats": 90
     },
     "desayuno": [
       "p2_m0"
@@ -1174,12 +1208,6 @@ const dailyMenus = [
       "calories": 1800,
       "protein": 150,
       "carbs": 150
-    },
-    "baselineTotals": {
-      "calories": 1540,
-      "protein": 150,
-      "carbs": 150,
-      "fats": 35
     },
     "desayuno": [
       "p3_m0"
