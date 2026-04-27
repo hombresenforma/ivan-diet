@@ -1,4 +1,4 @@
-// Última actualización: 20/04/2026
+// Última actualización: 27/04/2026
 
 
 const foodDatabase = {
@@ -135,9 +135,9 @@ const foodDatabase = {
   "p0_m2": {
     "name": "Pechuga de Pavo a la Plancha",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684f003ef6c48dfc43a5bdb3.png",
-    "calories": 248,
-    "protein": 28,
-    "carbs": 0,
+    "calories": 289,
+    "protein": 29,
+    "carbs": 10,
     "fats": 14,
     "ingredients": [
       {
@@ -165,6 +165,19 @@ const foodDatabase = {
         "baseProtein": 0,
         "baseCarbs": 0,
         "baseFats": 1
+      },
+      {
+        "name": "Zanahoria",
+        "quantity": 100,
+        "unit": "g",
+        "baseCalories": 0.41,
+        "baseProtein": 0.01,
+        "baseCarbs": 0.1,
+        "baseFats": 0,
+        "calories": 41,
+        "protein": 1,
+        "carbs": 10,
+        "fats": 0
       }
     ],
     "preparation": "1. Si los filetes de pechuga de pavo son muy gruesos, se pueden abrir tipo libro o golpear ligeramente para que tengan un grosor más uniforme y se cocinen mejor. 2. Sazonar los filetes de pavo con sal, pimienta y tus especias favoritas (ej. orégano, pimentón dulce, curry en polvo, hierbas provenzales). 3. Calentar una plancha o sartén antiadherente a fuego medio-alto con una gota de aceite de oliva. 4. Cocinar la pechuga de pavo durante unos 3-4 minutos por cada lado, o hasta que esté dorada por fuera y completamente cocida por dentro (sin partes rosadas). El tiempo exacto dependerá del grosor.",
@@ -1214,19 +1227,19 @@ const foodDatabase = {
   "des_porridge_avena_frutos_rojos": {
     "name": "Porridge de Avena y Frutos Rojos",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afdf19b8ed348797cbcd8.png",
-    "calories": 441,
+    "calories": 445,
     "protein": 19,
-    "carbs": 64,
-    "fats": 10,
+    "carbs": 52,
+    "fats": 16,
     "ingredients": [
       {
         "name": "Copos de Avena",
-        "quantity": "70",
+        "quantity": "50",
         "unit": "g",
-        "calories": 266,
-        "protein": 9.8,
-        "carbs": 46.2,
-        "fats": 4.2,
+        "calories": 190,
+        "protein": 7,
+        "carbs": 33,
+        "fats": 3,
         "baseCalories": 3.8,
         "baseProtein": 0.14,
         "baseCarbs": 0.66,
@@ -1247,16 +1260,29 @@ const foodDatabase = {
       },
       {
         "name": "Frutos Rojos",
-        "quantity": "50",
+        "quantity": "30",
         "unit": "g",
-        "calories": 25,
-        "protein": 0.6,
-        "carbs": 5,
-        "fats": 0.6,
+        "calories": 15,
+        "protein": 0.4,
+        "carbs": 3,
+        "fats": 0.4,
         "baseCalories": 0.5,
         "baseProtein": 0.0125,
         "baseCarbs": 0.1,
         "baseFats": 0.0125
+      },
+      {
+        "name": "Frutos Secos",
+        "quantity": "15",
+        "unit": "g",
+        "baseCalories": 6,
+        "baseProtein": 0.2,
+        "baseCarbs": 0.2,
+        "baseFats": 0.5,
+        "calories": 90,
+        "protein": 3,
+        "carbs": 3,
+        "fats": 7.5
       }
     ],
     "preparation": "Cocer avena con leche y añadir frutos."
@@ -1264,10 +1290,10 @@ const foodDatabase = {
   "des_revuelto_huevos_jamon": {
     "name": "Revuelto de Huevos con Jamón",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682ad5e1e819fcb589a8a30e.png",
-    "calories": 222,
-    "protein": 22,
-    "carbs": 1,
-    "fats": 15,
+    "calories": 183,
+    "protein": 19,
+    "carbs": 2,
+    "fats": 11,
     "ingredients": [
       {
         "name": "Huevos",
@@ -1283,17 +1309,17 @@ const foodDatabase = {
         "baseFats": 5
       },
       {
-        "name": "Jamón Serrano",
+        "name": "Jamón Cocido",
         "quantity": "30",
         "unit": "g",
-        "calories": 72,
-        "protein": 7.5,
-        "carbs": 0,
-        "fats": 4.5,
-        "baseCalories": 2.4,
-        "baseProtein": 0.25,
-        "baseCarbs": 0,
-        "baseFats": 0.15
+        "baseCalories": 1.1,
+        "baseProtein": 0.18,
+        "baseCarbs": 0.02,
+        "baseFats": 0.04,
+        "calories": 33,
+        "protein": 5.4,
+        "carbs": 0.6,
+        "fats": 1.2
       }
     ],
     "preparation": "Batir huevos y saltear con jamón."
