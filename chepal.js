@@ -906,159 +906,121 @@ const foodDatabase = {
     "originalBaseRecipeId": "cc_pasta_tricolor_con_pisto_de_verduras_y_carne_picada"
   },
   "p3_m1": {
-    "name": "Ensalada de garbanzos con verduras",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68ff252d3f16b5241c27c1e4.png",
-    "calories": 313,
-    "protein": 14,
-    "carbs": 33,
-    "fats": 14,
+    "name": "Fajitas de Pollo y Verduras",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afcef0ed50608b742ff33.png",
+    "calories": 586,
+    "protein": 69,
+    "carbs": 41,
+    "fats": 13,
     "ingredients": [
       {
-        "name": "Garbanzos en Conserva",
+        "name": "Pan de Fajita",
+        "quantity": "1",
+        "unit": "rebanada",
+        "calories": 108,
+        "protein": 3.5999999999999996,
+        "carbs": 20,
+        "fats": 1.2,
+        "baseCalories": 108,
+        "baseProtein": 3.5999999999999996,
+        "baseCarbs": 20,
+        "baseFats": 1.2
+      },
+      {
+        "name": "Tomate",
+        "quantity": "75",
+        "unit": "g",
+        "calories": 22.5,
+        "protein": 1.5,
+        "carbs": 3.75,
+        "fats": 0.15,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Pimiento Rojo",
         "quantity": "100",
         "unit": "g",
-        "calories": 130,
-        "protein": 8,
-        "carbs": 22,
-        "fats": 0.5,
-        "baseCalories": 1.3,
-        "baseProtein": 0.08,
-        "baseCarbs": 0.22,
-        "baseFats": 0.005
+        "calories": 30,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
       },
       {
-        "name": "Aguacate",
-        "quantity": "30",
-        "unit": "g",
-        "calories": 135,
-        "protein": 3,
-        "carbs": 4.5,
-        "fats": 12,
-        "baseCalories": 4.5,
-        "baseProtein": 0.1,
-        "baseCarbs": 0.15,
-        "baseFats": 0.4
-      },
-      {
-        "name": "Pepino",
-        "quantity": "30",
+        "name": "Pimiento Verde",
+        "quantity": "100",
         "unit": "g",
         "calories": 30,
-        "protein": 1.5,
-        "carbs": 3,
-        "fats": 1.2,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Cebolla",
+        "quantity": "75",
+        "unit": "g",
+        "calories": 75,
+        "protein": 3.75,
+        "carbs": 7.5,
+        "fats": 3,
         "baseCalories": 1,
         "baseProtein": 0.05,
         "baseCarbs": 0.1,
         "baseFats": 0.04
       },
       {
-        "name": "Tomates Cherry",
-        "quantity": "30",
+        "name": "Pechuga de Pollo",
+        "quantity": "200",
         "unit": "g",
-        "calories": 9,
-        "protein": 0.6,
-        "carbs": 1.5,
-        "fats": 0.06,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Espinacas",
-        "quantity": "30",
-        "unit": "g",
-        "calories": 9,
-        "protein": 0.6,
-        "carbs": 1.5,
-        "fats": 0.06,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
+        "calories": 320,
+        "protein": 56.00000000000001,
+        "carbs": 0,
+        "fats": 8,
+        "baseCalories": 1.6,
+        "baseProtein": 0.28,
+        "baseCarbs": 0,
+        "baseFats": 0.04
       }
     ],
-    "preparation": "1. Enjuagar los garbanzos y escurrirlos. 2. Picar el aguacate, pepino y tomates cherry. 3. Mezclar todos los ingredientes en un bol con las espinacas. 4. Cortar el queso de Burgos en dados y añadirlo a la ensalada. 5. Aliñar al gusto con aceite de oliva, vinagre y sal.",
-    "originalBaseRecipeId": "pp_ensalada_de_garbanzos_con_verduras_y_queso"
+    "preparation": "1. Cortar la pechuga de pollo en tiras finas. Cortar el pimiento rojo, pimiento Verde y cebolla en juliana. Picar el tomate en dados pequeños. 2. Calentar un poco de aceite en una sartén grande. Saltear el pollo hasta que esté dorado y cocido. Retirar y reservar. 3. En la misma sartén, añadir un poco más de aceite si es necesario y saltear las verduras (pimientos y cebolla) hasta que estén tiernas pero crujientes. 4. Volver a añadir el pollo a la sartén con las verduras. Sazonar con especias para fajitas (opcional) o sal y pimienta. Mezclar bien. 5. Calentar las tortillas de fajita según las instrucciones del paquete. 6. Rellenar las tortillas con la mezcla de pollo y verduras, y añadir el tomate fresco picado por encima. Opcional: servir con guacamole, crema agria o salsa.",
+    "originalBaseRecipeId": "cc_fajitas_de_pollo_y_verduras"
   },
   "p3_m2": {
-    "name": "Hamburguesa de Pavo-Pollo",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afcbc9b8ed3b6397cbb33.png",
-    "calories": 274,
-    "protein": 16,
-    "carbs": 2,
-    "fats": 23,
+    "name": "Fruta Densa (Plátano, Manzana)",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe4bb91eb325b93d4a82.png",
+    "calories": 90,
+    "protein": 1,
+    "carbs": 23,
+    "fats": 0,
     "ingredients": [
       {
-        "name": "Hamburguesa de Pavo-Pollo",
-        "quantity": "100",
-        "unit": "g",
-        "calories": 229.99999999999997,
-        "protein": 16,
-        "carbs": 2,
-        "fats": 18,
-        "baseCalories": 2.3,
-        "baseProtein": 0.16,
-        "baseCarbs": 0.02,
-        "baseFats": 0.18
-      },
-      {
-        "name": "Aceite de Oliva Virgen Extra",
-        "quantity": "5",
-        "unit": "g",
-        "calories": 44.2,
-        "protein": 0,
-        "carbs": 0,
-        "fats": 5,
-        "baseCalories": 8.84,
-        "baseProtein": 0,
-        "baseCarbs": 0,
-        "baseFats": 1
+        "name": "Manzana",
+        "quantity": "1",
+        "unit": "ud",
+        "calories": 90,
+        "protein": 0.75,
+        "carbs": 22.5,
+        "fats": 0.3,
+        "baseCalories": 90,
+        "baseProtein": 0.75,
+        "baseCarbs": 22.5,
+        "baseFats": 0.3
       }
     ],
-    "preparation": "1. Si la hamburguesa es casera a partir de carne picada, sazonar la carne con sal, pimienta, ajo en polvo y perejil picado (opcional) y formar la hamburguesa. 2. Calentar una plancha o sartén antiadherente a fuego medio-alto con una gota de aceite de oliva. 3. Cocinar la hamburguesa durante 4-6 minutos por cada lado, o hasta que esté bien cocida por dentro y dorada por fuera.",
-    "originalBaseRecipeId": "ac_hamburguesa_de_pavopollo"
+    "preparation": "1. Seleccionar la fruta densa de preferencia. 2. Para plátanos: pelar la piel y consumir directamente. 3. Para manzanas o peras: lavar bien la fruta. Se puede consumir con piel o pelada.",
+    "originalBaseRecipeId": "ext_fruta_densa_pltano_manzana"
   },
   "p3_m3": {
-    "name": "Queso Fresco Batido con Frutos Rojos",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6879302d02da47667d446b43.png",
-    "calories": 195,
-    "protein": 9,
-    "carbs": 37,
-    "fats": 3,
-    "ingredients": [
-      {
-        "name": "Queso Fresco Batido",
-        "quantity": "51",
-        "unit": "g",
-        "calories": 51,
-        "protein": 6.12,
-        "carbs": 2.04,
-        "fats": 2.04,
-        "baseCalories": 1,
-        "baseProtein": 0.12,
-        "baseCarbs": 0.04,
-        "baseFats": 0.04
-      },
-      {
-        "name": "Frutos Rojos",
-        "quantity": "288",
-        "unit": "g",
-        "calories": 144,
-        "protein": 2.88,
-        "carbs": 34.56,
-        "fats": 1.44,
-        "baseCalories": 0.5,
-        "baseProtein": 0.01,
-        "baseCarbs": 0.12000000000000001,
-        "baseFats": 0.005
-      }
-    ],
-    "preparation": "1. En un bol, verter el queso fresco. 2. Añadir los frutos rojos frescos o descongelados. 3. Echar la cantidad de miel acordada por encima.",
-    "originalBaseRecipeId": "ext_queso_fresco_batido_con_frutos_rojos_y_miel"
-  },
-  "p3_m4": {
     "name": "Yogur Protéico (Sabores, Natural...)",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd789b8ed38b127cbc09.png",
     "calories": 100,
@@ -1083,7 +1045,7 @@ const foodDatabase = {
     "preparation": "1. Seleccionar el yogur proteico de preferencia. 2. Abrir el envase. 3. Consumir directamente con una cuchara.",
     "originalBaseRecipeId": "ext_yogur_protico_sabores_natural"
   },
-  "p3_m5": {
+  "p3_m4": {
     "name": "Frutos Secos (Mezcla)",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68525c0b1d27cfeb580a55f7.png",
     "calories": 65,
@@ -1235,13 +1197,12 @@ const dailyMenus = [
       "p3_m0"
     ],
     "cena": [
-      "p3_m1",
-      "p3_m2"
+      "p3_m1"
     ],
     "extra": [
+      "p3_m2",
       "p3_m3",
-      "p3_m4",
-      "p3_m5"
+      "p3_m4"
     ]
   }
 ];
