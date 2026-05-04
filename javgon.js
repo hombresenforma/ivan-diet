@@ -66,6 +66,109 @@ const foodDatabase = {
     "originalBaseRecipeId": "des_tostada_de_centeno_con_huevo_y_aguacate"
   },
   "p0_m1": {
+    "name": "Ensalada de Pasta con Pollo",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afc47b91eb349463d47dd.png",
+    "calories": 742,
+    "protein": 64,
+    "carbs": 82,
+    "fats": 15,
+    "ingredients": [
+      {
+        "name": "Pasta Integral",
+        "quantity": "70",
+        "unit": "g",
+        "calories": 255.5,
+        "protein": 8.4,
+        "carbs": 52.5,
+        "fats": 1.4000000000000001,
+        "baseCalories": 3.65,
+        "baseProtein": 0.12,
+        "baseCarbs": 0.75,
+        "baseFats": 0.02
+      },
+      {
+        "name": "Canónigos",
+        "quantity": "85",
+        "unit": "g",
+        "calories": 85,
+        "protein": 4.25,
+        "carbs": 8.5,
+        "fats": 3.4,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Tomate",
+        "quantity": "85",
+        "unit": "g",
+        "calories": 25.5,
+        "protein": 1.7,
+        "carbs": 4.25,
+        "fats": 0.17,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Pimiento Rojo",
+        "quantity": "85",
+        "unit": "g",
+        "calories": 25.5,
+        "protein": 1.7,
+        "carbs": 4.25,
+        "fats": 0.17,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Pimiento Verde",
+        "quantity": "85",
+        "unit": "g",
+        "calories": 25.5,
+        "protein": 1.7,
+        "carbs": 4.25,
+        "fats": 0.17,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Cebolla",
+        "quantity": "85",
+        "unit": "g",
+        "calories": 85,
+        "protein": 4.25,
+        "carbs": 8.5,
+        "fats": 3.4,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Pechuga de Pollo",
+        "quantity": "150",
+        "unit": "g",
+        "calories": 240,
+        "protein": 42.00000000000001,
+        "carbs": 0,
+        "fats": 6,
+        "baseCalories": 1.6,
+        "baseProtein": 0.28,
+        "baseCarbs": 0,
+        "baseFats": 0.04
+      }
+    ],
+    "preparation": "1. Cocer la pasta según las instrucciones del paquete. Escurrir, pasar por agua fría para detener la cocción y dejar enfriar. 2. Cocinar la pechuga de pollo (a la plancha, hervida o asada) y desmenuzarla o cortarla en dados. 3. Lavar los canónigos. Picar el tomate, pimiento rojo, pimiento verde y cebolla en trozos pequeños. 4. En un bol grande, combinar la pasta fría, el pollo, los canónigos y las verduras picadas. 5. Aliñar con aceite de oliva virgen extra, vinagre o tu salsa para ensaladas favorita (ej. yogur, mostaza y miel). Salpimentar al gusto.",
+    "originalBaseRecipeId": "cc_ensalada_de_pasta_con_pollo"
+  },
+  "p0_m2": {
     "name": "Ensalada de burrata, melocotón, canónigos y cebolla",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684efad26202d54cb3de2a02.png",
     "calories": 365,
@@ -129,7 +232,7 @@ const foodDatabase = {
     "preparation": "1. Lavar los canónigos y escurrirlos bien. Disponerlos como base en un plato o ensaladera. 2. Pelar el melocotón (si se prefiere, aunque la piel también es comestible si está bien lavada) y cortarlo en gajos o dados. 3. Picar la cebolla (preferiblemente morada por su suavidad y color) en juliana muy fina. 4. Colocar la burrata fresca en el centro, sobre la cama de canónigos. 5. Distribuir armoniosamente los trozos de melocotón y la cebolla en juliana alrededor y sobre la burrata. 6. Aliñar con aceite de oliva virgen extra, sal en escamas (opcional), pimienta negra recién molida y, si se desea, un chorrito de vinagre suave (como el de manzana o sidra) o una reducción de vinagre balsámico.",
     "originalBaseRecipeId": "pp_ensalada_de_burrata_melocotn_cannigos_y_cebolla"
   },
-  "p0_m2": {
+  "p0_m3": {
     "name": "Cinta de Cerdo a la Plancha",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684f007b4d606644a53332bf.png",
     "calories": 264,
@@ -167,7 +270,7 @@ const foodDatabase = {
     "preparation": "1. Sazonar los filetes de cinta de lomo de cerdo por ambos lados con sal, pimienta y ajo en polvo (opcional). 2. Calentar una plancha o sartén antiadherente a fuego medio-alto con un poco de aceite de oliva. 3. Cocinar los filetes de lomo durante unos 2-4 minutos por cada lado, dependiendo del grosor y del punto de cocción deseado. Es importante no cocinarlos en exceso para evitar que queden secos.",
     "originalBaseRecipeId": "ac_cinta_de_cerdo_a_la_plancha"
   },
-  "p0_m3": {
+  "p0_m4": {
     "name": "Yogur Protéico (Sabores, Natural...)",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd789b8ed38b127cbc09.png",
     "calories": 125,
@@ -192,7 +295,7 @@ const foodDatabase = {
     "preparation": "1. Seleccionar el yogur proteico de preferencia. 2. Abrir el envase. 3. Consumir directamente con una cuchara.",
     "originalBaseRecipeId": "ext_yogur_protico_sabores_natural"
   },
-  "p0_m4": {
+  "p0_m5": {
     "name": "Fruta Densa (Plátano, Manzana)",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe4bb91eb325b93d4a82.png",
     "calories": 72,
@@ -216,83 +319,6 @@ const foodDatabase = {
     ],
     "preparation": "1. Seleccionar la fruta densa de preferencia. 2. Para plátanos: pelar la piel y consumir directamente. 3. Para manzanas o peras: lavar bien la fruta. Se puede consumir con piel o pelada.",
     "originalBaseRecipeId": "ext_fruta_densa_pltano_manzana"
-  },
-  "p0_m5": {
-    "name": "Wok de Verduras con Salmón",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afda0b91eb330dd3d49b2.png",
-    "calories": 602,
-    "protein": 53,
-    "carbs": 21,
-    "fats": 32,
-    "ingredients": [
-      {
-        "name": "Tomate",
-        "quantity": "85",
-        "unit": "g",
-        "calories": 25.5,
-        "protein": 1.7,
-        "carbs": 4.25,
-        "fats": 0.17,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Pimiento Rojo",
-        "quantity": "85",
-        "unit": "g",
-        "calories": 25.5,
-        "protein": 1.7,
-        "carbs": 4.25,
-        "fats": 0.17,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Pimiento Verde",
-        "quantity": "85",
-        "unit": "g",
-        "calories": 25.5,
-        "protein": 1.7,
-        "carbs": 4.25,
-        "fats": 0.17,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Cebolla",
-        "quantity": "85",
-        "unit": "g",
-        "calories": 85,
-        "protein": 4.25,
-        "carbs": 8.5,
-        "fats": 3.4,
-        "baseCalories": 1,
-        "baseProtein": 0.05,
-        "baseCarbs": 0.1,
-        "baseFats": 0.04
-      },
-      {
-        "name": "Lomo de Salmón",
-        "quantity": "200",
-        "unit": "g",
-        "calories": 440.00000000000006,
-        "protein": 44,
-        "carbs": 0,
-        "fats": 28.000000000000004,
-        "baseCalories": 2.2,
-        "baseProtein": 0.22,
-        "baseCarbs": 0,
-        "baseFats": 0.14
-      }
-    ],
-    "preparation": "1. Cortar el salmón en dados de tamaño mediano. Picar el tomate, pimiento rojo, pimiento verde y cebolla en trozos adecuados para wok (ej. juliana gruesa o dados). 2. Calentar un wok o sartén grande con un poco de aceite a fuego alto. Saltear el salmón unos 2-3 minutos hasta que esté dorado por fuera pero ligeramente crudo por dentro. Retirar y reservar. 3. Añadir las verduras más duras (cebolla, pimientos) al wok y saltear durante 3-4 minutos. Luego añadir el tomate y saltear 1-2 minutos más. 4. Incorporar el salmón de nuevo al wok. Añadir salsa de soja (baja en sodio preferiblemente) y un toque de jengibre rallado o ajo picado (opcional). Mezclar bien y cocinar por 1-2 minutos más hasta que el salmón esté cocido y todo bien caliente. Servir inmediatamente, opcionalmente sobre una base de arroz o noodles.",
-    "originalBaseRecipeId": "cc_wok_de_verduras_con_salmn"
   },
   "p1_m0": {
     "name": "Tostada de Pan de Centeno con Revuelto de Huevos y Jamón York",
@@ -703,93 +729,80 @@ const foodDatabase = {
     "originalBaseRecipeId": "cc_musakka_de_patata_al_horno_con_verduras_y_carne_picada"
   },
   "p2_m2": {
-    "name": "Ensalada tibia de garbanzos al pesto con berenjena y espinacas",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684ef8f6f6c48d704ca5ae98.png",
-    "calories": 171,
-    "protein": 10,
-    "carbs": 27,
-    "fats": 2,
+    "name": "Calabacín con Cebolla a la Plancha",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afc8e9b8ed35d8e7cbb0e.png",
+    "calories": 130,
+    "protein": 7,
+    "carbs": 15,
+    "fats": 4,
     "ingredients": [
       {
-        "name": "Garbanzos Cocidos",
-        "quantity": "85",
-        "unit": "g",
-        "calories": 110.5,
-        "protein": 6.8,
-        "carbs": 18.7,
-        "fats": 0.425,
-        "baseCalories": 1.3,
-        "baseProtein": 0.08,
-        "baseCarbs": 0.22,
-        "baseFats": 0.005
-      },
-      {
-        "name": "Pesto",
-        "quantity": "30",
+        "name": "Calabacín",
+        "quantity": "100",
         "unit": "g",
         "calories": 30,
-        "protein": 1.5,
-        "carbs": 3,
-        "fats": 1.2,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Cebolla",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 100,
+        "protein": 5,
+        "carbs": 10,
+        "fats": 4,
         "baseCalories": 1,
         "baseProtein": 0.05,
         "baseCarbs": 0.1,
         "baseFats": 0.04
-      },
-      {
-        "name": "Berenjena",
-        "quantity": "50",
-        "unit": "g",
-        "calories": 15,
-        "protein": 1,
-        "carbs": 2.5,
-        "fats": 0.1,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Espinacas",
-        "quantity": "50",
-        "unit": "g",
-        "calories": 15,
-        "protein": 1,
-        "carbs": 2.5,
-        "fats": 0.1,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
       }
     ],
-    "preparation": "1. Precalentar el horno a 200°C. Cortar la berenjena en dados, rociar con un poco de aceite de oliva, salpimentar y asar en el horno durante 15-20 minutos o hasta que esté tierna y dorada. 2. Si usas garbanzos de bote, enjuagarlos y escurrirlos bien. Calentarlos ligeramente en una sartén o en el microondas. 3. En un bol grande, mezclar los garbanzos calientes con la cantidad deseada de pesto. 4. Añadir la berenjena asada y las espinacas frescas. Mezclar suavemente para combinar todos los ingredientes. 5. Servir tibia.",
-    "originalBaseRecipeId": "pp_ensalada_tibia_de_garbanzos_al_pesto_con_berenjena_y_espinacas"
+    "preparation": "1. Lavar el calabacín y cortarlo en rodajas de aproximadamente 0.5 a 1 cm de grosor. Pelar y cortar la cebolla en juliana o rodajas. 2. Calentar una plancha o sartén grande con un chorrito de aceite de oliva a fuego medio-alto. 3. Colocar las rodajas de calabacín y la cebolla sobre la plancha caliente. Cocinar durante 3-5 minutos por cada lado, o hasta que estén tiernos y presenten marcas doradas de la plancha. 4. Sazonar con sal, pimienta y opcionalmente un poco de ajo en polvo u orégano durante la cocción o al final.",
+    "originalBaseRecipeId": "pp_calabacn_con_cebolla_a_la_plancha"
   },
   "p2_m3": {
-    "name": "Lenguado a la Plancha",
-    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69b66f8887f0f23298065695.png",
-    "calories": 150,
-    "protein": 8,
-    "carbs": 15,
-    "fats": 6,
+    "name": "Hamburguesa de Pavo-Pollo",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afcbc9b8ed3b6397cbb33.png",
+    "calories": 274,
+    "protein": 16,
+    "carbs": 2,
+    "fats": 23,
     "ingredients": [
       {
-        "name": "Lenguado",
-        "quantity": "150",
+        "name": "Hamburguesa de Pavo-Pollo",
+        "quantity": "100",
         "unit": "g",
-        "calories": 150,
-        "protein": 7.5,
-        "carbs": 15,
-        "fats": 6,
-        "baseCalories": 1,
-        "baseProtein": 0.05,
-        "baseCarbs": 0.1,
-        "baseFats": 0.04
+        "calories": 229.99999999999997,
+        "protein": 16,
+        "carbs": 2,
+        "fats": 18,
+        "baseCalories": 2.3,
+        "baseProtein": 0.16,
+        "baseCarbs": 0.02,
+        "baseFats": 0.18
+      },
+      {
+        "name": "Aceite de Oliva Virgen Extra",
+        "quantity": "5",
+        "unit": "g",
+        "calories": 44.2,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 5,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1
       }
     ],
-    "preparation": "1. Sazonar el lenguado con sal y pimienta. 2. Calentar una plancha o sartén con un poco de aceite. 3. Cocinar el lenguado por ambos lados hasta que esté dorado y cocido.",
-    "originalBaseRecipeId": "ac_lenguado_a_la_plancha"
+    "preparation": "1. Si la hamburguesa es casera a partir de carne picada, sazonar la carne con sal, pimienta, ajo en polvo y perejil picado (opcional) y formar la hamburguesa. 2. Calentar una plancha o sartén antiadherente a fuego medio-alto con una gota de aceite de oliva. 3. Cocinar la hamburguesa durante 4-6 minutos por cada lado, o hasta que esté bien cocida por dentro y dorada por fuera.",
+    "originalBaseRecipeId": "ac_hamburguesa_de_pavopollo"
   },
   "p2_m4": {
     "name": "Fruta Densa (Plátano, Manzana)",
@@ -996,57 +1009,6 @@ const foodDatabase = {
     "originalBaseRecipeId": "cc_pollo_al_curry_thai_con_arroz"
   },
   "p3_m2": {
-    "name": "Yogur Protéico con Frutos Rojos y Secos",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afea2b91eb35e413d4ab6.png",
-    "calories": 125,
-    "protein": 4,
-    "carbs": 10,
-    "fats": 8,
-    "ingredients": [
-      {
-        "name": "Yogur Protéico",
-        "quantity": "45",
-        "unit": "g",
-        "calories": 45,
-        "protein": 2.25,
-        "carbs": 4.5,
-        "fats": 1.8,
-        "baseCalories": 1,
-        "baseProtein": 0.05,
-        "baseCarbs": 0.1,
-        "baseFats": 0.04
-      },
-      {
-        "name": "Frutos Rojos",
-        "quantity": "25",
-        "unit": "g",
-        "calories": 12.5,
-        "protein": 0.25,
-        "carbs": 3,
-        "fats": 0.125,
-        "baseCalories": 0.5,
-        "baseProtein": 0.01,
-        "baseCarbs": 0.12,
-        "baseFats": 0.005
-      },
-      {
-        "name": "Frutos Secos",
-        "quantity": "15",
-        "unit": "g",
-        "calories": 67.5,
-        "protein": 1.5,
-        "carbs": 2.25,
-        "fats": 6,
-        "baseCalories": 4.5,
-        "baseProtein": 0.1,
-        "baseCarbs": 0.15,
-        "baseFats": 0.4
-      }
-    ],
-    "preparation": "1. En un bol, verter el yogur proteico. 2. Añadir los frutos rojos frescos o descongelados. 3. Espolvorear con los frutos secos troceados por encima.",
-    "originalBaseRecipeId": "ext_yogur_protico_con_frutos_rojos_y_secos"
-  },
-  "p3_m3": {
     "name": "Pasta de lentejas con sofrito de ternera y cerdo",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684efc77653a2c50f9172c7c.png",
     "calories": 625,
@@ -1122,6 +1084,57 @@ const foodDatabase = {
     ],
     "preparation": "1. Cocinar la pasta de lentejas según las instrucciones del paquete hasta que esté al dente. Escurrir y reservar. 2. Picar finamente la cebolla y la zanahoria. Rallar o picar el calabacín en dados pequeños. 3. En una sartén grande, calentar un poco de aceite de oliva y sofreír la cebolla y zanahoria hasta que estén blandas. 4. Añadir la carne picada mixta (ternera y cerdo) y cocinar a fuego medio-alto, deshaciendo los grumos con una cuchara, hasta que se dore. 5. Incorporar el calabacín y cocinar unos minutos más hasta que esté tierno. Añadir salsa de tomate (opcional, o tomate triturado natural) y sazonar al gusto con sal, pimienta, orégano o albahaca. Cocinar a fuego lento durante 10-15 minutos para que se integren los sabores. 6. Mezclar la pasta de lentejas escurrida con el sofrito. Servir caliente, opcionalmente con queso parmesano rallado.",
     "originalBaseRecipeId": "cc_pasta_de_lentejas_con_sofrito_de_ternera_y_cerdo"
+  },
+  "p3_m3": {
+    "name": "Yogur Protéico con Frutos Rojos y Secos",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afea2b91eb35e413d4ab6.png",
+    "calories": 125,
+    "protein": 4,
+    "carbs": 10,
+    "fats": 8,
+    "ingredients": [
+      {
+        "name": "Yogur Protéico",
+        "quantity": "45",
+        "unit": "g",
+        "calories": 45,
+        "protein": 2.25,
+        "carbs": 4.5,
+        "fats": 1.8,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Frutos Rojos",
+        "quantity": "25",
+        "unit": "g",
+        "calories": 12.5,
+        "protein": 0.25,
+        "carbs": 3,
+        "fats": 0.125,
+        "baseCalories": 0.5,
+        "baseProtein": 0.01,
+        "baseCarbs": 0.12,
+        "baseFats": 0.005
+      },
+      {
+        "name": "Frutos Secos",
+        "quantity": "15",
+        "unit": "g",
+        "calories": 67.5,
+        "protein": 1.5,
+        "carbs": 2.25,
+        "fats": 6,
+        "baseCalories": 4.5,
+        "baseProtein": 0.1,
+        "baseCarbs": 0.15,
+        "baseFats": 0.4
+      }
+    ],
+    "preparation": "1. En un bol, verter el yogur proteico. 2. Añadir los frutos rojos frescos o descongelados. 3. Espolvorear con los frutos secos troceados por encima.",
+    "originalBaseRecipeId": "ext_yogur_protico_con_frutos_rojos_y_secos"
   }
 };
 const dailyMenus = [
@@ -1142,15 +1155,15 @@ const dailyMenus = [
       "p0_m0"
     ],
     "comida": [
-      "p0_m5"
+      "p0_m1"
     ],
     "cena": [
-      "p0_m1",
-      "p0_m2"
+      "p0_m2",
+      "p0_m3"
     ],
     "extra": [
-      "p0_m3",
-      "p0_m4"
+      "p0_m4",
+      "p0_m5"
     ]
   },
   {
@@ -1229,10 +1242,10 @@ const dailyMenus = [
       "p3_m1"
     ],
     "cena": [
-      "p3_m3"
+      "p3_m2"
     ],
     "extra": [
-      "p3_m2"
+      "p3_m3"
     ]
   }
 ];
