@@ -117,34 +117,21 @@ const foodDatabase = {
     "originalBaseRecipeId": "cc_pasta_tricolor_con_pisto_de_verduras_y_carne_picada"
   },
   "p0_m2": {
-    "name": "Boniato asado con ensalada de tomate",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684efcd1f6c48df26aa5ba5b.png",
-    "calories": 336,
-    "protein": 9,
-    "carbs": 51,
-    "fats": 11,
+    "name": "Calabacín con Cebolla a la Plancha",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afc8e9b8ed35d8e7cbb0e.png",
+    "calories": 130,
+    "protein": 7,
+    "carbs": 15,
+    "fats": 4,
     "ingredients": [
       {
-        "name": "Boniato",
-        "quantity": "200",
+        "name": "Calabacín",
+        "quantity": "100",
         "unit": "g",
-        "calories": 180,
-        "protein": 4,
-        "carbs": 40,
+        "calories": 30,
+        "protein": 2,
+        "carbs": 5,
         "fats": 0.2,
-        "baseCalories": 0.9,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.2,
-        "baseFats": 0.001
-      },
-      {
-        "name": "Tomate",
-        "quantity": "150",
-        "unit": "g",
-        "calories": 45,
-        "protein": 3,
-        "carbs": 7.5,
-        "fats": 0.3,
         "baseCalories": 0.3,
         "baseProtein": 0.02,
         "baseCarbs": 0.05,
@@ -152,58 +139,58 @@ const foodDatabase = {
       },
       {
         "name": "Cebolla",
-        "quantity": "75",
+        "quantity": "100",
         "unit": "g",
-        "calories": 22.5,
-        "protein": 1.5,
-        "carbs": 3.75,
-        "fats": 0.15,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
+        "calories": 100,
+        "protein": 5,
+        "carbs": 10,
+        "fats": 4,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      }
+    ],
+    "preparation": "1. Lavar el calabacín y cortarlo en rodajas de aproximadamente 0.5 a 1 cm de grosor. Pelar y cortar la cebolla en juliana o rodajas. 2. Calentar una plancha o sartén grande con un chorrito de aceite de oliva a fuego medio-alto. 3. Colocar las rodajas de calabacín y la cebolla sobre la plancha caliente. Cocinar durante 3-5 minutos por cada lado, o hasta que estén tiernos y presenten marcas doradas de la plancha. 4. Sazonar con sal, pimienta y opcionalmente un poco de ajo en polvo u orégano durante la cocción o al final.",
+    "originalBaseRecipeId": "pp_calabacn_con_cebolla_a_la_plancha"
+  },
+  "p0_m3": {
+    "name": "Solomillo/Filete de Ternera a la Plancha",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe6c0ed5060d3743015a.png",
+    "calories": 308,
+    "protein": 26,
+    "carbs": 0,
+    "fats": 22,
+    "ingredients": [
+      {
+        "name": "Solomillo de Ternera",
+        "quantity": "120",
+        "unit": "g",
+        "calories": 264,
+        "protein": 26.4,
+        "carbs": 0,
+        "fats": 16.8,
+        "baseCalories": 2.2,
+        "baseProtein": 0.22,
+        "baseCarbs": 0,
+        "baseFats": 0.14
       },
       {
         "name": "Aceite de Oliva Virgen Extra",
-        "quantity": "10",
+        "quantity": "5",
         "unit": "g",
-        "calories": 88.4,
+        "calories": 44.2,
         "protein": 0,
         "carbs": 0,
-        "fats": 10,
+        "fats": 5,
         "baseCalories": 8.84,
         "baseProtein": 0,
         "baseCarbs": 0,
         "baseFats": 1
       }
     ],
-    "preparation": "1. Asar el boniato al horno hasta que esté tierno. 2. Preparar ensalada picando tomate y cebolla. Aliñar con aceite.",
-    "originalBaseRecipeId": "pp_boniato_asado_con_ensalada_de_tomate"
-  },
-  "p0_m3": {
-    "name": "Pechuga de Pollo a la Plancha",
-    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69b66b3087f0f2415505fc9a.png",
-    "calories": 240,
-    "protein": 42,
-    "carbs": 0,
-    "fats": 6,
-    "ingredients": [
-      {
-        "name": "Pechuga de Pollo",
-        "quantity": "150",
-        "unit": "g",
-        "calories": 240,
-        "protein": 42.00000000000001,
-        "carbs": 0,
-        "fats": 6,
-        "baseCalories": 1.6,
-        "baseProtein": 0.28,
-        "baseCarbs": 0,
-        "baseFats": 0.04
-      }
-    ],
-    "preparation": "1. Sazonar la pechuga de pollo con sal, pimienta y especias al gusto. 2. Calentar una plancha o sartén antiadherente con una gota de aceite. 3. Cocinar la pechuga hasta que esté dorada por fuera y cocida por dentro.",
-    "originalBaseRecipeId": "ac_pechuga_de_pollo_a_la_plancha"
+    "preparation": "1. Sacar el filete o solomillo de ternera del refrigerador unos 15-20 minutos antes de cocinar para que se temple. 2. Sazonar la carne con sal y pimienta negra recién molida justo antes de ponerla en la plancha. 3. Calentar una plancha o sartén de fondo grueso a fuego alto hasta que esté bien caliente. Añadir una gota de aceite de oliva y extenderlo. 4. Cocinar el filete al gusto. 5. Dejar reposar la carne un par de minutos antes de servir para que los jugos se redistribuyan.",
+    "originalBaseRecipeId": "ac_solomillofilete_de_ternera_a_la_plancha"
   },
   "p0_m4": {
     "name": "Batido Whey de Proteínas",
@@ -347,36 +334,23 @@ const foodDatabase = {
   "p1_m1": {
     "name": "Poke de aguacate, mango, tomate, soja, cebolla, arroz y pollo",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684efa4ef6c48db833a5b1af.png",
-    "calories": 992,
-    "protein": 62,
-    "carbs": 90,
-    "fats": 42,
+    "calories": 776,
+    "protein": 58,
+    "carbs": 57,
+    "fats": 33,
     "ingredients": [
       {
         "name": "Aguacate",
-        "quantity": "50",
+        "quantity": "30",
         "unit": "g",
-        "calories": 225,
-        "protein": 5,
-        "carbs": 7.5,
-        "fats": 20,
+        "calories": 135,
+        "protein": 3,
+        "carbs": 4.5,
+        "fats": 12,
         "baseCalories": 4.5,
         "baseProtein": 0.1,
         "baseCarbs": 0.15,
         "baseFats": 0.4
-      },
-      {
-        "name": "Mango",
-        "quantity": "1",
-        "unit": "ud",
-        "calories": 90,
-        "protein": 0.75,
-        "carbs": 22.5,
-        "fats": 0.3,
-        "baseCalories": 90,
-        "baseProtein": 0.75,
-        "baseCarbs": 22.5,
-        "baseFats": 0.3
       },
       {
         "name": "Tomate",
@@ -406,12 +380,12 @@ const foodDatabase = {
       },
       {
         "name": "Arroz",
-        "quantity": "60",
+        "quantity": "50",
         "unit": "g",
-        "calories": 219,
-        "protein": 7.199999999999999,
-        "carbs": 45,
-        "fats": 1.2,
+        "calories": 182.5,
+        "protein": 5.999999999999999,
+        "carbs": 37.5,
+        "fats": 1,
         "baseCalories": 3.65,
         "baseProtein": 0.11999999999999998,
         "baseCarbs": 0.75,
@@ -448,41 +422,15 @@ const foodDatabase = {
     "originalBaseRecipeId": "cc_poke_de_aguacate_mango_tomate_soja_cebolla_arroz_y_pollo"
   },
   "p1_m2": {
-    "name": "Cuscús con Atún y Verduras",
-    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69b512c9bfc81fa0930b4288.png",
-    "calories": 314,
-    "protein": 44,
-    "carbs": 11,
-    "fats": 8,
+    "name": "Ensalada de Tomate, Ajo y Cebolla",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe199b8ed3c4d37cbd18.png",
+    "calories": 130,
+    "protein": 7,
+    "carbs": 15,
+    "fats": 4,
     "ingredients": [
       {
-        "name": "Cuscús",
-        "quantity": "60",
-        "unit": "g",
-        "calories": 60,
-        "protein": 3,
-        "carbs": 6,
-        "fats": 2.4,
-        "baseCalories": 1,
-        "baseProtein": 0.05,
-        "baseCarbs": 0.1,
-        "baseFats": 0.04
-      },
-      {
-        "name": "Atún",
-        "quantity": "140",
-        "unit": "g",
-        "calories": 224,
-        "protein": 39.2,
-        "carbs": 0,
-        "fats": 5.6000000000000005,
-        "baseCalories": 1.6,
-        "baseProtein": 0.28,
-        "baseCarbs": 0,
-        "baseFats": 0.04
-      },
-      {
-        "name": "Verduras Variadas",
+        "name": "Tomate",
         "quantity": "100",
         "unit": "g",
         "calories": 30,
@@ -493,10 +441,23 @@ const foodDatabase = {
         "baseProtein": 0.02,
         "baseCarbs": 0.05,
         "baseFats": 0.002
+      },
+      {
+        "name": "Cebolla",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 100,
+        "protein": 5,
+        "carbs": 10,
+        "fats": 4,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
       }
     ],
-    "preparation": "1. Hidratar el cuscús. 2. Saltear las verduras y añadir el atún. 3. Mezclar con el cuscús.",
-    "originalBaseRecipeId": "cc_cuscs_con_atn_y_verduras"
+    "preparation": "1. Lavar bien los tomates y cortarlos en rodajas, gajos o dados, según preferencia. 2. Pelar y picar la cebolla en juliana fina. Para suavizar su sabor, se puede dejar en remojo en agua fría con un poco de vinagre durante 10 minutos y luego escurrir. 3. Pelar y picar el ajo muy finamente, o machacarlo en un mortero. 4. En un bol o fuente, combinar el tomate, la cebolla y el ajo. 5. Aliñar generosamente con aceite de oliva virgen extra de buena calidad, un poco de vinagre (opcional, preferiblemente de Jerez o manzana) y sal. Mezclar bien y dejar reposar unos minutos antes de servir para que se integren los sabores.",
+    "originalBaseRecipeId": "pp_ensalada_de_tomate_ajo_y_cebolla"
   },
   "p1_m3": {
     "name": "Yogur Protéico (Sabores, Natural...)",
@@ -573,6 +534,44 @@ const foodDatabase = {
     "preparation": "Consumir directamente.",
     "originalBaseRecipeId": "ext_onza_de_chocolate_85"
   },
+  "p1_m6": {
+    "name": "Hamburguesa de Pavo-Pollo",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afcbc9b8ed3b6397cbb33.png",
+    "calories": 320,
+    "protein": 19,
+    "carbs": 2,
+    "fats": 27,
+    "ingredients": [
+      {
+        "name": "Hamburguesa de Pavo-Pollo",
+        "quantity": "120",
+        "unit": "g",
+        "calories": 276,
+        "protein": 19.2,
+        "carbs": 2.4,
+        "fats": 21.599999999999998,
+        "baseCalories": 2.3,
+        "baseProtein": 0.16,
+        "baseCarbs": 0.02,
+        "baseFats": 0.18
+      },
+      {
+        "name": "Aceite de Oliva Virgen Extra",
+        "quantity": "5",
+        "unit": "g",
+        "calories": 44.2,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 5,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1
+      }
+    ],
+    "preparation": "1. Si la hamburguesa es casera a partir de carne picada, sazonar la carne con sal, pimienta, ajo en polvo y perejil picado (opcional) y formar la hamburguesa. 2. Calentar una plancha o sartén antiadherente a fuego medio-alto con una gota de aceite de oliva. 3. Cocinar la hamburguesa durante 4-6 minutos por cada lado, o hasta que esté bien cocida por dentro y dorada por fuera.",
+    "originalBaseRecipeId": "ac_hamburguesa_de_pavopollo"
+  },
   "p2_m0": {
     "name": "Yogurt Protéico con Frutos Rojos y Secos",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afea2b91eb35e413d4ab6.png",
@@ -625,25 +624,25 @@ const foodDatabase = {
     "originalBaseRecipeId": "des_yogurt_protico_con_frutos_rojos_y_secos"
   },
   "p2_m1": {
-    "name": "Ensalada de Lentejas",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682aff5a365e949c0a73d706.png",
-    "calories": 545,
-    "protein": 27,
-    "carbs": 47,
-    "fats": 27,
+    "name": "Ensalada con Pollo y Queso de Burgos",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afdceb91eb360843d4a0b.png",
+    "calories": 540,
+    "protein": 65,
+    "carbs": 26,
+    "fats": 17,
     "ingredients": [
       {
-        "name": "Lentejas Cocidas",
-        "quantity": "100",
+        "name": "Canónigos",
+        "quantity": "70",
         "unit": "g",
-        "calories": 130,
-        "protein": 8,
-        "carbs": 22,
-        "fats": 0.5,
-        "baseCalories": 1.3,
-        "baseProtein": 0.08,
-        "baseCarbs": 0.22,
-        "baseFats": 0.005
+        "calories": 70,
+        "protein": 3.5,
+        "carbs": 7,
+        "fats": 2.8000000000000003,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
       },
       {
         "name": "Tomate",
@@ -673,73 +672,35 @@ const foodDatabase = {
       },
       {
         "name": "Queso de Burgos 0%",
-        "quantity": "60",
+        "quantity": "100",
         "unit": "g",
-        "calories": 60,
-        "protein": 7.199999999999999,
-        "carbs": 2.4,
-        "fats": 2.4,
+        "calories": 100,
+        "protein": 12,
+        "carbs": 4,
+        "fats": 4,
         "baseCalories": 1,
-        "baseProtein": 0.11999999999999998,
+        "baseProtein": 0.12,
         "baseCarbs": 0.04,
         "baseFats": 0.04
       },
       {
-        "name": "Aguacate",
-        "quantity": "50",
+        "name": "Pechuga de Pollo",
+        "quantity": "150",
         "unit": "g",
-        "calories": 225,
-        "protein": 5,
-        "carbs": 7.5,
-        "fats": 20,
-        "baseCalories": 4.5,
-        "baseProtein": 0.1,
-        "baseCarbs": 0.15,
-        "baseFats": 0.4
+        "calories": 240,
+        "protein": 42.00000000000001,
+        "carbs": 0,
+        "fats": 6,
+        "baseCalories": 1.6,
+        "baseProtein": 0.28,
+        "baseCarbs": 0,
+        "baseFats": 0.04
       }
     ],
-    "preparation": "1. Si usas lentejas de bote, enjuagarlas bien bajo el grifo y escurrirlas. Si las cocinas, déjalas enfriar. 2. Picar el tomate y la cebolla (preferiblemente morada) en dados pequeños. Cortar el queso de Burgos 0% y el aguacate en dados. 3. En un bol grande, mezclar con cuidado las lentejas, el tomate, la cebolla, el queso de Burgos y el aguacate. 4. Aliñar con aceite de oliva virgen extra, vinagre (de manzana o Jerez) y sal al gusto.",
-    "originalBaseRecipeId": "pp_ensalada_de_lentejas"
+    "preparation": "1. Cocinar la pechuga de pollo (a la plancha, hervida o asada) y cortarla en tiras o dados. 2. Lavar los canónigos y escurrirlos bien. Cortar los tomates (cherry por la mitad, o normales en gajos) y la cebolla en rodajas finas o juliana. Cortar el queso de Burgos 0% en dados o láminas. 3. En un bol o plato grande, disponer una base de canónigos. Añadir encima el tomate, la cebolla, el pollo y el queso de Burgos. 4. Aliñar con aceite de oliva virgen extra, vinagre (de manzana o Módena) y sal al gusto.",
+    "originalBaseRecipeId": "cc_ensalada_con_pollo_y_queso_de_burgos"
   },
   "p2_m2": {
-    "name": "Solomillo/Filete de Ternera a la Plancha",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe6c0ed5060d3743015a.png",
-    "calories": 308,
-    "protein": 26,
-    "carbs": 0,
-    "fats": 22,
-    "ingredients": [
-      {
-        "name": "Solomillo de Ternera",
-        "quantity": "120",
-        "unit": "g",
-        "calories": 264,
-        "protein": 26.4,
-        "carbs": 0,
-        "fats": 16.8,
-        "baseCalories": 2.2,
-        "baseProtein": 0.22,
-        "baseCarbs": 0,
-        "baseFats": 0.14
-      },
-      {
-        "name": "Aceite de Oliva Virgen Extra",
-        "quantity": "5",
-        "unit": "g",
-        "calories": 44.2,
-        "protein": 0,
-        "carbs": 0,
-        "fats": 5,
-        "baseCalories": 8.84,
-        "baseProtein": 0,
-        "baseCarbs": 0,
-        "baseFats": 1
-      }
-    ],
-    "preparation": "1. Sacar el filete o solomillo de ternera del refrigerador unos 15-20 minutos antes de cocinar para que se temple. 2. Sazonar la carne con sal y pimienta negra recién molida justo antes de ponerla en la plancha. 3. Calentar una plancha o sartén de fondo grueso a fuego alto hasta que esté bien caliente. Añadir una gota de aceite de oliva y extenderlo. 4. Cocinar el filete al gusto. 5. Dejar reposar la carne un par de minutos antes de servir para que los jugos se redistribuyan.",
-    "originalBaseRecipeId": "ac_solomillofilete_de_ternera_a_la_plancha"
-  },
-  "p2_m3": {
     "name": "Berenjenas Rellenas de Pavo al Horno",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6922cdf6e7de6638e2767e27.png",
     "calories": 512,
@@ -817,15 +778,15 @@ const foodDatabase = {
     "originalBaseRecipeId": "cc_berenjenas_rellenas_de_pavo_al_horno"
   },
   "p3_m0": {
-    "name": "Pan wasa con Queso Cottage y Aguacate",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68cc56bf05b71918b19fbf96.png",
-    "calories": 293,
-    "protein": 13,
-    "carbs": 27,
-    "fats": 15,
+    "name": "Tostada de Centeno con Queso Cottage y Cherries",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68792fea2035ba213493e87e.png",
+    "calories": 173,
+    "protein": 11,
+    "carbs": 25,
+    "fats": 3,
     "ingredients": [
       {
-        "name": "Pan Wasa",
+        "name": "Tostada de Pan de Centeno",
         "quantity": "1",
         "unit": "rebanada",
         "calories": 108,
@@ -836,6 +797,19 @@ const foodDatabase = {
         "baseProtein": 3.5999999999999996,
         "baseCarbs": 20,
         "baseFats": 1.2
+      },
+      {
+        "name": "Tomates Cherry",
+        "quantity": "50",
+        "unit": "g",
+        "calories": 15,
+        "protein": 1,
+        "carbs": 2.5,
+        "fats": 0.1,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
       },
       {
         "name": "Queso Cottage",
@@ -849,31 +823,18 @@ const foodDatabase = {
         "baseProtein": 0.12,
         "baseCarbs": 0.04,
         "baseFats": 0.04
-      },
-      {
-        "name": "Aguacate",
-        "quantity": "30",
-        "unit": "g",
-        "calories": 135,
-        "protein": 3,
-        "carbs": 4.5,
-        "fats": 12,
-        "baseCalories": 4.5,
-        "baseProtein": 0.1,
-        "baseCarbs": 0.15,
-        "baseFats": 0.4
       }
     ],
-    "preparation": "1. Untar el queso cottage y el aguacate sobre el pan wasa.",
-    "originalBaseRecipeId": "des_pan_wasa_con_queso_cottage_y_aguacate"
+    "preparation": "1. Tostar el pan de centeno. 2. Untar el queso cottage sobre las tostadas y añadir los cherries por encima con especias.",
+    "originalBaseRecipeId": "des_tostada_de_centeno_con_queso_cottage_y_cherries"
   },
   "p3_m1": {
     "name": "Ensalada de Queso Fresco, Pavo y Nueces",
     "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/699b499d20c03528200c03e2.png",
-    "calories": 743,
-    "protein": 73,
-    "carbs": 14,
-    "fats": 40,
+    "calories": 675,
+    "protein": 72,
+    "carbs": 12,
+    "fats": 34,
     "ingredients": [
       {
         "name": "Canónigos o Lechuga",
@@ -913,19 +874,6 @@ const foodDatabase = {
         "baseProtein": 0.28,
         "baseCarbs": 0,
         "baseFats": 0.04
-      },
-      {
-        "name": "Nueces",
-        "quantity": "15",
-        "unit": "g",
-        "calories": 67.5,
-        "protein": 1.5,
-        "carbs": 2.25,
-        "fats": 6,
-        "baseCalories": 4.5,
-        "baseProtein": 0.1,
-        "baseCarbs": 0.15,
-        "baseFats": 0.4
       },
       {
         "name": "Tomates Cherry",
@@ -1072,7 +1020,8 @@ const dailyMenus = [
       "p1_m1"
     ],
     "cena": [
-      "p1_m2"
+      "p1_m2",
+      "p1_m6"
     ],
     "extra": [
       "p1_m3",
@@ -1097,11 +1046,10 @@ const dailyMenus = [
       "p2_m0"
     ],
     "comida": [
-      "p2_m1",
-      "p2_m2"
+      "p2_m1"
     ],
     "cena": [
-      "p2_m3"
+      "p2_m2"
     ],
     "extra": []
   },
