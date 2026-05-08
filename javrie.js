@@ -1,3 +1,4 @@
+// Última actualización: 08/05/2026
 // Titulo: Plan de Alimentación
 
 // Contenido de app_datos.js
@@ -14,9 +15,9 @@ const foodDatabase = {
     "name": "Sandwich Vegetal de Jamón York",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cd5829b0c67f95e9a8e7e.png",
     "calories": 353,
-    "protein": 18.6,
-    "carbs": 36.4,
-    "fats": 14.599999999999998,
+    "protein": 19,
+    "carbs": 36,
+    "fats": 15,
     "ingredients": [
       {
         "name": "Pan de Centeno",
@@ -79,9 +80,9 @@ const foodDatabase = {
     "name": "Ensalada de Lentejas",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682aff5a365e949c0a73d706.png",
     "calories": 575,
-    "protein": 37.4,
-    "carbs": 63.3,
-    "fats": 18.2,
+    "protein": 37,
+    "carbs": 63,
+    "fats": 18,
     "ingredients": [
       {
         "name": "Lentejas Cocidas",
@@ -156,8 +157,8 @@ const foodDatabase = {
   "p0_m2": {
     "name": "Pechuga de Pavo a la Plancha",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684f003ef6c48dfc43a5bdb3.png",
-    "calories": 248.4,
-    "protein": 28.000000000000004,
+    "calories": 248,
+    "protein": 28,
     "carbs": 0,
     "fats": 14,
     "ingredients": [
@@ -195,10 +196,10 @@ const foodDatabase = {
   "p0_m3": {
     "name": "Calabacín con Cebolla a la Plancha",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afc8e9b8ed35d8e7cbb0e.png",
-    "calories": 148.4,
+    "calories": 148,
     "protein": 4,
     "carbs": 10,
-    "fats": 10.4,
+    "fats": 10,
     "ingredients": [
       {
         "name": "Calabacín",
@@ -247,9 +248,9 @@ const foodDatabase = {
   "p0_m4": {
     "name": "Revuelto de Huevos con Espárragos Trigueros",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684f019a532eaa9f6977a78c.png",
-    "calories": 249.2,
-    "protein": 15.5,
-    "carbs": 6.1,
+    "calories": 249,
+    "protein": 16,
+    "carbs": 6,
     "fats": 18,
     "ingredients": [
       {
@@ -300,9 +301,9 @@ const foodDatabase = {
     "name": "Fruta Densa (Plátano, Manzana)",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe4bb91eb325b93d4a82.png",
     "calories": 72,
-    "protein": 0.6,
+    "protein": 1,
     "carbs": 18,
-    "fats": 0.24,
+    "fats": 0,
     "ingredients": [
       {
         "name": "Plátano",
@@ -326,8 +327,8 @@ const foodDatabase = {
     "name": "Yogur Protéico (Sabores, Natural...)",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd789b8ed38b127cbc09.png",
     "calories": 125,
-    "protein": 6.25,
-    "carbs": 12.5,
+    "protein": 6,
+    "carbs": 13,
     "fats": 5,
     "ingredients": [
       {
@@ -352,9 +353,9 @@ const foodDatabase = {
     "name": "Tostada de Pan de Centeno con Revuelto de Huevos y Jamón York",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687d09e04d6fb7f271b84cc9.png",
     "calories": 351,
-    "protein": 23.7,
-    "carbs": 17.1,
-    "fats": 20.9,
+    "protein": 24,
+    "carbs": 17,
+    "fats": 21,
     "ingredients": [
       {
         "name": "Tostada de Pan de Centeno",
@@ -403,10 +404,10 @@ const foodDatabase = {
   "p1_m1": {
     "name": "Ensalada de Pasta con Pollo",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afc47b91eb349463d47dd.png",
-    "calories": 682.4,
-    "protein": 58.2,
-    "carbs": 67.5,
-    "fats": 18.1,
+    "calories": 682,
+    "protein": 58,
+    "carbs": 68,
+    "fats": 18,
     "ingredients": [
       {
         "name": "Pasta Integral",
@@ -520,10 +521,10 @@ const foodDatabase = {
   "p1_m2": {
     "name": "Wok de Verduras con Salmón",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afda0b91eb330dd3d49b2.png",
-    "calories": 472.4,
-    "protein": 34.4,
+    "calories": 472,
+    "protein": 34,
     "carbs": 20,
-    "fats": 27.6,
+    "fats": 28,
     "ingredients": [
       {
         "name": "Tomate",
@@ -612,9 +613,9 @@ const foodDatabase = {
     "name": "Yogurt Protéico con Frutos Rojos y Secos",
     "image": "",
     "calories": 296,
-    "protein": 9.55,
+    "protein": 10,
     "carbs": 26,
-    "fats": 17.12,
+    "fats": 17,
     "ingredients": [
       {
         "name": "Yogur Protéico",
@@ -663,10 +664,10 @@ const foodDatabase = {
   "p2_m0": {
     "name": "Tostada de centeno con jamón ibérico",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6887226c7537da60484d071f.png",
-    "calories": 246,
-    "protein": 19.2,
+    "calories": 169,
+    "protein": 12,
     "carbs": 15,
-    "fats": 11.400000000000002,
+    "fats": 7,
     "ingredients": [
       {
         "name": "Tostada de Pan de Centeno",
@@ -683,12 +684,12 @@ const foodDatabase = {
       },
       {
         "name": "Jamón Ibérico",
-        "quantity": "75",
+        "quantity": "40",
         "unit": "g",
-        "calories": 165,
-        "protein": 16.5,
+        "calories": 88,
+        "protein": 8.8,
         "carbs": 0,
-        "fats": 10.500000000000002,
+        "fats": 5.6,
         "baseCalories": 2.2,
         "baseProtein": 0.22,
         "baseCarbs": 0,
@@ -703,9 +704,9 @@ const foodDatabase = {
     "name": "Estofado de Ternera con Alcachofas y Setas",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6922cd70f96c9c3ef3256a9c.png",
     "calories": 404,
-    "protein": 34.9,
+    "protein": 35,
     "carbs": 20,
-    "fats": 19.399999999999995,
+    "fats": 19,
     "ingredients": [
       {
         "name": "Ternera para guisar",
@@ -793,19 +794,19 @@ const foodDatabase = {
   "p2_m2": {
     "name": "Fajitas de Pollo y Verduras",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afcef0ed50608b742ff33.png",
-    "calories": 664.4,
-    "protein": 57.2,
-    "carbs": 60,
-    "fats": 19.200000000000003,
+    "calories": 556,
+    "protein": 54,
+    "carbs": 40,
+    "fats": 18,
     "ingredients": [
       {
         "name": "Pan de Fajita",
-        "quantity": "2",
+        "quantity": "1",
         "unit": "unidad(es)",
-        "calories": 216,
-        "protein": 7.199999999999999,
-        "carbs": 40,
-        "fats": 2.4,
+        "calories": 108,
+        "protein": 3.6,
+        "carbs": 20,
+        "fats": 1.2,
         "baseCalories": 108,
         "baseProtein": 3.5999999999999996,
         "baseCarbs": 20,
@@ -897,10 +898,10 @@ const foodDatabase = {
   "p2_m3": {
     "name": "Yogur Protéico con Frutos Rojos y Secos",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afea2b91eb35e413d4ab6.png",
-    "calories": 267.5,
+    "calories": 268,
     "protein": 9,
-    "carbs": 23.75,
-    "fats": 15.1,
+    "carbs": 24,
+    "fats": 15,
     "ingredients": [
       {
         "name": "Yogur Protéico",
@@ -950,9 +951,9 @@ const foodDatabase = {
     "name": "Tostada de Pan Wasa con Salmón ahumado y Aguacate",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687d025bddc9c119c957ab9c.png",
     "calories": 272,
-    "protein": 14.9,
-    "carbs": 9.5,
-    "fats": 19.3,
+    "protein": 15,
+    "carbs": 10,
+    "fats": 19,
     "ingredients": [
       {
         "name": "Pan Wasa",
@@ -1002,19 +1003,19 @@ const foodDatabase = {
   "p3_m1": {
     "name": "Potaje de Garbanzos con Espinacas y Bacalao",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6922cfb06984f10e4539887a.png",
-    "calories": 685,
-    "protein": 72.5,
-    "carbs": 46.6,
-    "fats": 20.05,
+    "calories": 620,
+    "protein": 69,
+    "carbs": 36,
+    "fats": 20,
     "ingredients": [
       {
         "name": "Garbanzos Cocidos",
-        "quantity": "150",
+        "quantity": "100",
         "unit": "g",
-        "calories": 195,
-        "protein": 12,
-        "carbs": 33,
-        "fats": 0.75,
+        "calories": 130,
+        "protein": 8,
+        "carbs": 22,
+        "fats": 0.5,
         "baseCalories": 1.3,
         "baseProtein": 0.08,
         "baseCarbs": 0.22,
@@ -1093,10 +1094,10 @@ const foodDatabase = {
   "p3_m2": {
     "name": "Crema de Verduras Variadas",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cd68425d68cc771ebd10a.png",
-    "calories": 117.5,
+    "calories": 118,
     "protein": 7,
-    "carbs": 16.25,
-    "fats": 2.45,
+    "carbs": 16,
+    "fats": 2,
     "ingredients": [
       {
         "name": "Calabaza",
@@ -1158,7 +1159,7 @@ const foodDatabase = {
   "p3_m3": {
     "name": "Hamburguesa de Pavo-Pollo",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afcbc9b8ed3b6397cbb33.png",
-    "calories": 318.4,
+    "calories": 318,
     "protein": 16,
     "carbs": 2,
     "fats": 28,
@@ -1198,8 +1199,8 @@ const foodDatabase = {
     "name": "Yogur Protéico (Sabores, Natural...)",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd789b8ed38b127cbc09.png",
     "calories": 125,
-    "protein": 6.25,
-    "carbs": 12.5,
+    "protein": 6,
+    "carbs": 13,
     "fats": 5,
     "ingredients": [
       {
@@ -1221,7 +1222,6 @@ const foodDatabase = {
     "isSideDish": false
   }
 };
-
 const dailyMenus = [
   {
     "name": "Entreno 1",
