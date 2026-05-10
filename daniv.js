@@ -258,29 +258,42 @@ const foodDatabase = {
     "originalBaseRecipeId": "cc_ensalada_de_tomate_esprragos_blancos_con_atn"
   },
   "p0_m4": {
-    "name": "Fruta Cítrica (Mandarina, Kiwi, Naranja...)",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd3d0ed506305442ffe4.png",
-    "calories": 90,
-    "protein": 1,
-    "carbs": 23,
-    "fats": 0,
+    "name": "Fruta Densa (Plátano, Manzana, Pera)",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe4bb91eb325b93d4a82.png",
+    "calories": 180,
+    "protein": 2,
+    "carbs": 45,
+    "fats": 1,
     "ingredients": [
       {
-        "name": "Kiwi",
-        "quantity": "2",
-        "unit": "unidad(es)",
+        "name": "Plátano",
+        "quantity": "1",
+        "unit": "ud",
         "calories": 90,
         "protein": 0.75,
         "carbs": 22.5,
         "fats": 0.3,
-        "baseCalories": 45,
-        "baseProtein": 0.375,
-        "baseCarbs": 11.25,
-        "baseFats": 0.15
+        "baseCalories": 90,
+        "baseProtein": 0.75,
+        "baseCarbs": 22.5,
+        "baseFats": 0.3
+      },
+      {
+        "name": "Manzana",
+        "quantity": "1",
+        "unit": "ud",
+        "calories": 90,
+        "protein": 0.75,
+        "carbs": 22.5,
+        "fats": 0.3,
+        "baseCalories": 90,
+        "baseProtein": 0.75,
+        "baseCarbs": 22.5,
+        "baseFats": 0.3
       }
     ],
-    "preparation": "1. Seleccionar la fruta cítrica de preferencia (mandarina, kiwi, naranja, pomelo, etc.). 2. Lavar bien la fruta bajo el grifo. 3. Para mandarinas y naranjas: pelar la piel con las manos o con ayuda de un cuchillo. Separar los gajos si se desea. 4. Para kiwis: cortar por la mitad y comer la pulpa con una cucharita, o pelar con un cuchillo y cortar en rodajas. 5. Para pomelos: cortar por la mitad y extraer los gajos, o comer con cuchara. Consumir directamente.",
-    "originalBaseRecipeId": "ext_fruta_ctrica_mandarina_kiwi_naranja"
+    "preparation": "1. Seleccionar la fruta densa de preferencia. 2. Para plátanos: pelar la piel y consumir directamente. 3. Para manzanas o peras: lavar bien la fruta. Se puede consumir con piel o pelada.",
+    "originalBaseRecipeId": "ext_fruta_densa_pltano_manzana_pera"
   },
   "p0_m5": {
     "name": "Frutos Secos (Mezcla)",
@@ -641,37 +654,37 @@ const foodDatabase = {
   },
   "p1_m5": {
     "name": "Yogurt Protéico con Frutos Rojos y Secos",
-    "image": "",
-    "calories": 350,
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afea2b91eb35e413d4ab6.png",
+    "calories": 250,
     "protein": 10,
-    "carbs": 40,
-    "fats": 17,
+    "carbs": 19,
+    "fats": 15,
     "ingredients": [
       {
         "name": "Yogur Protéico",
-        "quantity": "1",
-        "unit": "unidad(es)",
-        "calories": 125,
+        "quantity": "125",
+        "unit": "g",
+        "calories": 75,
         "protein": 6.25,
-        "carbs": 12.5,
-        "fats": 5,
-        "baseCalories": 125,
-        "baseProtein": 6.25,
-        "baseCarbs": 12.5,
-        "baseFats": 5
+        "carbs": 5,
+        "fats": 2.5,
+        "baseCalories": 0.6,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.04,
+        "baseFats": 0.02
       },
       {
         "name": "Frutos Rojos",
-        "quantity": "150",
+        "quantity": "80",
         "unit": "g",
-        "calories": 90,
-        "protein": 0.75,
-        "carbs": 22.5,
-        "fats": 0.3,
-        "baseCalories": 0.6,
-        "baseProtein": 0.005,
-        "baseCarbs": 0.15,
-        "baseFats": 0.002
+        "calories": 40,
+        "protein": 0.8,
+        "carbs": 9.6,
+        "fats": 0.4,
+        "baseCalories": 0.5,
+        "baseProtein": 0.01,
+        "baseCarbs": 0.12,
+        "baseFats": 0.005
       },
       {
         "name": "Frutos Secos",
@@ -688,45 +701,45 @@ const foodDatabase = {
       }
     ],
     "preparation": "1. En un bol, verter el yogur proteico. 2. Añadir los frutos rojos frescos o descongelados. 3. Espolvorear con los frutos secos troceados por encima. Servir inmediatamente.",
-    "originalBaseRecipeId": "ext_yogurt_protico_con_frutos_rojos_y_secos"
+    "originalBaseRecipeId": "des_yogurt_protico_con_frutos_rojos_y_secos"
   },
   "p1_m6": {
-    "name": "Fruta Cítrica (Mandarina, Kiwi, Naranja...)",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd3d0ed506305442ffe4.png",
-    "calories": 93,
-    "protein": 1,
-    "carbs": 23,
-    "fats": 0,
+    "name": "Fruta Densa (Plátano, Manzana, Pera)",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe4bb91eb325b93d4a82.png",
+    "calories": 180,
+    "protein": 2,
+    "carbs": 45,
+    "fats": 1,
     "ingredients": [
       {
-        "name": "Kiwi",
+        "name": "Plátano",
         "quantity": "1",
-        "unit": "unidad(es)",
-        "calories": 45,
-        "protein": 0.375,
-        "carbs": 11.25,
-        "fats": 0.15,
-        "baseCalories": 45,
-        "baseProtein": 0.375,
-        "baseCarbs": 11.25,
-        "baseFats": 0.15
+        "unit": "ud",
+        "calories": 90,
+        "protein": 0.75,
+        "carbs": 22.5,
+        "fats": 0.3,
+        "baseCalories": 90,
+        "baseProtein": 0.75,
+        "baseCarbs": 22.5,
+        "baseFats": 0.3
       },
       {
-        "name": "Mandarina",
+        "name": "Manzana",
         "quantity": "1",
-        "unit": "unidad(es)",
-        "calories": 48,
-        "protein": 0.4,
-        "carbs": 12,
-        "fats": 0.16,
-        "baseCalories": 48,
-        "baseProtein": 0.4,
-        "baseCarbs": 12,
-        "baseFats": 0.16
+        "unit": "ud",
+        "calories": 90,
+        "protein": 0.75,
+        "carbs": 22.5,
+        "fats": 0.3,
+        "baseCalories": 90,
+        "baseProtein": 0.75,
+        "baseCarbs": 22.5,
+        "baseFats": 0.3
       }
     ],
-    "preparation": "1. Seleccionar la fruta cítrica de preferencia (mandarina, kiwi, naranja, pomelo, etc.). 2. Lavar bien la fruta bajo el grifo. 3. Para mandarinas y naranjas: pelar la piel con las manos o con ayuda de un cuchillo. Separar los gajos si se desea. 4. Para kiwis: cortar por la mitad y comer la pulpa con una cucharita, o pelar con un cuchillo y cortar en rodajas. 5. Para pomelos: cortar por la mitad y extraer los gajos, o comer con cuchara. Consumir directamente.",
-    "originalBaseRecipeId": "ext_fruta_ctrica_mandarina_kiwi_naranja"
+    "preparation": "1. Seleccionar la fruta densa de preferencia. 2. Para plátanos: pelar la piel y consumir directamente. 3. Para manzanas o peras: lavar bien la fruta. Se puede consumir con piel o pelada.",
+    "originalBaseRecipeId": "ext_fruta_densa_pltano_manzana_pera"
   },
   "p2_m0": {
     "name": "Tostada de Centeno con Cottage y Pavo",
@@ -972,38 +985,38 @@ const foodDatabase = {
     "originalBaseRecipeId": "ext_pan_de_centeno"
   },
   "p2_m4": {
-    "name": "Yogurt Protéico con Frutos Rojos y Secos",
-    "image": "",
-    "calories": 421,
+    "name": "Yogur Protéico con Frutos Rojos y Secos",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afea2b91eb35e413d4ab6.png",
+    "calories": 325,
     "protein": 16,
-    "carbs": 39,
-    "fats": 22,
+    "carbs": 24,
+    "fats": 17,
     "ingredients": [
       {
         "name": "Yogur Protéico",
-        "quantity": "2",
-        "unit": "unidad(es)",
-        "calories": 250,
+        "quantity": "250",
+        "unit": "g",
+        "calories": 150,
         "protein": 12.5,
-        "carbs": 25,
-        "fats": 10,
-        "baseCalories": 125,
-        "baseProtein": 6.25,
-        "baseCarbs": 12.5,
-        "baseFats": 5
+        "carbs": 10,
+        "fats": 5,
+        "baseCalories": 0.6,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.04,
+        "baseFats": 0.02
       },
       {
         "name": "Frutos Rojos",
-        "quantity": "60",
+        "quantity": "80",
         "unit": "g",
-        "calories": 36,
-        "protein": 0.3,
-        "carbs": 9,
-        "fats": 0.12,
-        "baseCalories": 0.6,
-        "baseProtein": 0.005,
-        "baseCarbs": 0.15,
-        "baseFats": 0.002
+        "calories": 40,
+        "protein": 0.8,
+        "carbs": 9.6,
+        "fats": 0.4,
+        "baseCalories": 0.5,
+        "baseProtein": 0.01,
+        "baseCarbs": 0.12,
+        "baseFats": 0.005
       },
       {
         "name": "Frutos Secos",
@@ -1019,8 +1032,8 @@ const foodDatabase = {
         "baseFats": 0.4
       }
     ],
-    "preparation": "1. En un bol, verter el yogur proteico. 2. Añadir los frutos rojos frescos o descongelados. 3. Espolvorear con los frutos secos troceados por encima. Servir inmediatamente.",
-    "originalBaseRecipeId": "ext_yogurt_protico_con_frutos_rojos_y_secos"
+    "preparation": "1. En un bol, verter el yogur proteico. 2. Añadir los frutos rojos frescos o descongelados. 3. Espolvorear con los frutos secos troceados por encima.",
+    "originalBaseRecipeId": "ext_yogur_protico_con_frutos_rojos_y_secos"
   },
   "p2_m5": {
     "name": "Fruta Cítrica (Mandarina, Kiwi, Naranja...)",
@@ -1291,6 +1304,44 @@ const foodDatabase = {
     "originalBaseRecipeId": "pp_boniato_asado_con_ensalada_de_tomate"
   },
   "p3_m4": {
+    "name": "Pechuga de Pavo a la Plancha",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684f003ef6c48dfc43a5bdb3.png",
+    "calories": 332,
+    "protein": 50,
+    "carbs": 0,
+    "fats": 12,
+    "ingredients": [
+      {
+        "name": "Pechuga de Pavo",
+        "quantity": "180",
+        "unit": "g",
+        "calories": 288,
+        "protein": 50.400000000000006,
+        "carbs": 0,
+        "fats": 7.2,
+        "baseCalories": 1.6,
+        "baseProtein": 0.28,
+        "baseCarbs": 0,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Aceite de Oliva Virgen Extra",
+        "quantity": "5",
+        "unit": "g",
+        "calories": 44.2,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 5,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1
+      }
+    ],
+    "preparation": "1. Si los filetes de pechuga de pavo son muy gruesos, se pueden abrir tipo libro o golpear ligeramente para que tengan un grosor más uniforme y se cocinen mejor. 2. Sazonar los filetes de pavo con sal, pimienta y tus especias favoritas. 3. Calentar una plancha o sartén antiadherente a fuego medio-alto con una gota de aceite de oliva. 4. Cocinar la pechuga de pavo durante unos 3-4 minutos por cada lado, o hasta que esté dorada por fuera y completamente cocida por dentro.",
+    "originalBaseRecipeId": "ac_pechuga_de_pavo_a_la_plancha"
+  },
+  "p3_m5": {
     "name": "Queso Fresco Batido con Frutos Rojos y Miel",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6879302d02da47667d446b43.png",
     "calories": 171,
@@ -1341,7 +1392,7 @@ const foodDatabase = {
     "preparation": "1. En un bol, verter el queso fresco. 2. Añadir los frutos rojos frescos o descongelados. 3. Echar la cantidad de miel acordada por encima.",
     "originalBaseRecipeId": "ext_queso_fresco_batido_con_frutos_rojos_y_miel"
   },
-  "p3_m5": {
+  "p3_m6": {
     "name": "Frutos Secos (Mezcla)",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68525c0b1d27cfeb580a55f7.png",
     "calories": 135,
@@ -1392,29 +1443,272 @@ const foodDatabase = {
     "preparation": "Consumir directamente como un snack energético y nutritivo. Se puede tomar un puñado (ej. 25-30g) o ajustar la cantidad según las necesidades calóricas.",
     "originalBaseRecipeId": "ext_frutos_secos_mezcla"
   },
-  "p3_m6": {
-    "name": "Pechuga de Pavo a la Plancha",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684f003ef6c48dfc43a5bdb3.png",
-    "calories": 332,
-    "protein": 50,
-    "carbs": 0,
-    "fats": 12,
+  "p4_m0": {
+    "name": "Porridge de Avena y Frutos Rojos",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afdf19b8ed348797cbcd8.png",
+    "calories": 436,
+    "protein": 17,
+    "carbs": 75,
+    "fats": 8,
     "ingredients": [
       {
-        "name": "Pechuga de Pavo",
-        "quantity": "180",
+        "name": "Copos de Avena",
+        "quantity": "70",
         "unit": "g",
-        "calories": 288,
-        "protein": 50.400000000000006,
+        "calories": 255.5,
+        "protein": 8.4,
+        "carbs": 52.5,
+        "fats": 1.4000000000000001,
+        "baseCalories": 3.65,
+        "baseProtein": 0.12,
+        "baseCarbs": 0.75,
+        "baseFats": 0.02
+      },
+      {
+        "name": "Leche",
+        "quantity": "150",
+        "unit": "g",
+        "calories": 150,
+        "protein": 7.5,
+        "carbs": 15,
+        "fats": 6,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Frutos Rojos",
+        "quantity": "60",
+        "unit": "g",
+        "calories": 30,
+        "protein": 0.6,
+        "carbs": 7.199999999999999,
+        "fats": 0.3,
+        "baseCalories": 0.5,
+        "baseProtein": 0.01,
+        "baseCarbs": 0.12,
+        "baseFats": 0.005
+      }
+    ],
+    "preparation": "1. En un cazo, cocinar los copos de avena con la leche o bebida vegetal a fuego medio, removiendo constantemente hasta que espese y la avena esté cocida (unos 5-7 minutos). 2. Servir caliente en un bol con los frutos rojos por encima. Opcional: añadir canela o edulcorante al gusto.",
+    "originalBaseRecipeId": "des_porridge_de_avena_y_frutos_rojos"
+  },
+  "p4_m1": {
+    "name": "Pizza Casera",
+    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69b51257bfc81f59120b3a5a.png",
+    "calories": 964,
+    "protein": 65,
+    "carbs": 119,
+    "fats": 23,
+    "ingredients": [
+      {
+        "name": "Masa de Cereales",
+        "quantity": "140",
+        "unit": "g",
+        "calories": 511,
+        "protein": 16.8,
+        "carbs": 105,
+        "fats": 2.8000000000000003,
+        "baseCalories": 3.65,
+        "baseProtein": 0.12,
+        "baseCarbs": 0.75,
+        "baseFats": 0.02
+      },
+      {
+        "name": "Tomate Frito",
+        "quantity": "50",
+        "unit": "g",
+        "calories": 15,
+        "protein": 1,
+        "carbs": 2.5,
+        "fats": 0.1,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Mozzarella Light",
+        "quantity": "50",
+        "unit": "g",
+        "calories": 50,
+        "protein": 2.5,
+        "carbs": 5,
+        "fats": 2,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Pechuga de Pollo",
+        "quantity": "150",
+        "unit": "g",
+        "calories": 240,
+        "protein": 42.00000000000001,
         "carbs": 0,
-        "fats": 7.2,
+        "fats": 6,
         "baseCalories": 1.6,
         "baseProtein": 0.28,
         "baseCarbs": 0,
         "baseFats": 0.04
       },
       {
-        "name": "Aceite de Oliva Virgen Extra",
+        "name": "Jamón Dulce",
+        "quantity": "60",
+        "unit": "g",
+        "calories": 60,
+        "protein": 3,
+        "carbs": 6,
+        "fats": 2.4,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Aceite de Oliva Virgen",
+        "quantity": "10",
+        "unit": "g",
+        "calories": 88.4,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 10,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1
+      }
+    ],
+    "preparation": "1. Extender la masa. 2. Añadir tomate, queso, pollo y jamón. 3. Hornear hasta que esté dorada.",
+    "originalBaseRecipeId": "cc_pizza_casera"
+  },
+  "p4_m2": {
+    "name": "Ensalada de Pepino, Tomate y Apio",
+    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69fee83da3dd25aa2ac2564d.png",
+    "calories": 318,
+    "protein": 12,
+    "carbs": 25,
+    "fats": 18,
+    "ingredients": [
+      {
+        "name": "Pepino",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 100,
+        "protein": 5,
+        "carbs": 10,
+        "fats": 4,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Tomate",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 30,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Apio",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 100,
+        "protein": 5,
+        "carbs": 10,
+        "fats": 4,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Aceite de Oliva Virgen",
+        "quantity": "10",
+        "unit": "g",
+        "calories": 88.4,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 10,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1
+      }
+    ],
+    "preparation": "1. Trocear las verduras. 2. Mezclar y aliñar con aceite de oliva, vinagre y sal.",
+    "originalBaseRecipeId": "pp_ensalada_de_pepino_tomate_y_apio"
+  },
+  "p4_m3": {
+    "name": "Yogur Griego Desnatado con Proteína en Polvo",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68e7efa6d27b18380fc8e8fd.png",
+    "calories": 264,
+    "protein": 37,
+    "carbs": 12,
+    "fats": 6,
+    "ingredients": [
+      {
+        "name": "Yogur Griego Desnatado",
+        "quantity": "250",
+        "unit": "g",
+        "calories": 150,
+        "protein": 12.5,
+        "carbs": 10,
+        "fats": 5,
+        "baseCalories": 0.6,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.04,
+        "baseFats": 0.02
+      },
+      {
+        "name": "Proteína en Polvo",
+        "quantity": "30",
+        "unit": "g",
+        "calories": 114,
+        "protein": 24,
+        "carbs": 1.5,
+        "fats": 1.2,
+        "baseCalories": 3.8,
+        "baseProtein": 0.8,
+        "baseCarbs": 0.05,
+        "baseFats": 0.04
+      }
+    ],
+    "preparation": "1. Mezclar el yogur griego con la proteína en polvo en un bol hasta que esté bien integrado.",
+    "originalBaseRecipeId": "ext_yogur_griego_desnatado_con_protena_en_polvo"
+  },
+  "p4_m4": {
+    "name": "Hamburguesa de Ternera a la Plancha",
+    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69fee800bc1f77cc3522f7f3.png",
+    "calories": 389,
+    "protein": 24,
+    "carbs": 3,
+    "fats": 32,
+    "ingredients": [
+      {
+        "name": "Hamburguesa de Ternera",
+        "quantity": "150",
+        "unit": "g",
+        "calories": 345,
+        "protein": 24,
+        "carbs": 3,
+        "fats": 27,
+        "baseCalories": 2.3,
+        "baseProtein": 0.16,
+        "baseCarbs": 0.02,
+        "baseFats": 0.18
+      },
+      {
+        "name": "Aceite de Oliva Virgen",
         "quantity": "5",
         "unit": "g",
         "calories": 44.2,
@@ -1427,8 +1721,8 @@ const foodDatabase = {
         "baseFats": 1
       }
     ],
-    "preparation": "1. Si los filetes de pechuga de pavo son muy gruesos, se pueden abrir tipo libro o golpear ligeramente para que tengan un grosor más uniforme y se cocinen mejor. 2. Sazonar los filetes de pavo con sal, pimienta y tus especias favoritas. 3. Calentar una plancha o sartén antiadherente a fuego medio-alto con una gota de aceite de oliva. 4. Cocinar la pechuga de pavo durante unos 3-4 minutos por cada lado, o hasta que esté dorada por fuera y completamente cocida por dentro.",
-    "originalBaseRecipeId": "ac_pechuga_de_pavo_a_la_plancha"
+    "preparation": "1. Cocinar la hamburguesa de ternera a la plancha hasta el punto deseado.",
+    "originalBaseRecipeId": "ac_hamburguesa_de_ternera_a_la_plancha"
   }
 };
 const dailyMenus = [
@@ -1540,11 +1834,38 @@ const dailyMenus = [
     ],
     "cena": [
       "p3_m3",
-      "p3_m6"
+      "p3_m4"
     ],
     "extra": [
-      "p3_m4",
-      "p3_m5"
+      "p3_m5",
+      "p3_m6"
+    ]
+  },
+  {
+    "name": "EXTRAS",
+    "targetMacros": {
+      "calories": 1800,
+      "protein": 150,
+      "carbs": 150
+    },
+    "baselineTotals": {
+      "calories": 1802,
+      "protein": 150,
+      "carbs": 150,
+      "fats": 64
+    },
+    "desayuno": [
+      "p4_m0"
+    ],
+    "comida": [
+      "p4_m1"
+    ],
+    "cena": [
+      "p4_m2",
+      "p4_m4"
+    ],
+    "extra": [
+      "p4_m3"
     ]
   }
 ];
