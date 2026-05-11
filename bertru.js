@@ -1,4 +1,4 @@
-// Titulo: Inicio (1750kcalx3)
+// Titulo: Plan de Alimentación
 // Alergias: 
 const foodDatabase = {
   "p0_m0": {
@@ -931,11 +931,266 @@ const foodDatabase = {
     ],
     "preparation": "Consumir directamente como un snack energético y nutritivo.",
     "originalBaseRecipeId": "ext_frutos_secos_mezcla"
+  },
+  "p3_m0": {
+    "name": "Tostada de centeno con jamón ibérico",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6887226c7537da60484d071f.png",
+    "calories": 273,
+    "protein": 20,
+    "carbs": 20,
+    "fats": 12,
+    "ingredients": [
+      {
+        "name": "Tostada de Pan de Centeno",
+        "quantity": "1",
+        "unit": "rebanada",
+        "calories": 108,
+        "protein": 3.5999999999999996,
+        "carbs": 20,
+        "fats": 1.2,
+        "baseCalories": 108,
+        "baseProtein": 3.5999999999999996,
+        "baseCarbs": 20,
+        "baseFats": 1.2
+      },
+      {
+        "name": "Jamón Ibérico",
+        "quantity": "75",
+        "unit": "g",
+        "calories": 165,
+        "protein": 16.5,
+        "carbs": 0,
+        "fats": 10.500000000000002,
+        "baseCalories": 2.2,
+        "baseProtein": 0.22,
+        "baseCarbs": 0,
+        "baseFats": 0.14
+      }
+    ],
+    "preparation": "1. Tostar el pan de centeno. 2. Colocar las lonchas de jamón ibérico por encima. Opcional: añadir un chorrito de aceite de oliva.",
+    "originalBaseRecipeId": "des_tostada_de_centeno_con_jamn_ibrico"
+  },
+  "p3_m1": {
+    "name": "Cuscús con Atún y Verduras",
+    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69b512c9bfc81fa0930b4288.png",
+    "calories": 723,
+    "protein": 56,
+    "carbs": 80,
+    "fats": 18,
+    "ingredients": [
+      {
+        "name": "Cuscús",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 365,
+        "protein": 12,
+        "carbs": 75,
+        "fats": 2,
+        "baseCalories": 3.65,
+        "baseProtein": 0.12,
+        "baseCarbs": 0.75,
+        "baseFats": 0.02
+      },
+      {
+        "name": "Atún",
+        "quantity": "150",
+        "unit": "g",
+        "calories": 240,
+        "protein": 42.00000000000001,
+        "carbs": 0,
+        "fats": 6,
+        "baseCalories": 1.6,
+        "baseProtein": 0.28,
+        "baseCarbs": 0,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Verduras Variadas",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 30,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Aceite de Oliva Virgen",
+        "quantity": "10",
+        "unit": "g",
+        "calories": 88.4,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 10,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1
+      }
+    ],
+    "preparation": "1. Hidratar el cuscús. 2. Saltear las verduras y añadir el atún. 3. Mezclar con el cuscús.",
+    "originalBaseRecipeId": "cc_cuscs_con_atn_y_verduras"
+  },
+  "p3_m2": {
+    "name": "Menestra de Verduras Congeladas con Carne Picada",
+    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/699b47eb55d8bc32874abf76.png",
+    "calories": 558,
+    "protein": 54,
+    "carbs": 25,
+    "fats": 24,
+    "ingredients": [
+      {
+        "name": "Verduras Variadas (Menestra)",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 30,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Carne Picada (Ternera/Pollo)",
+        "quantity": "150",
+        "unit": "g",
+        "calories": 240,
+        "protein": 42.00000000000001,
+        "carbs": 0,
+        "fats": 6,
+        "baseCalories": 1.6,
+        "baseProtein": 0.28,
+        "baseCarbs": 0,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Ajo",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 100,
+        "protein": 5,
+        "carbs": 10,
+        "fats": 4,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Cebolla",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 100,
+        "protein": 5,
+        "carbs": 10,
+        "fats": 4,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Aceite de Oliva Virgen",
+        "quantity": "10",
+        "unit": "g",
+        "calories": 88.4,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 10,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1
+      }
+    ],
+    "preparation": "1. Saltear el ajo y la cebolla en una sartén con un poco de aceite. 2. Añadir la carne picada y cocinar hasta que esté dorada. 3. Incorporar las verduras de menestra (puedes usar verduras congeladas o hacerlas por tu cuenta) y saltear todo junto hasta que las verduras estén tiernas. 4. Sazonar al gusto.",
+    "originalBaseRecipeId": "cc_menestra_de_verduras_congeladas_con_carne_picada"
+  },
+  "p3_m3": {
+    "name": "Fruta Densa (Plátano, Manzana, Pera)",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe4bb91eb325b93d4a82.png",
+    "calories": 90,
+    "protein": 1,
+    "carbs": 23,
+    "fats": 0,
+    "ingredients": [
+      {
+        "name": "Plátano",
+        "quantity": "1",
+        "unit": "ud",
+        "calories": 90,
+        "protein": 0.75,
+        "carbs": 22.5,
+        "fats": 0.3,
+        "baseCalories": 90,
+        "baseProtein": 0.75,
+        "baseCarbs": 22.5,
+        "baseFats": 0.3
+      }
+    ],
+    "preparation": "1. Seleccionar la fruta densa de preferencia. 2. Para plátanos: pelar la piel y consumir directamente. 3. Para manzanas o peras: lavar bien la fruta. Se puede consumir con piel o pelada.",
+    "originalBaseRecipeId": "ext_fruta_densa_pltano_manzana_pera"
+  },
+  "p3_m4": {
+    "name": "Frutos Secos (Mezcla)",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68525c0b1d27cfeb580a55f7.png",
+    "calories": 130,
+    "protein": 4,
+    "carbs": 7,
+    "fats": 10,
+    "ingredients": [
+      {
+        "name": "Anacardos",
+        "quantity": "20",
+        "unit": "g",
+        "calories": 20,
+        "protein": 1,
+        "carbs": 2,
+        "fats": 0.8,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Almendras",
+        "quantity": "20",
+        "unit": "g",
+        "calories": 20,
+        "protein": 1,
+        "carbs": 2,
+        "fats": 0.8,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Nueces",
+        "quantity": "20",
+        "unit": "g",
+        "calories": 90,
+        "protein": 2,
+        "carbs": 3,
+        "fats": 8,
+        "baseCalories": 4.5,
+        "baseProtein": 0.1,
+        "baseCarbs": 0.15,
+        "baseFats": 0.4
+      }
+    ],
+    "preparation": "Consumir directamente como un snack energético y nutritivo.",
+    "originalBaseRecipeId": "ext_frutos_secos_mezcla"
   }
 };
 const dailyMenus = [
   {
-    "name": "Opciones 1",
+    "name": "Día 1",
     "targetMacros": {
       "calories": 1700,
       "protein": 140,
@@ -963,7 +1218,7 @@ const dailyMenus = [
     ]
   },
   {
-    "name": "Opciones 2",
+    "name": "Día 2",
     "targetMacros": {
       "calories": 1700,
       "protein": 140,
@@ -991,7 +1246,7 @@ const dailyMenus = [
     ]
   },
   {
-    "name": "Opciones 3",
+    "name": "Día 3",
     "targetMacros": {
       "calories": 1800,
       "protein": 150,
@@ -1016,6 +1271,33 @@ const dailyMenus = [
     "extra": [
       "p2_m4",
       "p2_m5"
+    ]
+  },
+  {
+    "name": "Día 4",
+    "targetMacros": {
+      "calories": 1700,
+      "protein": 150,
+      "carbs": 150
+    },
+    "baselineTotals": {
+      "calories": 1754,
+      "protein": 150,
+      "carbs": 150,
+      "fats": 56
+    },
+    "desayuno": [
+      "p3_m0"
+    ],
+    "comida": [
+      "p3_m1"
+    ],
+    "cena": [
+      "p3_m2"
+    ],
+    "extra": [
+      "p3_m3",
+      "p3_m4"
     ]
   }
 ];
