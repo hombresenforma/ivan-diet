@@ -68,19 +68,19 @@ const foodDatabase = {
   "p0_m1": {
     "name": "Estofado de Lentejas con Verduras y Costilla",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6922cf648c174dc51742182c.png",
-    "calories": 577,
-    "protein": 45,
-    "carbs": 49,
+    "calories": 512,
+    "protein": 41,
+    "carbs": 38,
     "fats": 20,
     "ingredients": [
       {
         "name": "Lentejas Cocidas",
-        "quantity": "150",
+        "quantity": "100",
         "unit": "g",
-        "calories": 195,
-        "protein": 12,
-        "carbs": 33,
-        "fats": 0.75,
+        "calories": 130,
+        "protein": 8,
+        "carbs": 22,
+        "fats": 0.5,
         "baseCalories": 1.3,
         "baseProtein": 0.08,
         "baseCarbs": 0.22,
@@ -158,19 +158,19 @@ const foodDatabase = {
   "p0_m2": {
     "name": "Boniato asado con ensalada de tomate",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684efcd1f6c48df26aa5ba5b.png",
-    "calories": 291,
-    "protein": 8,
-    "carbs": 41,
+    "calories": 246,
+    "protein": 7,
+    "carbs": 31,
     "fats": 11,
     "ingredients": [
       {
         "name": "Boniato",
-        "quantity": "150",
+        "quantity": "100",
         "unit": "g",
-        "calories": 135,
-        "protein": 3,
-        "carbs": 30,
-        "fats": 0.15,
+        "calories": 90,
+        "protein": 2,
+        "carbs": 20,
+        "fats": 0.1,
         "baseCalories": 0.9,
         "baseProtein": 0.02,
         "baseCarbs": 0.2,
@@ -361,19 +361,19 @@ const foodDatabase = {
   "p1_m1": {
     "name": "Ensala de Patata, Atún y Huevo",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afc08b91eb31afe3d4796.png",
-    "calories": 760,
-    "protein": 69,
-    "carbs": 71,
+    "calories": 715,
+    "protein": 68,
+    "carbs": 61,
     "fats": 20,
     "ingredients": [
       {
         "name": "Patata",
-        "quantity": "250",
+        "quantity": "200",
         "unit": "g",
-        "calories": 225,
-        "protein": 5,
-        "carbs": 50,
-        "fats": 0.25,
+        "calories": 180,
+        "protein": 4,
+        "carbs": 40,
+        "fats": 0.2,
         "baseCalories": 0.9,
         "baseProtein": 0.02,
         "baseCarbs": 0.2,
@@ -654,19 +654,19 @@ const foodDatabase = {
   "p2_m1": {
     "name": "Musakka de Patata al horno con verduras y carne picada",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684efda5653a2c17a7172d67.png",
-    "calories": 740,
-    "protein": 45,
-    "carbs": 52,
+    "calories": 695,
+    "protein": 44,
+    "carbs": 42,
     "fats": 37,
     "ingredients": [
       {
         "name": "Patata",
-        "quantity": "200",
+        "quantity": "150",
         "unit": "g",
-        "calories": 180,
-        "protein": 4,
-        "carbs": 40,
-        "fats": 0.2,
+        "calories": 135,
+        "protein": 3,
+        "carbs": 30,
+        "fats": 0.15,
         "baseCalories": 0.9,
         "baseProtein": 0.02,
         "baseCarbs": 0.2,
@@ -931,11 +931,317 @@ const foodDatabase = {
     ],
     "preparation": "Consumir directamente como un snack energético y nutritivo.",
     "originalBaseRecipeId": "ext_frutos_secos_mezcla"
+  },
+  "p3_m0": {
+    "name": "Tostada de centeno con jamón ibérico",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6887226c7537da60484d071f.png",
+    "calories": 328,
+    "protein": 26,
+    "carbs": 20,
+    "fats": 15,
+    "ingredients": [
+      {
+        "name": "Tostada de Pan de Centeno",
+        "quantity": "1",
+        "unit": "rebanada",
+        "calories": 108,
+        "protein": 3.5999999999999996,
+        "carbs": 20,
+        "fats": 1.2,
+        "baseCalories": 108,
+        "baseProtein": 3.5999999999999996,
+        "baseCarbs": 20,
+        "baseFats": 1.2
+      },
+      {
+        "name": "Jamón Ibérico",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 220.00000000000003,
+        "protein": 22,
+        "carbs": 0,
+        "fats": 14.000000000000002,
+        "baseCalories": 2.2,
+        "baseProtein": 0.22,
+        "baseCarbs": 0,
+        "baseFats": 0.14
+      }
+    ],
+    "preparation": "1. Tostar el pan de centeno. 2. Colocar las lonchas de jamón ibérico por encima. Opcional: añadir un chorrito de aceite de oliva.",
+    "originalBaseRecipeId": "des_tostada_de_centeno_con_jamn_ibrico"
+  },
+  "p3_m1": {
+    "name": "Menestra de Verduras Congeladas con Carne Picada",
+    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/699b47eb55d8bc32874abf76.png",
+    "calories": 483,
+    "protein": 50,
+    "carbs": 18,
+    "fats": 21,
+    "ingredients": [
+      {
+        "name": "Verduras Variadas (Menestra)",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 30,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Carne Picada (Ternera/Pollo)",
+        "quantity": "150",
+        "unit": "g",
+        "calories": 240,
+        "protein": 42.00000000000001,
+        "carbs": 0,
+        "fats": 6,
+        "baseCalories": 1.6,
+        "baseProtein": 0.28,
+        "baseCarbs": 0,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Ajo",
+        "quantity": "50",
+        "unit": "g",
+        "calories": 50,
+        "protein": 2.5,
+        "carbs": 5,
+        "fats": 2,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Cebolla",
+        "quantity": "75",
+        "unit": "g",
+        "calories": 75,
+        "protein": 3.75,
+        "carbs": 7.5,
+        "fats": 3,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Aceite de Oliva Virgen",
+        "quantity": "10",
+        "unit": "g",
+        "calories": 88.4,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 10,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1
+      }
+    ],
+    "preparation": "1. Saltear el ajo y la cebolla en una sartén con un poco de aceite. 2. Añadir la carne picada y cocinar hasta que esté dorada. 3. Incorporar las verduras de menestra (puedes usar verduras congeladas o hacerlas por tu cuenta) y saltear todo junto hasta que las verduras estén tiernas. 4. Sazonar al gusto.",
+    "originalBaseRecipeId": "cc_menestra_de_verduras_congeladas_con_carne_picada"
+  },
+  "p3_m2": {
+    "name": "Fruta Densa (Plátano, Manzana, Pera)",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe4bb91eb325b93d4a82.png",
+    "calories": 180,
+    "protein": 2,
+    "carbs": 45,
+    "fats": 1,
+    "ingredients": [
+      {
+        "name": "Plátano",
+        "quantity": "1",
+        "unit": "ud",
+        "calories": 90,
+        "protein": 0.75,
+        "carbs": 22.5,
+        "fats": 0.3,
+        "baseCalories": 90,
+        "baseProtein": 0.75,
+        "baseCarbs": 22.5,
+        "baseFats": 0.3
+      },
+      {
+        "name": "Pera",
+        "quantity": "1",
+        "unit": "ud",
+        "calories": 90,
+        "protein": 0.75,
+        "carbs": 22.5,
+        "fats": 0.3,
+        "baseCalories": 90,
+        "baseProtein": 0.75,
+        "baseCarbs": 22.5,
+        "baseFats": 0.3
+      }
+    ],
+    "preparation": "1. Seleccionar la fruta densa de preferencia. 2. Para plátanos: pelar la piel y consumir directamente. 3. Para manzanas o peras: lavar bien la fruta. Se puede consumir con piel o pelada.",
+    "originalBaseRecipeId": "ext_fruta_densa_pltano_manzana_pera"
+  },
+  "p3_m3": {
+    "name": "Frutos Secos (Mezcla)",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68525c0b1d27cfeb580a55f7.png",
+    "calories": 130,
+    "protein": 4,
+    "carbs": 7,
+    "fats": 10,
+    "ingredients": [
+      {
+        "name": "Anacardos",
+        "quantity": "20",
+        "unit": "g",
+        "calories": 20,
+        "protein": 1,
+        "carbs": 2,
+        "fats": 0.8,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Almendras",
+        "quantity": "20",
+        "unit": "g",
+        "calories": 20,
+        "protein": 1,
+        "carbs": 2,
+        "fats": 0.8,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Nueces",
+        "quantity": "20",
+        "unit": "g",
+        "calories": 90,
+        "protein": 2,
+        "carbs": 3,
+        "fats": 8,
+        "baseCalories": 4.5,
+        "baseProtein": 0.1,
+        "baseCarbs": 0.15,
+        "baseFats": 0.4
+      }
+    ],
+    "preparation": "Consumir directamente como un snack energético y nutritivo.",
+    "originalBaseRecipeId": "ext_frutos_secos_mezcla"
+  },
+  "p3_m4": {
+    "name": "Crema de Verduras Variadas",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cd68425d68cc771ebd10a.png",
+    "calories": 318,
+    "protein": 12,
+    "carbs": 25,
+    "fats": 18,
+    "ingredients": [
+      {
+        "name": "Calabaza",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 100,
+        "protein": 5,
+        "carbs": 10,
+        "fats": 4,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Tomate",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 30,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Cebolla",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 100,
+        "protein": 5,
+        "carbs": 10,
+        "fats": 4,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Aceite de Oliva Virgen",
+        "quantity": "10",
+        "unit": "g",
+        "calories": 88.4,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 10,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1
+      }
+    ],
+    "preparation": "1. Puedes comprar una crema preparada o bien cocinar unas cuantas verduras en una olla.",
+    "originalBaseRecipeId": "pp_crema_de_verduras_variadas"
+  },
+  "p3_m5": {
+    "name": "Hamburguesa de Pavo-Pollo",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afcbc9b8ed3b6397cbb33.png",
+    "calories": 274,
+    "protein": 16,
+    "carbs": 2,
+    "fats": 23,
+    "ingredients": [
+      {
+        "name": "Hamburguesa de Pavo-Pollo",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 229.99999999999997,
+        "protein": 16,
+        "carbs": 2,
+        "fats": 18,
+        "baseCalories": 2.3,
+        "baseProtein": 0.16,
+        "baseCarbs": 0.02,
+        "baseFats": 0.18
+      },
+      {
+        "name": "Aceite de Oliva Virgen",
+        "quantity": "5",
+        "unit": "g",
+        "calories": 44.2,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 5,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1
+      }
+    ],
+    "preparation": "1. Si la hamburguesa es casera a partir de carne picada, sazonar la carne con sal, pimienta, ajo en polvo y perejil picado (opcional) y formar la hamburguesa. 2. Calentar una plancha o sartén antiadherente a fuego medio-alto con una gota de aceite de oliva. 3. Cocinar la hamburguesa durante 4-6 minutos por cada lado, o hasta que esté bien cocida por dentro y dorada por fuera.",
+    "originalBaseRecipeId": "ac_hamburguesa_de_pavopollo"
   }
 };
 const dailyMenus = [
   {
-    "name": "Opciones 1",
+    "name": "Día 1",
     "targetMacros": {
       "calories": 1700,
       "protein": 140,
@@ -963,7 +1269,7 @@ const dailyMenus = [
     ]
   },
   {
-    "name": "Opciones 2",
+    "name": "Día 2",
     "targetMacros": {
       "calories": 1700,
       "protein": 140,
@@ -991,7 +1297,7 @@ const dailyMenus = [
     ]
   },
   {
-    "name": "Opciones 3",
+    "name": "Día 3",
     "targetMacros": {
       "calories": 1800,
       "protein": 150,
@@ -1016,6 +1322,34 @@ const dailyMenus = [
     "extra": [
       "p2_m4",
       "p2_m5"
+    ]
+  },
+  {
+    "name": "Día 4",
+    "targetMacros": {
+      "calories": 1700,
+      "protein": 150,
+      "carbs": 100
+    },
+    "baselineTotals": {
+      "calories": 2069,
+      "protein": 150,
+      "carbs": 175,
+      "fats": 82
+    },
+    "desayuno": [
+      "p3_m0"
+    ],
+    "comida": [
+      "p3_m1"
+    ],
+    "cena": [
+      "p3_m4",
+      "p3_m5"
+    ],
+    "extra": [
+      "p3_m2",
+      "p3_m3"
     ]
   }
 ];
