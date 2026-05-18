@@ -1,4 +1,4 @@
-// Última actualización: 27/04/2026
+// Última actualización: 18/05/2026
 // Titulo: Plan de Alimentación
 // Alergias:
 
@@ -324,10 +324,10 @@ const foodDatabase = {
   "p1_m0": {
     "name": "Tostada de Pan de Centeno con Revuelto de Huevos y Jamón York",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687d09e04d6fb7f271b84cc9.png",
-    "calories": 351,
-    "protein": 24,
-    "carbs": 17,
-    "fats": 21,
+    "calories": 420,
+    "protein": 29,
+    "carbs": 18,
+    "fats": 26,
     "ingredients": [
       {
         "name": "Tostada de Pan de Centeno",
@@ -357,12 +357,12 @@ const foodDatabase = {
       },
       {
         "name": "Jamón York",
-        "quantity": "50",
+        "quantity": "80",
         "unit": "g",
-        "calories": 114.99999999999999,
-        "protein": 8,
-        "carbs": 1,
-        "fats": 9,
+        "calories": 184,
+        "protein": 12.8,
+        "carbs": 1.6,
+        "fats": 14.4,
         "baseCalories": 2.3,
         "baseProtein": 0.16,
         "baseCarbs": 0.02,
@@ -465,10 +465,10 @@ const foodDatabase = {
   "p1_m2": {
     "name": "Wok de Verduras con Salmón",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afda0b91eb330dd3d49b2.png",
-    "calories": 365,
-    "protein": 25,
+    "calories": 398,
+    "protein": 28,
     "carbs": 15,
-    "fats": 22,
+    "fats": 24,
     "ingredients": [
       {
         "name": "Tomate",
@@ -524,12 +524,12 @@ const foodDatabase = {
       },
       {
         "name": "Lomo de Salmón",
-        "quantity": "85",
+        "quantity": "100",
         "unit": "g",
-        "calories": 187.00000000000003,
-        "protein": 18.7,
+        "calories": 220,
+        "protein": 22,
         "carbs": 0,
-        "fats": 11.9,
+        "fats": 14,
         "baseCalories": 2.2,
         "baseProtein": 0.22,
         "baseCarbs": 0,
