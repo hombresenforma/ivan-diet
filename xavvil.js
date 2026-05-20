@@ -1,5 +1,7 @@
+// Última actualización: 20/05/2026
 // Titulo: Plan de Alimentación
-// Alergias: 
+// Alergias:
+
 const foodDatabase = {
   "p0_m0": {
     "name": "Yogurt Protéico con Frutos Rojos y Secos",
@@ -554,10 +556,10 @@ const foodDatabase = {
   "p2_m0": {
     "name": "Sandwich Vegetal de Atún",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cd60954a1880bed54596d.png",
-    "calories": 320,
-    "protein": 30,
-    "carbs": 35,
-    "fats": 5,
+    "calories": 342,
+    "protein": 33,
+    "carbs": 36,
+    "fats": 6,
     "ingredients": [
       {
         "name": "Pan de Centeno",
@@ -574,12 +576,12 @@ const foodDatabase = {
       },
       {
         "name": "Atún en Conserva",
-        "quantity": "80",
+        "quantity": "90",
         "unit": "g",
-        "calories": 128,
-        "protein": 22.400000000000002,
+        "calories": 144,
+        "protein": 25.2,
         "carbs": 0,
-        "fats": 3.2,
+        "fats": 3.6,
         "baseCalories": 1.6,
         "baseProtein": 0.28,
         "baseCarbs": 0,
@@ -587,11 +589,11 @@ const foodDatabase = {
       },
       {
         "name": "Tomate",
-        "quantity": "50",
+        "quantity": "60",
         "unit": "g",
-        "calories": 15,
-        "protein": 1,
-        "carbs": 2.5,
+        "calories": 18,
+        "protein": 1.2,
+        "carbs": 3,
         "fats": 0.1,
         "baseCalories": 0.3,
         "baseProtein": 0.02,
@@ -600,11 +602,11 @@ const foodDatabase = {
       },
       {
         "name": "Lechuga",
-        "quantity": "50",
+        "quantity": "60",
         "unit": "g",
-        "calories": 15,
-        "protein": 1,
-        "carbs": 2.5,
+        "calories": 18,
+        "protein": 1.2,
+        "carbs": 3,
         "fats": 0.1,
         "baseCalories": 0.3,
         "baseProtein": 0.02,
@@ -618,19 +620,19 @@ const foodDatabase = {
   "p2_m1": {
     "name": "Ensalada de garbanzos con verduras y queso",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68ff252d3f16b5241c27c1e4.png",
-    "calories": 423,
-    "protein": 26,
-    "carbs": 41,
+    "calories": 449,
+    "protein": 28,
+    "carbs": 46,
     "fats": 17,
     "ingredients": [
       {
         "name": "Garbanzos en Conserva",
-        "quantity": "100",
+        "quantity": "120",
         "unit": "g",
-        "calories": 130,
-        "protein": 8,
-        "carbs": 22.000000000000004,
-        "fats": 0.5,
+        "calories": 156,
+        "protein": 9.6,
+        "carbs": 26.4,
+        "fats": 0.6,
         "baseCalories": 1.3,
         "baseProtein": 0.08,
         "baseCarbs": 0.22000000000000003,
@@ -708,19 +710,19 @@ const foodDatabase = {
   "p2_m2": {
     "name": "Huevo Duro Cocido",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68f27f5bfb2e440988a37788.png",
-    "calories": 155,
-    "protein": 13,
-    "carbs": 1,
-    "fats": 11,
+    "calories": 233,
+    "protein": 20,
+    "carbs": 2,
+    "fats": 17,
     "ingredients": [
       {
         "name": "Huevo Cocido",
-        "quantity": "2",
+        "quantity": "3",
         "unit": "unidad(es)",
-        "calories": 155,
-        "protein": 13,
-        "carbs": 1.1,
-        "fats": 11,
+        "calories": 232.5,
+        "protein": 19.5,
+        "carbs": 1.7,
+        "fats": 16.5,
         "baseCalories": 77.5,
         "baseProtein": 6.5,
         "baseCarbs": 0.55,
@@ -949,19 +951,19 @@ const foodDatabase = {
   "p3_m1": {
     "name": "Fajitas de Pollo y Verduras",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afcef0ed50608b742ff33.png",
-    "calories": 630,
-    "protein": 69,
-    "carbs": 52,
-    "fats": 13,
+    "calories": 738,
+    "protein": 72,
+    "carbs": 72,
+    "fats": 14,
     "ingredients": [
       {
         "name": "Pan de Fajita",
-        "quantity": "2",
+        "quantity": "3",
         "unit": "rebanada",
-        "calories": 216,
-        "protein": 7.199999999999999,
-        "carbs": 40,
-        "fats": 2.4,
+        "calories": 324,
+        "protein": 10.8,
+        "carbs": 60,
+        "fats": 3.6,
         "baseCalories": 108,
         "baseProtein": 3.5999999999999996,
         "baseCarbs": 20,
@@ -1134,12 +1136,6 @@ const dailyMenus = [
       "protein": 150,
       "carbs": 150
     },
-    "baselineTotals": {
-      "calories": 1779,
-      "protein": 138,
-      "carbs": 184,
-      "fats": 49
-    },
     "desayuno": [
       "p0_m0"
     ],
@@ -1159,12 +1155,6 @@ const dailyMenus = [
       "calories": 1800,
       "protein": 150,
       "carbs": 150
-    },
-    "baselineTotals": {
-      "calories": 1737,
-      "protein": 112,
-      "carbs": 119,
-      "fats": 89
     },
     "desayuno": [
       "p1_m0"
@@ -1186,12 +1176,6 @@ const dailyMenus = [
       "calories": 1800,
       "protein": 150,
       "carbs": 150
-    },
-    "baselineTotals": {
-      "calories": 1724,
-      "protein": 142,
-      "carbs": 133,
-      "fats": 65
     },
     "desayuno": [
       "p2_m0"
@@ -1215,12 +1199,6 @@ const dailyMenus = [
       "calories": 1600,
       "protein": 150,
       "carbs": 90
-    },
-    "baselineTotals": {
-      "calories": 2643,
-      "protein": 193,
-      "carbs": 274,
-      "fats": 83
     },
     "desayuno": [
       "p3_m0"
