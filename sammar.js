@@ -55,21 +55,21 @@ const foodDatabase = {
   "p0_m1": {
     "name": "Ensalada de Pasta con Pollo",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afc47b91eb349463d47dd.png",
-    "calories": 736,
-    "protein": 70,
-    "carbs": 76,
+    "calories": 809,
+    "protein": 72,
+    "carbs": 91,
     "fats": 14,
     "ingredients": [
       {
         "name": "Pasta Integral",
-        "quantity": "70",
+        "quantity": "90",
         "unit": "g",
-        "calories": 255.5,
-        "protein": 8.4,
-        "carbs": 52.5,
-        "fats": 1.4000000000000001,
+        "calories": 328.5,
+        "protein": 10.8,
+        "carbs": 67.5,
+        "fats": 1.8,
         "baseCalories": 3.65,
-        "baseProtein": 0.12,
+        "baseProtein": 0.12000000000000001,
         "baseCarbs": 0.75,
         "baseFats": 0.02
       },
@@ -307,6 +307,31 @@ const foodDatabase = {
     "preparation": "Pelar y consumir.",
     "originalBaseRecipeId": "ext_fruta_densa_pltano_manzana"
   },
+  "p0_m6": {
+    "name": "Fruta Densa (Plátano, Manzana, Pera)",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe4bb91eb325b93d4a82.png",
+    "calories": 90,
+    "protein": 1,
+    "carbs": 23,
+    "fats": 0,
+    "ingredients": [
+      {
+        "name": "Plátano",
+        "quantity": "1",
+        "unit": "ud",
+        "calories": 90,
+        "protein": 0.75,
+        "carbs": 22.5,
+        "fats": 0.3,
+        "baseCalories": 90,
+        "baseProtein": 0.75,
+        "baseCarbs": 22.5,
+        "baseFats": 0.3
+      }
+    ],
+    "preparation": "1. Seleccionar la fruta densa de preferencia. 2. Para plátanos: pelar la piel y consumir directamente. 3. Para manzanas o peras: lavar bien la fruta. Se puede consumir con piel o pelada.",
+    "originalBaseRecipeId": "ext_fruta_densa_pltano_manzana_pera"
+  },
   "p1_m0": {
     "name": "Tostada de centeno con jamón ibérico",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6887226c7537da60484d071f.png",
@@ -348,19 +373,19 @@ const foodDatabase = {
   "p1_m1": {
     "name": "Patatas Cocidas con Salteado de Verduras y Hamburguesa a la plancha",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cf8559b0c6709fc9afa98.png",
-    "calories": 735,
-    "protein": 37,
-    "carbs": 78,
+    "calories": 780,
+    "protein": 38,
+    "carbs": 88,
     "fats": 31,
     "ingredients": [
       {
         "name": "Patata",
-        "quantity": "300",
+        "quantity": "350",
         "unit": "g",
-        "calories": 270,
-        "protein": 6,
-        "carbs": 60,
-        "fats": 0.3,
+        "calories": 315,
+        "protein": 7,
+        "carbs": 70,
+        "fats": 0.35000000000000003,
         "baseCalories": 0.9,
         "baseProtein": 0.02,
         "baseCarbs": 0.2,
@@ -575,6 +600,31 @@ const foodDatabase = {
     "preparation": "1. Seleccionar la fruta cítrica de preferencia. 2. Lavar bien la fruta bajo el grifo. 3. Para mandarinas y naranjas: pelar la piel con las manos. 4. Para kiwis: cortar por la mitad y comer la pulpa con una cucharita.",
     "originalBaseRecipeId": "ext_fruta_ctrica_mandarina_kiwi_naranja"
   },
+  "p1_m5": {
+    "name": "Fruta Densa (Plátano, Manzana)",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe4bb91eb325b93d4a82.png",
+    "calories": 90,
+    "protein": 1,
+    "carbs": 23,
+    "fats": 0,
+    "ingredients": [
+      {
+        "name": "Plátano",
+        "quantity": "1",
+        "unit": "ud",
+        "calories": 90,
+        "protein": 0.75,
+        "carbs": 22.5,
+        "fats": 0.3,
+        "baseCalories": 90,
+        "baseProtein": 0.75,
+        "baseCarbs": 22.5,
+        "baseFats": 0.3
+      }
+    ],
+    "preparation": "Pelar y consumir.",
+    "originalBaseRecipeId": "ext_fruta_densa_pltano_manzana"
+  },
   "p2_m0": {
     "name": "Tostada de Pan de Centeno con Revuelto de Huevos y Jamón York",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687d09e04d6fb7f271b84cc9.png",
@@ -691,6 +741,31 @@ const foodDatabase = {
     "originalBaseRecipeId": "pp_ensalada_de_lentejas"
   },
   "p2_m2": {
+    "name": "Pechuga de Pollo a la Plancha",
+    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69b66b3087f0f2415505fc9a.png",
+    "calories": 288,
+    "protein": 50,
+    "carbs": 0,
+    "fats": 7,
+    "ingredients": [
+      {
+        "name": "Pechuga de Pollo",
+        "quantity": "180",
+        "unit": "g",
+        "calories": 288,
+        "protein": 50.400000000000006,
+        "carbs": 0,
+        "fats": 7.2,
+        "baseCalories": 1.6,
+        "baseProtein": 0.28,
+        "baseCarbs": 0,
+        "baseFats": 0.04
+      }
+    ],
+    "preparation": "1. Sazonar la pechuga de pollo con sal, pimienta y especias al gusto. 2. Calentar una plancha o sartén antiadherente con una gota de aceite. 3. Cocinar la pechuga hasta que esté dorada por fuera y cocida por dentro.",
+    "originalBaseRecipeId": "ac_pechuga_de_pollo_a_la_plancha"
+  },
+  "p2_m3": {
     "name": "Menestra de Verduras Congeladas con Carne Picada",
     "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/699b47eb55d8bc32874abf76.png",
     "calories": 376,
@@ -754,7 +829,7 @@ const foodDatabase = {
     "preparation": "1. Saltear el ajo y la cebolla en una sartén con un poco de aceite. 2. Añadir la carne picada y cocinar hasta que esté dorada. 3. Incorporar las verduras de menestra (puedes usar verduras congeladas o hacerlas por tu cuenta) y saltear todo junto hasta que las verduras estén tiernas. 4. Sazonar al gusto.",
     "originalBaseRecipeId": "cc_menestra_de_verduras_congeladas_con_carne_picada"
   },
-  "p2_m3": {
+  "p2_m4": {
     "name": "Yogur Protéico (Sabores, Natural...)",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd789b8ed38b127cbc09.png",
     "calories": 120,
@@ -779,60 +854,240 @@ const foodDatabase = {
     "preparation": "Consumir directamente.",
     "originalBaseRecipeId": "ext_yogur_protico_sabores_natural"
   },
-  "p2_m4": {
-    "name": "Pechuga de Pollo a la Plancha",
-    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69b66b3087f0f2415505fc9a.png",
-    "calories": 288,
-    "protein": 50,
-    "carbs": 0,
-    "fats": 7,
+  "p3_m0": {
+    "name": "Tostada de Centeno con Huevo y Aguacate",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687a695da648331355d3b0b2.png",
+    "calories": 328,
+    "protein": 14,
+    "carbs": 25,
+    "fats": 19,
+    "ingredients": [
+      {
+        "name": "Tostada de Pan de Centeno",
+        "quantity": "1",
+        "unit": "rebanada",
+        "calories": 108,
+        "protein": 3.5999999999999996,
+        "carbs": 20,
+        "fats": 1.2,
+        "baseCalories": 108,
+        "baseProtein": 3.5999999999999996,
+        "baseCarbs": 20,
+        "baseFats": 1.2
+      },
+      {
+        "name": "Huevos",
+        "quantity": "1",
+        "unit": "ud",
+        "calories": 85.25,
+        "protein": 7.15,
+        "carbs": 0.6050000000000001,
+        "fats": 6.05,
+        "baseCalories": 85.25,
+        "baseProtein": 7.15,
+        "baseCarbs": 0.6050000000000001,
+        "baseFats": 6.05
+      },
+      {
+        "name": "Aguacate",
+        "quantity": "30",
+        "unit": "g",
+        "calories": 135,
+        "protein": 3,
+        "carbs": 4.5,
+        "fats": 12,
+        "baseCalories": 4.5,
+        "baseProtein": 0.1,
+        "baseCarbs": 0.15,
+        "baseFats": 0.4
+      }
+    ],
+    "preparation": "1. Tostar el pan de centeno. 2. Cocinar los huevos al gusto (revueltos, pochados, a la plancha). 3. Machacar el aguacate sobre las tostadas y añadir aceite y especias.",
+    "originalBaseRecipeId": "des_tostada_de_centeno_con_huevo_y_aguacate"
+  },
+  "p3_m1": {
+    "name": "Wrap de pollo hervido con verduras y arroz",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684ef7e26202d54cb0de24e8.png",
+    "calories": 941,
+    "protein": 65,
+    "carbs": 108,
+    "fats": 25,
     "ingredients": [
       {
         "name": "Pechuga de Pollo",
-        "quantity": "180",
+        "quantity": "150",
         "unit": "g",
-        "calories": 288,
-        "protein": 50.400000000000006,
+        "calories": 240,
+        "protein": 42.00000000000001,
         "carbs": 0,
-        "fats": 7.2,
+        "fats": 6,
         "baseCalories": 1.6,
         "baseProtein": 0.28,
         "baseCarbs": 0,
         "baseFats": 0.04
+      },
+      {
+        "name": "Arroz",
+        "quantity": "70",
+        "unit": "g",
+        "calories": 255.5,
+        "protein": 8.4,
+        "carbs": 52.5,
+        "fats": 1.4000000000000001,
+        "baseCalories": 3.65,
+        "baseProtein": 0.12,
+        "baseCarbs": 0.75,
+        "baseFats": 0.02
+      },
+      {
+        "name": "Brócoli",
+        "quantity": "70",
+        "unit": "g",
+        "calories": 21,
+        "protein": 1.4000000000000001,
+        "carbs": 3.5,
+        "fats": 0.14,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Zanahoria",
+        "quantity": "60",
+        "unit": "g",
+        "calories": 60,
+        "protein": 3,
+        "carbs": 6,
+        "fats": 2.4,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Cebolla",
+        "quantity": "60",
+        "unit": "g",
+        "calories": 60,
+        "protein": 3,
+        "carbs": 6,
+        "fats": 2.4,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Tortilla de Wrap",
+        "quantity": "2",
+        "unit": "rebanada",
+        "calories": 216,
+        "protein": 7.199999999999999,
+        "carbs": 40,
+        "fats": 2.4,
+        "baseCalories": 108,
+        "baseProtein": 3.5999999999999996,
+        "baseCarbs": 20,
+        "baseFats": 1.2
+      },
+      {
+        "name": "Aceite de Oliva Virgen",
+        "quantity": "10",
+        "unit": "g",
+        "calories": 88.4,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 10,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1
       }
     ],
-    "preparation": "1. Sazonar la pechuga de pollo con sal, pimienta y especias al gusto. 2. Calentar una plancha o sartén antiadherente con una gota de aceite. 3. Cocinar la pechuga hasta que esté dorada por fuera y cocida por dentro.",
-    "originalBaseRecipeId": "ac_pechuga_de_pollo_a_la_plancha"
+    "preparation": "1. Hervir la pechuga de pollo en agua con sal hasta que esté cocida (unos 15-20 minutos). Dejar enfriar un poco y desmenuzar o cortar en trozos pequeños. 2. Cocer el arroz según las instrucciones del paquete. 3. Cocer al vapor o hervir el brócoli (en floretes pequeños) y la zanahoria (cortada en juliana o dados pequeños) hasta que estén tiernos pero crujientes. Picar la cebolla finamente (puede usarse cruda o salteada ligeramente). 4. Calentar ligeramente la tortilla de wrap para que sea más flexible. 5. Extender una capa fina de arroz cocido sobre la tortilla, dejando un borde libre. Distribuir encima el pollo desmenuzado, el brócoli, la zanahoria y la cebolla. 6. Opcional: añadir una salsa ligera (yogur con hierbas, hummus, etc.). Enrollar el wrap firmemente, doblando los extremos hacia adentro si se prefiere.",
+    "originalBaseRecipeId": "cc_wrap_de_pollo_hervido_con_verduras_y_arroz"
   },
-  "p2_m5": {
-    "name": "Tortitas de Legumbres (Mercadona)",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682affdd9b8ed3082d7cbefc.png",
-    "calories": 80,
-    "protein": 4,
-    "carbs": 8,
-    "fats": 3,
+  "p3_m2": {
+    "name": "Menestra de Verduras Congeladas con Carne Picada",
+    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/699b47eb55d8bc32874abf76.png",
+    "calories": 375,
+    "protein": 50,
+    "carbs": 18,
+    "fats": 9,
     "ingredients": [
       {
-        "name": "Tortitas de Legumbres",
-        "quantity": "80",
+        "name": "Verduras Variadas (Menestra)",
+        "quantity": "200",
         "unit": "g",
-        "calories": 80,
+        "calories": 60,
         "protein": 4,
-        "carbs": 8,
-        "fats": 3.2,
+        "carbs": 10,
+        "fats": 0.4,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Carne Picada (Ternera/Pollo)",
+        "quantity": "150",
+        "unit": "g",
+        "calories": 240,
+        "protein": 42.00000000000001,
+        "carbs": 0,
+        "fats": 6,
+        "baseCalories": 1.6,
+        "baseProtein": 0.28,
+        "baseCarbs": 0,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Cebolla",
+        "quantity": "75",
+        "unit": "g",
+        "calories": 75,
+        "protein": 3.75,
+        "carbs": 7.5,
+        "fats": 3,
         "baseCalories": 1,
         "baseProtein": 0.05,
         "baseCarbs": 0.1,
         "baseFats": 0.04
       }
     ],
-    "preparation": "1. Abrir el paquete de tortitas de legumbres. 2. Consumir directamente como snack crujiente. Son ideales para picar entre horas.",
-    "originalBaseRecipeId": "ext_tortitas_de_legumbres_mercadona"
+    "preparation": "1. Saltear el ajo y la cebolla en una sartén con un poco de aceite. 2. Añadir la carne picada y cocinar hasta que esté dorada. 3. Incorporar las verduras de menestra (puedes usar verduras congeladas o hacerlas por tu cuenta) y saltear todo junto hasta que las verduras estén tiernas. 4. Sazonar al gusto.",
+    "originalBaseRecipeId": "cc_menestra_de_verduras_congeladas_con_carne_picada"
+  },
+  "p3_m3": {
+    "name": "Yogur Protéico (Sabores, Natural...)",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd789b8ed38b127cbc09.png",
+    "calories": 120,
+    "protein": 6,
+    "carbs": 12,
+    "fats": 5,
+    "ingredients": [
+      {
+        "name": "Yogur Protéico",
+        "quantity": "120",
+        "unit": "g",
+        "calories": 120,
+        "protein": 6,
+        "carbs": 12,
+        "fats": 4.8,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      }
+    ],
+    "preparation": "Consumir directamente.",
+    "originalBaseRecipeId": "ext_yogur_protico_sabores_natural"
   }
 };
 const dailyMenus = [
   {
-    "name": "Opciones 1",
+    "name": "Entreno 1",
     "targetMacros": {
       "calories": 1700,
       "protein": 140,
@@ -845,7 +1100,8 @@ const dailyMenus = [
       "fats": 86
     },
     "desayuno": [
-      "p0_m0"
+      "p0_m0",
+      "p0_m6"
     ],
     "comida": [
       "p0_m1"
@@ -860,7 +1116,7 @@ const dailyMenus = [
     ]
   },
   {
-    "name": "Opciones 2",
+    "name": "Entreno 2",
     "targetMacros": {
       "calories": 1800,
       "protein": 150,
@@ -873,7 +1129,8 @@ const dailyMenus = [
       "fats": 70
     },
     "desayuno": [
-      "p1_m0"
+      "p1_m0",
+      "p1_m5"
     ],
     "comida": [
       "p1_m1"
@@ -887,7 +1144,7 @@ const dailyMenus = [
     ]
   },
   {
-    "name": "Opciones 3",
+    "name": "Libre 1",
     "targetMacros": {
       "calories": 1800,
       "protein": 150,
@@ -904,14 +1161,39 @@ const dailyMenus = [
     ],
     "comida": [
       "p2_m1",
-      "p2_m4"
-    ],
-    "cena": [
       "p2_m2"
     ],
+    "cena": [
+      "p2_m3"
+    ],
     "extra": [
-      "p2_m3",
-      "p2_m5"
+      "p2_m4"
+    ]
+  },
+  {
+    "name": "Libre 2",
+    "targetMacros": {
+      "calories": 1800,
+      "protein": 150,
+      "carbs": 150
+    },
+    "baselineTotals": {
+      "calories": 1861,
+      "protein": 151,
+      "carbs": 136,
+      "fats": 73
+    },
+    "desayuno": [
+      "p3_m0"
+    ],
+    "comida": [
+      "p3_m1"
+    ],
+    "cena": [
+      "p3_m2"
+    ],
+    "extra": [
+      "p3_m3"
     ]
   }
 ];
