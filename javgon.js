@@ -996,83 +996,6 @@ const foodDatabase = {
     "originalBaseRecipeId": "cc_berenjenas_rellenas_de_pavo_al_horno"
   },
   "p3_m2": {
-    "name": "Pasta de lentejas con sofrito de ternera y cerdo",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684efc77653a2c50f9172c7c.png",
-    "calories": 625,
-    "protein": 47,
-    "carbs": 53,
-    "fats": 22,
-    "ingredients": [
-      {
-        "name": "Pasta de Lentejas",
-        "quantity": "180",
-        "unit": "g",
-        "calories": 234,
-        "protein": 14.4,
-        "carbs": 39.6,
-        "fats": 0.9,
-        "baseCalories": 1.3,
-        "baseProtein": 0.08,
-        "baseCarbs": 0.22,
-        "baseFats": 0.005
-      },
-      {
-        "name": "Carne Picada Mixta (Ternera y Cerdo)",
-        "quantity": "120",
-        "unit": "g",
-        "calories": 264,
-        "protein": 26.4,
-        "carbs": 0,
-        "fats": 16.8,
-        "baseCalories": 2.2,
-        "baseProtein": 0.22,
-        "baseCarbs": 0,
-        "baseFats": 0.14
-      },
-      {
-        "name": "Calabacín",
-        "quantity": "55",
-        "unit": "g",
-        "calories": 16.5,
-        "protein": 1.1,
-        "carbs": 2.75,
-        "fats": 0.11,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Cebolla",
-        "quantity": "55",
-        "unit": "g",
-        "calories": 55,
-        "protein": 2.75,
-        "carbs": 5.5,
-        "fats": 2.2,
-        "baseCalories": 1,
-        "baseProtein": 0.05,
-        "baseCarbs": 0.1,
-        "baseFats": 0.04
-      },
-      {
-        "name": "Zanahoria",
-        "quantity": "55",
-        "unit": "g",
-        "calories": 55,
-        "protein": 2.75,
-        "carbs": 5.5,
-        "fats": 2.2,
-        "baseCalories": 1,
-        "baseProtein": 0.05,
-        "baseCarbs": 0.1,
-        "baseFats": 0.04
-      }
-    ],
-    "preparation": "1. Cocinar la pasta de lentejas según las instrucciones del paquete hasta que esté al dente. Escurrir y reservar. 2. Picar finamente la cebolla y la zanahoria. Rallar o picar el calabacín en dados pequeños. 3. En una sartén grande, calentar un poco de aceite de oliva y sofreír la cebolla y zanahoria hasta que estén blandas. 4. Añadir la carne picada mixta (ternera y cerdo) y cocinar a fuego medio-alto, deshaciendo los grumos con una cuchara, hasta que se dore. 5. Incorporar el calabacín y cocinar unos minutos más hasta que esté tierno. Añadir salsa de tomate (opcional, o tomate triturado natural) y sazonar al gusto con sal, pimienta, orégano o albahaca. Cocinar a fuego lento durante 10-15 minutos para que se integren los sabores. 6. Mezclar la pasta de lentejas escurrida con el sofrito. Servir caliente, opcionalmente con queso parmesano rallado.",
-    "originalBaseRecipeId": "cc_pasta_de_lentejas_con_sofrito_de_ternera_y_cerdo"
-  },
-  "p3_m3": {
     "name": "Yogur Protéico con Frutos Rojos y Secos",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afea2b91eb35e413d4ab6.png",
     "calories": 125,
@@ -1122,6 +1045,95 @@ const foodDatabase = {
     ],
     "preparation": "1. En un bol, verter el yogur proteico. 2. Añadir los frutos rojos frescos o descongelados. 3. Espolvorear con los frutos secos troceados por encima.",
     "originalBaseRecipeId": "ext_yogur_protico_con_frutos_rojos_y_secos"
+  },
+  "p3_m3": {
+    "name": "Patatas Gajo al Horno o Air Fryer",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cd8b854a1885423545b10.png",
+    "calories": 233,
+    "protein": 5,
+    "carbs": 26,
+    "fats": 12,
+    "ingredients": [
+      {
+        "name": "Patatas",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 90,
+        "protein": 2,
+        "carbs": 20,
+        "fats": 0.1,
+        "baseCalories": 0.9,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.2,
+        "baseFats": 0.001
+      },
+      {
+        "name": "Cebolla",
+        "quantity": "55",
+        "unit": "g",
+        "calories": 55,
+        "protein": 2.75,
+        "carbs": 5.5,
+        "fats": 2.2,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Aceite de Oliva Virgen",
+        "quantity": "10",
+        "unit": "g",
+        "calories": 88.4,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 10,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1
+      }
+    ],
+    "preparation": "1. Precalentar el horno a 200°C (390°F). 2. Lavar bien las patatas, cortarlas a trozos al gusto junto con la cebolla 3. Asar las patatas directamente sobre la rejilla del horno o en una bandeja durante 45-60 minutos (el tiempo dependerá del tamaño).  3. Servir todo junto en un bol and aliñar con aceite de oliva virgen extra, sal y otras especies al gusto.",
+    "originalBaseRecipeId": "pp_patatas_gajo_al_horno_o_air_fryer"
+  },
+  "p3_m4": {
+    "name": "Pechuga de Pollo a la Plancha",
+    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69b66b3087f0f2415505fc9a.png",
+    "calories": 328,
+    "protein": 42,
+    "carbs": 0,
+    "fats": 16,
+    "ingredients": [
+      {
+        "name": "Pechuga de Pollo",
+        "quantity": "150",
+        "unit": "g",
+        "calories": 240,
+        "protein": 42.00000000000001,
+        "carbs": 0,
+        "fats": 6,
+        "baseCalories": 1.6,
+        "baseProtein": 0.28,
+        "baseCarbs": 0,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Aceite de Oliva Virgen",
+        "quantity": "10",
+        "unit": "g",
+        "calories": 88.4,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 10,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1
+      }
+    ],
+    "preparation": "1. Sazonar la pechuga de pollo con sal, pimienta y especias al gusto. 2. Calentar una plancha o sartén antiadherente con una gota de aceite. 3. Cocinar la pechuga hasta que esté dorada por fuera y cocida por dentro.",
+    "originalBaseRecipeId": "ac_pechuga_de_pollo_a_la_plancha"
   }
 };
 const dailyMenus = [
@@ -1229,10 +1241,11 @@ const dailyMenus = [
       "p3_m1"
     ],
     "cena": [
-      "p3_m2"
+      "p3_m3",
+      "p3_m4"
     ],
     "extra": [
-      "p3_m3"
+      "p3_m2"
     ]
   }
 ];
