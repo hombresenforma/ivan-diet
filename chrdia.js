@@ -831,15 +831,53 @@ const foodDatabase = {
     "originalBaseRecipeId": "ext_fruta_densa_pltano_manzana"
   },
   "p3_m0": {
-    "name": "Tortitas de Avena con Frutos Rojos",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682ad5d9e819fce58fa8a30c.png",
-    "calories": 466,
-    "protein": 24,
-    "carbs": 63,
-    "fats": 14,
+    "name": "Revuelto de Huevos ",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684f0183653a2c532c17327c.png",
+    "calories": 344,
+    "protein": 21,
+    "carbs": 2,
+    "fats": 28,
     "ingredients": [
       {
-        "name": "Harina de Avena",
+        "name": "Huevos",
+        "quantity": "3",
+        "unit": "ud",
+        "calories": 255.75,
+        "protein": 21.450000000000003,
+        "carbs": 1.8150000000000004,
+        "fats": 18.15,
+        "baseCalories": 85.25,
+        "baseProtein": 7.15,
+        "baseCarbs": 0.6050000000000001,
+        "baseFats": 6.05
+      },
+      {
+        "name": "Aceite de Oliva Virgen",
+        "quantity": "10",
+        "unit": "g",
+        "calories": 88.4,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 10,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1
+      }
+    ],
+    "preparation": "1. Batir los huevos en un bol con una pizca de sal y pimienta. 2. Cortar el queso Havarti light en trocitos pequeños o rallarlo. 3. Calentar una sartén antiadherente a fuego medio con una pizca de aceite de oliva o mantequilla (opcional). 4. Verter los huevos batidos en la sartén caliente. Dejar que empiecen a cuajar ligeramente por los bordes. 5. Añadir los trocitos de queso Havarti light distribuyéndolos por encima de los huevos. 6. Remover suavemente con una espátula, llevando los bordes cuajados hacia el centro y permitiendo que la parte líquida fluya hacia los lados, hasta que los huevos estén cuajados al gusto y el queso esté derretido e integrado.",
+    "originalBaseRecipeId": "ac_revuelto_de_huevos_con_queso_habarti_light"
+  },
+  "p3_m1": {
+    "name": "Ensalada de Pasta con Pollo",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afc47b91eb349463d47dd.png",
+    "calories": 881,
+    "protein": 76,
+    "carbs": 79,
+    "fats": 26,
+    "ingredients": [
+      {
+        "name": "Pasta Integral",
         "quantity": "70",
         "unit": "g",
         "calories": 255.5,
@@ -852,109 +890,110 @@ const foodDatabase = {
         "baseFats": 0.02
       },
       {
-        "name": "Huevo",
-        "quantity": "2",
-        "unit": "ud",
-        "calories": 170.5,
-        "protein": 14.3,
-        "carbs": 1.2100000000000002,
-        "fats": 12.1,
-        "baseCalories": 85.25,
-        "baseProtein": 7.15,
-        "baseCarbs": 0.6050000000000001,
-        "baseFats": 6.05
+        "name": "Canónigos",
+        "quantity": "75",
+        "unit": "g",
+        "calories": 75,
+        "protein": 3.75,
+        "carbs": 7.5,
+        "fats": 3,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
       },
       {
-        "name": "Frutos Rojos",
-        "quantity": "80",
+        "name": "Tomate",
+        "quantity": "75",
         "unit": "g",
-        "calories": 40,
-        "protein": 0.8,
-        "carbs": 9.6,
-        "fats": 0.4,
-        "baseCalories": 0.5,
-        "baseProtein": 0.01,
-        "baseCarbs": 0.12,
-        "baseFats": 0.005
-      }
-    ],
-    "preparation": "1. Mezclar la harina de avena, claras de huevo, y huevo entero (si se usa) con un poco de leche o bebida vegetal hasta obtener una masa homogénea. 2. Cocinar las tortitas en una sartén antiadherente caliente por ambos lados hasta que estén doradas. 3. Servir con los frutos rojos por encima.",
-    "originalBaseRecipeId": "des_tortitas_de_avena_con_frutos_rojos"
-  },
-  "p3_m1": {
-    "name": "Ensala de Patata, Atún y Huevo",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afc08b91eb31afe3d4796.png",
-    "calories": 445,
-    "protein": 53,
-    "carbs": 26,
-    "fats": 12,
-    "ingredients": [
-      {
-        "name": "Patata cocida",
-        "quantity": "100",
-        "unit": "g",
-        "calories": 90,
-        "protein": 2,
-        "carbs": 20,
-        "fats": 0.1,
-        "baseCalories": 0.9,
+        "calories": 22.5,
+        "protein": 1.5,
+        "carbs": 3.75,
+        "fats": 0.15,
+        "baseCalories": 0.3,
         "baseProtein": 0.02,
-        "baseCarbs": 0.2,
-        "baseFats": 0.001
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
       },
       {
-        "name": "Atún al natural",
-        "quantity": "150",
+        "name": "Pimiento Rojo",
+        "quantity": "75",
         "unit": "g",
-        "calories": 240,
-        "protein": 42.00000000000001,
+        "calories": 22.5,
+        "protein": 1.5,
+        "carbs": 3.75,
+        "fats": 0.15,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Pimiento Verde",
+        "quantity": "75",
+        "unit": "g",
+        "calories": 22.5,
+        "protein": 1.5,
+        "carbs": 3.75,
+        "fats": 0.15,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Cebolla",
+        "quantity": "75",
+        "unit": "g",
+        "calories": 75,
+        "protein": 3.75,
+        "carbs": 7.5,
+        "fats": 3,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Pechuga de Pollo",
+        "quantity": "200",
+        "unit": "g",
+        "calories": 320,
+        "protein": 56.00000000000001,
         "carbs": 0,
-        "fats": 6,
+        "fats": 8,
         "baseCalories": 1.6,
         "baseProtein": 0.28,
         "baseCarbs": 0,
         "baseFats": 0.04
       },
       {
-        "name": "Huevo cocido",
-        "quantity": "1",
-        "unit": "ud",
-        "calories": 85.25,
-        "protein": 7.15,
-        "carbs": 0.6050000000000001,
-        "fats": 6.05,
-        "baseCalories": 85.25,
-        "baseProtein": 7.15,
-        "baseCarbs": 0.6050000000000001,
-        "baseFats": 6.05
-      },
-      {
-        "name": "Tomate",
-        "quantity": "100",
+        "name": "Aceite de Oliva Virgen",
+        "quantity": "10",
         "unit": "g",
-        "calories": 30,
-        "protein": 2,
-        "carbs": 5,
-        "fats": 0.2,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
+        "calories": 88.4,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 10,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1
       }
     ],
-    "preparation": "Mezclar ingredientes troceados y aliñar.",
-    "originalBaseRecipeId": "custom_imp_1778487627514_5hjw"
+    "preparation": "1. Cocer la pasta según las instrucciones del paquete. Escurrir, pasar por agua fría para detener la cocción y dejar enfriar. 2. Cocinar la pechuga de pollo (a la plancha, hervida o asada) y desmenuzarla o cortarla en dados. 3. Lavar los canónigos. Picar el tomate, pimiento rojo, pimiento verde y cebolla en trozos pequeños. 4. En un bol grande, combinar la pasta fría, el pollo, los canónigos y las verduras picadas. 5. Aliñar con aceite de oliva virgen extra, vinagre o tu salsa para ensaladas favorita (ej. yogur, mostaza y miel). Salpimentar al gusto.",
+    "originalBaseRecipeId": "cc_ensalada_de_pasta_con_pollo"
   },
   "p3_m2": {
-    "name": "Crema de Verduras Variadas",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cd68425d68cc771ebd10a.png",
-    "calories": 318,
+    "name": "Judía verde con patata y Zanahoria",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cf5c1ddc9c1507857434b.png",
+    "calories": 378,
     "protein": 12,
-    "carbs": 25,
+    "carbs": 40,
     "fats": 18,
     "ingredients": [
       {
-        "name": "Calabaza",
+        "name": "Judía Verde",
         "quantity": "100",
         "unit": "g",
         "calories": 100,
@@ -967,20 +1006,20 @@ const foodDatabase = {
         "baseFats": 0.04
       },
       {
-        "name": "Tomate",
+        "name": "Patata",
         "quantity": "100",
         "unit": "g",
-        "calories": 30,
+        "calories": 90,
         "protein": 2,
-        "carbs": 5,
-        "fats": 0.2,
-        "baseCalories": 0.3,
+        "carbs": 20,
+        "fats": 0.1,
+        "baseCalories": 0.9,
         "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
+        "baseCarbs": 0.2,
+        "baseFats": 0.001
       },
       {
-        "name": "Cebolla",
+        "name": "Zanahoria",
         "quantity": "100",
         "unit": "g",
         "calories": 100,
@@ -1006,8 +1045,8 @@ const foodDatabase = {
         "baseFats": 1
       }
     ],
-    "preparation": "1. Puedes comprar una crema preparada o bien cocinar unas cuantas verduras en una olla.",
-    "originalBaseRecipeId": "pp_crema_de_verduras_variadas"
+    "preparation": "1. Lavar y cortar las judías verdes, pelar y cortar las patatas y zanahorias. 2. Cocer todas las verduras en agua con sal hasta que estén tiernas. 3. Escurrir y servir. Aliñar con aceite de oliva virgen extra.",
+    "originalBaseRecipeId": "pp_juda_verde_con_patata_y_zanahoria"
   },
   "p3_m3": {
     "name": "Frutos Secos (Mezcla)",
@@ -1061,44 +1100,6 @@ const foodDatabase = {
     "originalBaseRecipeId": "ext_frutos_secos_mezcla"
   },
   "p3_m4": {
-    "name": "Hamburguesa de Pavo-Pollo",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afcbc9b8ed3b6397cbb33.png",
-    "calories": 274,
-    "protein": 16,
-    "carbs": 2,
-    "fats": 23,
-    "ingredients": [
-      {
-        "name": "Hamburguesa de Pavo-Pollo",
-        "quantity": "100",
-        "unit": "g",
-        "calories": 229.99999999999997,
-        "protein": 16,
-        "carbs": 2,
-        "fats": 18,
-        "baseCalories": 2.3,
-        "baseProtein": 0.16,
-        "baseCarbs": 0.02,
-        "baseFats": 0.18
-      },
-      {
-        "name": "Aceite de Oliva Virgen",
-        "quantity": "5",
-        "unit": "g",
-        "calories": 44.2,
-        "protein": 0,
-        "carbs": 0,
-        "fats": 5,
-        "baseCalories": 8.84,
-        "baseProtein": 0,
-        "baseCarbs": 0,
-        "baseFats": 1
-      }
-    ],
-    "preparation": "1. Si la hamburguesa es casera a partir de carne picada, sazonar la carne con sal, pimienta, ajo en polvo y perejil picado (opcional) y formar la hamburguesa. 2. Calentar una plancha o sartén antiadherente a fuego medio-alto con una gota de aceite de oliva. 3. Cocinar la hamburguesa durante 4-6 minutos por cada lado, o hasta que esté bien cocida por dentro y dorada por fuera.",
-    "originalBaseRecipeId": "ac_hamburguesa_de_pavopollo"
-  },
-  "p3_m5": {
     "name": "Fruta Densa (Plátano, Manzana, Pera)",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe4bb91eb325b93d4a82.png",
     "calories": 90,
@@ -1227,12 +1228,11 @@ const dailyMenus = [
       "p3_m1"
     ],
     "cena": [
-      "p3_m2",
-      "p3_m4"
+      "p3_m2"
     ],
     "extra": [
       "p3_m3",
-      "p3_m5"
+      "p3_m4"
     ]
   }
 ];
