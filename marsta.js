@@ -615,19 +615,19 @@ const foodDatabase = {
   "p2_m1": {
     "name": "Cuscús con Atún y Verduras",
     "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69b512c9bfc81fa0930b4288.png",
-    "calories": 613,
-    "protein": 54,
-    "carbs": 78,
-    "fats": 8,
+    "calories": 540,
+    "protein": 52,
+    "carbs": 63,
+    "fats": 7,
     "ingredients": [
       {
         "name": "Cuscús",
-        "quantity": "90",
+        "quantity": "70",
         "unit": "g",
-        "calories": 328.5,
-        "protein": 10.799999999999999,
-        "carbs": 67.5,
-        "fats": 1.8,
+        "calories": 255.5,
+        "protein": 8.399999999999999,
+        "carbs": 52.5,
+        "fats": 1.4000000000000001,
         "baseCalories": 3.65,
         "baseProtein": 0.11999999999999998,
         "baseCarbs": 0.75,
@@ -816,58 +816,84 @@ const foodDatabase = {
     "originalBaseRecipeId": "ext_frutos_secos_mezcla"
   },
   "p3_m0": {
-    "name": "Revuelto de Huevos con Jamón",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682ad5e1e819fcb589a8a30e.png",
-    "calories": 250,
-    "protein": 24,
-    "carbs": 1,
-    "fats": 16,
+    "name": "Sandwich Vegetal de Jamón York",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cd5829b0c67f95e9a8e7e.png",
+    "calories": 403,
+    "protein": 23,
+    "carbs": 30,
+    "fats": 21,
     "ingredients": [
       {
-        "name": "Huevos",
-        "quantity": "2",
-        "unit": "unidades",
-        "calories": 150,
-        "protein": 14,
-        "carbs": 1,
-        "fats": 10,
-        "baseCalories": 75,
-        "baseProtein": 7,
-        "baseCarbs": 0.5,
-        "baseFats": 5
+        "name": "Pan de Centeno",
+        "quantity": "1",
+        "unit": "rebanada",
+        "calories": 108,
+        "protein": 3.5999999999999996,
+        "carbs": 20,
+        "fats": 1.2,
+        "baseCalories": 108,
+        "baseProtein": 3.5999999999999996,
+        "baseCarbs": 20,
+        "baseFats": 1.2
       },
       {
-        "name": "Jamón Serrano",
-        "quantity": "40",
+        "name": "Jamón York",
+        "quantity": "100",
         "unit": "g",
-        "calories": 96,
-        "protein": 10,
-        "carbs": 0,
-        "fats": 6,
-        "baseCalories": 2.4,
-        "baseProtein": 0.25,
-        "baseCarbs": 0,
-        "baseFats": 0.15
+        "calories": 229.99999999999997,
+        "protein": 16,
+        "carbs": 2,
+        "fats": 18,
+        "baseCalories": 2.3,
+        "baseProtein": 0.16,
+        "baseCarbs": 0.02,
+        "baseFats": 0.18
+      },
+      {
+        "name": "Tomate",
+        "quantity": "50",
+        "unit": "g",
+        "calories": 15,
+        "protein": 1,
+        "carbs": 2.5,
+        "fats": 0.1,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Lechuga",
+        "quantity": "50",
+        "unit": "g",
+        "calories": 50,
+        "protein": 2.5,
+        "carbs": 5,
+        "fats": 2,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
       }
     ],
-    "preparation": "Batir huevos y saltear con jamón.",
-    "originalBaseRecipeId": ""
+    "preparation": "1. Prepara un bocadillo con un par de rebanadas de Pan de Centeno. 2. Añade el Pavo o Jamón York y opcionalmente tomate y lechuga.",
+    "originalBaseRecipeId": "des_sandwich_vegetal_de_jamn_york"
   },
   "p3_m1": {
     "name": "Ensala de Patata, Atún y Huevo",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afc08b91eb31afe3d4796.png",
-    "calories": 535,
-    "protein": 60,
-    "carbs": 58,
+    "calories": 495,
+    "protein": 59,
+    "carbs": 49,
     "fats": 7,
     "ingredients": [
       {
         "name": "Patata cocida",
-        "quantity": "300",
+        "quantity": "250",
         "unit": "g",
-        "calories": 240,
-        "protein": 6,
-        "carbs": 54,
+        "calories": 200,
+        "protein": 5,
+        "carbs": 45,
         "fats": 0,
         "baseCalories": 0.8,
         "baseProtein": 0.02,
@@ -996,7 +1022,7 @@ const foodDatabase = {
 };
 const dailyMenus = [
   {
-    "name": "opción 1",
+    "name": "Libre 1",
     "targetMacros": {
       "calories": 1700,
       "protein": 140,
@@ -1025,7 +1051,7 @@ const dailyMenus = [
     ]
   },
   {
-    "name": "opción 2",
+    "name": "Entreno 1",
     "targetMacros": {
       "calories": 1800,
       "protein": 150,
@@ -1052,7 +1078,7 @@ const dailyMenus = [
     ]
   },
   {
-    "name": "opción 3",
+    "name": "Libre 2",
     "targetMacros": {
       "calories": 1700,
       "protein": 150,
@@ -1080,7 +1106,7 @@ const dailyMenus = [
     ]
   },
   {
-    "name": "Opción 4",
+    "name": "Entreno 2",
     "targetMacros": {
       "calories": 2000,
       "protein": 150,
