@@ -922,81 +922,94 @@ const foodDatabase = {
     "originalBaseRecipeId": "cc_pasta_de_lentejas_con_sofrito_de_ternera_y_cerdo"
   },
   "p3_m2": {
-    "name": "Crema de Calabacín con Huevo Poché y Jamón",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6922cdb9f96c9c55f5257809.png",
-    "calories": 465,
-    "protein": 45,
-    "carbs": 15,
-    "fats": 24,
+    "name": "Patatas Cocidas con Salteado de Verduras y Hamburguesa a la plancha",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cf8559b0c6709fc9afa98.png",
+    "calories": 586,
+    "protein": 29,
+    "carbs": 38,
+    "fats": 36,
     "ingredients": [
       {
-        "name": "Calabacín",
+        "name": "Patata",
         "quantity": "100",
         "unit": "g",
-        "calories": 30,
+        "calories": 90,
         "protein": 2,
-        "carbs": 5,
-        "fats": 0.2,
+        "carbs": 20,
+        "fats": 0.1,
+        "baseCalories": 0.9,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.2,
+        "baseFats": 0.001
+      },
+      {
+        "name": "Pimiento Verde",
+        "quantity": "75",
+        "unit": "g",
+        "calories": 22.5,
+        "protein": 1.5,
+        "carbs": 3.75,
+        "fats": 0.15,
         "baseCalories": 0.3,
         "baseProtein": 0.02,
         "baseCarbs": 0.05,
         "baseFats": 0.002
       },
       {
-        "name": "Puerro",
-        "quantity": "100",
+        "name": "Pimiento Rojo",
+        "quantity": "75",
         "unit": "g",
-        "calories": 30,
-        "protein": 2,
-        "carbs": 5,
-        "fats": 0.2,
+        "calories": 22.5,
+        "protein": 1.5,
+        "carbs": 3.75,
+        "fats": 0.15,
         "baseCalories": 0.3,
         "baseProtein": 0.02,
         "baseCarbs": 0.05,
         "baseFats": 0.002
       },
       {
-        "name": "Quesito Light",
-        "quantity": "100",
+        "name": "Cebolla",
+        "quantity": "75",
         "unit": "g",
-        "calories": 100,
-        "protein": 12,
-        "carbs": 4,
-        "fats": 4,
+        "calories": 75,
+        "protein": 3.75,
+        "carbs": 7.5,
+        "fats": 3,
         "baseCalories": 1,
-        "baseProtein": 0.12,
-        "baseCarbs": 0.04,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
         "baseFats": 0.04
       },
       {
-        "name": "Jamón Serrano",
-        "quantity": "100",
+        "name": "Hamburguesa de Pavo-Pollo",
+        "quantity": "125",
         "unit": "g",
-        "calories": 220.00000000000003,
-        "protein": 22,
-        "carbs": 0,
-        "fats": 14.000000000000002,
-        "baseCalories": 2.2,
-        "baseProtein": 0.22,
-        "baseCarbs": 0,
-        "baseFats": 0.14
+        "calories": 287.5,
+        "protein": 20,
+        "carbs": 2.5,
+        "fats": 22.5,
+        "baseCalories": 2.3,
+        "baseProtein": 0.16,
+        "baseCarbs": 0.02,
+        "baseFats": 0.18
       },
       {
-        "name": "Huevo",
-        "quantity": "1",
-        "unit": "ud",
-        "calories": 85.25,
-        "protein": 7.15,
-        "carbs": 0.6050000000000001,
-        "fats": 6.05,
-        "baseCalories": 85.25,
-        "baseProtein": 7.15,
-        "baseCarbs": 0.6050000000000001,
-        "baseFats": 6.05
+        "name": "Aceite de Oliva Virgen",
+        "quantity": "10",
+        "unit": "g",
+        "calories": 88.4,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 10,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1
       }
     ],
-    "preparation": "1. Sofreír puerro y calabacín. Cubrir con agua y cocer. Triturar añadiendo el quesito para cremosidad. 2. Escalfar el huevo en agua hirviendo con vinagre (3-4 min). 3. Servir la crema con el huevo encima y virutas de jamón.",
-    "originalBaseRecipeId": "cc_crema_de_calabacn_con_huevo_poch_y_jamn"
+    "preparation": "1. Cocer las patatas en agua con sal. 2. Mientras, saltear las verduras (pimiento, cebolla) en una sartén. 3. Cocinar la hamburguesa a la plancha. 4. Servir las patatas cocidas con el salteado de verduras y la hamburguesa.",
+    "originalBaseRecipeId": "cc_patatas_cocidas_con_salteado_de_verduras_y_hamburguesa_a_la_plancha"
   },
   "p3_m3": {
     "name": "Yogur Proteico con Cereales de Avena",
@@ -1178,6 +1191,44 @@ const foodDatabase = {
     "originalBaseRecipeId": "custom_imp_1778487627514_5hjw"
   },
   "p4_m2": {
+    "name": "Hamburguesa de Ternera a la Plancha",
+    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69fee800bc1f77cc3522f7f3.png",
+    "calories": 504,
+    "protein": 32,
+    "carbs": 4,
+    "fats": 41,
+    "ingredients": [
+      {
+        "name": "Hamburguesa de Ternera",
+        "quantity": "200",
+        "unit": "g",
+        "calories": 459.99999999999994,
+        "protein": 32,
+        "carbs": 4,
+        "fats": 36,
+        "baseCalories": 2.3,
+        "baseProtein": 0.16,
+        "baseCarbs": 0.02,
+        "baseFats": 0.18
+      },
+      {
+        "name": "Aceite de Oliva Virgen",
+        "quantity": "5",
+        "unit": "g",
+        "calories": 44.2,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 5,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1
+      }
+    ],
+    "preparation": "1. Cocinar la hamburguesa de ternera a la plancha hasta el punto deseado.",
+    "originalBaseRecipeId": "ac_hamburguesa_de_ternera_a_la_plancha"
+  },
+  "p4_m3": {
     "name": "Frutos Secos (Mezcla)",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68525c0b1d27cfeb580a55f7.png",
     "calories": 130,
@@ -1227,44 +1278,6 @@ const foodDatabase = {
     ],
     "preparation": "Consumir directamente como un snack energético y nutritivo.",
     "originalBaseRecipeId": "ext_frutos_secos_mezcla"
-  },
-  "p4_m3": {
-    "name": "Hamburguesa de Ternera a la Plancha",
-    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69fee800bc1f77cc3522f7f3.png",
-    "calories": 504,
-    "protein": 32,
-    "carbs": 4,
-    "fats": 41,
-    "ingredients": [
-      {
-        "name": "Hamburguesa de Ternera",
-        "quantity": "200",
-        "unit": "g",
-        "calories": 459.99999999999994,
-        "protein": 32,
-        "carbs": 4,
-        "fats": 36,
-        "baseCalories": 2.3,
-        "baseProtein": 0.16,
-        "baseCarbs": 0.02,
-        "baseFats": 0.18
-      },
-      {
-        "name": "Aceite de Oliva Virgen",
-        "quantity": "5",
-        "unit": "g",
-        "calories": 44.2,
-        "protein": 0,
-        "carbs": 0,
-        "fats": 5,
-        "baseCalories": 8.84,
-        "baseProtein": 0,
-        "baseCarbs": 0,
-        "baseFats": 1
-      }
-    ],
-    "preparation": "1. Cocinar la hamburguesa de ternera a la plancha hasta el punto deseado.",
-    "originalBaseRecipeId": "ac_hamburguesa_de_ternera_a_la_plancha"
   },
   "p4_m4": {
     "name": "Fruta Densa (Plátano, Manzana)",
@@ -1419,10 +1432,10 @@ const dailyMenus = [
       "p4_m1"
     ],
     "cena": [
-      "p4_m3"
+      "p4_m2"
     ],
     "extra": [
-      "p4_m2",
+      "p4_m3",
       "p4_m4"
     ]
   }
