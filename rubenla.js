@@ -1,5 +1,5 @@
 // Titulo: Plan de Alimentación
-// Alergias: 
+// Alergias: Foodmaps
 const foodDatabase = {
   "p0_m0": {
     "name": "Pan wasa con Jamón Ibérico",
@@ -337,7 +337,7 @@ const foodDatabase = {
         "carbs": 0,
         "fats": 5.6000000000000005,
         "baseCalories": 2.2,
-        "baseProtein": 0.22,
+        "baseProtein": 0.22000000000000003,
         "baseCarbs": 0,
         "baseFats": 0.14
       },
@@ -630,7 +630,7 @@ const foodDatabase = {
         "carbs": 45,
         "fats": 1.2,
         "baseCalories": 3.65,
-        "baseProtein": 0.12,
+        "baseProtein": 0.11999999999999998,
         "baseCarbs": 0.75,
         "baseFats": 0.02
       },
@@ -942,6 +942,287 @@ const foodDatabase = {
     ],
     "preparation": "1. En un shaker (vaso mezclador con rejilla o bola), añadir la cantidad recomendada de proteína en polvo (whey) según las indicaciones del producto (normalmente 1 scoop o cazo dosificador). 2. Añadir la cantidad de líquido deseada (agua, leche o bebida vegetal; unos 200-300 ml suelen ser suficientes). 3. Cerrar bien el shaker. 4. Agitar enérgicamente durante unos 20-30 segundos hasta que el polvo esté completamente disuelto y no haya grumos. 5. Consumir inmediatamente, preferiblemente después del entrenamiento o según las necesidades proteicas individuales.",
     "originalBaseRecipeId": "ext_batido_whey_de_protenas"
+  },
+  "p4_m0": {
+    "name": "Sandwich Vegetal de Atún",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cd60954a1880bed54596d.png",
+    "calories": 343,
+    "protein": 28,
+    "carbs": 43,
+    "fats": 5,
+    "ingredients": [
+      {
+        "name": "Pan de Centeno",
+        "quantity": "2",
+        "unit": "rebanada",
+        "calories": 216,
+        "protein": 7.199999999999999,
+        "carbs": 40,
+        "fats": 2.4,
+        "baseCalories": 108,
+        "baseProtein": 3.5999999999999996,
+        "baseCarbs": 20,
+        "baseFats": 1.2
+      },
+      {
+        "name": "Atún en Conserva",
+        "quantity": "70",
+        "unit": "g",
+        "calories": 112,
+        "protein": 19.6,
+        "carbs": 0,
+        "fats": 2.8000000000000003,
+        "baseCalories": 1.6,
+        "baseProtein": 0.28,
+        "baseCarbs": 0,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Tomate",
+        "quantity": "50",
+        "unit": "g",
+        "calories": 15,
+        "protein": 1,
+        "carbs": 2.5,
+        "fats": 0.1,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      }
+    ],
+    "preparation": "1. Prepara un bocadillo con un par de rebanadas de Pan de Centeno. 2. Añade el Atún y opcionalmente tomate y lechuga.",
+    "originalBaseRecipeId": "des_sandwich_vegetal_de_atn"
+  },
+  "p4_m1": {
+    "name": "Berenjenas Rellenas de Pavo al Horno",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6922cdf6e7de6638e2767e27.png",
+    "calories": 386,
+    "protein": 44,
+    "carbs": 8,
+    "fats": 18,
+    "ingredients": [
+      {
+        "name": "Berenjena",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 30,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Carne Picada de Pavo",
+        "quantity": "120",
+        "unit": "g",
+        "calories": 192,
+        "protein": 33.6,
+        "carbs": 0,
+        "fats": 4.8,
+        "baseCalories": 1.6,
+        "baseProtein": 0.28,
+        "baseCarbs": 0,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Tomate Frito",
+        "quantity": "50",
+        "unit": "g",
+        "calories": 15,
+        "protein": 1,
+        "carbs": 2.5,
+        "fats": 0.1,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Queso Havarti Light",
+        "quantity": "30",
+        "unit": "g",
+        "calories": 105,
+        "protein": 7.5,
+        "carbs": 0.6,
+        "fats": 7.5,
+        "baseCalories": 3.5,
+        "baseProtein": 0.25,
+        "baseCarbs": 0.02,
+        "baseFats": 0.25
+      },
+      {
+        "name": "Aceite de Oliva Virgen",
+        "quantity": "5",
+        "unit": "g",
+        "calories": 44.2,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 5,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1
+      }
+    ],
+    "preparation": "1. Asar las berenjenas partidas por la mitad. Vaciar la carne. 2. Sofreír cebolla y carne de pavo. Añadir la carne de berenjena picada y tomate. 3. Rellenar las pieles, cubrir con queso y gratinar.",
+    "originalBaseRecipeId": "cc_berenjenas_rellenas_de_pavo_al_horno"
+  },
+  "p4_m2": {
+    "name": "Ensalada de Pepino, Tomate y Apio",
+    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69fee83da3dd25aa2ac2564d.png",
+    "calories": 318,
+    "protein": 12,
+    "carbs": 25,
+    "fats": 18,
+    "ingredients": [
+      {
+        "name": "Pepino",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 100,
+        "protein": 5,
+        "carbs": 10,
+        "fats": 4,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Tomate",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 30,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Apio",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 100,
+        "protein": 5,
+        "carbs": 10,
+        "fats": 4,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Aceite de Oliva Virgen",
+        "quantity": "10",
+        "unit": "g",
+        "calories": 88.4,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 10,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1
+      }
+    ],
+    "preparation": "1. Trocear las verduras. 2. Mezclar y aliñar con aceite de oliva, vinagre y sal.",
+    "originalBaseRecipeId": "pp_ensalada_de_pepino_tomate_y_apio"
+  },
+  "p4_m3": {
+    "name": "Hamburguesa de Pavo-Pollo",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afcbc9b8ed3b6397cbb33.png",
+    "calories": 389,
+    "protein": 24,
+    "carbs": 3,
+    "fats": 32,
+    "ingredients": [
+      {
+        "name": "Hamburguesa de Pavo-Pollo",
+        "quantity": "150",
+        "unit": "g",
+        "calories": 345,
+        "protein": 24,
+        "carbs": 3,
+        "fats": 27,
+        "baseCalories": 2.3,
+        "baseProtein": 0.16,
+        "baseCarbs": 0.02,
+        "baseFats": 0.18
+      },
+      {
+        "name": "Aceite de Oliva Virgen",
+        "quantity": "5",
+        "unit": "g",
+        "calories": 44.2,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 5,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1
+      }
+    ],
+    "preparation": "1. Si la hamburguesa es casera a partir de carne picada, sazonar la carne con sal, pimienta, ajo en polvo y perejil picado (opcional) y formar la hamburguesa. 2. Calentar una plancha o sartén antiadherente a fuego medio-alto con una gota de aceite de oliva. 3. Cocinar la hamburguesa durante 4-6 minutos por cada lado, o hasta que esté bien cocida por dentro y dorada por fuera.",
+    "originalBaseRecipeId": "ac_hamburguesa_de_pavopollo"
+  },
+  "p4_m4": {
+    "name": "Frutas Silvestres / Rojas",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684f020655f9650aaa228fc9.png",
+    "calories": 45,
+    "protein": 1,
+    "carbs": 11,
+    "fats": 0,
+    "ingredients": [
+      {
+        "name": "Fresas",
+        "quantity": "30",
+        "unit": "g",
+        "calories": 15,
+        "protein": 0.3,
+        "carbs": 3.5999999999999996,
+        "fats": 0.15,
+        "baseCalories": 0.5,
+        "baseProtein": 0.01,
+        "baseCarbs": 0.12,
+        "baseFats": 0.005
+      },
+      {
+        "name": "Frambuesas",
+        "quantity": "30",
+        "unit": "g",
+        "calories": 15,
+        "protein": 0.3,
+        "carbs": 3.5999999999999996,
+        "fats": 0.15,
+        "baseCalories": 0.5,
+        "baseProtein": 0.01,
+        "baseCarbs": 0.12,
+        "baseFats": 0.005
+      },
+      {
+        "name": "Moras",
+        "quantity": "30",
+        "unit": "g",
+        "calories": 15,
+        "protein": 0.3,
+        "carbs": 3.5999999999999996,
+        "fats": 0.15,
+        "baseCalories": 0.5,
+        "baseProtein": 0.01,
+        "baseCarbs": 0.12,
+        "baseFats": 0.005
+      }
+    ],
+    "preparation": "1. Seleccionar las frutas silvestres o rojas deseadas. 2. Lavar suavemente las frutas bajo un chorro de agua fría. 3. Para fresas: retirar el pedúnculo verde. 4. Consumir directamente como snack o añadir a yogures.",
+    "originalBaseRecipeId": "ext_frutas_silvestres_rojas"
   }
 };
 const dailyMenus = [
@@ -1050,6 +1331,33 @@ const dailyMenus = [
     "extra": [
       "p3_m2",
       "p3_m3"
+    ]
+  },
+  {
+    "name": "EXTRAS",
+    "targetMacros": {
+      "calories": 1800,
+      "protein": 150,
+      "carbs": 150
+    },
+    "baselineTotals": {
+      "calories": 1956,
+      "protein": 151,
+      "carbs": 105,
+      "fats": 95
+    },
+    "desayuno": [
+      "p4_m0"
+    ],
+    "comida": [
+      "p4_m1"
+    ],
+    "cena": [
+      "p4_m2",
+      "p4_m3"
+    ],
+    "extra": [
+      "p4_m4"
     ]
   }
 ];
