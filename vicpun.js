@@ -1,7 +1,5 @@
-// Última actualización: 04/05/2026
 // Titulo: Plan de Alimentación
-// Alergias:
-
+// Alergias: 
 const foodDatabase = {
   "p0_m0": {
     "name": "Tostada de Centeno con Huevo y Queso Cottage",
@@ -46,7 +44,7 @@ const foodDatabase = {
         "carbs": 1.6,
         "fats": 1.6,
         "baseCalories": 1,
-        "baseProtein": 0.11999999999999998,
+        "baseProtein": 0.12,
         "baseCarbs": 0.04,
         "baseFats": 0.04
       },
@@ -70,19 +68,19 @@ const foodDatabase = {
   "p0_m1": {
     "name": "Ensala de Patata, Atún y Huevo",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afc08b91eb31afe3d4796.png",
-    "calories": 638,
-    "protein": 61,
-    "carbs": 61,
-    "fats": 14,
+    "calories": 652,
+    "protein": 66,
+    "carbs": 57,
+    "fats": 15,
     "ingredients": [
       {
         "name": "Patata",
-        "quantity": "200",
+        "quantity": "180",
         "unit": "g",
-        "calories": 180,
-        "protein": 4,
-        "carbs": 40,
-        "fats": 0.2,
+        "calories": 162,
+        "protein": 3.6,
+        "carbs": 36,
+        "fats": 0.18,
         "baseCalories": 0.9,
         "baseProtein": 0.02,
         "baseCarbs": 0.2,
@@ -155,12 +153,12 @@ const foodDatabase = {
       },
       {
         "name": "Atún en Conserva",
-        "quantity": "150",
+        "quantity": "170",
         "unit": "g",
-        "calories": 240,
-        "protein": 42.00000000000001,
+        "calories": 272,
+        "protein": 47.6,
         "carbs": 0,
-        "fats": 6,
+        "fats": 6.8,
         "baseCalories": 1.6,
         "baseProtein": 0.28,
         "baseCarbs": 0,
@@ -186,10 +184,10 @@ const foodDatabase = {
   "p0_m2": {
     "name": "Wok de Verduras con Salmón",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afda0b91eb330dd3d49b2.png",
-    "calories": 531,
-    "protein": 41,
+    "calories": 509,
+    "protein": 38,
     "carbs": 19,
-    "fats": 32,
+    "fats": 30,
     "ingredients": [
       {
         "name": "Tomate",
@@ -245,12 +243,12 @@ const foodDatabase = {
       },
       {
         "name": "Lomo de Salmón",
-        "quantity": "150",
+        "quantity": "140",
         "unit": "g",
-        "calories": 330,
-        "protein": 33,
+        "calories": 308,
+        "protein": 30.8,
         "carbs": 0,
-        "fats": 21.000000000000004,
+        "fats": 19.6,
         "baseCalories": 2.2,
         "baseProtein": 0.22,
         "baseCarbs": 0,
@@ -354,7 +352,7 @@ const foodDatabase = {
         "fats": 5.5,
         "baseCalories": 77.5,
         "baseProtein": 6.5,
-        "baseCarbs": 0.55,
+        "baseCarbs": 0.6,
         "baseFats": 5.5
       },
       {
@@ -430,8 +428,8 @@ const foodDatabase = {
         "fats": 0.1,
         "baseCalories": 0.3,
         "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
+        "baseCarbs": 0.050909090909090904,
+        "baseFats": 0.0018181818181818182
       },
       {
         "name": "Tomate",
@@ -443,8 +441,8 @@ const foodDatabase = {
         "fats": 0.1,
         "baseCalories": 0.3,
         "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
+        "baseCarbs": 0.050909090909090904,
+        "baseFats": 0.0018181818181818182
       },
       {
         "name": "Cebolla",
@@ -456,8 +454,8 @@ const foodDatabase = {
         "fats": 0.1,
         "baseCalories": 0.3,
         "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
+        "baseCarbs": 0.050909090909090904,
+        "baseFats": 0.0018181818181818182
       },
       {
         "name": "Queso de Burgos 0%",
@@ -505,9 +503,9 @@ const foodDatabase = {
   "p1_m3": {
     "name": "Fajitas de Pollo y Verduras",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afcef0ed50608b742ff33.png",
-    "calories": 634,
-    "protein": 55,
-    "carbs": 55,
+    "calories": 622,
+    "protein": 54,
+    "carbs": 53,
     "fats": 19,
     "ingredients": [
       {
@@ -525,12 +523,12 @@ const foodDatabase = {
       },
       {
         "name": "Tomate",
-        "quantity": "75",
+        "quantity": "55",
         "unit": "g",
-        "calories": 22.5,
-        "protein": 1.5,
-        "carbs": 3.75,
-        "fats": 0.15,
+        "calories": 16.5,
+        "protein": 1.1,
+        "carbs": 2.75,
+        "fats": 0.11,
         "baseCalories": 0.3,
         "baseProtein": 0.02,
         "baseCarbs": 0.05,
@@ -538,12 +536,12 @@ const foodDatabase = {
       },
       {
         "name": "Pimiento Rojo",
-        "quantity": "75",
+        "quantity": "55",
         "unit": "g",
-        "calories": 22.5,
-        "protein": 1.5,
-        "carbs": 3.75,
-        "fats": 0.15,
+        "calories": 16.5,
+        "protein": 1.1,
+        "carbs": 2.75,
+        "fats": 0.11,
         "baseCalories": 0.3,
         "baseProtein": 0.02,
         "baseCarbs": 0.05,
@@ -709,19 +707,19 @@ const foodDatabase = {
   "p2_m1": {
     "name": "Ensalada de Lentejas",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682aff5a365e949c0a73d706.png",
-    "calories": 482,
-    "protein": 29,
-    "carbs": 53,
+    "calories": 443,
+    "protein": 27,
+    "carbs": 46,
     "fats": 16,
     "ingredients": [
       {
         "name": "Lentejas Cocidas",
-        "quantity": "180",
+        "quantity": "150",
         "unit": "g",
-        "calories": 234,
-        "protein": 14.4,
-        "carbs": 39.6,
-        "fats": 0.9,
+        "calories": 195,
+        "protein": 12,
+        "carbs": 33,
+        "fats": 0.75,
         "baseCalories": 1.3,
         "baseProtein": 0.08,
         "baseCarbs": 0.22,
@@ -737,8 +735,8 @@ const foodDatabase = {
         "fats": 0.1,
         "baseCalories": 0.3,
         "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
+        "baseCarbs": 0.050909090909090904,
+        "baseFats": 0.0018181818181818182
       },
       {
         "name": "Cebolla",
@@ -750,8 +748,8 @@ const foodDatabase = {
         "fats": 0.1,
         "baseCalories": 0.3,
         "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
+        "baseCarbs": 0.050909090909090904,
+        "baseFats": 0.0018181818181818182
       },
       {
         "name": "Queso de Burgos 0%",
@@ -786,19 +784,19 @@ const foodDatabase = {
   "p2_m2": {
     "name": "Patatas Cocidas con Salteado de Verduras y Hamburguesa a la plancha",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cf8559b0c6709fc9afa98.png",
-    "calories": 566,
-    "protein": 25,
-    "carbs": 53,
+    "calories": 548,
+    "protein": 24,
+    "carbs": 49,
     "fats": 29,
     "ingredients": [
       {
         "name": "Patata",
-        "quantity": "200",
+        "quantity": "180",
         "unit": "g",
-        "calories": 180,
-        "protein": 4,
-        "carbs": 40,
-        "fats": 0.2,
+        "calories": 162,
+        "protein": 3.6,
+        "carbs": 36,
+        "fats": 0.18,
         "baseCalories": 0.9,
         "baseProtein": 0.02,
         "baseCarbs": 0.2,
@@ -966,9 +964,9 @@ const foodDatabase = {
         "carbs": 0,
         "fats": 11.2,
         "baseCalories": 2.2,
-        "baseProtein": 0.22,
+        "baseProtein": 0.22000000000000003,
         "baseCarbs": 0,
-        "baseFats": 0.14
+        "baseFats": 0.13999999999999999
       }
     ],
     "preparation": "1. Tostar el pan de centeno. 2. Colocar las lonchas de jamón ibérico por encima. Opcional: añadir un chorrito de aceite de oliva.",
@@ -977,10 +975,10 @@ const foodDatabase = {
   "p3_m1": {
     "name": "Pasta de lentejas con sofrito de ternera y cerdo",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684efc77653a2c50f9172c7c.png",
-    "calories": 428,
-    "protein": 33,
+    "calories": 472,
+    "protein": 38,
     "carbs": 26,
-    "fats": 20,
+    "fats": 22,
     "ingredients": [
       {
         "name": "Pasta de Lentejas",
@@ -997,12 +995,12 @@ const foodDatabase = {
       },
       {
         "name": "Carne Picada Mixta (Ternera y Cerdo)",
-        "quantity": "100",
+        "quantity": "120",
         "unit": "g",
-        "calories": 220.00000000000003,
-        "protein": 22,
+        "calories": 264,
+        "protein": 26.4,
         "carbs": 0,
-        "fats": 14.000000000000002,
+        "fats": 16.8,
         "baseCalories": 2.2,
         "baseProtein": 0.22,
         "baseCarbs": 0,
@@ -1144,7 +1142,7 @@ const foodDatabase = {
         "protein": 28.8,
         "carbs": 1.8,
         "fats": 1.44,
-        "baseCalories": 3.8,
+        "baseCalories": 3.7999999999999994,
         "baseProtein": 0.8,
         "baseCarbs": 0.05,
         "baseFats": 0.04
@@ -1175,6 +1173,12 @@ const dailyMenus = [
       "protein": 150,
       "carbs": 150
     },
+    "baselineTotals": {
+      "calories": 1776,
+      "protein": 130,
+      "carbs": 152,
+      "fats": 71
+    },
     "desayuno": [
       "p0_m0"
     ],
@@ -1195,6 +1199,12 @@ const dailyMenus = [
       "calories": 1800,
       "protein": 150,
       "carbs": 150
+    },
+    "baselineTotals": {
+      "calories": 1650,
+      "protein": 150,
+      "carbs": 95,
+      "fats": 70
     },
     "desayuno": [
       "p1_m0",
@@ -1218,6 +1228,12 @@ const dailyMenus = [
       "protein": 150,
       "carbs": 150
     },
+    "baselineTotals": {
+      "calories": 1853,
+      "protein": 107,
+      "carbs": 146,
+      "fats": 93
+    },
     "desayuno": [
       "p2_m0"
     ],
@@ -1238,6 +1254,12 @@ const dailyMenus = [
       "calories": 1750,
       "protein": 150,
       "carbs": 90
+    },
+    "baselineTotals": {
+      "calories": 1560,
+      "protein": 124,
+      "carbs": 98,
+      "fats": 70
     },
     "desayuno": [
       "p3_m0"
