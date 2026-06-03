@@ -18,7 +18,7 @@ const foodDatabase = {
         "carbs": 52.5,
         "fats": 1.4000000000000001,
         "baseCalories": 3.65,
-        "baseProtein": 0.12,
+        "baseProtein": 0.12000000000000001,
         "baseCarbs": 0.75,
         "baseFats": 0.02
       },
@@ -32,7 +32,7 @@ const foodDatabase = {
         "fats": 0.3,
         "baseCalories": 0.52,
         "baseProtein": 0.11,
-        "baseCarbs": 0.006999999999999999,
+        "baseCarbs": 0.006999999999999998,
         "baseFats": 0.002
       },
       {
@@ -665,93 +665,67 @@ const foodDatabase = {
     "originalBaseRecipeId": "des_fajita_con_jamn_serrano_y_queso"
   },
   "p2_m1": {
-    "name": "Musakka de Patata al horno con verduras y carne picada",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684efda5653a2c17a7172d67.png",
-    "calories": 740,
-    "protein": 45,
-    "carbs": 52,
-    "fats": 37,
+    "name": "Falso Risotto de Coliflor con Pollo y Setas",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6922cee78c174d4e6d420b9d.png",
+    "calories": 580,
+    "protein": 59,
+    "carbs": 22,
+    "fats": 26,
     "ingredients": [
       {
-        "name": "Patata",
-        "quantity": "200",
+        "name": "Coliflor",
+        "quantity": "85",
         "unit": "g",
-        "calories": 180,
+        "calories": 85,
+        "protein": 4.25,
+        "carbs": 8.5,
+        "fats": 3.4,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Pechuga de Pollo",
+        "quantity": "170",
+        "unit": "g",
+        "calories": 272,
+        "protein": 47.6,
+        "carbs": 0,
+        "fats": 6.8,
+        "baseCalories": 1.6,
+        "baseProtein": 0.28,
+        "baseCarbs": 0,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Champiñones",
+        "quantity": "80",
+        "unit": "g",
+        "calories": 80,
         "protein": 4,
-        "carbs": 40,
-        "fats": 0.2,
-        "baseCalories": 0.9,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.2,
-        "baseFats": 0.001
+        "carbs": 8,
+        "fats": 3.2,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
       },
       {
         "name": "Cebolla",
-        "quantity": "75",
+        "quantity": "55",
         "unit": "g",
-        "calories": 22.5,
-        "protein": 1.5,
-        "carbs": 3.75,
-        "fats": 0.15,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
+        "calories": 55,
+        "protein": 2.75,
+        "carbs": 5.5,
+        "fats": 2.2,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
       },
       {
-        "name": "Berenjena",
-        "quantity": "75",
-        "unit": "g",
-        "calories": 22.5,
-        "protein": 1.5,
-        "carbs": 3.75,
-        "fats": 0.15,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Tomate Frito",
-        "quantity": "75",
-        "unit": "g",
-        "calories": 22.5,
-        "protein": 1.5,
-        "carbs": 3.75,
-        "fats": 0.15,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Queso Rallado",
-        "quantity": "40",
-        "unit": "g",
-        "calories": 140,
-        "protein": 10,
-        "carbs": 0.8,
-        "fats": 10,
-        "baseCalories": 3.5,
-        "baseProtein": 0.25,
-        "baseCarbs": 0.02,
-        "baseFats": 0.25
-      },
-      {
-        "name": "Carne Picada Mixta (Ternera y Cerdo)",
-        "quantity": "120",
-        "unit": "g",
-        "calories": 264,
-        "protein": 26.4,
-        "carbs": 0,
-        "fats": 16.8,
-        "baseCalories": 2.2,
-        "baseProtein": 0.22,
-        "baseCarbs": 0,
-        "baseFats": 0.14
-      },
-      {
-        "name": "Aceite de Oliva Virgen Extra",
+        "name": "Aceite de Oliva Virgen",
         "quantity": "10",
         "unit": "g",
         "calories": 88.4,
@@ -764,8 +738,8 @@ const foodDatabase = {
         "baseFats": 1
       }
     ],
-    "preparation": "1. Precalentar el horno a 180°C. Pelar y cortar las patatas en rodajas finas (aproximadamente 0.5 cm). Cortar la berenjena en rodajas similares. Picar la cebolla. 2. En una sartén, calentar aceite y sofreír la cebolla hasta que esté blanda. Añadir la carne picada mixta y cocinar hasta que se dore. Escurrir el exceso de grasa. Incorporar tomate frito, sal, pimienta y orégano. Cocinar unos minutos. 3. En una fuente para horno, montar la musakka: colocar una capa de rodajas de patata en el fondo, luego una capa de rodajas de berenjena, y encima una capa de la mezcla de carne. Repetir las capas hasta terminar con una capa de patata o berenjena. 4. Opcional: cubrir con salsa bechamel y espolvorear con queso rallado. 5. Hornear durante 40-50 minutos, o hasta que las patatas y berenjenas estén tiernas y la superficie dorada. Dejar reposar unos minutos antes de servir.",
-    "originalBaseRecipeId": "cc_musakka_de_patata_al_horno_con_verduras_y_carne_picada"
+    "preparation": "1. Rallar la coliflor hasta que parezca arroz. 2. Saltear pollo y champiñones con cebolla. 3. Añadir la coliflor y saltear 5 min (no debe ablandarse demasiado). 4. Sazonar al gusto.",
+    "originalBaseRecipeId": "cc_falso_risotto_de_coliflor_con_pollo_y_setas"
   },
   "p2_m2": {
     "name": "Gazpacho",
@@ -1243,7 +1217,7 @@ const foodDatabase = {
 };
 const dailyMenus = [
   {
-    "name": "Opciones 1",
+    "name": "Entreno 1",
     "targetMacros": {
       "calories": 1700,
       "protein": 140,
@@ -1271,7 +1245,7 @@ const dailyMenus = [
     ]
   },
   {
-    "name": "Opciones 2",
+    "name": "Entreno 2",
     "targetMacros": {
       "calories": 1700,
       "protein": 140,
@@ -1299,7 +1273,7 @@ const dailyMenus = [
     ]
   },
   {
-    "name": "Opciones 3",
+    "name": "Libre 1",
     "targetMacros": {
       "calories": 1800,
       "protein": 150,
@@ -1327,7 +1301,7 @@ const dailyMenus = [
     ]
   },
   {
-    "name": "Día 4",
+    "name": "Libre 2",
     "targetMacros": {
       "calories": 1700,
       "protein": 150,
