@@ -68,19 +68,19 @@ const foodDatabase = {
   "p0_m1": {
     "name": "Estofado de Lentejas con Verduras y Costilla",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6922cf648c174dc51742182c.png",
-    "calories": 577,
-    "protein": 45,
-    "carbs": 49,
+    "calories": 512,
+    "protein": 41,
+    "carbs": 38,
     "fats": 20,
     "ingredients": [
       {
         "name": "Lentejas Cocidas",
-        "quantity": "150",
+        "quantity": "100",
         "unit": "g",
-        "calories": 195,
-        "protein": 12,
-        "carbs": 33,
-        "fats": 0.75,
+        "calories": 130,
+        "protein": 8,
+        "carbs": 22,
+        "fats": 0.5,
         "baseCalories": 1.3,
         "baseProtein": 0.08,
         "baseCarbs": 0.22,
@@ -156,70 +156,6 @@ const foodDatabase = {
     "originalBaseRecipeId": "cc_estofado_de_lentejas_con_verduras_y_costilla"
   },
   "p0_m2": {
-    "name": "Boniato asado con ensalada de tomate",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684efcd1f6c48df26aa5ba5b.png",
-    "calories": 291,
-    "protein": 8,
-    "carbs": 41,
-    "fats": 11,
-    "ingredients": [
-      {
-        "name": "Boniato",
-        "quantity": "150",
-        "unit": "g",
-        "calories": 135,
-        "protein": 3,
-        "carbs": 30,
-        "fats": 0.15,
-        "baseCalories": 0.9,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.2,
-        "baseFats": 0.001
-      },
-      {
-        "name": "Tomate",
-        "quantity": "150",
-        "unit": "g",
-        "calories": 45,
-        "protein": 3,
-        "carbs": 7.5,
-        "fats": 0.3,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Cebolla",
-        "quantity": "75",
-        "unit": "g",
-        "calories": 22.5,
-        "protein": 1.5,
-        "carbs": 3.75,
-        "fats": 0.15,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Aceite de Oliva Virgen Extra",
-        "quantity": "10",
-        "unit": "g",
-        "calories": 88.4,
-        "protein": 0,
-        "carbs": 0,
-        "fats": 10,
-        "baseCalories": 8.84,
-        "baseProtein": 0,
-        "baseCarbs": 0,
-        "baseFats": 1
-      }
-    ],
-    "preparation": "1. Precalentar el horno a 200°C (390°F). Lavar bien el boniato, pincharlo varias veces con un tenedor para que no reviente durante la cocción. 2. Asar el boniato entero directamente sobre la rejilla del horno o en una bandeja durante 45-60 minutos, o hasta que esté tierno al pincharlo. 3. Mientras se asa el boniato, preparar la ensalada: lavar y cortar el tomate en dados pequeños. Picar la cebolla y el ajo muy finamente. 4. En un bol, mezclar el tomate, la cebolla y el ajo. Aliñar con aceite de oliva virgen extra, vinagre y sal al gusto. 5. Una vez el boniato esté asado y tierno, sacarlo del horno, dejarlo templar unos minutos, y luego abrirlo por la mitad a lo largo. Servirlo caliente o templado, acompañado de la ensalada de tomate.",
-    "originalBaseRecipeId": "pp_boniato_asado_con_ensalada_de_tomate"
-  },
-  "p0_m3": {
     "name": "Merluza a la Plancha",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684f001d4d606642b1333279.png",
     "calories": 328,
@@ -257,26 +193,26 @@ const foodDatabase = {
     "preparation": "1. Sazonar los filetes o rodajas de merluza con sal, pimienta y opcionalmente un poco de ajo en polvo o perejil picado. 2. Calentar una plancha o sartén antiadherente a fuego medio-alto con un chorrito de aceite de oliva virgen extra. 3. Cuando el aceite esté caliente, colocar la merluza en la plancha. Cocinar durante unos 3-5 minutos por cada lado, dependiendo del grosor del pescado, hasta que esté opaca, bien cocida por dentro y se desmenuce fácilmente con un tenedor. 4. Servir inmediatamente, opcionalmente con un chorrito de zumo de limón fresco por encima.",
     "originalBaseRecipeId": "ac_merluza_a_la_plancha"
   },
-  "p0_m4": {
-    "name": "Fruta Densa (Plátano, Manzana)",
+  "p0_m3": {
+    "name": "Fruta Densa (Plátano,Pera o Manzana)",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe4bb91eb325b93d4a82.png",
-    "calories": 72,
-    "protein": 1,
-    "carbs": 18,
-    "fats": 0,
+    "calories": 180,
+    "protein": 2,
+    "carbs": 45,
+    "fats": 1,
     "ingredients": [
       {
-        "name": "Plátano",
-        "quantity": "1",
-        "unit": "unidad(es)",
-        "calories": 72,
-        "protein": 0.6,
-        "carbs": 18,
-        "fats": 0.24,
-        "baseCalories": 72,
-        "baseProtein": 0.6,
-        "baseCarbs": 18,
-        "baseFats": 0.24
+        "name": "Manzana",
+        "quantity": "2",
+        "unit": "ud",
+        "calories": 180,
+        "protein": 1.5,
+        "carbs": 45,
+        "fats": 0.6,
+        "baseCalories": 90,
+        "baseProtein": 0.75,
+        "baseCarbs": 22.5,
+        "baseFats": 0.3
       }
     ],
     "preparation": "1. Seleccionar la fruta densa de preferencia. 2. Para plátanos: pelar la piel y consumir directamente. 3. Para manzanas o peras: lavar bien la fruta. Se puede consumir con piel o pelada.",
@@ -808,19 +744,19 @@ const foodDatabase = {
   "p2_m4": {
     "name": "Fruta Densa (Plátano, Manzana)",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe4bb91eb325b93d4a82.png",
-    "calories": 90,
-    "protein": 1,
-    "carbs": 23,
-    "fats": 0,
+    "calories": 180,
+    "protein": 2,
+    "carbs": 45,
+    "fats": 1,
     "ingredients": [
       {
         "name": "Manzana",
-        "quantity": "1",
+        "quantity": "2",
         "unit": "unidad(es)",
-        "calories": 90,
-        "protein": 0.75,
-        "carbs": 22.5,
-        "fats": 0.3,
+        "calories": 180,
+        "protein": 1.5,
+        "carbs": 45,
+        "fats": 0.6,
         "baseCalories": 90,
         "baseProtein": 0.75,
         "baseCarbs": 22.5,
@@ -831,72 +767,21 @@ const foodDatabase = {
     "originalBaseRecipeId": "ext_fruta_densa_pltano_manzana"
   },
   "p3_m0": {
-    "name": "Revuelto de Huevos ",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684f0183653a2c532c17327c.png",
-    "calories": 344,
-    "protein": 21,
-    "carbs": 2,
-    "fats": 28,
-    "ingredients": [
-      {
-        "name": "Huevos",
-        "quantity": "3",
-        "unit": "ud",
-        "calories": 255.75,
-        "protein": 21.450000000000003,
-        "carbs": 1.8150000000000004,
-        "fats": 18.15,
-        "baseCalories": 85.25,
-        "baseProtein": 7.15,
-        "baseCarbs": 0.6050000000000001,
-        "baseFats": 6.05
-      },
-      {
-        "name": "Aceite de Oliva Virgen",
-        "quantity": "10",
-        "unit": "g",
-        "calories": 88.4,
-        "protein": 0,
-        "carbs": 0,
-        "fats": 10,
-        "baseCalories": 8.84,
-        "baseProtein": 0,
-        "baseCarbs": 0,
-        "baseFats": 1
-      }
-    ],
-    "preparation": "1. Batir los huevos en un bol con una pizca de sal y pimienta. 2. Cortar el queso Havarti light en trocitos pequeños o rallarlo. 3. Calentar una sartén antiadherente a fuego medio con una pizca de aceite de oliva o mantequilla (opcional). 4. Verter los huevos batidos en la sartén caliente. Dejar que empiecen a cuajar ligeramente por los bordes. 5. Añadir los trocitos de queso Havarti light distribuyéndolos por encima de los huevos. 6. Remover suavemente con una espátula, llevando los bordes cuajados hacia el centro y permitiendo que la parte líquida fluya hacia los lados, hasta que los huevos estén cuajados al gusto y el queso esté derretido e integrado.",
-    "originalBaseRecipeId": "ac_revuelto_de_huevos_con_queso_habarti_light"
-  },
-  "p3_m1": {
-    "name": "Ensalada de Pasta con Pollo",
+    "name": "Ensalada de verdura con Pollo",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afc47b91eb349463d47dd.png",
-    "calories": 881,
-    "protein": 76,
-    "carbs": 79,
-    "fats": 26,
+    "calories": 698,
+    "protein": 72,
+    "carbs": 35,
+    "fats": 27,
     "ingredients": [
-      {
-        "name": "Pasta Integral",
-        "quantity": "70",
-        "unit": "g",
-        "calories": 255.5,
-        "protein": 8.4,
-        "carbs": 52.5,
-        "fats": 1.4000000000000001,
-        "baseCalories": 3.65,
-        "baseProtein": 0.12,
-        "baseCarbs": 0.75,
-        "baseFats": 0.02
-      },
       {
         "name": "Canónigos",
-        "quantity": "75",
+        "quantity": "100",
         "unit": "g",
-        "calories": 75,
-        "protein": 3.75,
-        "carbs": 7.5,
-        "fats": 3,
+        "calories": 100,
+        "protein": 5,
+        "carbs": 10,
+        "fats": 4,
         "baseCalories": 1,
         "baseProtein": 0.05,
         "baseCarbs": 0.1,
@@ -904,12 +789,12 @@ const foodDatabase = {
       },
       {
         "name": "Tomate",
-        "quantity": "75",
+        "quantity": "100",
         "unit": "g",
-        "calories": 22.5,
-        "protein": 1.5,
-        "carbs": 3.75,
-        "fats": 0.15,
+        "calories": 30,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
         "baseCalories": 0.3,
         "baseProtein": 0.02,
         "baseCarbs": 0.05,
@@ -917,12 +802,12 @@ const foodDatabase = {
       },
       {
         "name": "Pimiento Rojo",
-        "quantity": "75",
+        "quantity": "100",
         "unit": "g",
-        "calories": 22.5,
-        "protein": 1.5,
-        "carbs": 3.75,
-        "fats": 0.15,
+        "calories": 30,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
         "baseCalories": 0.3,
         "baseProtein": 0.02,
         "baseCarbs": 0.05,
@@ -930,12 +815,12 @@ const foodDatabase = {
       },
       {
         "name": "Pimiento Verde",
-        "quantity": "75",
+        "quantity": "100",
         "unit": "g",
-        "calories": 22.5,
-        "protein": 1.5,
-        "carbs": 3.75,
-        "fats": 0.15,
+        "calories": 30,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
         "baseCalories": 0.3,
         "baseProtein": 0.02,
         "baseCarbs": 0.05,
@@ -943,12 +828,12 @@ const foodDatabase = {
       },
       {
         "name": "Cebolla",
-        "quantity": "75",
+        "quantity": "100",
         "unit": "g",
-        "calories": 75,
-        "protein": 3.75,
-        "carbs": 7.5,
-        "fats": 3,
+        "calories": 100,
+        "protein": 5,
+        "carbs": 10,
+        "fats": 4,
         "baseCalories": 1,
         "baseProtein": 0.05,
         "baseCarbs": 0.1,
@@ -984,71 +869,7 @@ const foodDatabase = {
     "preparation": "1. Cocer la pasta según las instrucciones del paquete. Escurrir, pasar por agua fría para detener la cocción y dejar enfriar. 2. Cocinar la pechuga de pollo (a la plancha, hervida o asada) y desmenuzarla o cortarla en dados. 3. Lavar los canónigos. Picar el tomate, pimiento rojo, pimiento verde y cebolla en trozos pequeños. 4. En un bol grande, combinar la pasta fría, el pollo, los canónigos y las verduras picadas. 5. Aliñar con aceite de oliva virgen extra, vinagre o tu salsa para ensaladas favorita (ej. yogur, mostaza y miel). Salpimentar al gusto.",
     "originalBaseRecipeId": "cc_ensalada_de_pasta_con_pollo"
   },
-  "p3_m2": {
-    "name": "Judía verde con patata y Zanahoria",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cf5c1ddc9c1507857434b.png",
-    "calories": 378,
-    "protein": 12,
-    "carbs": 40,
-    "fats": 18,
-    "ingredients": [
-      {
-        "name": "Judía Verde",
-        "quantity": "100",
-        "unit": "g",
-        "calories": 100,
-        "protein": 5,
-        "carbs": 10,
-        "fats": 4,
-        "baseCalories": 1,
-        "baseProtein": 0.05,
-        "baseCarbs": 0.1,
-        "baseFats": 0.04
-      },
-      {
-        "name": "Patata",
-        "quantity": "100",
-        "unit": "g",
-        "calories": 90,
-        "protein": 2,
-        "carbs": 20,
-        "fats": 0.1,
-        "baseCalories": 0.9,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.2,
-        "baseFats": 0.001
-      },
-      {
-        "name": "Zanahoria",
-        "quantity": "100",
-        "unit": "g",
-        "calories": 100,
-        "protein": 5,
-        "carbs": 10,
-        "fats": 4,
-        "baseCalories": 1,
-        "baseProtein": 0.05,
-        "baseCarbs": 0.1,
-        "baseFats": 0.04
-      },
-      {
-        "name": "Aceite de Oliva Virgen",
-        "quantity": "10",
-        "unit": "g",
-        "calories": 88.4,
-        "protein": 0,
-        "carbs": 0,
-        "fats": 10,
-        "baseCalories": 8.84,
-        "baseProtein": 0,
-        "baseCarbs": 0,
-        "baseFats": 1
-      }
-    ],
-    "preparation": "1. Lavar y cortar las judías verdes, pelar y cortar las patatas y zanahorias. 2. Cocer todas las verduras en agua con sal hasta que estén tiernas. 3. Escurrir y servir. Aliñar con aceite de oliva virgen extra.",
-    "originalBaseRecipeId": "pp_juda_verde_con_patata_y_zanahoria"
-  },
-  "p3_m3": {
+  "p3_m1": {
     "name": "Frutos Secos (Mezcla)",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68525c0b1d27cfeb580a55f7.png",
     "calories": 130,
@@ -1099,6 +920,95 @@ const foodDatabase = {
     "preparation": "Consumir directamente como un snack energético y nutritivo.",
     "originalBaseRecipeId": "ext_frutos_secos_mezcla"
   },
+  "p3_m2": {
+    "name": "Fruta Densa (Plátano, Manzana, Pera)",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe4bb91eb325b93d4a82.png",
+    "calories": 90,
+    "protein": 1,
+    "carbs": 23,
+    "fats": 0,
+    "ingredients": [
+      {
+        "name": "Plátano",
+        "quantity": "1",
+        "unit": "ud",
+        "calories": 90,
+        "protein": 0.75,
+        "carbs": 22.5,
+        "fats": 0.3,
+        "baseCalories": 90,
+        "baseProtein": 0.75,
+        "baseCarbs": 22.5,
+        "baseFats": 0.3
+      }
+    ],
+    "preparation": "1. Seleccionar la fruta densa de preferencia. 2. Para plátanos: pelar la piel y consumir directamente. 3. Para manzanas o peras: lavar bien la fruta. Se puede consumir con piel o pelada.",
+    "originalBaseRecipeId": "ext_fruta_densa_pltano_manzana_pera"
+  },
+  "p3_m3": {
+    "name": "Patata con brócoli y pollo asado",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687de454838c601605b6e271.png",
+    "calories": 528,
+    "protein": 60,
+    "carbs": 25,
+    "fats": 18,
+    "ingredients": [
+      {
+        "name": "Patata",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 90,
+        "protein": 2,
+        "carbs": 20,
+        "fats": 0.1,
+        "baseCalories": 0.9,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.2,
+        "baseFats": 0.001
+      },
+      {
+        "name": "Brócoli",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 30,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Pechuga de Pollo",
+        "quantity": "200",
+        "unit": "g",
+        "calories": 320,
+        "protein": 56.00000000000001,
+        "carbs": 0,
+        "fats": 8,
+        "baseCalories": 1.6,
+        "baseProtein": 0.28,
+        "baseCarbs": 0,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Aceite de Oliva Virgen",
+        "quantity": "10",
+        "unit": "g",
+        "calories": 88.4,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 10,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1
+      }
+    ],
+    "preparation": "1. Cocer la patata y el brócoli al vapor o en agua hirviendo hasta que estén tiernos. 2. Cocinar la pechuga de pollo a la plancha o asada al horno, sazonada al gusto. 3. Servir la patata y el brócoli como base y colocar el pollo troceado por encima. Aliñar con aceite de oliva y especias si se desea.",
+    "originalBaseRecipeId": "cc_patata_con_brcoli_y_pollo_asado"
+  },
   "p3_m4": {
     "name": "Fruta Densa (Plátano, Manzana, Pera)",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe4bb91eb325b93d4a82.png",
@@ -1127,7 +1037,7 @@ const foodDatabase = {
 };
 const dailyMenus = [
   {
-    "name": "Día 1",
+    "name": "Libre 1",
     "targetMacros": {
       "calories": 1700,
       "protein": 140,
@@ -1146,15 +1056,14 @@ const dailyMenus = [
       "p0_m1"
     ],
     "cena": [
-      "p0_m2",
-      "p0_m3"
+      "p0_m2"
     ],
     "extra": [
-      "p0_m4"
+      "p0_m3"
     ]
   },
   {
-    "name": "Día 2",
+    "name": "Entreno 1",
     "targetMacros": {
       "calories": 1700,
       "protein": 140,
@@ -1182,7 +1091,7 @@ const dailyMenus = [
     ]
   },
   {
-    "name": "Día 3",
+    "name": "Entreno 2",
     "targetMacros": {
       "calories": 1800,
       "protein": 150,
@@ -1209,7 +1118,7 @@ const dailyMenus = [
     ]
   },
   {
-    "name": "Día 4",
+    "name": "Libre 2 ",
     "targetMacros": {
       "calories": 1800,
       "protein": 150,
@@ -1222,17 +1131,17 @@ const dailyMenus = [
       "fats": 109
     },
     "desayuno": [
-      "p3_m0"
+      "p3_m4"
     ],
     "comida": [
-      "p3_m1"
+      "p3_m0"
     ],
     "cena": [
-      "p3_m2"
+      "p3_m3"
     ],
     "extra": [
-      "p3_m3",
-      "p3_m4"
+      "p3_m1",
+      "p3_m2"
     ]
   }
 ];
