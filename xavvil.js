@@ -1,7 +1,5 @@
-// Última actualización: 20/05/2026
 // Titulo: Plan de Alimentación
-// Alergias:
-
+// Alergias: 
 const foodDatabase = {
   "p0_m0": {
     "name": "Yogurt Protéico con Frutos Rojos y Secos",
@@ -339,19 +337,19 @@ const foodDatabase = {
   "p1_m1": {
     "name": "Ensalada de Pasta con Pollo",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afc47b91eb349463d47dd.png",
-    "calories": 801,
-    "protein": 66,
-    "carbs": 86,
-    "fats": 19,
+    "calories": 874,
+    "protein": 68,
+    "carbs": 101,
+    "fats": 20,
     "ingredients": [
       {
         "name": "Pasta Integral",
-        "quantity": "90",
+        "quantity": "110",
         "unit": "g",
-        "calories": 328.5,
-        "protein": 10.8,
-        "carbs": 67.5,
-        "fats": 1.8,
+        "calories": 401.5,
+        "protein": 13.200000000000001,
+        "carbs": 82.5,
+        "fats": 2.2,
         "baseCalories": 3.65,
         "baseProtein": 0.12000000000000001,
         "baseCarbs": 0.75,
@@ -583,7 +581,7 @@ const foodDatabase = {
         "carbs": 0,
         "fats": 3.6,
         "baseCalories": 1.6,
-        "baseProtein": 0.28,
+        "baseProtein": 0.27999999999999997,
         "baseCarbs": 0,
         "baseFats": 0.04
       },
@@ -598,7 +596,7 @@ const foodDatabase = {
         "baseCalories": 0.3,
         "baseProtein": 0.02,
         "baseCarbs": 0.05,
-        "baseFats": 0.002
+        "baseFats": 0.0016666666666666668
       },
       {
         "name": "Lechuga",
@@ -611,7 +609,7 @@ const foodDatabase = {
         "baseCalories": 0.3,
         "baseProtein": 0.02,
         "baseCarbs": 0.05,
-        "baseFats": 0.002
+        "baseFats": 0.0016666666666666668
       }
     ],
     "preparation": "1. Prepara un bocadillo con un par de rebanadas de Pan de Centeno. 2. Añade el Atún y opcionalmente tomate y lechuga.",
@@ -635,7 +633,7 @@ const foodDatabase = {
         "fats": 0.6,
         "baseCalories": 1.3,
         "baseProtein": 0.08,
-        "baseCarbs": 0.22000000000000003,
+        "baseCarbs": 0.22,
         "baseFats": 0.005
       },
       {
@@ -725,7 +723,7 @@ const foodDatabase = {
         "fats": 16.5,
         "baseCalories": 77.5,
         "baseProtein": 6.5,
-        "baseCarbs": 0.55,
+        "baseCarbs": 0.5666666666666667,
         "baseFats": 5.5
       }
     ],
@@ -799,19 +797,19 @@ const foodDatabase = {
   "p2_m4": {
     "name": "Merluza a la Plancha",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684f001d4d606642b1333279.png",
-    "calories": 408,
-    "protein": 56,
+    "calories": 440,
+    "protein": 62,
     "carbs": 0,
-    "fats": 18,
+    "fats": 19,
     "ingredients": [
       {
         "name": "Filete de Merluza",
-        "quantity": "200",
+        "quantity": "220",
         "unit": "g",
-        "calories": 320,
-        "protein": 56.00000000000001,
+        "calories": 352,
+        "protein": 61.60000000000001,
         "carbs": 0,
-        "fats": 8,
+        "fats": 8.8,
         "baseCalories": 1.6,
         "baseProtein": 0.28,
         "baseCarbs": 0,
@@ -965,7 +963,7 @@ const foodDatabase = {
         "carbs": 60,
         "fats": 3.6,
         "baseCalories": 108,
-        "baseProtein": 3.5999999999999996,
+        "baseProtein": 3.6,
         "baseCarbs": 20,
         "baseFats": 1.2
       },
@@ -1136,6 +1134,12 @@ const dailyMenus = [
       "protein": 150,
       "carbs": 150
     },
+    "baselineTotals": {
+      "calories": 1937,
+      "protein": 150,
+      "carbs": 206,
+      "fats": 51
+    },
     "desayuno": [
       "p0_m0"
     ],
@@ -1155,6 +1159,12 @@ const dailyMenus = [
       "calories": 1800,
       "protein": 150,
       "carbs": 150
+    },
+    "baselineTotals": {
+      "calories": 1842,
+      "protein": 120,
+      "carbs": 134,
+      "fats": 90
     },
     "desayuno": [
       "p1_m0"
@@ -1176,6 +1186,12 @@ const dailyMenus = [
       "calories": 1800,
       "protein": 150,
       "carbs": 150
+    },
+    "baselineTotals": {
+      "calories": 1775,
+      "protein": 148,
+      "carbs": 128,
+      "fats": 72
     },
     "desayuno": [
       "p2_m0"
@@ -1199,6 +1215,12 @@ const dailyMenus = [
       "calories": 1600,
       "protein": 150,
       "carbs": 90
+    },
+    "baselineTotals": {
+      "calories": 1798,
+      "protein": 189,
+      "carbs": 147,
+      "fats": 42
     },
     "desayuno": [
       "p3_m0"
