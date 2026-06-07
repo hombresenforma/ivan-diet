@@ -104,25 +104,25 @@ const foodDatabase = {
     "originalBaseRecipeId": "ext_yogur_proteico_con_cereales_de_avena"
   },
   "p0_m2": {
-    "name": "Ensalada de berenjena y tomate asado, queso y pollo con arroz",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684ef97c6202d51cbcde28c8.png",
-    "calories": 888,
-    "protein": 79,
-    "carbs": 86,
-    "fats": 22,
+    "name": "Boniato asado con ensalada de tomate",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684efcd1f6c48df26aa5ba5b.png",
+    "calories": 310,
+    "protein": 11,
+    "carbs": 55,
+    "fats": 4,
     "ingredients": [
       {
-        "name": "Berenjena",
-        "quantity": "100",
+        "name": "Boniato",
+        "quantity": "200",
         "unit": "g",
-        "calories": 30,
-        "protein": 2,
-        "carbs": 5,
+        "calories": 180,
+        "protein": 4,
+        "carbs": 40,
         "fats": 0.2,
-        "baseCalories": 0.3,
+        "baseCalories": 0.9,
         "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
+        "baseCarbs": 0.2,
+        "baseFats": 0.001
       },
       {
         "name": "Tomate",
@@ -136,96 +136,6 @@ const foodDatabase = {
         "baseProtein": 0.02,
         "baseCarbs": 0.05,
         "baseFats": 0.002
-      },
-      {
-        "name": "Queso de Cabra",
-        "quantity": "50",
-        "unit": "g",
-        "calories": 175,
-        "protein": 12.5,
-        "carbs": 1,
-        "fats": 12.5,
-        "baseCalories": 3.5,
-        "baseProtein": 0.25,
-        "baseCarbs": 0.02,
-        "baseFats": 0.25
-      },
-      {
-        "name": "Pechuga de Pollo",
-        "quantity": "180",
-        "unit": "g",
-        "calories": 288,
-        "protein": 50.400000000000006,
-        "carbs": 0,
-        "fats": 7.2,
-        "baseCalories": 1.6,
-        "baseProtein": 0.28,
-        "baseCarbs": 0,
-        "baseFats": 0.04
-      },
-      {
-        "name": "Arroz",
-        "quantity": "100",
-        "unit": "g",
-        "calories": 365,
-        "protein": 12,
-        "carbs": 75,
-        "fats": 2,
-        "baseCalories": 3.65,
-        "baseProtein": 0.12,
-        "baseCarbs": 0.75,
-        "baseFats": 0.02
-      }
-    ],
-    "preparation": "1. Precalentar el horno a 200°C. Cortar la berenjena en rodajas o dados y los tomates por la mitad o en cuartos. Rociar con aceite de oliva, salpimentar y asar durante 20-25 minutos o hasta que estén tiernos. 2. Cocinar la pechuga de pollo (a la plancha, asada o hervida) y cortarla en trozos o tiras. 3. Cocer el arroz según las instrucciones del paquete. Puede usarse caliente, tibio o frío. 4. Cortar el queso (tipo feta, mozzarella fresca, o el de preferencia) en dados. 5. En un bol grande, combinar el arroz, la berenjena y tomate asados, el pollo y el queso. 6. Aliñar con aceite de oliva virgen extra, vinagre balsámico (opcional) y hierbas frescas como albahaca u orégano. Mezclar suavemente.",
-    "originalBaseRecipeId": "cc_ensalada_de_berenjena_y_tomate_asado_queso_y_pollo_con_arroz"
-  },
-  "p0_m3": {
-    "name": "Ensalada de Tomate Espárragos Blancos con Atún",
-    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/699b47f820c0359e700b32ca.png",
-    "calories": 557,
-    "protein": 52,
-    "carbs": 28,
-    "fats": 24,
-    "ingredients": [
-      {
-        "name": "Tomate",
-        "quantity": "150",
-        "unit": "g",
-        "calories": 45,
-        "protein": 3,
-        "carbs": 7.5,
-        "fats": 0.3,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Espárragos Blancos",
-        "quantity": "100",
-        "unit": "g",
-        "calories": 100,
-        "protein": 5,
-        "carbs": 10,
-        "fats": 4,
-        "baseCalories": 1,
-        "baseProtein": 0.05,
-        "baseCarbs": 0.1,
-        "baseFats": 0.04
-      },
-      {
-        "name": "Atún en Conserva",
-        "quantity": "140",
-        "unit": "g",
-        "calories": 224,
-        "protein": 39.2,
-        "carbs": 0,
-        "fats": 5.6000000000000005,
-        "baseCalories": 1.6,
-        "baseProtein": 0.28,
-        "baseCarbs": 0,
-        "baseFats": 0.04
       },
       {
         "name": "Cebolla",
@@ -239,63 +149,12 @@ const foodDatabase = {
         "baseProtein": 0.05,
         "baseCarbs": 0.1,
         "baseFats": 0.04
-      },
-      {
-        "name": "Aceite de Oliva Virgen Extra",
-        "quantity": "10",
-        "unit": "g",
-        "calories": 88.4,
-        "protein": 0,
-        "carbs": 0,
-        "fats": 10,
-        "baseCalories": 8.84,
-        "baseProtein": 0,
-        "baseCarbs": 0,
-        "baseFats": 1
       }
     ],
-    "preparation": "1. Lavar y cortar los tomates en gajos. 2. Escurrir los espárragos blancos y el atún. 3. Picar la cebolla en juliana fina. 4. En una fuente, disponer los tomates, los espárragos y el atún. 5. Añadir la cebolla y aliñar con aceite de oliva, vinagre y sal al gusto.",
-    "originalBaseRecipeId": "cc_ensalada_de_tomate_esprragos_blancos_con_atn"
+    "preparation": "1. Precalentar el horno a 200°C (390°F). Lavar bien el boniato, pincharlo varias veces con un tenedor para que no reviente durante la cocción. 2. Asar el boniato entero directamente sobre la rejilla del horno o en una bandeja durante 45-60 minutos, o hasta que esté tierno al pincharlo. 3. Mientras se asa el boniato, preparar la ensalada: lavar y cortar el tomate en dados pequeños. Picar la cebolla y el ajo muy finamente. 4. En un bol, mezclar el tomate, la cebolla y el ajo. Aliñar con aceite de oliva virgen extra, vinagre y sal al gusto. 5. Una vez el boniato esté asado y tierno, sacarlo del horno, dejarlo templar unos minutos, y luego abrirlo por la mitad a lo largo. Servirlo caliente o templado, acompañado de la ensalada de tomate.",
+    "originalBaseRecipeId": "pp_boniato_asado_con_ensalada_de_tomate"
   },
-  "p0_m4": {
-    "name": "Fruta Densa (Plátano, Manzana, Pera)",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe4bb91eb325b93d4a82.png",
-    "calories": 180,
-    "protein": 2,
-    "carbs": 45,
-    "fats": 1,
-    "ingredients": [
-      {
-        "name": "Plátano",
-        "quantity": "1",
-        "unit": "ud",
-        "calories": 90,
-        "protein": 0.75,
-        "carbs": 22.5,
-        "fats": 0.3,
-        "baseCalories": 90,
-        "baseProtein": 0.75,
-        "baseCarbs": 22.5,
-        "baseFats": 0.3
-      },
-      {
-        "name": "Manzana",
-        "quantity": "1",
-        "unit": "ud",
-        "calories": 90,
-        "protein": 0.75,
-        "carbs": 22.5,
-        "fats": 0.3,
-        "baseCalories": 90,
-        "baseProtein": 0.75,
-        "baseCarbs": 22.5,
-        "baseFats": 0.3
-      }
-    ],
-    "preparation": "1. Seleccionar la fruta densa de preferencia. 2. Para plátanos: pelar la piel y consumir directamente. 3. Para manzanas o peras: lavar bien la fruta. Se puede consumir con piel o pelada.",
-    "originalBaseRecipeId": "ext_fruta_densa_pltano_manzana_pera"
-  },
-  "p0_m5": {
+  "p0_m3": {
     "name": "Frutos Secos (Mezcla)",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68525c0b1d27cfeb580a55f7.png",
     "calories": 135,
@@ -346,7 +205,7 @@ const foodDatabase = {
     "preparation": "Consumir directamente como un snack energético y nutritivo. Se puede tomar un puñado (ej. 25-30g) o ajustar la cantidad según las necesidades calóricas.",
     "originalBaseRecipeId": "ext_frutos_secos_mezcla"
   },
-  "p0_m6": {
+  "p0_m4": {
     "name": "Batido Whey de Proteínas",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684f021af6c48d41b5a5c003.png",
     "calories": 114,
@@ -370,6 +229,172 @@ const foodDatabase = {
     ],
     "preparation": "1. En un shaker, añadir la cantidad recomendada de proteína en polvo. 2. Añadir la cantidad de líquido deseada (unos 200-300 ml). 3. Cerrar bien el shaker. 4. Agitar enérgicamente durante unos 20-30 segundos hasta que el polvo esté completamente disuelto.",
     "originalBaseRecipeId": "ext_batido_whey_de_protenas"
+  },
+  "p0_m5": {
+    "name": "Poke de aguacate, mango, tomate, soja, cebolla, arroz and pollo",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684efa4ef6c48db833a5b1af.png",
+    "calories": 1029,
+    "protein": 63,
+    "carbs": 98,
+    "fats": 42,
+    "ingredients": [
+      {
+        "name": "Aguacate",
+        "quantity": "50",
+        "unit": "g",
+        "calories": 225,
+        "protein": 5,
+        "carbs": 7.5,
+        "fats": 20,
+        "baseCalories": 4.5,
+        "baseProtein": 0.1,
+        "baseCarbs": 0.15,
+        "baseFats": 0.4
+      },
+      {
+        "name": "Mango",
+        "quantity": "1",
+        "unit": "ud",
+        "calories": 90,
+        "protein": 0.75,
+        "carbs": 22.5,
+        "fats": 0.3,
+        "baseCalories": 90,
+        "baseProtein": 0.75,
+        "baseCarbs": 22.5,
+        "baseFats": 0.3
+      },
+      {
+        "name": "Tomate",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 30,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Cebolla",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 100,
+        "protein": 5,
+        "carbs": 10,
+        "fats": 4,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Arroz",
+        "quantity": "70",
+        "unit": "g",
+        "calories": 255.5,
+        "protein": 8.4,
+        "carbs": 52.5,
+        "fats": 1.4000000000000001,
+        "baseCalories": 3.65,
+        "baseProtein": 0.12,
+        "baseCarbs": 0.75,
+        "baseFats": 0.02
+      },
+      {
+        "name": "Pechuga de Pollo",
+        "quantity": "150",
+        "unit": "g",
+        "calories": 240,
+        "protein": 42.00000000000001,
+        "carbs": 0,
+        "fats": 6,
+        "baseCalories": 1.6,
+        "baseProtein": 0.28,
+        "baseCarbs": 0,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Aceite de Oliva Virgen",
+        "quantity": "10",
+        "unit": "g",
+        "calories": 88.4,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 10,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1
+      }
+    ],
+    "preparation": "1. Cocer el arroz (preferiblemente de sushi o grano corto siguiendo las instrucciones del paquete) y dejar enfriar. 2. Cocinar la pechuga de pollo (hervida, a la plancha o al vapor) y cortarla en dados. Dejar enfriar. 3. Cortar el aguacate y el mango en dados. Picar el tomate en dados pequeños y la cebolla (preferiblemente morada) en juliana fina o brunoise. 4. Para el aliño, mezclar en un cuenco salsa de soja, un chorrito de aceite de sésamo, zumo de lima o limón y opcionalmente un poco de jengibre rallado y miel o sirope de agave. 5. En un bol individual, colocar una base de arroz. Disponer encima de forma separada y estética: el pollo, aguacate, mango, tomate y cebolla. 6. Rociar generosamente con el aliño justo antes de servir. Opcional: espolvorear con semillas de sésamo tostadas o furikake.",
+    "originalBaseRecipeId": "cc_poke_de_aguacate_mango_tomate_soja_cebolla_arroz_and_pollo"
+  },
+  "p0_m6": {
+    "name": "Merluza a la Plancha",
+    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69b66b6dad027629d2f1e944.png",
+    "calories": 364,
+    "protein": 56,
+    "carbs": 0,
+    "fats": 13,
+    "ingredients": [
+      {
+        "name": "Filete de Merluza",
+        "quantity": "200",
+        "unit": "g",
+        "calories": 320,
+        "protein": 56.00000000000001,
+        "carbs": 0,
+        "fats": 8,
+        "baseCalories": 1.6,
+        "baseProtein": 0.28,
+        "baseCarbs": 0,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Aceite de Oliva Virgen",
+        "quantity": "5",
+        "unit": "g",
+        "calories": 44.2,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 5,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1
+      }
+    ],
+    "preparation": "1. Sazonar los filetes o rodajas de merluza con sal, pimienta y opcionalmente un poco de ajo en polvo o perejil picado. 2. Calentar una plancha o sartén antiadherente a fuego medio-alto con un chorrito de aceite de oliva virgen extra. 3. Cuando el aceite esté caliente, colocar la merluza en la plancha. Cocinar durante unos 3-5 minutos por cada lado, dependiendo del grosor del pescado, hasta que esté opaca, bien cocida por dentro y se desmenuce fácilmente con un tenedor. 4. Servir inmediatamente, opcionalmente con un chorrito de zumo de limón fresco por encima.",
+    "originalBaseRecipeId": "ac_merluza_a_la_plancha"
+  },
+  "p0_m7": {
+    "name": "Fruta Cítrica (Mandarina, Kiwi, Naranja...)",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd3d0ed506305442ffe4.png",
+    "calories": 90,
+    "protein": 1,
+    "carbs": 23,
+    "fats": 0,
+    "ingredients": [
+      {
+        "name": "Mandarina",
+        "quantity": "1",
+        "unit": "ud",
+        "calories": 90,
+        "protein": 0.75,
+        "carbs": 22.5,
+        "fats": 0.3,
+        "baseCalories": 90,
+        "baseProtein": 0.75,
+        "baseCarbs": 22.5,
+        "baseFats": 0.3
+      }
+    ],
+    "preparation": "1. Seleccionar la fruta cítrica de preferencia (mandarina, kiwi, naranja, pomelo, etc.). 2. Lavar bien la fruta bajo el grifo. 3. Para mandarinas y naranjas: pelar la piel con las manos o con ayuda de un cuchillo. Separar los gajos si se desea. 4. Para kiwis: cortar por la mitad y comer la pulpa con una cucharita, o pelar con un cuchillo y cortar en rodajas. 5. Para pomelos: cortar por la mitad y extraer los gajos, o comer con cuchara. Consumir directamente.",
+    "originalBaseRecipeId": "ext_fruta_ctrica_mandarina_kiwi_naranja"
   },
   "p1_m0": {
     "name": "Tostada de Pan de Centeno con Revuelto de Huevos y Jamón York",
@@ -1460,7 +1485,7 @@ const foodDatabase = {
         "carbs": 52.5,
         "fats": 1.4000000000000001,
         "baseCalories": 3.65,
-        "baseProtein": 0.12,
+        "baseProtein": 0.12000000000000001,
         "baseCarbs": 0.75,
         "baseFats": 0.02
       },
@@ -1487,7 +1512,7 @@ const foodDatabase = {
         "fats": 0.3,
         "baseCalories": 0.5,
         "baseProtein": 0.01,
-        "baseCarbs": 0.12,
+        "baseCarbs": 0.11999999999999998,
         "baseFats": 0.005
       }
     ],
@@ -1511,7 +1536,7 @@ const foodDatabase = {
         "carbs": 105,
         "fats": 2.8000000000000003,
         "baseCalories": 3.65,
-        "baseProtein": 0.12,
+        "baseProtein": 0.12000000000000001,
         "baseCarbs": 0.75,
         "baseFats": 0.02
       },
@@ -1649,44 +1674,6 @@ const foodDatabase = {
     "originalBaseRecipeId": "pp_ensalada_de_pepino_tomate_y_apio"
   },
   "p4_m3": {
-    "name": "Yogur Griego Desnatado con Proteína en Polvo",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68e7efa6d27b18380fc8e8fd.png",
-    "calories": 264,
-    "protein": 37,
-    "carbs": 12,
-    "fats": 6,
-    "ingredients": [
-      {
-        "name": "Yogur Griego Desnatado",
-        "quantity": "250",
-        "unit": "g",
-        "calories": 150,
-        "protein": 12.5,
-        "carbs": 10,
-        "fats": 5,
-        "baseCalories": 0.6,
-        "baseProtein": 0.05,
-        "baseCarbs": 0.04,
-        "baseFats": 0.02
-      },
-      {
-        "name": "Proteína en Polvo",
-        "quantity": "30",
-        "unit": "g",
-        "calories": 114,
-        "protein": 24,
-        "carbs": 1.5,
-        "fats": 1.2,
-        "baseCalories": 3.8,
-        "baseProtein": 0.8,
-        "baseCarbs": 0.05,
-        "baseFats": 0.04
-      }
-    ],
-    "preparation": "1. Mezclar el yogur griego con la proteína en polvo en un bol hasta que esté bien integrado.",
-    "originalBaseRecipeId": "ext_yogur_griego_desnatado_con_protena_en_polvo"
-  },
-  "p4_m4": {
     "name": "Hamburguesa de Ternera a la Plancha",
     "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69fee800bc1f77cc3522f7f3.png",
     "calories": 389,
@@ -1723,6 +1710,44 @@ const foodDatabase = {
     ],
     "preparation": "1. Cocinar la hamburguesa de ternera a la plancha hasta el punto deseado.",
     "originalBaseRecipeId": "ac_hamburguesa_de_ternera_a_la_plancha"
+  },
+  "p4_m4": {
+    "name": "Yogur Griego Desnatado con Proteína en Polvo",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68e7efa6d27b18380fc8e8fd.png",
+    "calories": 264,
+    "protein": 37,
+    "carbs": 12,
+    "fats": 6,
+    "ingredients": [
+      {
+        "name": "Yogur Griego Desnatado",
+        "quantity": "250",
+        "unit": "g",
+        "calories": 150,
+        "protein": 12.5,
+        "carbs": 10,
+        "fats": 5,
+        "baseCalories": 0.6,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.04,
+        "baseFats": 0.02
+      },
+      {
+        "name": "Proteína en Polvo",
+        "quantity": "30",
+        "unit": "g",
+        "calories": 114,
+        "protein": 24,
+        "carbs": 1.5,
+        "fats": 1.2,
+        "baseCalories": 3.8,
+        "baseProtein": 0.8,
+        "baseCarbs": 0.05,
+        "baseFats": 0.04
+      }
+    ],
+    "preparation": "1. Mezclar el yogur griego con la proteína en polvo en un bol hasta que esté bien integrado.",
+    "originalBaseRecipeId": "ext_yogur_griego_desnatado_con_protena_en_polvo"
   }
 };
 const dailyMenus = [
@@ -1744,15 +1769,16 @@ const dailyMenus = [
       "p0_m1"
     ],
     "comida": [
-      "p0_m2"
+      "p0_m5"
     ],
     "cena": [
-      "p0_m3"
+      "p0_m2",
+      "p0_m6"
     ],
     "extra": [
+      "p0_m3",
       "p0_m4",
-      "p0_m5",
-      "p0_m6"
+      "p0_m7"
     ]
   },
   {
@@ -1862,10 +1888,10 @@ const dailyMenus = [
     ],
     "cena": [
       "p4_m2",
-      "p4_m4"
+      "p4_m3"
     ],
     "extra": [
-      "p4_m3"
+      "p4_m4"
     ]
   }
 ];
