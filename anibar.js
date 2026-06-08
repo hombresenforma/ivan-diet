@@ -68,19 +68,19 @@ const foodDatabase = {
   "p0_m1": {
     "name": "Estofado de Lentejas con Verduras y Costilla",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6922cf648c174dc51742182c.png",
-    "calories": 545,
-    "protein": 45,
-    "carbs": 43,
-    "fats": 20,
+    "calories": 615,
+    "protein": 51,
+    "carbs": 48,
+    "fats": 22,
     "ingredients": [
       {
         "name": "Lentejas Cocidas",
-        "quantity": "150",
+        "quantity": "170",
         "unit": "g",
-        "calories": 195,
-        "protein": 12,
-        "carbs": 33,
-        "fats": 0.75,
+        "calories": 221,
+        "protein": 13.6,
+        "carbs": 37.4,
+        "fats": 0.85,
         "baseCalories": 1.3,
         "baseProtein": 0.08,
         "baseCarbs": 0.22,
@@ -88,12 +88,12 @@ const foodDatabase = {
       },
       {
         "name": "Costilla de Cerdo",
-        "quantity": "130",
+        "quantity": "150",
         "unit": "g",
-        "calories": 286,
-        "protein": 28.6,
+        "calories": 330,
+        "protein": 33,
         "carbs": 0,
-        "fats": 18.200000000000003,
+        "fats": 21.000000000000004,
         "baseCalories": 2.2,
         "baseProtein": 0.22,
         "baseCarbs": 0,
@@ -158,19 +158,19 @@ const foodDatabase = {
   "p0_m2": {
     "name": "Boniato asado con ensalada de tomate",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684efcd1f6c48df26aa5ba5b.png",
-    "calories": 241,
+    "calories": 254,
     "protein": 6,
-    "carbs": 31,
+    "carbs": 34,
     "fats": 10,
     "ingredients": [
       {
         "name": "Boniato",
-        "quantity": "110",
+        "quantity": "125",
         "unit": "g",
-        "calories": 99,
-        "protein": 2.2,
-        "carbs": 22,
-        "fats": 0.11,
+        "calories": 112.5,
+        "protein": 2.5,
+        "carbs": 25,
+        "fats": 0.125,
         "baseCalories": 0.9,
         "baseProtein": 0.02,
         "baseCarbs": 0.2,
@@ -258,56 +258,6 @@ const foodDatabase = {
     "originalBaseRecipeId": "ac_merluza_a_la_plancha"
   },
   "p0_m4": {
-    "name": "Yogur Protéico (Sabores, Natural...)",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd789b8ed38b127cbc09.png",
-    "calories": 125,
-    "protein": 6,
-    "carbs": 13,
-    "fats": 5,
-    "ingredients": [
-      {
-        "name": "Yogur Protéico",
-        "quantity": "1",
-        "unit": "unidad(es)",
-        "calories": 125,
-        "protein": 6.25,
-        "carbs": 12.5,
-        "fats": 5,
-        "baseCalories": 125,
-        "baseProtein": 6.25,
-        "baseCarbs": 12.5,
-        "baseFats": 5
-      }
-    ],
-    "preparation": "1. Seleccionar el yogur proteico de preferencia. 2. Abrir el envase. 3. Consumir directamente con una cuchara.",
-    "originalBaseRecipeId": "ext_yogur_protico_sabores_natural"
-  },
-  "p0_m5": {
-    "name": "Fruta Densa (Plátano, Manzana)",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe4bb91eb325b93d4a82.png",
-    "calories": 72,
-    "protein": 1,
-    "carbs": 18,
-    "fats": 0,
-    "ingredients": [
-      {
-        "name": "Plátano",
-        "quantity": "1",
-        "unit": "unidad(es)",
-        "calories": 72,
-        "protein": 0.6,
-        "carbs": 18,
-        "fats": 0.24,
-        "baseCalories": 72,
-        "baseProtein": 0.6,
-        "baseCarbs": 18,
-        "baseFats": 0.24
-      }
-    ],
-    "preparation": "1. Seleccionar la fruta densa de preferencia. 2. Para plátanos: pelar la piel y consumir directamente. 3. Para manzanas o peras: lavar bien la fruta. Se puede consumir con piel o pelada.",
-    "originalBaseRecipeId": "ext_fruta_densa_pltano_manzana"
-  },
-  "p0_m6": {
     "name": "Gazpacho",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cfbad25d68cc1a4ec3688.png",
     "calories": 199,
@@ -396,6 +346,56 @@ const foodDatabase = {
     ],
     "preparation": "1. Trocear todas las verduras. 2. Poner todos los ingredientes en una batidora junto con aceite, vinagre y sal. 3. Triturar hasta obtener una sopa fina. 4. Enfriar en la nevera antes de servir. Puedes comprarlo preparado si lo prefieres.",
     "originalBaseRecipeId": "pp_gazpacho"
+  },
+  "p0_m5": {
+    "name": "Yogur Protéico (Sabores, Natural...)",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd789b8ed38b127cbc09.png",
+    "calories": 125,
+    "protein": 6,
+    "carbs": 13,
+    "fats": 5,
+    "ingredients": [
+      {
+        "name": "Yogur Protéico",
+        "quantity": "1",
+        "unit": "unidad(es)",
+        "calories": 125,
+        "protein": 6.25,
+        "carbs": 12.5,
+        "fats": 5,
+        "baseCalories": 125,
+        "baseProtein": 6.25,
+        "baseCarbs": 12.5,
+        "baseFats": 5
+      }
+    ],
+    "preparation": "1. Seleccionar el yogur proteico de preferencia. 2. Abrir el envase. 3. Consumir directamente con una cuchara.",
+    "originalBaseRecipeId": "ext_yogur_protico_sabores_natural"
+  },
+  "p0_m6": {
+    "name": "Fruta Densa (Plátano, Manzana)",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe4bb91eb325b93d4a82.png",
+    "calories": 72,
+    "protein": 1,
+    "carbs": 18,
+    "fats": 0,
+    "ingredients": [
+      {
+        "name": "Plátano",
+        "quantity": "1",
+        "unit": "unidad(es)",
+        "calories": 72,
+        "protein": 0.6,
+        "carbs": 18,
+        "fats": 0.24,
+        "baseCalories": 72,
+        "baseProtein": 0.6,
+        "baseCarbs": 18,
+        "baseFats": 0.24
+      }
+    ],
+    "preparation": "1. Seleccionar la fruta densa de preferencia. 2. Para plátanos: pelar la piel y consumir directamente. 3. Para manzanas o peras: lavar bien la fruta. Se puede consumir con piel o pelada.",
+    "originalBaseRecipeId": "ext_fruta_densa_pltano_manzana"
   },
   "p1_m0": {
     "name": "Tostada de Pan de Centeno con Revuelto de Huevos y Jamón York",
@@ -1190,134 +1190,6 @@ const foodDatabase = {
     "originalBaseRecipeId": "cc_pollo_al_curry_thai_con_arroz"
   },
   "p3_m2": {
-    "name": "Wok de Verduras con Salmón",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afda0b91eb330dd3d49b2.png",
-    "calories": 325,
-    "protein": 28,
-    "carbs": 14,
-    "fats": 17,
-    "ingredients": [
-      {
-        "name": "Tomate",
-        "quantity": "55",
-        "unit": "g",
-        "calories": 16.5,
-        "protein": 1.1,
-        "carbs": 2.75,
-        "fats": 0.11,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Pimiento Rojo",
-        "quantity": "55",
-        "unit": "g",
-        "calories": 16.5,
-        "protein": 1.1,
-        "carbs": 2.75,
-        "fats": 0.11,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Pimiento Verde",
-        "quantity": "55",
-        "unit": "g",
-        "calories": 16.5,
-        "protein": 1.1,
-        "carbs": 2.75,
-        "fats": 0.11,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Cebolla",
-        "quantity": "55",
-        "unit": "g",
-        "calories": 55,
-        "protein": 2.75,
-        "carbs": 5.5,
-        "fats": 2.2,
-        "baseCalories": 1,
-        "baseProtein": 0.05,
-        "baseCarbs": 0.1,
-        "baseFats": 0.04
-      },
-      {
-        "name": "Lomo de Salmón",
-        "quantity": "100",
-        "unit": "g",
-        "calories": 220.00000000000003,
-        "protein": 22,
-        "carbs": 0,
-        "fats": 14.000000000000002,
-        "baseCalories": 2.2,
-        "baseProtein": 0.22,
-        "baseCarbs": 0,
-        "baseFats": 0.14
-      }
-    ],
-    "preparation": "1. Cortar el salmón en dados de tamaño mediano. Picar el tomate, pimiento rojo, pimiento verde y cebolla en trozos adecuados para wok (ej. juliana gruesa o dados). 2. Calentar un wok o sartén grande con un poco de aceite a fuego alto. Saltear el salmón unos 2-3 minutos hasta que esté dorado por fuera pero ligeramente crudo por dentro. Retirar y reservar. 3. Añadir las verduras más duras (cebolla, pimientos) al wok y saltear durante 3-4 minutos. Luego añadir el tomate y saltear 1-2 minutos más. 4. Incorporar el salmón de nuevo al wok. Añadir salsa de soja (baja en sodio preferiblemente) y un toque de jengibre rallado o ajo picado (opcional). Mezclar bien y cocinar por 1-2 minutos más hasta que el salmón esté cocido y todo bien caliente. Servir inmediatamente, opcionalmente sobre una base de arroz o noodles.",
-    "originalBaseRecipeId": "cc_wok_de_verduras_con_salmn"
-  },
-  "p3_m3": {
-    "name": "Yogur Protéico con Frutos Rojos y Secos",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afea2b91eb35e413d4ab6.png",
-    "calories": 148,
-    "protein": 6,
-    "carbs": 12,
-    "fats": 8,
-    "ingredients": [
-      {
-        "name": "Yogur Protéico",
-        "quantity": "100",
-        "unit": "g",
-        "calories": 100,
-        "protein": 5,
-        "carbs": 10,
-        "fats": 4,
-        "baseCalories": 1,
-        "baseProtein": 0.05,
-        "baseCarbs": 0.1,
-        "baseFats": 0.04
-      },
-      {
-        "name": "Frutos Rojos",
-        "quantity": "5",
-        "unit": "g",
-        "calories": 2.5,
-        "protein": 0.05,
-        "carbs": 0.6,
-        "fats": 0.025,
-        "baseCalories": 0.5,
-        "baseProtein": 0.01,
-        "baseCarbs": 0.12,
-        "baseFats": 0.005
-      },
-      {
-        "name": "Frutos Secos",
-        "quantity": "10",
-        "unit": "g",
-        "calories": 45,
-        "protein": 1,
-        "carbs": 1.5,
-        "fats": 4,
-        "baseCalories": 4.5,
-        "baseProtein": 0.1,
-        "baseCarbs": 0.15,
-        "baseFats": 0.4
-      }
-    ],
-    "preparation": "1. En un bol, verter el yogur proteico. 2. Añadir los frutos rojos frescos o descongelados. 3. Espolvorear con los frutos secos troceados por encima.",
-    "originalBaseRecipeId": "ext_yogur_protico_con_frutos_rojos_y_secos"
-  },
-  "p3_m4": {
     "name": "Gazpacho",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cfbad25d68cc1a4ec3688.png",
     "calories": 199,
@@ -1406,6 +1278,134 @@ const foodDatabase = {
     ],
     "preparation": "1. Trocear todas las verduras. 2. Poner todos los ingredientes en una batidora junto con aceite, vinagre y sal. 3. Triturar hasta obtener una sopa fina. 4. Enfriar en la nevera antes de servir. Puedes comprarlo preparado si lo prefieres.",
     "originalBaseRecipeId": "pp_gazpacho"
+  },
+  "p3_m3": {
+    "name": "Wok de Verduras con Salmón",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afda0b91eb330dd3d49b2.png",
+    "calories": 325,
+    "protein": 28,
+    "carbs": 14,
+    "fats": 17,
+    "ingredients": [
+      {
+        "name": "Tomate",
+        "quantity": "55",
+        "unit": "g",
+        "calories": 16.5,
+        "protein": 1.1,
+        "carbs": 2.75,
+        "fats": 0.11,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Pimiento Rojo",
+        "quantity": "55",
+        "unit": "g",
+        "calories": 16.5,
+        "protein": 1.1,
+        "carbs": 2.75,
+        "fats": 0.11,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Pimiento Verde",
+        "quantity": "55",
+        "unit": "g",
+        "calories": 16.5,
+        "protein": 1.1,
+        "carbs": 2.75,
+        "fats": 0.11,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Cebolla",
+        "quantity": "55",
+        "unit": "g",
+        "calories": 55,
+        "protein": 2.75,
+        "carbs": 5.5,
+        "fats": 2.2,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Lomo de Salmón",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 220.00000000000003,
+        "protein": 22,
+        "carbs": 0,
+        "fats": 14.000000000000002,
+        "baseCalories": 2.2,
+        "baseProtein": 0.22,
+        "baseCarbs": 0,
+        "baseFats": 0.14
+      }
+    ],
+    "preparation": "1. Cortar el salmón en dados de tamaño mediano. Picar el tomate, pimiento rojo, pimiento verde y cebolla en trozos adecuados para wok (ej. juliana gruesa o dados). 2. Calentar un wok o sartén grande con un poco de aceite a fuego alto. Saltear el salmón unos 2-3 minutos hasta que esté dorado por fuera pero ligeramente crudo por dentro. Retirar y reservar. 3. Añadir las verduras más duras (cebolla, pimientos) al wok y saltear durante 3-4 minutos. Luego añadir el tomate y saltear 1-2 minutos más. 4. Incorporar el salmón de nuevo al wok. Añadir salsa de soja (baja en sodio preferiblemente) y un toque de jengibre rallado o ajo picado (opcional). Mezclar bien y cocinar por 1-2 minutos más hasta que el salmón esté cocido y todo bien caliente. Servir inmediatamente, opcionalmente sobre una base de arroz o noodles.",
+    "originalBaseRecipeId": "cc_wok_de_verduras_con_salmn"
+  },
+  "p3_m4": {
+    "name": "Yogur Protéico con Frutos Rojos y Secos",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afea2b91eb35e413d4ab6.png",
+    "calories": 148,
+    "protein": 6,
+    "carbs": 12,
+    "fats": 8,
+    "ingredients": [
+      {
+        "name": "Yogur Protéico",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 100,
+        "protein": 5,
+        "carbs": 10,
+        "fats": 4,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Frutos Rojos",
+        "quantity": "5",
+        "unit": "g",
+        "calories": 2.5,
+        "protein": 0.05,
+        "carbs": 0.6,
+        "fats": 0.025,
+        "baseCalories": 0.5,
+        "baseProtein": 0.01,
+        "baseCarbs": 0.12,
+        "baseFats": 0.005
+      },
+      {
+        "name": "Frutos Secos",
+        "quantity": "10",
+        "unit": "g",
+        "calories": 45,
+        "protein": 1,
+        "carbs": 1.5,
+        "fats": 4,
+        "baseCalories": 4.5,
+        "baseProtein": 0.1,
+        "baseCarbs": 0.15,
+        "baseFats": 0.4
+      }
+    ],
+    "preparation": "1. En un bol, verter el yogur proteico. 2. Añadir los frutos rojos frescos o descongelados. 3. Espolvorear con los frutos secos troceados por encima.",
+    "originalBaseRecipeId": "ext_yogur_protico_con_frutos_rojos_y_secos"
   }
 };
 const dailyMenus = [
@@ -1431,11 +1431,11 @@ const dailyMenus = [
     "cena": [
       "p0_m2",
       "p0_m3",
-      "p0_m6"
+      "p0_m4"
     ],
     "extra": [
-      "p0_m4",
-      "p0_m5"
+      "p0_m5",
+      "p0_m6"
     ]
   },
   {
@@ -1512,13 +1512,13 @@ const dailyMenus = [
     ],
     "comida": [
       "p3_m1",
-      "p3_m4"
-    ],
-    "cena": [
       "p3_m2"
     ],
-    "extra": [
+    "cena": [
       "p3_m3"
+    ],
+    "extra": [
+      "p3_m4"
     ]
   }
 ];
