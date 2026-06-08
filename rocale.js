@@ -1,15 +1,13 @@
-// Última actualización: 27/04/2026
 // Titulo: Plan de Alimentación
-// Alergias:
-
+// Alergias: 
 const foodDatabase = {
   "p0_m0": {
     "name": "Tostada de Centeno con Huevo y Aguacate",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687a695da648331355d3b0b2.png",
-    "calories": 496,
-    "protein": 21,
+    "calories": 574,
+    "protein": 28,
     "carbs": 36,
-    "fats": 30,
+    "fats": 35,
     "ingredients": [
       {
         "name": "Tostada de Pan de Centeno",
@@ -26,12 +24,12 @@ const foodDatabase = {
       },
       {
         "name": "Huevos",
-        "quantity": "2",
+        "quantity": "3",
         "unit": "unidad(es)",
-        "calories": 155,
-        "protein": 13,
-        "carbs": 1.1,
-        "fats": 11,
+        "calories": 232.5,
+        "protein": 19.5,
+        "carbs": 1.6500000000000001,
+        "fats": 16.5,
         "baseCalories": 77.5,
         "baseProtein": 6.5,
         "baseCarbs": 0.55,
@@ -70,19 +68,19 @@ const foodDatabase = {
   "p0_m1": {
     "name": "Boniato asado con ensalada de tomate",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684efcd1f6c48df26aa5ba5b.png",
-    "calories": 488,
-    "protein": 13,
-    "carbs": 75,
+    "calories": 533,
+    "protein": 14,
+    "carbs": 85,
     "fats": 15,
     "ingredients": [
       {
         "name": "Boniato",
-        "quantity": "300",
+        "quantity": "350",
         "unit": "g",
-        "calories": 270,
-        "protein": 6,
-        "carbs": 60,
-        "fats": 0.3,
+        "calories": 315,
+        "protein": 7,
+        "carbs": 70,
+        "fats": 0.35000000000000003,
         "baseCalories": 0.9,
         "baseProtein": 0.02,
         "baseCarbs": 0.2,
@@ -210,19 +208,19 @@ const foodDatabase = {
   "p0_m4": {
     "name": "Solomillo/Filete de Ternera a la Plancha",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe6c0ed5060d3743015a.png",
-    "calories": 308,
-    "protein": 26,
+    "calories": 374,
+    "protein": 33,
     "carbs": 0,
-    "fats": 22,
+    "fats": 26,
     "ingredients": [
       {
         "name": "Solomillo de Ternera",
-        "quantity": "120",
+        "quantity": "150",
         "unit": "g",
-        "calories": 264,
-        "protein": 26.4,
+        "calories": 330,
+        "protein": 33,
         "carbs": 0,
-        "fats": 16.8,
+        "fats": 21.000000000000004,
         "baseCalories": 2.2,
         "baseProtein": 0.22,
         "baseCarbs": 0,
@@ -246,31 +244,6 @@ const foodDatabase = {
     "originalBaseRecipeId": "ac_solomillofilete_de_ternera_a_la_plancha"
   },
   "p0_m5": {
-    "name": "Yogur Protéico (Sabores, Natural...)",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd789b8ed38b127cbc09.png",
-    "calories": 125,
-    "protein": 6,
-    "carbs": 13,
-    "fats": 5,
-    "ingredients": [
-      {
-        "name": "Yogur Protéico",
-        "quantity": "1",
-        "unit": "unidad(es)",
-        "calories": 125,
-        "protein": 6.25,
-        "carbs": 12.5,
-        "fats": 5,
-        "baseCalories": 125,
-        "baseProtein": 6.25,
-        "baseCarbs": 12.5,
-        "baseFats": 5
-      }
-    ],
-    "preparation": "1. Seleccionar el yogur proteico de preferencia. 2. Abrir el envase. 3. Consumir directamente con una cuchara.",
-    "originalBaseRecipeId": "ext_yogur_protico_sabores_natural"
-  },
-  "p0_m6": {
     "name": "Fruta Cítrica (Mandarina, Kiwi, Naranja...)",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd3d0ed506305442ffe4.png",
     "calories": 90,
@@ -295,13 +268,64 @@ const foodDatabase = {
     "preparation": "1. Seleccionar la fruta cítrica de preferencia. 2. Lavar bien la fruta bajo el grifo. 3. Para mandarinas y naranjas: pelar la piel con las manos. 4. Para kiwis: cortar por la mitad y comer la pulpa con una cucharita.",
     "originalBaseRecipeId": "ext_fruta_ctrica_mandarina_kiwi_naranja"
   },
+  "p0_m6": {
+    "name": "Yogurt Protéico con Frutos Rojos y Secos",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afea2b91eb35e413d4ab6.png",
+    "calories": 205,
+    "protein": 9,
+    "carbs": 18,
+    "fats": 11,
+    "ingredients": [
+      {
+        "name": "Yogur Protéico",
+        "quantity": "125",
+        "unit": "g",
+        "calories": 75,
+        "protein": 6.25,
+        "carbs": 5,
+        "fats": 2.5,
+        "baseCalories": 0.6,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.04,
+        "baseFats": 0.02
+      },
+      {
+        "name": "Frutos Rojos",
+        "quantity": "80",
+        "unit": "g",
+        "calories": 40,
+        "protein": 0.8,
+        "carbs": 9.6,
+        "fats": 0.4,
+        "baseCalories": 0.5,
+        "baseProtein": 0.01,
+        "baseCarbs": 0.12,
+        "baseFats": 0.005
+      },
+      {
+        "name": "Frutos Secos",
+        "quantity": "20",
+        "unit": "g",
+        "calories": 90,
+        "protein": 2,
+        "carbs": 3,
+        "fats": 8,
+        "baseCalories": 4.5,
+        "baseProtein": 0.1,
+        "baseCarbs": 0.15,
+        "baseFats": 0.4
+      }
+    ],
+    "preparation": "1. En un bol, verter el yogur proteico. 2. Añadir los frutos rojos frescos o descongelados. 3. Espolvorear con los frutos secos troceados por encima. Servir inmediatamente.",
+    "originalBaseRecipeId": "des_yogurt_protico_con_frutos_rojos_y_secos"
+  },
   "p1_m0": {
     "name": "Tostada de Pan de Centeno con Revuelto de Huevos y Jamón York",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687d09e04d6fb7f271b84cc9.png",
-    "calories": 432,
-    "protein": 26,
-    "carbs": 32,
-    "fats": 22,
+    "calories": 510,
+    "protein": 33,
+    "carbs": 33,
+    "fats": 27,
     "ingredients": [
       {
         "name": "Tostada de Pan de Centeno",
@@ -318,12 +342,12 @@ const foodDatabase = {
       },
       {
         "name": "Huevos",
-        "quantity": "2",
+        "quantity": "3",
         "unit": "unidad(es)",
-        "calories": 155,
-        "protein": 13,
-        "carbs": 1.1,
-        "fats": 11,
+        "calories": 232.5,
+        "protein": 19.5,
+        "carbs": 1.6500000000000001,
+        "fats": 16.5,
         "baseCalories": 77.5,
         "baseProtein": 6.5,
         "baseCarbs": 0.55,
@@ -349,19 +373,19 @@ const foodDatabase = {
   "p1_m1": {
     "name": "Ensala de Patata, Atún y Huevo",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afc08b91eb31afe3d4796.png",
-    "calories": 712,
-    "protein": 60,
-    "carbs": 81,
+    "calories": 757,
+    "protein": 61,
+    "carbs": 91,
     "fats": 14,
     "ingredients": [
       {
         "name": "Patata",
-        "quantity": "300",
+        "quantity": "350",
         "unit": "g",
-        "calories": 270,
-        "protein": 6,
-        "carbs": 60,
-        "fats": 0.3,
+        "calories": 315,
+        "protein": 7,
+        "carbs": 70,
+        "fats": 0.35000000000000003,
         "baseCalories": 0.9,
         "baseProtein": 0.02,
         "baseCarbs": 0.2,
@@ -463,85 +487,72 @@ const foodDatabase = {
     "originalBaseRecipeId": "cc_ensala_de_patata_atn_y_huevo"
   },
   "p1_m2": {
-    "name": "Falso Risotto de Coliflor con Pollo y Setas",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6922cee78c174d4e6d420b9d.png",
-    "calories": 540,
-    "protein": 57,
-    "carbs": 30,
-    "fats": 18,
+    "name": "Fajitas de Pollo y Verduras",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afcef0ed50608b742ff33.png",
+    "calories": 688,
+    "protein": 52,
+    "carbs": 70,
+    "fats": 20,
     "ingredients": [
       {
-        "name": "Coliflor",
-        "quantity": "150",
-        "unit": "g",
-        "calories": 150,
-        "protein": 7.5,
-        "carbs": 15,
-        "fats": 6,
-        "baseCalories": 1,
-        "baseProtein": 0.05,
-        "baseCarbs": 0.1,
-        "baseFats": 0.04
+        "name": "Tortilla de Trigo",
+        "quantity": "3",
+        "unit": "unidades",
+        "calories": 360,
+        "protein": 9,
+        "carbs": 63,
+        "fats": 7.5,
+        "baseCalories": 120,
+        "baseProtein": 3,
+        "baseCarbs": 21,
+        "baseFats": 2.5
       },
       {
         "name": "Pechuga de Pollo",
-        "quantity": "150",
+        "quantity": "180",
         "unit": "g",
-        "calories": 240,
-        "protein": 42.00000000000001,
+        "calories": 288,
+        "protein": 42,
         "carbs": 0,
-        "fats": 6,
+        "fats": 12,
         "baseCalories": 1.6,
-        "baseProtein": 0.28,
+        "baseProtein": 0.23333333333333334,
         "baseCarbs": 0,
-        "baseFats": 0.04
+        "baseFats": 0.06666666666666667
       },
       {
-        "name": "Champiñones",
-        "quantity": "75",
+        "name": "Pimientos y cebolla",
+        "quantity": "100",
         "unit": "g",
-        "calories": 75,
-        "protein": 3.75,
-        "carbs": 7.5,
-        "fats": 3,
-        "baseCalories": 1,
-        "baseProtein": 0.05,
-        "baseCarbs": 0.1,
-        "baseFats": 0.04
-      },
-      {
-        "name": "Cebolla",
-        "quantity": "75",
-        "unit": "g",
-        "calories": 75,
-        "protein": 3.75,
-        "carbs": 7.5,
-        "fats": 3,
-        "baseCalories": 1,
-        "baseProtein": 0.05,
-        "baseCarbs": 0.1,
-        "baseFats": 0.04
+        "calories": 40,
+        "protein": 1.3,
+        "carbs": 6.7,
+        "fats": 0.7,
+        "baseCalories": 0.4,
+        "baseProtein": 0.013000000000000001,
+        "baseCarbs": 0.067,
+        "baseFats": 0.006999999999999999
       }
     ],
-    "preparation": "1. Rallar la coliflor hasta que parezca arroz. 2. Saltear pollo y champiñones con cebolla. 3. Añadir la coliflor y saltear 5 min (no debe ablandarse demasiado). 4. Sazonar al gusto.",
-    "originalBaseRecipeId": "cc_falso_risotto_de_coliflor_con_pollo_y_setas"
+    "preparation": "Saltear pollo y verduras, rellenar tortillas.",
+    "originalBaseRecipeId": ""
   },
   "p1_m3": {
     "name": "Yogurt Protéico con Frutos Rojos y Secos",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afea2b91eb35e413d4ab6.png",
-    "calories": 280,
-    "protein": 10,
-    "carbs": 23,
-    "fats": 17,
+    "calories": 255,
+    "protein": 9,
+    "carbs": 25,
+    "fats": 13,
     "ingredients": [
       {
         "name": "Yogur Protéico",
-        "quantity": "120",
+        "quantity": "125",
         "unit": "g",
-        "calories": 120,
-        "protein": 6,
-        "carbs": 12,
-        "fats": 4.8,
+        "calories": 125,
+        "protein": 6.25,
+        "carbs": 12.5,
+        "fats": 5,
         "baseCalories": 1,
         "baseProtein": 0.05,
         "baseCarbs": 0.1,
@@ -549,12 +560,12 @@ const foodDatabase = {
       },
       {
         "name": "Frutos Rojos",
-        "quantity": "50",
+        "quantity": "80",
         "unit": "g",
-        "calories": 25,
-        "protein": 0.5,
-        "carbs": 6,
-        "fats": 0.25,
+        "calories": 40,
+        "protein": 0.8,
+        "carbs": 9.6,
+        "fats": 0.4,
         "baseCalories": 0.5,
         "baseProtein": 0.01,
         "baseCarbs": 0.12,
@@ -562,12 +573,12 @@ const foodDatabase = {
       },
       {
         "name": "Frutos Secos",
-        "quantity": "30",
+        "quantity": "20",
         "unit": "g",
-        "calories": 135,
-        "protein": 3,
-        "carbs": 4.5,
-        "fats": 12,
+        "calories": 90,
+        "protein": 2,
+        "carbs": 3,
+        "fats": 8,
         "baseCalories": 4.5,
         "baseProtein": 0.1,
         "baseCarbs": 0.15,
@@ -1084,56 +1095,6 @@ const foodDatabase = {
     ],
     "preparation": "1. Seleccionar la fruta cítrica de preferencia. 2. Lavar bien la fruta bajo el grifo. 3. Para mandarinas y naranjas: pelar la piel con las manos. 4. Para kiwis: cortar por la mitad y comer la pulpa con una cucharita.",
     "originalBaseRecipeId": "ext_fruta_ctrica_mandarina_kiwi_naranja"
-  },
-  "cc_fajitas_pollo": {
-    "name": "Fajitas de Pollo y Verduras",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afcef0ed50608b742ff33.png",
-    "calories": 640,
-    "protein": 45,
-    "carbs": 70,
-    "fats": 18,
-    "ingredients": [
-      {
-        "name": "Tortilla de Trigo",
-        "quantity": "3",
-        "unit": "unidades",
-        "calories": 360,
-        "protein": 9,
-        "carbs": 63,
-        "fats": 7.5,
-        "baseCalories": 120,
-        "baseProtein": 3,
-        "baseCarbs": 21,
-        "baseFats": 2.5
-      },
-      {
-        "name": "Pechuga de Pollo",
-        "quantity": 150,
-        "unit": "g",
-        "calories": 240,
-        "protein": 35,
-        "carbs": 0,
-        "fats": 10,
-        "baseCalories": 1.6,
-        "baseProtein": 0.23333333333333334,
-        "baseCarbs": 0,
-        "baseFats": 0.06666666666666667
-      },
-      {
-        "name": "Pimientos y cebolla",
-        "quantity": "100",
-        "unit": "g",
-        "calories": 40,
-        "protein": 1.3,
-        "carbs": 6.7,
-        "fats": 0.7,
-        "baseCalories": 0.4,
-        "baseProtein": 0.013333333333333334,
-        "baseCarbs": 0.06666666666666667,
-        "baseFats": 0.006666666666666667
-      }
-    ],
-    "preparation": "Saltear pollo y verduras, rellenar tortillas."
   }
 };
 const dailyMenus = [
@@ -1143,6 +1104,12 @@ const dailyMenus = [
       "calories": 1700,
       "protein": 140,
       "carbs": 140
+    },
+    "baselineTotals": {
+      "calories": 2127,
+      "protein": 123,
+      "carbs": 207,
+      "fats": 86
     },
     "desayuno": [
       "p0_m0"
@@ -1167,6 +1134,12 @@ const dailyMenus = [
       "protein": 140,
       "carbs": 140
     },
+    "baselineTotals": {
+      "calories": 2154,
+      "protein": 142,
+      "carbs": 229,
+      "fats": 71
+    },
     "desayuno": [
       "p1_m0"
     ],
@@ -1174,7 +1147,7 @@ const dailyMenus = [
       "p1_m1"
     ],
     "cena": [
-      "cc_fajitas_pollo"
+      "p1_m2"
     ],
     "extra": [
       "p1_m3",
@@ -1187,6 +1160,12 @@ const dailyMenus = [
       "calories": 1800,
       "protein": 150,
       "carbs": 150
+    },
+    "baselineTotals": {
+      "calories": 1680,
+      "protein": 96,
+      "carbs": 130,
+      "fats": 84
     },
     "desayuno": [
       "p2_m0"
@@ -1208,6 +1187,12 @@ const dailyMenus = [
       "calories": 1800,
       "protein": 150,
       "carbs": 150
+    },
+    "baselineTotals": {
+      "calories": 1568,
+      "protein": 79,
+      "carbs": 225,
+      "fats": 37
     },
     "desayuno": [
       "p3_m0"
