@@ -156,79 +156,41 @@ const foodDatabase = {
     "originalBaseRecipeId": "cc_estofado_de_lentejas_con_verduras_y_costilla"
   },
   "p0_m2": {
-    "name": "Boniato asado con ensalada de tomate",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684efcd1f6c48df26aa5ba5b.png",
-    "calories": 291,
-    "protein": 8,
-    "carbs": 41,
-    "fats": 11,
+    "name": "Ensalada de Tomate Espárragos Blancos con Atún",
+    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/699b47f820c0359e700b32ca.png",
+    "calories": 647,
+    "protein": 54,
+    "carbs": 25,
+    "fats": 34,
     "ingredients": [
-      {
-        "name": "Boniato",
-        "quantity": "150",
-        "unit": "g",
-        "calories": 135,
-        "protein": 3,
-        "carbs": 30,
-        "fats": 0.15,
-        "baseCalories": 0.9,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.2,
-        "baseFats": 0.001
-      },
       {
         "name": "Tomate",
-        "quantity": "150",
+        "quantity": "100",
         "unit": "g",
-        "calories": 45,
-        "protein": 3,
-        "carbs": 7.5,
-        "fats": 0.3,
+        "calories": 30,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
         "baseCalories": 0.3,
         "baseProtein": 0.02,
         "baseCarbs": 0.05,
         "baseFats": 0.002
       },
       {
-        "name": "Cebolla",
-        "quantity": "75",
+        "name": "Espárragos Blancos",
+        "quantity": "100",
         "unit": "g",
-        "calories": 22.5,
-        "protein": 1.5,
-        "carbs": 3.75,
-        "fats": 0.15,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
+        "calories": 100,
+        "protein": 5,
+        "carbs": 10,
+        "fats": 4,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
       },
       {
-        "name": "Aceite de Oliva Virgen Extra",
-        "quantity": "10",
-        "unit": "g",
-        "calories": 88.4,
-        "protein": 0,
-        "carbs": 0,
-        "fats": 10,
-        "baseCalories": 8.84,
-        "baseProtein": 0,
-        "baseCarbs": 0,
-        "baseFats": 1
-      }
-    ],
-    "preparation": "1. Precalentar el horno a 200°C (390°F). Lavar bien el boniato, pincharlo varias veces con un tenedor para que no reviente durante la cocción. 2. Asar el boniato entero directamente sobre la rejilla del horno o en una bandeja durante 45-60 minutos, o hasta que esté tierno al pincharlo. 3. Mientras se asa el boniato, preparar la ensalada: lavar y cortar el tomate en dados pequeños. Picar la cebolla y el ajo muy finamente. 4. En un bol, mezclar el tomate, la cebolla y el ajo. Aliñar con aceite de oliva virgen extra, vinagre y sal al gusto. 5. Una vez el boniato esté asado y tierno, sacarlo del horno, dejarlo templar unos minutos, y luego abrirlo por la mitad a lo largo. Servirlo caliente o templado, acompañado de la ensalada de tomate.",
-    "originalBaseRecipeId": "pp_boniato_asado_con_ensalada_de_tomate"
-  },
-  "p0_m3": {
-    "name": "Merluza a la Plancha",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684f001d4d606642b1333279.png",
-    "calories": 328,
-    "protein": 42,
-    "carbs": 0,
-    "fats": 16,
-    "ingredients": [
-      {
-        "name": "Filete de Merluza",
+        "name": "Atún en Conserva",
         "quantity": "150",
         "unit": "g",
         "calories": 240,
@@ -238,6 +200,19 @@ const foodDatabase = {
         "baseCalories": 1.6,
         "baseProtein": 0.28,
         "baseCarbs": 0,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Cebolla",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 100,
+        "protein": 5,
+        "carbs": 10,
+        "fats": 4,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
         "baseFats": 0.04
       },
       {
@@ -252,12 +227,25 @@ const foodDatabase = {
         "baseProtein": 0,
         "baseCarbs": 0,
         "baseFats": 1
+      },
+      {
+        "name": "Aceite de Oliva Virgen",
+        "quantity": "10",
+        "unit": "g",
+        "calories": 88.4,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 10,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1
       }
     ],
-    "preparation": "1. Sazonar los filetes o rodajas de merluza con sal, pimienta y opcionalmente un poco de ajo en polvo o perejil picado. 2. Calentar una plancha o sartén antiadherente a fuego medio-alto con un chorrito de aceite de oliva virgen extra. 3. Cuando el aceite esté caliente, colocar la merluza en la plancha. Cocinar durante unos 3-5 minutos por cada lado, dependiendo del grosor del pescado, hasta que esté opaca, bien cocida por dentro y se desmenuce fácilmente con un tenedor. 4. Servir inmediatamente, opcionalmente con un chorrito de zumo de limón fresco por encima.",
-    "originalBaseRecipeId": "ac_merluza_a_la_plancha"
+    "preparation": "1. Lavar y cortar los tomates en gajos. 2. Escurrir los espárragos blancos y el atún. 3. Picar la cebolla en juliana fina. 4. En una fuente, disponer los tomates, los espárragos y el atún. 5. Añadir la cebolla y aliñar con aceite de oliva, vinagre y sal al gusto.",
+    "originalBaseRecipeId": "cc_ensalada_de_tomate_esprragos_blancos_con_atn"
   },
-  "p0_m4": {
+  "p0_m3": {
     "name": "Yogur Protéico (Sabores, Natural...)",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd789b8ed38b127cbc09.png",
     "calories": 125,
@@ -282,7 +270,7 @@ const foodDatabase = {
     "preparation": "1. Seleccionar el yogur proteico de preferencia. 2. Abrir el envase. 3. Consumir directamente con una cuchara.",
     "originalBaseRecipeId": "ext_yogur_protico_sabores_natural"
   },
-  "p0_m5": {
+  "p0_m4": {
     "name": "Fruta Densa (Plátano, Manzana)",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe4bb91eb325b93d4a82.png",
     "calories": 72,
@@ -1048,28 +1036,15 @@ const foodDatabase = {
     "originalBaseRecipeId": "cc_ensalada_con_pollo_y_queso_de_burgos"
   },
   "p3_m2": {
-    "name": "Solomillo de Ternera con Pimientos Salteados",
-    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/699b48a055d8bc3caf4b1f0b.png",
-    "calories": 553,
-    "protein": 41,
+    "name": "Revuelto de espinacas y champiñones con queso feta",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cfe059b0c6721a19b02e4.png",
+    "calories": 565,
+    "protein": 39,
     "carbs": 18,
-    "fats": 34,
+    "fats": 35,
     "ingredients": [
       {
-        "name": "Solomillo de Ternera",
-        "quantity": "150",
-        "unit": "g",
-        "calories": 330,
-        "protein": 33,
-        "carbs": 0,
-        "fats": 21.000000000000004,
-        "baseCalories": 2.2,
-        "baseProtein": 0.22,
-        "baseCarbs": 0,
-        "baseFats": 0.14
-      },
-      {
-        "name": "Pimiento Rojo",
+        "name": "Espinacas",
         "quantity": "100",
         "unit": "g",
         "calories": 30,
@@ -1082,47 +1057,47 @@ const foodDatabase = {
         "baseFats": 0.002
       },
       {
-        "name": "Pimiento Verde",
+        "name": "Champiñones",
         "quantity": "100",
         "unit": "g",
-        "calories": 30,
-        "protein": 2,
-        "carbs": 5,
-        "fats": 0.2,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Cebolla",
-        "quantity": "75",
-        "unit": "g",
-        "calories": 75,
-        "protein": 3.75,
-        "carbs": 7.5,
-        "fats": 3,
+        "calories": 100,
+        "protein": 5,
+        "carbs": 10,
+        "fats": 4,
         "baseCalories": 1,
         "baseProtein": 0.05,
         "baseCarbs": 0.1,
         "baseFats": 0.04
       },
       {
-        "name": "Aceite de Oliva Virgen Extra",
-        "quantity": "10",
+        "name": "Queso Feta",
+        "quantity": "100",
         "unit": "g",
-        "calories": 88.4,
-        "protein": 0,
-        "carbs": 0,
-        "fats": 10,
-        "baseCalories": 8.84,
-        "baseProtein": 0,
-        "baseCarbs": 0,
-        "baseFats": 1
+        "calories": 350,
+        "protein": 25,
+        "carbs": 2,
+        "fats": 25,
+        "baseCalories": 3.5,
+        "baseProtein": 0.25,
+        "baseCarbs": 0.02,
+        "baseFats": 0.25
+      },
+      {
+        "name": "Huevos",
+        "quantity": "1",
+        "unit": "ud",
+        "calories": 85.25,
+        "protein": 7.15,
+        "carbs": 0.6050000000000001,
+        "fats": 6.05,
+        "baseCalories": 85.25,
+        "baseProtein": 7.15,
+        "baseCarbs": 0.6050000000000001,
+        "baseFats": 6.05
       }
     ],
-    "preparation": "1. Cortar los pimientos y la cebolla en tiras. 2. Saltear las verduras en una sartén con aceite hasta que estén tiernas. 3. Cocinar el solomillo de ternera a la plancha al punto deseado. 4. Servir el solomillo acompañado de los pimientos salteados.",
-    "originalBaseRecipeId": "cc_solomillo_de_ternera_con_pimientos_salteados"
+    "preparation": "1. Saltear los champiñones y las espinacas en una sartén. 2. Batir los huevos y verterlos en la sartén. 3. Remover hasta que los huevos estén casi cuajados. 4. Añadir el queso feta desmenuzado y mezclar.",
+    "originalBaseRecipeId": "des_revuelto_de_espinacas_y_championes_con_queso_feta"
   },
   "p3_m3": {
     "name": "Yogur Protéico con Frutos Rojos y Secos",
@@ -1197,12 +1172,11 @@ const dailyMenus = [
       "p0_m1"
     ],
     "cena": [
-      "p0_m2",
-      "p0_m3"
+      "p0_m2"
     ],
     "extra": [
-      "p0_m4",
-      "p0_m5"
+      "p0_m3",
+      "p0_m4"
     ]
   },
   {
