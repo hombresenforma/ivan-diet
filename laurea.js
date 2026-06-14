@@ -372,72 +372,73 @@ const foodDatabase = {
     "originalBaseRecipeId": "des_tostada_de_centeno_con_aguacate_y_atn"
   },
   "p1_m1": {
-    "name": "Fruta Densa (Plátano, Manzana)",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe4bb91eb325b93d4a82.png",
-    "calories": 90,
-    "protein": 1,
-    "carbs": 23,
-    "fats": 0,
+    "name": "Ensalada de garbanzos con verduras y queso",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68ff252d3f16b5241c27c1e4.png",
+    "calories": 688,
+    "protein": 34,
+    "carbs": 55,
+    "fats": 37,
     "ingredients": [
       {
-        "name": "Manzana",
-        "quantity": "1",
-        "unit": "unidad(es)",
-        "calories": 90,
-        "protein": 0.75,
-        "carbs": 22.5,
-        "fats": 0.3,
-        "baseCalories": 90,
-        "baseProtein": 0.75,
-        "baseCarbs": 22.5,
-        "baseFats": 0.3
-      }
-    ],
-    "preparation": "1. Seleccionar la fruta densa de preferencia. 2. Para plátanos: pelar la piel y consumir directamente. 3. Para manzanas o peras: lavar bien la fruta. Se puede consumir con piel o pelada.",
-    "originalBaseRecipeId": "ext_fruta_densa_pltano_manzana"
-  },
-  "p1_m2": {
-    "name": "Ensalada con Pollo y Queso de Burgos",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afdceb91eb360843d4a0b.png",
-    "calories": 576,
-    "protein": 73,
-    "carbs": 15,
-    "fats": 22,
-    "ingredients": [
-      {
-        "name": "Canónigos",
-        "quantity": "75",
+        "name": "Garbanzos en Conserva",
+        "quantity": "150",
         "unit": "g",
-        "calories": 22.5,
-        "protein": 1.5,
-        "carbs": 3.75,
-        "fats": 0.15,
+        "calories": 195,
+        "protein": 12,
+        "carbs": 33,
+        "fats": 0.75,
+        "baseCalories": 1.3,
+        "baseProtein": 0.08,
+        "baseCarbs": 0.22,
+        "baseFats": 0.005
+      },
+      {
+        "name": "Aguacate",
+        "quantity": "50",
+        "unit": "g",
+        "calories": 225,
+        "protein": 5,
+        "carbs": 7.5,
+        "fats": 20,
+        "baseCalories": 4.5,
+        "baseProtein": 0.1,
+        "baseCarbs": 0.15,
+        "baseFats": 0.4
+      },
+      {
+        "name": "Pepino",
+        "quantity": "50",
+        "unit": "g",
+        "calories": 50,
+        "protein": 2.5,
+        "carbs": 5,
+        "fats": 2,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Tomates Cherry",
+        "quantity": "50",
+        "unit": "g",
+        "calories": 15,
+        "protein": 1,
+        "carbs": 2.5,
+        "fats": 0.1,
         "baseCalories": 0.3,
         "baseProtein": 0.02,
         "baseCarbs": 0.05,
         "baseFats": 0.002
       },
       {
-        "name": "Tomate",
-        "quantity": "75",
+        "name": "Espinacas",
+        "quantity": "50",
         "unit": "g",
-        "calories": 22.5,
-        "protein": 1.5,
-        "carbs": 3.75,
-        "fats": 0.15,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Cebolla",
-        "quantity": "75",
-        "unit": "g",
-        "calories": 22.5,
-        "protein": 1.5,
-        "carbs": 3.75,
-        "fats": 0.15,
+        "calories": 15,
+        "protein": 1,
+        "carbs": 2.5,
+        "fats": 0.1,
         "baseCalories": 0.3,
         "baseProtein": 0.02,
         "baseCarbs": 0.05,
@@ -457,20 +458,7 @@ const foodDatabase = {
         "baseFats": 0.04
       },
       {
-        "name": "Pechuga de Pollo",
-        "quantity": "200",
-        "unit": "g",
-        "calories": 320,
-        "protein": 56.00000000000001,
-        "carbs": 0,
-        "fats": 8,
-        "baseCalories": 1.6,
-        "baseProtein": 0.28,
-        "baseCarbs": 0,
-        "baseFats": 0.04
-      },
-      {
-        "name": "Aceite de Oliva Virgen Extra",
+        "name": "Aceite de Oliva Virgen",
         "quantity": "10",
         "unit": "g",
         "calories": 88.4,
@@ -483,10 +471,10 @@ const foodDatabase = {
         "baseFats": 1
       }
     ],
-    "preparation": "1. Cocinar la pechuga de pollo (a la plancha, hervida o asada) y cortarla en tiras o dados. 2. Lavar los canónigos y escurrirlos bien. Cortar los tomates (cherry por la mitad, o normales en gajos) y la cebolla en rodajas finas o juliana. Cortar el queso de Burgos 0% en dados o láminas. 3. En un bol o plato grande, disponer una base de canónigos. Añadir encima el tomate, la cebolla, el pollo y el queso de Burgos. 4. Aliñar con aceite de oliva virgen extra, vinagre (de manzana o Módena) y sal al gusto.",
-    "originalBaseRecipeId": "cc_ensalada_con_pollo_y_queso_de_burgos"
+    "preparation": "1. Enjuagar los garbanzos y escurrirlos. 2. Picar el aguacate, pepino y tomates cherry. 3. Mezclar todos los ingredientes en un bol con las espinacas. 4. Cortar el queso de Burgos en dados y añadirlo a la ensalada. 5. Aliñar al gusto con aceite de oliva, vinagre y sal.",
+    "originalBaseRecipeId": "pp_ensalada_de_garbanzos_con_verduras_y_queso"
   },
-  "p1_m3": {
+  "p1_m2": {
     "name": "Fajitas de Pollo y Verduras",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afcef0ed50608b742ff33.png",
     "calories": 634,
@@ -589,7 +577,7 @@ const foodDatabase = {
     "preparation": "1. Cortar la pechuga de pollo en tiras finas. Cortar el pimiento rojo, pimiento Verde y cebolla en juliana. Picar el tomate en dados pequeños. 2. Calentar un poco de aceite en una sartén grande. Saltear el pollo hasta que esté dorado y cocido. Retirar y reservar. 3. En la misma sartén, añadir un poco más de aceite si es necesario y saltear las verduras (pimientos y cebolla) hasta que estén tiernas pero crujientes. 4. Volver a añadir el pollo a la sartén con las verduras. Sazonar con especias para fajitas (opcional) o sal y pimienta. Mezclar bien. 5. Calentar las tortillas de fajita según las instrucciones del paquete. 6. Rellenar las tortillas con la mezcla de pollo y verduras, y añadir el tomate fresco picado por encima. Opcional: servir con guacamole, crema agria o salsa.",
     "originalBaseRecipeId": "cc_fajitas_de_pollo_y_verduras"
   },
-  "p1_m4": {
+  "p1_m3": {
     "name": "Fruta Cítrica (Mandarina, Kiwi, Naranja...)",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd3d0ed506305442ffe4.png",
     "calories": 48,
@@ -614,7 +602,7 @@ const foodDatabase = {
     "preparation": "1. Seleccionar la fruta cítrica de preferencia. 2. Lavar bien la fruta bajo el grifo. 3. Para mandarinas y naranjas: pelar la piel con las manos. 4. Para kiwis: cortar por la mitad y comer la pulpa con una cucharita.",
     "originalBaseRecipeId": "ext_fruta_ctrica_mandarina_kiwi_naranja"
   },
-  "p1_m5": {
+  "p1_m4": {
     "name": "Tortitas de Legumbres (Mercadona)",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682affdd9b8ed3082d7cbefc.png",
     "calories": 32,
@@ -682,7 +670,7 @@ const foodDatabase = {
         "carbs": 1.2,
         "fats": 1.2,
         "baseCalories": 1,
-        "baseProtein": 0.12,
+        "baseProtein": 0.11999999999999998,
         "baseCarbs": 0.04,
         "baseFats": 0.04
       }
@@ -1412,18 +1400,17 @@ const dailyMenus = [
       "fats": 58
     },
     "desayuno": [
-      "p1_m0",
-      "p1_m1"
+      "p1_m0"
     ],
     "comida": [
-      "p1_m2"
+      "p1_m1"
     ],
     "cena": [
-      "p1_m3"
+      "p1_m2"
     ],
     "extra": [
-      "p1_m4",
-      "p1_m5"
+      "p1_m3",
+      "p1_m4"
     ]
   },
   {
