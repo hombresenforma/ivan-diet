@@ -2,51 +2,115 @@
 // Alergias: 
 const foodDatabase = {
   "p0_m0": {
-    "name": "Tostada de Centeno con Huevo y Aguacate",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687a695da648331355d3b0b2.png",
-    "calories": 459,
-    "protein": 19,
-    "carbs": 21,
-    "fats": 34,
+    "name": "Tostada de Centeno con Cottage y Pavo",
+    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69b669d75b89c7ceec966248.png",
+    "calories": 343,
+    "protein": 41,
+    "carbs": 23,
+    "fats": 8,
     "ingredients": [
       {
-        "name": "Tostada de Pan de Centeno",
+        "name": "Pan de Centeno",
         "quantity": "1",
-        "unit": "rebanada(s)",
-        "calories": 81,
-        "protein": 2.6999999999999997,
-        "carbs": 15,
-        "fats": 0.8999999999999999,
-        "baseCalories": 81,
-        "baseProtein": 2.6999999999999997,
-        "baseCarbs": 15,
-        "baseFats": 0.8999999999999999
+        "unit": "rebanada",
+        "calories": 108,
+        "protein": 3.5999999999999996,
+        "carbs": 20,
+        "fats": 1.2,
+        "baseCalories": 108,
+        "baseProtein": 3.5999999999999996,
+        "baseCarbs": 20,
+        "baseFats": 1.2
       },
       {
-        "name": "Huevos",
-        "quantity": "2",
-        "unit": "unidad(es)",
-        "calories": 155,
-        "protein": 13,
-        "carbs": 1.1,
-        "fats": 11,
-        "baseCalories": 77.5,
-        "baseProtein": 6.5,
-        "baseCarbs": 0.55,
-        "baseFats": 5.5
-      },
-      {
-        "name": "Aguacate",
-        "quantity": "30",
+        "name": "Queso Cottage",
+        "quantity": "75",
         "unit": "g",
-        "calories": 135,
-        "protein": 3,
-        "carbs": 4.5,
-        "fats": 12,
-        "baseCalories": 4.5,
-        "baseProtein": 0.1,
-        "baseCarbs": 0.15,
-        "baseFats": 0.4
+        "calories": 75,
+        "protein": 9,
+        "carbs": 3,
+        "fats": 3,
+        "baseCalories": 1,
+        "baseProtein": 0.12,
+        "baseCarbs": 0.04,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Pavo",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 160,
+        "protein": 28.000000000000004,
+        "carbs": 0,
+        "fats": 4,
+        "baseCalories": 1.6,
+        "baseProtein": 0.28,
+        "baseCarbs": 0,
+        "baseFats": 0.04
+      }
+    ],
+    "preparation": "1. Tostar el pan de centeno. 2. Untar el queso cottage. 3. Colocar las lonchas de pavo encima.",
+    "originalBaseRecipeId": "des_tostada_de_centeno_con_cottage_y_pavo"
+  },
+  "p0_m1": {
+    "name": "Ensalada de Tomate Espárragos Blancos con Atún",
+    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/699b47f820c0359e700b32ca.png",
+    "calories": 509,
+    "protein": 37,
+    "carbs": 19,
+    "fats": 30,
+    "ingredients": [
+      {
+        "name": "Tomate",
+        "quantity": "75",
+        "unit": "g",
+        "calories": 22.5,
+        "protein": 1.5,
+        "carbs": 3.75,
+        "fats": 0.15,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Espárragos Blancos",
+        "quantity": "75",
+        "unit": "g",
+        "calories": 75,
+        "protein": 3.75,
+        "carbs": 7.5,
+        "fats": 3,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Atún en Conserva",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 160,
+        "protein": 28.000000000000004,
+        "carbs": 0,
+        "fats": 4,
+        "baseCalories": 1.6,
+        "baseProtein": 0.28,
+        "baseCarbs": 0,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Cebolla",
+        "quantity": "75",
+        "unit": "g",
+        "calories": 75,
+        "protein": 3.75,
+        "carbs": 7.5,
+        "fats": 3,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
       },
       {
         "name": "Aceite de Oliva Virgen Extra",
@@ -60,117 +124,40 @@ const foodDatabase = {
         "baseProtein": 0,
         "baseCarbs": 0,
         "baseFats": 1
-      }
-    ],
-    "preparation": "1. Tostar el pan de centeno. 2. Cocinar los huevos al gusto (revueltos, pochados, a la plancha). 3. Machacar el aguacate sobre las tostadas y añadir aceite y especias.",
-    "originalBaseRecipeId": "des_tostada_de_centeno_con_huevo_y_aguacate"
-  },
-  "p0_m1": {
-    "name": "Estofado de Lentejas con Verduras y Costilla",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6922cf648c174dc51742182c.png",
-    "calories": 577,
-    "protein": 45,
-    "carbs": 49,
-    "fats": 20,
-    "ingredients": [
-      {
-        "name": "Lentejas Cocidas",
-        "quantity": "150",
-        "unit": "g",
-        "calories": 195,
-        "protein": 12,
-        "carbs": 33,
-        "fats": 0.75,
-        "baseCalories": 1.3,
-        "baseProtein": 0.08,
-        "baseCarbs": 0.22,
-        "baseFats": 0.005
       },
       {
-        "name": "Costilla de Cerdo",
-        "quantity": "120",
+        "name": "Aceite de Oliva Virgen",
+        "quantity": "10",
         "unit": "g",
-        "calories": 264,
-        "protein": 26.4,
+        "calories": 88.4,
+        "protein": 0,
         "carbs": 0,
-        "fats": 16.8,
-        "baseCalories": 2.2,
-        "baseProtein": 0.22,
+        "fats": 10,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
         "baseCarbs": 0,
-        "baseFats": 0.14
-      },
-      {
-        "name": "Zanahoria",
-        "quantity": "75",
-        "unit": "g",
-        "calories": 22.5,
-        "protein": 1.5,
-        "carbs": 3.75,
-        "fats": 0.15,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Pimiento Rojo",
-        "quantity": "75",
-        "unit": "g",
-        "calories": 22.5,
-        "protein": 1.5,
-        "carbs": 3.75,
-        "fats": 0.15,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Cebolla",
-        "quantity": "75",
-        "unit": "g",
-        "calories": 22.5,
-        "protein": 1.5,
-        "carbs": 3.75,
-        "fats": 0.15,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Ajo",
-        "quantity": "50",
-        "unit": "g",
-        "calories": 50,
-        "protein": 2.5,
-        "carbs": 5,
-        "fats": 2,
-        "baseCalories": 1,
-        "baseProtein": 0.05,
-        "baseCarbs": 0.1,
-        "baseFats": 0.04
+        "baseFats": 1
       }
     ],
-    "preparation": "1. Sofreír la costilla troceada hasta dorar. 2. Añadir las verduras picadas y pochar. 3. Añadir las lentejas (si son de bote, lavadas; si son secas, remojadas) y cubrir con agua/caldo. 4. Cocer hasta que todo esté tierno. Sazonar con laurel y pimentón.",
-    "originalBaseRecipeId": "cc_estofado_de_lentejas_con_verduras_y_costilla"
+    "preparation": "1. Lavar y cortar los tomates en gajos. 2. Escurrir los espárragos blancos y el atún. 3. Picar la cebolla en juliana fina. 4. En una fuente, disponer los tomates, los espárragos y el atún. 5. Añadir la cebolla y aliñar con aceite de oliva, vinagre y sal al gusto.",
+    "originalBaseRecipeId": "cc_ensalada_de_tomate_esprragos_blancos_con_atn"
   },
   "p0_m2": {
     "name": "Boniato asado con ensalada de tomate",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684efcd1f6c48df26aa5ba5b.png",
-    "calories": 291,
-    "protein": 8,
-    "carbs": 41,
+    "calories": 246,
+    "protein": 7,
+    "carbs": 31,
     "fats": 11,
     "ingredients": [
       {
         "name": "Boniato",
-        "quantity": "150",
+        "quantity": "100",
         "unit": "g",
-        "calories": 135,
-        "protein": 3,
-        "carbs": 30,
-        "fats": 0.15,
+        "calories": 90,
+        "protein": 2,
+        "carbs": 20,
+        "fats": 0.1,
         "baseCalories": 0.9,
         "baseProtein": 0.02,
         "baseCarbs": 0.2,
@@ -361,19 +348,19 @@ const foodDatabase = {
   "p1_m1": {
     "name": "Ensala de Patata, Atún y Huevo",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afc08b91eb31afe3d4796.png",
-    "calories": 760,
-    "protein": 69,
-    "carbs": 71,
+    "calories": 670,
+    "protein": 67,
+    "carbs": 51,
     "fats": 20,
     "ingredients": [
       {
         "name": "Patata",
-        "quantity": "250",
+        "quantity": "150",
         "unit": "g",
-        "calories": 225,
-        "protein": 5,
-        "carbs": 50,
-        "fats": 0.25,
+        "calories": 135,
+        "protein": 3,
+        "carbs": 30,
+        "fats": 0.15,
         "baseCalories": 0.9,
         "baseProtein": 0.02,
         "baseCarbs": 0.2,
@@ -603,9 +590,9 @@ const foodDatabase = {
   "p2_m0": {
     "name": "Yogurt Protéico con Frutos Rojos y Secos",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afea2b91eb35e413d4ab6.png",
-    "calories": 268,
+    "calories": 253,
     "protein": 9,
-    "carbs": 24,
+    "carbs": 20,
     "fats": 15,
     "ingredients": [
       {
@@ -623,12 +610,12 @@ const foodDatabase = {
       },
       {
         "name": "Frutos Rojos",
-        "quantity": "50",
+        "quantity": "25",
         "unit": "g",
-        "calories": 30,
-        "protein": 0.25,
-        "carbs": 7.5,
-        "fats": 0.1,
+        "calories": 15,
+        "protein": 0.125,
+        "carbs": 3.75,
+        "fats": 0.05,
         "baseCalories": 0.6,
         "baseProtein": 0.005,
         "baseCarbs": 0.15,
@@ -1216,7 +1203,7 @@ const foodDatabase = {
 };
 const dailyMenus = [
   {
-    "name": "Día 1",
+    "name": "Libre 1",
     "targetMacros": {
       "calories": 1700,
       "protein": 140,
@@ -1244,7 +1231,7 @@ const dailyMenus = [
     ]
   },
   {
-    "name": "Día 2",
+    "name": "Libre 2",
     "targetMacros": {
       "calories": 1700,
       "protein": 140,
@@ -1272,7 +1259,7 @@ const dailyMenus = [
     ]
   },
   {
-    "name": "Día 3",
+    "name": "Entreno 1",
     "targetMacros": {
       "calories": 1800,
       "protein": 150,
@@ -1300,7 +1287,7 @@ const dailyMenus = [
     ]
   },
   {
-    "name": "Día 4",
+    "name": "Entreno 2",
     "targetMacros": {
       "calories": 1800,
       "protein": 150,
