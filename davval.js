@@ -1149,6 +1149,491 @@ const foodDatabase = {
     ],
     "preparation": "1. En un bol, verter el yogur proteico. 2. Añadir los frutos rojos frescos o descongelados. 3. Espolvorear con los frutos secos troceados por encima.",
     "originalBaseRecipeId": "ext_yogur_protico_con_frutos_rojos_y_secos"
+  },
+  "p4_m0": {
+    "name": "Tostada de Centeno con Huevo y Aguacate",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687a695da648331355d3b0b2.png",
+    "calories": 459,
+    "protein": 19,
+    "carbs": 21,
+    "fats": 34,
+    "ingredients": [
+      {
+        "name": "Tostada de Pan de Centeno",
+        "quantity": "1",
+        "unit": "rebanada(s)",
+        "calories": 81,
+        "protein": 2.6999999999999997,
+        "carbs": 15,
+        "fats": 0.8999999999999999,
+        "baseCalories": 81,
+        "baseProtein": 2.6999999999999997,
+        "baseCarbs": 15,
+        "baseFats": 0.8999999999999999
+      },
+      {
+        "name": "Huevos",
+        "quantity": "2",
+        "unit": "unidad(es)",
+        "calories": 155,
+        "protein": 13,
+        "carbs": 1.1,
+        "fats": 11,
+        "baseCalories": 77.5,
+        "baseProtein": 6.5,
+        "baseCarbs": 0.55,
+        "baseFats": 5.5
+      },
+      {
+        "name": "Aguacate",
+        "quantity": "30",
+        "unit": "g",
+        "calories": 135,
+        "protein": 3,
+        "carbs": 4.5,
+        "fats": 12,
+        "baseCalories": 4.5,
+        "baseProtein": 0.1,
+        "baseCarbs": 0.15,
+        "baseFats": 0.4
+      },
+      {
+        "name": "Aceite de Oliva Virgen Extra",
+        "quantity": "10",
+        "unit": "g",
+        "calories": 88.4,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 10,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1
+      }
+    ],
+    "preparation": "1. Tostar el pan de centeno. 2. Cocinar los huevos al gusto (revueltos, pochados, a la plancha). 3. Machacar el aguacate sobre las tostadas y añadir aceite y especias.",
+    "originalBaseRecipeId": "des_tostada_de_centeno_con_huevo_y_aguacate"
+  },
+  "p4_m1": {
+    "name": "Estofado de Lentejas con Verduras y Costilla",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6922cf648c174dc51742182c.png",
+    "calories": 577,
+    "protein": 45,
+    "carbs": 49,
+    "fats": 20,
+    "ingredients": [
+      {
+        "name": "Lentejas Cocidas",
+        "quantity": "150",
+        "unit": "g",
+        "calories": 195,
+        "protein": 12,
+        "carbs": 33,
+        "fats": 0.75,
+        "baseCalories": 1.3,
+        "baseProtein": 0.08,
+        "baseCarbs": 0.22,
+        "baseFats": 0.005
+      },
+      {
+        "name": "Costilla de Cerdo",
+        "quantity": "120",
+        "unit": "g",
+        "calories": 264,
+        "protein": 26.4,
+        "carbs": 0,
+        "fats": 16.8,
+        "baseCalories": 2.2,
+        "baseProtein": 0.22,
+        "baseCarbs": 0,
+        "baseFats": 0.14
+      },
+      {
+        "name": "Zanahoria",
+        "quantity": "75",
+        "unit": "g",
+        "calories": 22.5,
+        "protein": 1.5,
+        "carbs": 3.75,
+        "fats": 0.15,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Pimiento Rojo",
+        "quantity": "75",
+        "unit": "g",
+        "calories": 22.5,
+        "protein": 1.5,
+        "carbs": 3.75,
+        "fats": 0.15,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Cebolla",
+        "quantity": "75",
+        "unit": "g",
+        "calories": 22.5,
+        "protein": 1.5,
+        "carbs": 3.75,
+        "fats": 0.15,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Ajo",
+        "quantity": "50",
+        "unit": "g",
+        "calories": 50,
+        "protein": 2.5,
+        "carbs": 5,
+        "fats": 2,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      }
+    ],
+    "preparation": "1. Sofreír la costilla troceada hasta dorar. 2. Añadir las verduras picadas y pochar. 3. Añadir las lentejas (si son de bote, lavadas; si son secas, remojadas) y cubrir con agua/caldo. 4. Cocer hasta que todo esté tierno. Sazonar con laurel y pimentón.",
+    "originalBaseRecipeId": "cc_estofado_de_lentejas_con_verduras_y_costilla"
+  },
+  "p4_m2": {
+    "name": "Merluza a la Plancha",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684f001d4d606642b1333279.png",
+    "calories": 328,
+    "protein": 42,
+    "carbs": 0,
+    "fats": 16,
+    "ingredients": [
+      {
+        "name": "Filete de Merluza",
+        "quantity": "150",
+        "unit": "g",
+        "calories": 240,
+        "protein": 42.00000000000001,
+        "carbs": 0,
+        "fats": 6,
+        "baseCalories": 1.6,
+        "baseProtein": 0.28,
+        "baseCarbs": 0,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Aceite de Oliva Virgen Extra",
+        "quantity": "10",
+        "unit": "g",
+        "calories": 88.4,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 10,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1
+      }
+    ],
+    "preparation": "1. Sazonar los filetes o rodajas de merluza con sal, pimienta y opcionalmente un poco de ajo en polvo o perejil picado. 2. Calentar una plancha o sartén antiadherente a fuego medio-alto con un chorrito de aceite de oliva virgen extra. 3. Cuando el aceite esté caliente, colocar la merluza en la plancha. Cocinar durante unos 3-5 minutos por cada lado, dependiendo del grosor del pescado, hasta que esté opaca, bien cocida por dentro y se desmenuce fácilmente con un tenedor. 4. Servir inmediatamente, opcionalmente con un chorrito de zumo de limón fresco por encima.",
+    "originalBaseRecipeId": "ac_merluza_a_la_plancha"
+  },
+  "p4_m3": {
+    "name": "Fruta Densa (Plátano,Pera o Manzana)",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe4bb91eb325b93d4a82.png",
+    "calories": 180,
+    "protein": 2,
+    "carbs": 45,
+    "fats": 1,
+    "ingredients": [
+      {
+        "name": "Manzana",
+        "quantity": "2",
+        "unit": "ud",
+        "calories": 180,
+        "protein": 1.5,
+        "carbs": 45,
+        "fats": 0.6,
+        "baseCalories": 90,
+        "baseProtein": 0.75,
+        "baseCarbs": 22.5,
+        "baseFats": 0.3
+      }
+    ],
+    "preparation": "1. Seleccionar la fruta densa de preferencia. 2. Para plátanos: pelar la piel y consumir directamente. 3. Para manzanas o peras: lavar bien la fruta. Se puede consumir con piel o pelada.",
+    "originalBaseRecipeId": "ext_fruta_densa_pltano_manzana"
+  },
+  "p5_m0": {
+    "name": "Fruta Densa (Plátano, Manzana, Pera)",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe4bb91eb325b93d4a82.png",
+    "calories": 90,
+    "protein": 1,
+    "carbs": 23,
+    "fats": 0,
+    "ingredients": [
+      {
+        "name": "Plátano",
+        "quantity": "1",
+        "unit": "ud",
+        "calories": 90,
+        "protein": 0.75,
+        "carbs": 22.5,
+        "fats": 0.3,
+        "baseCalories": 90,
+        "baseProtein": 0.75,
+        "baseCarbs": 22.5,
+        "baseFats": 0.3
+      }
+    ],
+    "preparation": "1. Seleccionar la fruta densa de preferencia. 2. Para plátanos: pelar la piel y consumir directamente. 3. Para manzanas o peras: lavar bien la fruta. Se puede consumir con piel o pelada.",
+    "originalBaseRecipeId": "ext_fruta_densa_pltano_manzana_pera"
+  },
+  "p5_m1": {
+    "name": "Ensalada de verdura con Pollo",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afc47b91eb349463d47dd.png",
+    "calories": 698,
+    "protein": 72,
+    "carbs": 35,
+    "fats": 27,
+    "ingredients": [
+      {
+        "name": "Canónigos",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 100,
+        "protein": 5,
+        "carbs": 10,
+        "fats": 4,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Tomate",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 30,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Pimiento Rojo",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 30,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Pimiento Verde",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 30,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Cebolla",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 100,
+        "protein": 5,
+        "carbs": 10,
+        "fats": 4,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Pechuga de Pollo",
+        "quantity": "200",
+        "unit": "g",
+        "calories": 320,
+        "protein": 56.00000000000001,
+        "carbs": 0,
+        "fats": 8,
+        "baseCalories": 1.6,
+        "baseProtein": 0.28,
+        "baseCarbs": 0,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Aceite de Oliva Virgen",
+        "quantity": "10",
+        "unit": "g",
+        "calories": 88.4,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 10,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1
+      }
+    ],
+    "preparation": "1. Cocer la pasta según las instrucciones del paquete. Escurrir, pasar por agua fría para detener la cocción y dejar enfriar. 2. Cocinar la pechuga de pollo (a la plancha, hervida o asada) y desmenuzarla o cortarla en dados. 3. Lavar los canónigos. Picar el tomate, pimiento rojo, pimiento verde y cebolla en trozos pequeños. 4. En un bol grande, combinar la pasta fría, el pollo, los canónigos y las verduras picadas. 5. Aliñar con aceite de oliva virgen extra, vinagre o tu salsa para ensaladas favorita (ej. yogur, mostaza y miel). Salpimentar al gusto.",
+    "originalBaseRecipeId": "cc_ensalada_de_pasta_con_pollo"
+  },
+  "p5_m2": {
+    "name": "Patata con brócoli y pollo asado",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687de454838c601605b6e271.png",
+    "calories": 528,
+    "protein": 60,
+    "carbs": 25,
+    "fats": 18,
+    "ingredients": [
+      {
+        "name": "Patata",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 90,
+        "protein": 2,
+        "carbs": 20,
+        "fats": 0.1,
+        "baseCalories": 0.9,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.2,
+        "baseFats": 0.001
+      },
+      {
+        "name": "Brócoli",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 30,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Pechuga de Pollo",
+        "quantity": "200",
+        "unit": "g",
+        "calories": 320,
+        "protein": 56.00000000000001,
+        "carbs": 0,
+        "fats": 8,
+        "baseCalories": 1.6,
+        "baseProtein": 0.28,
+        "baseCarbs": 0,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Aceite de Oliva Virgen",
+        "quantity": "10",
+        "unit": "g",
+        "calories": 88.4,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 10,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1
+      }
+    ],
+    "preparation": "1. Cocer la patata y el brócoli al vapor o en agua hirviendo hasta que estén tiernos. 2. Cocinar la pechuga de pollo a la plancha o asada al horno, sazonada al gusto. 3. Servir la patata y el brócoli como base y colocar el pollo troceado por encima. Aliñar con aceite de oliva y especias si se desea.",
+    "originalBaseRecipeId": "cc_patata_con_brcoli_y_pollo_asado"
+  },
+  "p5_m3": {
+    "name": "Frutos Secos (Mezcla)",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68525c0b1d27cfeb580a55f7.png",
+    "calories": 130,
+    "protein": 4,
+    "carbs": 7,
+    "fats": 10,
+    "ingredients": [
+      {
+        "name": "Anacardos",
+        "quantity": "20",
+        "unit": "g",
+        "calories": 20,
+        "protein": 1,
+        "carbs": 2,
+        "fats": 0.8,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Almendras",
+        "quantity": "20",
+        "unit": "g",
+        "calories": 20,
+        "protein": 1,
+        "carbs": 2,
+        "fats": 0.8,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Nueces",
+        "quantity": "20",
+        "unit": "g",
+        "calories": 90,
+        "protein": 2,
+        "carbs": 3,
+        "fats": 8,
+        "baseCalories": 4.5,
+        "baseProtein": 0.1,
+        "baseCarbs": 0.15,
+        "baseFats": 0.4
+      }
+    ],
+    "preparation": "Consumir directamente como un snack energético y nutritivo.",
+    "originalBaseRecipeId": "ext_frutos_secos_mezcla"
+  },
+  "p5_m4": {
+    "name": "Fruta Densa (Plátano, Manzana, Pera)",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe4bb91eb325b93d4a82.png",
+    "calories": 90,
+    "protein": 1,
+    "carbs": 23,
+    "fats": 0,
+    "ingredients": [
+      {
+        "name": "Plátano",
+        "quantity": "1",
+        "unit": "ud",
+        "calories": 90,
+        "protein": 0.75,
+        "carbs": 22.5,
+        "fats": 0.3,
+        "baseCalories": 90,
+        "baseProtein": 0.75,
+        "baseCarbs": 22.5,
+        "baseFats": 0.3
+      }
+    ],
+    "preparation": "1. Seleccionar la fruta densa de preferencia. 2. Para plátanos: pelar la piel y consumir directamente. 3. Para manzanas o peras: lavar bien la fruta. Se puede consumir con piel o pelada.",
+    "originalBaseRecipeId": "ext_fruta_densa_pltano_manzana_pera"
   }
 };
 const dailyMenus = [
@@ -1236,7 +1721,7 @@ const dailyMenus = [
     ]
   },
   {
-    "name": "Libre 2",
+    "name": "Entreno 3",
     "targetMacros": {
       "calories": 1750,
       "protein": 150,
@@ -1259,6 +1744,59 @@ const dailyMenus = [
     ],
     "extra": [
       "p3_m3"
+    ]
+  },
+  {
+    "name": "Libre 3",
+    "targetMacros": {
+      "calories": 1700,
+      "protein": 140,
+      "carbs": 140
+    },
+    "baselineTotals": {
+      "calories": 1852,
+      "protein": 121,
+      "carbs": 142,
+      "fats": 86
+    },
+    "desayuno": [
+      "p4_m0"
+    ],
+    "comida": [
+      "p4_m1"
+    ],
+    "cena": [
+      "p4_m2"
+    ],
+    "extra": [
+      "p4_m3"
+    ]
+  },
+  {
+    "name": "Libre 2 ",
+    "targetMacros": {
+      "calories": 1800,
+      "protein": 150,
+      "carbs": 150
+    },
+    "baselineTotals": {
+      "calories": 2214,
+      "protein": 150,
+      "carbs": 136,
+      "fats": 109
+    },
+    "desayuno": [
+      "p5_m0"
+    ],
+    "comida": [
+      "p5_m1"
+    ],
+    "cena": [
+      "p5_m2"
+    ],
+    "extra": [
+      "p5_m3",
+      "p5_m4"
     ]
   }
 ];
