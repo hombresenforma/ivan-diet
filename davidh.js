@@ -593,19 +593,19 @@ const foodDatabase = {
   "p2_m0": {
     "name": "Tostada de Centeno con Huevo y Aguacate",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687a695da648331355d3b0b2.png",
-    "calories": 379,
-    "protein": 18,
-    "carbs": 30,
-    "fats": 22,
+    "calories": 236,
+    "protein": 9,
+    "carbs": 16,
+    "fats": 16,
     "ingredients": [
       {
         "name": "Tostada de Pan de Centeno",
-        "quantity": "50",
+        "quantity": "25",
         "unit": "g",
-        "calories": 130,
-        "protein": 4.5,
-        "carbs": 26,
-        "fats": 1.25,
+        "calories": 65,
+        "protein": 2.25,
+        "carbs": 13,
+        "fats": 0.625,
         "baseCalories": 2.6,
         "baseProtein": 0.09,
         "baseCarbs": 0.52,
@@ -613,12 +613,12 @@ const foodDatabase = {
       },
       {
         "name": "Huevos",
-        "quantity": "2",
+        "quantity": "1",
         "unit": "unidad",
-        "calories": 156,
-        "protein": 13,
-        "carbs": 1,
-        "fats": 11,
+        "calories": 78,
+        "protein": 6.5,
+        "carbs": 0.5,
+        "fats": 5.5,
         "baseCalories": 78,
         "baseProtein": 6.5,
         "baseCarbs": 0.5,
@@ -935,41 +935,41 @@ const foodDatabase = {
     "originalBaseRecipeId": "ext_fruta_densa_pltano_manzana"
   },
   "p3_m0": {
-    "name": "Tostada de Pan Wasa con Salmón ahumado y Aguacate",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687d025bddc9c119c957ab9c.png",
-    "calories": 483,
-    "protein": 23,
-    "carbs": 45,
-    "fats": 23,
+    "name": "Yogurt Protéico con Frutos Rojos y Secos",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afea2b91eb35e413d4ab6.png",
+    "calories": 310,
+    "protein": 16,
+    "carbs": 21,
+    "fats": 17,
     "ingredients": [
       {
-        "name": "Pan Wasa",
-        "quantity": "2",
-        "unit": "rebanada",
-        "calories": 216,
-        "protein": 7.199999999999999,
-        "carbs": 40,
-        "fats": 2.4,
-        "baseCalories": 108,
-        "baseProtein": 3.5999999999999996,
-        "baseCarbs": 20,
-        "baseFats": 1.2
-      },
-      {
-        "name": "Salmón Ahumado",
-        "quantity": "60",
+        "name": "Yogur Protéico",
+        "quantity": "250",
         "unit": "g",
-        "calories": 132,
-        "protein": 13.2,
-        "carbs": 0,
-        "fats": 8.4,
-        "baseCalories": 2.2,
-        "baseProtein": 0.22,
-        "baseCarbs": 0,
-        "baseFats": 0.14
+        "calories": 150,
+        "protein": 12.5,
+        "carbs": 10,
+        "fats": 5,
+        "baseCalories": 0.6,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.04,
+        "baseFats": 0.02
       },
       {
-        "name": "Aguacate",
+        "name": "Frutos Rojos",
+        "quantity": "50",
+        "unit": "g",
+        "calories": 25,
+        "protein": 0.5,
+        "carbs": 6,
+        "fats": 0.25,
+        "baseCalories": 0.5,
+        "baseProtein": 0.01,
+        "baseCarbs": 0.12,
+        "baseFats": 0.005
+      },
+      {
+        "name": "Frutos Secos",
         "quantity": "30",
         "unit": "g",
         "calories": 135,
@@ -982,8 +982,8 @@ const foodDatabase = {
         "baseFats": 0.4
       }
     ],
-    "preparation": "1. Untar o laminar el aguacate sobre la tostada de pan Wasa. 2. Colocar el salmón ahumado por encima. 3. Opcional: añadir eneldo o pimienta.",
-    "originalBaseRecipeId": "des_tostada_de_pan_wasa_con_salmn_ahumado_y_aguacate"
+    "preparation": "1. En un bol, verter el yogur proteico. 2. Añadir los frutos rojos frescos o descongelados. 3. Espolvorear con los frutos secos troceados por encima. Servir inmediatamente.",
+    "originalBaseRecipeId": "des_yogurt_protico_con_frutos_rojos_y_secos"
   },
   "p3_m1": {
     "name": "Poke de aguacate, mango, tomate, soja, cebolla, arroz y pollo",
@@ -1178,28 +1178,105 @@ const foodDatabase = {
     "originalBaseRecipeId": "ext_yogur_protico_sabores_natural"
   },
   "p4_m0": {
-    "name": "Porridge de Avena y Frutos Rojos",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afdf19b8ed348797cbcd8.png",
-    "calories": 404,
-    "protein": 14,
-    "carbs": 74,
-    "fats": 6,
+    "name": "Tostada de Centeno con Queso Cottage y Cherries",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68792fea2035ba213493e87e.png",
+    "calories": 173,
+    "protein": 11,
+    "carbs": 25,
+    "fats": 3,
     "ingredients": [
       {
-        "name": "Copos de Avena",
-        "quantity": "75",
-        "unit": "g",
-        "calories": 273.75,
-        "protein": 9,
-        "carbs": 56.25,
-        "fats": 1.5,
-        "baseCalories": 3.65,
-        "baseProtein": 0.12,
-        "baseCarbs": 0.75,
-        "baseFats": 0.02
+        "name": "Tostada de Pan de Centeno",
+        "quantity": "1",
+        "unit": "rebanada",
+        "calories": 108,
+        "protein": 3.5999999999999996,
+        "carbs": 20,
+        "fats": 1.2,
+        "baseCalories": 108,
+        "baseProtein": 3.5999999999999996,
+        "baseCarbs": 20,
+        "baseFats": 1.2
       },
       {
-        "name": "Leche",
+        "name": "Tomates Cherry",
+        "quantity": "50",
+        "unit": "g",
+        "calories": 15,
+        "protein": 1,
+        "carbs": 2.5,
+        "fats": 0.1,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Queso Cottage",
+        "quantity": "50",
+        "unit": "g",
+        "calories": 50,
+        "protein": 6,
+        "carbs": 2,
+        "fats": 2,
+        "baseCalories": 1,
+        "baseProtein": 0.12,
+        "baseCarbs": 0.04,
+        "baseFats": 0.04
+      }
+    ],
+    "preparation": "1. Tostar el pan de centeno. 2. Untar el queso cottage sobre las tostadas y añadir los cherries por encima con especias.",
+    "originalBaseRecipeId": "des_tostada_de_centeno_con_queso_cottage_y_cherries"
+  },
+  "p4_m1": {
+    "name": "Ensala de Patata, Atún y Huevo",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afc08b91eb31afe3d4796.png",
+    "calories": 593,
+    "protein": 53,
+    "carbs": 55,
+    "fats": 15,
+    "ingredients": [
+      {
+        "name": "Patata",
+        "quantity": "150",
+        "unit": "g",
+        "calories": 135,
+        "protein": 3,
+        "carbs": 30,
+        "fats": 0.15,
+        "baseCalories": 0.9,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.2,
+        "baseFats": 0.001
+      },
+      {
+        "name": "Pimiento Verde",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 30,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Pimiento Rojo",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 30,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Cebolla",
         "quantity": "100",
         "unit": "g",
         "calories": 100,
@@ -1212,161 +1289,97 @@ const foodDatabase = {
         "baseFats": 0.04
       },
       {
-        "name": "Frutos Rojos",
-        "quantity": "50",
+        "name": "Tomate",
+        "quantity": "100",
         "unit": "g",
         "calories": 30,
-        "protein": 0.25,
-        "carbs": 7.5,
-        "fats": 0.1,
-        "baseCalories": 0.6,
-        "baseProtein": 0.005,
-        "baseCarbs": 0.15,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
         "baseFats": 0.002
-      }
-    ],
-    "preparation": "1. En un cazo, cocinar los copos de avena con la leche o bebida vegetal a fuego medio, removiendo constantemente hasta que espese y la avena esté cocida (unos 5-7 minutos). 2. Servir caliente en un bol con los frutos rojos por encima. Opcional: añadir canela o edulcorante al gusto.",
-    "originalBaseRecipeId": "des_porridge_de_avena_y_frutos_rojos"
-  },
-  "p4_m1": {
-    "name": "Estofado de Lentejas con Verduras y Costilla",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6922cf648c174dc51742182c.png",
-    "calories": 592,
-    "protein": 47,
-    "carbs": 55,
-    "fats": 18,
-    "ingredients": [
-      {
-        "name": "Lentejas Cocidas",
-        "quantity": "200",
-        "unit": "g",
-        "calories": 260,
-        "protein": 16,
-        "carbs": 44,
-        "fats": 1,
-        "baseCalories": 1.3,
-        "baseProtein": 0.08,
-        "baseCarbs": 0.22,
-        "baseFats": 0.005
       },
       {
-        "name": "Costilla de Cerdo",
-        "quantity": "120",
+        "name": "Atún en Conserva",
+        "quantity": "140",
         "unit": "g",
-        "calories": 264,
-        "protein": 26.4,
+        "calories": 224,
+        "protein": 39.2,
         "carbs": 0,
-        "fats": 16.8,
-        "baseCalories": 2.2,
-        "baseProtein": 0.22,
-        "baseCarbs": 0,
-        "baseFats": 0.14
-      },
-      {
-        "name": "Zanahoria",
-        "quantity": "75",
-        "unit": "g",
-        "calories": 22.5,
-        "protein": 1.5,
-        "carbs": 3.75,
-        "fats": 0.15,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Pimiento Rojo",
-        "quantity": "75",
-        "unit": "g",
-        "calories": 22.5,
-        "protein": 1.5,
-        "carbs": 3.75,
-        "fats": 0.15,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Cebolla",
-        "quantity": "75",
-        "unit": "g",
-        "calories": 22.5,
-        "protein": 1.5,
-        "carbs": 3.75,
-        "fats": 0.15,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
-      }
-    ],
-    "preparation": "1. Sofreír la costilla troceada hasta dorar. 2. Añadir las verduras picadas y pochar. 3. Añadir las lentejas (si son de bote, lavadas; si son secas, remojadas) y cubrir con agua/caldo. 4. Cocer hasta que todo esté tierno. Sazonar con laurel y pimentón.",
-    "originalBaseRecipeId": "cc_estofado_de_lentejas_con_verduras_y_costilla"
-  },
-  "p4_m2": {
-    "name": "Falso Risotto de Coliflor con Pollo y Setas",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6922cee78c174d4e6d420b9d.png",
-    "calories": 418,
-    "protein": 48,
-    "carbs": 15,
-    "fats": 17,
-    "ingredients": [
-      {
-        "name": "Coliflor",
-        "quantity": "150",
-        "unit": "g",
-        "calories": 45,
-        "protein": 3,
-        "carbs": 7.5,
-        "fats": 0.3,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Pechuga de Pollo",
-        "quantity": "150",
-        "unit": "g",
-        "calories": 240,
-        "protein": 42.00000000000001,
-        "carbs": 0,
-        "fats": 6,
+        "fats": 5.6000000000000005,
         "baseCalories": 1.6,
         "baseProtein": 0.28,
         "baseCarbs": 0,
         "baseFats": 0.04
       },
       {
-        "name": "Champiñones",
-        "quantity": "75",
+        "name": "Aceite de Oliva Virgen",
+        "quantity": "5",
         "unit": "g",
-        "calories": 22.5,
-        "protein": 1.5,
-        "carbs": 3.75,
-        "fats": 0.15,
+        "calories": 44.2,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 5,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1
+      }
+    ],
+    "preparation": "1. Cocer las patatas con piel en agua con sal hasta que estén tiernas (unos 20-25 minutos). Dejar enfriar, pelar y cortar en dados. 2. Cocer los huevos en agua hirviendo durante 10 minutos. Dejar enfriar, pelar y cortar en rodajas o trozos. 3. Picar finamente el pimiento verde, pimiento rojo, cebolla y tomate. 4. En un bol grande, mezclar las patatas, los huevos, las verduras picadas, el maíz dulce (escurrido) y el atún (escurrido y desmenuzado). 5. Aliñar con aceite de oliva virgen extra, vinagre y sal al gusto. Mezclar con cuidado.",
+    "originalBaseRecipeId": "cc_ensala_de_patata_atn_y_huevo"
+  },
+  "p4_m2": {
+    "name": "Ensalada de Pepino, Tomate y Apio",
+    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69fee83da3dd25aa2ac2564d.png",
+    "calories": 318,
+    "protein": 12,
+    "carbs": 25,
+    "fats": 18,
+    "ingredients": [
+      {
+        "name": "Pepino",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 100,
+        "protein": 5,
+        "carbs": 10,
+        "fats": 4,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Tomate",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 30,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
         "baseCalories": 0.3,
         "baseProtein": 0.02,
         "baseCarbs": 0.05,
         "baseFats": 0.002
       },
       {
-        "name": "Cebolla",
-        "quantity": "75",
+        "name": "Apio",
+        "quantity": "100",
         "unit": "g",
-        "calories": 22.5,
-        "protein": 1.5,
-        "carbs": 3.75,
-        "fats": 0.15,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
+        "calories": 100,
+        "protein": 5,
+        "carbs": 10,
+        "fats": 4,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
       },
       {
-        "name": "Aceite de Oliva Virgen Extra",
+        "name": "Aceite de Oliva Virgen",
         "quantity": "10",
         "unit": "g",
         "calories": 88.4,
@@ -1379,59 +1392,71 @@ const foodDatabase = {
         "baseFats": 1
       }
     ],
-    "preparation": "1. Rallar la coliflor hasta que parezca arroz. 2. Saltear pollo y champiñones con cebolla. 3. Añadir la coliflor y saltear 5 min (no debe ablandarse demasiado). 4. Sazonar al gusto.",
-    "originalBaseRecipeId": "cc_falso_risotto_de_coliflor_con_pollo_y_setas"
+    "preparation": "1. Trocear las verduras. 2. Mezclar y aliñar con aceite de oliva, vinagre y sal.",
+    "originalBaseRecipeId": "pp_ensalada_de_pepino_tomate_y_apio"
   },
   "p4_m3": {
-    "name": "Queso Fresco Batido con Frutos Rojos y Miel",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6879302d02da47667d446b43.png",
-    "calories": 165,
-    "protein": 16,
-    "carbs": 14,
-    "fats": 6,
+    "name": "Yogur Protéico (Sabores, Natural...)",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd789b8ed38b127cbc09.png",
+    "calories": 75,
+    "protein": 6,
+    "carbs": 5,
+    "fats": 3,
     "ingredients": [
       {
-        "name": "Queso Fresco Batido",
-        "quantity": "1",
-        "unit": "unidad(es)",
-        "calories": 125,
-        "protein": 15,
+        "name": "Yogur Protéico",
+        "quantity": "125",
+        "unit": "g",
+        "calories": 75,
+        "protein": 6.25,
         "carbs": 5,
-        "fats": 5,
-        "baseCalories": 125,
-        "baseProtein": 15,
-        "baseCarbs": 5,
-        "baseFats": 5
-      },
-      {
-        "name": "Frutos Rojos",
-        "quantity": "50",
-        "unit": "g",
-        "calories": 30,
-        "protein": 0.25,
-        "carbs": 7.5,
-        "fats": 0.1,
+        "fats": 2.5,
         "baseCalories": 0.6,
-        "baseProtein": 0.005,
-        "baseCarbs": 0.15,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Miel Cruda",
-        "quantity": "10",
-        "unit": "g",
-        "calories": 10,
-        "protein": 0.5,
-        "carbs": 1,
-        "fats": 0.4,
-        "baseCalories": 1,
         "baseProtein": 0.05,
-        "baseCarbs": 0.1,
-        "baseFats": 0.04
+        "baseCarbs": 0.04,
+        "baseFats": 0.02
       }
     ],
-    "preparation": "1. En un bol, verter el queso fresco. 2. Añadir los frutos rojos frescos o descongelados. 3. Echar la cantidad de miel acordada por encima.",
-    "originalBaseRecipeId": "ext_queso_fresco_batido_con_frutos_rojos_y_miel"
+    "preparation": "Abrir y disfrutar. Puedes añadir un poco de canela si lo deseas.",
+    "originalBaseRecipeId": "ext_yogur_protico_sabores_natural"
+  },
+  "p4_m4": {
+    "name": "Pechuga de Pollo a la Plancha",
+    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69b66b3087f0f2415505fc9a.png",
+    "calories": 332,
+    "protein": 50,
+    "carbs": 0,
+    "fats": 12,
+    "ingredients": [
+      {
+        "name": "Pechuga de Pollo",
+        "quantity": "180",
+        "unit": "g",
+        "calories": 288,
+        "protein": 50.400000000000006,
+        "carbs": 0,
+        "fats": 7.2,
+        "baseCalories": 1.6,
+        "baseProtein": 0.28,
+        "baseCarbs": 0,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Aceite de Oliva Virgen",
+        "quantity": "5",
+        "unit": "g",
+        "calories": 44.2,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 5,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1
+      }
+    ],
+    "preparation": "1. Sazonar la pechuga de pollo con sal, pimienta y especias al gusto. 2. Calentar una plancha o sartén antiadherente con una gota de aceite. 3. Cocinar la pechuga hasta que esté dorada por fuera y cocida por dentro.",
+    "originalBaseRecipeId": "ac_pechuga_de_pollo_a_la_plancha"
   }
 };
 const dailyMenus = [
@@ -1544,7 +1569,7 @@ const dailyMenus = [
     ]
   },
   {
-    "name": "Extras INVIERNO",
+    "name": "Extras VERANO",
     "targetMacros": {
       "calories": 1650,
       "protein": 150,
@@ -1563,7 +1588,8 @@ const dailyMenus = [
       "p4_m1"
     ],
     "cena": [
-      "p4_m2"
+      "p4_m2",
+      "p4_m4"
     ],
     "extra": [
       "p4_m3"
