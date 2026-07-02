@@ -4,10 +4,10 @@ const foodDatabase = {
   "p0_m0": {
     "name": "Tostada de Centeno con Huevo y Aguacate",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687a695da648331355d3b0b2.png",
-    "calories": 338,
-    "protein": 12,
-    "carbs": 20,
-    "fats": 23,
+    "calories": 415,
+    "protein": 19,
+    "carbs": 21,
+    "fats": 29,
     "ingredients": [
       {
         "name": "Tostada de Pan de Centeno",
@@ -24,12 +24,12 @@ const foodDatabase = {
       },
       {
         "name": "Huevos",
-        "quantity": "1",
+        "quantity": "2",
         "unit": "unidad(es)",
-        "calories": 77.5,
-        "protein": 6.5,
-        "carbs": 0.55,
-        "fats": 5.5,
+        "calories": 155,
+        "protein": 13,
+        "carbs": 1.1,
+        "fats": 11,
         "baseCalories": 77.5,
         "baseProtein": 6.5,
         "baseCarbs": 0.55,
@@ -68,19 +68,19 @@ const foodDatabase = {
   "p0_m1": {
     "name": "Ensalada de Lentejas",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682aff5a365e949c0a73d706.png",
-    "calories": 448,
-    "protein": 27,
-    "carbs": 41,
+    "calories": 578,
+    "protein": 35,
+    "carbs": 63,
     "fats": 19,
     "ingredients": [
       {
         "name": "Lentejas Cocidas",
-        "quantity": "100",
+        "quantity": "200",
         "unit": "g",
-        "calories": 130,
-        "protein": 8,
-        "carbs": 22,
-        "fats": 0.5,
+        "calories": 260,
+        "protein": 16,
+        "carbs": 44,
+        "fats": 1,
         "baseCalories": 1.3,
         "baseProtein": 0.08,
         "baseCarbs": 0.22,
@@ -143,158 +143,6 @@ const foodDatabase = {
     "originalBaseRecipeId": "pp_ensalada_de_lentejas"
   },
   "p0_m2": {
-    "name": "Ensalada de Pepino, Tomate y Apio",
-    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69fee83da3dd25aa2ac2564d.png",
-    "calories": 318,
-    "protein": 12,
-    "carbs": 25,
-    "fats": 18,
-    "ingredients": [
-      {
-        "name": "Pepino",
-        "quantity": "100",
-        "unit": "g",
-        "calories": 100,
-        "protein": 5,
-        "carbs": 10,
-        "fats": 4,
-        "baseCalories": 1,
-        "baseProtein": 0.05,
-        "baseCarbs": 0.1,
-        "baseFats": 0.04
-      },
-      {
-        "name": "Tomate",
-        "quantity": "100",
-        "unit": "g",
-        "calories": 30,
-        "protein": 2,
-        "carbs": 5,
-        "fats": 0.2,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Apio",
-        "quantity": "100",
-        "unit": "g",
-        "calories": 100,
-        "protein": 5,
-        "carbs": 10,
-        "fats": 4,
-        "baseCalories": 1,
-        "baseProtein": 0.05,
-        "baseCarbs": 0.1,
-        "baseFats": 0.04
-      },
-      {
-        "name": "Aceite de Oliva Virgen",
-        "quantity": "10",
-        "unit": "g",
-        "calories": 88.4,
-        "protein": 0,
-        "carbs": 0,
-        "fats": 10,
-        "baseCalories": 8.84,
-        "baseProtein": 0,
-        "baseCarbs": 0,
-        "baseFats": 1
-      }
-    ],
-    "preparation": "1. Trocear las verduras. 2. Mezclar y aliñar con aceite de oliva, vinagre y sal.",
-    "originalBaseRecipeId": "pp_ensalada_de_pepino_tomate_y_apio"
-  },
-  "p0_m3": {
-    "name": "Pechuga de Pollo a Tiras",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68f27f90fb2e446db8a380a9.png",
-    "calories": 268,
-    "protein": 39,
-    "carbs": 0,
-    "fats": 11,
-    "ingredients": [
-      {
-        "name": "Pechuga de Pollo",
-        "quantity": "140",
-        "unit": "g",
-        "calories": 224,
-        "protein": 39.2,
-        "carbs": 0,
-        "fats": 5.6000000000000005,
-        "baseCalories": 1.6,
-        "baseProtein": 0.28,
-        "baseCarbs": 0,
-        "baseFats": 0.04
-      },
-      {
-        "name": "Aceite de Oliva Virgen",
-        "quantity": "5",
-        "unit": "g",
-        "calories": 44.2,
-        "protein": 0,
-        "carbs": 0,
-        "fats": 5,
-        "baseCalories": 8.84,
-        "baseProtein": 0,
-        "baseCarbs": 0,
-        "baseFats": 1
-      }
-    ],
-    "preparation": "Cocinar la pechuga de pollo a la plancha o cocida y cortar en tiras. Servir solo o añadir a otros platos.",
-    "originalBaseRecipeId": "ac_pechuga_de_pollo_a_tiras"
-  },
-  "p0_m4": {
-    "name": "Yogur Protéico (Sabores, Natural...)",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd789b8ed38b127cbc09.png",
-    "calories": 125,
-    "protein": 6,
-    "carbs": 13,
-    "fats": 5,
-    "ingredients": [
-      {
-        "name": "Yogur Protéico",
-        "quantity": "1",
-        "unit": "unidad(es)",
-        "calories": 125,
-        "protein": 6.25,
-        "carbs": 12.5,
-        "fats": 5,
-        "baseCalories": 125,
-        "baseProtein": 6.25,
-        "baseCarbs": 12.5,
-        "baseFats": 5
-      }
-    ],
-    "preparation": "Consumir directamente.",
-    "originalBaseRecipeId": "ext_yogur_protico_sabores_natural"
-  },
-  "p0_m5": {
-    "name": "Fruta Densa (Plátano, Manzana)",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe4bb91eb325b93d4a82.png",
-    "calories": 72,
-    "protein": 1,
-    "carbs": 18,
-    "fats": 0,
-    "ingredients": [
-      {
-        "name": "Plátano",
-        "quantity": "1",
-        "unit": "unidad(es)",
-        "calories": 72,
-        "protein": 0.6,
-        "carbs": 18,
-        "fats": 0.24,
-        "baseCalories": 72,
-        "baseProtein": 0.6,
-        "baseCarbs": 18,
-        "baseFats": 0.24
-      }
-    ],
-    "preparation": "Pelar y consumir.",
-    "originalBaseRecipeId": "ext_fruta_densa_pltano_manzana"
-  },
-  "p0_m6": {
     "name": "Pechuga de Pavo a la Plancha",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684f003ef6c48dfc43a5bdb3.png",
     "calories": 204,
@@ -332,56 +180,144 @@ const foodDatabase = {
     "preparation": "1. Si los filetes de pechuga de pavo son muy gruesos, se pueden abrir tipo libro o golpear ligeramente para que tengan un grosor más uniforme y se cocinen mejor. 2. Sazonar los filetes de pavo con sal, pimienta y tus especias favoritas. 3. Calentar una plancha o sartén antiadherente a fuego medio-alto con una gota de aceite de oliva. 4. Cocinar la pechuga de pavo durante unos 3-4 minutos por cada lado, o hasta que esté dorada por fuera y completamente cocida por dentro.",
     "originalBaseRecipeId": "ac_pechuga_de_pavo_a_la_plancha"
   },
-  "p1_m0": {
-    "name": "Yogurt Protéico con Frutos Rojos y Secos",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afea2b91eb35e413d4ab6.png",
-    "calories": 288,
-    "protein": 16,
-    "carbs": 20,
-    "fats": 15,
+  "p0_m3": {
+    "name": "Fruta Densa (Plátano, Manzana)",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe4bb91eb325b93d4a82.png",
+    "calories": 72,
+    "protein": 1,
+    "carbs": 18,
+    "fats": 0,
+    "ingredients": [
+      {
+        "name": "Plátano",
+        "quantity": "1",
+        "unit": "unidad(es)",
+        "calories": 72,
+        "protein": 0.6,
+        "carbs": 18,
+        "fats": 0.24,
+        "baseCalories": 72,
+        "baseProtein": 0.6,
+        "baseCarbs": 18,
+        "baseFats": 0.24
+      }
+    ],
+    "preparation": "Pelar y consumir.",
+    "originalBaseRecipeId": "ext_fruta_densa_pltano_manzana"
+  },
+  "p0_m4": {
+    "name": "Batido Whey de Proteínas",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684f021af6c48d41b5a5c003.png",
+    "calories": 190,
+    "protein": 40,
+    "carbs": 3,
+    "fats": 2,
+    "ingredients": [
+      {
+        "name": "Proteína Whey en Polvo",
+        "quantity": "50",
+        "unit": "g",
+        "calories": 190,
+        "protein": 40,
+        "carbs": 2.5,
+        "fats": 2,
+        "baseCalories": 3.8,
+        "baseProtein": 0.8,
+        "baseCarbs": 0.05,
+        "baseFats": 0.04
+      }
+    ],
+    "preparation": "1. En un shaker, añadir la cantidad recomendada de proteína en polvo. 2. Añadir la cantidad de líquido deseada (unos 200-300 ml). 3. Cerrar bien el shaker. 4. Agitar enérgicamente durante unos 20-30 segundos hasta que el polvo esté completamente disuelto.",
+    "originalBaseRecipeId": "ext_batido_whey_de_protenas"
+  },
+  "p0_m5": {
+    "name": "Yogur Protéico (Sabores, Natural...)",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd789b8ed38b127cbc09.png",
+    "calories": 75,
+    "protein": 6,
+    "carbs": 5,
+    "fats": 3,
     "ingredients": [
       {
         "name": "Yogur Protéico",
-        "quantity": "250",
+        "quantity": "125",
         "unit": "g",
-        "calories": 150,
-        "protein": 12.5,
-        "carbs": 10,
-        "fats": 5,
+        "calories": 75,
+        "protein": 6.25,
+        "carbs": 5,
+        "fats": 2.5,
         "baseCalories": 0.6,
         "baseProtein": 0.05,
         "baseCarbs": 0.04,
         "baseFats": 0.02
-      },
-      {
-        "name": "Frutos Rojos",
-        "quantity": "50",
-        "unit": "g",
-        "calories": 25,
-        "protein": 0.5,
-        "carbs": 6,
-        "fats": 0.25,
-        "baseCalories": 0.5,
-        "baseProtein": 0.01,
-        "baseCarbs": 0.12,
-        "baseFats": 0.005
-      },
-      {
-        "name": "Frutos Secos",
-        "quantity": "25",
-        "unit": "g",
-        "calories": 112.5,
-        "protein": 2.5,
-        "carbs": 3.75,
-        "fats": 10,
-        "baseCalories": 4.5,
-        "baseProtein": 0.1,
-        "baseCarbs": 0.15,
-        "baseFats": 0.4
       }
     ],
-    "preparation": "1. En un bol, verter el yogur proteico. 2. Añadir los frutos rojos frescos o descongelados. 3. Espolvorear con los frutos secos troceados por encima. Servir inmediatamente.",
-    "originalBaseRecipeId": "des_yogurt_protico_con_frutos_rojos_y_secos"
+    "preparation": "Consumir directamente.",
+    "originalBaseRecipeId": "ext_yogur_protico_sabores_natural"
+  },
+  "p1_m0": {
+    "name": "Fajita/Wrap de Jamón y Queso",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68a36fb52e34b733ba5c5630.png",
+    "calories": 395,
+    "protein": 21,
+    "carbs": 22,
+    "fats": 25,
+    "ingredients": [
+      {
+        "name": "Pan de Fajita",
+        "quantity": "1",
+        "unit": "rebanada",
+        "calories": 108,
+        "protein": 3.5999999999999996,
+        "carbs": 20,
+        "fats": 1.2,
+        "baseCalories": 108,
+        "baseProtein": 3.5999999999999996,
+        "baseCarbs": 20,
+        "baseFats": 1.2
+      },
+      {
+        "name": "Jamón Cocido",
+        "quantity": "60",
+        "unit": "g",
+        "calories": 138,
+        "protein": 9.6,
+        "carbs": 1.2,
+        "fats": 10.799999999999999,
+        "baseCalories": 2.3,
+        "baseProtein": 0.16,
+        "baseCarbs": 0.02,
+        "baseFats": 0.18
+      },
+      {
+        "name": "Queso Havarti Light",
+        "quantity": "30",
+        "unit": "g",
+        "calories": 105,
+        "protein": 7.5,
+        "carbs": 0.6,
+        "fats": 7.5,
+        "baseCalories": 3.5,
+        "baseProtein": 0.25,
+        "baseCarbs": 0.02,
+        "baseFats": 0.25
+      },
+      {
+        "name": "Aceite de Oliva Virgen Extra",
+        "quantity": "5",
+        "unit": "g",
+        "calories": 44.2,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 5,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1
+      }
+    ],
+    "preparation": "1. Calentar la tortilla de fajita. 2. Añadir el jamón cocido y el queso. 3. Doblar y servir.",
+    "originalBaseRecipeId": "ext_fajitawrap_de_jamn_y_queso"
   },
   "p1_m1": {
     "name": "Patatas Cocidas con Salteado de Verduras y Hamburguesa a la plancha",
@@ -476,19 +412,19 @@ const foodDatabase = {
   "p1_m2": {
     "name": "Solomillo de Ternera con Pimientos Salteados",
     "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/699b48a055d8bc3caf4b1f0b.png",
-    "calories": 468,
-    "protein": 35,
+    "calories": 556,
+    "protein": 44,
     "carbs": 20,
-    "fats": 26,
+    "fats": 32,
     "ingredients": [
       {
         "name": "Solomillo de Ternera",
-        "quantity": "120",
+        "quantity": "160",
         "unit": "g",
-        "calories": 264,
-        "protein": 26.4,
+        "calories": 352,
+        "protein": 35.2,
         "carbs": 0,
-        "fats": 16.8,
+        "fats": 22.400000000000002,
         "baseCalories": 2.2,
         "baseProtein": 0.22,
         "baseCarbs": 0,
@@ -576,12 +512,12 @@ const foodDatabase = {
     "originalBaseRecipeId": "ext_fruta_ctrica_mandarina_kiwi_naranja"
   },
   "p2_m0": {
-    "name": "Tostada de Centeno con Queso Cottage y Cherries",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68792fea2035ba213493e87e.png",
-    "calories": 193,
-    "protein": 13,
-    "carbs": 25,
-    "fats": 4,
+    "name": "Tostada de Pan de Centeno con Revuelto de Huevos y Jamón York",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687d09e04d6fb7f271b84cc9.png",
+    "calories": 394,
+    "protein": 26,
+    "carbs": 22,
+    "fats": 22,
     "ingredients": [
       {
         "name": "Tostada de Pan de Centeno",
@@ -597,53 +533,53 @@ const foodDatabase = {
         "baseFats": 1.2
       },
       {
-        "name": "Tomates Cherry",
-        "quantity": "50",
-        "unit": "g",
-        "calories": 15,
-        "protein": 1,
-        "carbs": 2.5,
-        "fats": 0.1,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
+        "name": "Huevos",
+        "quantity": "2",
+        "unit": "ud",
+        "calories": 170.5,
+        "protein": 14.3,
+        "carbs": 1.2100000000000002,
+        "fats": 12.1,
+        "baseCalories": 85.25,
+        "baseProtein": 7.15,
+        "baseCarbs": 0.6050000000000001,
+        "baseFats": 6.05
       },
       {
-        "name": "Queso Cottage",
-        "quantity": "70",
+        "name": "Jamón York",
+        "quantity": "50",
         "unit": "g",
-        "calories": 70,
-        "protein": 8.4,
-        "carbs": 2.8000000000000003,
-        "fats": 2.8000000000000003,
-        "baseCalories": 1,
-        "baseProtein": 0.12,
-        "baseCarbs": 0.04,
-        "baseFats": 0.04
+        "calories": 114.99999999999999,
+        "protein": 8,
+        "carbs": 1,
+        "fats": 9,
+        "baseCalories": 2.3,
+        "baseProtein": 0.16,
+        "baseCarbs": 0.02,
+        "baseFats": 0.18
       }
     ],
-    "preparation": "1. Tostar el pan de centeno. 2. Untar el queso cottage sobre las tostadas y añadir los cherries por encima con especias.",
-    "originalBaseRecipeId": "des_tostada_de_centeno_con_queso_cottage_y_cherries"
+    "preparation": "1. Tostar el pan de centeno. 2. Preparar un revuelto de huevos con taquitos de jamón york. 3. Servir el revuelto sobre la tostada.",
+    "originalBaseRecipeId": "des_tostada_de_pan_de_centeno_con_revuelto_de_huevos_y_jamn_york"
   },
   "p2_m1": {
     "name": "Ensalada de Pasta con Pollo",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afc47b91eb349463d47dd.png",
-    "calories": 808,
-    "protein": 61,
-    "carbs": 83,
+    "calories": 881,
+    "protein": 64,
+    "carbs": 98,
     "fats": 24,
     "ingredients": [
       {
         "name": "Pasta Integral",
-        "quantity": "70",
+        "quantity": "90",
         "unit": "g",
-        "calories": 255.5,
-        "protein": 8.4,
-        "carbs": 52.5,
-        "fats": 1.4000000000000001,
+        "calories": 328.5,
+        "protein": 10.8,
+        "carbs": 67.5,
+        "fats": 1.8,
         "baseCalories": 3.65,
-        "baseProtein": 0.12,
+        "baseProtein": 0.12000000000000001,
         "baseCarbs": 0.75,
         "baseFats": 0.02
       },
@@ -743,92 +679,66 @@ const foodDatabase = {
     "originalBaseRecipeId": "cc_ensalada_de_pasta_con_pollo"
   },
   "p2_m2": {
-    "name": "Crema de Calabacín con Huevo Poché y Jamón",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6922cdb9f96c9c55f5257809.png",
-    "calories": 347,
-    "protein": 31,
-    "carbs": 13,
-    "fats": 19,
+    "name": "Porridge de Avena y Frutos Rojos",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afdf19b8ed348797cbcd8.png",
+    "calories": 481,
+    "protein": 19,
+    "carbs": 79,
+    "fats": 10,
     "ingredients": [
       {
-        "name": "Calabacín",
-        "quantity": "100",
+        "name": "Copos de Avena",
+        "quantity": "70",
         "unit": "g",
-        "calories": 30,
-        "protein": 2,
-        "carbs": 5,
-        "fats": 0.2,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Puerro",
-        "quantity": "100",
-        "unit": "g",
-        "calories": 30,
-        "protein": 2,
-        "carbs": 5,
-        "fats": 0.2,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Quesito Light",
-        "quantity": "50",
-        "unit": "g",
-        "calories": 50,
-        "protein": 6,
-        "carbs": 2,
-        "fats": 2,
-        "baseCalories": 1,
+        "calories": 255.5,
+        "protein": 8.4,
+        "carbs": 52.5,
+        "fats": 1.4000000000000001,
+        "baseCalories": 3.65,
         "baseProtein": 0.12,
-        "baseCarbs": 0.04,
+        "baseCarbs": 0.75,
+        "baseFats": 0.02
+      },
+      {
+        "name": "Leche",
+        "quantity": "200",
+        "unit": "g",
+        "calories": 200,
+        "protein": 10,
+        "carbs": 20,
+        "fats": 8,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
         "baseFats": 0.04
       },
       {
-        "name": "Jamón Serrano",
-        "quantity": "30",
+        "name": "Frutos Rojos",
+        "quantity": "50",
         "unit": "g",
-        "calories": 66,
-        "protein": 6.6,
-        "carbs": 0,
-        "fats": 4.2,
-        "baseCalories": 2.2,
-        "baseProtein": 0.22,
-        "baseCarbs": 0,
-        "baseFats": 0.14
-      },
-      {
-        "name": "Huevo",
-        "quantity": "2",
-        "unit": "ud",
-        "calories": 170.5,
-        "protein": 14.3,
-        "carbs": 1.2100000000000002,
-        "fats": 12.1,
-        "baseCalories": 85.25,
-        "baseProtein": 7.15,
-        "baseCarbs": 0.6050000000000001,
-        "baseFats": 6.05
+        "calories": 25,
+        "protein": 0.5,
+        "carbs": 6,
+        "fats": 0.25,
+        "baseCalories": 0.5,
+        "baseProtein": 0.01,
+        "baseCarbs": 0.12,
+        "baseFats": 0.005
       }
     ],
-    "preparation": "1. Sofreír puerro y calabacín. Cubrir con agua y cocer. Triturar añadiendo el quesito para cremosidad. 2. Escalfar el huevo en agua hirviendo con vinagre (3-4 min). 3. Servir la crema con el huevo encima y virutas de jamón.",
-    "originalBaseRecipeId": "cc_crema_de_calabacn_con_huevo_poch_y_jamn"
+    "preparation": "1. En un cazo, cocinar los copos de avena con la leche o bebida vegetal a fuego medio, removiendo constantemente hasta que espese y la avena esté cocida (unos 5-7 minutos). 2. Servir caliente en un bol con los frutos rojos por encima. Opcional: añadir canela o edulcorante al gusto.",
+    "originalBaseRecipeId": "des_porridge_de_avena_y_frutos_rojos"
   },
   "p2_m3": {
-    "name": "Yogur Griego Danone",
-    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69b519f7cab7f7a128c9b43c.png",
+    "name": "Yogur Protéico (Sabores, Natural...)",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd789b8ed38b127cbc09.png",
     "calories": 75,
     "protein": 6,
     "carbs": 5,
     "fats": 3,
     "ingredients": [
       {
-        "name": "Yogur Griego Danone",
+        "name": "Yogur Protéico",
         "quantity": "125",
         "unit": "g",
         "calories": 75,
@@ -842,7 +752,7 @@ const foodDatabase = {
       }
     ],
     "preparation": "Consumir directamente.",
-    "originalBaseRecipeId": "ext_yogur_griego_danone"
+    "originalBaseRecipeId": "ext_yogur_protico_sabores_natural"
   },
   "p2_m4": {
     "name": "Fruta Densa (Plátano, Manzana, Pera)",
@@ -889,14 +799,13 @@ const dailyMenus = [
     ],
     "comida": [
       "p0_m1",
-      "p0_m6"
+      "p0_m2"
     ],
     "cena": [
-      "p0_m2",
-      "p0_m3"
+      "p0_m4"
     ],
     "extra": [
-      "p0_m4",
+      "p0_m3",
       "p0_m5"
     ]
   },
