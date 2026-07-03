@@ -1,7 +1,5 @@
-// Última actualización: 30/04/2026
 // Titulo: Plan de Alimentación
-// Alergias:
-
+// Alergias: 
 const foodDatabase = {
   "p0_m0": {
     "name": "Porridge de Avena y Frutos Rojos",
@@ -55,15 +53,15 @@ const foodDatabase = {
     "originalBaseRecipeId": "des_porridge_de_avena_y_frutos_rojos"
   },
   "p0_m1": {
-    "name": "Pasta de lentejas con sofrito de ternera y cerdo",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684efc77653a2c50f9172c7c.png",
-    "calories": 681,
-    "protein": 50,
-    "carbs": 44,
-    "fats": 32,
+    "name": "Ensalada de garbanzos con verduras y queso",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68ff252d3f16b5241c27c1e4.png",
+    "calories": 753,
+    "protein": 37,
+    "carbs": 62,
+    "fats": 39,
     "ingredients": [
       {
-        "name": "Pasta de Lentejas",
+        "name": "Garbanzos en Conserva",
         "quantity": "150",
         "unit": "g",
         "calories": 195,
@@ -76,59 +74,72 @@ const foodDatabase = {
         "baseFats": 0.005
       },
       {
-        "name": "Carne Picada Mixta (Ternera y Cerdo)",
-        "quantity": "150",
+        "name": "Aguacate",
+        "quantity": "50",
         "unit": "g",
-        "calories": 330,
-        "protein": 33,
-        "carbs": 0,
-        "fats": 21.000000000000004,
-        "baseCalories": 2.2,
-        "baseProtein": 0.22,
-        "baseCarbs": 0,
-        "baseFats": 0.14
+        "calories": 225,
+        "protein": 5,
+        "carbs": 7.5,
+        "fats": 20,
+        "baseCalories": 4.5,
+        "baseProtein": 0.1,
+        "baseCarbs": 0.15,
+        "baseFats": 0.4
       },
       {
-        "name": "Calabacín",
-        "quantity": "75",
+        "name": "Pepino",
+        "quantity": "100",
         "unit": "g",
-        "calories": 22.5,
-        "protein": 1.5,
-        "carbs": 3.75,
-        "fats": 0.15,
+        "calories": 100,
+        "protein": 5,
+        "carbs": 10,
+        "fats": 4,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Tomates Cherry",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 30,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
         "baseCalories": 0.3,
         "baseProtein": 0.02,
         "baseCarbs": 0.05,
         "baseFats": 0.002
       },
       {
-        "name": "Cebolla",
-        "quantity": "75",
+        "name": "Espinacas",
+        "quantity": "50",
         "unit": "g",
-        "calories": 22.5,
-        "protein": 1.5,
-        "carbs": 3.75,
-        "fats": 0.15,
+        "calories": 15,
+        "protein": 1,
+        "carbs": 2.5,
+        "fats": 0.1,
         "baseCalories": 0.3,
         "baseProtein": 0.02,
         "baseCarbs": 0.05,
         "baseFats": 0.002
       },
       {
-        "name": "Zanahoria",
-        "quantity": "75",
+        "name": "Queso de Burgos 0%",
+        "quantity": "100",
         "unit": "g",
-        "calories": 22.5,
-        "protein": 1.5,
-        "carbs": 3.75,
-        "fats": 0.15,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
+        "calories": 100,
+        "protein": 12,
+        "carbs": 4,
+        "fats": 4,
+        "baseCalories": 1,
+        "baseProtein": 0.12,
+        "baseCarbs": 0.04,
+        "baseFats": 0.04
       },
       {
-        "name": "Aceite de Oliva Virgen Extra",
+        "name": "Aceite de Oliva Virgen",
         "quantity": "10",
         "unit": "g",
         "calories": 88.4,
@@ -141,8 +152,8 @@ const foodDatabase = {
         "baseFats": 1
       }
     ],
-    "preparation": "1. Cocinar la pasta de lentejas según las instrucciones del paquete hasta que esté al dente. Escurrir y reservar. 2. Picar finamente la cebolla y la zanahoria. Rallar o picar el calabacín en dados pequeños. 3. En una sartén grande, calentar un poco de aceite de oliva y sofreír la cebolla y zanahoria hasta que estén blandas. 4. Añadir la carne picada mixta (ternera y cerdo) y cocinar a fuego medio-alto, deshaciendo los grumos con una cuchara, hasta que se dore. 5. Incorporar el calabacín y cocinar unos minutos más hasta que esté tierno. Añadir salsa de tomate (opcional, o tomate triturado natural) y sazonar al gusto con sal, pimienta, orégano o albahaca. Cocinar a fuego lento durante 10-15 minutos para que se integren los sabores. 6. Mezclar la pasta de lentejas escurrida con el sofrito. Servir caliente, opcionalmente con queso parmesano rallado.",
-    "originalBaseRecipeId": "cc_pasta_de_lentejas_con_sofrito_de_ternera_y_cerdo"
+    "preparation": "1. Enjuagar los garbanzos y escurrirlos. 2. Picar el aguacate, pepino y tomates cherry. 3. Mezclar todos los ingredientes en un bol con las espinacas. 4. Cortar el queso de Burgos en dados y añadirlo a la ensalada. 5. Aliñar al gusto con aceite de oliva, vinagre y sal.",
+    "originalBaseRecipeId": "pp_ensalada_de_garbanzos_con_verduras_y_queso"
   },
   "p0_m2": {
     "name": "Falso Risotto de Coliflor con Pollo y Setas",
@@ -747,55 +758,81 @@ const foodDatabase = {
     "originalBaseRecipeId": "cc_ensalada_con_pollo_y_queso_de_burgos"
   },
   "p2_m2": {
-    "name": "Calabacín con Cebolla a la Plancha",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afc8e9b8ed35d8e7cbb0e.png",
-    "calories": 285,
-    "protein": 11,
-    "carbs": 23,
-    "fats": 16,
+    "name": "Ensalada de Tomate Espárragos Blancos con Atún",
+    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/699b47f820c0359e700b32ca.png",
+    "calories": 542,
+    "protein": 51,
+    "carbs": 25,
+    "fats": 24,
     "ingredients": [
       {
-        "name": "Calabacín",
-        "quantity": "150",
+        "name": "Tomate",
+        "quantity": "100",
         "unit": "g",
-        "calories": 45,
-        "protein": 3,
-        "carbs": 7.5,
-        "fats": 0.3,
+        "calories": 30,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
         "baseCalories": 0.3,
         "baseProtein": 0.02,
         "baseCarbs": 0.05,
         "baseFats": 0.002
       },
       {
-        "name": "Cebolla",
-        "quantity": "150",
+        "name": "Espárragos Blancos",
+        "quantity": "100",
         "unit": "g",
-        "calories": 150,
-        "protein": 7.5,
-        "carbs": 15,
-        "fats": 6,
+        "calories": 100,
+        "protein": 5,
+        "carbs": 10,
+        "fats": 4,
         "baseCalories": 1,
         "baseProtein": 0.05,
         "baseCarbs": 0.1,
         "baseFats": 0.04
       },
       {
-        "name": "Aceite De Oliva",
-        "quantity": "10",
-        "unit": "ml",
-        "baseCalories": 9,
-        "baseProtein": 0,
+        "name": "Atún en Conserva",
+        "quantity": "140",
+        "unit": "g",
+        "calories": 224,
+        "protein": 39.2,
+        "carbs": 0,
+        "fats": 5.6000000000000005,
+        "baseCalories": 1.6,
+        "baseProtein": 0.28,
         "baseCarbs": 0,
-        "baseFats": 1,
-        "calories": 90,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Cebolla",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 100,
+        "protein": 5,
+        "carbs": 10,
+        "fats": 4,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Aceite de Oliva Virgen Extra",
+        "quantity": "10",
+        "unit": "g",
+        "calories": 88.4,
         "protein": 0,
         "carbs": 0,
-        "fats": 10
+        "fats": 10,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1
       }
     ],
-    "preparation": "1. Lavar el calabacín y cortarlo en rodajas de aproximadamente 0.5 a 1 cm de grosor. Pelar y cortar la cebolla en juliana o rodajas. 2. Calentar una plancha o sartén grande con un chorrito de aceite de oliva a fuego medio-alto. 3. Colocar las rodajas de calabacín y la cebolla sobre la plancha caliente. Cocinar durante 3-5 minutos por cada lado, o hasta que estén tiernos y presenten marcas doradas de la plancha. 4. Sazonar con sal, pimienta y opcionalmente un poco de ajo en polvo u orégano durante la cocción o al final.",
-    "originalBaseRecipeId": "pp_calabacn_con_cebolla_a_la_plancha"
+    "preparation": "1. Lavar y cortar los tomates en gajos. 2. Escurrir los espárragos blancos y el atún. 3. Picar la cebolla en juliana fina. 4. En una fuente, disponer los tomates, los espárragos y el atún. 5. Añadir la cebolla y aliñar con aceite de oliva, vinagre y sal al gusto.",
+    "originalBaseRecipeId": "cc_ensalada_de_tomate_esprragos_blancos_con_atn"
   },
   "p2_m3": {
     "name": "Yogur Protéico (Sabores, Natural...)",
@@ -821,44 +858,6 @@ const foodDatabase = {
     ],
     "preparation": "1. Seleccionar el yogur proteico de preferencia (natural o con sabores). 2. Abrir el envase. 3. Consumir directamente con una cuchara. Opcional: se puede acompañar de frutas frescas troceadas, frutos secos, semillas o un poco de miel o edulcorante si es natural y se desea endulzar.",
     "originalBaseRecipeId": "ext_yogur_protico_sabores_natural"
-  },
-  "p2_m4": {
-    "name": "Lenguado a la Plancha",
-    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69b66f8887f0f23298065695.png",
-    "calories": 290,
-    "protein": 10,
-    "carbs": 20,
-    "fats": 18,
-    "ingredients": [
-      {
-        "name": "Lenguado",
-        "quantity": "200",
-        "unit": "g",
-        "calories": 200,
-        "protein": 10,
-        "carbs": 20,
-        "fats": 8,
-        "baseCalories": 1,
-        "baseProtein": 0.05,
-        "baseCarbs": 0.1,
-        "baseFats": 0.04
-      },
-      {
-        "name": "Aceite De Oliva",
-        "quantity": "10",
-        "unit": "ml",
-        "baseCalories": 9,
-        "baseProtein": 0,
-        "baseCarbs": 0,
-        "baseFats": 1,
-        "calories": 90,
-        "protein": 0,
-        "carbs": 0,
-        "fats": 10
-      }
-    ],
-    "preparation": "1. Sazonar el lenguado con sal y pimienta. 2. Calentar una plancha o sartén con un poco de aceite. 3. Cocinar el lenguado por ambos lados hasta que esté dorado y cocido.",
-    "originalBaseRecipeId": "ac_lenguado_a_la_plancha"
   },
   "p3_m0": {
     "name": "Patatas Cocidas con Salteado de Verduras y Hamburguesa a la plancha",
@@ -951,68 +950,68 @@ const foodDatabase = {
     "originalBaseRecipeId": "cc_patatas_cocidas_con_salteado_de_verduras_y_hamburguesa_a_la_plancha"
   },
   "p3_m1": {
-    "name": "Alcachofa salteada con jamón, huevo",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684efb33f6c48d7f13a5b29b.png",
-    "calories": 398,
-    "protein": 27,
-    "carbs": 9,
-    "fats": 28,
+    "name": "Ensalada de Tomate, Aguacate, Cebolla y Lima",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cf9a725d68c4bc3ec3502.png",
+    "calories": 399,
+    "protein": 12,
+    "carbs": 23,
+    "fats": 29,
     "ingredients": [
       {
-        "name": "Alcachofa",
-        "quantity": "150",
+        "name": "Tomate",
+        "quantity": "100",
         "unit": "g",
-        "calories": 45,
-        "protein": 3,
-        "carbs": 7.5,
-        "fats": 0.3,
+        "calories": 30,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
         "baseCalories": 0.3,
         "baseProtein": 0.02,
         "baseCarbs": 0.05,
         "baseFats": 0.002
       },
       {
-        "name": "Jamón Serrano",
+        "name": "Aguacate",
         "quantity": "50",
         "unit": "g",
-        "calories": 110.00000000000001,
-        "protein": 11,
-        "carbs": 0,
-        "fats": 7.000000000000001,
-        "baseCalories": 2.2,
-        "baseProtein": 0.22,
-        "baseCarbs": 0,
-        "baseFats": 0.14
+        "calories": 225,
+        "protein": 5,
+        "carbs": 7.5,
+        "fats": 20,
+        "baseCalories": 4.5,
+        "baseProtein": 0.1,
+        "baseCarbs": 0.15,
+        "baseFats": 0.4
       },
       {
-        "name": "Huevo Cocido",
-        "quantity": "2",
-        "unit": "unidad(es)",
-        "calories": 155,
-        "protein": 13,
-        "carbs": 1.1,
-        "fats": 11,
-        "baseCalories": 77.5,
-        "baseProtein": 6.5,
-        "baseCarbs": 0.55,
-        "baseFats": 5.5
-      },
-      {
-        "name": "Aceite de Oliva Virgen Extra",
-        "quantity": "10",
+        "name": "Cebolla",
+        "quantity": "100",
         "unit": "g",
-        "calories": 88.4,
+        "calories": 100,
+        "protein": 5,
+        "carbs": 10,
+        "fats": 4,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Aceite de Oliva Virgen",
+        "quantity": "5",
+        "unit": "g",
+        "calories": 44.2,
         "protein": 0,
         "carbs": 0,
-        "fats": 10,
+        "fats": 5,
         "baseCalories": 8.84,
         "baseProtein": 0,
         "baseCarbs": 0,
         "baseFats": 1
       }
     ],
-    "preparation": "1. Limpiar las alcachofas frescas, quitando las hojas exteriores más duras, el tallo (pelándolo) y las puntas. Cortarlas en cuartos u octavos y retirar el heno interior si lo tuvieran. Cocerlas en agua con sal y un chorrito de limón hasta que estén tiernas. 2. Cocer un huevo en agua hirviendo durante 10 minutos hasta que esté duro. Dejar enfriar, pelar y picar o cortar en gajos. 3. Cortar el jamón serrano en taquitos o tiras. 4. En una sartén, calentar un poco de aceite de oliva y saltear el jamón hasta que esté ligeramente crujiente. 5. Añadir las alcachofas a la sartén y saltear junto con el jamón durante unos minutos para que tomen sabor. 6. Servir las alcachofas con jamón y colocar el huevo cocido picado o en gajos por encima.",
-    "originalBaseRecipeId": "pp_alcachofa_salteada_con_jamn_huevo"
+    "preparation": "1. Cortar el tomate y el aguacate en dados. 2. Picar la cebolla en juliana fina. 3. Mezclar todos los ingredientes en un bol. 4. Exprimir el zumo de media lima por encima, añadir aceite de oliva y sal. Mezclar bien.",
+    "originalBaseRecipeId": "pp_ensalada_de_tomate_aguacate_cebolla_y_lima"
   },
   "p3_m2": {
     "name": "Frutos Secos (Mezcla)",
@@ -1089,6 +1088,44 @@ const foodDatabase = {
     ],
     "preparation": "1. Seleccionar el yogur proteico de preferencia (natural o con sabores). 2. Abrir el envase. 3. Consumir directamente con una cuchara. Opcional: se puede acompañar de frutas frescas troceadas, frutos secos, semillas o un poco de miel o edulcorante si es natural y se desea endulzar.",
     "originalBaseRecipeId": "ext_yogur_protico_sabores_natural"
+  },
+  "p3_m4": {
+    "name": "Pechuga de Pollo a la Plancha",
+    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69b66b3087f0f2415505fc9a.png",
+    "calories": 284,
+    "protein": 42,
+    "carbs": 0,
+    "fats": 11,
+    "ingredients": [
+      {
+        "name": "Pechuga de Pollo",
+        "quantity": "150",
+        "unit": "g",
+        "calories": 240,
+        "protein": 42.00000000000001,
+        "carbs": 0,
+        "fats": 6,
+        "baseCalories": 1.6,
+        "baseProtein": 0.28,
+        "baseCarbs": 0,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Aceite de Oliva Virgen",
+        "quantity": "5",
+        "unit": "g",
+        "calories": 44.2,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 5,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1
+      }
+    ],
+    "preparation": "1. Sazonar la pechuga de pollo con sal, pimienta y especias al gusto. 2. Calentar una plancha o sartén antiadherente con una gota de aceite. 3. Cocinar la pechuga hasta que esté dorada por fuera y cocida por dentro.",
+    "originalBaseRecipeId": "ac_pechuga_de_pollo_a_la_plancha"
   }
 };
 const dailyMenus = [
@@ -1098,6 +1135,12 @@ const dailyMenus = [
       "calories": 2000,
       "protein": 150,
       "carbs": 200
+    },
+    "baselineTotals": {
+      "calories": 1790,
+      "protein": 122,
+      "carbs": 166,
+      "fats": 68
     },
     "desayuno": [
       "p0_m0"
@@ -1120,6 +1163,12 @@ const dailyMenus = [
       "protein": 160,
       "carbs": 200
     },
+    "baselineTotals": {
+      "calories": 1821,
+      "protein": 126,
+      "carbs": 135,
+      "fats": 84
+    },
     "desayuno": [
       "p1_m0"
     ],
@@ -1140,6 +1189,12 @@ const dailyMenus = [
       "protein": 160,
       "carbs": 200
     },
+    "baselineTotals": {
+      "calories": 1384,
+      "protein": 99,
+      "carbs": 72,
+      "fats": 74
+    },
     "desayuno": [
       "p2_m0"
     ],
@@ -1147,8 +1202,7 @@ const dailyMenus = [
       "p2_m1"
     ],
     "cena": [
-      "p2_m2",
-      "p2_m4"
+      "p2_m2"
     ],
     "extra": [
       "p2_m3"
@@ -1161,12 +1215,19 @@ const dailyMenus = [
       "protein": 150,
       "carbs": 200
     },
+    "baselineTotals": {
+      "calories": 1454,
+      "protein": 77,
+      "carbs": 82,
+      "fats": 92
+    },
     "desayuno": [],
     "comida": [
       "p3_m0"
     ],
     "cena": [
-      "p3_m1"
+      "p3_m1",
+      "p3_m4"
     ],
     "extra": [
       "p3_m2",
