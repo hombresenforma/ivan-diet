@@ -4,19 +4,19 @@ const foodDatabase = {
   "p0_m0": {
     "name": "Yogurt Protéico con Frutos Rojos y Secos",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afea2b91eb35e413d4ab6.png",
-    "calories": 235,
-    "protein": 9,
-    "carbs": 21,
-    "fats": 13,
+    "calories": 410,
+    "protein": 16,
+    "carbs": 36,
+    "fats": 22,
     "ingredients": [
       {
         "name": "Yogur Protéico",
-        "quantity": "120",
+        "quantity": "250",
         "unit": "g",
-        "calories": 120,
-        "protein": 6,
-        "carbs": 12,
-        "fats": 4.8,
+        "calories": 250,
+        "protein": 12.5,
+        "carbs": 25,
+        "fats": 10,
         "baseCalories": 1,
         "baseProtein": 0.05,
         "baseCarbs": 0.1,
@@ -37,12 +37,12 @@ const foodDatabase = {
       },
       {
         "name": "Frutos Secos",
-        "quantity": "20",
+        "quantity": "30",
         "unit": "g",
-        "calories": 90,
-        "protein": 2,
-        "carbs": 3,
-        "fats": 8,
+        "calories": 135,
+        "protein": 3,
+        "carbs": 4.5,
+        "fats": 12,
         "baseCalories": 4.5,
         "baseProtein": 0.1,
         "baseCarbs": 0.15,
@@ -53,6 +53,31 @@ const foodDatabase = {
     "originalBaseRecipeId": "des_yogurt_protico_con_frutos_rojos_y_secos"
   },
   "p0_m1": {
+    "name": "Fruta Densa (Plátano, Manzana, Pera)",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe4bb91eb325b93d4a82.png",
+    "calories": 90,
+    "protein": 1,
+    "carbs": 23,
+    "fats": 0,
+    "ingredients": [
+      {
+        "name": "Plátano",
+        "quantity": "1",
+        "unit": "ud",
+        "calories": 90,
+        "protein": 0.75,
+        "carbs": 22.5,
+        "fats": 0.3,
+        "baseCalories": 90,
+        "baseProtein": 0.75,
+        "baseCarbs": 22.5,
+        "baseFats": 0.3
+      }
+    ],
+    "preparation": "1. Seleccionar la fruta densa de preferencia. 2. Para plátanos: pelar la piel y consumir directamente. 3. Para manzanas o peras: lavar bien la fruta. Se puede consumir con piel o pelada.",
+    "originalBaseRecipeId": "ext_fruta_densa_pltano_manzana_pera"
+  },
+  "p0_m2": {
     "name": "Ensalada de Pasta con Pollo",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afc47b91eb349463d47dd.png",
     "calories": 809,
@@ -155,7 +180,7 @@ const foodDatabase = {
     "preparation": "1. Cocer la pasta según las instrucciones del paquete. Escurrir, pasar por agua fría para detener la cocción y dejar enfriar. 2. Cocinar la pechuga de pollo (a la plancha, hervida o asada) y desmenuzarla o cortarla en dados. 3. Lavar los canónigos. Picar el tomate, pimiento rojo, pimiento verde y cebolla en trozos pequeños. 4. En un bol grande, combinar la pasta fría, el pollo, los canónigos y las verduras picadas. 5. Aliñar con aceite de oliva virgen extra, vinagre o tu salsa para ensaladas favorita (ej. yogur, mostaza y miel). Salpimentar al gusto.",
     "originalBaseRecipeId": "cc_ensalada_de_pasta_con_pollo"
   },
-  "p0_m2": {
+  "p0_m3": {
     "name": "Boniato asado con ensalada de tomate",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684efcd1f6c48df26aa5ba5b.png",
     "calories": 291,
@@ -219,7 +244,7 @@ const foodDatabase = {
     "preparation": "1. Asar el boniato al horno hasta que esté tierno. 2. Preparar ensalada picando tomate y cebolla. Aliñar con aceite.",
     "originalBaseRecipeId": "pp_boniato_asado_con_ensalada_de_tomate"
   },
-  "p0_m3": {
+  "p0_m4": {
     "name": "Merluza a la Plancha",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684f001d4d606642b1333279.png",
     "calories": 328,
@@ -257,7 +282,7 @@ const foodDatabase = {
     "preparation": "1. Cocinar a la plancha con aceite por ambos lados hasta que esté opaca.",
     "originalBaseRecipeId": "ac_merluza_a_la_plancha"
   },
-  "p0_m4": {
+  "p0_m5": {
     "name": "Yogur Protéico (Sabores, Natural...)",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd789b8ed38b127cbc09.png",
     "calories": 125,
@@ -282,7 +307,7 @@ const foodDatabase = {
     "preparation": "Consumir directamente.",
     "originalBaseRecipeId": "ext_yogur_protico_sabores_natural"
   },
-  "p0_m5": {
+  "p0_m6": {
     "name": "Fruta Densa (Plátano, Manzana)",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe4bb91eb325b93d4a82.png",
     "calories": 72,
@@ -307,70 +332,109 @@ const foodDatabase = {
     "preparation": "Pelar y consumir.",
     "originalBaseRecipeId": "ext_fruta_densa_pltano_manzana"
   },
-  "p0_m6": {
-    "name": "Fruta Densa (Plátano, Manzana, Pera)",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe4bb91eb325b93d4a82.png",
-    "calories": 90,
-    "protein": 1,
-    "carbs": 23,
-    "fats": 0,
-    "ingredients": [
-      {
-        "name": "Plátano",
-        "quantity": "1",
-        "unit": "ud",
-        "calories": 90,
-        "protein": 0.75,
-        "carbs": 22.5,
-        "fats": 0.3,
-        "baseCalories": 90,
-        "baseProtein": 0.75,
-        "baseCarbs": 22.5,
-        "baseFats": 0.3
-      }
-    ],
-    "preparation": "1. Seleccionar la fruta densa de preferencia. 2. Para plátanos: pelar la piel y consumir directamente. 3. Para manzanas o peras: lavar bien la fruta. Se puede consumir con piel o pelada.",
-    "originalBaseRecipeId": "ext_fruta_densa_pltano_manzana_pera"
-  },
   "p1_m0": {
-    "name": "Tostada de centeno con jamón ibérico",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6887226c7537da60484d071f.png",
-    "calories": 326,
-    "protein": 18,
-    "carbs": 40,
-    "fats": 9,
+    "name": "Porridge de Avena y Frutos Rojos",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afdf19b8ed348797cbcd8.png",
+    "calories": 569,
+    "protein": 22,
+    "carbs": 97,
+    "fats": 10,
     "ingredients": [
       {
-        "name": "Tostada de Pan de Centeno",
-        "quantity": "2",
-        "unit": "rebanada",
-        "calories": 216,
-        "protein": 7.199999999999999,
-        "carbs": 40,
-        "fats": 2.4,
-        "baseCalories": 108,
-        "baseProtein": 3.5999999999999996,
-        "baseCarbs": 20,
-        "baseFats": 1.2
+        "name": "Copos de Avena",
+        "quantity": "90",
+        "unit": "g",
+        "calories": 328.5,
+        "protein": 10.799999999999999,
+        "carbs": 67.5,
+        "fats": 1.8,
+        "baseCalories": 3.65,
+        "baseProtein": 0.12,
+        "baseCarbs": 0.75,
+        "baseFats": 0.02
       },
       {
-        "name": "Jamón Ibérico",
-        "quantity": "50",
+        "name": "Leche",
+        "quantity": "200",
         "unit": "g",
-        "calories": 110.00000000000001,
-        "protein": 11,
-        "carbs": 0,
-        "fats": 7.000000000000001,
-        "baseCalories": 2.2,
-        "baseProtein": 0.22,
-        "baseCarbs": 0,
-        "baseFats": 0.14
+        "calories": 200,
+        "protein": 10,
+        "carbs": 20,
+        "fats": 8,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Frutos Rojos",
+        "quantity": "80",
+        "unit": "g",
+        "calories": 40,
+        "protein": 0.8,
+        "carbs": 9.6,
+        "fats": 0.4,
+        "baseCalories": 0.5,
+        "baseProtein": 0.01,
+        "baseCarbs": 0.12,
+        "baseFats": 0.005
       }
     ],
-    "preparation": "1. Tostar el pan de centeno. 2. Colocar las lonchas de jamón ibérico por encima. Opcional: añadir un chorrito de aceite de oliva.",
-    "originalBaseRecipeId": "des_tostada_de_centeno_con_jamn_ibrico"
+    "preparation": "1. En un cazo, cocinar los copos de avena con la leche o bebida vegetal a fuego medio, removiendo constantemente hasta que espese y la avena esté cocida (unos 5-7 minutos). 2. Servir caliente en un bol con los frutos rojos por encima. Opcional: añadir canela o edulcorante al gusto.",
+    "originalBaseRecipeId": "des_porridge_de_avena_y_frutos_rojos"
   },
   "p1_m1": {
+    "name": "Frutos Secos (Mezcla)",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68525c0b1d27cfeb580a55f7.png",
+    "calories": 65,
+    "protein": 2,
+    "carbs": 4,
+    "fats": 5,
+    "ingredients": [
+      {
+        "name": "Anacardos",
+        "quantity": "10",
+        "unit": "g",
+        "calories": 10,
+        "protein": 0.5,
+        "carbs": 1,
+        "fats": 0.4,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Almendras",
+        "quantity": "10",
+        "unit": "g",
+        "calories": 10,
+        "protein": 0.5,
+        "carbs": 1,
+        "fats": 0.4,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Nueces",
+        "quantity": "10",
+        "unit": "g",
+        "calories": 45,
+        "protein": 1,
+        "carbs": 1.5,
+        "fats": 4,
+        "baseCalories": 4.5,
+        "baseProtein": 0.1,
+        "baseCarbs": 0.15,
+        "baseFats": 0.4
+      }
+    ],
+    "preparation": "Consumir directamente como un snack energético y nutritivo.",
+    "originalBaseRecipeId": "ext_frutos_secos_mezcla"
+  },
+  "p1_m2": {
     "name": "Patatas Cocidas con Salteado de Verduras y Hamburguesa a la plancha",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cf8559b0c6709fc9afa98.png",
     "calories": 780,
@@ -447,7 +511,7 @@ const foodDatabase = {
     "preparation": "1. Cocer las patatas en agua con sal. 2. Mientras, saltear las verduras (pimiento, cebolla) en una sartén. 3. Cocinar la hamburguesa a la plancha. 4. Servir las patatas cocidas con el salteado de verduras y la hamburguesa.",
     "originalBaseRecipeId": "cc_patatas_cocidas_con_salteado_de_verduras_y_hamburguesa_a_la_plancha"
   },
-  "p1_m2": {
+  "p1_m3": {
     "name": "Wok de Verduras con Salmón",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afda0b91eb330dd3d49b2.png",
     "calories": 429,
@@ -524,57 +588,6 @@ const foodDatabase = {
     "preparation": "1. Cortar el salmón en dados de tamaño mediano. Picar el tomate, pimiento rojo, pimiento verde y cebolla en trozos adecuados para wok (ej. juliana gruesa o dados). 2. Calentar un wok o sartén grande con un poco de aceite a fuego alto. Saltear el salmón unos 2-3 minutos hasta que esté dorado por fuera pero ligeramente crudo por dentro. Retirar y reservar. 3. Añadir las verduras más duras (cebolla, pimientos) al wok y saltear durante 3-4 minutos. Luego añadir el tomate y saltear 1-2 minutos más. 4. Incorporar el salmón de nuevo al wok. Añadir salsa de soja (baja en sodio preferiblemente) y un toque de jengibre rallado o ajo picado (opcional). Mezclar bien y cocinar por 1-2 minutos más hasta que el salmón esté cocido y todo bien caliente. Servir inmediatamente, opcionalmente sobre una base de arroz o noodles.",
     "originalBaseRecipeId": "cc_wok_de_verduras_con_salmn"
   },
-  "p1_m3": {
-    "name": "Frutos Secos (Mezcla)",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68525c0b1d27cfeb580a55f7.png",
-    "calories": 65,
-    "protein": 2,
-    "carbs": 4,
-    "fats": 5,
-    "ingredients": [
-      {
-        "name": "Anacardos",
-        "quantity": "10",
-        "unit": "g",
-        "calories": 10,
-        "protein": 0.5,
-        "carbs": 1,
-        "fats": 0.4,
-        "baseCalories": 1,
-        "baseProtein": 0.05,
-        "baseCarbs": 0.1,
-        "baseFats": 0.04
-      },
-      {
-        "name": "Almendras",
-        "quantity": "10",
-        "unit": "g",
-        "calories": 10,
-        "protein": 0.5,
-        "carbs": 1,
-        "fats": 0.4,
-        "baseCalories": 1,
-        "baseProtein": 0.05,
-        "baseCarbs": 0.1,
-        "baseFats": 0.04
-      },
-      {
-        "name": "Nueces",
-        "quantity": "10",
-        "unit": "g",
-        "calories": 45,
-        "protein": 1,
-        "carbs": 1.5,
-        "fats": 4,
-        "baseCalories": 4.5,
-        "baseProtein": 0.1,
-        "baseCarbs": 0.15,
-        "baseFats": 0.4
-      }
-    ],
-    "preparation": "Consumir directamente como un snack energético y nutritivo.",
-    "originalBaseRecipeId": "ext_frutos_secos_mezcla"
-  },
   "p1_m4": {
     "name": "Fruta Cítrica (Mandarina, Kiwi, Naranja...)",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd3d0ed506305442ffe4.png",
@@ -599,31 +612,6 @@ const foodDatabase = {
     ],
     "preparation": "1. Seleccionar la fruta cítrica de preferencia. 2. Lavar bien la fruta bajo el grifo. 3. Para mandarinas y naranjas: pelar la piel con las manos. 4. Para kiwis: cortar por la mitad y comer la pulpa con una cucharita.",
     "originalBaseRecipeId": "ext_fruta_ctrica_mandarina_kiwi_naranja"
-  },
-  "p1_m5": {
-    "name": "Fruta Densa (Plátano, Manzana)",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe4bb91eb325b93d4a82.png",
-    "calories": 90,
-    "protein": 1,
-    "carbs": 23,
-    "fats": 0,
-    "ingredients": [
-      {
-        "name": "Plátano",
-        "quantity": "1",
-        "unit": "ud",
-        "calories": 90,
-        "protein": 0.75,
-        "carbs": 22.5,
-        "fats": 0.3,
-        "baseCalories": 90,
-        "baseProtein": 0.75,
-        "baseCarbs": 22.5,
-        "baseFats": 0.3
-      }
-    ],
-    "preparation": "Pelar y consumir.",
-    "originalBaseRecipeId": "ext_fruta_densa_pltano_manzana"
   },
   "p2_m0": {
     "name": "Tostada de Pan de Centeno con Revuelto de Huevos y Jamón York",
@@ -677,15 +665,15 @@ const foodDatabase = {
     "originalBaseRecipeId": "des_tostada_de_pan_de_centeno_con_revuelto_de_huevos_y_jamn_york"
   },
   "p2_m1": {
-    "name": "Ensalada de Lentejas",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682aff5a365e949c0a73d706.png",
-    "calories": 425,
-    "protein": 31,
-    "carbs": 52,
-    "fats": 9,
+    "name": "Ensalada de garbanzos con verduras y queso",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68ff252d3f16b5241c27c1e4.png",
+    "calories": 724,
+    "protein": 38,
+    "carbs": 65,
+    "fats": 34,
     "ingredients": [
       {
-        "name": "Lentejas Cocidas",
+        "name": "Garbanzos en Conserva",
         "quantity": "150",
         "unit": "g",
         "calories": 195,
@@ -698,7 +686,33 @@ const foodDatabase = {
         "baseFats": 0.005
       },
       {
-        "name": "Tomate",
+        "name": "Aguacate",
+        "quantity": "50",
+        "unit": "g",
+        "calories": 225,
+        "protein": 5,
+        "carbs": 7.5,
+        "fats": 20,
+        "baseCalories": 4.5,
+        "baseProtein": 0.1,
+        "baseCarbs": 0.15,
+        "baseFats": 0.4
+      },
+      {
+        "name": "Pepino",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 100,
+        "protein": 5,
+        "carbs": 10,
+        "fats": 4,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Tomates Cherry",
         "quantity": "100",
         "unit": "g",
         "calories": 30,
@@ -711,17 +725,17 @@ const foodDatabase = {
         "baseFats": 0.002
       },
       {
-        "name": "Cebolla",
+        "name": "Espinacas",
         "quantity": "100",
         "unit": "g",
-        "calories": 100,
-        "protein": 5,
-        "carbs": 10,
-        "fats": 4,
-        "baseCalories": 1,
-        "baseProtein": 0.05,
-        "baseCarbs": 0.1,
-        "baseFats": 0.04
+        "calories": 30,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
       },
       {
         "name": "Queso de Burgos 0%",
@@ -735,10 +749,23 @@ const foodDatabase = {
         "baseProtein": 0.12,
         "baseCarbs": 0.04,
         "baseFats": 0.04
+      },
+      {
+        "name": "Aceite de Oliva Virgen",
+        "quantity": "5",
+        "unit": "g",
+        "calories": 44.2,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 5,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1
       }
     ],
-    "preparation": "1. Si usas lentejas de bote, enjuagarlas bien bajo el grifo y escurrirlas. Si las cocinas, déjalas enfriar. 2. Picar el tomate y la cebolla (preferiblemente morada) en dados pequeños. Cortar el queso de Burgos 0% y el aguacate en dados. 3. En un bol grande, mezclar con cuidado las lentejas, el tomate, la cebolla, el queso de Burgos y el aguacate. 4. Aliñar con aceite de oliva virgen extra, vinagre (de manzana o Jerez) y sal al gusto.",
-    "originalBaseRecipeId": "pp_ensalada_de_lentejas"
+    "preparation": "1. Enjuagar los garbanzos y escurrirlos. 2. Picar el aguacate, pepino y tomates cherry. 3. Mezclar todos los ingredientes en un bol con las espinacas. 4. Cortar el queso de Burgos en dados y añadirlo a la ensalada. 5. Aliñar al gusto con aceite de oliva, vinagre y sal.",
+    "originalBaseRecipeId": "pp_ensalada_de_garbanzos_con_verduras_y_queso"
   },
   "p2_m2": {
     "name": "Pechuga de Pollo a la Plancha",
@@ -935,7 +962,7 @@ const foodDatabase = {
         "carbs": 52.5,
         "fats": 1.4000000000000001,
         "baseCalories": 3.65,
-        "baseProtein": 0.12,
+        "baseProtein": 0.12000000000000001,
         "baseCarbs": 0.75,
         "baseFats": 0.02
       },
@@ -1009,55 +1036,68 @@ const foodDatabase = {
     "originalBaseRecipeId": "cc_wrap_de_pollo_hervido_con_verduras_y_arroz"
   },
   "p3_m2": {
-    "name": "Menestra de Verduras Congeladas con Carne Picada",
-    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/699b47eb55d8bc32874abf76.png",
-    "calories": 375,
-    "protein": 50,
-    "carbs": 18,
-    "fats": 9,
+    "name": "Ensalada de Tomate, Aguacate, Cebolla y Lima",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cf9a725d68c4bc3ec3502.png",
+    "calories": 399,
+    "protein": 12,
+    "carbs": 23,
+    "fats": 29,
     "ingredients": [
       {
-        "name": "Verduras Variadas (Menestra)",
-        "quantity": "200",
+        "name": "Tomate",
+        "quantity": "100",
         "unit": "g",
-        "calories": 60,
-        "protein": 4,
-        "carbs": 10,
-        "fats": 0.4,
+        "calories": 30,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
         "baseCalories": 0.3,
         "baseProtein": 0.02,
         "baseCarbs": 0.05,
         "baseFats": 0.002
       },
       {
-        "name": "Carne Picada (Ternera/Pollo)",
-        "quantity": "150",
+        "name": "Aguacate",
+        "quantity": "50",
         "unit": "g",
-        "calories": 240,
-        "protein": 42.00000000000001,
-        "carbs": 0,
-        "fats": 6,
-        "baseCalories": 1.6,
-        "baseProtein": 0.28,
-        "baseCarbs": 0,
-        "baseFats": 0.04
+        "calories": 225,
+        "protein": 5,
+        "carbs": 7.5,
+        "fats": 20,
+        "baseCalories": 4.5,
+        "baseProtein": 0.1,
+        "baseCarbs": 0.15,
+        "baseFats": 0.4
       },
       {
         "name": "Cebolla",
-        "quantity": "75",
+        "quantity": "100",
         "unit": "g",
-        "calories": 75,
-        "protein": 3.75,
-        "carbs": 7.5,
-        "fats": 3,
+        "calories": 100,
+        "protein": 5,
+        "carbs": 10,
+        "fats": 4,
         "baseCalories": 1,
         "baseProtein": 0.05,
         "baseCarbs": 0.1,
         "baseFats": 0.04
+      },
+      {
+        "name": "Aceite de Oliva Virgen",
+        "quantity": "5",
+        "unit": "g",
+        "calories": 44.2,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 5,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1
       }
     ],
-    "preparation": "1. Saltear el ajo y la cebolla en una sartén con un poco de aceite. 2. Añadir la carne picada y cocinar hasta que esté dorada. 3. Incorporar las verduras de menestra (puedes usar verduras congeladas o hacerlas por tu cuenta) y saltear todo junto hasta que las verduras estén tiernas. 4. Sazonar al gusto.",
-    "originalBaseRecipeId": "cc_menestra_de_verduras_congeladas_con_carne_picada"
+    "preparation": "1. Cortar el tomate y el aguacate en dados. 2. Picar la cebolla en juliana fina. 3. Mezclar todos los ingredientes en un bol. 4. Exprimir el zumo de media lima por encima, añadir aceite de oliva y sal. Mezclar bien.",
+    "originalBaseRecipeId": "pp_ensalada_de_tomate_aguacate_cebolla_y_lima"
   },
   "p3_m3": {
     "name": "Yogur Protéico (Sabores, Natural...)",
@@ -1083,6 +1123,44 @@ const foodDatabase = {
     ],
     "preparation": "Consumir directamente.",
     "originalBaseRecipeId": "ext_yogur_protico_sabores_natural"
+  },
+  "p3_m4": {
+    "name": "Atún en Lata Escurrido",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68f27ede567571bbd55f023e.png",
+    "calories": 268,
+    "protein": 39,
+    "carbs": 0,
+    "fats": 11,
+    "ingredients": [
+      {
+        "name": "Atún en Conserva",
+        "quantity": "140",
+        "unit": "g",
+        "calories": 224,
+        "protein": 39.2,
+        "carbs": 0,
+        "fats": 5.6000000000000005,
+        "baseCalories": 1.6,
+        "baseProtein": 0.28,
+        "baseCarbs": 0,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Aceite de Oliva Virgen",
+        "quantity": "5",
+        "unit": "g",
+        "calories": 44.2,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 5,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1
+      }
+    ],
+    "preparation": "Escurrir el aceite o el agua de la lata y servir.",
+    "originalBaseRecipeId": "ac_atn_en_lata_escurrido"
   }
 };
 const dailyMenus = [
@@ -1101,18 +1179,18 @@ const dailyMenus = [
     },
     "desayuno": [
       "p0_m0",
-      "p0_m6"
-    ],
-    "comida": [
       "p0_m1"
     ],
+    "comida": [
+      "p0_m2"
+    ],
     "cena": [
-      "p0_m2",
-      "p0_m3"
+      "p0_m3",
+      "p0_m4"
     ],
     "extra": [
-      "p0_m4",
-      "p0_m5"
+      "p0_m5",
+      "p0_m6"
     ]
   },
   {
@@ -1130,16 +1208,15 @@ const dailyMenus = [
     },
     "desayuno": [
       "p1_m0",
-      "p1_m5"
-    ],
-    "comida": [
       "p1_m1"
     ],
-    "cena": [
+    "comida": [
       "p1_m2"
     ],
+    "cena": [
+      "p1_m3"
+    ],
     "extra": [
-      "p1_m3",
       "p1_m4"
     ]
   },
@@ -1190,7 +1267,8 @@ const dailyMenus = [
       "p3_m1"
     ],
     "cena": [
-      "p3_m2"
+      "p3_m2",
+      "p3_m4"
     ],
     "extra": [
       "p3_m3"
