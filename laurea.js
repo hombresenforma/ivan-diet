@@ -794,81 +794,68 @@ const foodDatabase = {
     "originalBaseRecipeId": "ac_hamburguesa_de_pavopollo"
   },
   "p2_m3": {
-    "name": "Crema de Calabacín con Huevo Poché y Jamón",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6922cdb9f96c9c55f5257809.png",
-    "calories": 370,
-    "protein": 32,
-    "carbs": 17,
-    "fats": 19,
+    "name": "Gazpacho",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cfbad25d68cc1a4ec3688.png",
+    "calories": 260,
+    "protein": 14,
+    "carbs": 30,
+    "fats": 8,
     "ingredients": [
       {
-        "name": "Calabacín",
-        "quantity": "150",
+        "name": "Tomate",
+        "quantity": "100",
         "unit": "g",
-        "calories": 45,
-        "protein": 3,
-        "carbs": 7.5,
-        "fats": 0.3,
+        "calories": 30,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
         "baseCalories": 0.3,
         "baseProtein": 0.02,
         "baseCarbs": 0.05,
         "baseFats": 0.002
       },
       {
-        "name": "Puerro",
-        "quantity": "150",
+        "name": "Pepino",
+        "quantity": "100",
         "unit": "g",
-        "calories": 45,
-        "protein": 3,
-        "carbs": 7.5,
-        "fats": 0.3,
+        "calories": 100,
+        "protein": 5,
+        "carbs": 10,
+        "fats": 4,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Pimiento",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 30,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
         "baseCalories": 0.3,
         "baseProtein": 0.02,
         "baseCarbs": 0.05,
         "baseFats": 0.002
       },
       {
-        "name": "Quesito Light",
-        "quantity": "1",
-        "unit": "unidad(es)",
-        "calories": 15,
-        "protein": 1.7999999999999998,
-        "carbs": 0.6,
-        "fats": 0.6,
-        "baseCalories": 15,
-        "baseProtein": 1.7999999999999998,
-        "baseCarbs": 0.6,
-        "baseFats": 0.6
-      },
-      {
-        "name": "Jamón Serrano",
-        "quantity": "50",
+        "name": "Cebolla",
+        "quantity": "100",
         "unit": "g",
-        "calories": 110.00000000000001,
-        "protein": 11,
-        "carbs": 0,
-        "fats": 7.000000000000001,
-        "baseCalories": 2.2,
-        "baseProtein": 0.22,
-        "baseCarbs": 0,
-        "baseFats": 0.14
-      },
-      {
-        "name": "Huevo",
-        "quantity": "2",
-        "unit": "unidad(es)",
-        "calories": 155,
-        "protein": 13,
-        "carbs": 1.1,
-        "fats": 11,
-        "baseCalories": 77.5,
-        "baseProtein": 6.5,
-        "baseCarbs": 0.55,
-        "baseFats": 5.5
+        "calories": 100,
+        "protein": 5,
+        "carbs": 10,
+        "fats": 4,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
       }
     ],
-    "preparation": "1. Sofreír puerro y calabacín. Cubrir con agua y cocer. Triturar añadiendo el quesito para cremosidad. 2. Escalfar el huevo en agua hirviendo con vinagre (3-4 min). 3. Servir la crema con el huevo encima y virutas de jamón.",
-    "originalBaseRecipeId": "cc_crema_de_calabacn_con_huevo_poch_y_jamn"
+    "preparation": "1. Trocear todas las verduras. 2. Poner todos los ingredientes en una batidora junto con aceite, vinagre y sal. 3. Triturar hasta obtener una sopa fina. 4. Enfriar en la nevera antes de servir. Puedes comprarlo preparado si lo prefieres.",
+    "originalBaseRecipeId": "pp_gazpacho"
   },
   "p2_m4": {
     "name": "Yogur Griego Desnatado con Proteína en Polvo",
@@ -908,56 +895,81 @@ const foodDatabase = {
     "preparation": "1. Mezclar el yogur griego con la proteína en polvo en un bol hasta que esté bien integrado y sin grumos.",
     "originalBaseRecipeId": "des_yogur_griego_desnatado_con_protena_en_polvo"
   },
-  "p3_m0": {
-    "name": "Revuelto de Huevos con Jamón",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682ad5e1e819fcb589a8a30e.png",
-    "calories": 353,
-    "protein": 24,
+  "p2_m5": {
+    "name": "Huevo Duro Cocido",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68f27f5bfb2e440988a37788.png",
+    "calories": 85,
+    "protein": 7,
     "carbs": 1,
-    "fats": 28,
+    "fats": 6,
     "ingredients": [
       {
-        "name": "Huevos",
-        "quantity": "2",
-        "unit": "unidad(es)",
-        "calories": 155,
-        "protein": 13,
-        "carbs": 1.1,
-        "fats": 11,
-        "baseCalories": 77.5,
-        "baseProtein": 6.5,
-        "baseCarbs": 0.55,
-        "baseFats": 5.5
-      },
-      {
-        "name": "Jamón Serrano",
-        "quantity": "50",
-        "unit": "g",
-        "calories": 110.00000000000001,
-        "protein": 11,
-        "carbs": 0,
-        "fats": 7.000000000000001,
-        "baseCalories": 2.2,
-        "baseProtein": 0.22,
-        "baseCarbs": 0,
-        "baseFats": 0.14
-      },
-      {
-        "name": "Aceite de Oliva Virgen Extra",
-        "quantity": "10",
-        "unit": "g",
-        "calories": 88.4,
-        "protein": 0,
-        "carbs": 0,
-        "fats": 10,
-        "baseCalories": 8.84,
-        "baseProtein": 0,
-        "baseCarbs": 0,
-        "baseFats": 1
+        "name": "Huevo Cocido",
+        "quantity": "1",
+        "unit": "ud",
+        "calories": 85.25,
+        "protein": 7.15,
+        "carbs": 0.6050000000000001,
+        "fats": 6.05,
+        "baseCalories": 85.25,
+        "baseProtein": 7.15,
+        "baseCarbs": 0.6050000000000001,
+        "baseFats": 6.05
       }
     ],
-    "preparation": "1. Batir los huevos. 2. Cortar el jamón en taquitos o tiras. 3. Saltear ligeramente el jamón en una sartén con una pizca de aceite (opcional). 4. Verter los huevos batidos y remover constantemente a fuego medio-bajo hasta que cuajen al gusto.",
-    "originalBaseRecipeId": "des_revuelto_de_huevos_con_jamn"
+    "preparation": "Cocer the huevo en agua hirviendo durante 10-12 minutos. Pelar y servir.",
+    "originalBaseRecipeId": "ac_huevo_duro_cocido"
+  },
+  "p3_m0": {
+    "name": "Yogur Protéico con Frutos Rojos y Secos",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afea2b91eb35e413d4ab6.png",
+    "calories": 145,
+    "protein": 8,
+    "carbs": 13,
+    "fats": 7,
+    "ingredients": [
+      {
+        "name": "Yogur Protéico",
+        "quantity": "125",
+        "unit": "g",
+        "calories": 75,
+        "protein": 6.25,
+        "carbs": 5,
+        "fats": 2.5,
+        "baseCalories": 0.6,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.04,
+        "baseFats": 0.02
+      },
+      {
+        "name": "Frutos Rojos",
+        "quantity": "50",
+        "unit": "g",
+        "calories": 25,
+        "protein": 0.5,
+        "carbs": 6,
+        "fats": 0.25,
+        "baseCalories": 0.5,
+        "baseProtein": 0.01,
+        "baseCarbs": 0.12,
+        "baseFats": 0.005
+      },
+      {
+        "name": "Frutos Secos",
+        "quantity": "10",
+        "unit": "g",
+        "calories": 45,
+        "protein": 1,
+        "carbs": 1.5,
+        "fats": 4,
+        "baseCalories": 4.5,
+        "baseProtein": 0.1,
+        "baseCarbs": 0.15,
+        "baseFats": 0.4
+      }
+    ],
+    "preparation": "1. En un bol, verter el yogur proteico. 2. Añadir los frutos rojos frescos o descongelados. 3. Espolvorear con los frutos secos troceados por encima.",
+    "originalBaseRecipeId": "ext_yogur_protico_con_frutos_rojos_y_secos"
   },
   "p3_m1": {
     "name": "Ensalada de Tomate Espárragos Blancos con Atún",
@@ -1434,7 +1446,8 @@ const dailyMenus = [
       "p2_m2"
     ],
     "cena": [
-      "p2_m3"
+      "p2_m3",
+      "p2_m5"
     ],
     "extra": [
       "p2_m4"
