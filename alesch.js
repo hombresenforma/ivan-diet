@@ -40,120 +40,57 @@ const foodDatabase = {
     "originalBaseRecipeId": "des_tostada_de_centeno_con_jamn_ibrico"
   },
   "p0_m1": {
-    "name": "Boniato asado con ensalada de tomate",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684efcd1f6c48df26aa5ba5b.png",
-    "calories": 291,
-    "protein": 8,
-    "carbs": 41,
-    "fats": 11,
-    "ingredients": [
-      {
-        "name": "Boniato",
-        "quantity": "150",
-        "unit": "g",
-        "calories": 135,
-        "protein": 3,
-        "carbs": 30,
-        "fats": 0.15,
-        "baseCalories": 0.9,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.2,
-        "baseFats": 0.001
-      },
-      {
-        "name": "Tomate",
-        "quantity": "150",
-        "unit": "g",
-        "calories": 45,
-        "protein": 3,
-        "carbs": 7.5,
-        "fats": 0.3,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Cebolla",
-        "quantity": "75",
-        "unit": "g",
-        "calories": 22.5,
-        "protein": 1.5,
-        "carbs": 3.75,
-        "fats": 0.15,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Aceite de Oliva Virgen Extra",
-        "quantity": "10",
-        "unit": "g",
-        "calories": 88.4,
-        "protein": 0,
-        "carbs": 0,
-        "fats": 10,
-        "baseCalories": 8.84,
-        "baseProtein": 0,
-        "baseCarbs": 0,
-        "baseFats": 1
-      }
-    ],
-    "preparation": "1. Precalentar el horno a 200°C (390°F). Lavar bien el boniato, pincharlo varias veces con un tenedor para que no reviente durante la cocción. 2. Asar el boniato entero directamente sobre la rejilla del horno o en una bandeja durante 45-60 minutos, o hasta que esté tierno al pincharlo. 3. Mientras se asa el boniato, preparar la ensalada: lavar y cortar el tomate en dados pequeños. Picar la cebolla y el ajo muy finamente. 4. En un bol, mezclar el tomate, la cebolla y el ajo. Aliñar con aceite de oliva virgen extra, vinagre y sal al gusto. 5. Una vez el boniato esté asado y tierno, sacarlo del horno, dejarlo templar unos minutos, y luego abrirlo por la mitad a lo largo. Servirlo caliente o templado, acompañado de la ensalada de tomate.",
-    "originalBaseRecipeId": "pp_boniato_asado_con_ensalada_de_tomate"
-  },
-  "p0_m2": {
-    "name": "Hamburguesa de Ternera a la Plancha",
-    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69fee800bc1f77cc3522f7f3.png",
-    "calories": 276,
-    "protein": 19,
-    "carbs": 2,
-    "fats": 22,
-    "ingredients": [
-      {
-        "name": "Hamburguesa de Ternera",
-        "quantity": "120",
-        "unit": "g",
-        "calories": 276,
-        "protein": 19.2,
-        "carbs": 2.4,
-        "fats": 21.599999999999998,
-        "baseCalories": 2.3,
-        "baseProtein": 0.16,
-        "baseCarbs": 0.02,
-        "baseFats": 0.18
-      }
-    ],
-    "preparation": "1. Cocinar la hamburguesa de ternera a la plancha hasta el punto deseado.",
-    "originalBaseRecipeId": "ac_hamburguesa_de_ternera_a_la_plancha"
-  },
-  "p0_m3": {
-    "name": "Fruta Densa (Plátano, Manzana, Pera)",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe4bb91eb325b93d4a82.png",
-    "calories": 90,
+    "name": "Frutas Silvestres / Rojas",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684f020655f9650aaa228fc9.png",
+    "calories": 45,
     "protein": 1,
-    "carbs": 23,
+    "carbs": 11,
     "fats": 0,
     "ingredients": [
       {
-        "name": "Plátano",
-        "quantity": "1",
-        "unit": "ud",
-        "calories": 90,
-        "protein": 0.75,
-        "carbs": 22.5,
-        "fats": 0.3,
-        "baseCalories": 90,
-        "baseProtein": 0.75,
-        "baseCarbs": 22.5,
-        "baseFats": 0.3
+        "name": "Fresas",
+        "quantity": "30",
+        "unit": "g",
+        "calories": 15,
+        "protein": 0.3,
+        "carbs": 3.5999999999999996,
+        "fats": 0.15,
+        "baseCalories": 0.5,
+        "baseProtein": 0.01,
+        "baseCarbs": 0.11999999999999998,
+        "baseFats": 0.005
+      },
+      {
+        "name": "Frambuesas",
+        "quantity": "30",
+        "unit": "g",
+        "calories": 15,
+        "protein": 0.3,
+        "carbs": 3.5999999999999996,
+        "fats": 0.15,
+        "baseCalories": 0.5,
+        "baseProtein": 0.01,
+        "baseCarbs": 0.11999999999999998,
+        "baseFats": 0.005
+      },
+      {
+        "name": "Arándanos",
+        "quantity": "30",
+        "unit": "g",
+        "calories": 15,
+        "protein": 0.3,
+        "carbs": 3.5999999999999996,
+        "fats": 0.15,
+        "baseCalories": 0.5,
+        "baseProtein": 0.01,
+        "baseCarbs": 0.11999999999999998,
+        "baseFats": 0.005
       }
     ],
-    "preparation": "1. Seleccionar la fruta densa de preferencia. 2. Para plátanos: pelar la piel y consumir directamente. 3. Para manzanas o peras: lavar bien la fruta. Se puede consumir con piel o pelada.",
-    "originalBaseRecipeId": "ext_fruta_densa_pltano_manzana_pera"
+    "preparation": "1. Seleccionar las frutas silvestres o rojas deseadas. 2. Lavar suavemente las frutas bajo un chorro de agua fría. 3. Para fresas: retirar el pedúnculo verde. 4. Consumir directamente como snack o añadir a yogures.",
+    "originalBaseRecipeId": "ext_frutas_silvestres_rojas"
   },
-  "p0_m4": {
+  "p0_m2": {
     "name": "Ensalada de Lentejas",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682aff5a365e949c0a73d706.png",
     "calories": 638,
@@ -230,7 +167,7 @@ const foodDatabase = {
     "preparation": "1. Si usas lentejas de bote, enjuagarlas bien bajo el grifo y escurrirlas. Si las cocinas, déjalas enfriar. 2. Picar el tomate y la cebolla (preferiblemente morada) en dados pequeños. Cortar el queso de Burgos 0% y el aguacate en dados. 3. En un bol grande, mezclar con cuidado las lentejas, el tomate, la cebolla, el queso de Burgos y el aguacate. 4. Aliñar con aceite de oliva virgen extra, vinagre (de manzana o Jerez) y sal al gusto.",
     "originalBaseRecipeId": "pp_ensalada_de_lentejas"
   },
-  "p0_m5": {
+  "p0_m3": {
     "name": "Pechuga de Pollo a Tiras",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68f27f90fb2e446db8a380a9.png",
     "calories": 164,
@@ -268,56 +205,119 @@ const foodDatabase = {
     "preparation": "Cocinar la pechuga de pollo a la plancha o cocida y cortar en tiras. Servir solo o añadir a otros platos.",
     "originalBaseRecipeId": "ac_pechuga_de_pollo_a_tiras"
   },
+  "p0_m4": {
+    "name": "Boniato asado con ensalada de tomate",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684efcd1f6c48df26aa5ba5b.png",
+    "calories": 291,
+    "protein": 8,
+    "carbs": 41,
+    "fats": 11,
+    "ingredients": [
+      {
+        "name": "Boniato",
+        "quantity": "150",
+        "unit": "g",
+        "calories": 135,
+        "protein": 3,
+        "carbs": 30,
+        "fats": 0.15,
+        "baseCalories": 0.9,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.2,
+        "baseFats": 0.001
+      },
+      {
+        "name": "Tomate",
+        "quantity": "150",
+        "unit": "g",
+        "calories": 45,
+        "protein": 3,
+        "carbs": 7.5,
+        "fats": 0.3,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Cebolla",
+        "quantity": "75",
+        "unit": "g",
+        "calories": 22.5,
+        "protein": 1.5,
+        "carbs": 3.75,
+        "fats": 0.15,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Aceite de Oliva Virgen Extra",
+        "quantity": "10",
+        "unit": "g",
+        "calories": 88.4,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 10,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1
+      }
+    ],
+    "preparation": "1. Precalentar el horno a 200°C (390°F). Lavar bien el boniato, pincharlo varias veces con un tenedor para que no reviente durante la cocción. 2. Asar el boniato entero directamente sobre la rejilla del horno o en una bandeja durante 45-60 minutos, o hasta que esté tierno al pincharlo. 3. Mientras se asa el boniato, preparar la ensalada: lavar y cortar el tomate en dados pequeños. Picar la cebolla y el ajo muy finamente. 4. En un bol, mezclar el tomate, la cebolla y el ajo. Aliñar con aceite de oliva virgen extra, vinagre y sal al gusto. 5. Una vez el boniato esté asado y tierno, sacarlo del horno, dejarlo templar unos minutos, y luego abrirlo por la mitad a lo largo. Servirlo caliente o templado, acompañado de la ensalada de tomate.",
+    "originalBaseRecipeId": "pp_boniato_asado_con_ensalada_de_tomate"
+  },
+  "p0_m5": {
+    "name": "Hamburguesa de Ternera a la Plancha",
+    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69fee800bc1f77cc3522f7f3.png",
+    "calories": 276,
+    "protein": 19,
+    "carbs": 2,
+    "fats": 22,
+    "ingredients": [
+      {
+        "name": "Hamburguesa de Ternera",
+        "quantity": "120",
+        "unit": "g",
+        "calories": 276,
+        "protein": 19.2,
+        "carbs": 2.4,
+        "fats": 21.599999999999998,
+        "baseCalories": 2.3,
+        "baseProtein": 0.16,
+        "baseCarbs": 0.02,
+        "baseFats": 0.18
+      }
+    ],
+    "preparation": "1. Cocinar la hamburguesa de ternera a la plancha hasta el punto deseado.",
+    "originalBaseRecipeId": "ac_hamburguesa_de_ternera_a_la_plancha"
+  },
   "p0_m6": {
-    "name": "Frutas Silvestres / Rojas",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684f020655f9650aaa228fc9.png",
-    "calories": 45,
+    "name": "Fruta Densa (Plátano, Manzana, Pera)",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe4bb91eb325b93d4a82.png",
+    "calories": 90,
     "protein": 1,
-    "carbs": 11,
+    "carbs": 23,
     "fats": 0,
     "ingredients": [
       {
-        "name": "Fresas",
-        "quantity": "30",
-        "unit": "g",
-        "calories": 15,
-        "protein": 0.3,
-        "carbs": 3.5999999999999996,
-        "fats": 0.15,
-        "baseCalories": 0.5,
-        "baseProtein": 0.01,
-        "baseCarbs": 0.12,
-        "baseFats": 0.005
-      },
-      {
-        "name": "Frambuesas",
-        "quantity": "30",
-        "unit": "g",
-        "calories": 15,
-        "protein": 0.3,
-        "carbs": 3.5999999999999996,
-        "fats": 0.15,
-        "baseCalories": 0.5,
-        "baseProtein": 0.01,
-        "baseCarbs": 0.12,
-        "baseFats": 0.005
-      },
-      {
-        "name": "Arándanos",
-        "quantity": "30",
-        "unit": "g",
-        "calories": 15,
-        "protein": 0.3,
-        "carbs": 3.5999999999999996,
-        "fats": 0.15,
-        "baseCalories": 0.5,
-        "baseProtein": 0.01,
-        "baseCarbs": 0.12,
-        "baseFats": 0.005
+        "name": "Plátano",
+        "quantity": "1",
+        "unit": "ud",
+        "calories": 90,
+        "protein": 0.75,
+        "carbs": 22.5,
+        "fats": 0.3,
+        "baseCalories": 90,
+        "baseProtein": 0.75,
+        "baseCarbs": 22.5,
+        "baseFats": 0.3
       }
     ],
-    "preparation": "1. Seleccionar las frutas silvestres o rojas deseadas. 2. Lavar suavemente las frutas bajo un chorro de agua fría. 3. Para fresas: retirar el pedúnculo verde. 4. Consumir directamente como snack o añadir a yogures.",
-    "originalBaseRecipeId": "ext_frutas_silvestres_rojas"
+    "preparation": "1. Seleccionar la fruta densa de preferencia. 2. Para plátanos: pelar la piel y consumir directamente. 3. Para manzanas o peras: lavar bien la fruta. Se puede consumir con piel o pelada.",
+    "originalBaseRecipeId": "ext_fruta_densa_pltano_manzana_pera"
   },
   "p0_m7": {
     "name": "Batido Whey de Proteínas",
@@ -968,6 +968,313 @@ const foodDatabase = {
     ],
     "preparation": "Consumir directamente como un snack energético y nutritivo.",
     "originalBaseRecipeId": "ext_frutos_secos_mezcla"
+  },
+  "p3_m0": {
+    "name": "Pan wasa con Huevo, Aguacate y Cherries",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68cc56abf782ba4c11b42a44.png",
+    "calories": 255,
+    "protein": 13,
+    "carbs": 27,
+    "fats": 10,
+    "ingredients": [
+      {
+        "name": "Pan Wasa",
+        "quantity": "1",
+        "unit": "rebanada",
+        "calories": 108,
+        "protein": 3.5999999999999996,
+        "carbs": 20,
+        "fats": 1.2,
+        "baseCalories": 108,
+        "baseProtein": 3.5999999999999996,
+        "baseCarbs": 20,
+        "baseFats": 1.2
+      },
+      {
+        "name": "Huevo",
+        "quantity": "1",
+        "unit": "ud",
+        "calories": 85.25,
+        "protein": 7.15,
+        "carbs": 0.6050000000000001,
+        "fats": 6.05,
+        "baseCalories": 85.25,
+        "baseProtein": 7.15,
+        "baseCarbs": 0.6050000000000001,
+        "baseFats": 6.05
+      },
+      {
+        "name": "Aguacate",
+        "quantity": "7",
+        "unit": "g",
+        "calories": 31.5,
+        "protein": 0.7000000000000001,
+        "carbs": 1.05,
+        "fats": 2.8000000000000003,
+        "baseCalories": 4.5,
+        "baseProtein": 0.1,
+        "baseCarbs": 0.15,
+        "baseFats": 0.4
+      },
+      {
+        "name": "Tomates Cherry",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 30,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      }
+    ],
+    "preparation": "1. Tostar el pan wasa. 2. Cocinar el huevo al gusto. 3. Untar el aguacate sobre el pan, añadir el huevo y los tomates cherry.",
+    "originalBaseRecipeId": "des_pan_wasa_con_huevo_aguacate_y_cherries"
+  },
+  "p3_m1": {
+    "name": "Pasta de lentejas con sofrito de ternera y cerdo",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684efc77653a2c50f9172c7c.png",
+    "calories": 635,
+    "protein": 43,
+    "carbs": 40,
+    "fats": 32,
+    "ingredients": [
+      {
+        "name": "Pasta de Lentejas",
+        "quantity": "120",
+        "unit": "g",
+        "calories": 156,
+        "protein": 9.6,
+        "carbs": 26.4,
+        "fats": 0.6,
+        "baseCalories": 1.3,
+        "baseProtein": 0.08,
+        "baseCarbs": 0.22,
+        "baseFats": 0.005
+      },
+      {
+        "name": "Carne Picada Mixta (Ternera y Cerdo)",
+        "quantity": "120",
+        "unit": "g",
+        "calories": 264,
+        "protein": 26.4,
+        "carbs": 0,
+        "fats": 16.8,
+        "baseCalories": 2.2,
+        "baseProtein": 0.22,
+        "baseCarbs": 0,
+        "baseFats": 0.14
+      },
+      {
+        "name": "Calabacín",
+        "quantity": "55",
+        "unit": "g",
+        "calories": 16.5,
+        "protein": 1.1,
+        "carbs": 2.75,
+        "fats": 0.11,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Cebolla",
+        "quantity": "55",
+        "unit": "g",
+        "calories": 55,
+        "protein": 2.75,
+        "carbs": 5.5,
+        "fats": 2.2,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Zanahoria",
+        "quantity": "55",
+        "unit": "g",
+        "calories": 55,
+        "protein": 2.75,
+        "carbs": 5.5,
+        "fats": 2.2,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Aceite de Oliva Virgen",
+        "quantity": "10",
+        "unit": "g",
+        "calories": 88.4,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 10,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1
+      }
+    ],
+    "preparation": "1. Cocinar la pasta de lentejas según las instrucciones del paquete hasta que esté al dente. Escurrir y reservar. 2. Picar finamente la cebolla y la zanahoria. Rallar o picar el calabacín en dados pequeños. 3. En una sartén grande, calentar un poco de aceite de oliva y sofreír la cebolla y zanahoria hasta que estén blandas. 4. Añadir la carne picada mixta (ternera y cerdo) y cocinar a fuego medio-alto, deshaciendo los grumos con una cuchara, hasta que se dore. 5. Incorporar el calabacín y cocinar unos minutos más hasta que esté tierno. Añadir salsa de tomate (opcional, o tomate triturado natural) y sazonar al gusto con sal, pimienta, orégano o albahaca. Cocinar a fuego lento durante 10-15 minutos para que se integren los sabores. 6. Mezclar la pasta de lentejas escurrida con el sofrito. Servir caliente, opcionalmente con queso parmesano rallado.",
+    "originalBaseRecipeId": "cc_pasta_de_lentejas_con_sofrito_de_ternera_y_cerdo"
+  },
+  "p3_m2": {
+    "name": "Gazpacho",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cfbad25d68cc1a4ec3688.png",
+    "calories": 448,
+    "protein": 19,
+    "carbs": 40,
+    "fats": 22,
+    "ingredients": [
+      {
+        "name": "Tomate",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 30,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Pepino",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 100,
+        "protein": 5,
+        "carbs": 10,
+        "fats": 4,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Pimiento",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 30,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Cebolla",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 100,
+        "protein": 5,
+        "carbs": 10,
+        "fats": 4,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Ajo",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 100,
+        "protein": 5,
+        "carbs": 10,
+        "fats": 4,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Aceite de Oliva Virgen",
+        "quantity": "10",
+        "unit": "g",
+        "calories": 88.4,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 10,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1
+      }
+    ],
+    "preparation": "1. Trocear todas las verduras. 2. Poner todos los ingredientes en una batidora junto con aceite, vinagre y sal. 3. Triturar hasta obtener una sopa fina. 4. Enfriar en la nevera antes de servir. Puedes comprarlo preparado si lo prefieres.",
+    "originalBaseRecipeId": "pp_gazpacho"
+  },
+  "p3_m3": {
+    "name": "Tortitas de Legumbres (Mercadona)",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682affdd9b8ed3082d7cbefc.png",
+    "calories": 100,
+    "protein": 5,
+    "carbs": 10,
+    "fats": 4,
+    "ingredients": [
+      {
+        "name": "Tortitas de Legumbres",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 100,
+        "protein": 5,
+        "carbs": 10,
+        "fats": 4,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      }
+    ],
+    "preparation": "1. Abrir el paquete de tortitas de legumbres. 2. Consumir directamente como snack crujiente. Son ideales para picar entre horas.",
+    "originalBaseRecipeId": "ext_tortitas_de_legumbres_mercadona"
+  },
+  "p3_m4": {
+    "name": "Pechuga de Pollo a la Plancha",
+    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69b66b3087f0f2415505fc9a.png",
+    "calories": 328,
+    "protein": 42,
+    "carbs": 0,
+    "fats": 16,
+    "ingredients": [
+      {
+        "name": "Pechuga de Pollo",
+        "quantity": "150",
+        "unit": "g",
+        "calories": 240,
+        "protein": 42.00000000000001,
+        "carbs": 0,
+        "fats": 6,
+        "baseCalories": 1.6,
+        "baseProtein": 0.28,
+        "baseCarbs": 0,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Aceite de Oliva Virgen",
+        "quantity": "10",
+        "unit": "g",
+        "calories": 88.4,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 10,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1
+      }
+    ],
+    "preparation": "1. Sazonar la pechuga de pollo con sal, pimienta y especias al gusto. 2. Calentar una plancha o sartén antiadherente con una gota de aceite. 3. Cocinar la pechuga hasta que esté dorada por fuera y cocida por dentro.",
+    "originalBaseRecipeId": "ac_pechuga_de_pollo_a_la_plancha"
   }
 };
 const dailyMenus = [
@@ -986,18 +1293,18 @@ const dailyMenus = [
     },
     "desayuno": [
       "p0_m0",
-      "p0_m6"
+      "p0_m1"
     ],
     "comida": [
+      "p0_m2",
+      "p0_m3"
+    ],
+    "cena": [
       "p0_m4",
       "p0_m5"
     ],
-    "cena": [
-      "p0_m1",
-      "p0_m2"
-    ],
     "extra": [
-      "p0_m3",
+      "p0_m6",
       "p0_m7"
     ]
   },
@@ -1055,6 +1362,33 @@ const dailyMenus = [
     "extra": [
       "p2_m4",
       "p2_m5"
+    ]
+  },
+  {
+    "name": "Día 4",
+    "targetMacros": {
+      "calories": 1800,
+      "protein": 150,
+      "carbs": 120
+    },
+    "baselineTotals": {
+      "calories": 2602,
+      "protein": 189,
+      "carbs": 259,
+      "fats": 86
+    },
+    "desayuno": [
+      "p3_m0"
+    ],
+    "comida": [
+      "p3_m1"
+    ],
+    "cena": [
+      "p3_m2",
+      "p3_m4"
+    ],
+    "extra": [
+      "p3_m3"
     ]
   }
 ];
