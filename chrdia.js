@@ -219,72 +219,59 @@ const foodDatabase = {
     "originalBaseRecipeId": "ext_fruta_densa_pltano_manzana"
   },
   "p1_m0": {
-    "name": "Porridge de Avena y Frutos Rojos",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afdf19b8ed348797cbcd8.png",
-    "calories": 394,
-    "protein": 15,
-    "carbs": 66,
-    "fats": 7,
+    "name": "Tostada de Pan de Centeno con Revuelto de Huevos y Jamón Yor",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687d09e04d6fb7f271b84cc9.png",
+    "calories": 387,
+    "protein": 22,
+    "carbs": 41,
+    "fats": 15,
     "ingredients": [
       {
-        "name": "Copos de Avena",
-        "quantity": "60",
-        "unit": "g",
-        "calories": 219,
+        "name": "Tostada de Pan de Centeno",
+        "quantity": "2",
+        "unit": "rebanada",
+        "calories": 216,
         "protein": 7.199999999999999,
-        "carbs": 45,
-        "fats": 1.2,
-        "baseCalories": 3.65,
-        "baseProtein": 0.11999999999999998,
-        "baseCarbs": 0.75,
-        "baseFats": 0.02
+        "carbs": 40,
+        "fats": 2.4,
+        "baseCalories": 108,
+        "baseProtein": 3.5999999999999996,
+        "baseCarbs": 20,
+        "baseFats": 1.2
       },
       {
-        "name": "Leche",
-        "quantity": "150",
-        "unit": "g",
-        "calories": 150,
-        "protein": 7.5,
-        "carbs": 15,
-        "fats": 6,
-        "baseCalories": 1,
-        "baseProtein": 0.05,
-        "baseCarbs": 0.1,
-        "baseFats": 0.04
-      },
-      {
-        "name": "Frutos Rojos",
-        "quantity": "50",
-        "unit": "g",
-        "calories": 25,
-        "protein": 0.5,
-        "carbs": 6,
-        "fats": 0.25,
-        "baseCalories": 0.5,
-        "baseProtein": 0.01,
-        "baseCarbs": 0.12,
-        "baseFats": 0.005
+        "name": "Huevos",
+        "quantity": "2",
+        "unit": "ud",
+        "calories": 170.5,
+        "protein": 14.3,
+        "carbs": 1.2100000000000002,
+        "fats": 12.1,
+        "baseCalories": 85.25,
+        "baseProtein": 7.15,
+        "baseCarbs": 0.6050000000000001,
+        "baseFats": 6.05
       }
     ],
-    "preparation": "1. En un cazo, cocinar los copos de avena con la leche o bebida vegetal a fuego medio, removiendo constantemente hasta que espese y la avena esté cocida (unos 5-7 minutos). 2. Servir caliente en un bol con los frutos rojos por encima. Opcional: añadir canela o edulcorante al gusto.",
-    "originalBaseRecipeId": "des_porridge_de_avena_y_frutos_rojos"
+    "preparation": "1. Tostar el pan de centeno. 2. Preparar un revuelto de huevos con taquitos de jamón york. 3. Servir el revuelto sobre la tostada.",
+    "originalBaseRecipeId": "des_tostada_de_pan_de_centeno_con_revuelto_de_huevos_y_jamn_york"
   },
   "p1_m1": {
     "name": "Ensala de Patata, Atún y Huevo",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afc08b91eb31afe3d4796.png",
-    "calories": 760,
-    "protein": 69,
-    "carbs": 71,
+    "calories": 715,
+    "protein": 68,
+    "carbs": 61,
     "fats": 20,
     "ingredients": [
       {
         "name": "Patata",
-        "quantity": "250",
+        "quantity": "200",
         "unit": "g",
-        "calories": 225,
-        "protein": 5,
-        "carbs": 50,
-        "fats": 0.25,
+        "calories": 180,
+        "protein": 4,
+        "carbs": 40,
+        "fats": 0.2,
         "baseCalories": 0.9,
         "baseProtein": 0.02,
         "baseCarbs": 0.2,
@@ -426,19 +413,19 @@ const foodDatabase = {
   "p1_m3": {
     "name": "Pechuga de Pollo a la Plancha",
     "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69b66b3087f0f2415505fc9a.png",
-    "calories": 288,
-    "protein": 50,
+    "calories": 320,
+    "protein": 56,
     "carbs": 0,
-    "fats": 7,
+    "fats": 8,
     "ingredients": [
       {
         "name": "Pechuga de Pollo",
-        "quantity": "180",
+        "quantity": "200",
         "unit": "g",
-        "calories": 288,
-        "protein": 50.400000000000006,
+        "calories": 320,
+        "protein": 56.00000000000001,
         "carbs": 0,
-        "fats": 7.2,
+        "fats": 8,
         "baseCalories": 1.6,
         "baseProtein": 0.28,
         "baseCarbs": 0,
@@ -473,88 +460,37 @@ const foodDatabase = {
     "preparation": "1. Seleccionar la fruta cítrica de preferencia. 2. Lavar bien la fruta bajo el grifo. 3. Para mandarinas y naranjas: pelar la piel con las manos. 4. Para kiwis: cortar por la mitad y comer la pulpa con una cucharita.",
     "originalBaseRecipeId": "ext_fruta_ctrica_mandarina_kiwi_naranja"
   },
-  "p1_m5": {
-    "name": "Yogur Protéico (Sabores, Natural...)",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd789b8ed38b127cbc09.png",
-    "calories": 125,
-    "protein": 6,
-    "carbs": 13,
-    "fats": 5,
-    "ingredients": [
-      {
-        "name": "Yogur Protéico",
-        "quantity": "1",
-        "unit": "unidad(es)",
-        "calories": 125,
-        "protein": 6.25,
-        "carbs": 12.5,
-        "fats": 5,
-        "baseCalories": 125,
-        "baseProtein": 6.25,
-        "baseCarbs": 12.5,
-        "baseFats": 5
-      }
-    ],
-    "preparation": "1. Seleccionar el yogur proteico de preferencia. 2. Abrir el envase. 3. Consumir directamente con una cuchara.",
-    "originalBaseRecipeId": "ext_yogur_protico_sabores_natural"
-  },
   "p2_m0": {
-    "name": "Tostada de Pan Wasa con Salmón ahumado y Aguacate",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687d025bddc9c119c957ab9c.png",
-    "calories": 461,
-    "protein": 21,
-    "carbs": 45,
-    "fats": 21,
+    "name": "Fruta Densa (Plátano, Manzana, Pera)",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe4bb91eb325b93d4a82.png",
+    "calories": 90,
+    "protein": 1,
+    "carbs": 23,
+    "fats": 0,
     "ingredients": [
       {
-        "name": "Pan Wasa",
-        "quantity": "2",
-        "unit": "rebanada",
-        "calories": 216,
-        "protein": 7.199999999999999,
-        "carbs": 40,
-        "fats": 2.4,
-        "baseCalories": 108,
-        "baseProtein": 3.5999999999999996,
-        "baseCarbs": 20,
-        "baseFats": 1.2
-      },
-      {
-        "name": "Salmón Ahumado",
-        "quantity": "50",
-        "unit": "g",
-        "calories": 110.00000000000001,
-        "protein": 11,
-        "carbs": 0,
-        "fats": 7.000000000000001,
-        "baseCalories": 2.2,
-        "baseProtein": 0.22,
-        "baseCarbs": 0,
-        "baseFats": 0.14
-      },
-      {
-        "name": "Aguacate",
-        "quantity": "30",
-        "unit": "g",
-        "calories": 135,
-        "protein": 3,
-        "carbs": 4.5,
-        "fats": 12,
-        "baseCalories": 4.5,
-        "baseProtein": 0.1,
-        "baseCarbs": 0.15,
-        "baseFats": 0.4
+        "name": "Plátano",
+        "quantity": "1",
+        "unit": "ud",
+        "calories": 90,
+        "protein": 0.75,
+        "carbs": 22.5,
+        "fats": 0.3,
+        "baseCalories": 90,
+        "baseProtein": 0.75,
+        "baseCarbs": 22.5,
+        "baseFats": 0.3
       }
     ],
-    "preparation": "1. Untar o laminar el aguacate sobre la tostada de pan Wasa. 2. Colocar el salmón ahumado por encima. 3. Opcional: añadir eneldo o pimienta.",
-    "originalBaseRecipeId": "des_tostada_de_pan_wasa_con_salmn_ahumado_y_aguacate"
+    "preparation": "1. Seleccionar la fruta densa de preferencia. 2. Para plátanos: pelar la piel y consumir directamente. 3. Para manzanas o peras: lavar bien la fruta. Se puede consumir con piel o pelada.",
+    "originalBaseRecipeId": "ext_fruta_densa_pltano_manzana_pera"
   },
   "p2_m1": {
     "name": "Wrap de pollo hervido con verduras y arroz",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684ef7e26202d54cb0de24e8.png",
-    "calories": 776,
-    "protein": 63,
-    "carbs": 91,
+    "calories": 886,
+    "protein": 67,
+    "carbs": 114,
     "fats": 15,
     "ingredients": [
       {
@@ -572,12 +508,12 @@ const foodDatabase = {
       },
       {
         "name": "Arroz",
-        "quantity": "70",
+        "quantity": "100",
         "unit": "g",
-        "calories": 255.5,
-        "protein": 8.4,
-        "carbs": 52.5,
-        "fats": 1.4000000000000001,
+        "calories": 365,
+        "protein": 12.000000000000002,
+        "carbs": 75,
+        "fats": 2,
         "baseCalories": 3.65,
         "baseProtein": 0.12000000000000001,
         "baseCarbs": 0.75,
@@ -642,19 +578,19 @@ const foodDatabase = {
   "p2_m2": {
     "name": "Pimientos Salteados con Cebolla y Tomate Cherry.",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cd7144d6fb7451eb7bbf9.png",
-    "calories": 156,
-    "protein": 5,
-    "carbs": 11,
-    "fats": 10,
+    "calories": 178,
+    "protein": 6,
+    "carbs": 15,
+    "fats": 11,
     "ingredients": [
       {
         "name": "Pimiento Rojo",
-        "quantity": "75",
+        "quantity": "100",
         "unit": "g",
-        "calories": 22.5,
-        "protein": 1.5,
-        "carbs": 3.75,
-        "fats": 0.15,
+        "calories": 30,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
         "baseCalories": 0.3,
         "baseProtein": 0.02,
         "baseCarbs": 0.05,
@@ -662,12 +598,12 @@ const foodDatabase = {
       },
       {
         "name": "Cebolla",
-        "quantity": "75",
+        "quantity": "100",
         "unit": "g",
-        "calories": 22.5,
-        "protein": 1.5,
-        "carbs": 3.75,
-        "fats": 0.15,
+        "calories": 30,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
         "baseCalories": 0.3,
         "baseProtein": 0.02,
         "baseCarbs": 0.05,
@@ -675,12 +611,12 @@ const foodDatabase = {
       },
       {
         "name": "Tomate Cherry",
-        "quantity": "75",
+        "quantity": "100",
         "unit": "g",
-        "calories": 22.5,
-        "protein": 1.5,
-        "carbs": 3.75,
-        "fats": 0.15,
+        "calories": 30,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
         "baseCalories": 0.3,
         "baseProtein": 0.02,
         "baseCarbs": 0.05,
@@ -742,21 +678,46 @@ const foodDatabase = {
     "originalBaseRecipeId": "ac_pechuga_de_pavo_a_la_plancha"
   },
   "p2_m4": {
-    "name": "Fruta Densa (Plátano, Manzana)",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe4bb91eb325b93d4a82.png",
-    "calories": 180,
-    "protein": 2,
-    "carbs": 45,
-    "fats": 1,
+    "name": "Fruta Cítrica (Mandarina, Kiwi, Naranja...)",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd3d0ed506305442ffe4.png",
+    "calories": 90,
+    "protein": 1,
+    "carbs": 23,
+    "fats": 0,
     "ingredients": [
       {
-        "name": "Manzana",
-        "quantity": "2",
-        "unit": "unidad(es)",
-        "calories": 180,
-        "protein": 1.5,
-        "carbs": 45,
-        "fats": 0.6,
+        "name": "Kiwi",
+        "quantity": "1",
+        "unit": "ud",
+        "calories": 90,
+        "protein": 0.75,
+        "carbs": 22.5,
+        "fats": 0.3,
+        "baseCalories": 90,
+        "baseProtein": 0.75,
+        "baseCarbs": 22.5,
+        "baseFats": 0.3
+      }
+    ],
+    "preparation": "1. Seleccionar la fruta cítrica de preferencia. 2. Lavar bien la fruta bajo el grifo. 3. Para mandarinas y naranjas: pelar la piel con las manos. 4. Para kiwis: cortar por la mitad y comer la pulpa con una cucharita.",
+    "originalBaseRecipeId": "ext_fruta_ctrica_mandarina_kiwi_naranja"
+  },
+  "p3_m0": {
+    "name": "Fruta Densa (Plátano, Manzana, Pera)",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe4bb91eb325b93d4a82.png",
+    "calories": 90,
+    "protein": 1,
+    "carbs": 23,
+    "fats": 0,
+    "ingredients": [
+      {
+        "name": "Plátano",
+        "quantity": "1",
+        "unit": "ud",
+        "calories": 90,
+        "protein": 0.75,
+        "carbs": 22.5,
+        "fats": 0.3,
         "baseCalories": 90,
         "baseProtein": 0.75,
         "baseCarbs": 22.5,
@@ -764,9 +725,9 @@ const foodDatabase = {
       }
     ],
     "preparation": "1. Seleccionar la fruta densa de preferencia. 2. Para plátanos: pelar la piel y consumir directamente. 3. Para manzanas o peras: lavar bien la fruta. Se puede consumir con piel o pelada.",
-    "originalBaseRecipeId": "ext_fruta_densa_pltano_manzana"
+    "originalBaseRecipeId": "ext_fruta_densa_pltano_manzana_pera"
   },
-  "p3_m0": {
+  "p3_m1": {
     "name": "Ensalada de verdura con Pollo",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afc47b91eb349463d47dd.png",
     "calories": 698,
@@ -869,83 +830,7 @@ const foodDatabase = {
     "preparation": "1. Cocer la pasta según las instrucciones del paquete. Escurrir, pasar por agua fría para detener la cocción y dejar enfriar. 2. Cocinar la pechuga de pollo (a la plancha, hervida o asada) y desmenuzarla o cortarla en dados. 3. Lavar los canónigos. Picar el tomate, pimiento rojo, pimiento verde y cebolla en trozos pequeños. 4. En un bol grande, combinar la pasta fría, el pollo, los canónigos y las verduras picadas. 5. Aliñar con aceite de oliva virgen extra, vinagre o tu salsa para ensaladas favorita (ej. yogur, mostaza y miel). Salpimentar al gusto.",
     "originalBaseRecipeId": "cc_ensalada_de_pasta_con_pollo"
   },
-  "p3_m1": {
-    "name": "Frutos Secos (Mezcla)",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68525c0b1d27cfeb580a55f7.png",
-    "calories": 130,
-    "protein": 4,
-    "carbs": 7,
-    "fats": 10,
-    "ingredients": [
-      {
-        "name": "Anacardos",
-        "quantity": "20",
-        "unit": "g",
-        "calories": 20,
-        "protein": 1,
-        "carbs": 2,
-        "fats": 0.8,
-        "baseCalories": 1,
-        "baseProtein": 0.05,
-        "baseCarbs": 0.1,
-        "baseFats": 0.04
-      },
-      {
-        "name": "Almendras",
-        "quantity": "20",
-        "unit": "g",
-        "calories": 20,
-        "protein": 1,
-        "carbs": 2,
-        "fats": 0.8,
-        "baseCalories": 1,
-        "baseProtein": 0.05,
-        "baseCarbs": 0.1,
-        "baseFats": 0.04
-      },
-      {
-        "name": "Nueces",
-        "quantity": "20",
-        "unit": "g",
-        "calories": 90,
-        "protein": 2,
-        "carbs": 3,
-        "fats": 8,
-        "baseCalories": 4.5,
-        "baseProtein": 0.1,
-        "baseCarbs": 0.15,
-        "baseFats": 0.4
-      }
-    ],
-    "preparation": "Consumir directamente como un snack energético y nutritivo.",
-    "originalBaseRecipeId": "ext_frutos_secos_mezcla"
-  },
   "p3_m2": {
-    "name": "Fruta Densa (Plátano, Manzana, Pera)",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe4bb91eb325b93d4a82.png",
-    "calories": 90,
-    "protein": 1,
-    "carbs": 23,
-    "fats": 0,
-    "ingredients": [
-      {
-        "name": "Plátano",
-        "quantity": "1",
-        "unit": "ud",
-        "calories": 90,
-        "protein": 0.75,
-        "carbs": 22.5,
-        "fats": 0.3,
-        "baseCalories": 90,
-        "baseProtein": 0.75,
-        "baseCarbs": 22.5,
-        "baseFats": 0.3
-      }
-    ],
-    "preparation": "1. Seleccionar la fruta densa de preferencia. 2. Para plátanos: pelar la piel y consumir directamente. 3. Para manzanas o peras: lavar bien la fruta. Se puede consumir con piel o pelada.",
-    "originalBaseRecipeId": "ext_fruta_densa_pltano_manzana_pera"
-  },
-  "p3_m3": {
     "name": "Patata con brócoli y pollo asado",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687de454838c601605b6e271.png",
     "calories": 528,
@@ -1008,6 +893,57 @@ const foodDatabase = {
     ],
     "preparation": "1. Cocer la patata y el brócoli al vapor o en agua hirviendo hasta que estén tiernos. 2. Cocinar la pechuga de pollo a la plancha o asada al horno, sazonada al gusto. 3. Servir la patata y el brócoli como base y colocar el pollo troceado por encima. Aliñar con aceite de oliva y especias si se desea.",
     "originalBaseRecipeId": "cc_patata_con_brcoli_y_pollo_asado"
+  },
+  "p3_m3": {
+    "name": "Frutos Secos (Mezcla)",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68525c0b1d27cfeb580a55f7.png",
+    "calories": 130,
+    "protein": 4,
+    "carbs": 7,
+    "fats": 10,
+    "ingredients": [
+      {
+        "name": "Anacardos",
+        "quantity": "20",
+        "unit": "g",
+        "calories": 20,
+        "protein": 1,
+        "carbs": 2,
+        "fats": 0.8,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Almendras",
+        "quantity": "20",
+        "unit": "g",
+        "calories": 20,
+        "protein": 1,
+        "carbs": 2,
+        "fats": 0.8,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Nueces",
+        "quantity": "20",
+        "unit": "g",
+        "calories": 90,
+        "protein": 2,
+        "carbs": 3,
+        "fats": 8,
+        "baseCalories": 4.5,
+        "baseProtein": 0.1,
+        "baseCarbs": 0.15,
+        "baseFats": 0.4
+      }
+    ],
+    "preparation": "Consumir directamente como un snack energético y nutritivo.",
+    "originalBaseRecipeId": "ext_frutos_secos_mezcla"
   },
   "p3_m4": {
     "name": "Fruta Densa (Plátano, Manzana, Pera)",
@@ -1086,8 +1022,7 @@ const dailyMenus = [
       "p1_m3"
     ],
     "extra": [
-      "p1_m4",
-      "p1_m5"
+      "p1_m4"
     ]
   },
   {
@@ -1131,17 +1066,17 @@ const dailyMenus = [
       "fats": 109
     },
     "desayuno": [
-      "p3_m4"
-    ],
-    "comida": [
       "p3_m0"
     ],
+    "comida": [
+      "p3_m1"
+    ],
     "cena": [
-      "p3_m3"
+      "p3_m2"
     ],
     "extra": [
-      "p3_m1",
-      "p3_m2"
+      "p3_m3",
+      "p3_m4"
     ]
   }
 ];
