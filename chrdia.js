@@ -194,29 +194,55 @@ const foodDatabase = {
     "originalBaseRecipeId": "ac_merluza_a_la_plancha"
   },
   "p0_m3": {
-    "name": "Fruta Densa (Plátano,Pera o Manzana)",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe4bb91eb325b93d4a82.png",
-    "calories": 180,
-    "protein": 2,
-    "carbs": 45,
-    "fats": 1,
+    "name": "Frutos Secos (Mezcla)",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68525c0b1d27cfeb580a55f7.png",
+    "calories": 195,
+    "protein": 6,
+    "carbs": 11,
+    "fats": 14,
     "ingredients": [
       {
-        "name": "Manzana",
-        "quantity": "2",
-        "unit": "ud",
-        "calories": 180,
+        "name": "Anacardos",
+        "quantity": "30",
+        "unit": "g",
+        "calories": 30,
         "protein": 1.5,
-        "carbs": 45,
-        "fats": 0.6,
-        "baseCalories": 90,
-        "baseProtein": 0.75,
-        "baseCarbs": 22.5,
-        "baseFats": 0.3
+        "carbs": 3,
+        "fats": 1.2,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Almendras",
+        "quantity": "30",
+        "unit": "g",
+        "calories": 30,
+        "protein": 1.5,
+        "carbs": 3,
+        "fats": 1.2,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Nueces",
+        "quantity": "30",
+        "unit": "g",
+        "calories": 135,
+        "protein": 3,
+        "carbs": 4.5,
+        "fats": 12,
+        "baseCalories": 4.5,
+        "baseProtein": 0.1,
+        "baseCarbs": 0.15,
+        "baseFats": 0.4
       }
     ],
-    "preparation": "1. Seleccionar la fruta densa de preferencia. 2. Para plátanos: pelar la piel y consumir directamente. 3. Para manzanas o peras: lavar bien la fruta. Se puede consumir con piel o pelada.",
-    "originalBaseRecipeId": "ext_fruta_densa_pltano_manzana"
+    "preparation": "Consumir directamente como un snack energético y nutritivo.",
+    "originalBaseRecipeId": "ext_frutos_secos_mezcla"
   },
   "p1_m0": {
     "name": "Tostada de Pan de Centeno con Revuelto de Huevos y Jamón Yor",
@@ -488,10 +514,10 @@ const foodDatabase = {
   "p2_m1": {
     "name": "Wrap de pollo hervido con verduras y arroz",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684ef7e26202d54cb0de24e8.png",
-    "calories": 886,
-    "protein": 67,
-    "carbs": 114,
-    "fats": 15,
+    "calories": 521,
+    "protein": 55,
+    "carbs": 39,
+    "fats": 13,
     "ingredients": [
       {
         "name": "Pechuga de Pollo",
@@ -505,19 +531,6 @@ const foodDatabase = {
         "baseProtein": 0.28,
         "baseCarbs": 0,
         "baseFats": 0.04
-      },
-      {
-        "name": "Arroz",
-        "quantity": "100",
-        "unit": "g",
-        "calories": 365,
-        "protein": 12.000000000000002,
-        "carbs": 75,
-        "fats": 2,
-        "baseCalories": 3.65,
-        "baseProtein": 0.12000000000000001,
-        "baseCarbs": 0.75,
-        "baseFats": 0.02
       },
       {
         "name": "Brócoli",
@@ -702,6 +715,57 @@ const foodDatabase = {
     "preparation": "1. Seleccionar la fruta cítrica de preferencia. 2. Lavar bien la fruta bajo el grifo. 3. Para mandarinas y naranjas: pelar la piel con las manos. 4. Para kiwis: cortar por la mitad y comer la pulpa con una cucharita.",
     "originalBaseRecipeId": "ext_fruta_ctrica_mandarina_kiwi_naranja"
   },
+  "p2_m5": {
+    "name": "Frutos Secos (Mezcla)",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68525c0b1d27cfeb580a55f7.png",
+    "calories": 325,
+    "protein": 10,
+    "carbs": 18,
+    "fats": 24,
+    "ingredients": [
+      {
+        "name": "Anacardos",
+        "quantity": "50",
+        "unit": "g",
+        "calories": 50,
+        "protein": 2.5,
+        "carbs": 5,
+        "fats": 2,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Almendras",
+        "quantity": "50",
+        "unit": "g",
+        "calories": 50,
+        "protein": 2.5,
+        "carbs": 5,
+        "fats": 2,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Nueces",
+        "quantity": "50",
+        "unit": "g",
+        "calories": 225,
+        "protein": 5,
+        "carbs": 7.5,
+        "fats": 20,
+        "baseCalories": 4.5,
+        "baseProtein": 0.1,
+        "baseCarbs": 0.15,
+        "baseFats": 0.4
+      }
+    ],
+    "preparation": "Consumir directamente como un snack energético y nutritivo.",
+    "originalBaseRecipeId": "ext_frutos_secos_mezcla"
+  },
   "p3_m0": {
     "name": "Fruta Densa (Plátano, Manzana, Pera)",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe4bb91eb325b93d4a82.png",
@@ -833,24 +897,11 @@ const foodDatabase = {
   "p3_m2": {
     "name": "Patata con brócoli y pollo asado",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687de454838c601605b6e271.png",
-    "calories": 528,
-    "protein": 60,
-    "carbs": 25,
+    "calories": 438,
+    "protein": 58,
+    "carbs": 5,
     "fats": 18,
     "ingredients": [
-      {
-        "name": "Patata",
-        "quantity": "100",
-        "unit": "g",
-        "calories": 90,
-        "protein": 2,
-        "carbs": 20,
-        "fats": 0.1,
-        "baseCalories": 0.9,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.2,
-        "baseFats": 0.001
-      },
       {
         "name": "Brócoli",
         "quantity": "100",
@@ -897,19 +948,19 @@ const foodDatabase = {
   "p3_m3": {
     "name": "Frutos Secos (Mezcla)",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68525c0b1d27cfeb580a55f7.png",
-    "calories": 130,
-    "protein": 4,
-    "carbs": 7,
-    "fats": 10,
+    "calories": 195,
+    "protein": 6,
+    "carbs": 11,
+    "fats": 14,
     "ingredients": [
       {
         "name": "Anacardos",
-        "quantity": "20",
+        "quantity": "30",
         "unit": "g",
-        "calories": 20,
-        "protein": 1,
-        "carbs": 2,
-        "fats": 0.8,
+        "calories": 30,
+        "protein": 1.5,
+        "carbs": 3,
+        "fats": 1.2,
         "baseCalories": 1,
         "baseProtein": 0.05,
         "baseCarbs": 0.1,
@@ -917,12 +968,12 @@ const foodDatabase = {
       },
       {
         "name": "Almendras",
-        "quantity": "20",
+        "quantity": "30",
         "unit": "g",
-        "calories": 20,
-        "protein": 1,
-        "carbs": 2,
-        "fats": 0.8,
+        "calories": 30,
+        "protein": 1.5,
+        "carbs": 3,
+        "fats": 1.2,
         "baseCalories": 1,
         "baseProtein": 0.05,
         "baseCarbs": 0.1,
@@ -930,12 +981,12 @@ const foodDatabase = {
       },
       {
         "name": "Nueces",
-        "quantity": "20",
+        "quantity": "30",
         "unit": "g",
-        "calories": 90,
-        "protein": 2,
-        "carbs": 3,
-        "fats": 8,
+        "calories": 135,
+        "protein": 3,
+        "carbs": 4.5,
+        "fats": 12,
         "baseCalories": 4.5,
         "baseProtein": 0.1,
         "baseCarbs": 0.15,
@@ -944,31 +995,6 @@ const foodDatabase = {
     ],
     "preparation": "Consumir directamente como un snack energético y nutritivo.",
     "originalBaseRecipeId": "ext_frutos_secos_mezcla"
-  },
-  "p3_m4": {
-    "name": "Fruta Densa (Plátano, Manzana, Pera)",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe4bb91eb325b93d4a82.png",
-    "calories": 90,
-    "protein": 1,
-    "carbs": 23,
-    "fats": 0,
-    "ingredients": [
-      {
-        "name": "Plátano",
-        "quantity": "1",
-        "unit": "ud",
-        "calories": 90,
-        "protein": 0.75,
-        "carbs": 22.5,
-        "fats": 0.3,
-        "baseCalories": 90,
-        "baseProtein": 0.75,
-        "baseCarbs": 22.5,
-        "baseFats": 0.3
-      }
-    ],
-    "preparation": "1. Seleccionar la fruta densa de preferencia. 2. Para plátanos: pelar la piel y consumir directamente. 3. Para manzanas o peras: lavar bien la fruta. Se puede consumir con piel o pelada.",
-    "originalBaseRecipeId": "ext_fruta_densa_pltano_manzana_pera"
   }
 };
 const dailyMenus = [
@@ -1049,7 +1075,8 @@ const dailyMenus = [
       "p2_m3"
     ],
     "extra": [
-      "p2_m4"
+      "p2_m4",
+      "p2_m5"
     ]
   },
   {
@@ -1075,8 +1102,7 @@ const dailyMenus = [
       "p3_m2"
     ],
     "extra": [
-      "p3_m3",
-      "p3_m4"
+      "p3_m3"
     ]
   }
 ];
