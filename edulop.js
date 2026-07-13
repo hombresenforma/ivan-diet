@@ -143,108 +143,6 @@ const foodDatabase = {
     "originalBaseRecipeId": "cc_ensalada_de_tomate_esprragos_blancos_con_atn"
   },
   "p0_m2": {
-    "name": "Boniato asado con ensalada de tomate",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684efcd1f6c48df26aa5ba5b.png",
-    "calories": 246,
-    "protein": 7,
-    "carbs": 31,
-    "fats": 11,
-    "ingredients": [
-      {
-        "name": "Boniato",
-        "quantity": "100",
-        "unit": "g",
-        "calories": 90,
-        "protein": 2,
-        "carbs": 20,
-        "fats": 0.1,
-        "baseCalories": 0.9,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.2,
-        "baseFats": 0.001
-      },
-      {
-        "name": "Tomate",
-        "quantity": "150",
-        "unit": "g",
-        "calories": 45,
-        "protein": 3,
-        "carbs": 7.5,
-        "fats": 0.3,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Cebolla",
-        "quantity": "75",
-        "unit": "g",
-        "calories": 22.5,
-        "protein": 1.5,
-        "carbs": 3.75,
-        "fats": 0.15,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Aceite de Oliva Virgen Extra",
-        "quantity": "10",
-        "unit": "g",
-        "calories": 88.4,
-        "protein": 0,
-        "carbs": 0,
-        "fats": 10,
-        "baseCalories": 8.84,
-        "baseProtein": 0,
-        "baseCarbs": 0,
-        "baseFats": 1
-      }
-    ],
-    "preparation": "1. Precalentar el horno a 200°C (390°F). Lavar bien el boniato, pincharlo varias veces con un tenedor para que no reviente durante la cocción. 2. Asar el boniato entero directamente sobre la rejilla del horno o en una bandeja durante 45-60 minutos, o hasta que esté tierno al pincharlo. 3. Mientras se asa el boniato, preparar la ensalada: lavar y cortar el tomate en dados pequeños. Picar la cebolla y el ajo muy finamente. 4. En un bol, mezclar el tomate, la cebolla y el ajo. Aliñar con aceite de oliva virgen extra, vinagre y sal al gusto. 5. Una vez el boniato esté asado y tierno, sacarlo del horno, dejarlo templar unos minutos, y luego abrirlo por la mitad a lo largo. Servirlo caliente o templado, acompañado de la ensalada de tomate.",
-    "originalBaseRecipeId": "pp_boniato_asado_con_ensalada_de_tomate"
-  },
-  "p0_m3": {
-    "name": "Merluza a la Plancha",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684f001d4d606642b1333279.png",
-    "calories": 328,
-    "protein": 42,
-    "carbs": 0,
-    "fats": 16,
-    "ingredients": [
-      {
-        "name": "Filete de Merluza",
-        "quantity": "150",
-        "unit": "g",
-        "calories": 240,
-        "protein": 42.00000000000001,
-        "carbs": 0,
-        "fats": 6,
-        "baseCalories": 1.6,
-        "baseProtein": 0.28,
-        "baseCarbs": 0,
-        "baseFats": 0.04
-      },
-      {
-        "name": "Aceite de Oliva Virgen Extra",
-        "quantity": "10",
-        "unit": "g",
-        "calories": 88.4,
-        "protein": 0,
-        "carbs": 0,
-        "fats": 10,
-        "baseCalories": 8.84,
-        "baseProtein": 0,
-        "baseCarbs": 0,
-        "baseFats": 1
-      }
-    ],
-    "preparation": "1. Sazonar los filetes o rodajas de merluza con sal, pimienta y opcionalmente un poco de ajo en polvo o perejil picado. 2. Calentar una plancha o sartén antiadherente a fuego medio-alto con un chorrito de aceite de oliva virgen extra. 3. Cuando el aceite esté caliente, colocar la merluza en la plancha. Cocinar durante unos 3-5 minutos por cada lado, dependiendo del grosor del pescado, hasta que esté opaca, bien cocida por dentro y se desmenuce fácilmente con un tenedor. 4. Servir inmediatamente, opcionalmente con un chorrito de zumo de limón fresco por encima.",
-    "originalBaseRecipeId": "ac_merluza_a_la_plancha"
-  },
-  "p0_m4": {
     "name": "Yogur Protéico (Sabores, Natural...)",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd789b8ed38b127cbc09.png",
     "calories": 125,
@@ -269,7 +167,7 @@ const foodDatabase = {
     "preparation": "1. Seleccionar el yogur proteico de preferencia. 2. Abrir el envase. 3. Consumir directamente con una cuchara.",
     "originalBaseRecipeId": "ext_yogur_protico_sabores_natural"
   },
-  "p0_m5": {
+  "p0_m3": {
     "name": "Fruta Densa (Plátano, Manzana)",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe4bb91eb325b93d4a82.png",
     "calories": 72,
@@ -293,6 +191,82 @@ const foodDatabase = {
     ],
     "preparation": "1. Seleccionar la fruta densa de preferencia. 2. Para plátanos: pelar la piel y consumir directamente. 3. Para manzanas o peras: lavar bien la fruta. Se puede consumir con piel o pelada.",
     "originalBaseRecipeId": "ext_fruta_densa_pltano_manzana"
+  },
+  "p0_m4": {
+    "name": "Patata Hervida",
+    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69fee88fa3dd25aa2ac25fdc.png",
+    "calories": 201,
+    "protein": 3,
+    "carbs": 25,
+    "fats": 10,
+    "ingredients": [
+      {
+        "name": "Patata",
+        "quantity": "125",
+        "unit": "g",
+        "calories": 112.5,
+        "protein": 2.5,
+        "carbs": 25,
+        "fats": 0.125,
+        "baseCalories": 0.9,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.2,
+        "baseFats": 0.001
+      },
+      {
+        "name": "Aceite de Oliva Virgen",
+        "quantity": "10",
+        "unit": "g",
+        "calories": 88.4,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 10,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1
+      }
+    ],
+    "preparation": "1. Pelar y trocear la patata. 2. Hervir en agua con sal hasta que esté tierna (15-20 min). 3. Escurrir y aliñar al gusto.",
+    "originalBaseRecipeId": "pp_patata_hervida"
+  },
+  "p0_m5": {
+    "name": "Huevo Duro Cocido",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68f27f5bfb2e440988a37788.png",
+    "calories": 259,
+    "protein": 14,
+    "carbs": 1,
+    "fats": 22,
+    "ingredients": [
+      {
+        "name": "Huevo Cocido",
+        "quantity": "2",
+        "unit": "ud",
+        "calories": 170.5,
+        "protein": 14.3,
+        "carbs": 1.2100000000000002,
+        "fats": 12.1,
+        "baseCalories": 85.25,
+        "baseProtein": 7.15,
+        "baseCarbs": 0.6050000000000001,
+        "baseFats": 6.05
+      },
+      {
+        "name": "Aceite de Oliva Virgen",
+        "quantity": "10",
+        "unit": "g",
+        "calories": 88.4,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 10,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1
+      }
+    ],
+    "preparation": "Cocer the huevo en agua hirviendo durante 10-12 minutos. Pelar y servir.",
+    "originalBaseRecipeId": "ac_huevo_duro_cocido"
   },
   "p1_m0": {
     "name": "Tostada de Pan de Centeno con Revuelto de Huevos y Jamón York",
@@ -500,28 +474,28 @@ const foodDatabase = {
     "originalBaseRecipeId": "pp_ensalada_de_tomate_ajo_y_cebolla"
   },
   "p1_m3": {
-    "name": "Solomillo/Filete de Ternera a la Plancha",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe6c0ed5060d3743015a.png",
-    "calories": 418,
-    "protein": 33,
+    "name": "Pechuga de Pollo a Tiras",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68f27f90fb2e446db8a380a9.png",
+    "calories": 328,
+    "protein": 42,
     "carbs": 0,
-    "fats": 31,
+    "fats": 16,
     "ingredients": [
       {
-        "name": "Solomillo de Ternera",
+        "name": "Pechuga de Pollo",
         "quantity": "150",
         "unit": "g",
-        "calories": 330,
-        "protein": 33,
+        "calories": 240,
+        "protein": 42.00000000000001,
         "carbs": 0,
-        "fats": 21.000000000000004,
-        "baseCalories": 2.2,
-        "baseProtein": 0.22,
+        "fats": 6,
+        "baseCalories": 1.6,
+        "baseProtein": 0.28,
         "baseCarbs": 0,
-        "baseFats": 0.14
+        "baseFats": 0.04
       },
       {
-        "name": "Aceite de Oliva Virgen Extra",
+        "name": "Aceite de Oliva Virgen",
         "quantity": "10",
         "unit": "g",
         "calories": 88.4,
@@ -534,8 +508,8 @@ const foodDatabase = {
         "baseFats": 1
       }
     ],
-    "preparation": "1. Sacar el filete o solomillo de ternera del refrigerador unos 15-20 minutos antes de cocinar para que se temple. 2. Sazonar la carne con sal y pimienta negra recién molida justo antes de ponerla en la plancha. 3. Calentar una plancha o sartén de fondo grueso a fuego alto hasta que esté bien caliente. Añadir una gota de aceite de oliva y extenderlo. 4. Cocinar el filete al gusto. 5. Dejar reposar la carne un par de minutos antes de servir para que los jugos se redistribuyan.",
-    "originalBaseRecipeId": "ac_solomillofilete_de_ternera_a_la_plancha"
+    "preparation": "Cocinar la pechuga de pollo a la plancha o cocida y cortar en tiras. Servir solo o añadir a otros platos.",
+    "originalBaseRecipeId": "ac_pechuga_de_pollo_a_tiras"
   },
   "p1_m4": {
     "name": "Fruta Cítrica (Mandarina, Kiwi, Naranja...)",
@@ -639,93 +613,67 @@ const foodDatabase = {
     "originalBaseRecipeId": "des_yogurt_protico_con_frutos_rojos_y_secos"
   },
   "p2_m1": {
-    "name": "Musakka de Patata al horno con verduras y carne picada",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684efda5653a2c17a7172d67.png",
-    "calories": 761,
-    "protein": 51,
-    "carbs": 42,
-    "fats": 42,
+    "name": "Arroz tres delicias",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68872f8e1fc4545c499532f0.png",
+    "calories": 674,
+    "protein": 29,
+    "carbs": 65,
+    "fats": 33,
     "ingredients": [
       {
-        "name": "Patata",
-        "quantity": "150",
+        "name": "Arroz",
+        "quantity": "70",
         "unit": "g",
-        "calories": 135,
-        "protein": 3,
-        "carbs": 30,
-        "fats": 0.15,
-        "baseCalories": 0.9,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.2,
-        "baseFats": 0.001
+        "calories": 255.5,
+        "protein": 8.4,
+        "carbs": 52.5,
+        "fats": 1.4000000000000001,
+        "baseCalories": 3.65,
+        "baseProtein": 0.12,
+        "baseCarbs": 0.75,
+        "baseFats": 0.02
       },
       {
-        "name": "Cebolla",
-        "quantity": "75",
+        "name": "Guisantes",
+        "quantity": "50",
         "unit": "g",
-        "calories": 22.5,
-        "protein": 1.5,
-        "carbs": 3.75,
-        "fats": 0.15,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
+        "calories": 50,
+        "protein": 2.5,
+        "carbs": 5,
+        "fats": 2,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
       },
       {
-        "name": "Berenjena",
-        "quantity": "75",
+        "name": "Jamón York",
+        "quantity": "100",
         "unit": "g",
-        "calories": 22.5,
-        "protein": 1.5,
-        "carbs": 3.75,
-        "fats": 0.15,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Tomate Frito",
-        "quantity": "75",
-        "unit": "g",
-        "calories": 22.5,
-        "protein": 1.5,
-        "carbs": 3.75,
-        "fats": 0.15,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Queso Rallado",
-        "quantity": "40",
-        "unit": "g",
-        "calories": 140,
-        "protein": 10,
-        "carbs": 0.8,
-        "fats": 10,
-        "baseCalories": 3.5,
-        "baseProtein": 0.25,
+        "calories": 229.99999999999997,
+        "protein": 16,
+        "carbs": 2,
+        "fats": 18,
+        "baseCalories": 2.3,
+        "baseProtein": 0.16,
         "baseCarbs": 0.02,
-        "baseFats": 0.25
+        "baseFats": 0.18
       },
       {
-        "name": "Carne Picada Mixta (Ternera y Cerdo)",
-        "quantity": "150",
+        "name": "Maíz",
+        "quantity": "50",
         "unit": "g",
-        "calories": 330,
-        "protein": 33,
-        "carbs": 0,
-        "fats": 21.000000000000004,
-        "baseCalories": 2.2,
-        "baseProtein": 0.22,
-        "baseCarbs": 0,
-        "baseFats": 0.14
+        "calories": 50,
+        "protein": 2.5,
+        "carbs": 5,
+        "fats": 2,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
       },
       {
-        "name": "Aceite de Oliva Virgen Extra",
+        "name": "Aceite de Oliva Virgen",
         "quantity": "10",
         "unit": "g",
         "calories": 88.4,
@@ -738,8 +686,8 @@ const foodDatabase = {
         "baseFats": 1
       }
     ],
-    "preparation": "1. Precalentar el horno a 180°C. Pelar y cortar las patatas en rodajas finas (aproximadamente 0.5 cm). Cortar la berenjena en rodajas similares. Picar la cebolla. 2. En una sartén, calentar aceite y sofreír la cebolla hasta que esté blanda. Añadir la carne picada mixta y cocinar hasta que se dore. Escurrir el exceso de grasa. Incorporar tomate frito, sal, pimienta y orégano. Cocinar unos minutos. 3. En una fuente para horno, montar la musakka: colocar una capa de rodajas de patata en el fondo, luego una capa de rodajas de berenjena, y encima una capa de la mezcla de carne. Repetir las capas hasta terminar con una capa de patata o berenjena. 4. Opcional: cubrir con salsa bechamel y espolvorear con queso rallado. 5. Hornear durante 40-50 minutos, o hasta que las patatas y berenjenas estén tiernas y la superficie dorada. Dejar reposar unos minutos antes de servir.",
-    "originalBaseRecipeId": "cc_musakka_de_patata_al_horno_con_verduras_y_carne_picada"
+    "preparation": "1. Cocer el arroz y reservar. 2. Hacer una tortilla francesa con los huevos y cortarla en trocitos. 3. Saltear los guisantes y el maíz. 4. Cortar el jamón York en daditos. 5. Mezclar todos los ingredientes en una sartén o wok con un poco de salsa de soja (opcional) y saltear todo junto durante un par de minutos.",
+    "originalBaseRecipeId": "cc_arroz_tres_delicias"
   },
   "p2_m2": {
     "name": "Pimientos Salteados con Cebolla y Tomate Cherry.",
@@ -806,15 +754,15 @@ const foodDatabase = {
     "originalBaseRecipeId": "pp_pimientos_salteados_con_cebolla_y_tomate_cherry"
   },
   "p2_m3": {
-    "name": "Pechuga de Pavo a la Plancha",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684f003ef6c48dfc43a5bdb3.png",
+    "name": "Atún en Lata Escurrido",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68f27ede567571bbd55f023e.png",
     "calories": 408,
     "protein": 56,
     "carbs": 0,
     "fats": 18,
     "ingredients": [
       {
-        "name": "Pechuga de Pavo",
+        "name": "Atún en Conserva",
         "quantity": "200",
         "unit": "g",
         "calories": 320,
@@ -827,7 +775,7 @@ const foodDatabase = {
         "baseFats": 0.04
       },
       {
-        "name": "Aceite de Oliva Virgen Extra",
+        "name": "Aceite de Oliva Virgen",
         "quantity": "10",
         "unit": "g",
         "calories": 88.4,
@@ -840,8 +788,8 @@ const foodDatabase = {
         "baseFats": 1
       }
     ],
-    "preparation": "1. Si los filetes de pechuga de pavo son muy gruesos, se pueden abrir tipo libro o golpear ligeramente para que tengan un grosor más uniforme y se cocinen mejor. 2. Sazonar los filetes de pavo con sal, pimienta y tus especias favoritas. 3. Calentar una plancha o sartén antiadherente a fuego medio-alto con una gota de aceite de oliva. 4. Cocinar la pechuga de pavo durante unos 3-4 minutos por cada lado, o hasta que esté dorada por fuera y completamente cocida por dentro.",
-    "originalBaseRecipeId": "ac_pechuga_de_pavo_a_la_plancha"
+    "preparation": "Escurrir el aceite o el agua de la lata y servir.",
+    "originalBaseRecipeId": "ac_atn_en_lata_escurrido"
   },
   "p2_m4": {
     "name": "Fruta Densa (Plátano, Manzana)",
@@ -922,10 +870,10 @@ const foodDatabase = {
   "p3_m0": {
     "name": "Revuelto de Huevos con Jamón",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682ad5e1e819fcb589a8a30e.png",
-    "calories": 415,
-    "protein": 40,
+    "calories": 250,
+    "protein": 24,
     "carbs": 1,
-    "fats": 27,
+    "fats": 17,
     "ingredients": [
       {
         "name": "Huevos",
@@ -942,12 +890,12 @@ const foodDatabase = {
       },
       {
         "name": "Jamón Serrano",
-        "quantity": "150",
+        "quantity": "75",
         "unit": "g",
-        "calories": 330,
-        "protein": 33,
+        "calories": 165,
+        "protein": 16.5,
         "carbs": 0,
-        "fats": 21.000000000000004,
+        "fats": 10.500000000000002,
         "baseCalories": 2.2,
         "baseProtein": 0.22,
         "baseCarbs": 0,
@@ -958,173 +906,6 @@ const foodDatabase = {
     "originalBaseRecipeId": "des_revuelto_de_huevos_con_jamn"
   },
   "p3_m1": {
-    "name": "Solomillo de Cerdo con Verduras y Salsa de Soja",
-    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69fee46d7285562721e421f3.png",
-    "calories": 548,
-    "protein": 40,
-    "carbs": 15,
-    "fats": 35,
-    "ingredients": [
-      {
-        "name": "Solomillo de Cerdo",
-        "quantity": "150",
-        "unit": "g",
-        "calories": 330,
-        "protein": 33,
-        "carbs": 0,
-        "fats": 21.000000000000004,
-        "baseCalories": 2.2,
-        "baseProtein": 0.22,
-        "baseCarbs": 0,
-        "baseFats": 0.14
-      },
-      {
-        "name": "Verduras",
-        "quantity": "100",
-        "unit": "g",
-        "calories": 30,
-        "protein": 2,
-        "carbs": 5,
-        "fats": 0.2,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Salsa de Soja",
-        "quantity": "100",
-        "unit": "g",
-        "calories": 100,
-        "protein": 5,
-        "carbs": 10,
-        "fats": 4,
-        "baseCalories": 1,
-        "baseProtein": 0.05,
-        "baseCarbs": 0.1,
-        "baseFats": 0.04
-      },
-      {
-        "name": "Aceite de Oliva Virgen",
-        "quantity": "10",
-        "unit": "g",
-        "calories": 88.4,
-        "protein": 0,
-        "carbs": 0,
-        "fats": 10,
-        "baseCalories": 8.84,
-        "baseProtein": 0,
-        "baseCarbs": 0,
-        "baseFats": 1
-      }
-    ],
-    "preparation": "1. Saltear el solomillo troceado. 2. Añadir verduras y cocinar hasta que estén tiernas. 3. Añadir salsa de soja al final.",
-    "originalBaseRecipeId": "cc_solomillo_de_cerdo_con_verduras_y_salsa_de_soja"
-  },
-  "p3_m2": {
-    "name": "Fajitas de Pollo y Verduras",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afcef0ed50608b742ff33.png",
-    "calories": 687,
-    "protein": 57,
-    "carbs": 59,
-    "fats": 22,
-    "ingredients": [
-      {
-        "name": "Pan de Fajita",
-        "quantity": "2",
-        "unit": "rebanada",
-        "calories": 216,
-        "protein": 7.199999999999999,
-        "carbs": 40,
-        "fats": 2.4,
-        "baseCalories": 108,
-        "baseProtein": 3.5999999999999996,
-        "baseCarbs": 20,
-        "baseFats": 1.2
-      },
-      {
-        "name": "Tomate",
-        "quantity": "75",
-        "unit": "g",
-        "calories": 22.5,
-        "protein": 1.5,
-        "carbs": 3.75,
-        "fats": 0.15,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Pimiento Rojo",
-        "quantity": "75",
-        "unit": "g",
-        "calories": 22.5,
-        "protein": 1.5,
-        "carbs": 3.75,
-        "fats": 0.15,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Pimiento Verde",
-        "quantity": "75",
-        "unit": "g",
-        "calories": 22.5,
-        "protein": 1.5,
-        "carbs": 3.75,
-        "fats": 0.15,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Cebolla",
-        "quantity": "75",
-        "unit": "g",
-        "calories": 75,
-        "protein": 3.75,
-        "carbs": 7.5,
-        "fats": 3,
-        "baseCalories": 1,
-        "baseProtein": 0.05,
-        "baseCarbs": 0.1,
-        "baseFats": 0.04
-      },
-      {
-        "name": "Pechuga de Pollo",
-        "quantity": "150",
-        "unit": "g",
-        "calories": 240,
-        "protein": 42.00000000000001,
-        "carbs": 0,
-        "fats": 6,
-        "baseCalories": 1.6,
-        "baseProtein": 0.28,
-        "baseCarbs": 0,
-        "baseFats": 0.04
-      },
-      {
-        "name": "Aceite de Oliva Virgen",
-        "quantity": "10",
-        "unit": "g",
-        "calories": 88.4,
-        "protein": 0,
-        "carbs": 0,
-        "fats": 10,
-        "baseCalories": 8.84,
-        "baseProtein": 0,
-        "baseCarbs": 0,
-        "baseFats": 1
-      }
-    ],
-    "preparation": "1. Cortar la pechuga de pollo en tiras finas. Cortar el pimiento rojo, pimiento Verde y cebolla en juliana. Picar el tomate en dados pequeños. 2. Calentar un poco de aceite en una sartén grande. Saltear el pollo hasta que esté dorado y cocido. Retirar y reservar. 3. En la misma sartén, añadir un poco más de aceite si es necesario y saltear las verduras (pimientos y cebolla) hasta que estén tiernas pero crujientes. 4. Volver a añadir el pollo a la sartén con las verduras. Sazonar con especias para fajitas (opcional) o sal y pimienta. Mezclar bien. 5. Calentar las tortillas de fajita según las instrucciones del paquete. 6. Rellenar las tortillas con la mezcla de pollo y verduras, y añadir el tomate fresco picado por encima. Opcional: servir con guacamole, crema agria o salsa.",
-    "originalBaseRecipeId": "cc_fajitas_de_pollo_y_verduras"
-  },
-  "p3_m3": {
     "name": "Fruta Densa (Plátano, Manzana)",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe4bb91eb325b93d4a82.png",
     "calories": 90,
@@ -1149,7 +930,7 @@ const foodDatabase = {
     "preparation": "1. Seleccionar la fruta densa de preferencia. 2. Para plátanos: pelar la piel y consumir directamente. 3. Para manzanas o peras: lavar bien la fruta. Se puede consumir con piel o pelada.",
     "originalBaseRecipeId": "ext_fruta_densa_pltano_manzana"
   },
-  "p3_m4": {
+  "p3_m2": {
     "name": "Frutos Secos (Mezcla)",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68525c0b1d27cfeb580a55f7.png",
     "calories": 65,
@@ -1199,6 +980,198 @@ const foodDatabase = {
     ],
     "preparation": "Consumir directamente como un snack energético y nutritivo.",
     "originalBaseRecipeId": "ext_frutos_secos_mezcla"
+  },
+  "p3_m3": {
+    "name": "Solomillo de Ternera con Pimientos Salteados",
+    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/699b48a055d8bc3caf4b1f0b.png",
+    "calories": 667,
+    "protein": 42,
+    "carbs": 20,
+    "fats": 45,
+    "ingredients": [
+      {
+        "name": "Solomillo de Ternera",
+        "quantity": "150",
+        "unit": "g",
+        "calories": 330,
+        "protein": 33,
+        "carbs": 0,
+        "fats": 21.000000000000004,
+        "baseCalories": 2.2,
+        "baseProtein": 0.22,
+        "baseCarbs": 0,
+        "baseFats": 0.14
+      },
+      {
+        "name": "Pimiento Rojo",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 30,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Pimiento Verde",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 30,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Cebolla",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 100,
+        "protein": 5,
+        "carbs": 10,
+        "fats": 4,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Aceite de Oliva Virgen Extra",
+        "quantity": "10",
+        "unit": "g",
+        "calories": 88.4,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 10,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1
+      },
+      {
+        "name": "Aceite de Oliva Virgen",
+        "quantity": "10",
+        "unit": "g",
+        "calories": 88.4,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 10,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1
+      }
+    ],
+    "preparation": "1. Cortar los pimientos y la cebolla en tiras. 2. Saltear las verduras en una sartén con aceite hasta que estén tiernas. 3. Cocinar el solomillo de ternera a la plancha al punto deseado. 4. Servir el solomillo acompañado de los pimientos salteados.",
+    "originalBaseRecipeId": "cc_solomillo_de_ternera_con_pimientos_salteados"
+  },
+  "p3_m4": {
+    "name": "Crema de Verduras Variadas",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cd68425d68cc771ebd10a.png",
+    "calories": 318,
+    "protein": 12,
+    "carbs": 25,
+    "fats": 18,
+    "ingredients": [
+      {
+        "name": "Calabaza",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 100,
+        "protein": 5,
+        "carbs": 10,
+        "fats": 4,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Tomate",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 30,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Cebolla",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 100,
+        "protein": 5,
+        "carbs": 10,
+        "fats": 4,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Aceite de Oliva Virgen",
+        "quantity": "10",
+        "unit": "g",
+        "calories": 88.4,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 10,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1
+      }
+    ],
+    "preparation": "1. Puedes comprar una crema preparada o bien cocinar unas cuantas verduras en una olla.",
+    "originalBaseRecipeId": "pp_crema_de_verduras_variadas"
+  },
+  "p3_m5": {
+    "name": "Pechuga de Pollo a Tiras",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68f27f90fb2e446db8a380a9.png",
+    "calories": 328,
+    "protein": 42,
+    "carbs": 0,
+    "fats": 16,
+    "ingredients": [
+      {
+        "name": "Pechuga de Pollo",
+        "quantity": "150",
+        "unit": "g",
+        "calories": 240,
+        "protein": 42.00000000000001,
+        "carbs": 0,
+        "fats": 6,
+        "baseCalories": 1.6,
+        "baseProtein": 0.28,
+        "baseCarbs": 0,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Aceite de Oliva Virgen",
+        "quantity": "10",
+        "unit": "g",
+        "calories": 88.4,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 10,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1
+      }
+    ],
+    "preparation": "Cocinar la pechuga de pollo a la plancha o cocida y cortar en tiras. Servir solo o añadir a otros platos.",
+    "originalBaseRecipeId": "ac_pechuga_de_pollo_a_tiras"
   }
 };
 const dailyMenus = [
@@ -1222,12 +1195,12 @@ const dailyMenus = [
       "p0_m1"
     ],
     "cena": [
-      "p0_m2",
-      "p0_m3"
-    ],
-    "extra": [
       "p0_m4",
       "p0_m5"
+    ],
+    "extra": [
+      "p0_m2",
+      "p0_m3"
     ]
   },
   {
@@ -1303,14 +1276,15 @@ const dailyMenus = [
       "p3_m0"
     ],
     "comida": [
-      "p3_m1"
+      "p3_m3"
     ],
     "cena": [
-      "p3_m2"
+      "p3_m4",
+      "p3_m5"
     ],
     "extra": [
-      "p3_m3",
-      "p3_m4"
+      "p3_m1",
+      "p3_m2"
     ]
   }
 ];
