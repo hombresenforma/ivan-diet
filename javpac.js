@@ -578,19 +578,19 @@ const foodDatabase = {
   "p2_m1": {
     "name": "Musakka de Patata al horno con verduras y carne picada",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684efda5653a2c17a7172d67.png",
-    "calories": 740,
-    "protein": 45,
-    "carbs": 52,
-    "fats": 37,
+    "calories": 761,
+    "protein": 51,
+    "carbs": 42,
+    "fats": 42,
     "ingredients": [
       {
         "name": "Patata",
-        "quantity": "200",
+        "quantity": "150",
         "unit": "g",
-        "calories": 180,
-        "protein": 4,
-        "carbs": 40,
-        "fats": 0.2,
+        "calories": 135,
+        "protein": 3,
+        "carbs": 30,
+        "fats": 0.15,
         "baseCalories": 0.9,
         "baseProtein": 0.02,
         "baseCarbs": 0.2,
@@ -650,12 +650,12 @@ const foodDatabase = {
       },
       {
         "name": "Carne Picada Mixta (Ternera y Cerdo)",
-        "quantity": "120",
+        "quantity": "150",
         "unit": "g",
-        "calories": 264,
-        "protein": 26.4,
+        "calories": 330,
+        "protein": 33,
         "carbs": 0,
-        "fats": 16.8,
+        "fats": 21.000000000000004,
         "baseCalories": 2.2,
         "baseProtein": 0.22,
         "baseCarbs": 0,
@@ -679,57 +679,6 @@ const foodDatabase = {
     "originalBaseRecipeId": "cc_musakka_de_patata_al_horno_con_verduras_y_carne_picada"
   },
   "p2_m2": {
-    "name": "Cuscús con Atún y Verduras",
-    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69b512c9bfc81fa0930b4288.png",
-    "calories": 465,
-    "protein": 64,
-    "carbs": 18,
-    "fats": 12,
-    "ingredients": [
-      {
-        "name": "Cuscús",
-        "quantity": "100",
-        "unit": "g",
-        "calories": 100,
-        "protein": 5,
-        "carbs": 10,
-        "fats": 4,
-        "baseCalories": 1,
-        "baseProtein": 0.05,
-        "baseCarbs": 0.1,
-        "baseFats": 0.04
-      },
-      {
-        "name": "Atún",
-        "quantity": "200",
-        "unit": "g",
-        "calories": 320,
-        "protein": 56.00000000000001,
-        "carbs": 0,
-        "fats": 8,
-        "baseCalories": 1.6,
-        "baseProtein": 0.28,
-        "baseCarbs": 0,
-        "baseFats": 0.04
-      },
-      {
-        "name": "Verduras Variadas",
-        "quantity": "150",
-        "unit": "g",
-        "calories": 45,
-        "protein": 3,
-        "carbs": 7.5,
-        "fats": 0.3,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
-      }
-    ],
-    "preparation": "1. Hidratar el cuscús. 2. Saltear las verduras y añadir el atún. 3. Mezclar con el cuscús.",
-    "originalBaseRecipeId": "cc_cuscs_con_atn_y_verduras"
-  },
-  "p2_m3": {
     "name": "Frutos Secos (Mezcla)",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68525c0b1d27cfeb580a55f7.png",
     "calories": 203,
@@ -779,6 +728,96 @@ const foodDatabase = {
     ],
     "preparation": "Consumir directamente como un snack energético y nutritivo.",
     "originalBaseRecipeId": "ext_frutos_secos_mezcla"
+  },
+  "p2_m3": {
+    "name": "Gazpacho",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cfbad25d68cc1a4ec3688.png",
+    "calories": 448,
+    "protein": 19,
+    "carbs": 40,
+    "fats": 22,
+    "ingredients": [
+      {
+        "name": "Tomate",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 30,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Pepino",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 100,
+        "protein": 5,
+        "carbs": 10,
+        "fats": 4,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Pimiento",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 30,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Cebolla",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 100,
+        "protein": 5,
+        "carbs": 10,
+        "fats": 4,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Ajo",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 100,
+        "protein": 5,
+        "carbs": 10,
+        "fats": 4,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Aceite de Oliva Virgen",
+        "quantity": "10",
+        "unit": "g",
+        "calories": 88.4,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 10,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1
+      }
+    ],
+    "preparation": "1. Trocear todas las verduras. 2. Poner todos los ingredientes en una batidora junto con aceite, vinagre y sal. 3. Triturar hasta obtener una sopa fina. 4. Enfriar en la nevera antes de servir. Puedes comprarlo preparado si lo prefieres.",
+    "originalBaseRecipeId": "pp_gazpacho"
   },
   "p3_m0": {
     "name": "Sandwich Vegetal de Atún",
@@ -1356,146 +1395,6 @@ const foodDatabase = {
     "originalBaseRecipeId": "des_tostada_de_pan_de_centeno_con_revuelto_de_huevos_y_jamn_york"
   },
   "p5_m1": {
-    "name": "Pimientos Salteados con Cebolla y Tomate Cherry.",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cd7144d6fb7451eb7bbf9.png",
-    "calories": 248,
-    "protein": 9,
-    "carbs": 20,
-    "fats": 14,
-    "ingredients": [
-      {
-        "name": "Pimiento Rojo",
-        "quantity": "100",
-        "unit": "g",
-        "calories": 30,
-        "protein": 2,
-        "carbs": 5,
-        "fats": 0.2,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Cebolla",
-        "quantity": "100",
-        "unit": "g",
-        "calories": 100,
-        "protein": 5,
-        "carbs": 10,
-        "fats": 4,
-        "baseCalories": 1,
-        "baseProtein": 0.05,
-        "baseCarbs": 0.1,
-        "baseFats": 0.04
-      },
-      {
-        "name": "Tomate Cherry",
-        "quantity": "100",
-        "unit": "g",
-        "calories": 30,
-        "protein": 2,
-        "carbs": 5,
-        "fats": 0.2,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Aceite de Oliva Virgen",
-        "quantity": "10",
-        "unit": "g",
-        "calories": 88.4,
-        "protein": 0,
-        "carbs": 0,
-        "fats": 10,
-        "baseCalories": 8.84,
-        "baseProtein": 0,
-        "baseCarbs": 0,
-        "baseFats": 1
-      }
-    ],
-    "preparation": "1. Lavar las verduras y cortarlas a láminas finas a lo largo. 2. Poner un poco de aceite en una sartén y saltear las verduras.",
-    "originalBaseRecipeId": "pp_pimientos_salteados_con_cebolla_y_tomate_cherry"
-  },
-  "p5_m2": {
-    "name": "Fruta Densa (Plátano, Manzana, Pera)",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe4bb91eb325b93d4a82.png",
-    "calories": 180,
-    "protein": 2,
-    "carbs": 45,
-    "fats": 1,
-    "ingredients": [
-      {
-        "name": "Plátano",
-        "quantity": "1",
-        "unit": "ud",
-        "calories": 90,
-        "protein": 0.75,
-        "carbs": 22.5,
-        "fats": 0.3,
-        "baseCalories": 90,
-        "baseProtein": 0.75,
-        "baseCarbs": 22.5,
-        "baseFats": 0.3
-      },
-      {
-        "name": "Manzana",
-        "quantity": "1",
-        "unit": "ud",
-        "calories": 90,
-        "protein": 0.75,
-        "carbs": 22.5,
-        "fats": 0.3,
-        "baseCalories": 90,
-        "baseProtein": 0.75,
-        "baseCarbs": 22.5,
-        "baseFats": 0.3
-      }
-    ],
-    "preparation": "1. Seleccionar la fruta densa de preferencia. 2. Para plátanos: pelar la piel y consumir directamente. 3. Para manzanas o peras: lavar bien la fruta. Se puede consumir con piel o pelada.",
-    "originalBaseRecipeId": "ext_fruta_densa_pltano_manzana_pera"
-  },
-  "p5_m3": {
-    "name": "Pechuga de Pavo a la Plancha",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684f003ef6c48dfc43a5bdb3.png",
-    "calories": 284,
-    "protein": 42,
-    "carbs": 0,
-    "fats": 11,
-    "ingredients": [
-      {
-        "name": "Pechuga de Pavo",
-        "quantity": "150",
-        "unit": "g",
-        "calories": 240,
-        "protein": 42.00000000000001,
-        "carbs": 0,
-        "fats": 6,
-        "baseCalories": 1.6,
-        "baseProtein": 0.28,
-        "baseCarbs": 0,
-        "baseFats": 0.04
-      },
-      {
-        "name": "Aceite de Oliva Virgen",
-        "quantity": "5",
-        "unit": "g",
-        "calories": 44.2,
-        "protein": 0,
-        "carbs": 0,
-        "fats": 5,
-        "baseCalories": 8.84,
-        "baseProtein": 0,
-        "baseCarbs": 0,
-        "baseFats": 1
-      }
-    ],
-    "preparation": "1. Si los filetes de pechuga de pavo son muy gruesos, se pueden abrir tipo libro o golpear ligeramente para que tengan un grosor más uniforme y se cocinen mejor. 2. Sazonar los filetes de pavo con sal, pimienta y tus especias favoritas. 3. Calentar una plancha o sartén antiadherente a fuego medio-alto con una gota de aceite de oliva. 4. Cocinar la pechuga de pavo durante unos 3-4 minutos por cada lado, o hasta que esté dorada por fuera y completamente cocida por dentro.",
-    "originalBaseRecipeId": "ac_pechuga_de_pavo_a_la_plancha"
-  },
-  "p5_m4": {
     "name": "Solomillo de Ternera con Pimientos Salteados",
     "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/699b48a055d8bc3caf4b1f0b.png",
     "calories": 578,
@@ -1571,6 +1470,146 @@ const foodDatabase = {
     ],
     "preparation": "1. Cortar los pimientos y la cebolla en tiras. 2. Saltear las verduras en una sartén con aceite hasta que estén tiernas. 3. Cocinar el solomillo de ternera a la plancha al punto deseado. 4. Servir el solomillo acompañado de los pimientos salteados.",
     "originalBaseRecipeId": "cc_solomillo_de_ternera_con_pimientos_salteados"
+  },
+  "p5_m2": {
+    "name": "Pimientos Salteados con Cebolla y Tomate Cherry.",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cd7144d6fb7451eb7bbf9.png",
+    "calories": 248,
+    "protein": 9,
+    "carbs": 20,
+    "fats": 14,
+    "ingredients": [
+      {
+        "name": "Pimiento Rojo",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 30,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Cebolla",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 100,
+        "protein": 5,
+        "carbs": 10,
+        "fats": 4,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Tomate Cherry",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 30,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Aceite de Oliva Virgen",
+        "quantity": "10",
+        "unit": "g",
+        "calories": 88.4,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 10,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1
+      }
+    ],
+    "preparation": "1. Lavar las verduras y cortarlas a láminas finas a lo largo. 2. Poner un poco de aceite en una sartén y saltear las verduras.",
+    "originalBaseRecipeId": "pp_pimientos_salteados_con_cebolla_y_tomate_cherry"
+  },
+  "p5_m3": {
+    "name": "Pechuga de Pavo a la Plancha",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684f003ef6c48dfc43a5bdb3.png",
+    "calories": 284,
+    "protein": 42,
+    "carbs": 0,
+    "fats": 11,
+    "ingredients": [
+      {
+        "name": "Pechuga de Pavo",
+        "quantity": "150",
+        "unit": "g",
+        "calories": 240,
+        "protein": 42.00000000000001,
+        "carbs": 0,
+        "fats": 6,
+        "baseCalories": 1.6,
+        "baseProtein": 0.28,
+        "baseCarbs": 0,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Aceite de Oliva Virgen",
+        "quantity": "5",
+        "unit": "g",
+        "calories": 44.2,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 5,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1
+      }
+    ],
+    "preparation": "1. Si los filetes de pechuga de pavo son muy gruesos, se pueden abrir tipo libro o golpear ligeramente para que tengan un grosor más uniforme y se cocinen mejor. 2. Sazonar los filetes de pavo con sal, pimienta y tus especias favoritas. 3. Calentar una plancha o sartén antiadherente a fuego medio-alto con una gota de aceite de oliva. 4. Cocinar la pechuga de pavo durante unos 3-4 minutos por cada lado, o hasta que esté dorada por fuera y completamente cocida por dentro.",
+    "originalBaseRecipeId": "ac_pechuga_de_pavo_a_la_plancha"
+  },
+  "p5_m4": {
+    "name": "Fruta Densa (Plátano, Manzana, Pera)",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe4bb91eb325b93d4a82.png",
+    "calories": 180,
+    "protein": 2,
+    "carbs": 45,
+    "fats": 1,
+    "ingredients": [
+      {
+        "name": "Plátano",
+        "quantity": "1",
+        "unit": "ud",
+        "calories": 90,
+        "protein": 0.75,
+        "carbs": 22.5,
+        "fats": 0.3,
+        "baseCalories": 90,
+        "baseProtein": 0.75,
+        "baseCarbs": 22.5,
+        "baseFats": 0.3
+      },
+      {
+        "name": "Manzana",
+        "quantity": "1",
+        "unit": "ud",
+        "calories": 90,
+        "protein": 0.75,
+        "carbs": 22.5,
+        "fats": 0.3,
+        "baseCalories": 90,
+        "baseProtein": 0.75,
+        "baseCarbs": 22.5,
+        "baseFats": 0.3
+      }
+    ],
+    "preparation": "1. Seleccionar la fruta densa de preferencia. 2. Para plátanos: pelar la piel y consumir directamente. 3. Para manzanas o peras: lavar bien la fruta. Se puede consumir con piel o pelada.",
+    "originalBaseRecipeId": "ext_fruta_densa_pltano_manzana_pera"
   }
 };
 const dailyMenus = [
@@ -1648,10 +1687,10 @@ const dailyMenus = [
       "p2_m1"
     ],
     "cena": [
-      "p2_m2"
+      "p2_m3"
     ],
     "extra": [
-      "p2_m3"
+      "p2_m2"
     ]
   },
   {
@@ -1724,14 +1763,14 @@ const dailyMenus = [
       "p5_m0"
     ],
     "comida": [
-      "p5_m4"
+      "p5_m1"
     ],
     "cena": [
-      "p5_m1",
+      "p5_m2",
       "p5_m3"
     ],
     "extra": [
-      "p5_m2"
+      "p5_m4"
     ]
   }
 ];
