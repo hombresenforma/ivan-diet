@@ -93,19 +93,19 @@ const foodDatabase = {
   "p0_m2": {
     "name": "Ensalada de Lentejas",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682aff5a365e949c0a73d706.png",
-    "calories": 638,
-    "protein": 24,
-    "carbs": 56,
-    "fats": 35,
+    "calories": 585,
+    "protein": 21,
+    "carbs": 48,
+    "fats": 34,
     "ingredients": [
       {
         "name": "Lentejas Cocidas",
-        "quantity": "150",
+        "quantity": "125",
         "unit": "g",
-        "calories": 195,
-        "protein": 12,
-        "carbs": 33,
-        "fats": 0.75,
+        "calories": 162.5,
+        "protein": 10,
+        "carbs": 27.5,
+        "fats": 0.625,
         "baseCalories": 1.3,
         "baseProtein": 0.08,
         "baseCarbs": 0.22,
@@ -113,12 +113,12 @@ const foodDatabase = {
       },
       {
         "name": "Tomate",
-        "quantity": "100",
+        "quantity": "80",
         "unit": "g",
-        "calories": 30,
-        "protein": 2,
-        "carbs": 5,
-        "fats": 0.2,
+        "calories": 24,
+        "protein": 1.6,
+        "carbs": 4,
+        "fats": 0.16,
         "baseCalories": 0.3,
         "baseProtein": 0.02,
         "baseCarbs": 0.05,
@@ -126,12 +126,12 @@ const foodDatabase = {
       },
       {
         "name": "Cebolla",
-        "quantity": "100",
+        "quantity": "85",
         "unit": "g",
-        "calories": 100,
-        "protein": 5,
-        "carbs": 10,
-        "fats": 4,
+        "calories": 85,
+        "protein": 4.25,
+        "carbs": 8.5,
+        "fats": 3.4,
         "baseCalories": 1,
         "baseProtein": 0.05,
         "baseCarbs": 0.1,
@@ -398,19 +398,19 @@ const foodDatabase = {
   "p1_m1": {
     "name": "Ensala de Patata, Atún y Huevo",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afc08b91eb31afe3d4796.png",
-    "calories": 760,
-    "protein": 69,
-    "carbs": 71,
-    "fats": 20,
+    "calories": 667,
+    "protein": 59,
+    "carbs": 61,
+    "fats": 19,
     "ingredients": [
       {
         "name": "Patata",
-        "quantity": "250",
+        "quantity": "200",
         "unit": "g",
-        "calories": 225,
-        "protein": 5,
-        "carbs": 50,
-        "fats": 0.25,
+        "calories": 180,
+        "protein": 4,
+        "carbs": 40,
+        "fats": 0.2,
         "baseCalories": 0.9,
         "baseProtein": 0.02,
         "baseCarbs": 0.2,
@@ -483,12 +483,12 @@ const foodDatabase = {
       },
       {
         "name": "Atún en Conserva",
-        "quantity": "150",
+        "quantity": "120",
         "unit": "g",
-        "calories": 240,
-        "protein": 42.00000000000001,
+        "calories": 192,
+        "protein": 33.6,
         "carbs": 0,
-        "fats": 6,
+        "fats": 4.8,
         "baseCalories": 1.6,
         "baseProtein": 0.28,
         "baseCarbs": 0,
@@ -691,19 +691,19 @@ const foodDatabase = {
   "p2_m1": {
     "name": "Musakka de Patata al horno con verduras y carne picada",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684efda5653a2c17a7172d67.png",
-    "calories": 740,
-    "protein": 45,
-    "carbs": 52,
-    "fats": 37,
+    "calories": 687,
+    "protein": 40,
+    "carbs": 50,
+    "fats": 35,
     "ingredients": [
       {
         "name": "Patata",
-        "quantity": "200",
+        "quantity": "190",
         "unit": "g",
-        "calories": 180,
-        "protein": 4,
-        "carbs": 40,
-        "fats": 0.2,
+        "calories": 171,
+        "protein": 3.8000000000000003,
+        "carbs": 38,
+        "fats": 0.19,
         "baseCalories": 0.9,
         "baseProtein": 0.02,
         "baseCarbs": 0.2,
@@ -763,12 +763,12 @@ const foodDatabase = {
       },
       {
         "name": "Carne Picada Mixta (Ternera y Cerdo)",
-        "quantity": "120",
+        "quantity": "100",
         "unit": "g",
-        "calories": 264,
-        "protein": 26.4,
+        "calories": 220.00000000000003,
+        "protein": 22,
         "carbs": 0,
-        "fats": 16.8,
+        "fats": 14.000000000000002,
         "baseCalories": 2.2,
         "baseProtein": 0.22,
         "baseCarbs": 0,
@@ -858,19 +858,19 @@ const foodDatabase = {
   "p2_m3": {
     "name": "Pechuga de Pavo a la Plancha",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684f003ef6c48dfc43a5bdb3.png",
-    "calories": 328,
-    "protein": 42,
+    "calories": 392,
+    "protein": 53,
     "carbs": 0,
-    "fats": 16,
+    "fats": 18,
     "ingredients": [
       {
         "name": "Pechuga de Pavo",
-        "quantity": "150",
+        "quantity": "190",
         "unit": "g",
-        "calories": 240,
-        "protein": 42.00000000000001,
+        "calories": 304,
+        "protein": 53.2,
         "carbs": 0,
-        "fats": 6,
+        "fats": 7.6000000000000005,
         "baseCalories": 1.6,
         "baseProtein": 0.28,
         "baseCarbs": 0,
@@ -1036,19 +1036,19 @@ const foodDatabase = {
   "p3_m1": {
     "name": "Pasta de lentejas con sofrito de ternera y cerdo",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684efc77653a2c50f9172c7c.png",
-    "calories": 635,
-    "protein": 43,
-    "carbs": 40,
-    "fats": 32,
+    "calories": 565,
+    "protein": 37,
+    "carbs": 36,
+    "fats": 29,
     "ingredients": [
       {
         "name": "Pasta de Lentejas",
-        "quantity": "120",
+        "quantity": "100",
         "unit": "g",
-        "calories": 156,
-        "protein": 9.6,
-        "carbs": 26.4,
-        "fats": 0.6,
+        "calories": 130,
+        "protein": 8,
+        "carbs": 22,
+        "fats": 0.5,
         "baseCalories": 1.3,
         "baseProtein": 0.08,
         "baseCarbs": 0.22,
@@ -1056,12 +1056,12 @@ const foodDatabase = {
       },
       {
         "name": "Carne Picada Mixta (Ternera y Cerdo)",
-        "quantity": "120",
+        "quantity": "100",
         "unit": "g",
-        "calories": 264,
-        "protein": 26.4,
+        "calories": 220.00000000000003,
+        "protein": 22,
         "carbs": 0,
-        "fats": 16.8,
+        "fats": 14.000000000000002,
         "baseCalories": 2.2,
         "baseProtein": 0.22,
         "baseCarbs": 0,
@@ -1214,6 +1214,44 @@ const foodDatabase = {
     "originalBaseRecipeId": "pp_gazpacho"
   },
   "p3_m3": {
+    "name": "Pechuga de Pollo a la Plancha",
+    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69b66b3087f0f2415505fc9a.png",
+    "calories": 280,
+    "protein": 34,
+    "carbs": 0,
+    "fats": 15,
+    "ingredients": [
+      {
+        "name": "Pechuga de Pollo",
+        "quantity": "120",
+        "unit": "g",
+        "calories": 192,
+        "protein": 33.6,
+        "carbs": 0,
+        "fats": 4.8,
+        "baseCalories": 1.6,
+        "baseProtein": 0.28,
+        "baseCarbs": 0,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Aceite de Oliva Virgen",
+        "quantity": "10",
+        "unit": "g",
+        "calories": 88.4,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 10,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1
+      }
+    ],
+    "preparation": "1. Sazonar la pechuga de pollo con sal, pimienta y especias al gusto. 2. Calentar una plancha o sartén antiadherente con una gota de aceite. 3. Cocinar la pechuga hasta que esté dorada por fuera y cocida por dentro.",
+    "originalBaseRecipeId": "ac_pechuga_de_pollo_a_la_plancha"
+  },
+  "p3_m4": {
     "name": "Tortitas de Legumbres (Mercadona)",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682affdd9b8ed3082d7cbefc.png",
     "calories": 100,
@@ -1237,49 +1275,11 @@ const foodDatabase = {
     ],
     "preparation": "1. Abrir el paquete de tortitas de legumbres. 2. Consumir directamente como snack crujiente. Son ideales para picar entre horas.",
     "originalBaseRecipeId": "ext_tortitas_de_legumbres_mercadona"
-  },
-  "p3_m4": {
-    "name": "Pechuga de Pollo a la Plancha",
-    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69b66b3087f0f2415505fc9a.png",
-    "calories": 328,
-    "protein": 42,
-    "carbs": 0,
-    "fats": 16,
-    "ingredients": [
-      {
-        "name": "Pechuga de Pollo",
-        "quantity": "150",
-        "unit": "g",
-        "calories": 240,
-        "protein": 42.00000000000001,
-        "carbs": 0,
-        "fats": 6,
-        "baseCalories": 1.6,
-        "baseProtein": 0.28,
-        "baseCarbs": 0,
-        "baseFats": 0.04
-      },
-      {
-        "name": "Aceite de Oliva Virgen",
-        "quantity": "10",
-        "unit": "g",
-        "calories": 88.4,
-        "protein": 0,
-        "carbs": 0,
-        "fats": 10,
-        "baseCalories": 8.84,
-        "baseProtein": 0,
-        "baseCarbs": 0,
-        "baseFats": 1
-      }
-    ],
-    "preparation": "1. Sazonar la pechuga de pollo con sal, pimienta y especias al gusto. 2. Calentar una plancha o sartén antiadherente con una gota de aceite. 3. Cocinar la pechuga hasta que esté dorada por fuera y cocida por dentro.",
-    "originalBaseRecipeId": "ac_pechuga_de_pollo_a_la_plancha"
   }
 };
 const dailyMenus = [
   {
-    "name": "Opciones 1",
+    "name": "Entreno 1",
     "targetMacros": {
       "calories": 1700,
       "protein": 140,
@@ -1309,7 +1309,7 @@ const dailyMenus = [
     ]
   },
   {
-    "name": "Opciones 2",
+    "name": "Libre 1",
     "targetMacros": {
       "calories": 1700,
       "protein": 140,
@@ -1337,7 +1337,7 @@ const dailyMenus = [
     ]
   },
   {
-    "name": "Opciones 3",
+    "name": "Entreno 2",
     "targetMacros": {
       "calories": 1800,
       "protein": 150,
@@ -1365,7 +1365,7 @@ const dailyMenus = [
     ]
   },
   {
-    "name": "Día 4",
+    "name": "Libre 2",
     "targetMacros": {
       "calories": 1800,
       "protein": 150,
@@ -1385,10 +1385,10 @@ const dailyMenus = [
     ],
     "cena": [
       "p3_m2",
-      "p3_m4"
+      "p3_m3"
     ],
     "extra": [
-      "p3_m3"
+      "p3_m4"
     ]
   }
 ];
