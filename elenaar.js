@@ -1,5 +1,5 @@
 // Titulo: Plan de Alimentación
-// Alergias: 
+// Alergias: const foodDatabase = {
 const foodDatabase = {
   "p0_m0": {
     "name": "Pan wasa con Huevo, Aguacate y Cherries",
@@ -2265,6 +2265,137 @@ const foodDatabase = {
     ],
     "preparation": "1. Saltear el solomillo troceado. 2. Añadir verduras y cocinar hasta que estén tiernas. 3. Añadir salsa de soja al final.",
     "originalBaseRecipeId": "cc_solomillo_de_cerdo_con_verduras_y_salsa_de_soja"
+  },
+  "custom_1787215381409": {
+    "name": "Pechuga de Pollo a Tiras",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68f27f90fb2e446db8a380a9.png",
+    "calories": 224,
+    "protein": 42,
+    "carbs": 0,
+    "fats": 0,
+    "ingredients": [
+      {
+        "name": "Pechuga de Pollo",
+        "quantity": "140",
+        "unit": "g",
+        "calories": 224,
+        "protein": 42,
+        "carbs": 0,
+        "fats": 0,
+        "baseCalories": 1.6,
+        "baseProtein": 0.3,
+        "baseCarbs": 0,
+        "baseFats": 0,
+        "category": "lean_protein"
+      }
+    ],
+    "preparation": "Cocinar la pechuga de pollo a la plancha o cocida y cortar en tiras. Servir solo o añadir a otros platos."
+  },
+  "custom_1787215398018": {
+    "name": "Pimientos Salteados con Cebolla y Tomate Cherry.",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cd7144d6fb7451eb7bbf9.png",
+    "calories": 45,
+    "protein": 3,
+    "carbs": 8,
+    "fats": 0,
+    "ingredients": [
+      {
+        "name": "Pimiento Rojo",
+        "quantity": "50",
+        "unit": "g",
+        "calories": 15,
+        "protein": 1,
+        "carbs": 2.5,
+        "fats": 0.1,
+        "baseCalories": 0.3,
+        "baseProtein": 0,
+        "baseCarbs": 0.1,
+        "baseFats": 0,
+        "category": "default_veg"
+      },
+      {
+        "name": "Cebolla",
+        "quantity": "40",
+        "unit": "g",
+        "calories": 12,
+        "protein": 0.8,
+        "carbs": 2,
+        "fats": 0.1,
+        "baseCalories": 0.3,
+        "baseProtein": 0,
+        "baseCarbs": 0.1,
+        "baseFats": 0,
+        "category": "default_veg"
+      },
+      {
+        "name": "Tomate Cherry",
+        "quantity": "60",
+        "unit": "g",
+        "calories": 18,
+        "protein": 1.2,
+        "carbs": 3,
+        "fats": 0.1,
+        "baseCalories": 0.3,
+        "baseProtein": 0,
+        "baseCarbs": 0.1,
+        "baseFats": 0,
+        "category": "default_veg"
+      }
+    ],
+    "preparation": "1. Lavar las verduras y cortarlas a láminas finas a lo largo. 2. Poner un poco de aceite en una sartén y saltear las verduras."
+  },
+  "custom_1787215409668": {
+    "name": "Fruta Densa (Plátano, Manzana, Pera)",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe4bb91eb325b93d4a82.png",
+    "calories": 90,
+    "protein": 1,
+    "carbs": 23,
+    "fats": 0,
+    "ingredients": [
+      {
+        "name": "Plátano",
+        "quantity": "1",
+        "unit": "ud",
+        "calories": 90,
+        "protein": 0.8,
+        "carbs": 22.5,
+        "fats": 0.3,
+        "baseCalories": 90,
+        "baseProtein": 0.8,
+        "baseCarbs": 22.5,
+        "baseFats": 0.3,
+        "category": "default_fruit"
+      },
+      {
+        "name": "Manzana",
+        "quantity": "0",
+        "unit": "ud",
+        "calories": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 0,
+        "baseCalories": 90,
+        "baseProtein": 0.8,
+        "baseCarbs": 22.5,
+        "baseFats": 0.3,
+        "category": "default_fruit"
+      },
+      {
+        "name": "Pera",
+        "quantity": "0",
+        "unit": "ud",
+        "calories": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 0,
+        "baseCalories": 90,
+        "baseProtein": 0.8,
+        "baseCarbs": 22.5,
+        "baseFats": 0.3,
+        "category": "default_fruit"
+      }
+    ],
+    "preparation": "1. Seleccionar la fruta densa de preferencia. 2. Para plátanos: pelar la piel y consumir directamente. 3. Para manzanas o peras: lavar bien la fruta. Se puede consumir con piel o pelada."
   }
 };
 const dailyMenus = [
@@ -2283,14 +2414,14 @@ const dailyMenus = [
     },
     "desayuno": [
       "p0_m0",
-      "p0_m4"
+      "custom_1787215409668"
     ],
     "comida": [
       "p0_m1"
     ],
     "cena": [
-      "p0_m2",
-      "p0_m6"
+      "custom_1787215398018",
+      "custom_1787215381409"
     ],
     "extra": [
       "p0_m3",
