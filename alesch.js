@@ -1124,73 +1124,34 @@ const foodDatabase = {
     "originalBaseRecipeId": "cc_pasta_de_lentejas_con_sofrito_de_ternera_y_cerdo"
   },
   "p3_m2": {
-    "name": "Gazpacho",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cfbad25d68cc1a4ec3688.png",
-    "calories": 448,
-    "protein": 19,
-    "carbs": 40,
-    "fats": 22,
+    "name": "Patatas Gajo al Horno o Air Fryer",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cd8b854a1885423545b10.png",
+    "calories": 236,
+    "protein": 4,
+    "carbs": 28,
+    "fats": 12,
     "ingredients": [
       {
-        "name": "Tomate",
-        "quantity": "100",
+        "name": "Patatas",
+        "quantity": "120",
         "unit": "g",
-        "calories": 30,
-        "protein": 2,
-        "carbs": 5,
-        "fats": 0.2,
-        "baseCalories": 0.3,
+        "calories": 108,
+        "protein": 2.4,
+        "carbs": 24,
+        "fats": 0.12,
+        "baseCalories": 0.9,
         "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Pepino",
-        "quantity": "100",
-        "unit": "g",
-        "calories": 100,
-        "protein": 5,
-        "carbs": 10,
-        "fats": 4,
-        "baseCalories": 1,
-        "baseProtein": 0.05,
-        "baseCarbs": 0.1,
-        "baseFats": 0.04
-      },
-      {
-        "name": "Pimiento",
-        "quantity": "100",
-        "unit": "g",
-        "calories": 30,
-        "protein": 2,
-        "carbs": 5,
-        "fats": 0.2,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
+        "baseCarbs": 0.2,
+        "baseFats": 0.001
       },
       {
         "name": "Cebolla",
-        "quantity": "100",
+        "quantity": "40",
         "unit": "g",
-        "calories": 100,
-        "protein": 5,
-        "carbs": 10,
-        "fats": 4,
-        "baseCalories": 1,
-        "baseProtein": 0.05,
-        "baseCarbs": 0.1,
-        "baseFats": 0.04
-      },
-      {
-        "name": "Ajo",
-        "quantity": "100",
-        "unit": "g",
-        "calories": 100,
-        "protein": 5,
-        "carbs": 10,
-        "fats": 4,
+        "calories": 40,
+        "protein": 2,
+        "carbs": 4,
+        "fats": 1.6,
         "baseCalories": 1,
         "baseProtein": 0.05,
         "baseCarbs": 0.1,
@@ -1210,8 +1171,8 @@ const foodDatabase = {
         "baseFats": 1
       }
     ],
-    "preparation": "1. Trocear todas las verduras. 2. Poner todos los ingredientes en una batidora junto con aceite, vinagre y sal. 3. Triturar hasta obtener una sopa fina. 4. Enfriar en la nevera antes de servir. Puedes comprarlo preparado si lo prefieres.",
-    "originalBaseRecipeId": "pp_gazpacho"
+    "preparation": "1. Precalentar el horno a 200°C (390°F). 2. Lavar bien las patatas, cortarlas a trozos al gusto junto con la cebolla 3. Asar las patatas directamente sobre la rejilla del horno o en una bandeja durante 45-60 minutos (el tiempo dependerá del tamaño).  3. Servir todo junto en un bol and aliñar con aceite de oliva virgen extra, sal y otras especies al gusto.",
+    "originalBaseRecipeId": "pp_patatas_gajo_al_horno_o_air_fryer"
   },
   "p3_m3": {
     "name": "Pechuga de Pollo a la Plancha",
@@ -1252,29 +1213,68 @@ const foodDatabase = {
     "originalBaseRecipeId": "ac_pechuga_de_pollo_a_la_plancha"
   },
   "p3_m4": {
-    "name": "Tortitas de Legumbres (Mercadona)",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682affdd9b8ed3082d7cbefc.png",
-    "calories": 100,
-    "protein": 5,
-    "carbs": 10,
-    "fats": 4,
+    "name": "Fajita/Wrap de Jamón y Queso",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68a36fb52e34b733ba5c5630.png",
+    "calories": 270,
+    "protein": 15,
+    "carbs": 21,
+    "fats": 13,
     "ingredients": [
       {
-        "name": "Tortitas de Legumbres",
-        "quantity": "100",
+        "name": "Pan de Fajita",
+        "quantity": "1",
+        "unit": "rebanada",
+        "calories": 108,
+        "protein": 3.5999999999999996,
+        "carbs": 20,
+        "fats": 1.2,
+        "baseCalories": 108,
+        "baseProtein": 3.5999999999999996,
+        "baseCarbs": 20,
+        "baseFats": 1.2
+      },
+      {
+        "name": "Jamón Cocido",
+        "quantity": "40",
         "unit": "g",
-        "calories": 100,
+        "calories": 92,
+        "protein": 6.4,
+        "carbs": 0.8,
+        "fats": 7.199999999999999,
+        "baseCalories": 2.3,
+        "baseProtein": 0.16,
+        "baseCarbs": 0.02,
+        "baseFats": 0.18
+      },
+      {
+        "name": "Queso Havarti Light",
+        "quantity": "20",
+        "unit": "g",
+        "calories": 70,
         "protein": 5,
-        "carbs": 10,
-        "fats": 4,
-        "baseCalories": 1,
-        "baseProtein": 0.05,
-        "baseCarbs": 0.1,
-        "baseFats": 0.04
+        "carbs": 0.4,
+        "fats": 5,
+        "baseCalories": 3.5,
+        "baseProtein": 0.25,
+        "baseCarbs": 0.02,
+        "baseFats": 0.25
+      },
+      {
+        "name": "Aceite de Oliva Virgen Extra",
+        "quantity": "0",
+        "unit": "g",
+        "calories": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 0,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1
       }
     ],
-    "preparation": "1. Abrir el paquete de tortitas de legumbres. 2. Consumir directamente como snack crujiente. Son ideales para picar entre horas.",
-    "originalBaseRecipeId": "ext_tortitas_de_legumbres_mercadona"
+    "preparation": "1. Calentar la tortilla de fajita. 2. Añadir el jamón cocido y el queso. 3. Doblar y servir.",
+    "originalBaseRecipeId": "ext_fajitawrap_de_jamn_y_queso"
   }
 };
 const dailyMenus = [
