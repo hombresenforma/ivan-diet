@@ -1,5 +1,5 @@
 // Titulo: Plan de Alimentación
-// Alergias: 
+// Alergias: const foodDatabase = {
 const foodDatabase = {
   "p0_m0": {
     "name": "Pan wasa con Huevo, Aguacate y Cherries",
@@ -2265,6 +2265,87 @@ const foodDatabase = {
     ],
     "preparation": "1. Saltear el solomillo troceado. 2. Añadir verduras y cocinar hasta que estén tiernas. 3. Añadir salsa de soja al final.",
     "originalBaseRecipeId": "cc_solomillo_de_cerdo_con_verduras_y_salsa_de_soja"
+  },
+  "custom_1787496295067": {
+    "name": "Pizza Casera",
+    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69b51257bfc81f59120b3a5a.png",
+    "calories": 554,
+    "protein": 52,
+    "carbs": 47,
+    "fats": 16,
+    "ingredients": [
+      {
+        "name": "Masa de Cereales",
+        "quantity": "50",
+        "unit": "g",
+        "calories": 182.5,
+        "protein": 6,
+        "carbs": 37.5,
+        "fats": 1,
+        "baseCalories": 3.7,
+        "baseProtein": 0.1,
+        "baseCarbs": 0.8,
+        "baseFats": 0,
+        "category": "grain_carb_dry"
+      },
+      {
+        "name": "Tomate Frito",
+        "quantity": "80",
+        "unit": "g",
+        "calories": 80,
+        "protein": 4,
+        "carbs": 8,
+        "fats": 3.2,
+        "baseCalories": 1,
+        "baseProtein": 0.1,
+        "baseCarbs": 0.1,
+        "baseFats": 0,
+        "category": "default_other"
+      },
+      {
+        "name": "Mozzarella Light",
+        "quantity": "30",
+        "unit": "g",
+        "calories": 30,
+        "protein": 3.6,
+        "carbs": 1.2,
+        "fats": 1.2,
+        "baseCalories": 1,
+        "baseProtein": 0.1,
+        "baseCarbs": 0,
+        "baseFats": 0,
+        "category": "light_cheese"
+      },
+      {
+        "name": "Pechuga de Pollo",
+        "quantity": "120",
+        "unit": "g",
+        "calories": 192,
+        "protein": 33.6,
+        "carbs": 0,
+        "fats": 4.8,
+        "baseCalories": 1.6,
+        "baseProtein": 0.3,
+        "baseCarbs": 0,
+        "baseFats": 0,
+        "category": "lean_protein"
+      },
+      {
+        "name": "Jamón Dulce",
+        "quantity": "30",
+        "unit": "g",
+        "calories": 69,
+        "protein": 4.8,
+        "carbs": 0.6,
+        "fats": 5.4,
+        "baseCalories": 2.3,
+        "baseProtein": 0.2,
+        "baseCarbs": 0,
+        "baseFats": 0.2,
+        "category": "processed_protein"
+      }
+    ],
+    "preparation": "1. Extender la masa. 2. Añadir tomate, queso, pollo y jamón. 3. Hornear hasta que esté dorada."
   }
 };
 const dailyMenus = [
@@ -2286,7 +2367,7 @@ const dailyMenus = [
       "p0_m4"
     ],
     "comida": [
-      "p0_m1"
+      "custom_1787496295067"
     ],
     "cena": [
       "p0_m2",
