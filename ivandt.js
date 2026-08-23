@@ -2346,6 +2346,73 @@ const foodDatabase = {
       }
     ],
     "preparation": "1. Extender la masa. 2. Añadir tomate, queso, pollo y jamón. 3. Hornear hasta que esté dorada."
+  },
+  "custom_1787496351194": {
+    "name": "Tortitas de Avena con Frutos Rojos",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682ad5d9e819fce58fa8a30c.png",
+    "calories": 318,
+    "protein": 23,
+    "carbs": 41,
+    "fats": 8,
+    "ingredients": [
+      {
+        "name": "Harina de Avena",
+        "quantity": "40",
+        "unit": "g",
+        "calories": 146,
+        "protein": 4.8,
+        "carbs": 30,
+        "fats": 0.8,
+        "baseCalories": 3.7,
+        "baseProtein": 0.1,
+        "baseCarbs": 0.8,
+        "baseFats": 0,
+        "category": "grain_carb_dry"
+      },
+      {
+        "name": "Claras de Huevo",
+        "quantity": "90",
+        "unit": "g",
+        "calories": 46.8,
+        "protein": 9.9,
+        "carbs": 0.6,
+        "fats": 0.2,
+        "baseCalories": 0.5,
+        "baseProtein": 0.1,
+        "baseCarbs": 0,
+        "baseFats": 0,
+        "category": "egg_whites"
+      },
+      {
+        "name": "Huevo",
+        "quantity": "1",
+        "unit": "ud",
+        "calories": 85.3,
+        "protein": 7.2,
+        "carbs": 0.6,
+        "fats": 6.1,
+        "baseCalories": 85.3,
+        "baseProtein": 7.2,
+        "baseCarbs": 0.6,
+        "baseFats": 6.1,
+        "category": "egg"
+      },
+      {
+        "name": "Frutos Rojos",
+        "quantity": "80",
+        "unit": "g",
+        "calories": 40,
+        "protein": 0.8,
+        "carbs": 9.6,
+        "fats": 0.4,
+        "baseCalories": 0.5,
+        "baseProtein": 0,
+        "baseCarbs": 0.1,
+        "baseFats": 0,
+        "category": "berries"
+      }
+    ],
+    "preparation": "1. Mezclar la harina de avena, claras de huevo, y huevo entero (si se usa) con un poco de leche o bebida vegetal hasta obtener una masa homogénea. 2. Cocinar las tortitas en una sartén antiadherente caliente por ambos lados hasta que estén doradas. 3. Servir con los frutos rojos por encima."
   }
 };
 const dailyMenus = [
@@ -2370,7 +2437,7 @@ const dailyMenus = [
       "custom_1787496295067"
     ],
     "cena": [
-      "p0_m2",
+      "custom_1787496351194",
       "p0_m6"
     ],
     "extra": [
