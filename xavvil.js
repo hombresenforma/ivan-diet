@@ -337,19 +337,19 @@ const foodDatabase = {
   "p1_m1": {
     "name": "Ensalada de Pasta con Pollo",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afc47b91eb349463d47dd.png",
-    "calories": 806,
-    "protein": 62,
-    "carbs": 94,
+    "calories": 879,
+    "protein": 64,
+    "carbs": 109,
     "fats": 19,
     "ingredients": [
       {
         "name": "Pasta Integral",
-        "quantity": "100",
+        "quantity": "120",
         "unit": "g",
-        "calories": 365,
-        "protein": 12.000000000000002,
-        "carbs": 75,
-        "fats": 2,
+        "calories": 438,
+        "protein": 14.400000000000002,
+        "carbs": 90,
+        "fats": 2.4,
         "baseCalories": 3.65,
         "baseProtein": 0.12000000000000002,
         "baseCarbs": 0.75,
@@ -618,19 +618,19 @@ const foodDatabase = {
   "p2_m1": {
     "name": "Ensalada de garbanzos con verduras y queso",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68ff252d3f16b5241c27c1e4.png",
-    "calories": 436,
-    "protein": 27,
-    "carbs": 44,
+    "calories": 455,
+    "protein": 28,
+    "carbs": 47,
     "fats": 17,
     "ingredients": [
       {
         "name": "Garbanzos en Conserva",
-        "quantity": "110",
+        "quantity": "125",
         "unit": "g",
-        "calories": 143,
-        "protein": 8.8,
-        "carbs": 24.2,
-        "fats": 0.55,
+        "calories": 162.5,
+        "protein": 10,
+        "carbs": 27.5,
+        "fats": 0.625,
         "baseCalories": 1.3,
         "baseProtein": 0.08,
         "baseCarbs": 0.22,
@@ -949,10 +949,10 @@ const foodDatabase = {
   "p3_m1": {
     "name": "Fajitas de Pollo y Verduras",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afcef0ed50608b742ff33.png",
-    "calories": 738,
-    "protein": 72,
+    "calories": 770,
+    "protein": 78,
     "carbs": 72,
-    "fats": 14,
+    "fats": 15,
     "ingredients": [
       {
         "name": "Pan de Fajita",
@@ -1021,12 +1021,12 @@ const foodDatabase = {
       },
       {
         "name": "Pechuga de Pollo",
-        "quantity": "200",
+        "quantity": "220",
         "unit": "g",
-        "calories": 320,
-        "protein": 56.00000000000001,
+        "calories": 352,
+        "protein": 61.60000000000001,
         "carbs": 0,
-        "fats": 8,
+        "fats": 8.8,
         "baseCalories": 1.6,
         "baseProtein": 0.28,
         "baseCarbs": 0,
@@ -1155,7 +1155,7 @@ const foodDatabase = {
         "carbs": 52.5,
         "fats": 1.4000000000000001,
         "baseCalories": 3.65,
-        "baseProtein": 0.12,
+        "baseProtein": 0.12000000000000001,
         "baseCarbs": 0.75,
         "baseFats": 0.02
       },
@@ -1370,6 +1370,44 @@ const foodDatabase = {
     "originalBaseRecipeId": "pp_gazpacho"
   },
   "p4_m3": {
+    "name": "Pechuga de Pollo a la Plancha",
+    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69b66b3087f0f2415505fc9a.png",
+    "calories": 408,
+    "protein": 56,
+    "carbs": 0,
+    "fats": 18,
+    "ingredients": [
+      {
+        "name": "Pechuga de Pollo",
+        "quantity": "200",
+        "unit": "g",
+        "calories": 320,
+        "protein": 56.00000000000001,
+        "carbs": 0,
+        "fats": 8,
+        "baseCalories": 1.6,
+        "baseProtein": 0.28,
+        "baseCarbs": 0,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Aceite de Oliva Virgen",
+        "quantity": "10",
+        "unit": "g",
+        "calories": 88.4,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 10,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1
+      }
+    ],
+    "preparation": "1. Sazonar la pechuga de pollo con sal, pimienta y especias al gusto. 2. Calentar una plancha o sartén antiadherente con una gota de aceite. 3. Cocinar la pechuga hasta que esté dorada por fuera y cocida por dentro.",
+    "originalBaseRecipeId": "ac_pechuga_de_pollo_a_la_plancha"
+  },
+  "p4_m4": {
     "name": "Fruta Densa (Plátano, Manzana, Pera)",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe4bb91eb325b93d4a82.png",
     "calories": 270,
@@ -1419,44 +1457,6 @@ const foodDatabase = {
     ],
     "preparation": "1. Seleccionar la fruta densa de preferencia. 2. Para plátanos: pelar la piel y consumir directamente. 3. Para manzanas o peras: lavar bien la fruta. Se puede consumir con piel o pelada.",
     "originalBaseRecipeId": "ext_fruta_densa_pltano_manzana_pera"
-  },
-  "p4_m4": {
-    "name": "Pechuga de Pollo a la Plancha",
-    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69b66b3087f0f2415505fc9a.png",
-    "calories": 408,
-    "protein": 56,
-    "carbs": 0,
-    "fats": 18,
-    "ingredients": [
-      {
-        "name": "Pechuga de Pollo",
-        "quantity": "200",
-        "unit": "g",
-        "calories": 320,
-        "protein": 56.00000000000001,
-        "carbs": 0,
-        "fats": 8,
-        "baseCalories": 1.6,
-        "baseProtein": 0.28,
-        "baseCarbs": 0,
-        "baseFats": 0.04
-      },
-      {
-        "name": "Aceite de Oliva Virgen",
-        "quantity": "10",
-        "unit": "g",
-        "calories": 88.4,
-        "protein": 0,
-        "carbs": 0,
-        "fats": 10,
-        "baseCalories": 8.84,
-        "baseProtein": 0,
-        "baseCarbs": 0,
-        "baseFats": 1
-      }
-    ],
-    "preparation": "1. Sazonar la pechuga de pollo con sal, pimienta y especias al gusto. 2. Calentar una plancha o sartén antiadherente con una gota de aceite. 3. Cocinar la pechuga hasta que esté dorada por fuera y cocida por dentro.",
-    "originalBaseRecipeId": "ac_pechuga_de_pollo_a_la_plancha"
   }
 };
 const dailyMenus = [
@@ -1589,10 +1589,10 @@ const dailyMenus = [
     ],
     "cena": [
       "p4_m2",
-      "p4_m4"
+      "p4_m3"
     ],
     "extra": [
-      "p4_m3"
+      "p4_m4"
     ]
   }
 ];
