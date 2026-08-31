@@ -1,5 +1,5 @@
 // Titulo: Plan de Alimentación
-// Alergias: 
+// Alergias: const foodDatabase = {
 const foodDatabase = {
   "p0_m0": {
     "name": "Tostada de Centeno con Aguacate y Atún",
@@ -1104,19 +1104,19 @@ const foodDatabase = {
   "p2_m4": {
     "name": "Yogurt Protéico con Frutos Rojos y Secos",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afea2b91eb35e413d4ab6.png",
-    "calories": 410,
-    "protein": 16,
-    "carbs": 36,
-    "fats": 22,
+    "calories": 150,
+    "protein": 7,
+    "carbs": 19,
+    "fats": 5,
     "ingredients": [
       {
         "name": "Yogur Protéico",
-        "quantity": "250",
+        "quantity": "125",
         "unit": "g",
-        "calories": 250,
-        "protein": 12.5,
-        "carbs": 25,
-        "fats": 10,
+        "calories": 125,
+        "protein": 6.3,
+        "carbs": 12.5,
+        "fats": 5,
         "baseCalories": 1,
         "baseProtein": 0.05,
         "baseCarbs": 0.1,
@@ -1137,12 +1137,12 @@ const foodDatabase = {
       },
       {
         "name": "Frutos Secos",
-        "quantity": "30",
+        "quantity": "0",
         "unit": "g",
-        "calories": 135,
-        "protein": 3,
-        "carbs": 4.5,
-        "fats": 12,
+        "calories": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 0,
         "baseCalories": 4.5,
         "baseProtein": 0.1,
         "baseCarbs": 0.15,
@@ -1978,7 +1978,6 @@ const dailyMenus = [
       "p3_m3"
     ],
     "extra": [
-      "p3_m4",
       "p3_m5",
       "p3_m6"
     ]
