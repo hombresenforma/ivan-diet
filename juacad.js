@@ -1,5 +1,5 @@
 // Titulo: Plan de Alimentación
-// Alergias: 
+// Alergias: Carne roja, Cerdo
 const foodDatabase = {
   "p0_m0": {
     "name": "Tostada de Centeno con Huevo y Aguacate",
@@ -652,93 +652,80 @@ const foodDatabase = {
     "originalBaseRecipeId": "des_yogurt_protico_con_frutos_rojos_y_secos"
   },
   "p2_m1": {
-    "name": "Musakka de Patata al horno con verduras y carne picada",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684efda5653a2c17a7172d67.png",
-    "calories": 740,
-    "protein": 45,
-    "carbs": 52,
-    "fats": 37,
+    "name": "Ensalada de Queso Fresco, Pavo y Nueces",
+    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/699b499d20c03528200c03e2.png",
+    "calories": 811,
+    "protein": 72,
+    "carbs": 12,
+    "fats": 49,
     "ingredients": [
       {
-        "name": "Patata",
-        "quantity": "200",
+        "name": "Canónigos o Lechuga",
+        "quantity": "50",
         "unit": "g",
-        "calories": 180,
-        "protein": 4,
-        "carbs": 40,
-        "fats": 0.2,
-        "baseCalories": 0.9,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.2,
-        "baseFats": 0.001
+        "calories": 50,
+        "protein": 2.5,
+        "carbs": 5,
+        "fats": 2,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
       },
       {
-        "name": "Cebolla",
-        "quantity": "75",
+        "name": "Queso Fresco",
+        "quantity": "100",
         "unit": "g",
-        "calories": 22.5,
-        "protein": 1.5,
-        "carbs": 3.75,
-        "fats": 0.15,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Berenjena",
-        "quantity": "75",
-        "unit": "g",
-        "calories": 22.5,
-        "protein": 1.5,
-        "carbs": 3.75,
-        "fats": 0.15,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Tomate Frito",
-        "quantity": "75",
-        "unit": "g",
-        "calories": 22.5,
-        "protein": 1.5,
-        "carbs": 3.75,
-        "fats": 0.15,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Queso Rallado",
-        "quantity": "40",
-        "unit": "g",
-        "calories": 140,
-        "protein": 10,
-        "carbs": 0.8,
-        "fats": 10,
+        "calories": 350,
+        "protein": 25,
+        "carbs": 2,
+        "fats": 25,
         "baseCalories": 3.5,
         "baseProtein": 0.25,
         "baseCarbs": 0.02,
         "baseFats": 0.25
       },
       {
-        "name": "Carne Picada Mixta (Ternera y Cerdo)",
-        "quantity": "120",
+        "name": "Pechuga de Pavo",
+        "quantity": "150",
         "unit": "g",
-        "calories": 264,
-        "protein": 26.4,
+        "calories": 240,
+        "protein": 42.00000000000001,
         "carbs": 0,
-        "fats": 16.8,
-        "baseCalories": 2.2,
-        "baseProtein": 0.22,
+        "fats": 6,
+        "baseCalories": 1.6,
+        "baseProtein": 0.28,
         "baseCarbs": 0,
-        "baseFats": 0.14
+        "baseFats": 0.04
       },
       {
-        "name": "Aceite de Oliva Virgen Extra",
+        "name": "Nueces",
+        "quantity": "15",
+        "unit": "g",
+        "calories": 67.5,
+        "protein": 1.5,
+        "carbs": 2.25,
+        "fats": 6,
+        "baseCalories": 4.5,
+        "baseProtein": 0.1,
+        "baseCarbs": 0.15,
+        "baseFats": 0.4
+      },
+      {
+        "name": "Tomates Cherry",
+        "quantity": "50",
+        "unit": "g",
+        "calories": 15,
+        "protein": 1,
+        "carbs": 2.5,
+        "fats": 0.1,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Aceite de Oliva Virgen",
         "quantity": "10",
         "unit": "g",
         "calories": 88.4,
@@ -751,8 +738,8 @@ const foodDatabase = {
         "baseFats": 1
       }
     ],
-    "preparation": "1. Precalentar el horno a 180°C. Pelar y cortar las patatas en rodajas finas (aproximadamente 0.5 cm). Cortar la berenjena en rodajas similares. Picar la cebolla. 2. En una sartén, calentar aceite y sofreír la cebolla hasta que esté blanda. Añadir la carne picada mixta y cocinar hasta que se dore. Escurrir el exceso de grasa. Incorporar tomate frito, sal, pimienta y orégano. Cocinar unos minutos. 3. En una fuente para horno, montar la musakka: colocar una capa de rodajas de patata en el fondo, luego una capa de rodajas de berenjena, y encima una capa de la mezcla de carne. Repetir las capas hasta terminar con una capa de patata o berenjena. 4. Opcional: cubrir con salsa bechamel y espolvorear con queso rallado. 5. Hornear durante 40-50 minutos, o hasta que las patatas y berenjenas estén tiernas y la superficie dorada. Dejar reposar unos minutos antes de servir.",
-    "originalBaseRecipeId": "cc_musakka_de_patata_al_horno_con_verduras_y_carne_picada"
+    "preparation": "1. Lavar los canónigos y los tomates cherry. 2. Cortar el queso fresco y el pavo en dados. 3. Trocear las nueces. 4. En un bol, mezclar todos los ingredientes. 5. Aliñar con una vinagreta suave.",
+    "originalBaseRecipeId": "cc_ensalada_de_queso_fresco_pavo_y_nueces"
   },
   "p2_m2": {
     "name": "Pimientos Salteados con Cebolla y Tomate Cherry.",
@@ -857,85 +844,301 @@ const foodDatabase = {
     "originalBaseRecipeId": "ac_pechuga_de_pavo_a_la_plancha"
   },
   "p2_m4": {
-    "name": "Fruta Densa (Plátano, Manzana)",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe4bb91eb325b93d4a82.png",
-    "calories": 90,
-    "protein": 1,
-    "carbs": 23,
-    "fats": 0,
-    "ingredients": [
-      {
-        "name": "Manzana",
-        "quantity": "1",
-        "unit": "unidad(es)",
-        "calories": 90,
-        "protein": 0.75,
-        "carbs": 22.5,
-        "fats": 0.3,
-        "baseCalories": 90,
-        "baseProtein": 0.75,
-        "baseCarbs": 22.5,
-        "baseFats": 0.3
-      }
-    ],
-    "preparation": "1. Seleccionar la fruta densa de preferencia. 2. Para plátanos: pelar la piel y consumir directamente. 3. Para manzanas o peras: lavar bien la fruta. Se puede consumir con piel o pelada.",
-    "originalBaseRecipeId": "ext_fruta_densa_pltano_manzana"
-  },
-  "p2_m5": {
-    "name": "Frutos Secos (Mezcla)",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68525c0b1d27cfeb580a55f7.png",
-    "calories": 135,
-    "protein": 3,
+    "name": "Yogur Protéico (Sabores, Natural...)",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd789b8ed38b127cbc09.png",
+    "calories": 75,
+    "protein": 6,
     "carbs": 5,
-    "fats": 12,
+    "fats": 3,
     "ingredients": [
       {
-        "name": "Anacardos",
-        "quantity": "10",
+        "name": "Yogur Protéico",
+        "quantity": "125",
         "unit": "g",
-        "calories": 45,
-        "protein": 1,
-        "carbs": 1.5,
-        "fats": 4,
-        "baseCalories": 4.5,
-        "baseProtein": 0.1,
-        "baseCarbs": 0.15,
-        "baseFats": 0.4
-      },
-      {
-        "name": "Almendras",
-        "quantity": "10",
-        "unit": "g",
-        "calories": 45,
-        "protein": 1,
-        "carbs": 1.5,
-        "fats": 4,
-        "baseCalories": 4.5,
-        "baseProtein": 0.1,
-        "baseCarbs": 0.15,
-        "baseFats": 0.4
-      },
-      {
-        "name": "Nueces",
-        "quantity": "10",
-        "unit": "g",
-        "calories": 45,
-        "protein": 1,
-        "carbs": 1.5,
-        "fats": 4,
-        "baseCalories": 4.5,
-        "baseProtein": 0.1,
-        "baseCarbs": 0.15,
-        "baseFats": 0.4
+        "calories": 75,
+        "protein": 6.25,
+        "carbs": 5,
+        "fats": 2.5,
+        "baseCalories": 0.6,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.04,
+        "baseFats": 0.02
       }
     ],
-    "preparation": "Consumir directamente como un snack energético y nutritivo.",
-    "originalBaseRecipeId": "ext_frutos_secos_mezcla"
+    "preparation": "1. Seleccionar el yogur proteico de preferencia. 2. Abrir el envase. 3. Consumir directamente con una cuchara.",
+    "originalBaseRecipeId": "ext_yogur_protico_sabores_natural"
+  },
+  "p3_m0": {
+    "name": "Revuelto de Huevos con Jamón",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682ad5e1e819fcb589a8a30e.png",
+    "calories": 237,
+    "protein": 21,
+    "carbs": 1,
+    "fats": 16,
+    "ingredients": [
+      {
+        "name": "Huevos",
+        "quantity": "2",
+        "unit": "ud",
+        "calories": 170.5,
+        "protein": 14.3,
+        "carbs": 1.2100000000000002,
+        "fats": 12.1,
+        "baseCalories": 85.25,
+        "baseProtein": 7.15,
+        "baseCarbs": 0.6050000000000001,
+        "baseFats": 6.05
+      },
+      {
+        "name": "Jamón Serrano",
+        "quantity": "30",
+        "unit": "g",
+        "calories": 66,
+        "protein": 6.6,
+        "carbs": 0,
+        "fats": 4.2,
+        "baseCalories": 2.2,
+        "baseProtein": 0.22,
+        "baseCarbs": 0,
+        "baseFats": 0.14
+      }
+    ],
+    "preparation": "1. Batir los huevos. 2. Cortar el jamón en taquitos o tiras. 3. Saltear ligeramente el jamón en una sartén con una pizca de aceite (opcional). 4. Verter los huevos batidos y remover constantemente a fuego medio-bajo hasta que cuajen al gusto.",
+    "originalBaseRecipeId": "des_revuelto_de_huevos_con_jamn"
+  },
+  "p3_m1": {
+    "name": "Ensalada de Tomate, Maíz, Queso de Burgos y Frutos Secos",
+    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/6a953b1ea90361de8b63e6cb.png",
+    "calories": 586,
+    "protein": 31,
+    "carbs": 14,
+    "fats": 43,
+    "ingredients": [
+      {
+        "name": "Tomate",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 30,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Maíz",
+        "quantity": "50",
+        "unit": "g",
+        "calories": 50,
+        "protein": 2.5,
+        "carbs": 5,
+        "fats": 2,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Queso de Burgos",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 350,
+        "protein": 25,
+        "carbs": 2,
+        "fats": 25,
+        "baseCalories": 3.5,
+        "baseProtein": 0.25,
+        "baseCarbs": 0.02,
+        "baseFats": 0.25
+      },
+      {
+        "name": "Frutos Secos",
+        "quantity": "15",
+        "unit": "g",
+        "calories": 67.5,
+        "protein": 1.5,
+        "carbs": 2.25,
+        "fats": 6,
+        "baseCalories": 4.5,
+        "baseProtein": 0.1,
+        "baseCarbs": 0.15,
+        "baseFats": 0.4
+      },
+      {
+        "name": "Aceite de Oliva Virgen",
+        "quantity": "10",
+        "unit": "g",
+        "calories": 88.4,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 10,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1
+      }
+    ],
+    "preparation": "1. Cortar el tomate en trozos. 2. Añadir el maíz, el queso de Burgos troceado y los frutos secos por encima. 3. Aliñar al gusto.",
+    "originalBaseRecipeId": "pp_ensalada_de_tomate_maz_queso_de_burgos_y_frutos_secos"
+  },
+  "p3_m2": {
+    "name": "Espárragos Trigueros con Cebolla y Ajo",
+    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69fee5d1a7b9e0385a1fc28d.png",
+    "calories": 244,
+    "protein": 10,
+    "carbs": 20,
+    "fats": 13,
+    "ingredients": [
+      {
+        "name": "Espárragos Trigueros",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 100,
+        "protein": 5,
+        "carbs": 10,
+        "fats": 4,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Cebolla",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 100,
+        "protein": 5,
+        "carbs": 10,
+        "fats": 4,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Aceite de Oliva Virgen",
+        "quantity": "5",
+        "unit": "g",
+        "calories": 44.2,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 5,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1
+      }
+    ],
+    "preparation": "1. Pochar cebolla y ajo. 2. Añadir espárragos y cocinar a la plancha hasta que estén tiernas.",
+    "originalBaseRecipeId": "pp_esprragos_trigueros_con_cebolla_y_ajo"
+  },
+  "p3_m3": {
+    "name": "Hamburguesa de Pavo-Pollo",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afcbc9b8ed3b6397cbb33.png",
+    "calories": 389,
+    "protein": 24,
+    "carbs": 3,
+    "fats": 32,
+    "ingredients": [
+      {
+        "name": "Hamburguesa de Pavo-Pollo",
+        "quantity": "150",
+        "unit": "g",
+        "calories": 345,
+        "protein": 24,
+        "carbs": 3,
+        "fats": 27,
+        "baseCalories": 2.3,
+        "baseProtein": 0.16,
+        "baseCarbs": 0.02,
+        "baseFats": 0.18
+      },
+      {
+        "name": "Aceite de Oliva Virgen",
+        "quantity": "5",
+        "unit": "g",
+        "calories": 44.2,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 5,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1
+      }
+    ],
+    "preparation": "1. Si la hamburguesa es casera a partir de carne picada, sazonar la carne con sal, pimienta, ajo en polvo y perejil picado (opcional) y formar la hamburguesa. 2. Calentar una plancha o sartén antiadherente a fuego medio-alto con una gota de aceite de oliva. 3. Cocinar la hamburguesa durante 4-6 minutos por cada lado, o hasta que esté bien cocida por dentro y dorada por fuera.",
+    "originalBaseRecipeId": "ac_hamburguesa_de_pavopollo"
+  },
+  "p3_m4": {
+    "name": "Yogur Protéico (Sabores, Natural...)",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd789b8ed38b127cbc09.png",
+    "calories": 75,
+    "protein": 6,
+    "carbs": 5,
+    "fats": 3,
+    "ingredients": [
+      {
+        "name": "Yogur Protéico",
+        "quantity": "125",
+        "unit": "g",
+        "calories": 75,
+        "protein": 6.25,
+        "carbs": 5,
+        "fats": 2.5,
+        "baseCalories": 0.6,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.04,
+        "baseFats": 0.02
+      }
+    ],
+    "preparation": "1. Seleccionar el yogur proteico de preferencia. 2. Abrir el envase. 3. Consumir directamente con una cuchara.",
+    "originalBaseRecipeId": "ext_yogur_protico_sabores_natural"
+  },
+  "p3_m5": {
+    "name": "Atún en Lata Escurrido",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68f27ede567571bbd55f023e.png",
+    "calories": 156,
+    "protein": 20,
+    "carbs": 0,
+    "fats": 8,
+    "ingredients": [
+      {
+        "name": "Atún en Conserva",
+        "quantity": "70",
+        "unit": "g",
+        "calories": 112,
+        "protein": 19.6,
+        "carbs": 0,
+        "fats": 2.8000000000000003,
+        "baseCalories": 1.6,
+        "baseProtein": 0.28,
+        "baseCarbs": 0,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Aceite de Oliva Virgen",
+        "quantity": "5",
+        "unit": "g",
+        "calories": 44.2,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 5,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1
+      }
+    ],
+    "preparation": "Escurrir el aceite o el agua de la lata y servir.",
+    "originalBaseRecipeId": "ac_atn_en_lata_escurrido"
   }
 };
 const dailyMenus = [
   {
-    "name": "Opciones 1",
+    "name": "Entreno 1",
     "targetMacros": {
       "calories": 1700,
       "protein": 140,
@@ -963,7 +1166,7 @@ const dailyMenus = [
     ]
   },
   {
-    "name": "Opciones 2",
+    "name": "Entreno 2",
     "targetMacros": {
       "calories": 1700,
       "protein": 140,
@@ -991,7 +1194,7 @@ const dailyMenus = [
     ]
   },
   {
-    "name": "Opciones 3",
+    "name": "Libre 1",
     "targetMacros": {
       "calories": 1800,
       "protein": 150,
@@ -1014,8 +1217,35 @@ const dailyMenus = [
       "p2_m3"
     ],
     "extra": [
-      "p2_m4",
-      "p2_m5"
+      "p2_m4"
+    ]
+  },
+  {
+    "name": "Libre 2",
+    "targetMacros": {
+      "calories": 1800,
+      "protein": 150,
+      "carbs": 150
+    },
+    "baselineTotals": {
+      "calories": 1717,
+      "protein": 105,
+      "carbs": 115,
+      "fats": 90
+    },
+    "desayuno": [
+      "p3_m0"
+    ],
+    "comida": [
+      "p3_m1",
+      "p3_m5"
+    ],
+    "cena": [
+      "p3_m2",
+      "p3_m3"
+    ],
+    "extra": [
+      "p3_m4"
     ]
   }
 ];
