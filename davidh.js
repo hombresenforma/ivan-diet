@@ -1,5 +1,5 @@
 // Titulo: Plan de Alimentación
-// Alergias: 
+// Alergias: Carne roja, Cerdo
 const foodDatabase = {
   "p0_m0": {
     "name": "Revuelto de Huevos con Jamón",
@@ -783,156 +783,106 @@ const foodDatabase = {
     "originalBaseRecipeId": "ac_pechuga_de_pavo_a_la_plancha"
   },
   "p2_m3": {
-    "name": "Calabacín con Cebolla a la Plancha",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afc8e9b8ed35d8e7cbb0e.png",
-    "calories": 99,
-    "protein": 3,
-    "carbs": 11,
-    "fats": 6,
+    "name": "Ensalada de Tomate, Maíz, Queso de Burgos y Frutos Secos",
+    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/6a953b1ea90361de8b63e6cb.png",
+    "calories": 236,
+    "protein": 6,
+    "carbs": 12,
+    "fats": 18,
     "ingredients": [
       {
-        "name": "Calabacín",
-        "quantity": "200",
+        "name": "Tomate",
+        "quantity": "100",
         "unit": "g",
-        "calories": 34,
-        "protein": 2.4,
-        "carbs": 6.2,
-        "fats": 0.6,
-        "baseCalories": 0.17,
-        "baseProtein": 0.012,
-        "baseCarbs": 0.031,
-        "baseFats": 0.003
+        "calories": 30,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
       },
       {
-        "name": "Cebolla",
+        "name": "Maíz",
         "quantity": "50",
         "unit": "g",
-        "calories": 20,
-        "protein": 0.55,
-        "carbs": 4.5,
-        "fats": 0.05,
-        "baseCalories": 0.4,
-        "baseProtein": 0.011000000000000001,
-        "baseCarbs": 0.09,
-        "baseFats": 0.001
+        "calories": 50,
+        "protein": 2.5,
+        "carbs": 5,
+        "fats": 2,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
       },
       {
-        "name": "Aceite de Oliva Virgen Extra",
-        "quantity": "5",
+        "name": "Frutos Secos",
+        "quantity": "15",
         "unit": "g",
-        "calories": 45,
+        "calories": 67.5,
+        "protein": 1.5,
+        "carbs": 2.25,
+        "fats": 6,
+        "baseCalories": 4.5,
+        "baseProtein": 0.1,
+        "baseCarbs": 0.15,
+        "baseFats": 0.4
+      },
+      {
+        "name": "Aceite de Oliva Virgen",
+        "quantity": "10",
+        "unit": "g",
+        "calories": 88.4,
         "protein": 0,
         "carbs": 0,
-        "fats": 5,
-        "baseCalories": 9,
+        "fats": 10,
+        "baseCalories": 8.84,
         "baseProtein": 0,
         "baseCarbs": 0,
         "baseFats": 1
       }
     ],
-    "preparation": "1. Lavar el calabacín y cortarlo en rodajas de aproximadamente 0.5 a 1 cm de grosor. Pelar y cortar la cebolla en juliana o rodajas. 2. Calentar una plancha o sartén grande con un chorrito de aceite de oliva a fuego medio-alto. 3. Colocar las rodajas de calabacín y la cebolla sobre la plancha caliente. Cocinar durante 3-5 minutos por cada lado, o hasta que estén tiernos y presenten marcas doradas de la plancha. 4. Sazonar con sal, pimienta y opcionalmente un poco de ajo en polvo u orégano durante la cocción o al final.",
-    "originalBaseRecipeId": "pp_calabacn_con_cebolla_a_la_plancha"
+    "preparation": "1. Cortar el tomate en trozos. 2. Añadir el maíz, el queso de Burgos troceado y los frutos secos por encima. 3. Aliñar al gusto.",
+    "originalBaseRecipeId": "pp_ensalada_de_tomate_maz_queso_de_burgos_y_frutos_secos"
   },
   "p2_m4": {
-    "name": "Revuelto de Huevos con Queso Habarti Light",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684f0183653a2c532c17327c.png",
-    "calories": 279,
-    "protein": 21,
-    "carbs": 1,
+    "name": "Hamburguesa de Pavo-Pollo",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afcbc9b8ed3b6397cbb33.png",
+    "calories": 251,
+    "protein": 14,
+    "carbs": 2,
     "fats": 21,
     "ingredients": [
       {
-        "name": "Huevos",
-        "quantity": "2",
-        "unit": "unidad",
-        "calories": 156,
-        "protein": 13,
-        "carbs": 1,
-        "fats": 11,
-        "baseCalories": 78,
-        "baseProtein": 6.5,
-        "baseCarbs": 0.5,
-        "baseFats": 5.5
-      },
-      {
-        "name": "Queso Havarti Light",
-        "quantity": "30",
+        "name": "Hamburguesa de Pavo-Pollo",
+        "quantity": "90",
         "unit": "g",
-        "calories": 78,
-        "protein": 7.8,
-        "carbs": 0.15,
-        "fats": 5.1,
-        "baseCalories": 2.6,
-        "baseProtein": 0.26,
-        "baseCarbs": 0.005,
-        "baseFats": 0.16999999999999998
+        "calories": 206.99999999999997,
+        "protein": 14.4,
+        "carbs": 1.8,
+        "fats": 16.2,
+        "baseCalories": 2.3,
+        "baseProtein": 0.16,
+        "baseCarbs": 0.02,
+        "baseFats": 0.18
       },
       {
-        "name": "Aceite de Oliva Virgen Extra",
+        "name": "Aceite de Oliva Virgen",
         "quantity": "5",
         "unit": "g",
-        "calories": 45,
+        "calories": 44.2,
         "protein": 0,
         "carbs": 0,
         "fats": 5,
-        "baseCalories": 9,
+        "baseCalories": 8.84,
         "baseProtein": 0,
         "baseCarbs": 0,
         "baseFats": 1
       }
     ],
-    "preparation": "1. Batir los huevos en un bol con una pizca de sal y pimienta. 2. Cortar el queso Havarti light en trocitos pequeños o rallarlo. 3. Calentar una sartén antiadherente a fuego medio con una pizca de aceite de oliva o mantequilla (opcional). 4. Verter los huevos batidos en la sartén caliente. Dejar que empiecen a cuajar ligeramente por los bordes. 5. Añadir los trocitos de queso Havarti light distribuyéndolos por encima de los huevos. 6. Remover suavemente con una espátula, llevando los bordes cuajados hacia el centro y permitiendo que la parte líquida fluya hacia los lados, hasta que los huevos estén cuajados al gusto (más jugosos o más secos) y el queso esté derretido e integrado. Servir inmediatamente.",
-    "originalBaseRecipeId": "ac_revuelto_de_huevos_con_queso_habarti_light"
-  },
-  "p2_m5": {
-    "name": "Yogur Protéico (Sabores, Natural...)",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd789b8ed38b127cbc09.png",
-    "calories": 80,
-    "protein": 13,
-    "carbs": 5,
-    "fats": 1,
-    "ingredients": [
-      {
-        "name": "Yogur Protéico",
-        "quantity": "125",
-        "unit": "g",
-        "calories": 80,
-        "protein": 12.5,
-        "carbs": 5,
-        "fats": 0.6,
-        "baseCalories": 0.64,
-        "baseProtein": 0.1,
-        "baseCarbs": 0.04,
-        "baseFats": 0.0048
-      }
-    ],
-    "preparation": "Servir el yogur proteico directamente del envase. Puede acompañarse de frutos rojos, frutos secos, o una pizca de canela al gusto.",
-    "originalBaseRecipeId": "ext_yogur_protico_sabores_natural"
-  },
-  "p2_m6": {
-    "name": "Fruta Densa (Plátano, Manzana)",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe4bb91eb325b93d4a82.png",
-    "calories": 105,
-    "protein": 1,
-    "carbs": 27,
-    "fats": 0,
-    "ingredients": [
-      {
-        "name": "Plátano",
-        "quantity": "1",
-        "unit": "unidad",
-        "calories": 105,
-        "protein": 1.3,
-        "carbs": 27,
-        "fats": 0.4,
-        "baseCalories": 105,
-        "baseProtein": 1.3,
-        "baseCarbs": 27,
-        "baseFats": 0.4
-      }
-    ],
-    "preparation": "Lavar la fruta si es necesario. Pelar si aplica (como el plátano) y consumir directamente.",
-    "originalBaseRecipeId": "ext_fruta_densa_pltano_manzana"
+    "preparation": "1. Si la hamburguesa es casera a partir de carne picada, sazonar la carne con sal, pimienta, ajo en polvo y perejil picado (opcional) y formar la hamburguesa. 2. Calentar una plancha o sartén antiadherente a fuego medio-alto con una gota de aceite de oliva. 3. Cocinar la hamburguesa durante 4-6 minutos por cada lado, o hasta que esté bien cocida por dentro y dorada por fuera.",
+    "originalBaseRecipeId": "ac_hamburguesa_de_pavopollo"
   },
   "p3_m0": {
     "name": "Yogurt Protéico con Frutos Rojos y Secos",
@@ -1151,312 +1101,6 @@ const foodDatabase = {
     ],
     "preparation": "1. Lavar y cortar los tomates en gajos. 2. Escurrir los espárragos blancos y el atún. 3. Picar la cebolla en juliana fina. 4. En una fuente, disponer los tomates, los espárragos y el atún. 5. Añadir la cebolla y aliñar con aceite de oliva, vinagre y sal al gusto.",
     "originalBaseRecipeId": "cc_ensalada_de_tomate_esprragos_blancos_con_atn"
-  },
-  "p3_m3": {
-    "name": "Yogur Protéico (Sabores, Natural...)",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd789b8ed38b127cbc09.png",
-    "calories": 81,
-    "protein": 13,
-    "carbs": 6,
-    "fats": 1,
-    "ingredients": [
-      {
-        "name": "Yogur Protéico",
-        "quantity": "125",
-        "unit": "g",
-        "calories": 81,
-        "protein": 13,
-        "carbs": 6,
-        "fats": 1,
-        "baseCalories": 0.648,
-        "baseProtein": 0.104,
-        "baseCarbs": 0.048,
-        "baseFats": 0.008
-      }
-    ],
-    "preparation": "Abrir y disfrutar. Puedes añadir un poco de canela si lo deseas.",
-    "originalBaseRecipeId": "ext_yogur_protico_sabores_natural"
-  },
-  "p4_m0": {
-    "name": "Tostada de Centeno con Queso Cottage y Cherries",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68792fea2035ba213493e87e.png",
-    "calories": 173,
-    "protein": 11,
-    "carbs": 25,
-    "fats": 3,
-    "ingredients": [
-      {
-        "name": "Tostada de Pan de Centeno",
-        "quantity": "1",
-        "unit": "rebanada",
-        "calories": 108,
-        "protein": 3.5999999999999996,
-        "carbs": 20,
-        "fats": 1.2,
-        "baseCalories": 108,
-        "baseProtein": 3.5999999999999996,
-        "baseCarbs": 20,
-        "baseFats": 1.2
-      },
-      {
-        "name": "Tomates Cherry",
-        "quantity": "50",
-        "unit": "g",
-        "calories": 15,
-        "protein": 1,
-        "carbs": 2.5,
-        "fats": 0.1,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Queso Cottage",
-        "quantity": "50",
-        "unit": "g",
-        "calories": 50,
-        "protein": 6,
-        "carbs": 2,
-        "fats": 2,
-        "baseCalories": 1,
-        "baseProtein": 0.12,
-        "baseCarbs": 0.04,
-        "baseFats": 0.04
-      }
-    ],
-    "preparation": "1. Tostar el pan de centeno. 2. Untar el queso cottage sobre las tostadas y añadir los cherries por encima con especias.",
-    "originalBaseRecipeId": "des_tostada_de_centeno_con_queso_cottage_y_cherries"
-  },
-  "p4_m1": {
-    "name": "Ensala de Patata, Atún y Huevo",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afc08b91eb31afe3d4796.png",
-    "calories": 593,
-    "protein": 53,
-    "carbs": 55,
-    "fats": 15,
-    "ingredients": [
-      {
-        "name": "Patata",
-        "quantity": "150",
-        "unit": "g",
-        "calories": 135,
-        "protein": 3,
-        "carbs": 30,
-        "fats": 0.15,
-        "baseCalories": 0.9,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.2,
-        "baseFats": 0.001
-      },
-      {
-        "name": "Pimiento Verde",
-        "quantity": "100",
-        "unit": "g",
-        "calories": 30,
-        "protein": 2,
-        "carbs": 5,
-        "fats": 0.2,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Pimiento Rojo",
-        "quantity": "100",
-        "unit": "g",
-        "calories": 30,
-        "protein": 2,
-        "carbs": 5,
-        "fats": 0.2,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Cebolla",
-        "quantity": "100",
-        "unit": "g",
-        "calories": 100,
-        "protein": 5,
-        "carbs": 10,
-        "fats": 4,
-        "baseCalories": 1,
-        "baseProtein": 0.05,
-        "baseCarbs": 0.1,
-        "baseFats": 0.04
-      },
-      {
-        "name": "Tomate",
-        "quantity": "100",
-        "unit": "g",
-        "calories": 30,
-        "protein": 2,
-        "carbs": 5,
-        "fats": 0.2,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Atún en Conserva",
-        "quantity": "140",
-        "unit": "g",
-        "calories": 224,
-        "protein": 39.2,
-        "carbs": 0,
-        "fats": 5.6000000000000005,
-        "baseCalories": 1.6,
-        "baseProtein": 0.28,
-        "baseCarbs": 0,
-        "baseFats": 0.04
-      },
-      {
-        "name": "Aceite de Oliva Virgen",
-        "quantity": "5",
-        "unit": "g",
-        "calories": 44.2,
-        "protein": 0,
-        "carbs": 0,
-        "fats": 5,
-        "baseCalories": 8.84,
-        "baseProtein": 0,
-        "baseCarbs": 0,
-        "baseFats": 1
-      }
-    ],
-    "preparation": "1. Cocer las patatas con piel en agua con sal hasta que estén tiernas (unos 20-25 minutos). Dejar enfriar, pelar y cortar en dados. 2. Cocer los huevos en agua hirviendo durante 10 minutos. Dejar enfriar, pelar y cortar en rodajas o trozos. 3. Picar finamente el pimiento verde, pimiento rojo, cebolla y tomate. 4. En un bol grande, mezclar las patatas, los huevos, las verduras picadas, el maíz dulce (escurrido) y el atún (escurrido y desmenuzado). 5. Aliñar con aceite de oliva virgen extra, vinagre y sal al gusto. Mezclar con cuidado.",
-    "originalBaseRecipeId": "cc_ensala_de_patata_atn_y_huevo"
-  },
-  "p4_m2": {
-    "name": "Ensalada de Pepino, Tomate y Apio",
-    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69fee83da3dd25aa2ac2564d.png",
-    "calories": 318,
-    "protein": 12,
-    "carbs": 25,
-    "fats": 18,
-    "ingredients": [
-      {
-        "name": "Pepino",
-        "quantity": "100",
-        "unit": "g",
-        "calories": 100,
-        "protein": 5,
-        "carbs": 10,
-        "fats": 4,
-        "baseCalories": 1,
-        "baseProtein": 0.05,
-        "baseCarbs": 0.1,
-        "baseFats": 0.04
-      },
-      {
-        "name": "Tomate",
-        "quantity": "100",
-        "unit": "g",
-        "calories": 30,
-        "protein": 2,
-        "carbs": 5,
-        "fats": 0.2,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Apio",
-        "quantity": "100",
-        "unit": "g",
-        "calories": 100,
-        "protein": 5,
-        "carbs": 10,
-        "fats": 4,
-        "baseCalories": 1,
-        "baseProtein": 0.05,
-        "baseCarbs": 0.1,
-        "baseFats": 0.04
-      },
-      {
-        "name": "Aceite de Oliva Virgen",
-        "quantity": "10",
-        "unit": "g",
-        "calories": 88.4,
-        "protein": 0,
-        "carbs": 0,
-        "fats": 10,
-        "baseCalories": 8.84,
-        "baseProtein": 0,
-        "baseCarbs": 0,
-        "baseFats": 1
-      }
-    ],
-    "preparation": "1. Trocear las verduras. 2. Mezclar y aliñar con aceite de oliva, vinagre y sal.",
-    "originalBaseRecipeId": "pp_ensalada_de_pepino_tomate_y_apio"
-  },
-  "p4_m3": {
-    "name": "Yogur Protéico (Sabores, Natural...)",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd789b8ed38b127cbc09.png",
-    "calories": 75,
-    "protein": 6,
-    "carbs": 5,
-    "fats": 3,
-    "ingredients": [
-      {
-        "name": "Yogur Protéico",
-        "quantity": "125",
-        "unit": "g",
-        "calories": 75,
-        "protein": 6.25,
-        "carbs": 5,
-        "fats": 2.5,
-        "baseCalories": 0.6,
-        "baseProtein": 0.05,
-        "baseCarbs": 0.04,
-        "baseFats": 0.02
-      }
-    ],
-    "preparation": "Abrir y disfrutar. Puedes añadir un poco de canela si lo deseas.",
-    "originalBaseRecipeId": "ext_yogur_protico_sabores_natural"
-  },
-  "p4_m4": {
-    "name": "Pechuga de Pollo a la Plancha",
-    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69b66b3087f0f2415505fc9a.png",
-    "calories": 332,
-    "protein": 50,
-    "carbs": 0,
-    "fats": 12,
-    "ingredients": [
-      {
-        "name": "Pechuga de Pollo",
-        "quantity": "180",
-        "unit": "g",
-        "calories": 288,
-        "protein": 50.400000000000006,
-        "carbs": 0,
-        "fats": 7.2,
-        "baseCalories": 1.6,
-        "baseProtein": 0.28,
-        "baseCarbs": 0,
-        "baseFats": 0.04
-      },
-      {
-        "name": "Aceite de Oliva Virgen",
-        "quantity": "5",
-        "unit": "g",
-        "calories": 44.2,
-        "protein": 0,
-        "carbs": 0,
-        "fats": 5,
-        "baseCalories": 8.84,
-        "baseProtein": 0,
-        "baseCarbs": 0,
-        "baseFats": 1
-      }
-    ],
-    "preparation": "1. Sazonar la pechuga de pollo con sal, pimienta y especias al gusto. 2. Calentar una plancha o sartén antiadherente con una gota de aceite. 3. Cocinar la pechuga hasta que esté dorada por fuera y cocida por dentro.",
-    "originalBaseRecipeId": "ac_pechuga_de_pollo_a_la_plancha"
   }
 };
 const dailyMenus = [
@@ -1537,10 +1181,7 @@ const dailyMenus = [
       "p2_m3",
       "p2_m4"
     ],
-    "extra": [
-      "p2_m5",
-      "p2_m6"
-    ]
+    "extra": []
   },
   {
     "name": "Libre 2",
@@ -1564,35 +1205,6 @@ const dailyMenus = [
     "cena": [
       "p3_m2"
     ],
-    "extra": [
-      "p3_m3"
-    ]
-  },
-  {
-    "name": "Extras VERANO",
-    "targetMacros": {
-      "calories": 1650,
-      "protein": 150,
-      "carbs": 120
-    },
-    "baselineTotals": {
-      "calories": 1579,
-      "protein": 125,
-      "carbs": 158,
-      "fats": 47
-    },
-    "desayuno": [
-      "p4_m0"
-    ],
-    "comida": [
-      "p4_m1"
-    ],
-    "cena": [
-      "p4_m2",
-      "p4_m4"
-    ],
-    "extra": [
-      "p4_m3"
-    ]
+    "extra": []
   }
 ];
