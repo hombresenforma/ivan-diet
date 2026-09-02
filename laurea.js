@@ -1,5 +1,5 @@
 // Titulo: Plan de Alimentación
-// Alergias: 
+// Alergias: Carne roja, Cerdo
 const foodDatabase = {
   "p0_m0": {
     "name": "Tostada de Pan de Centeno con Revuelto de Huevos y Jamón York",
@@ -169,54 +169,28 @@ const foodDatabase = {
     "originalBaseRecipeId": "cc_ensala_de_patata_atn_y_huevo"
   },
   "p0_m2": {
-    "name": "Crema de Verduras Variadas",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cd68425d68cc771ebd10a.png",
-    "calories": 118,
-    "protein": 7,
-    "carbs": 16,
-    "fats": 2,
+    "name": "Ensalada de Tomate, Maíz, Queso de Burgos y Frutos Secos",
+    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/6a953b1ea90361de8b63e6cb.png",
+    "calories": 403,
+    "protein": 19,
+    "carbs": 15,
+    "fats": 29,
     "ingredients": [
       {
-        "name": "Calabaza",
-        "quantity": "75",
-        "unit": "g",
-        "calories": 22.5,
-        "protein": 1.5,
-        "carbs": 3.75,
-        "fats": 0.15,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
-      },
-      {
         "name": "Tomate",
-        "quantity": "75",
+        "quantity": "150",
         "unit": "g",
-        "calories": 22.5,
-        "protein": 1.5,
-        "carbs": 3.75,
-        "fats": 0.15,
+        "calories": 45,
+        "protein": 3,
+        "carbs": 7.5,
+        "fats": 0.3,
         "baseCalories": 0.3,
         "baseProtein": 0.02,
         "baseCarbs": 0.05,
         "baseFats": 0.002
       },
       {
-        "name": "Cebolla",
-        "quantity": "75",
-        "unit": "g",
-        "calories": 22.5,
-        "protein": 1.5,
-        "carbs": 3.75,
-        "fats": 0.15,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Agua",
+        "name": "Maíz",
         "quantity": "50",
         "unit": "g",
         "calories": 50,
@@ -227,34 +201,35 @@ const foodDatabase = {
         "baseProtein": 0.05,
         "baseCarbs": 0.1,
         "baseFats": 0.04
-      }
-    ],
-    "preparation": "1. Puedes comprar una crema preparada o bien cocinar unas cuantas verduras en una olla.",
-    "originalBaseRecipeId": "pp_crema_de_verduras_variadas"
-  },
-  "p0_m3": {
-    "name": "Merluza a la Plancha",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684f001d4d606642b1333279.png",
-    "calories": 408,
-    "protein": 56,
-    "carbs": 0,
-    "fats": 18,
-    "ingredients": [
-      {
-        "name": "Filete de Merluza",
-        "quantity": "200",
-        "unit": "g",
-        "calories": 320,
-        "protein": 56.00000000000001,
-        "carbs": 0,
-        "fats": 8,
-        "baseCalories": 1.6,
-        "baseProtein": 0.28,
-        "baseCarbs": 0,
-        "baseFats": 0.04
       },
       {
-        "name": "Aceite de Oliva Virgen Extra",
+        "name": "Queso de Burgos",
+        "quantity": "50",
+        "unit": "g",
+        "calories": 175,
+        "protein": 12.5,
+        "carbs": 1,
+        "fats": 12.5,
+        "baseCalories": 3.5,
+        "baseProtein": 0.25,
+        "baseCarbs": 0.02,
+        "baseFats": 0.25
+      },
+      {
+        "name": "Frutos Secos",
+        "quantity": "10",
+        "unit": "g",
+        "calories": 45,
+        "protein": 1,
+        "carbs": 1.5,
+        "fats": 4,
+        "baseCalories": 4.5,
+        "baseProtein": 0.1,
+        "baseCarbs": 0.15,
+        "baseFats": 0.4
+      },
+      {
+        "name": "Aceite de Oliva Virgen",
         "quantity": "10",
         "unit": "g",
         "calories": 88.4,
@@ -267,10 +242,10 @@ const foodDatabase = {
         "baseFats": 1
       }
     ],
-    "preparation": "1. Sazonar los filetes o rodajas de merluza con sal, pimienta y opcionalmente un poco de ajo en polvo o perejil picado. 2. Calentar una plancha o sartén antiadherente a fuego medio-alto con un chorrito de aceite de oliva virgen extra. 3. Cuando el aceite esté caliente, colocar la merluza en la plancha. Cocinar durante unos 3-5 minutos por cada lado, dependiendo del grosor del pescado, hasta que esté opaca, bien cocida por dentro y se desmenuce fácilmente con un tenedor. 4. Servir inmediatamente, opcionalmente con un chorrito de zumo de limón fresco por encima.",
-    "originalBaseRecipeId": "ac_merluza_a_la_plancha"
+    "preparation": "1. Cortar el tomate en trozos. 2. Añadir el maíz, el queso de Burgos troceado y los frutos secos por encima. 3. Aliñar al gusto.",
+    "originalBaseRecipeId": "pp_ensalada_de_tomate_maz_queso_de_burgos_y_frutos_secos"
   },
-  "p0_m4": {
+  "p0_m3": {
     "name": "Yogur Protéico (Sabores, Natural...)",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd789b8ed38b127cbc09.png",
     "calories": 125,
@@ -295,30 +270,55 @@ const foodDatabase = {
     "preparation": "1. Seleccionar el yogur proteico de preferencia. 2. Abrir el envase. 3. Consumir directamente con una cuchara.",
     "originalBaseRecipeId": "ext_yogur_protico_sabores_natural"
   },
-  "p0_m5": {
-    "name": "Fruta Cítrica (Mandarina, Kiwi, Naranja...)",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd3d0ed506305442ffe4.png",
-    "calories": 45,
-    "protein": 0,
-    "carbs": 11,
+  "p0_m4": {
+    "name": "Fruta Densa (Plátano, Manzana, Pera)",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe4bb91eb325b93d4a82.png",
+    "calories": 90,
+    "protein": 1,
+    "carbs": 23,
     "fats": 0,
     "ingredients": [
       {
-        "name": "Kiwi",
+        "name": "Manzana",
         "quantity": "1",
-        "unit": "unidad(es)",
-        "calories": 45,
-        "protein": 0.375,
-        "carbs": 11.25,
-        "fats": 0.15,
-        "baseCalories": 45,
-        "baseProtein": 0.375,
-        "baseCarbs": 11.25,
-        "baseFats": 0.15
+        "unit": "ud",
+        "calories": 90,
+        "protein": 0.75,
+        "carbs": 22.5,
+        "fats": 0.3,
+        "baseCalories": 90,
+        "baseProtein": 0.75,
+        "baseCarbs": 22.5,
+        "baseFats": 0.3
       }
     ],
-    "preparation": "1. Seleccionar la fruta cítrica de preferencia. 2. Lavar bien la fruta bajo el grifo. 3. Para mandarinas y naranjas: pelar la piel con las manos. 4. Para kiwis: cortar por la mitad y comer la pulpa con una cucharita.",
-    "originalBaseRecipeId": "ext_fruta_ctrica_mandarina_kiwi_naranja"
+    "preparation": "1. Seleccionar la fruta densa de preferencia. 2. Para plátanos: pelar la piel y consumir directamente. 3. Para manzanas o peras: lavar bien la fruta. Se puede consumir con piel o pelada.",
+    "originalBaseRecipeId": "ext_fruta_densa_pltano_manzana_pera"
+  },
+  "p0_m5": {
+    "name": "Hamburguesa de Pavo-Pollo",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afcbc9b8ed3b6397cbb33.png",
+    "calories": 230,
+    "protein": 16,
+    "carbs": 2,
+    "fats": 18,
+    "ingredients": [
+      {
+        "name": "Hamburguesa de Pavo-Pollo",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 229.99999999999997,
+        "protein": 16,
+        "carbs": 2,
+        "fats": 18,
+        "baseCalories": 2.3,
+        "baseProtein": 0.16,
+        "baseCarbs": 0.02,
+        "baseFats": 0.18
+      }
+    ],
+    "preparation": "1. Si la hamburguesa es casera a partir de carne picada, sazonar la carne con sal, pimienta, ajo en polvo y perejil picado (opcional) y formar la hamburguesa. 2. Calentar una plancha o sartén antiadherente a fuego medio-alto con una gota de aceite de oliva. 3. Cocinar la hamburguesa durante 4-6 minutos por cada lado, o hasta que esté bien cocida por dentro y dorada por fuera.",
+    "originalBaseRecipeId": "ac_hamburguesa_de_pavopollo"
   },
   "p1_m0": {
     "name": "Tostada de Centeno con Aguacate y Atún",
@@ -578,29 +578,29 @@ const foodDatabase = {
     "originalBaseRecipeId": "cc_fajitas_de_pollo_y_verduras"
   },
   "p1_m3": {
-    "name": "Fruta Cítrica (Mandarina, Kiwi, Naranja...)",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd3d0ed506305442ffe4.png",
-    "calories": 48,
-    "protein": 0,
-    "carbs": 12,
+    "name": "Fruta Densa (Plátano, Manzana, Pera)",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe4bb91eb325b93d4a82.png",
+    "calories": 90,
+    "protein": 1,
+    "carbs": 23,
     "fats": 0,
     "ingredients": [
       {
-        "name": "Mandarina",
+        "name": "Plátano",
         "quantity": "1",
-        "unit": "unidad(es)",
-        "calories": 48,
-        "protein": 0.4,
-        "carbs": 12,
-        "fats": 0.16,
-        "baseCalories": 48,
-        "baseProtein": 0.4,
-        "baseCarbs": 12,
-        "baseFats": 0.16
+        "unit": "ud",
+        "calories": 90,
+        "protein": 0.75,
+        "carbs": 22.5,
+        "fats": 0.3,
+        "baseCalories": 90,
+        "baseProtein": 0.75,
+        "baseCarbs": 22.5,
+        "baseFats": 0.3
       }
     ],
-    "preparation": "1. Seleccionar la fruta cítrica de preferencia. 2. Lavar bien la fruta bajo el grifo. 3. Para mandarinas y naranjas: pelar la piel con las manos. 4. Para kiwis: cortar por la mitad y comer la pulpa con una cucharita.",
-    "originalBaseRecipeId": "ext_fruta_ctrica_mandarina_kiwi_naranja"
+    "preparation": "1. Seleccionar la fruta densa de preferencia. 2. Para plátanos: pelar la piel y consumir directamente. 3. Para manzanas o peras: lavar bien la fruta. Se puede consumir con piel o pelada.",
+    "originalBaseRecipeId": "ext_fruta_densa_pltano_manzana_pera"
   },
   "p1_m4": {
     "name": "Tortitas de Legumbres (Mercadona)",
@@ -679,64 +679,51 @@ const foodDatabase = {
     "originalBaseRecipeId": "des_tostada_de_centeno_con_queso_cottage_y_cherries"
   },
   "p2_m1": {
-    "name": "Ensaladilla Rápida de Huevo y Aguacate",
-    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69b51223cab7f763d6c921f6.png",
-    "calories": 611,
-    "protein": 37,
-    "carbs": 18,
-    "fats": 43,
+    "name": "Cuscús con Atún y Verduras",
+    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69b512c9bfc81fa0930b4288.png",
+    "calories": 628,
+    "protein": 52,
+    "carbs": 63,
+    "fats": 17,
     "ingredients": [
       {
-        "name": "Huevo Cocido",
-        "quantity": "1",
-        "unit": "ud",
-        "calories": 85.25,
-        "protein": 7.15,
-        "carbs": 0.6050000000000001,
-        "fats": 6.05,
-        "baseCalories": 85.25,
-        "baseProtein": 7.15,
-        "baseCarbs": 0.6050000000000001,
-        "baseFats": 6.05
-      },
-      {
-        "name": "Aguacate",
-        "quantity": "50",
+        "name": "Cuscús",
+        "quantity": "70",
         "unit": "g",
-        "calories": 225,
-        "protein": 5,
-        "carbs": 7.5,
-        "fats": 20,
-        "baseCalories": 4.5,
-        "baseProtein": 0.1,
-        "baseCarbs": 0.15,
-        "baseFats": 0.4
+        "calories": 255.5,
+        "protein": 8.4,
+        "carbs": 52.5,
+        "fats": 1.4000000000000001,
+        "baseCalories": 3.65,
+        "baseProtein": 0.12,
+        "baseCarbs": 0.75,
+        "baseFats": 0.02
       },
       {
         "name": "Atún",
-        "quantity": "70",
+        "quantity": "140",
         "unit": "g",
-        "calories": 112,
-        "protein": 19.6,
+        "calories": 224,
+        "protein": 39.2,
         "carbs": 0,
-        "fats": 2.8000000000000003,
+        "fats": 5.6000000000000005,
         "baseCalories": 1.6,
         "baseProtein": 0.28,
         "baseCarbs": 0,
         "baseFats": 0.04
       },
       {
-        "name": "Cebolla",
-        "quantity": "100",
+        "name": "Verduras Variadas",
+        "quantity": "200",
         "unit": "g",
-        "calories": 100,
-        "protein": 5,
+        "calories": 60,
+        "protein": 4,
         "carbs": 10,
-        "fats": 4,
-        "baseCalories": 1,
-        "baseProtein": 0.05,
-        "baseCarbs": 0.1,
-        "baseFats": 0.04
+        "fats": 0.4,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
       },
       {
         "name": "Aceite de Oliva Virgen",
@@ -752,48 +739,10 @@ const foodDatabase = {
         "baseFats": 1
       }
     ],
-    "preparation": "1. Picar el huevo cocido y el aguacate. 2. Mezclar con el atún y la cebolla picada. 3. Aliñar al gusto.",
-    "originalBaseRecipeId": "cc_ensaladilla_rpida_de_huevo_y_aguacate"
+    "preparation": "1. Hidratar el cuscús. 2. Saltear las verduras y añadir el atún. 3. Mezclar con el cuscús.",
+    "originalBaseRecipeId": "cc_cuscs_con_atn_y_verduras"
   },
   "p2_m2": {
-    "name": "Hamburguesa de Pavo-Pollo",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afcbc9b8ed3b6397cbb33.png",
-    "calories": 274,
-    "protein": 16,
-    "carbs": 2,
-    "fats": 23,
-    "ingredients": [
-      {
-        "name": "Hamburguesa de Pavo-Pollo",
-        "quantity": "100",
-        "unit": "g",
-        "calories": 229.99999999999997,
-        "protein": 16,
-        "carbs": 2,
-        "fats": 18,
-        "baseCalories": 2.3,
-        "baseProtein": 0.16,
-        "baseCarbs": 0.02,
-        "baseFats": 0.18
-      },
-      {
-        "name": "Aceite de Oliva Virgen Extra",
-        "quantity": "5",
-        "unit": "g",
-        "calories": 44.2,
-        "protein": 0,
-        "carbs": 0,
-        "fats": 5,
-        "baseCalories": 8.84,
-        "baseProtein": 0,
-        "baseCarbs": 0,
-        "baseFats": 1
-      }
-    ],
-    "preparation": "1. Si la hamburguesa es casera a partir de carne picada, sazonar la carne con sal, pimienta, ajo en polvo y perejil picado (opcional) y formar la hamburguesa. 2. Calentar una plancha o sartén antiadherente a fuego medio-alto con una gota de aceite de oliva. 3. Cocinar la hamburguesa durante 4-6 minutos por cada lado, o hasta que esté bien cocida por dentro y dorada por fuera.",
-    "originalBaseRecipeId": "ac_hamburguesa_de_pavopollo"
-  },
-  "p2_m3": {
     "name": "Gazpacho",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cfbad25d68cc1a4ec3688.png",
     "calories": 260,
@@ -857,6 +806,31 @@ const foodDatabase = {
     "preparation": "1. Trocear todas las verduras. 2. Poner todos los ingredientes en una batidora junto con aceite, vinagre y sal. 3. Triturar hasta obtener una sopa fina. 4. Enfriar en la nevera antes de servir. Puedes comprarlo preparado si lo prefieres.",
     "originalBaseRecipeId": "pp_gazpacho"
   },
+  "p2_m3": {
+    "name": "Huevo Duro Cocido",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68f27f5bfb2e440988a37788.png",
+    "calories": 85,
+    "protein": 7,
+    "carbs": 1,
+    "fats": 6,
+    "ingredients": [
+      {
+        "name": "Huevo Cocido",
+        "quantity": "1",
+        "unit": "ud",
+        "calories": 85.25,
+        "protein": 7.15,
+        "carbs": 0.6050000000000001,
+        "fats": 6.05,
+        "baseCalories": 85.25,
+        "baseProtein": 7.15,
+        "baseCarbs": 0.6050000000000001,
+        "baseFats": 6.05
+      }
+    ],
+    "preparation": "Cocer the huevo en agua hirviendo durante 10-12 minutos. Pelar y servir.",
+    "originalBaseRecipeId": "ac_huevo_duro_cocido"
+  },
   "p2_m4": {
     "name": "Yogur Griego Desnatado con Proteína en Polvo",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68e7efa6d27b18380fc8e8fd.png",
@@ -896,29 +870,29 @@ const foodDatabase = {
     "originalBaseRecipeId": "des_yogur_griego_desnatado_con_protena_en_polvo"
   },
   "p2_m5": {
-    "name": "Huevo Duro Cocido",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68f27f5bfb2e440988a37788.png",
-    "calories": 85,
-    "protein": 7,
-    "carbs": 1,
-    "fats": 6,
+    "name": "Fruta Cítrica (Mandarina, Kiwi, Naranja...)",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd3d0ed506305442ffe4.png",
+    "calories": 180,
+    "protein": 2,
+    "carbs": 45,
+    "fats": 1,
     "ingredients": [
       {
-        "name": "Huevo Cocido",
-        "quantity": "1",
+        "name": "Mandarina",
+        "quantity": "2",
         "unit": "ud",
-        "calories": 85.25,
-        "protein": 7.15,
-        "carbs": 0.6050000000000001,
-        "fats": 6.05,
-        "baseCalories": 85.25,
-        "baseProtein": 7.15,
-        "baseCarbs": 0.6050000000000001,
-        "baseFats": 6.05
+        "calories": 180,
+        "protein": 1.5,
+        "carbs": 45,
+        "fats": 0.6,
+        "baseCalories": 90,
+        "baseProtein": 0.75,
+        "baseCarbs": 22.5,
+        "baseFats": 0.3
       }
     ],
-    "preparation": "Cocer the huevo en agua hirviendo durante 10-12 minutos. Pelar y servir.",
-    "originalBaseRecipeId": "ac_huevo_duro_cocido"
+    "preparation": "1. Seleccionar la fruta cítrica de preferencia. 2. Lavar bien la fruta bajo el grifo. 3. Para mandarinas y naranjas: pelar la piel con las manos. 4. Para kiwis: cortar por la mitad y comer la pulpa con una cucharita.",
+    "originalBaseRecipeId": "ext_fruta_ctrica_mandarina_kiwi_naranja"
   },
   "p3_m0": {
     "name": "Yogur Protéico con Frutos Rojos y Secos",
@@ -972,13 +946,26 @@ const foodDatabase = {
     "originalBaseRecipeId": "ext_yogur_protico_con_frutos_rojos_y_secos"
   },
   "p3_m1": {
-    "name": "Ensalada de Tomate Espárragos Blancos con Atún",
-    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/699b47f820c0359e700b32ca.png",
-    "calories": 492,
-    "protein": 49,
-    "carbs": 20,
-    "fats": 22,
+    "name": "Ensalada con Pollo y Queso de Burgos",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afdceb91eb360843d4a0b.png",
+    "calories": 608,
+    "protein": 64,
+    "carbs": 24,
+    "fats": 26,
     "ingredients": [
+      {
+        "name": "Canónigos",
+        "quantity": "50",
+        "unit": "g",
+        "calories": 50,
+        "protein": 2.5,
+        "carbs": 5,
+        "fats": 2,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
       {
         "name": "Tomate",
         "quantity": "100",
@@ -993,7 +980,7 @@ const foodDatabase = {
         "baseFats": 0.002
       },
       {
-        "name": "Espárragos Blancos",
+        "name": "Cebolla",
         "quantity": "100",
         "unit": "g",
         "calories": 100,
@@ -1006,33 +993,33 @@ const foodDatabase = {
         "baseFats": 0.04
       },
       {
-        "name": "Atún en Conserva",
-        "quantity": "140",
+        "name": "Queso de Burgos 0%",
+        "quantity": "100",
         "unit": "g",
-        "calories": 224,
-        "protein": 39.2,
+        "calories": 100,
+        "protein": 12,
+        "carbs": 4,
+        "fats": 4,
+        "baseCalories": 1,
+        "baseProtein": 0.12,
+        "baseCarbs": 0.04,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Pechuga de Pollo",
+        "quantity": "150",
+        "unit": "g",
+        "calories": 240,
+        "protein": 42.00000000000001,
         "carbs": 0,
-        "fats": 5.6000000000000005,
+        "fats": 6,
         "baseCalories": 1.6,
         "baseProtein": 0.28,
         "baseCarbs": 0,
         "baseFats": 0.04
       },
       {
-        "name": "Cebolla",
-        "quantity": "50",
-        "unit": "g",
-        "calories": 50,
-        "protein": 2.5,
-        "carbs": 5,
-        "fats": 2,
-        "baseCalories": 1,
-        "baseProtein": 0.05,
-        "baseCarbs": 0.1,
-        "baseFats": 0.04
-      },
-      {
-        "name": "Aceite de Oliva Virgen Extra",
+        "name": "Aceite de Oliva Virgen",
         "quantity": "10",
         "unit": "g",
         "calories": 88.4,
@@ -1045,8 +1032,8 @@ const foodDatabase = {
         "baseFats": 1
       }
     ],
-    "preparation": "1. Lavar y cortar los tomates en gajos. 2. Escurrir los espárragos blancos y el atún. 3. Picar la cebolla en juliana fina. 4. En una fuente, disponer los tomates, los espárragos y el atún. 5. Añadir la cebolla y aliñar con aceite de oliva, vinagre y sal al gusto.",
-    "originalBaseRecipeId": "cc_ensalada_de_tomate_esprragos_blancos_con_atn"
+    "preparation": "1. Cocinar la pechuga de pollo (a la plancha, hervida o asada) y cortarla en tiras o dados. 2. Lavar los canónigos y escurrirlos bien. Cortar los tomates (cherry por la mitad, o normales en gajos) y la cebolla en rodajas finas o juliana. Cortar el queso de Burgos 0% en dados o láminas. 3. En un bol o plato grande, disponer una base de canónigos. Añadir encima el tomate, la cebolla, el pollo y el queso de Burgos. 4. Aliñar con aceite de oliva virgen extra, vinagre (de manzana o Módena) y sal al gusto.",
+    "originalBaseRecipeId": "cc_ensalada_con_pollo_y_queso_de_burgos"
   },
   "p3_m2": {
     "name": "Wok de Verduras con Salmón",
@@ -1175,6 +1162,31 @@ const foodDatabase = {
     ],
     "preparation": "1. Mezclar el yogur griego con la proteína en polvo en un bol hasta que esté bien integrado y sin grumos.",
     "originalBaseRecipeId": "des_yogur_griego_desnatado_con_protena_en_polvo"
+  },
+  "p3_m4": {
+    "name": "Fruta Cítrica (Mandarina, Kiwi, Naranja...)",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd3d0ed506305442ffe4.png",
+    "calories": 180,
+    "protein": 2,
+    "carbs": 45,
+    "fats": 1,
+    "ingredients": [
+      {
+        "name": "Mandarina",
+        "quantity": "2",
+        "unit": "ud",
+        "calories": 180,
+        "protein": 1.5,
+        "carbs": 45,
+        "fats": 0.6,
+        "baseCalories": 90,
+        "baseProtein": 0.75,
+        "baseCarbs": 22.5,
+        "baseFats": 0.3
+      }
+    ],
+    "preparation": "1. Seleccionar la fruta cítrica de preferencia. 2. Lavar bien la fruta bajo el grifo. 3. Para mandarinas y naranjas: pelar la piel con las manos. 4. Para kiwis: cortar por la mitad y comer la pulpa con una cucharita.",
+    "originalBaseRecipeId": "ext_fruta_ctrica_mandarina_kiwi_naranja"
   },
   "p4_m0": {
     "name": "Tostada de salmon ahumado y queso crema",
@@ -1391,11 +1403,11 @@ const dailyMenus = [
     ],
     "cena": [
       "p0_m2",
-      "p0_m3"
+      "p0_m5"
     ],
     "extra": [
-      "p0_m4",
-      "p0_m5"
+      "p0_m3",
+      "p0_m4"
     ]
   },
   {
@@ -1439,15 +1451,15 @@ const dailyMenus = [
       "fats": 88
     },
     "desayuno": [
-      "p2_m0"
+      "p2_m0",
+      "p2_m5"
     ],
     "comida": [
-      "p2_m1",
-      "p2_m2"
+      "p2_m1"
     ],
     "cena": [
-      "p2_m3",
-      "p2_m5"
+      "p2_m2",
+      "p2_m3"
     ],
     "extra": [
       "p2_m4"
@@ -1467,7 +1479,8 @@ const dailyMenus = [
       "fats": 80
     },
     "desayuno": [
-      "p3_m0"
+      "p3_m0",
+      "p3_m4"
     ],
     "comida": [
       "p3_m1"
