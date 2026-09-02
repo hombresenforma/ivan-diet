@@ -1213,6 +1213,514 @@ const foodDatabase = {
     ],
     "preparation": "Consumir directamente como un snack energético y nutritivo.",
     "originalBaseRecipeId": "ext_frutos_secos_mezcla"
+  },
+  "p4_m0": {
+    "name": "Tostada de centeno con jamón ibérico",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6887226c7537da60484d071f.png",
+    "calories": 438,
+    "protein": 37,
+    "carbs": 20,
+    "fats": 22,
+    "ingredients": [
+      {
+        "name": "Tostada de Pan de Centeno",
+        "quantity": "1",
+        "unit": "rebanada",
+        "calories": 108,
+        "protein": 3.5999999999999996,
+        "carbs": 20,
+        "fats": 1.2,
+        "baseCalories": 108,
+        "baseProtein": 3.5999999999999996,
+        "baseCarbs": 20,
+        "baseFats": 1.2
+      },
+      {
+        "name": "Jamón Ibérico",
+        "quantity": "150",
+        "unit": "g",
+        "calories": 330,
+        "protein": 33,
+        "carbs": 0,
+        "fats": 21.000000000000004,
+        "baseCalories": 2.2,
+        "baseProtein": 0.22,
+        "baseCarbs": 0,
+        "baseFats": 0.14
+      }
+    ],
+    "preparation": "1. Tostar el pan de centeno. 2. Colocar las lonchas de jamón ibérico por encima. Opcional: añadir un chorrito de aceite de oliva.",
+    "originalBaseRecipeId": "des_tostada_de_centeno_con_jamn_ibrico"
+  },
+  "p4_m1": {
+    "name": "Ensalada de Lentejas",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682aff5a365e949c0a73d706.png",
+    "calories": 490,
+    "protein": 35,
+    "carbs": 63,
+    "fats": 9,
+    "ingredients": [
+      {
+        "name": "Lentejas Cocidas",
+        "quantity": "200",
+        "unit": "g",
+        "calories": 260,
+        "protein": 16,
+        "carbs": 44,
+        "fats": 1,
+        "baseCalories": 1.3,
+        "baseProtein": 0.08,
+        "baseCarbs": 0.22,
+        "baseFats": 0.005
+      },
+      {
+        "name": "Tomate",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 30,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Cebolla",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 100,
+        "protein": 5,
+        "carbs": 10,
+        "fats": 4,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Queso de Burgos 0%",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 100,
+        "protein": 12,
+        "carbs": 4,
+        "fats": 4,
+        "baseCalories": 1,
+        "baseProtein": 0.12,
+        "baseCarbs": 0.04,
+        "baseFats": 0.04
+      }
+    ],
+    "preparation": "1. Si usas lentejas de bote, enjuagarlas bien bajo el grifo y escurrirlas. Si las cocinas, déjalas enfriar. 2. Picar el tomate y la cebolla (preferiblemente morada) en dados pequeños. Cortar el queso de Burgos 0% y el aguacate en dados. 3. En un bol grande, mezclar con cuidado las lentejas, el tomate, la cebolla, el queso de Burgos y el aguacate. 4. Aliñar con aceite de oliva virgen extra, vinagre (de manzana o Jerez) y sal al gusto.",
+    "originalBaseRecipeId": "pp_ensalada_de_lentejas"
+  },
+  "p4_m2": {
+    "name": "Merluza a la Plancha",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684f001d4d606642b1333279.png",
+    "calories": 328,
+    "protein": 42,
+    "carbs": 0,
+    "fats": 16,
+    "ingredients": [
+      {
+        "name": "Filete de Merluza",
+        "quantity": "150",
+        "unit": "g",
+        "calories": 240,
+        "protein": 42.00000000000001,
+        "carbs": 0,
+        "fats": 6,
+        "baseCalories": 1.6,
+        "baseProtein": 0.28,
+        "baseCarbs": 0,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Aceite de Oliva Virgen Extra",
+        "quantity": "10",
+        "unit": "g",
+        "calories": 88.4,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 10,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1
+      }
+    ],
+    "preparation": "1. Sazonar los filetes o rodajas de merluza con sal, pimienta y opcionalmente un poco de ajo en polvo o perejil picado. 2. Calentar una plancha o sartén antiadherente a fuego medio-alto con un chorrito de aceite de oliva virgen extra. 3. Cuando el aceite esté caliente, colocar la merluza en la plancha. Cocinar durante unos 3-5 minutos por cada lado, dependiendo del grosor del pescado, hasta que esté opaca, bien cocida por dentro y se desmenuce fácilmente con un tenedor. 4. Servir inmediatamente, opcionalmente con un chorrito de zumo de limón fresco por encima.",
+    "originalBaseRecipeId": "ac_merluza_a_la_plancha"
+  },
+  "p4_m3": {
+    "name": "Yogur Protéico (Sabores, Natural...)",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd789b8ed38b127cbc09.png",
+    "calories": 75,
+    "protein": 6,
+    "carbs": 5,
+    "fats": 3,
+    "ingredients": [
+      {
+        "name": "Yogur Protéico",
+        "quantity": "125",
+        "unit": "g",
+        "calories": 75,
+        "protein": 6.25,
+        "carbs": 5,
+        "fats": 2.5,
+        "baseCalories": 0.6,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.04,
+        "baseFats": 0.02
+      }
+    ],
+    "preparation": "1. Seleccionar el yogur proteico de preferencia. 2. Abrir el envase. 3. Consumir directamente con una cuchara.",
+    "originalBaseRecipeId": "ext_yogur_protico_sabores_natural"
+  },
+  "p4_m4": {
+    "name": "Frutos Secos (Mezcla)",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68525c0b1d27cfeb580a55f7.png",
+    "calories": 98,
+    "protein": 3,
+    "carbs": 5,
+    "fats": 7,
+    "ingredients": [
+      {
+        "name": "Anacardos",
+        "quantity": "15",
+        "unit": "g",
+        "calories": 15,
+        "protein": 0.75,
+        "carbs": 1.5,
+        "fats": 0.6,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Almendras",
+        "quantity": "15",
+        "unit": "g",
+        "calories": 15,
+        "protein": 0.75,
+        "carbs": 1.5,
+        "fats": 0.6,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Nueces",
+        "quantity": "15",
+        "unit": "g",
+        "calories": 67.5,
+        "protein": 1.5,
+        "carbs": 2.25,
+        "fats": 6,
+        "baseCalories": 4.5,
+        "baseProtein": 0.1,
+        "baseCarbs": 0.15,
+        "baseFats": 0.4
+      }
+    ],
+    "preparation": "Consumir directamente como un snack energético y nutritivo.",
+    "originalBaseRecipeId": "ext_frutos_secos_mezcla"
+  },
+  "p5_m0": {
+    "name": "Porridge de Avena y Frutos Rojos",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afdf19b8ed348797cbcd8.png",
+    "calories": 394,
+    "protein": 15,
+    "carbs": 66,
+    "fats": 7,
+    "ingredients": [
+      {
+        "name": "Copos de Avena",
+        "quantity": "60",
+        "unit": "g",
+        "calories": 219,
+        "protein": 7.199999999999999,
+        "carbs": 45,
+        "fats": 1.2,
+        "baseCalories": 3.65,
+        "baseProtein": 0.11999999999999998,
+        "baseCarbs": 0.75,
+        "baseFats": 0.02
+      },
+      {
+        "name": "Leche",
+        "quantity": "150",
+        "unit": "g",
+        "calories": 150,
+        "protein": 7.5,
+        "carbs": 15,
+        "fats": 6,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Frutos Rojos",
+        "quantity": "50",
+        "unit": "g",
+        "calories": 25,
+        "protein": 0.5,
+        "carbs": 6,
+        "fats": 0.25,
+        "baseCalories": 0.5,
+        "baseProtein": 0.01,
+        "baseCarbs": 0.12,
+        "baseFats": 0.005
+      }
+    ],
+    "preparation": "1. En un cazo, cocinar los copos de avena con la leche o bebida vegetal a fuego medio, removiendo constantemente hasta que espese y la avena esté cocida (unos 5-7 minutos). 2. Servir caliente en un bol con los frutos rojos por encima. Opcional: añadir canela o edulcorante al gusto.",
+    "originalBaseRecipeId": "des_porridge_de_avena_y_frutos_rojos"
+  },
+  "p5_m1": {
+    "name": "Ensalada de garbanzos con verduras y queso",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68ff252d3f16b5241c27c1e4.png",
+    "calories": 558,
+    "protein": 31,
+    "carbs": 66,
+    "fats": 17,
+    "ingredients": [
+      {
+        "name": "Garbanzos en Conserva",
+        "quantity": "200",
+        "unit": "g",
+        "calories": 260,
+        "protein": 16,
+        "carbs": 44,
+        "fats": 1,
+        "baseCalories": 1.3,
+        "baseProtein": 0.08,
+        "baseCarbs": 0.22,
+        "baseFats": 0.005
+      },
+      {
+        "name": "Pepino",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 100,
+        "protein": 5,
+        "carbs": 10,
+        "fats": 4,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Tomates Cherry",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 30,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Espinacas",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 30,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Queso de Burgos 0%",
+        "quantity": "50",
+        "unit": "g",
+        "calories": 50,
+        "protein": 6,
+        "carbs": 2,
+        "fats": 2,
+        "baseCalories": 1,
+        "baseProtein": 0.12,
+        "baseCarbs": 0.04,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Aceite de Oliva Virgen",
+        "quantity": "10",
+        "unit": "g",
+        "calories": 88.4,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 10,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1
+      }
+    ],
+    "preparation": "1. Enjuagar los garbanzos y escurrirlos. 2. Picar el aguacate, pepino y tomates cherry. 3. Mezclar todos los ingredientes en un bol con las espinacas. 4. Cortar el queso de Burgos en dados y añadirlo a la ensalada. 5. Aliñar al gusto con aceite de oliva, vinagre y sal.",
+    "originalBaseRecipeId": "pp_ensalada_de_garbanzos_con_verduras_y_queso"
+  },
+  "p5_m2": {
+    "name": "Ensalada de Tomate, Ajo y Cebolla",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe199b8ed3c4d37cbd18.png",
+    "calories": 68,
+    "protein": 5,
+    "carbs": 11,
+    "fats": 0,
+    "ingredients": [
+      {
+        "name": "Tomate",
+        "quantity": "150",
+        "unit": "g",
+        "calories": 45,
+        "protein": 3,
+        "carbs": 7.5,
+        "fats": 0.3,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Cebolla",
+        "quantity": "75",
+        "unit": "g",
+        "calories": 22.5,
+        "protein": 1.5,
+        "carbs": 3.75,
+        "fats": 0.15,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      }
+    ],
+    "preparation": "1. Lavar bien los tomates y cortarlos en rodajas, gajos o dados, según preferencia. 2. Pelar y picar la cebolla en juliana fina. Para suavizar su sabor, se puede dejar en remojo en agua fría con un poco de vinagre durante 10 minutos y luego escurrir. 3. Pelar y picar el ajo muy finamente, o machacarlo en un mortero. 4. En un bol o fuente, combinar el tomate, la cebolla y el ajo. 5. Aliñar generosamente con aceite de oliva virgen extra de buena calidad, un poco de vinagre (opcional, preferiblemente de Jerez o manzana) y sal. Mezclar bien y dejar reposar unos minutos antes de servir para que se integren los sabores.",
+    "originalBaseRecipeId": "pp_ensalada_de_tomate_ajo_y_cebolla"
+  },
+  "p5_m3": {
+    "name": "Pechuga de Pollo a la Plancha",
+    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69b66b3087f0f2415505fc9a.png",
+    "calories": 288,
+    "protein": 50,
+    "carbs": 0,
+    "fats": 7,
+    "ingredients": [
+      {
+        "name": "Pechuga de Pollo",
+        "quantity": "180",
+        "unit": "g",
+        "calories": 288,
+        "protein": 50.400000000000006,
+        "carbs": 0,
+        "fats": 7.2,
+        "baseCalories": 1.6,
+        "baseProtein": 0.28,
+        "baseCarbs": 0,
+        "baseFats": 0.04
+      }
+    ],
+    "preparation": "1. Sazonar la pechuga de pollo con sal, pimienta y especias al gusto. 2. Calentar una plancha o sartén antiadherente con una gota de aceite. 3. Cocinar la pechuga hasta que esté dorada por fuera y cocida por dentro.",
+    "originalBaseRecipeId": "ac_pechuga_de_pollo_a_la_plancha"
+  },
+  "p5_m4": {
+    "name": "Fruta Cítrica (Mandarina, Kiwi, Naranja...)",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd3d0ed506305442ffe4.png",
+    "calories": 45,
+    "protein": 0,
+    "carbs": 11,
+    "fats": 0,
+    "ingredients": [
+      {
+        "name": "Kiwi",
+        "quantity": "1",
+        "unit": "unidad(es)",
+        "calories": 45,
+        "protein": 0.375,
+        "carbs": 11.25,
+        "fats": 0.15,
+        "baseCalories": 45,
+        "baseProtein": 0.375,
+        "baseCarbs": 11.25,
+        "baseFats": 0.15
+      }
+    ],
+    "preparation": "1. Seleccionar la fruta cítrica de preferencia. 2. Lavar bien la fruta bajo el grifo. 3. Para mandarinas y naranjas: pelar la piel con las manos. 4. Para kiwis: cortar por la mitad y comer la pulpa con una cucharita.",
+    "originalBaseRecipeId": "ext_fruta_ctrica_mandarina_kiwi_naranja"
+  },
+  "p5_m5": {
+    "name": "Yogur Protéico (Sabores, Natural...)",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd789b8ed38b127cbc09.png",
+    "calories": 125,
+    "protein": 6,
+    "carbs": 13,
+    "fats": 5,
+    "ingredients": [
+      {
+        "name": "Yogur Protéico",
+        "quantity": "1",
+        "unit": "unidad(es)",
+        "calories": 125,
+        "protein": 6.25,
+        "carbs": 12.5,
+        "fats": 5,
+        "baseCalories": 125,
+        "baseProtein": 6.25,
+        "baseCarbs": 12.5,
+        "baseFats": 5
+      }
+    ],
+    "preparation": "1. Seleccionar el yogur proteico de preferencia. 2. Abrir el envase. 3. Consumir directamente con una cuchara.",
+    "originalBaseRecipeId": "ext_yogur_protico_sabores_natural"
+  },
+  "p5_m6": {
+    "name": "Huevo Duro Cocido",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68f27f5bfb2e440988a37788.png",
+    "calories": 344,
+    "protein": 21,
+    "carbs": 2,
+    "fats": 28,
+    "ingredients": [
+      {
+        "name": "Huevo Cocido",
+        "quantity": "3",
+        "unit": "ud",
+        "calories": 255.75,
+        "protein": 21.450000000000003,
+        "carbs": 1.8150000000000004,
+        "fats": 18.15,
+        "baseCalories": 85.25,
+        "baseProtein": 7.15,
+        "baseCarbs": 0.6050000000000001,
+        "baseFats": 6.05
+      },
+      {
+        "name": "Aceite de Oliva Virgen",
+        "quantity": "10",
+        "unit": "g",
+        "calories": 88.4,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 10,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1
+      }
+    ],
+    "preparation": "Cocer the huevo en agua hirviendo durante 10-12 minutos. Pelar y servir.",
+    "originalBaseRecipeId": "ac_huevo_duro_cocido"
   }
 };
 const dailyMenus = [
@@ -1324,6 +1832,62 @@ const dailyMenus = [
     ],
     "extra": [
       "p3_m3"
+    ]
+  },
+  {
+    "name": "Libre 3",
+    "targetMacros": {
+      "calories": 1700,
+      "protein": 140,
+      "carbs": 140
+    },
+    "baselineTotals": {
+      "calories": 1852,
+      "protein": 121,
+      "carbs": 142,
+      "fats": 86
+    },
+    "desayuno": [
+      "p4_m0"
+    ],
+    "comida": [
+      "p4_m1"
+    ],
+    "cena": [
+      "p4_m2"
+    ],
+    "extra": [
+      "p4_m3",
+      "p4_m4"
+    ]
+  },
+  {
+    "name": "Entreno 3",
+    "targetMacros": {
+      "calories": 1700,
+      "protein": 140,
+      "carbs": 140
+    },
+    "baselineTotals": {
+      "calories": 1767,
+      "protein": 137,
+      "carbs": 123,
+      "fats": 77
+    },
+    "desayuno": [
+      "p5_m0"
+    ],
+    "comida": [
+      "p5_m1",
+      "p5_m6"
+    ],
+    "cena": [
+      "p5_m2",
+      "p5_m3"
+    ],
+    "extra": [
+      "p5_m4",
+      "p5_m5"
     ]
   }
 ];
