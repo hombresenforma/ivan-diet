@@ -501,6 +501,57 @@ const foodDatabase = {
     "originalBaseRecipeId": "ext_matcha_late"
   },
   "p2_m0": {
+    "name": "Tostada de Centeno con Queso Cottage y Cherries",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68792fea2035ba213493e87e.png",
+    "calories": 193,
+    "protein": 13,
+    "carbs": 25,
+    "fats": 4,
+    "ingredients": [
+      {
+        "name": "Tostada de Pan de Centeno",
+        "quantity": "1",
+        "unit": "rebanada",
+        "calories": 108,
+        "protein": 3.5999999999999996,
+        "carbs": 20,
+        "fats": 1.2,
+        "baseCalories": 108,
+        "baseProtein": 3.5999999999999996,
+        "baseCarbs": 20,
+        "baseFats": 1.2
+      },
+      {
+        "name": "Tomates Cherry",
+        "quantity": "50",
+        "unit": "g",
+        "calories": 15,
+        "protein": 1,
+        "carbs": 2.5,
+        "fats": 0.1,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Queso Cottage",
+        "quantity": "70",
+        "unit": "g",
+        "calories": 70,
+        "protein": 8.4,
+        "carbs": 2.8000000000000003,
+        "fats": 2.8000000000000003,
+        "baseCalories": 1,
+        "baseProtein": 0.12000000000000001,
+        "baseCarbs": 0.04,
+        "baseFats": 0.04
+      }
+    ],
+    "preparation": "1. Tostar el pan de centeno. 2. Untar el queso cottage sobre las tostadas y añadir los cherries por encima con especias.",
+    "originalBaseRecipeId": "des_tostada_de_centeno_con_queso_cottage_y_cherries"
+  },
+  "p2_m1": {
     "name": "Ensalada de Pasta con Pollo",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afc47b91eb349463d47dd.png",
     "calories": 689,
@@ -616,71 +667,58 @@ const foodDatabase = {
     "preparation": "1. Cocer la pasta según las instrucciones del paquete. Escurrir, pasar por agua fría para detener la cocción y dejar enfriar. 2. Cocinar la pechuga de pollo (a la plancha, hervida o asada) y desmenuzarla o cortarla en dados. 3. Lavar los canónigos. Picar el tomate, pimiento rojo, pimiento verde y cebolla en trozos pequeños. 4. En un bol grande, combinar la pasta fría, el pollo, los canónigos y las verduras picadas. 5. Aliñar con aceite de oliva virgen extra, vinagre o tu salsa para ensaladas favorita (ej. yogur, mostaza y miel). Salpimentar al gusto.",
     "originalBaseRecipeId": "cc_ensalada_de_pasta_con_pollo"
   },
-  "p2_m1": {
-    "name": "Solomillo de Cerdo con Verduras y Salsa de Soja",
-    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69fee46d7285562721e421f3.png",
-    "calories": 598,
-    "protein": 49,
-    "carbs": 11,
-    "fats": 39,
+  "p2_m2": {
+    "name": "Fajita con Revuelto de Jamón Dulce",
+    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69b51120eba48737da3f22f1.png",
+    "calories": 394,
+    "protein": 14,
+    "carbs": 67,
+    "fats": 6,
     "ingredients": [
       {
-        "name": "Solomillo de Cerdo",
-        "quantity": "200",
-        "unit": "g",
-        "calories": 440.00000000000006,
-        "protein": 44,
-        "carbs": 0,
-        "fats": 28.000000000000004,
-        "baseCalories": 2.2,
-        "baseProtein": 0.22,
-        "baseCarbs": 0,
-        "baseFats": 0.14
+        "name": "Pan de Fajita",
+        "quantity": "3",
+        "unit": "rebanada",
+        "calories": 324,
+        "protein": 10.799999999999999,
+        "carbs": 60,
+        "fats": 3.5999999999999996,
+        "baseCalories": 108,
+        "baseProtein": 3.5999999999999996,
+        "baseCarbs": 20,
+        "baseFats": 1.2
       },
       {
-        "name": "Verduras",
-        "quantity": "200",
+        "name": "Jamón Dulce",
+        "quantity": "70",
         "unit": "g",
-        "calories": 60,
-        "protein": 4,
-        "carbs": 10,
-        "fats": 0.4,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Salsa de Soja",
-        "quantity": "10",
-        "unit": "g",
-        "calories": 10,
-        "protein": 0.5,
-        "carbs": 1,
-        "fats": 0.4,
+        "calories": 70,
+        "protein": 3.5,
+        "carbs": 7,
+        "fats": 2.8000000000000003,
         "baseCalories": 1,
         "baseProtein": 0.05,
         "baseCarbs": 0.1,
         "baseFats": 0.04
       },
       {
-        "name": "Aceite de Oliva Virgen",
-        "quantity": "10",
-        "unit": "g",
-        "calories": 88.4,
+        "name": "Huevos",
+        "quantity": "0",
+        "unit": "ud",
+        "calories": 0,
         "protein": 0,
         "carbs": 0,
-        "fats": 10,
-        "baseCalories": 8.84,
-        "baseProtein": 0,
-        "baseCarbs": 0,
-        "baseFats": 1
+        "fats": 0,
+        "baseCalories": 85.25,
+        "baseProtein": 7.15,
+        "baseCarbs": 0.6050000000000001,
+        "baseFats": 6.05
       }
     ],
-    "preparation": "1. Saltear el solomillo troceado. 2. Añadir verduras y cocinar hasta que estén tiernas. 3. Añadir salsa de soja al final.",
-    "originalBaseRecipeId": "cc_solomillo_de_cerdo_con_verduras_y_salsa_de_soja"
+    "preparation": "1. Preparar un revuelto con los huevos y el jamón dulce. 2. Rellenar la fajita caliente.",
+    "originalBaseRecipeId": "des_fajita_con_revuelto_de_jamn_dulce"
   },
-  "p2_m2": {
+  "p2_m3": {
     "name": "Fruta Densa (Plátano, Manzana)",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe4bb91eb325b93d4a82.png",
     "calories": 90,
@@ -705,7 +743,7 @@ const foodDatabase = {
     "preparation": "1. Seleccionar la fruta densa de preferencia. 2. Para plátanos: pelar la piel y consumir directamente. 3. Para manzanas o peras: lavar bien la fruta. Se puede consumir con piel o pelada.",
     "originalBaseRecipeId": "ext_fruta_densa_pltano_manzana"
   },
-  "p2_m3": {
+  "p2_m4": {
     "name": "Matcha Late",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afc6c365e94868a73d38f.png",
     "calories": 0,
@@ -716,7 +754,7 @@ const foodDatabase = {
     "preparation": "1. En un bol pequeño o chawan, tamizar 1-2 cucharaditas de té matcha en polvo. 2. Añadir una pequeña cantidad de agua caliente (aproximadamente 70-80°C, no hirviendo, unos 60 ml). 3. Batir enérgicamente con un batidor de bambú (chasen) o un batidor eléctrico pequeño, realizando movimientos en forma de 'W' o 'M' hasta que no haya grumos y se forme una espuma fina en la superficie. 4. Calentar la leche o bebida vegetal de elección (unos 180-200 ml) sin que llegue a hervir. Se puede espumar la leche si se desea un latte más cremoso. 5. Verter el matcha batido en una taza y luego añadir la leche caliente (o espumada). Endulzar al gusto si se prefiere (con miel, sirope de agave, azúcar, etc.).",
     "originalBaseRecipeId": "ext_matcha_late"
   },
-  "p2_m4": {
+  "p2_m5": {
     "name": "Pan wasa con Jamón Ibérico",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68cc570eeaa0586bf6a8d560.png",
     "calories": 137,
@@ -753,57 +791,6 @@ const foodDatabase = {
     ],
     "preparation": "1. Colocar las lonchas de jamón ibérico sobre el pan wasa.",
     "originalBaseRecipeId": "ext_pan_wasa_con_jamn_ibrico"
-  },
-  "p2_m5": {
-    "name": "Tostada de Centeno con Queso Cottage y Cherries",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68792fea2035ba213493e87e.png",
-    "calories": 193,
-    "protein": 13,
-    "carbs": 25,
-    "fats": 4,
-    "ingredients": [
-      {
-        "name": "Tostada de Pan de Centeno",
-        "quantity": "1",
-        "unit": "rebanada",
-        "calories": 108,
-        "protein": 3.5999999999999996,
-        "carbs": 20,
-        "fats": 1.2,
-        "baseCalories": 108,
-        "baseProtein": 3.5999999999999996,
-        "baseCarbs": 20,
-        "baseFats": 1.2
-      },
-      {
-        "name": "Tomates Cherry",
-        "quantity": "50",
-        "unit": "g",
-        "calories": 15,
-        "protein": 1,
-        "carbs": 2.5,
-        "fats": 0.1,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Queso Cottage",
-        "quantity": "70",
-        "unit": "g",
-        "calories": 70,
-        "protein": 8.4,
-        "carbs": 2.8000000000000003,
-        "fats": 2.8000000000000003,
-        "baseCalories": 1,
-        "baseProtein": 0.12,
-        "baseCarbs": 0.04,
-        "baseFats": 0.04
-      }
-    ],
-    "preparation": "1. Tostar el pan de centeno. 2. Untar el queso cottage sobre las tostadas y añadir los cherries por encima con especias.",
-    "originalBaseRecipeId": "des_tostada_de_centeno_con_queso_cottage_y_cherries"
   },
   "p3_m0": {
     "name": "Revuelto de Huevos con Jamón",
@@ -998,26 +985,13 @@ const foodDatabase = {
     "originalBaseRecipeId": "cc_ensala_de_patata_atn_y_huevo"
   },
   "p3_m3": {
-    "name": "Ensalada de Pepino, Tomate y Apio",
-    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69fee83da3dd25aa2ac2564d.png",
-    "calories": 268,
-    "protein": 10,
-    "carbs": 20,
-    "fats": 16,
+    "name": "Ensalada de Tomate, Maíz, Queso de Burgos y Frutos Secos",
+    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/6a953b1ea90361de8b63e6cb.png",
+    "calories": 411,
+    "protein": 19,
+    "carbs": 13,
+    "fats": 31,
     "ingredients": [
-      {
-        "name": "Pepino",
-        "quantity": "100",
-        "unit": "g",
-        "calories": 100,
-        "protein": 5,
-        "carbs": 10,
-        "fats": 4,
-        "baseCalories": 1,
-        "baseProtein": 0.05,
-        "baseCarbs": 0.1,
-        "baseFats": 0.04
-      },
       {
         "name": "Tomate",
         "quantity": "100",
@@ -1032,7 +1006,7 @@ const foodDatabase = {
         "baseFats": 0.002
       },
       {
-        "name": "Apio",
+        "name": "Maíz",
         "quantity": "50",
         "unit": "g",
         "calories": 50,
@@ -1043,6 +1017,32 @@ const foodDatabase = {
         "baseProtein": 0.05,
         "baseCarbs": 0.1,
         "baseFats": 0.04
+      },
+      {
+        "name": "Queso de Burgos",
+        "quantity": "50",
+        "unit": "g",
+        "calories": 175,
+        "protein": 12.5,
+        "carbs": 1,
+        "fats": 12.5,
+        "baseCalories": 3.5,
+        "baseProtein": 0.25,
+        "baseCarbs": 0.02,
+        "baseFats": 0.25
+      },
+      {
+        "name": "Frutos Secos",
+        "quantity": "15",
+        "unit": "g",
+        "calories": 67.5,
+        "protein": 1.5,
+        "carbs": 2.25,
+        "fats": 6,
+        "baseCalories": 4.5,
+        "baseProtein": 0.1,
+        "baseCarbs": 0.15,
+        "baseFats": 0.4
       },
       {
         "name": "Aceite de Oliva Virgen",
@@ -1058,8 +1058,8 @@ const foodDatabase = {
         "baseFats": 1
       }
     ],
-    "preparation": "1. Trocear las verduras. 2. Mezclar y aliñar con aceite de oliva, vinagre y sal.",
-    "originalBaseRecipeId": "pp_ensalada_de_pepino_tomate_y_apio"
+    "preparation": "1. Cortar el tomate en trozos. 2. Añadir el maíz, el queso de Burgos troceado y los frutos secos por encima. 3. Aliñar al gusto.",
+    "originalBaseRecipeId": "pp_ensalada_de_tomate_maz_queso_de_burgos_y_frutos_secos"
   },
   "p3_m4": {
     "name": "Solomillo/Filete de Ternera a la Plancha",
@@ -1226,18 +1226,18 @@ const dailyMenus = [
       "fats": 71
     },
     "desayuno": [
-      "p2_m5"
-    ],
-    "comida": [
       "p2_m0"
     ],
-    "cena": [
+    "comida": [
       "p2_m1"
     ],
+    "cena": [
+      "p2_m2"
+    ],
     "extra": [
-      "p2_m2",
       "p2_m3",
-      "p2_m4"
+      "p2_m4",
+      "p2_m5"
     ]
   },
   {
