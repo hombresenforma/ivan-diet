@@ -703,16 +703,16 @@ const foodDatabase = {
       },
       {
         "name": "Huevos",
-        "quantity": "0",
+        "quantity": "3",
         "unit": "ud",
         "calories": 0,
         "protein": 0,
         "carbs": 0,
         "fats": 0,
-        "baseCalories": 85.25,
-        "baseProtein": 7.15,
-        "baseCarbs": 0.6050000000000001,
-        "baseFats": 6.05
+        "baseCalories": 0,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 0
       }
     ],
     "preparation": "1. Preparar un revuelto con los huevos y el jamón dulce. 2. Rellenar la fajita caliente.",
