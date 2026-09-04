@@ -1,44 +1,6 @@
 // Titulo: Plan de Alimentación
 // Alergias: Lactosa, Pescado, Foodmaps
 const foodDatabase = {
-  "p0_m0": {
-    "name": "Revuelto de Huevos con Jamón",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682ad5e1e819fcb589a8a30e.png",
-    "calories": 151,
-    "protein": 14,
-    "carbs": 1,
-    "fats": 10,
-    "ingredients": [
-      {
-        "name": "Huevos",
-        "quantity": "1",
-        "unit": "ud",
-        "calories": 85.25,
-        "protein": 7.15,
-        "carbs": 0.6050000000000001,
-        "fats": 6.05,
-        "baseCalories": 85.25,
-        "baseProtein": 7.15,
-        "baseCarbs": 0.6050000000000001,
-        "baseFats": 6.05
-      },
-      {
-        "name": "Jamón Serrano",
-        "quantity": "30",
-        "unit": "g",
-        "calories": 66,
-        "protein": 6.6,
-        "carbs": 0,
-        "fats": 4.2,
-        "baseCalories": 2.2,
-        "baseProtein": 0.22,
-        "baseCarbs": 0,
-        "baseFats": 0.14
-      }
-    ],
-    "preparation": "1. Batir los huevos. 2. Cortar el jamón en taquitos o tiras. 3. Saltear ligeramente el jamón en una sartén con una pizca de aceite (opcional). 4. Verter los huevos batidos y remover constantemente a fuego medio-bajo hasta que cuajen al gusto.",
-    "originalBaseRecipeId": "des_revuelto_de_huevos_con_jamn"
-  },
   "p0_m1": {
     "name": "Menestra de Verduras Congeladas con Carne Picada",
     "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/699b47eb55d8bc32874abf76.png",
@@ -231,31 +193,6 @@ const foodDatabase = {
     "preparation": "1. Precalentar el horno a 200°C. Pelar y cortar la calabaza y la zanahoria en dados de tamaño similar. Mezclar con un poco de aceite de oliva, sal y pimienta, y asar en una bandeja de horno durante 20-25 minutos o hasta que estén tiernas y ligeramente caramelizadas. 2. Cocinar la avena en vaso según las instrucciones del fabricante, o cocer avena en copos de forma tradicional y dejar enfriar. 3. Lavar las espinacas frescas y escurrirlas bien. 4. Cortar el queso en dados o desmenuzarlo. 5. En un bol grande o ensaladera, combinar las espinacas frescas, la calabaza y zanahoria asadas (tibias o frías), el queso y la avena cocida. 6. Aliñar con una vinagreta ligera hecha con aceite de oliva virgen extra, vinagre (de manzana o balsámico), una pizca de mostaza Dijon (opcional) y sal.",
     "originalBaseRecipeId": "pp_ensalada_de_espinaca_calabaza_zanahoria_y_queso_con_avena_cocida"
   },
-  "p0_m4": {
-    "name": "Pan de Centeno",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6879305ee8df5478eb937c5e.png",
-    "calories": 108,
-    "protein": 4,
-    "carbs": 20,
-    "fats": 1,
-    "ingredients": [
-      {
-        "name": "Pan de Centeno",
-        "quantity": "1",
-        "unit": "rebanada",
-        "calories": 108,
-        "protein": 3.5999999999999996,
-        "carbs": 20,
-        "fats": 1.2,
-        "baseCalories": 108,
-        "baseProtein": 3.5999999999999996,
-        "baseCarbs": 20,
-        "baseFats": 1.2
-      }
-    ],
-    "preparation": "1. Cortar una rebanada de pan de centeno o intengral y acompañar con otra comida.",
-    "originalBaseRecipeId": "ext_pan_de_centeno"
-  },
   "p0_m5": {
     "name": "Ensalada de Tomate, Aguacate, Cebolla y Lima",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cf9a725d68c4bc3ec3502.png",
@@ -293,6 +230,70 @@ const foodDatabase = {
     ],
     "preparation": "1. Cortar el tomate y el aguacate en dados. 2. Picar la cebolla en juliana fina. 3. Mezclar todos los ingredientes en un bol. 4. Exprimir el zumo de media lima por encima, añadir aceite de oliva y sal. Mezclar bien.",
     "originalBaseRecipeId": "pp_ensalada_de_tomate_aguacate_cebolla_y_lima"
+  },
+  "p0_m6": {
+    "name": "Tostada de Pan de Centeno con Pavo y Huevo",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6879305ee8df5478eb937c5e.png",
+    "calories": 277,
+    "protein": 18,
+    "carbs": 21,
+    "fats": 13,
+    "ingredients": [
+      {
+        "name": "Pan de Centeno",
+        "quantity": "1",
+        "unit": "rebanada",
+        "calories": 108,
+        "protein": 3.5999999999999996,
+        "carbs": 20,
+        "fats": 1.2,
+        "baseCalories": 108,
+        "baseProtein": 3.5999999999999996,
+        "baseCarbs": 20,
+        "baseFats": 1.2
+      },
+      {
+        "name": "Huevos",
+        "quantity": "1",
+        "unit": "ud",
+        "calories": 85.25,
+        "protein": 7.15,
+        "carbs": 0.6050000000000001,
+        "fats": 6.05,
+        "baseCalories": 85.25,
+        "baseProtein": 7.15,
+        "baseCarbs": 0.6050000000000001,
+        "baseFats": 6.05
+      },
+      {
+        "name": "Pechuga de Pavo",
+        "quantity": "25",
+        "unit": "g",
+        "calories": 40,
+        "protein": 7.000000000000001,
+        "carbs": 0,
+        "fats": 1,
+        "baseCalories": 1.6,
+        "baseProtein": 0.28,
+        "baseCarbs": 0,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Aceite de Oliva Virgen",
+        "quantity": "5",
+        "unit": "g",
+        "calories": 44.2,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 5,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1
+      }
+    ],
+    "preparation": "1. Tostar la rebanada de pan de centeno. 2. Aliñar la tostada con el aceite de oliva. 3. Hacer la pechuga de pavo a la plancha en lonchas finas y colocarla sobre el pan. 4. Cocinar el huevo (poché o a la plancha) y ponerlo encima. Sal y pimienta al gusto.",
+    "originalBaseRecipeId": "des_tostada_pavo_huevo"
   },
   "p1_m0": {
     "name": "Revuelto de Huevos con Jamón",
@@ -743,21 +744,20 @@ const foodDatabase = {
 };
 const dailyMenus = [
   {
-    "name": "Día 1",
+    "name": "Opciones 1",
     "targetMacros": {
       "calories": 1500,
       "protein": 100,
       "carbs": 150
     },
     "baselineTotals": {
-      "calories": 1531,
+      "calories": 1549,
       "protein": 100,
       "carbs": 148,
-      "fats": 56
+      "fats": 58
     },
     "desayuno": [
-      "p0_m0",
-      "p0_m4"
+      "p0_m6"
     ],
     "comida": [
       "p0_m1",
@@ -770,7 +770,7 @@ const dailyMenus = [
     "extra": []
   },
   {
-    "name": "Día 2",
+    "name": "Opciones 2",
     "targetMacros": {
       "calories": 1500,
       "protein": 100,
@@ -796,7 +796,7 @@ const dailyMenus = [
     "extra": []
   },
   {
-    "name": "Día 3",
+    "name": "Alternativas",
     "targetMacros": {
       "calories": 1500,
       "protein": 100,
