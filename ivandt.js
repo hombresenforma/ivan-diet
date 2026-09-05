@@ -2759,8 +2759,380 @@ const foodDatabase = {
       }
     ],
     "preparation": "1. Cortar la manzana y espolvorear canela. 2. Hornear hasta que quede tierna. 3. Añadir las nueces al servir."
+  },
+  "p8_m0": {
+    "name": "Tostada de Centeno con Huevo y Aguacate",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687a695da648331355d3b0b2.png",
+    "calories": 508,
+    "protein": 18,
+    "carbs": 31,
+    "fats": 35,
+    "ingredients": [
+      {
+        "name": "Tostada de Pan de Centeno",
+        "quantity": "1",
+        "unit": "rebanada",
+        "calories": 108,
+        "protein": 3.6,
+        "carbs": 20,
+        "fats": 1.2,
+        "baseCalories": 108,
+        "baseProtein": 3.5999999999999996,
+        "baseCarbs": 20,
+        "baseFats": 1.2
+      },
+      {
+        "name": "Huevos",
+        "quantity": "1",
+        "unit": "ud",
+        "calories": 85.25,
+        "protein": 7.15,
+        "carbs": 0.605,
+        "fats": 6.05,
+        "baseCalories": 85.25,
+        "baseProtein": 7.15,
+        "baseCarbs": 0.6050000000000001,
+        "baseFats": 6.05
+      },
+      {
+        "name": "Aguacate",
+        "quantity": "70",
+        "unit": "g",
+        "calories": 315.0,
+        "protein": 7.0,
+        "carbs": 10.5,
+        "fats": 28.0,
+        "baseCalories": 4.5,
+        "baseProtein": 0.1,
+        "baseCarbs": 0.15,
+        "baseFats": 0.4
+      }
+    ],
+    "preparation": "1. Tostar el pan de centeno. 2. Cocinar el huevo al gusto (poché, plancha o revuelto). 3. Machacar el aguacate sobre la tostada, colocar el huevo encima y sazonar con sal, pimienta y un chorrito de aceite.",
+    "originalBaseRecipeId": "des_tostada_de_centeno_con_huevo_y_aguacate"
+  },
+  "p8_m1": {
+    "name": "Avena con Chía y Semillas",
+    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/6a953ace934a62aec8a7a0bf.png",
+    "calories": 284,
+    "protein": 12,
+    "carbs": 40,
+    "fats": 8,
+    "ingredients": [
+      {
+        "name": "Avena",
+        "quantity": "30",
+        "unit": "g",
+        "calories": 109.5,
+        "protein": 3.6,
+        "carbs": 22.5,
+        "fats": 0.6,
+        "baseCalories": 3.65,
+        "baseProtein": 0.12,
+        "baseCarbs": 0.75,
+        "baseFats": 0.02
+      },
+      {
+        "name": "Chía",
+        "quantity": "15",
+        "unit": "g",
+        "calories": 15,
+        "protein": 0.75,
+        "carbs": 1.5,
+        "fats": 0.6,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Semillas",
+        "quantity": "10",
+        "unit": "g",
+        "calories": 10,
+        "protein": 0.5,
+        "carbs": 1.0,
+        "fats": 0.4,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Bebida Vegetal",
+        "quantity": "150",
+        "unit": "g",
+        "calories": 150,
+        "protein": 7.5,
+        "carbs": 15.0,
+        "fats": 6.0,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      }
+    ],
+    "preparation": "1. La noche anterior, mezclar la avena y la chía con la bebida vegetal y dejar en la nevera. 2. Por la mañana, remover y añadir las semillas por encima. Listo en 1 minuto.",
+    "originalBaseRecipeId": "des_avena_con_cha_y_semillas"
+  },
+  "p8_m2": {
+    "name": "Pollo al Curry Thai con Arroz",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684ef8924d606648e7332262.png",
+    "calories": 560,
+    "protein": 47,
+    "carbs": 52,
+    "fats": 17,
+    "ingredients": [
+      {
+        "name": "Pechuga de Pollo",
+        "quantity": "130",
+        "unit": "g",
+        "calories": 208.0,
+        "protein": 36.4,
+        "carbs": 0,
+        "fats": 5.2,
+        "baseCalories": 1.6,
+        "baseProtein": 0.28,
+        "baseCarbs": 0,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Arroz Integral",
+        "quantity": "60",
+        "unit": "g",
+        "calories": 219.0,
+        "protein": 7.2,
+        "carbs": 45.0,
+        "fats": 1.2,
+        "baseCalories": 3.65,
+        "baseProtein": 0.12,
+        "baseCarbs": 0.75,
+        "baseFats": 0.02
+      },
+      {
+        "name": "Zanahoria",
+        "quantity": "75",
+        "unit": "g",
+        "calories": 22.5,
+        "protein": 1.5,
+        "carbs": 3.75,
+        "fats": 0.15,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Cebolla",
+        "quantity": "75",
+        "unit": "g",
+        "calories": 22.5,
+        "protein": 1.5,
+        "carbs": 3.75,
+        "fats": 0.15,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Aceite de Oliva Virgen Extra",
+        "quantity": "10",
+        "unit": "g",
+        "calories": 88.4,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 10,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1
+      }
+    ],
+    "preparation": "1. Cocer el arroz. 2. Saltear la cebolla y la zanahoria en la sartén con el aceite. 3. Añadir el pollo en dados y dorarlo. 4. Incorporar una cucharada de pasta de curry thai y un chorro de agua o leche de coco light, y cocinar 5-10 minutos. 5. Servir con el arroz.",
+    "originalBaseRecipeId": "cc_pollo_al_curry_thai_con_arroz"
+  },
+  "p8_m3": {
+    "name": "Gnocchi con Sofrito de Ternera y Calabacín",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684efd20653a2c44bb172cef.png",
+    "calories": 590,
+    "protein": 35,
+    "carbs": 71,
+    "fats": 17,
+    "ingredients": [
+      {
+        "name": "Gnocchis",
+        "quantity": "120",
+        "unit": "g",
+        "calories": 324.0,
+        "protein": 10.8,
+        "carbs": 60.0,
+        "fats": 3.6,
+        "baseCalories": 2.7,
+        "baseProtein": 0.09,
+        "baseCarbs": 0.5,
+        "baseFats": 0.03
+      },
+      {
+        "name": "Carne Picada Mixta (Ternera y Cerdo)",
+        "quantity": "90",
+        "unit": "g",
+        "calories": 198.0,
+        "protein": 19.8,
+        "carbs": 0,
+        "fats": 12.6,
+        "baseCalories": 2.2,
+        "baseProtein": 0.22,
+        "baseCarbs": 0,
+        "baseFats": 0.14
+      },
+      {
+        "name": "Calabacín",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 30.0,
+        "protein": 2.0,
+        "carbs": 5.0,
+        "fats": 0.2,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Cebolla",
+        "quantity": "75",
+        "unit": "g",
+        "calories": 22.5,
+        "protein": 1.5,
+        "carbs": 3.75,
+        "fats": 0.15,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Tomate Frito",
+        "quantity": "50",
+        "unit": "g",
+        "calories": 15.0,
+        "protein": 1.0,
+        "carbs": 2.5,
+        "fats": 0.1,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      }
+    ],
+    "preparation": "1. Picar la cebolla y el calabacín en dados pequeños. 2. Sofreír la cebolla, añadir la carne picada y dorarla. 3. Incorporar el calabacín y el tomate frito y cocinar 10 minutos. 4. Cocer los gnocchi (2-3 minutos, están listos cuando flotan), escurrir y mezclar con el sofrito.",
+    "originalBaseRecipeId": "cc_gnocchi_con_sofrito_de_ternera_y_calabacn"
+  },
+  "p8_m4": {
+    "name": "Yogur Proteico con Cereales de Avena",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68e7ef66df76fef1b58db3f2.png",
+    "calories": 228,
+    "protein": 9,
+    "carbs": 35,
+    "fats": 6,
+    "ingredients": [
+      {
+        "name": "Yogur Protéico",
+        "quantity": "1",
+        "unit": "unidad(es)",
+        "calories": 125,
+        "protein": 6.25,
+        "carbs": 12.5,
+        "fats": 5,
+        "baseCalories": 125,
+        "baseProtein": 6.25,
+        "baseCarbs": 12.5,
+        "baseFats": 5
+      },
+      {
+        "name": "Cereales de Avena",
+        "quantity": "20",
+        "unit": "g",
+        "calories": 73.0,
+        "protein": 2.4,
+        "carbs": 15.0,
+        "fats": 0.4,
+        "baseCalories": 3.65,
+        "baseProtein": 0.12,
+        "baseCarbs": 0.75,
+        "baseFats": 0.02
+      },
+      {
+        "name": "Frutos Rojos",
+        "quantity": "50",
+        "unit": "g",
+        "calories": 30.0,
+        "protein": 0.25,
+        "carbs": 7.5,
+        "fats": 0.1,
+        "baseCalories": 0.6,
+        "baseProtein": 0.005,
+        "baseCarbs": 0.15,
+        "baseFats": 0.002
+      }
+    ],
+    "preparation": "1. Verter el yogur en un bol. 2. Añadir los cereales de avena y los frutos rojos por encima.",
+    "originalBaseRecipeId": "ext_yogur_proteico_con_cereales_de_avena"
+  },
+  "p8_m5": {
+    "name": "Queso Fresco Batido con Frutos Rojos y Miel",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6879302d02da47667d446b43.png",
+    "calories": 275,
+    "protein": 16,
+    "carbs": 55,
+    "fats": 2,
+    "ingredients": [
+      {
+        "name": "Queso Fresco Batido",
+        "quantity": "150",
+        "unit": "g",
+        "calories": 84.0,
+        "protein": 14.4,
+        "carbs": 6.0,
+        "fats": 0.6,
+        "baseCalories": 0.56,
+        "baseProtein": 0.096,
+        "baseCarbs": 0.04,
+        "baseFats": 0.004
+      },
+      {
+        "name": "Frutos Rojos",
+        "quantity": "200",
+        "unit": "g",
+        "calories": 100.0,
+        "protein": 2.0,
+        "carbs": 24.0,
+        "fats": 1.0,
+        "baseCalories": 0.5,
+        "baseProtein": 0.01,
+        "baseCarbs": 0.12,
+        "baseFats": 0.005
+      },
+      {
+        "name": "Miel Cruda",
+        "quantity": "30",
+        "unit": "g",
+        "calories": 91.2,
+        "protein": 0.09,
+        "carbs": 24.6,
+        "fats": 0,
+        "baseCalories": 3.04,
+        "baseProtein": 0.003,
+        "baseCarbs": 0.8200000000000001,
+        "baseFats": 0
+      }
+    ],
+    "preparation": "1. En un bol, mezclar el queso fresco batido con los frutos rojos. 2. Añadir la miel y remover suavemente.",
+    "originalBaseRecipeId": "ext_queso_fresco_batido_con_frutos_rojos_y_miel"
   }
 };
+
 const dailyMenus = [
   {
     "name": "ELENA 1 ",
@@ -2989,6 +3361,34 @@ const dailyMenus = [
     "extra": [
       "p7_m4",
       "p7_m5"
+    ]
+  },
+  {
+    "name": "Prueba Claude",
+    "targetMacros": {
+      "calories": 1800,
+      "protein": 150,
+      "carbs": 150
+    },
+    "baselineTotals": {
+      "calories": 2445,
+      "protein": 137,
+      "carbs": 284,
+      "fats": 85
+    },
+    "desayuno": [
+      "p8_m0",
+      "p8_m1"
+    ],
+    "comida": [
+      "p8_m2"
+    ],
+    "cena": [
+      "p8_m3"
+    ],
+    "extra": [
+      "p8_m4",
+      "p8_m5"
     ]
   }
 ];
