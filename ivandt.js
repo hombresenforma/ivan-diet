@@ -2537,10 +2537,10 @@ const foodDatabase = {
   "p7_m2": {
     "name": "Arroz Basmati con Pavo y Verduras",
     "image": "https://raw.githubusercontent.com/hombresenforma/ivan-diet/main/assets/ivandt/prueba-chatgpt/arroz-basmati-pavo-verduras.jpg",
-    "calories": 656,
+    "calories": 559,
     "protein": 39,
-    "carbs": 74,
-    "fats": 22,
+    "carbs": 73,
+    "fats": 13,
     "ingredients": [
       {
         "name": "Arroz Basmati en Crudo",
@@ -2572,12 +2572,12 @@ const foodDatabase = {
       },
       {
         "name": "Calabacín",
-        "quantity": "150",
+        "quantity": "100",
         "unit": "g",
-        "calories": 25.5,
-        "protein": 1.8,
-        "carbs": 4.65,
-        "fats": 0.45,
+        "calories": 17,
+        "protein": 1.2,
+        "carbs": 3.1,
+        "fats": 0.3,
         "baseCalories": 0.17,
         "baseProtein": 0.012,
         "baseCarbs": 0.031,
@@ -2600,12 +2600,12 @@ const foodDatabase = {
       },
       {
         "name": "Aceite de Oliva Virgen",
-        "quantity": "20",
+        "quantity": "10",
         "unit": "g",
-        "calories": 176.8,
+        "calories": 88.4,
         "protein": 0,
         "carbs": 0,
-        "fats": 20,
+        "fats": 10,
         "baseCalories": 8.84,
         "baseProtein": 0,
         "baseCarbs": 0,
@@ -2618,10 +2618,10 @@ const foodDatabase = {
   "p7_m3": {
     "name": "Lomo de Cerdo con Boniato y Espinacas",
     "image": "https://raw.githubusercontent.com/hombresenforma/ivan-diet/main/assets/ivandt/prueba-chatgpt/lomo-cerdo-boniato-espinacas.jpg",
-    "calories": 577,
-    "protein": 43,
-    "carbs": 50,
-    "fats": 25,
+    "calories": 522,
+    "protein": 42,
+    "carbs": 48,
+    "fats": 20,
     "ingredients": [
       {
         "name": "Lomo de Cerdo",
@@ -2653,12 +2653,12 @@ const foodDatabase = {
       },
       {
         "name": "Espinacas",
-        "quantity": "150",
+        "quantity": "100",
         "unit": "g",
-        "calories": 34.5,
-        "protein": 4.35,
-        "carbs": 5.4,
-        "fats": 0.6,
+        "calories": 23,
+        "protein": 2.9,
+        "carbs": 3.6,
+        "fats": 0.4,
         "baseCalories": 0.23,
         "baseProtein": 0.029,
         "baseCarbs": 0.036,
@@ -2667,12 +2667,12 @@ const foodDatabase = {
       },
       {
         "name": "Aceite de Oliva Virgen",
-        "quantity": "15",
+        "quantity": "10",
         "unit": "g",
-        "calories": 132.6,
+        "calories": 88.4,
         "protein": 0,
         "carbs": 0,
-        "fats": 15,
+        "fats": 10,
         "baseCalories": 8.84,
         "baseProtein": 0,
         "baseCarbs": 0,
@@ -2971,10 +2971,10 @@ const dailyMenus = [
       "carbs": 150
     },
     "baselineTotals": {
-      "calories": 2521,
-      "protein": 138,
-      "carbs": 288,
-      "fats": 99
+      "calories": 2369,
+      "protein": 137,
+      "carbs": 285,
+      "fats": 85
     },
     "desayuno": [
       "p7_m0",
