@@ -2416,7 +2416,7 @@ const foodDatabase = {
   },
   "p7_m0": {
     "name": "Bol de Yogur Griego con Avena, Plátano y Crema de Cacahuete",
-    "image": "",
+    "image": "https://raw.githubusercontent.com/hombresenforma/ivan-diet/main/assets/ivandt/prueba-chatgpt/bol-yogur-avena-platano-cacahuete.jpg",
     "calories": 557,
     "protein": 31,
     "carbs": 69,
@@ -2483,7 +2483,7 @@ const foodDatabase = {
   },
   "p7_m1": {
     "name": "Tostada Integral con Requesón y Miel",
-    "image": "",
+    "image": "https://raw.githubusercontent.com/hombresenforma/ivan-diet/main/assets/ivandt/prueba-chatgpt/tostada-integral-requeson-miel.jpg",
     "calories": 279,
     "protein": 13,
     "carbs": 46,
@@ -2536,7 +2536,7 @@ const foodDatabase = {
   },
   "p7_m2": {
     "name": "Arroz Basmati con Pavo y Verduras",
-    "image": "",
+    "image": "https://raw.githubusercontent.com/hombresenforma/ivan-diet/main/assets/ivandt/prueba-chatgpt/arroz-basmati-pavo-verduras.jpg",
     "calories": 656,
     "protein": 39,
     "carbs": 74,
@@ -2617,7 +2617,7 @@ const foodDatabase = {
   },
   "p7_m3": {
     "name": "Lomo de Cerdo con Boniato y Espinacas",
-    "image": "",
+    "image": "https://raw.githubusercontent.com/hombresenforma/ivan-diet/main/assets/ivandt/prueba-chatgpt/lomo-cerdo-boniato-espinacas.jpg",
     "calories": 577,
     "protein": 43,
     "carbs": 50,
@@ -2684,7 +2684,7 @@ const foodDatabase = {
   },
   "p7_m4": {
     "name": "Hummus Casero con Palitos de Zanahoria",
-    "image": "",
+    "image": "https://raw.githubusercontent.com/hombresenforma/ivan-diet/main/assets/ivandt/prueba-chatgpt/hummus-zanahoria.jpg",
     "calories": 178,
     "protein": 7,
     "carbs": 24,
@@ -2723,7 +2723,7 @@ const foodDatabase = {
   },
   "p7_m5": {
     "name": "Manzana Asada con Canela y Nueces",
-    "image": "",
+    "image": "https://raw.githubusercontent.com/hombresenforma/ivan-diet/main/assets/ivandt/prueba-chatgpt/manzana-asada-canela-nueces.jpg",
     "calories": 274,
     "protein": 5,
     "carbs": 25,
