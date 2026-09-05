@@ -2413,6 +2413,352 @@ const foodDatabase = {
       }
     ],
     "preparation": "1. Mezclar la harina de avena, claras de huevo, y huevo entero (si se usa) con un poco de leche o bebida vegetal hasta obtener una masa homogénea. 2. Cocinar las tortitas en una sartén antiadherente caliente por ambos lados hasta que estén doradas. 3. Servir con los frutos rojos por encima."
+  },
+  "p7_m0": {
+    "name": "Bol de Yogur Griego con Avena, Plátano y Crema de Cacahuete",
+    "image": "",
+    "calories": 557,
+    "protein": 31,
+    "carbs": 69,
+    "fats": 20,
+    "ingredients": [
+      {
+        "name": "Yogur Griego 0%",
+        "quantity": "150",
+        "unit": "g",
+        "calories": 88.5,
+        "protein": 15.45,
+        "carbs": 5.4,
+        "fats": 0.6,
+        "baseCalories": 0.59,
+        "baseProtein": 0.103,
+        "baseCarbs": 0.036,
+        "baseFats": 0.004,
+        "category": "dairy"
+      },
+      {
+        "name": "Copos de Avena",
+        "quantity": "50",
+        "unit": "g",
+        "calories": 185,
+        "protein": 6.5,
+        "carbs": 30,
+        "fats": 3.5,
+        "baseCalories": 3.7,
+        "baseProtein": 0.13,
+        "baseCarbs": 0.6,
+        "baseFats": 0.07,
+        "category": "grain_carb_dry"
+      },
+      {
+        "name": "Plátano",
+        "quantity": "120",
+        "unit": "g",
+        "calories": 106.8,
+        "protein": 1.32,
+        "carbs": 27.6,
+        "fats": 0.36,
+        "baseCalories": 0.89,
+        "baseProtein": 0.011,
+        "baseCarbs": 0.23,
+        "baseFats": 0.003,
+        "category": "fruit_dense"
+      },
+      {
+        "name": "Crema de Cacahuete 100%",
+        "quantity": "30",
+        "unit": "g",
+        "calories": 176.4,
+        "protein": 7.5,
+        "carbs": 6,
+        "fats": 15,
+        "baseCalories": 5.88,
+        "baseProtein": 0.25,
+        "baseCarbs": 0.2,
+        "baseFats": 0.5,
+        "category": "nuts"
+      }
+    ],
+    "preparation": "1. Colocar el yogur en un bol. 2. Añadir la avena y el plátano cortado. 3. Terminar con la crema de cacahuete y mezclar al gusto."
+  },
+  "p7_m1": {
+    "name": "Tostada Integral con Requesón y Miel",
+    "image": "",
+    "calories": 279,
+    "protein": 13,
+    "carbs": 46,
+    "fats": 5,
+    "ingredients": [
+      {
+        "name": "Pan Integral",
+        "quantity": "80",
+        "unit": "g",
+        "calories": 200,
+        "protein": 7.2,
+        "carbs": 36,
+        "fats": 2.8,
+        "baseCalories": 2.5,
+        "baseProtein": 0.09,
+        "baseCarbs": 0.45,
+        "baseFats": 0.035,
+        "category": "bread"
+      },
+      {
+        "name": "Requesón",
+        "quantity": "50",
+        "unit": "g",
+        "calories": 49,
+        "protein": 5.5,
+        "carbs": 1.75,
+        "fats": 2.15,
+        "baseCalories": 0.98,
+        "baseProtein": 0.11,
+        "baseCarbs": 0.035,
+        "baseFats": 0.043,
+        "category": "dairy"
+      },
+      {
+        "name": "Miel",
+        "quantity": "10",
+        "unit": "g",
+        "calories": 30.4,
+        "protein": 0,
+        "carbs": 8.2,
+        "fats": 0,
+        "baseCalories": 3.04,
+        "baseProtein": 0,
+        "baseCarbs": 0.82,
+        "baseFats": 0,
+        "category": "default_other"
+      }
+    ],
+    "preparation": "1. Tostar el pan integral. 2. Extender el requesón. 3. Añadir la miel por encima."
+  },
+  "p7_m2": {
+    "name": "Arroz Basmati con Pavo y Verduras",
+    "image": "",
+    "calories": 656,
+    "protein": 39,
+    "carbs": 74,
+    "fats": 22,
+    "ingredients": [
+      {
+        "name": "Arroz Basmati en Crudo",
+        "quantity": "75",
+        "unit": "g",
+        "calories": 270,
+        "protein": 5.25,
+        "carbs": 60,
+        "fats": 0.75,
+        "baseCalories": 3.6,
+        "baseProtein": 0.07,
+        "baseCarbs": 0.8,
+        "baseFats": 0.01,
+        "category": "grain_carb_dry"
+      },
+      {
+        "name": "Pechuga de Pavo",
+        "quantity": "130",
+        "unit": "g",
+        "calories": 143,
+        "protein": 31.2,
+        "carbs": 0,
+        "fats": 1.56,
+        "baseCalories": 1.1,
+        "baseProtein": 0.24,
+        "baseCarbs": 0,
+        "baseFats": 0.012,
+        "category": "lean_protein"
+      },
+      {
+        "name": "Calabacín",
+        "quantity": "150",
+        "unit": "g",
+        "calories": 25.5,
+        "protein": 1.8,
+        "carbs": 4.65,
+        "fats": 0.45,
+        "baseCalories": 0.17,
+        "baseProtein": 0.012,
+        "baseCarbs": 0.031,
+        "baseFats": 0.003,
+        "category": "vegetables"
+      },
+      {
+        "name": "Zanahoria",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 41,
+        "protein": 0.9,
+        "carbs": 9.6,
+        "fats": 0.2,
+        "baseCalories": 0.41,
+        "baseProtein": 0.009,
+        "baseCarbs": 0.096,
+        "baseFats": 0.002,
+        "category": "vegetables"
+      },
+      {
+        "name": "Aceite de Oliva Virgen",
+        "quantity": "20",
+        "unit": "g",
+        "calories": 176.8,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 20,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1,
+        "category": "oil"
+      }
+    ],
+    "preparation": "1. Cocer el arroz basmati. 2. Saltear el pavo troceado con el calabacín y la zanahoria. 3. Incorporar el arroz y mezclar antes de servir."
+  },
+  "p7_m3": {
+    "name": "Lomo de Cerdo con Boniato y Espinacas",
+    "image": "",
+    "calories": 577,
+    "protein": 43,
+    "carbs": 50,
+    "fats": 25,
+    "ingredients": [
+      {
+        "name": "Lomo de Cerdo",
+        "quantity": "130",
+        "unit": "g",
+        "calories": 221,
+        "protein": 35.1,
+        "carbs": 0,
+        "fats": 9.1,
+        "baseCalories": 1.7,
+        "baseProtein": 0.27,
+        "baseCarbs": 0,
+        "baseFats": 0.07,
+        "category": "lean_protein"
+      },
+      {
+        "name": "Boniato",
+        "quantity": "220",
+        "unit": "g",
+        "calories": 189.2,
+        "protein": 3.52,
+        "carbs": 44.22,
+        "fats": 0.22,
+        "baseCalories": 0.86,
+        "baseProtein": 0.016,
+        "baseCarbs": 0.201,
+        "baseFats": 0.001,
+        "category": "tuber"
+      },
+      {
+        "name": "Espinacas",
+        "quantity": "150",
+        "unit": "g",
+        "calories": 34.5,
+        "protein": 4.35,
+        "carbs": 5.4,
+        "fats": 0.6,
+        "baseCalories": 0.23,
+        "baseProtein": 0.029,
+        "baseCarbs": 0.036,
+        "baseFats": 0.004,
+        "category": "vegetables"
+      },
+      {
+        "name": "Aceite de Oliva Virgen",
+        "quantity": "15",
+        "unit": "g",
+        "calories": 132.6,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 15,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1,
+        "category": "oil"
+      }
+    ],
+    "preparation": "1. Asar el boniato en dados. 2. Cocinar el lomo a la plancha. 3. Saltear las espinacas y servir todo junto."
+  },
+  "p7_m4": {
+    "name": "Hummus Casero con Palitos de Zanahoria",
+    "image": "",
+    "calories": 178,
+    "protein": 7,
+    "carbs": 24,
+    "fats": 7,
+    "ingredients": [
+      {
+        "name": "Hummus",
+        "quantity": "70",
+        "unit": "g",
+        "calories": 116.2,
+        "protein": 5.53,
+        "carbs": 10.03,
+        "fats": 6.72,
+        "baseCalories": 1.66,
+        "baseProtein": 0.079,
+        "baseCarbs": 0.143,
+        "baseFats": 0.096,
+        "category": "legumes"
+      },
+      {
+        "name": "Zanahoria",
+        "quantity": "150",
+        "unit": "g",
+        "calories": 61.5,
+        "protein": 1.35,
+        "carbs": 14.4,
+        "fats": 0.3,
+        "baseCalories": 0.41,
+        "baseProtein": 0.009,
+        "baseCarbs": 0.096,
+        "baseFats": 0.002,
+        "category": "vegetables"
+      }
+    ],
+    "preparation": "1. Cortar la zanahoria en bastones. 2. Servir junto al hummus para mojar."
+  },
+  "p7_m5": {
+    "name": "Manzana Asada con Canela y Nueces",
+    "image": "",
+    "calories": 274,
+    "protein": 5,
+    "carbs": 25,
+    "fats": 20,
+    "ingredients": [
+      {
+        "name": "Manzana",
+        "quantity": "150",
+        "unit": "g",
+        "calories": 78,
+        "protein": 0.45,
+        "carbs": 20.7,
+        "fats": 0.3,
+        "baseCalories": 0.52,
+        "baseProtein": 0.003,
+        "baseCarbs": 0.138,
+        "baseFats": 0.002,
+        "category": "fruit_dense"
+      },
+      {
+        "name": "Nueces",
+        "quantity": "30",
+        "unit": "g",
+        "calories": 196.2,
+        "protein": 4.56,
+        "carbs": 4.11,
+        "fats": 19.56,
+        "baseCalories": 6.54,
+        "baseProtein": 0.152,
+        "baseCarbs": 0.137,
+        "baseFats": 0.652,
+        "category": "nuts"
+      }
+    ],
+    "preparation": "1. Cortar la manzana y espolvorear canela. 2. Hornear hasta que quede tierna. 3. Añadir las nueces al servir."
   }
 };
 const dailyMenus = [
@@ -2616,5 +2962,33 @@ const dailyMenus = [
       "p6_m2"
     ],
     "extra": []
+  },
+  {
+    "name": "Prueba ChatGPT",
+    "targetMacros": {
+      "calories": 1800,
+      "protein": 150,
+      "carbs": 150
+    },
+    "baselineTotals": {
+      "calories": 2521,
+      "protein": 138,
+      "carbs": 288,
+      "fats": 99
+    },
+    "desayuno": [
+      "p7_m0",
+      "p7_m1"
+    ],
+    "comida": [
+      "p7_m2"
+    ],
+    "cena": [
+      "p7_m3"
+    ],
+    "extra": [
+      "p7_m4",
+      "p7_m5"
+    ]
   }
 ];
