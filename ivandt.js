@@ -3131,6 +3131,1192 @@ const foodDatabase = {
     "preparation": "1. En un bol, mezclar el queso fresco batido con los frutos rojos. 2. Añadir la miel y remover suavemente.",
     "originalBaseRecipeId": "ext_queso_fresco_batido_con_frutos_rojos_y_miel"
   }
+,
+
+  "ivandt_d4_desayuno": {
+    "name": "Wrap integral de pollo, huevo y queso",
+    "image": "https://raw.githubusercontent.com/hombresenforma/ivan-diet/main/assets/ivandt/dias-4-7/wrap-pollo-huevo-queso.jpg",
+    "calories": 492,
+    "protein": 43,
+    "carbs": 33,
+    "fats": 20,
+    "ingredients": [
+      {
+        "name": "Tortilla integral de trigo",
+        "quantity": "60",
+        "unit": "g",
+        "category": "cereals",
+        "calories": 186.0,
+        "baseCalories": 3.1,
+        "protein": 5.4,
+        "baseProtein": 0.09,
+        "carbs": 30.0,
+        "baseCarbs": 0.5,
+        "fats": 4.8,
+        "baseFats": 0.08
+      },
+      {
+        "name": "Pechuga de pollo (cruda)",
+        "quantity": "100",
+        "unit": "g",
+        "category": "poultry",
+        "calories": 110.0,
+        "baseCalories": 1.1,
+        "protein": 23.0,
+        "baseProtein": 0.23,
+        "carbs": 0.0,
+        "baseCarbs": 0.0,
+        "fats": 1.5,
+        "baseFats": 0.015
+      },
+      {
+        "name": "Huevo",
+        "quantity": "1",
+        "unit": "ud",
+        "category": "eggs",
+        "calories": 78.0,
+        "baseCalories": 78.0,
+        "protein": 6.5,
+        "baseProtein": 6.5,
+        "carbs": 0.5,
+        "baseCarbs": 0.5,
+        "fats": 5.5,
+        "baseFats": 5.5
+      },
+      {
+        "name": "Queso fresco light",
+        "quantity": "40",
+        "unit": "g",
+        "category": "dairy",
+        "calories": 64.0,
+        "baseCalories": 1.6,
+        "protein": 8.0,
+        "baseProtein": 0.2,
+        "carbs": 1.2,
+        "baseCarbs": 0.03,
+        "fats": 3.0,
+        "baseFats": 0.075
+      },
+      {
+        "name": "Tomate",
+        "quantity": "50",
+        "unit": "g",
+        "category": "vegetables",
+        "calories": 9.0,
+        "baseCalories": 0.18,
+        "protein": 0.45,
+        "baseProtein": 0.009000000000000001,
+        "carbs": 1.35,
+        "baseCarbs": 0.027000000000000003,
+        "fats": 0.1,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Aceite de oliva virgen extra",
+        "quantity": "5",
+        "unit": "g",
+        "category": "oil",
+        "calories": 45.0,
+        "baseCalories": 9.0,
+        "protein": 0.0,
+        "baseProtein": 0.0,
+        "carbs": 0.0,
+        "baseCarbs": 0.0,
+        "fats": 5.0,
+        "baseFats": 1.0
+      }
+    ],
+    "preparation": "Cocinar el pollo en tiras y el huevo con el aceite medido. Calentar la tortilla, añadir pollo, huevo, queso y tomate; cerrar y dorar un minuto por cada lado. Cantidades para una ración; cereales en seco y carnes en crudo. Valores nutricionales aproximados según el producto."
+  },
+  "ivandt_d4_comida": {
+    "name": "Quinoa con ternera y verduras",
+    "image": "https://raw.githubusercontent.com/hombresenforma/ivan-diet/main/assets/ivandt/dias-4-7/quinoa-ternera-verduras.jpg",
+    "calories": 730,
+    "protein": 48,
+    "carbs": 74,
+    "fats": 25,
+    "ingredients": [
+      {
+        "name": "Quinoa (seca)",
+        "quantity": "105",
+        "unit": "g",
+        "category": "cereals",
+        "calories": 386.4,
+        "baseCalories": 3.68,
+        "protein": 14.7,
+        "baseProtein": 0.14,
+        "carbs": 67.2,
+        "baseCarbs": 0.64,
+        "fats": 6.3,
+        "baseFats": 0.06
+      },
+      {
+        "name": "Ternera magra (cruda)",
+        "quantity": "150",
+        "unit": "g",
+        "category": "meat",
+        "calories": 205.5,
+        "baseCalories": 1.37,
+        "protein": 31.5,
+        "baseProtein": 0.21,
+        "carbs": 0.0,
+        "baseCarbs": 0.0,
+        "fats": 8.25,
+        "baseFats": 0.055
+      },
+      {
+        "name": "Pimiento rojo",
+        "quantity": "100",
+        "unit": "g",
+        "category": "vegetables",
+        "calories": 31.0,
+        "baseCalories": 0.31,
+        "protein": 1.0,
+        "baseProtein": 0.01,
+        "carbs": 4.2,
+        "baseCarbs": 0.042,
+        "fats": 0.3,
+        "baseFats": 0.003
+      },
+      {
+        "name": "Calabacín",
+        "quantity": "100",
+        "unit": "g",
+        "category": "vegetables",
+        "calories": 17.0,
+        "baseCalories": 0.17,
+        "protein": 1.2,
+        "baseProtein": 0.012,
+        "carbs": 2.1,
+        "baseCarbs": 0.021,
+        "fats": 0.3,
+        "baseFats": 0.003
+      },
+      {
+        "name": "Aceite de oliva virgen extra",
+        "quantity": "10",
+        "unit": "g",
+        "category": "oil",
+        "calories": 90.0,
+        "baseCalories": 9.0,
+        "protein": 0.0,
+        "baseProtein": 0.0,
+        "carbs": 0.0,
+        "baseCarbs": 0.0,
+        "fats": 10.0,
+        "baseFats": 1.0
+      }
+    ],
+    "preparation": "Lavar y cocer la quinoa según el envase. Saltear el pimiento y el calabacín con el aceite medido, añadir la ternera en tiras y cocinar; mezclar con la quinoa. Cantidades para una ración; cereales en seco y carnes en crudo. Valores nutricionales aproximados según el producto."
+  },
+  "ivandt_d4_cena": {
+    "name": "Pollo al limón con espárragos y espinacas",
+    "image": "https://raw.githubusercontent.com/hombresenforma/ivan-diet/main/assets/ivandt/dias-4-7/pollo-limon-esparragos.jpg",
+    "calories": 261,
+    "protein": 32,
+    "carbs": 3,
+    "fats": 12,
+    "ingredients": [
+      {
+        "name": "Pechuga de pollo (cruda)",
+        "quantity": "125",
+        "unit": "g",
+        "category": "poultry",
+        "calories": 137.5,
+        "baseCalories": 1.1,
+        "protein": 28.75,
+        "baseProtein": 0.23,
+        "carbs": 0.0,
+        "baseCarbs": 0.0,
+        "fats": 1.875,
+        "baseFats": 0.015
+      },
+      {
+        "name": "Espárragos verdes",
+        "quantity": "100",
+        "unit": "g",
+        "category": "vegetables",
+        "calories": 20.0,
+        "baseCalories": 0.2,
+        "protein": 2.2,
+        "baseProtein": 0.022000000000000002,
+        "carbs": 1.9,
+        "baseCarbs": 0.019,
+        "fats": 0.1,
+        "baseFats": 0.001
+      },
+      {
+        "name": "Espinacas",
+        "quantity": "50",
+        "unit": "g",
+        "category": "vegetables",
+        "calories": 11.5,
+        "baseCalories": 0.23,
+        "protein": 1.45,
+        "baseProtein": 0.028999999999999998,
+        "carbs": 0.7,
+        "baseCarbs": 0.013999999999999999,
+        "fats": 0.2,
+        "baseFats": 0.004
+      },
+      {
+        "name": "Aceite de oliva virgen extra",
+        "quantity": "10",
+        "unit": "g",
+        "category": "oil",
+        "calories": 90.0,
+        "baseCalories": 9.0,
+        "protein": 0.0,
+        "baseProtein": 0.0,
+        "carbs": 0.0,
+        "baseCarbs": 0.0,
+        "fats": 10.0,
+        "baseFats": 1.0
+      },
+      {
+        "name": "Zumo de limón",
+        "quantity": "10",
+        "unit": "g",
+        "category": "fruit_citrus",
+        "calories": 2.2,
+        "baseCalories": 0.22,
+        "protein": 0.04,
+        "baseProtein": 0.004,
+        "carbs": 0.25,
+        "baseCarbs": 0.025,
+        "fats": 0.02,
+        "baseFats": 0.002
+      }
+    ],
+    "preparation": "Cocinar el pollo a la plancha con parte del aceite. Saltear los espárragos y las espinacas con el resto. Añadir el zumo de limón al pollo y servir. Cantidades para una ración; cereales en seco y carnes en crudo. Valores nutricionales aproximados según el producto."
+  },
+  "ivandt_d4_extra": {
+    "name": "Skyr con plátano, frutos rojos y almendras",
+    "image": "https://raw.githubusercontent.com/hombresenforma/ivan-diet/main/assets/ivandt/dias-4-7/skyr-platano-frutos-rojos-almendras.jpg",
+    "calories": 307,
+    "protein": 25,
+    "carbs": 40,
+    "fats": 4,
+    "ingredients": [
+      {
+        "name": "Skyr natural",
+        "quantity": "200",
+        "unit": "g",
+        "category": "dairy",
+        "calories": 126.0,
+        "baseCalories": 0.63,
+        "protein": 22.0,
+        "baseProtein": 0.11,
+        "carbs": 8.0,
+        "baseCarbs": 0.04,
+        "fats": 0.4,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Plátano (sin piel)",
+        "quantity": "120",
+        "unit": "g",
+        "category": "fruit_dense",
+        "calories": 106.8,
+        "baseCalories": 0.89,
+        "protein": 1.32,
+        "baseProtein": 0.011000000000000001,
+        "carbs": 24.0,
+        "baseCarbs": 0.2,
+        "fats": 0.36,
+        "baseFats": 0.003
+      },
+      {
+        "name": "Frutos rojos",
+        "quantity": "100",
+        "unit": "g",
+        "category": "fruit",
+        "calories": 45.0,
+        "baseCalories": 0.45,
+        "protein": 0.8,
+        "baseProtein": 0.008,
+        "carbs": 8.0,
+        "baseCarbs": 0.08,
+        "fats": 0.4,
+        "baseFats": 0.004
+      },
+      {
+        "name": "Almendras",
+        "quantity": "5",
+        "unit": "g",
+        "category": "nuts",
+        "calories": 28.95,
+        "baseCalories": 5.79,
+        "protein": 1.05,
+        "baseProtein": 0.21,
+        "carbs": 0.35,
+        "baseCarbs": 0.07,
+        "fats": 2.5,
+        "baseFats": 0.5
+      }
+    ],
+    "preparation": "Servir el skyr con el plátano en rodajas, los frutos rojos y las almendras picadas. Cantidades para una ración; cereales en seco y carnes en crudo. Valores nutricionales aproximados según el producto."
+  },
+  "ivandt_d5_desayuno": {
+    "name": "Smoothie bowl de skyr, mango y avena",
+    "image": "https://raw.githubusercontent.com/hombresenforma/ivan-diet/main/assets/ivandt/dias-4-7/smoothie-skyr-mango-avena.jpg",
+    "calories": 462,
+    "protein": 36,
+    "carbs": 61,
+    "fats": 7,
+    "ingredients": [
+      {
+        "name": "Skyr natural",
+        "quantity": "250",
+        "unit": "g",
+        "category": "dairy",
+        "calories": 157.5,
+        "baseCalories": 0.63,
+        "protein": 27.5,
+        "baseProtein": 0.11,
+        "carbs": 10.0,
+        "baseCarbs": 0.04,
+        "fats": 0.5,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Mango (sin piel)",
+        "quantity": "150",
+        "unit": "g",
+        "category": "fruit_dense",
+        "calories": 90.0,
+        "baseCalories": 0.6,
+        "protein": 1.2,
+        "baseProtein": 0.008,
+        "carbs": 20.25,
+        "baseCarbs": 0.135,
+        "fats": 0.6,
+        "baseFats": 0.004
+      },
+      {
+        "name": "Copos de avena",
+        "quantity": "50",
+        "unit": "g",
+        "category": "cereals",
+        "calories": 185.0,
+        "baseCalories": 3.7,
+        "protein": 6.5,
+        "baseProtein": 0.13,
+        "carbs": 30.0,
+        "baseCarbs": 0.6,
+        "fats": 3.5,
+        "baseFats": 0.07
+      },
+      {
+        "name": "Crema de cacahuete 100%",
+        "quantity": "5",
+        "unit": "g",
+        "category": "nuts",
+        "calories": 30.0,
+        "baseCalories": 6.0,
+        "protein": 1.3,
+        "baseProtein": 0.26,
+        "carbs": 0.6,
+        "baseCarbs": 0.12,
+        "fats": 2.5,
+        "baseFats": 0.5
+      }
+    ],
+    "preparation": "Triturar el skyr con el mango y la avena; añadir un poco de agua si hace falta. Servir en un bol y colocar la crema de cacahuete por encima. Cantidades para una ración; cereales en seco y carnes en crudo. Valores nutricionales aproximados según el producto."
+  },
+  "ivandt_d5_comida": {
+    "name": "Cuscús integral con pavo y calabaza",
+    "image": "https://raw.githubusercontent.com/hombresenforma/ivan-diet/main/assets/ivandt/dias-4-7/cuscus-pavo-calabaza.jpg",
+    "calories": 751,
+    "protein": 72,
+    "carbs": 76,
+    "fats": 15,
+    "ingredients": [
+      {
+        "name": "Cuscús integral (seco)",
+        "quantity": "95",
+        "unit": "g",
+        "category": "cereals",
+        "calories": 342.0,
+        "baseCalories": 3.6,
+        "protein": 11.4,
+        "baseProtein": 0.12,
+        "carbs": 66.5,
+        "baseCarbs": 0.7,
+        "fats": 1.9,
+        "baseFats": 0.02
+      },
+      {
+        "name": "Pechuga de pavo (cruda)",
+        "quantity": "245",
+        "unit": "g",
+        "category": "poultry",
+        "calories": 262.15,
+        "baseCalories": 1.07,
+        "protein": 58.8,
+        "baseProtein": 0.24,
+        "carbs": 0.0,
+        "baseCarbs": 0.0,
+        "fats": 2.45,
+        "baseFats": 0.01
+      },
+      {
+        "name": "Calabaza",
+        "quantity": "100",
+        "unit": "g",
+        "category": "vegetables",
+        "calories": 26.0,
+        "baseCalories": 0.26,
+        "protein": 1.0,
+        "baseProtein": 0.01,
+        "carbs": 5.0,
+        "baseCarbs": 0.05,
+        "fats": 0.1,
+        "baseFats": 0.001
+      },
+      {
+        "name": "Pimiento rojo",
+        "quantity": "100",
+        "unit": "g",
+        "category": "vegetables",
+        "calories": 31.0,
+        "baseCalories": 0.31,
+        "protein": 1.0,
+        "baseProtein": 0.01,
+        "carbs": 4.2,
+        "baseCarbs": 0.042,
+        "fats": 0.3,
+        "baseFats": 0.003
+      },
+      {
+        "name": "Aceite de oliva virgen extra",
+        "quantity": "10",
+        "unit": "g",
+        "category": "oil",
+        "calories": 90.0,
+        "baseCalories": 9.0,
+        "protein": 0.0,
+        "baseProtein": 0.0,
+        "carbs": 0.0,
+        "baseCarbs": 0.0,
+        "fats": 10.0,
+        "baseFats": 1.0
+      }
+    ],
+    "preparation": "Cortar la calabaza en dados pequeños y ablandarla 4–5 minutos en microondas. Hidratar el cuscús según el envase. Saltear el pavo y el pimiento con el aceite; incorporar la calabaza y el cuscús. Cantidades para una ración; cereales en seco y carnes en crudo. Valores nutricionales aproximados según el producto."
+  },
+  "ivandt_d5_cena": {
+    "name": "Tortilla de claras, champiñones y queso de cabra",
+    "image": "https://raw.githubusercontent.com/hombresenforma/ivan-diet/main/assets/ivandt/dias-4-7/tortilla-claras-champinones-cabra.jpg",
+    "calories": 366,
+    "protein": 35,
+    "carbs": 5,
+    "fats": 23,
+    "ingredients": [
+      {
+        "name": "Claras de huevo pasteurizadas",
+        "quantity": "200",
+        "unit": "g",
+        "category": "eggs",
+        "calories": 92.0,
+        "baseCalories": 0.46,
+        "protein": 21.0,
+        "baseProtein": 0.105,
+        "carbs": 1.4,
+        "baseCarbs": 0.006999999999999999,
+        "fats": 0.4,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Champiñones",
+        "quantity": "100",
+        "unit": "g",
+        "category": "vegetables",
+        "calories": 22.0,
+        "baseCalories": 0.22,
+        "protein": 3.1,
+        "baseProtein": 0.031,
+        "carbs": 2.3,
+        "baseCarbs": 0.023,
+        "fats": 0.3,
+        "baseFats": 0.003
+      },
+      {
+        "name": "Espinacas",
+        "quantity": "50",
+        "unit": "g",
+        "category": "vegetables",
+        "calories": 11.5,
+        "baseCalories": 0.23,
+        "protein": 1.45,
+        "baseProtein": 0.028999999999999998,
+        "carbs": 0.7,
+        "baseCarbs": 0.013999999999999999,
+        "fats": 0.2,
+        "baseFats": 0.004
+      },
+      {
+        "name": "Queso de cabra",
+        "quantity": "50",
+        "unit": "g",
+        "category": "dairy",
+        "calories": 150.0,
+        "baseCalories": 3.0,
+        "protein": 9.0,
+        "baseProtein": 0.18,
+        "carbs": 0.5,
+        "baseCarbs": 0.01,
+        "fats": 12.5,
+        "baseFats": 0.25
+      },
+      {
+        "name": "Aceite de oliva virgen extra",
+        "quantity": "10",
+        "unit": "g",
+        "category": "oil",
+        "calories": 90.0,
+        "baseCalories": 9.0,
+        "protein": 0.0,
+        "baseProtein": 0.0,
+        "carbs": 0.0,
+        "baseCarbs": 0.0,
+        "fats": 10.0,
+        "baseFats": 1.0
+      }
+    ],
+    "preparation": "Saltear champiñones y espinacas con el aceite medido. Añadir las claras y cocinar hasta cuajar por completo. Repartir el queso de cabra, doblar la tortilla y servir. Cantidades para una ración; cereales en seco y carnes en crudo. Valores nutricionales aproximados según el producto."
+  },
+  "ivandt_d5_extra": {
+    "name": "Tortita de arroz con crema de almendra",
+    "image": "https://raw.githubusercontent.com/hombresenforma/ivan-diet/main/assets/ivandt/dias-4-7/tortita-arroz-crema-almendra.jpg",
+    "calories": 216,
+    "protein": 7,
+    "carbs": 9,
+    "fats": 17,
+    "ingredients": [
+      {
+        "name": "Tortita de arroz",
+        "quantity": "1",
+        "unit": "ud",
+        "category": "cereals",
+        "calories": 30.0,
+        "baseCalories": 30.0,
+        "protein": 0.6,
+        "baseProtein": 0.6,
+        "carbs": 6.5,
+        "baseCarbs": 6.5,
+        "fats": 0.2,
+        "baseFats": 0.2
+      },
+      {
+        "name": "Crema de almendra 100%",
+        "quantity": "30",
+        "unit": "g",
+        "category": "nuts",
+        "calories": 186.0,
+        "baseCalories": 6.2,
+        "protein": 6.3,
+        "baseProtein": 0.21,
+        "carbs": 2.1,
+        "baseCarbs": 0.07,
+        "fats": 16.8,
+        "baseFats": 0.56
+      }
+    ],
+    "preparation": "Untar la crema de almendra sobre la tortita de arroz. Consumir recién preparada para mantener la textura crujiente. Cantidades para una ración; cereales en seco y carnes en crudo. Valores nutricionales aproximados según el producto."
+  },
+  "ivandt_d6_desayuno": {
+    "name": "Bagel integral de jamón, huevo y queso",
+    "image": "https://raw.githubusercontent.com/hombresenforma/ivan-diet/main/assets/ivandt/dias-4-7/bagel-jamon-huevo-queso.jpg",
+    "calories": 425,
+    "protein": 35,
+    "carbs": 42,
+    "fats": 13,
+    "ingredients": [
+      {
+        "name": "Bagel integral",
+        "quantity": "80",
+        "unit": "g",
+        "category": "cereals",
+        "calories": 208.0,
+        "baseCalories": 2.6,
+        "protein": 8.0,
+        "baseProtein": 0.1,
+        "carbs": 38.4,
+        "baseCarbs": 0.48,
+        "fats": 2.4,
+        "baseFats": 0.03
+      },
+      {
+        "name": "Jamón cocido extra",
+        "quantity": "60",
+        "unit": "g",
+        "category": "meat",
+        "calories": 66.0,
+        "baseCalories": 1.1,
+        "protein": 12.0,
+        "baseProtein": 0.2,
+        "carbs": 0.6,
+        "baseCarbs": 0.01,
+        "fats": 1.8,
+        "baseFats": 0.03
+      },
+      {
+        "name": "Huevo",
+        "quantity": "1",
+        "unit": "ud",
+        "category": "eggs",
+        "calories": 78.0,
+        "baseCalories": 78.0,
+        "protein": 6.5,
+        "baseProtein": 6.5,
+        "carbs": 0.5,
+        "baseCarbs": 0.5,
+        "fats": 5.5,
+        "baseFats": 5.5
+      },
+      {
+        "name": "Queso fresco light",
+        "quantity": "40",
+        "unit": "g",
+        "category": "dairy",
+        "calories": 64.0,
+        "baseCalories": 1.6,
+        "protein": 8.0,
+        "baseProtein": 0.2,
+        "carbs": 1.2,
+        "baseCarbs": 0.03,
+        "fats": 3.0,
+        "baseFats": 0.075
+      },
+      {
+        "name": "Tomate",
+        "quantity": "50",
+        "unit": "g",
+        "category": "vegetables",
+        "calories": 9.0,
+        "baseCalories": 0.18,
+        "protein": 0.45,
+        "baseProtein": 0.009000000000000001,
+        "carbs": 1.35,
+        "baseCarbs": 0.027000000000000003,
+        "fats": 0.1,
+        "baseFats": 0.002
+      }
+    ],
+    "preparation": "Tostar el bagel. Cocinar el huevo en una sartén antiadherente. Rellenar con jamón, huevo, queso y tomate en rodajas. Cantidades para una ración; cereales en seco y carnes en crudo. Valores nutricionales aproximados según el producto."
+  },
+  "ivandt_d6_comida": {
+    "name": "Burrito bowl de pollo y frijoles",
+    "image": "https://raw.githubusercontent.com/hombresenforma/ivan-diet/main/assets/ivandt/dias-4-7/burrito-bowl-pollo-frijoles.jpg",
+    "calories": 782,
+    "protein": 46,
+    "carbs": 87,
+    "fats": 25,
+    "ingredients": [
+      {
+        "name": "Arroz basmati (seco)",
+        "quantity": "80",
+        "unit": "g",
+        "category": "cereals",
+        "calories": 284.0,
+        "baseCalories": 3.55,
+        "protein": 6.4,
+        "baseProtein": 0.08,
+        "carbs": 62.4,
+        "baseCarbs": 0.78,
+        "fats": 0.8,
+        "baseFats": 0.01
+      },
+      {
+        "name": "Pechuga de pollo (cruda)",
+        "quantity": "130",
+        "unit": "g",
+        "category": "poultry",
+        "calories": 143.0,
+        "baseCalories": 1.1,
+        "protein": 29.9,
+        "baseProtein": 0.23,
+        "carbs": 0.0,
+        "baseCarbs": 0.0,
+        "fats": 1.95,
+        "baseFats": 0.015
+      },
+      {
+        "name": "Frijoles negros cocidos y escurridos",
+        "quantity": "80",
+        "unit": "g",
+        "category": "legumes",
+        "calories": 88.0,
+        "baseCalories": 1.1,
+        "protein": 6.4,
+        "baseProtein": 0.08,
+        "carbs": 12.8,
+        "baseCarbs": 0.16,
+        "fats": 0.4,
+        "baseFats": 0.005
+      },
+      {
+        "name": "Maíz cocido y escurrido",
+        "quantity": "50",
+        "unit": "g",
+        "category": "cereals",
+        "calories": 43.0,
+        "baseCalories": 0.86,
+        "protein": 1.5,
+        "baseProtein": 0.03,
+        "carbs": 7.5,
+        "baseCarbs": 0.15,
+        "fats": 0.75,
+        "baseFats": 0.015
+      },
+      {
+        "name": "Pimiento rojo",
+        "quantity": "70",
+        "unit": "g",
+        "category": "vegetables",
+        "calories": 21.7,
+        "baseCalories": 0.31,
+        "protein": 0.7,
+        "baseProtein": 0.01,
+        "carbs": 2.94,
+        "baseCarbs": 0.042,
+        "fats": 0.21,
+        "baseFats": 0.003
+      },
+      {
+        "name": "Aguacate (sin piel ni hueso)",
+        "quantity": "70",
+        "unit": "g",
+        "category": "fruit",
+        "calories": 112.0,
+        "baseCalories": 1.6,
+        "protein": 1.4,
+        "baseProtein": 0.02,
+        "carbs": 1.4,
+        "baseCarbs": 0.02,
+        "fats": 10.5,
+        "baseFats": 0.15
+      },
+      {
+        "name": "Aceite de oliva virgen extra",
+        "quantity": "10",
+        "unit": "g",
+        "category": "oil",
+        "calories": 90.0,
+        "baseCalories": 9.0,
+        "protein": 0.0,
+        "baseProtein": 0.0,
+        "carbs": 0.0,
+        "baseCarbs": 0.0,
+        "fats": 10.0,
+        "baseFats": 1.0
+      }
+    ],
+    "preparation": "Cocer el arroz. Saltear el pollo y el pimiento con el aceite medido. Servir con los frijoles y el maíz escurridos y el aguacate en dados. Cantidades para una ración; cereales en seco y carnes en crudo. Valores nutricionales aproximados según el producto."
+  },
+  "ivandt_d6_cena": {
+    "name": "Albóndigas de pavo con calabacín",
+    "image": "https://raw.githubusercontent.com/hombresenforma/ivan-diet/main/assets/ivandt/dias-4-7/albondigas-pavo-calabacin.jpg",
+    "calories": 456,
+    "protein": 65,
+    "carbs": 5,
+    "fats": 19,
+    "ingredients": [
+      {
+        "name": "Pechuga de pavo (cruda)",
+        "quantity": "235",
+        "unit": "g",
+        "category": "poultry",
+        "calories": 251.45,
+        "baseCalories": 1.07,
+        "protein": 56.4,
+        "baseProtein": 0.24,
+        "carbs": 0.0,
+        "baseCarbs": 0.0,
+        "fats": 2.35,
+        "baseFats": 0.01
+      },
+      {
+        "name": "Calabacín",
+        "quantity": "100",
+        "unit": "g",
+        "category": "vegetables",
+        "calories": 17.0,
+        "baseCalories": 0.17,
+        "protein": 1.2,
+        "baseProtein": 0.012,
+        "carbs": 2.1,
+        "baseCarbs": 0.021,
+        "fats": 0.3,
+        "baseFats": 0.003
+      },
+      {
+        "name": "Tomate",
+        "quantity": "100",
+        "unit": "g",
+        "category": "vegetables",
+        "calories": 18.0,
+        "baseCalories": 0.18,
+        "protein": 0.9,
+        "baseProtein": 0.009000000000000001,
+        "carbs": 2.7,
+        "baseCarbs": 0.027000000000000003,
+        "fats": 0.2,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Queso parmesano",
+        "quantity": "20",
+        "unit": "g",
+        "category": "dairy",
+        "calories": 80.0,
+        "baseCalories": 4.0,
+        "protein": 6.6,
+        "baseProtein": 0.33,
+        "carbs": 0.0,
+        "baseCarbs": 0.0,
+        "fats": 5.8,
+        "baseFats": 0.29
+      },
+      {
+        "name": "Aceite de oliva virgen extra",
+        "quantity": "10",
+        "unit": "g",
+        "category": "oil",
+        "calories": 90.0,
+        "baseCalories": 9.0,
+        "protein": 0.0,
+        "baseProtein": 0.0,
+        "carbs": 0.0,
+        "baseCarbs": 0.0,
+        "fats": 10.0,
+        "baseFats": 1.0
+      }
+    ],
+    "preparation": "Picar el pavo o usar pavo picado 100%, formar bolitas y dorarlas con el aceite. Añadir tomate triturado y cocinar tapado hasta que el pavo esté hecho. Incorporar el calabacín en tiras al final y servir con parmesano. Cantidades para una ración; cereales en seco y carnes en crudo. Valores nutricionales aproximados según el producto."
+  },
+  "ivandt_d6_extra": {
+    "name": "Naranja con anacardos",
+    "image": "https://raw.githubusercontent.com/hombresenforma/ivan-diet/main/assets/ivandt/dias-4-7/naranja-anacardos.jpg",
+    "calories": 128,
+    "protein": 3,
+    "carbs": 16,
+    "fats": 5,
+    "ingredients": [
+      {
+        "name": "Naranja (sin piel)",
+        "quantity": "150",
+        "unit": "g",
+        "category": "fruit_citrus",
+        "calories": 70.5,
+        "baseCalories": 0.47,
+        "protein": 1.35,
+        "baseProtein": 0.009000000000000001,
+        "carbs": 13.5,
+        "baseCarbs": 0.09,
+        "fats": 0.15,
+        "baseFats": 0.001
+      },
+      {
+        "name": "Anacardos",
+        "quantity": "10",
+        "unit": "g",
+        "category": "nuts",
+        "calories": 57.4,
+        "baseCalories": 5.74,
+        "protein": 1.8,
+        "baseProtein": 0.18,
+        "carbs": 2.7,
+        "baseCarbs": 0.27,
+        "fats": 4.6,
+        "baseFats": 0.46
+      }
+    ],
+    "preparation": "Pelar la naranja, separar los gajos y servir con los anacardos pesados. Cantidades para una ración; cereales en seco y carnes en crudo. Valores nutricionales aproximados según el producto."
+  },
+  "ivandt_d7_desayuno": {
+    "name": "Tostadas francesas con skyr y fresas",
+    "image": "https://raw.githubusercontent.com/hombresenforma/ivan-diet/main/assets/ivandt/dias-4-7/tostadas-francesas-skyr-fresas.jpg",
+    "calories": 486,
+    "protein": 34,
+    "carbs": 50,
+    "fats": 16,
+    "ingredients": [
+      {
+        "name": "Pan integral",
+        "quantity": "80",
+        "unit": "g",
+        "category": "cereals",
+        "calories": 200.0,
+        "baseCalories": 2.5,
+        "protein": 8.0,
+        "baseProtein": 0.1,
+        "carbs": 34.4,
+        "baseCarbs": 0.43,
+        "fats": 3.2,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Huevo",
+        "quantity": "1",
+        "unit": "ud",
+        "category": "eggs",
+        "calories": 78.0,
+        "baseCalories": 78.0,
+        "protein": 6.5,
+        "baseProtein": 6.5,
+        "carbs": 0.5,
+        "baseCarbs": 0.5,
+        "fats": 5.5,
+        "baseFats": 5.5
+      },
+      {
+        "name": "Leche semidesnatada",
+        "quantity": "80",
+        "unit": "g",
+        "category": "dairy",
+        "calories": 36.8,
+        "baseCalories": 0.46,
+        "protein": 2.72,
+        "baseProtein": 0.034,
+        "carbs": 3.84,
+        "baseCarbs": 0.048,
+        "fats": 1.28,
+        "baseFats": 0.016
+      },
+      {
+        "name": "Skyr natural",
+        "quantity": "150",
+        "unit": "g",
+        "category": "dairy",
+        "calories": 94.5,
+        "baseCalories": 0.63,
+        "protein": 16.5,
+        "baseProtein": 0.11,
+        "carbs": 6.0,
+        "baseCarbs": 0.04,
+        "fats": 0.3,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Fresas",
+        "quantity": "100",
+        "unit": "g",
+        "category": "fruit",
+        "calories": 32.0,
+        "baseCalories": 0.32,
+        "protein": 0.7,
+        "baseProtein": 0.006999999999999999,
+        "carbs": 5.5,
+        "baseCarbs": 0.055,
+        "fats": 0.3,
+        "baseFats": 0.003
+      },
+      {
+        "name": "Aceite de oliva virgen extra",
+        "quantity": "5",
+        "unit": "g",
+        "category": "oil",
+        "calories": 45.0,
+        "baseCalories": 9.0,
+        "protein": 0.0,
+        "baseProtein": 0.0,
+        "carbs": 0.0,
+        "baseCarbs": 0.0,
+        "fats": 5.0,
+        "baseFats": 1.0
+      }
+    ],
+    "preparation": "Batir el huevo con la leche, empapar el pan y dorar en sartén con el aceite medido hasta que el huevo esté bien cuajado. Servir con skyr y fresas. Cantidades para una ración; cereales en seco y carnes en crudo. Valores nutricionales aproximados según el producto."
+  },
+  "ivandt_d7_comida": {
+    "name": "Ñoquis con ternera y tomate",
+    "image": "https://raw.githubusercontent.com/hombresenforma/ivan-diet/main/assets/ivandt/dias-4-7/noquis-ternera-tomate.jpg",
+    "calories": 562,
+    "protein": 36,
+    "carbs": 55,
+    "fats": 20,
+    "ingredients": [
+      {
+        "name": "Ñoquis de patata",
+        "quantity": "175",
+        "unit": "g",
+        "category": "tuber",
+        "calories": 262.5,
+        "baseCalories": 1.5,
+        "protein": 6.125,
+        "baseProtein": 0.035,
+        "carbs": 52.5,
+        "baseCarbs": 0.3,
+        "fats": 1.75,
+        "baseFats": 0.01
+      },
+      {
+        "name": "Ternera magra (cruda)",
+        "quantity": "140",
+        "unit": "g",
+        "category": "meat",
+        "calories": 191.8,
+        "baseCalories": 1.37,
+        "protein": 29.4,
+        "baseProtein": 0.21,
+        "carbs": 0.0,
+        "baseCarbs": 0.0,
+        "fats": 7.7,
+        "baseFats": 0.055
+      },
+      {
+        "name": "Tomate",
+        "quantity": "100",
+        "unit": "g",
+        "category": "vegetables",
+        "calories": 18.0,
+        "baseCalories": 0.18,
+        "protein": 0.9,
+        "baseProtein": 0.009000000000000001,
+        "carbs": 2.7,
+        "baseCarbs": 0.027000000000000003,
+        "fats": 0.2,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Aceite de oliva virgen extra",
+        "quantity": "10",
+        "unit": "g",
+        "category": "oil",
+        "calories": 90.0,
+        "baseCalories": 9.0,
+        "protein": 0.0,
+        "baseProtein": 0.0,
+        "carbs": 0.0,
+        "baseCarbs": 0.0,
+        "fats": 10.0,
+        "baseFats": 1.0
+      }
+    ],
+    "preparation": "Cocer los ñoquis según el envase. Dorar la ternera picada con el aceite, añadir el tomate triturado y cocinar 5–8 minutos. Mezclar con los ñoquis escurridos. Cantidades para una ración; cereales en seco y carnes en crudo. Valores nutricionales aproximados según el producto."
+  },
+  "ivandt_d7_cena": {
+    "name": "Ternera con brócoli y sésamo",
+    "image": "https://raw.githubusercontent.com/hombresenforma/ivan-diet/main/assets/ivandt/dias-4-7/ternera-brocoli-sesamo.jpg",
+    "calories": 387,
+    "protein": 36,
+    "carbs": 5,
+    "fats": 24,
+    "ingredients": [
+      {
+        "name": "Ternera magra (cruda)",
+        "quantity": "150",
+        "unit": "g",
+        "category": "meat",
+        "calories": 205.5,
+        "baseCalories": 1.37,
+        "protein": 31.5,
+        "baseProtein": 0.21,
+        "carbs": 0.0,
+        "baseCarbs": 0.0,
+        "fats": 8.25,
+        "baseFats": 0.055
+      },
+      {
+        "name": "Brócoli",
+        "quantity": "100",
+        "unit": "g",
+        "category": "vegetables",
+        "calories": 34.0,
+        "baseCalories": 0.34,
+        "protein": 2.8,
+        "baseProtein": 0.027999999999999997,
+        "carbs": 4.0,
+        "baseCarbs": 0.04,
+        "fats": 0.4,
+        "baseFats": 0.004
+      },
+      {
+        "name": "Semillas de sésamo",
+        "quantity": "10",
+        "unit": "g",
+        "category": "nuts",
+        "calories": 57.3,
+        "baseCalories": 5.73,
+        "protein": 1.8,
+        "baseProtein": 0.18,
+        "carbs": 1.2,
+        "baseCarbs": 0.12,
+        "fats": 5.0,
+        "baseFats": 0.5
+      },
+      {
+        "name": "Aceite de oliva virgen extra",
+        "quantity": "10",
+        "unit": "g",
+        "category": "oil",
+        "calories": 90.0,
+        "baseCalories": 9.0,
+        "protein": 0.0,
+        "baseProtein": 0.0,
+        "carbs": 0.0,
+        "baseCarbs": 0.0,
+        "fats": 10.0,
+        "baseFats": 1.0
+      }
+    ],
+    "preparation": "Cocer el brócoli al vapor 3–4 minutos. Saltear la ternera en tiras con el aceite, incorporar el brócoli y terminar con el sésamo. Cantidades para una ración; cereales en seco y carnes en crudo. Valores nutricionales aproximados según el producto."
+  },
+  "ivandt_d7_extra": {
+    "name": "Uvas con skyr y nueces",
+    "image": "https://raw.githubusercontent.com/hombresenforma/ivan-diet/main/assets/ivandt/dias-4-7/uvas-skyr-nueces.jpg",
+    "calories": 372,
+    "protein": 43,
+    "carbs": 39,
+    "fats": 4,
+    "ingredients": [
+      {
+        "name": "Uvas",
+        "quantity": "150",
+        "unit": "g",
+        "category": "fruit_dense",
+        "calories": 103.5,
+        "baseCalories": 0.69,
+        "protein": 1.05,
+        "baseProtein": 0.006999999999999999,
+        "carbs": 24.0,
+        "baseCarbs": 0.16,
+        "fats": 0.3,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Skyr natural",
+        "quantity": "375",
+        "unit": "g",
+        "category": "dairy",
+        "calories": 236.25,
+        "baseCalories": 0.63,
+        "protein": 41.25,
+        "baseProtein": 0.11,
+        "carbs": 15.0,
+        "baseCarbs": 0.04,
+        "fats": 0.75,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Nueces",
+        "quantity": "5",
+        "unit": "g",
+        "category": "nuts",
+        "calories": 32.7,
+        "baseCalories": 6.54,
+        "protein": 0.75,
+        "baseProtein": 0.15,
+        "carbs": 0.35,
+        "baseCarbs": 0.07,
+        "fats": 3.25,
+        "baseFats": 0.65
+      }
+    ],
+    "preparation": "Lavar las uvas y servirlas con el skyr y las nueces picadas. Cantidades para una ración; cereales en seco y carnes en crudo. Valores nutricionales aproximados según el producto."
+  }
 };
 
 const dailyMenus = [
@@ -3391,4 +4577,111 @@ const dailyMenus = [
       "p8_m5"
     ]
   }
+,
+
+  {
+    "name": "IVÁN 4",
+    "targetMacros": {
+      "calories": 1800,
+      "protein": 150,
+      "carbs": 150
+    },
+    "baselineTotals": {
+      "calories": 1790,
+      "protein": 148,
+      "carbs": 150,
+      "fats": 61
+    },
+    "desayuno": [
+      "ivandt_d4_desayuno"
+    ],
+    "comida": [
+      "ivandt_d4_comida"
+    ],
+    "cena": [
+      "ivandt_d4_cena"
+    ],
+    "extra": [
+      "ivandt_d4_extra"
+    ]
+  },
+  {
+    "name": "IVÁN 5",
+    "targetMacros": {
+      "calories": 1800,
+      "protein": 150,
+      "carbs": 150
+    },
+    "baselineTotals": {
+      "calories": 1795,
+      "protein": 150,
+      "carbs": 151,
+      "fats": 62
+    },
+    "desayuno": [
+      "ivandt_d5_desayuno"
+    ],
+    "comida": [
+      "ivandt_d5_comida"
+    ],
+    "cena": [
+      "ivandt_d5_cena"
+    ],
+    "extra": [
+      "ivandt_d5_extra"
+    ]
+  },
+  {
+    "name": "IVÁN 6",
+    "targetMacros": {
+      "calories": 1800,
+      "protein": 150,
+      "carbs": 150
+    },
+    "baselineTotals": {
+      "calories": 1791,
+      "protein": 149,
+      "carbs": 150,
+      "fats": 62
+    },
+    "desayuno": [
+      "ivandt_d6_desayuno"
+    ],
+    "comida": [
+      "ivandt_d6_comida"
+    ],
+    "cena": [
+      "ivandt_d6_cena"
+    ],
+    "extra": [
+      "ivandt_d6_extra"
+    ]
+  },
+  {
+    "name": "IVÁN 7",
+    "targetMacros": {
+      "calories": 1800,
+      "protein": 150,
+      "carbs": 150
+    },
+    "baselineTotals": {
+      "calories": 1807,
+      "protein": 149,
+      "carbs": 149,
+      "fats": 64
+    },
+    "desayuno": [
+      "ivandt_d7_desayuno"
+    ],
+    "comida": [
+      "ivandt_d7_comida"
+    ],
+    "cena": [
+      "ivandt_d7_cena"
+    ],
+    "extra": [
+      "ivandt_d7_extra"
+    ]
+  }
 ];
+
