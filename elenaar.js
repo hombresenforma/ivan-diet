@@ -740,6 +740,73 @@ const foodDatabase = {
     ],
     "preparation": "1. Cortar una rebanada de pan de centeno o intengral y acompañar con otra comida.",
     "originalBaseRecipeId": "ext_pan_de_centeno"
+  },
+  "custom_1788646081779": {
+    "name": "Smoothie bowl de skyr, mango y avena",
+    "image": "https://raw.githubusercontent.com/hombresenforma/ivan-diet/main/assets/ivandt/dias-4-7/smoothie-skyr-mango-avena.jpg",
+    "calories": 792,
+    "protein": 103,
+    "carbs": 63,
+    "fats": 12,
+    "ingredients": [
+      {
+        "name": "Skyr natural",
+        "quantity": "120",
+        "unit": "g",
+        "calories": 456,
+        "protein": 96,
+        "carbs": 12,
+        "fats": 0,
+        "baseCalories": 3.8,
+        "baseProtein": 0.8,
+        "baseCarbs": 0.1,
+        "baseFats": 0,
+        "category": "whey_protein"
+      },
+      {
+        "name": "Mango",
+        "quantity": "1",
+        "unit": "ud",
+        "calories": 90,
+        "protein": 0.8,
+        "carbs": 22.5,
+        "fats": 0.3,
+        "baseCalories": 90,
+        "baseProtein": 0.8,
+        "baseCarbs": 22.5,
+        "baseFats": 0.3,
+        "category": "default_fruit"
+      },
+      {
+        "name": "Copos de avena",
+        "quantity": "30",
+        "unit": "g",
+        "calories": 111,
+        "protein": 3,
+        "carbs": 24,
+        "fats": 0,
+        "baseCalories": 3.7,
+        "baseProtein": 0.1,
+        "baseCarbs": 0.8,
+        "baseFats": 0,
+        "category": "grain_carb_dry"
+      },
+      {
+        "name": "Crema de cacahuete 100%",
+        "quantity": "30",
+        "unit": "g",
+        "calories": 135,
+        "protein": 3,
+        "carbs": 4.5,
+        "fats": 12,
+        "baseCalories": 4.5,
+        "baseProtein": 0.1,
+        "baseCarbs": 0.2,
+        "baseFats": 0.4,
+        "category": "solid_fat"
+      }
+    ],
+    "preparation": "1. Triturar el skyr con el mango y la avena; añadir un poco de agua si hace falta. 2. Servir en un bol y colocar la crema de cacahuete por encima."
   }
 };
 const dailyMenus = [
@@ -809,7 +876,7 @@ const dailyMenus = [
       "fats": 56
     },
     "desayuno": [
-      "p2_m0",
+      "custom_1788646081779",
       "p2_m3"
     ],
     "comida": [
