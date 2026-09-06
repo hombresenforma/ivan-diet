@@ -4316,6 +4316,144 @@ const foodDatabase = {
       }
     ],
     "preparation": "Lavar las uvas y servirlas con el skyr y las nueces picadas. Cantidades para una ración; cereales en seco y carnes en crudo. Valores nutricionales aproximados según el producto."
+  },
+  "ivandt_nc_d4_desayuno": {
+    "name": "Bol proteico de skyr, frutos rojos y avena",
+    "calories": 426,
+    "protein": 57,
+    "carbs": 37,
+    "fats": 4,
+    "ingredients": [
+      { "name": "Skyr natural 0%", "quantity": "300", "unit": "g", "category": "dairy", "calories": 189, "baseCalories": 0.63, "protein": 33, "baseProtein": 0.11, "carbs": 12, "baseCarbs": 0.04, "fats": 0.6, "baseFats": 0.002 },
+      { "name": "Proteína whey", "quantity": "25", "unit": "g", "category": "supplement", "calories": 95, "baseCalories": 3.8, "protein": 20, "baseProtein": 0.8, "carbs": 1.25, "baseCarbs": 0.05, "fats": 1, "baseFats": 0.04 },
+      { "name": "Frutos rojos lavados", "quantity": "150", "unit": "g", "category": "fruit", "calories": 67.5, "baseCalories": 0.45, "protein": 1.2, "baseProtein": 0.008, "carbs": 12, "baseCarbs": 0.08, "fats": 0.6, "baseFats": 0.004 },
+      { "name": "Copos de avena", "quantity": "20", "unit": "g", "category": "cereals", "calories": 74, "baseCalories": 3.7, "protein": 2.6, "baseProtein": 0.13, "carbs": 12, "baseCarbs": 0.6, "fats": 1.4, "baseFats": 0.07 }
+    ],
+    "preparation": "Poner el skyr en un bol, mezclar la proteína y añadir la avena y los frutos rojos. Se prepara en 3 minutos, sin fuego, cocina ni electrodomésticos."
+  },
+  "ivandt_nc_d4_comida": {
+    "name": "Ensalada verde de pollo, lentejas y salsa de yogur",
+    "calories": 453,
+    "protein": 67,
+    "carbs": 34,
+    "fats": 5,
+    "ingredients": [
+      { "name": "Tiras de pechuga de pollo asada listas para comer", "quantity": "180", "unit": "g", "category": "poultry", "calories": 198, "baseCalories": 1.1, "protein": 41.4, "baseProtein": 0.23, "carbs": 0, "baseCarbs": 0, "fats": 2.7, "baseFats": 0.015 },
+      { "name": "Mezcla de hojas verdes lavadas", "quantity": "120", "unit": "g", "category": "vegetables", "calories": 24, "baseCalories": 0.2, "protein": 2.4, "baseProtein": 0.02, "carbs": 2.4, "baseCarbs": 0.02, "fats": 0.36, "baseFats": 0.003 },
+      { "name": "Lentejas cocidas de bote, lavadas y escurridas", "quantity": "100", "unit": "g", "category": "legumes", "calories": 116, "baseCalories": 1.16, "protein": 9, "baseProtein": 0.09, "carbs": 20, "baseCarbs": 0.2, "fats": 0.4, "baseFats": 0.004 },
+      { "name": "Pepino", "quantity": "150", "unit": "g", "category": "vegetables", "calories": 18, "baseCalories": 0.12, "protein": 1, "baseProtein": 0.0067, "carbs": 2.7, "baseCarbs": 0.018, "fats": 0.2, "baseFats": 0.0013 },
+      { "name": "Tomates cherry", "quantity": "150", "unit": "g", "category": "vegetables", "calories": 27, "baseCalories": 0.18, "protein": 1.35, "baseProtein": 0.009, "carbs": 4.05, "baseCarbs": 0.027, "fats": 0.3, "baseFats": 0.002 },
+      { "name": "Skyr natural 0%", "quantity": "100", "unit": "g", "category": "dairy", "calories": 63, "baseCalories": 0.63, "protein": 11, "baseProtein": 0.11, "carbs": 4, "baseCarbs": 0.04, "fats": 0.2, "baseFats": 0.002 },
+      { "name": "Mostaza", "quantity": "10", "unit": "g", "category": "condiment", "calories": 7, "baseCalories": 0.7, "protein": 0.4, "baseProtein": 0.04, "carbs": 0.6, "baseCarbs": 0.06, "fats": 0.4, "baseFats": 0.04 }
+    ],
+    "preparation": "Escurrir las lentejas y ponerlas sobre las hojas verdes con el pollo, el pepino y los tomates. Mezclar skyr y mostaza para el aliño. Todo se compra cocinado o listo para consumir; montaje en 5 minutos y sin calor."
+  },
+  "ivandt_nc_d4_cena": {
+    "name": "Barquitas de lechuga con atún, cottage y aguacate",
+    "calories": 435,
+    "protein": 64,
+    "carbs": 13,
+    "fats": 12,
+    "ingredients": [
+      { "name": "Atún al natural escurrido", "quantity": "160", "unit": "g", "category": "fish", "calories": 185.6, "baseCalories": 1.16, "protein": 41.6, "baseProtein": 0.26, "carbs": 0, "baseCarbs": 0, "fats": 1.6, "baseFats": 0.01 },
+      { "name": "Queso cottage light", "quantity": "150", "unit": "g", "category": "dairy", "calories": 135, "baseCalories": 0.9, "protein": 18.75, "baseProtein": 0.125, "carbs": 4.5, "baseCarbs": 0.03, "fats": 3.75, "baseFats": 0.025 },
+      { "name": "Hojas de lechuga romana", "quantity": "120", "unit": "g", "category": "vegetables", "calories": 20.4, "baseCalories": 0.17, "protein": 1.4, "baseProtein": 0.0117, "carbs": 2.4, "baseCarbs": 0.02, "fats": 0.36, "baseFats": 0.003 },
+      { "name": "Aguacate", "quantity": "40", "unit": "g", "category": "fruit", "calories": 64, "baseCalories": 1.6, "protein": 0.8, "baseProtein": 0.02, "carbs": 0.8, "baseCarbs": 0.02, "fats": 6, "baseFats": 0.15 },
+      { "name": "Pico de gallo listo", "quantity": "100", "unit": "g", "category": "vegetables", "calories": 30, "baseCalories": 0.3, "protein": 1.5, "baseProtein": 0.015, "carbs": 5, "baseCarbs": 0.05, "fats": 0.2, "baseFats": 0.002 }
+    ],
+    "preparation": "Mezclar el atún con el cottage, el aguacate y el pico de gallo. Repartir sobre las hojas de lechuga. Lista en 5 minutos, sin cocinar ni calentar."
+  },
+  "ivandt_nc_d5_desayuno": {
+    "name": "Vaso exprés de queso batido, whey, plátano y avena",
+    "calories": 482,
+    "protein": 58,
+    "carbs": 52,
+    "fats": 5,
+    "ingredients": [
+      { "name": "Queso fresco batido 0%", "quantity": "300", "unit": "g", "category": "dairy", "calories": 168, "baseCalories": 0.56, "protein": 28.8, "baseProtein": 0.096, "carbs": 12, "baseCarbs": 0.04, "fats": 1.2, "baseFats": 0.004 },
+      { "name": "Proteína whey", "quantity": "30", "unit": "g", "category": "supplement", "calories": 114, "baseCalories": 3.8, "protein": 24, "baseProtein": 0.8, "carbs": 1.5, "baseCarbs": 0.05, "fats": 1.2, "baseFats": 0.04 },
+      { "name": "Plátano", "quantity": "100", "unit": "g", "category": "fruit_dense", "calories": 89, "baseCalories": 0.89, "protein": 1.1, "baseProtein": 0.011, "carbs": 20, "baseCarbs": 0.2, "fats": 0.3, "baseFats": 0.003 },
+      { "name": "Copos de avena", "quantity": "30", "unit": "g", "category": "cereals", "calories": 111, "baseCalories": 3.7, "protein": 3.9, "baseProtein": 0.13, "carbs": 18, "baseCarbs": 0.6, "fats": 2.1, "baseFats": 0.07 }
+    ],
+    "preparation": "Mezclar el queso batido con la whey y terminar con el plátano en rodajas y la avena. Se monta en 3 minutos y no necesita cocina."
+  },
+  "ivandt_nc_d5_comida": {
+    "name": "Ensalada verde de salmón ahumado y edamame",
+    "calories": 499,
+    "protein": 60,
+    "carbs": 18,
+    "fats": 21,
+    "ingredients": [
+      { "name": "Salmón ahumado", "quantity": "150", "unit": "g", "category": "fish", "calories": 270, "baseCalories": 1.8, "protein": 33, "baseProtein": 0.22, "carbs": 0, "baseCarbs": 0, "fats": 15, "baseFats": 0.1 },
+      { "name": "Edamame cocido y pelado listo para comer", "quantity": "100", "unit": "g", "category": "legumes", "calories": 122, "baseCalories": 1.22, "protein": 12, "baseProtein": 0.12, "carbs": 9, "baseCarbs": 0.09, "fats": 5, "baseFats": 0.05 },
+      { "name": "Espinaca baby lavada", "quantity": "100", "unit": "g", "category": "vegetables", "calories": 23, "baseCalories": 0.23, "protein": 2.9, "baseProtein": 0.029, "carbs": 1.4, "baseCarbs": 0.014, "fats": 0.4, "baseFats": 0.004 },
+      { "name": "Pepino", "quantity": "150", "unit": "g", "category": "vegetables", "calories": 18, "baseCalories": 0.12, "protein": 1, "baseProtein": 0.0067, "carbs": 2.7, "baseCarbs": 0.018, "fats": 0.2, "baseFats": 0.0013 },
+      { "name": "Skyr natural 0%", "quantity": "100", "unit": "g", "category": "dairy", "calories": 63, "baseCalories": 0.63, "protein": 11, "baseProtein": 0.11, "carbs": 4, "baseCarbs": 0.04, "fats": 0.2, "baseFats": 0.002 },
+      { "name": "Zumo de limón y eneldo", "quantity": "15", "unit": "g", "category": "condiment", "calories": 3, "baseCalories": 0.2, "protein": 0.05, "baseProtein": 0.0033, "carbs": 0.4, "baseCarbs": 0.0267, "fats": 0, "baseFats": 0 }
+    ],
+    "preparation": "Poner la espinaca, el pepino, el edamame y el salmón en un bol. Mezclar skyr, limón y eneldo y usar como aliño. Ingredientes listos para comer; montaje en 5 minutos y sin calor."
+  },
+  "ivandt_nc_d5_cena": {
+    "name": "Wrap frío integral de pavo, cottage y hojas verdes",
+    "calories": 478,
+    "protein": 54,
+    "carbs": 40,
+    "fats": 11,
+    "ingredients": [
+      { "name": "Tortilla integral de trigo", "quantity": "60", "unit": "g", "category": "cereals", "calories": 186, "baseCalories": 3.1, "protein": 5.4, "baseProtein": 0.09, "carbs": 30, "baseCarbs": 0.5, "fats": 4.8, "baseFats": 0.08 },
+      { "name": "Lonchas de pechuga de pavo alta en carne", "quantity": "150", "unit": "g", "category": "poultry", "calories": 157.5, "baseCalories": 1.05, "protein": 33, "baseProtein": 0.22, "carbs": 2.25, "baseCarbs": 0.015, "fats": 2.25, "baseFats": 0.015 },
+      { "name": "Queso cottage light", "quantity": "100", "unit": "g", "category": "dairy", "calories": 90, "baseCalories": 0.9, "protein": 12.5, "baseProtein": 0.125, "carbs": 3, "baseCarbs": 0.03, "fats": 2.5, "baseFats": 0.025 },
+      { "name": "Mezcla de hojas verdes lavadas", "quantity": "80", "unit": "g", "category": "vegetables", "calories": 16, "baseCalories": 0.2, "protein": 1.6, "baseProtein": 0.02, "carbs": 1.6, "baseCarbs": 0.02, "fats": 0.24, "baseFats": 0.003 },
+      { "name": "Tomate", "quantity": "100", "unit": "g", "category": "vegetables", "calories": 18, "baseCalories": 0.18, "protein": 0.9, "baseProtein": 0.009, "carbs": 2.7, "baseCarbs": 0.027, "fats": 0.2, "baseFats": 0.002 },
+      { "name": "Mostaza", "quantity": "15", "unit": "g", "category": "condiment", "calories": 10.5, "baseCalories": 0.7, "protein": 0.6, "baseProtein": 0.04, "carbs": 0.9, "baseCarbs": 0.06, "fats": 0.6, "baseFats": 0.04 }
+    ],
+    "preparation": "Untar el cottage y la mostaza sobre la tortilla, añadir el pavo, el tomate y las hojas verdes y enrollar. Listo en 4 minutos, sin sartén ni calentado."
+  },
+  "ivandt_nc_d6_desayuno": {
+    "name": "Bol crujiente de yogur proteico, whey y manzana",
+    "calories": 497,
+    "protein": 58,
+    "carbs": 53,
+    "fats": 5,
+    "ingredients": [
+      { "name": "Yogur proteico natural", "quantity": "300", "unit": "g", "category": "dairy", "calories": 180, "baseCalories": 0.6, "protein": 30, "baseProtein": 0.1, "carbs": 12, "baseCarbs": 0.04, "fats": 1.5, "baseFats": 0.005 },
+      { "name": "Proteína whey", "quantity": "25", "unit": "g", "category": "supplement", "calories": 95, "baseCalories": 3.8, "protein": 20, "baseProtein": 0.8, "carbs": 1.25, "baseCarbs": 0.05, "fats": 1, "baseFats": 0.04 },
+      { "name": "Cereales integrales altos en proteína listos para comer", "quantity": "40", "unit": "g", "category": "cereals", "calories": 144, "baseCalories": 3.6, "protein": 8, "baseProtein": 0.2, "carbs": 22, "baseCarbs": 0.55, "fats": 2.4, "baseFats": 0.06 },
+      { "name": "Manzana", "quantity": "150", "unit": "g", "category": "fruit", "calories": 78, "baseCalories": 0.52, "protein": 0.45, "baseProtein": 0.003, "carbs": 18, "baseCarbs": 0.12, "fats": 0.3, "baseFats": 0.002 }
+    ],
+    "preparation": "Mezclar el yogur con la whey y añadir los cereales y la manzana en dados. Se prepara en 3 minutos, sin cocinar."
+  },
+  "ivandt_nc_d6_comida": {
+    "name": "Ensalada verde de atún, garbanzos y huevo cocido",
+    "calories": 553,
+    "protein": 62,
+    "carbs": 38,
+    "fats": 15,
+    "ingredients": [
+      { "name": "Atún al natural escurrido", "quantity": "120", "unit": "g", "category": "fish", "calories": 139.2, "baseCalories": 1.16, "protein": 31.2, "baseProtein": 0.26, "carbs": 0, "baseCarbs": 0, "fats": 1.2, "baseFats": 0.01 },
+      { "name": "Garbanzos cocidos de bote, lavados y escurridos", "quantity": "120", "unit": "g", "category": "legumes", "calories": 156, "baseCalories": 1.3, "protein": 9.6, "baseProtein": 0.08, "carbs": 26.4, "baseCarbs": 0.22, "fats": 0.6, "baseFats": 0.005 },
+      { "name": "Huevos cocidos envasados listos para comer", "quantity": "2", "unit": "ud", "category": "eggs", "calories": 156, "baseCalories": 78, "protein": 13, "baseProtein": 6.5, "carbs": 1, "baseCarbs": 0.5, "fats": 11, "baseFats": 5.5 },
+      { "name": "Mezcla de hojas verdes lavadas", "quantity": "120", "unit": "g", "category": "vegetables", "calories": 24, "baseCalories": 0.2, "protein": 2.4, "baseProtein": 0.02, "carbs": 2.4, "baseCarbs": 0.02, "fats": 0.36, "baseFats": 0.003 },
+      { "name": "Pepino", "quantity": "100", "unit": "g", "category": "vegetables", "calories": 12, "baseCalories": 0.12, "protein": 0.7, "baseProtein": 0.007, "carbs": 1.8, "baseCarbs": 0.018, "fats": 0.1, "baseFats": 0.001 },
+      { "name": "Tomate", "quantity": "100", "unit": "g", "category": "vegetables", "calories": 18, "baseCalories": 0.18, "protein": 0.9, "baseProtein": 0.009, "carbs": 2.7, "baseCarbs": 0.027, "fats": 0.2, "baseFats": 0.002 },
+      { "name": "Salsa de yogur ligera", "quantity": "80", "unit": "g", "category": "dairy", "calories": 48, "baseCalories": 0.6, "protein": 4, "baseProtein": 0.05, "carbs": 3.2, "baseCarbs": 0.04, "fats": 1.6, "baseFats": 0.02 }
+    ],
+    "preparation": "Escurrir el atún y los garbanzos. Mezclarlos con las hojas verdes, el pepino y el tomate, añadir los huevos cocidos troceados y aliñar. Todo está listo para consumir; montaje en 5 minutos y sin fuego."
+  },
+  "ivandt_nc_d6_cena": {
+    "name": "Bowl frío de pollo asado, gazpacho y cottage",
+    "calories": 524,
+    "protein": 71,
+    "carbs": 22,
+    "fats": 15,
+    "ingredients": [
+      { "name": "Tiras de pechuga de pollo asada listas para comer", "quantity": "200", "unit": "g", "category": "poultry", "calories": 220, "baseCalories": 1.1, "protein": 46, "baseProtein": 0.23, "carbs": 0, "baseCarbs": 0, "fats": 3, "baseFats": 0.015 },
+      { "name": "Gazpacho refrigerado", "quantity": "300", "unit": "ml", "category": "vegetables", "calories": 120, "baseCalories": 0.4, "protein": 3, "baseProtein": 0.01, "carbs": 12, "baseCarbs": 0.04, "fats": 7.5, "baseFats": 0.025 },
+      { "name": "Queso cottage light", "quantity": "150", "unit": "g", "category": "dairy", "calories": 135, "baseCalories": 0.9, "protein": 18.75, "baseProtein": 0.125, "carbs": 4.5, "baseCarbs": 0.03, "fats": 3.75, "baseFats": 0.025 },
+      { "name": "Espinaca baby lavada", "quantity": "80", "unit": "g", "category": "vegetables", "calories": 18.4, "baseCalories": 0.23, "protein": 2.32, "baseProtein": 0.029, "carbs": 1.12, "baseCarbs": 0.014, "fats": 0.32, "baseFats": 0.004 },
+      { "name": "Pimiento rojo crudo", "quantity": "100", "unit": "g", "category": "vegetables", "calories": 31, "baseCalories": 0.31, "protein": 1, "baseProtein": 0.01, "carbs": 4.2, "baseCarbs": 0.042, "fats": 0.3, "baseFats": 0.003 }
+    ],
+    "preparation": "Servir las tiras de pollo sobre la espinaca con el cottage y el pimiento. Tomar el gazpacho frío como acompañamiento. Todos los ingredientes se compran listos; montaje en 4 minutos y sin cocina."
   }
 };
 
@@ -4519,6 +4657,33 @@ const dailyMenus = [
     "cena": [
       "p6_m2"
     ],
+    "extra": []
+  },
+  {
+    "name": "IVÁN 4 · SIN COCINA",
+    "targetMacros": { "calories": 1500, "protein": 160, "carbs": 120 },
+    "baselineTotals": { "calories": 1314, "protein": 188, "carbs": 84, "fats": 21 },
+    "desayuno": ["ivandt_nc_d4_desayuno"],
+    "comida": ["ivandt_nc_d4_comida"],
+    "cena": ["ivandt_nc_d4_cena"],
+    "extra": []
+  },
+  {
+    "name": "IVÁN 5 · SIN COCINA",
+    "targetMacros": { "calories": 1500, "protein": 160, "carbs": 120 },
+    "baselineTotals": { "calories": 1459, "protein": 172, "carbs": 110, "fats": 37 },
+    "desayuno": ["ivandt_nc_d5_desayuno"],
+    "comida": ["ivandt_nc_d5_comida"],
+    "cena": ["ivandt_nc_d5_cena"],
+    "extra": []
+  },
+  {
+    "name": "IVÁN 6 · SIN COCINA",
+    "targetMacros": { "calories": 1500, "protein": 160, "carbs": 120 },
+    "baselineTotals": { "calories": 1574, "protein": 191, "carbs": 113, "fats": 35 },
+    "desayuno": ["ivandt_nc_d6_desayuno"],
+    "comida": ["ivandt_nc_d6_comida"],
+    "cena": ["ivandt_nc_d6_cena"],
     "extra": []
   }
 ];
