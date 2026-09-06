@@ -4319,6 +4319,7 @@ const foodDatabase = {
   },
   "ivandt_nc_d4_desayuno": {
     "name": "Bol proteico de skyr, frutos rojos y avena",
+    "image": "https://raw.githubusercontent.com/hombresenforma/ivan-diet/main/assets/ivandt/sin-cocina/bol-skyr-frutos-rojos-avena.jpg",
     "calories": 426,
     "protein": 57,
     "carbs": 37,
@@ -4333,6 +4334,7 @@ const foodDatabase = {
   },
   "ivandt_nc_d4_comida": {
     "name": "Ensalada verde de pollo, lentejas y salsa de yogur",
+    "image": "https://raw.githubusercontent.com/hombresenforma/ivan-diet/main/assets/ivandt/sin-cocina/ensalada-verde-pollo-lentejas.jpg",
     "calories": 453,
     "protein": 67,
     "carbs": 34,
@@ -4350,6 +4352,7 @@ const foodDatabase = {
   },
   "ivandt_nc_d4_cena": {
     "name": "Barquitas de lechuga con atún, cottage y aguacate",
+    "image": "https://raw.githubusercontent.com/hombresenforma/ivan-diet/main/assets/ivandt/sin-cocina/barquitas-lechuga-atun-cottage.jpg",
     "calories": 435,
     "protein": 64,
     "carbs": 13,
@@ -4365,6 +4368,7 @@ const foodDatabase = {
   },
   "ivandt_nc_d5_desayuno": {
     "name": "Vaso exprés de queso batido, whey, plátano y avena",
+    "image": "https://raw.githubusercontent.com/hombresenforma/ivan-diet/main/assets/ivandt/sin-cocina/vaso-queso-batido-platano-avena.jpg",
     "calories": 482,
     "protein": 58,
     "carbs": 52,
@@ -4379,6 +4383,7 @@ const foodDatabase = {
   },
   "ivandt_nc_d5_comida": {
     "name": "Ensalada verde de salmón ahumado y edamame",
+    "image": "https://raw.githubusercontent.com/hombresenforma/ivan-diet/main/assets/ivandt/sin-cocina/ensalada-verde-salmon-edamame.jpg",
     "calories": 499,
     "protein": 60,
     "carbs": 18,
@@ -4395,6 +4400,7 @@ const foodDatabase = {
   },
   "ivandt_nc_d5_cena": {
     "name": "Wrap frío integral de pavo, cottage y hojas verdes",
+    "image": "https://raw.githubusercontent.com/hombresenforma/ivan-diet/main/assets/ivandt/sin-cocina/wrap-frio-pavo-cottage.jpg",
     "calories": 478,
     "protein": 54,
     "carbs": 40,
@@ -4411,6 +4417,7 @@ const foodDatabase = {
   },
   "ivandt_nc_d6_desayuno": {
     "name": "Bol crujiente de yogur proteico, whey y manzana",
+    "image": "https://raw.githubusercontent.com/hombresenforma/ivan-diet/main/assets/ivandt/sin-cocina/bol-yogur-proteico-manzana.jpg",
     "calories": 497,
     "protein": 58,
     "carbs": 53,
@@ -4425,6 +4432,7 @@ const foodDatabase = {
   },
   "ivandt_nc_d6_comida": {
     "name": "Ensalada verde de atún, garbanzos y huevo cocido",
+    "image": "https://raw.githubusercontent.com/hombresenforma/ivan-diet/main/assets/ivandt/sin-cocina/ensalada-verde-atun-garbanzos-huevo.jpg",
     "calories": 553,
     "protein": 62,
     "carbs": 38,
@@ -4442,6 +4450,7 @@ const foodDatabase = {
   },
   "ivandt_nc_d6_cena": {
     "name": "Bowl frío de pollo asado, gazpacho y cottage",
+    "image": "https://raw.githubusercontent.com/hombresenforma/ivan-diet/main/assets/ivandt/sin-cocina/bowl-frio-pollo-gazpacho-cottage.jpg",
     "calories": 524,
     "protein": 71,
     "carbs": 22,
