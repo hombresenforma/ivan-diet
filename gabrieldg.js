@@ -822,7 +822,7 @@ const foodDatabase = {
   },
   "p0_n0": {
     "name": "Revuelto de espinacas y champiñones con queso feta",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687a695da648331355d3b0b2.png",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cfe059b0c6721a19b02e4.png",
     "calories": 405.5,
     "protein": 30.8,
     "carbs": 12.21,
@@ -1064,7 +1064,7 @@ const foodDatabase = {
   },
   "p0_n5": {
     "name": "Batido Whey de Proteínas",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afeb7a4b1f4c8f7a0a1c3.png",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684f021af6c48d41b5a5c003.png",
     "calories": 114,
     "protein": 24,
     "carbs": 1.5,
@@ -1089,7 +1089,7 @@ const foodDatabase = {
   },
   "p0_n6": {
     "name": "Queso Fresco Batido con Frutos Rojos y Miel",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682aff01b7c9d5e2a3f10b44.png",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6879302d02da47667d446b43.png",
     "calories": 130.4,
     "protein": 12.28,
     "carbs": 20.7,
