@@ -234,7 +234,7 @@ const foodDatabase = {
   },
   "p1_m3": {
     "name": "Yogurt Protéico con Frutos Rojos y Secos",
-    "image": "",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afea2b91eb35e413d4ab6.png",
     "calories": 296,
     "protein": 10,
     "carbs": 26,
