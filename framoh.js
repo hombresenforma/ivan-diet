@@ -1,104 +1,115 @@
+// Titulo: Plan de alimentación de Fran Mohedano — 3 opciones
+// Alergias: Sin restricciones médicas registradas
+const foodDatabase = {
+  "o1_des": {
+    "name": "Desayuno: Tortilla, avena y frutos rojos", "calories": 521, "protein": 38, "carbs": 43, "fats": 21,
+    "ingredients": [
+      {"name":"Huevos","quantity":"3","unit":"unidad(es)","calories":234,"protein":19.5,"carbs":1.7,"fats":16.5},
+      {"name":"Claras de huevo","quantity":"100","unit":"g","calories":52,"protein":11,"carbs":0.7,"fats":0},
+      {"name":"Copos de avena","quantity":"50","unit":"g","calories":185,"protein":6.5,"carbs":30.6,"fats":3.5},
+      {"name":"Frutos rojos","quantity":"100","unit":"g","calories":50,"protein":1,"carbs":10,"fats":0.5}
+    ], "preparation":"Preparar la tortilla con los huevos y las claras. Cocer la avena y servir con los frutos rojos."
+  },
+  "o1_com": {
+    "name":"Comida: Pollo con arroz y verduras", "calories":623, "protein":54, "carbs":49, "fats":19,
+    "ingredients":[
+      {"name":"Pechuga de pollo","quantity":"150","unit":"g","calories":248,"protein":46.5,"carbs":0,"fats":5.4},
+      {"name":"Arroz cocido","quantity":"140","unit":"g","calories":182,"protein":3.8,"carbs":39.2,"fats":0.4},
+      {"name":"Verduras variadas","quantity":"150","unit":"g","calories":60,"protein":3,"carbs":10,"fats":0.5},
+      {"name":"Aceite de oliva virgen extra","quantity":"15","unit":"g","calories":133,"protein":0,"carbs":0,"fats":15}
+    ], "preparation":"Cocinar el pollo a la plancha, acompañar con arroz y verduras, y añadir el aceite al servir."
+  },
+  "o1_cen": {
+    "name":"Cena: Salmón con patata y verduras", "calories":596, "protein":44, "carbs":41, "fats":27,
+    "ingredients":[
+      {"name":"Salmón","quantity":"170","unit":"g","calories":354,"protein":37,"carbs":0,"fats":22},
+      {"name":"Patata cocida o asada","quantity":"180","unit":"g","calories":138,"protein":3.6,"carbs":30.6,"fats":0.2},
+      {"name":"Verduras variadas","quantity":"150","unit":"g","calories":60,"protein":3,"carbs":10,"fats":0.5},
+      {"name":"Aceite de oliva virgen extra","quantity":"5","unit":"g","calories":44,"protein":0,"carbs":0,"fats":5}
+    ], "preparation":"Cocinar el salmón a la plancha u horno y servir con la patata y las verduras."
+  },
+  "o1_sna": {
+    "name":"Snack: Yogur alto en proteína con almendras", "calories":237, "protein":23, "carbs":11, "fats":8,
+    "ingredients":[
+      {"name":"Yogur alto en proteína natural","quantity":"200","unit":"g","calories":150,"protein":20,"carbs":8,"fats":0.5},
+      {"name":"Almendras","quantity":"15","unit":"g","calories":87,"protein":3,"carbs":3,"fats":7.5}
+    ], "preparation":"Mezclar y consumir frío."
+  },
 
-export const foodDatabase = {
-  "p0_m0": {
-    "name": "Tostada de Centeno con Huevo y Aguacate",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687a695da648331355d3b0b2.png",
-    "calories": 459.4,
-    "protein": 18.7,
-    "carbs": 20.6,
-    "fats": 33.9,
-    "ingredients": [
-      { "name": "Tostada de Pan de Centeno", "quantity": "1", "unit": "rebanada(s)", "gramsPerUnit": 30, "calories": 81, "protein": 2.7, "carbs": 15, "fats": 0.9, "baseCalories": 2.7, "baseProtein": 0.09, "baseCarbs": 0.5, "baseFats": 0.03 },
-      { "name": "Huevos", "quantity": "2", "unit": "unidad(es)", "gramsPerUnit": 50, "calories": 155, "protein": 13, "carbs": 1.1, "fats": 11, "baseCalories": 1.55, "baseProtein": 0.13, "baseCarbs": 0.011, "baseFats": 0.11 },
-      { "name": "Aguacate", "quantity": "30", "unit": "g", "calories": 135, "protein": 3, "carbs": 4.5, "fats": 12, "baseCalories": 4.5, "baseProtein": 0.1, "baseCarbs": 0.15, "baseFats": 0.4 },
-      { "name": "Aceite de Oliva Virgen Extra", "quantity": "10", "unit": "g", "calories": 88.4, "protein": 0, "carbs": 0, "fats": 10, "baseCalories": 8.84, "baseProtein": 0, "baseCarbs": 0, "baseFats": 1 }
-    ],
-    "preparation": "1. Tostar el pan de centeno. 2. Cocinar los huevos al gusto (revueltos, pochados, a la plancha). 3. Machacar el aguacate sobre las tostadas y añadir aceite y especias.",
-    "originalBaseRecipeId": "des_tostada_de_centeno_con_huevo_y_aguacate"
+  "o2_des": {
+    "name":"Desayuno: Tortilla con aguacate y manzana", "calories":492, "protein":33, "carbs":30, "fats":29,
+    "ingredients":[
+      {"name":"Huevos","quantity":"3","unit":"unidad(es)","calories":234,"protein":19.5,"carbs":1.7,"fats":16.5},
+      {"name":"Claras de huevo","quantity":"100","unit":"g","calories":52,"protein":11,"carbs":0.7,"fats":0},
+      {"name":"Aguacate","quantity":"80","unit":"g","calories":128,"protein":1.6,"carbs":6.8,"fats":12},
+      {"name":"Manzana","quantity":"150","unit":"g","calories":78,"protein":0.5,"carbs":21,"fats":0.2}
+    ], "preparation":"Preparar la tortilla y acompañar con aguacate y manzana."
   },
-  "p0_m1": {
-    "name": "Estofado de Lentejas con Verduras y Costilla",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6922cf648c174dc51742182c.png",
-    "calories": 576.5,
-    "protein": 45.4,
-    "carbs": 49.25,
-    "fats": 20,
-    "ingredients": [
-      { "name": "Lentejas Cocidas", "quantity": "150", "unit": "g", "calories": 195, "protein": 12, "carbs": 33, "fats": 0.75, "baseCalories": 1.3, "baseProtein": 0.08, "baseCarbs": 0.22, "baseFats": 0.005 },
-      { "name": "Costilla de Cerdo", "quantity": "120", "unit": "g", "calories": 264, "protein": 26.4, "carbs": 0, "fats": 16.8, "baseCalories": 2.2, "baseProtein": 0.22, "baseCarbs": 0, "baseFats": 0.14 },
-      { "name": "Zanahoria", "quantity": "75", "unit": "g", "calories": 22.5, "protein": 1.5, "carbs": 3.75, "fats": 0.15, "baseCalories": 0.3, "baseProtein": 0.02, "baseCarbs": 0.1, "baseFats": 0.002 },
-      { "name": "Pimiento Rojo", "quantity": "75", "unit": "g", "calories": 22.5, "protein": 1.5, "carbs": 3.75, "fats": 0.15, "baseCalories": 0.3, "baseProtein": 0.02, "baseCarbs": 0.05, "baseFats": 0.002 },
-      { "name": "Cebolla", "quantity": "75", "unit": "g", "calories": 22.5, "protein": 1.5, "carbs": 3.75, "fats": 0.15, "baseCalories": 0.3, "baseProtein": 0.02, "baseCarbs": 0.05, "baseFats": 0.002 },
-      { "name": "Ajo", "quantity": "50", "unit": "g", "calories": 50, "protein": 2.5, "carbs": 5, "fats": 2, "baseCalories": 1, "baseProtein": 0.05, "baseCarbs": 0.1, "baseFats": 0.04 }
-    ],
-    "preparation": "1. Sofreír la costilla troceada hasta dorar. 2. Añadir las verduras picadas y pochar. 3. Añadir las lentejas y cubrir con agua/caldo. 4. Cocer hasta que todo esté tierno.",
-    "originalBaseRecipeId": "cc_estofado_de_lentejas_con_verduras_y_costilla"
+  "o2_com": {
+    "name":"Comida: Pavo con quinoa y verduras", "calories":657, "protein":49, "carbs":46, "fats":33,
+    "ingredients":[
+      {"name":"Pechuga de pavo","quantity":"130","unit":"g","calories":176,"protein":39,"carbs":0,"fats":2.6},
+      {"name":"Quinoa cocida","quantity":"150","unit":"g","calories":180,"protein":6,"carbs":32,"fats":3},
+      {"name":"Verduras variadas","quantity":"200","unit":"g","calories":80,"protein":4,"carbs":14,"fats":1},
+      {"name":"Aceite de oliva virgen extra","quantity":"25","unit":"g","calories":221,"protein":0,"carbs":0,"fats":25}
+    ], "preparation":"Cocinar el pavo y las verduras, servir con la quinoa y añadir el aceite."
   },
-  "p0_m2": {
-    "name": "Boniato asado con ensalada de tomate",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684efcd1f6c48df26aa5ba5b.png",
-    "calories": 290.9,
-    "protein": 7.5,
-    "carbs": 41.25,
-    "fats": 10.6,
-    "ingredients": [
-      { "name": "Boniato", "quantity": "150", "unit": "g", "calories": 135, "protein": 3, "carbs": 30, "fats": 0.15, "baseCalories": 0.9, "baseProtein": 0.02, "baseCarbs": 0.2, "baseFats": 0.001 },
-      { "name": "Tomate", "quantity": "150", "unit": "g", "calories": 45, "protein": 3, "carbs": 7.5, "fats": 0.3, "baseCalories": 0.3, "baseProtein": 0.02, "baseCarbs": 0.05, "baseFats": 0.002 },
-      { "name": "Cebolla", "quantity": "75", "unit": "g", "calories": 22.5, "protein": 1.5, "carbs": 3.75, "fats": 0.15, "baseCalories": 0.3, "baseProtein": 0.02, "baseCarbs": 0.05, "baseFats": 0.002 },
-      { "name": "Aceite de Oliva Virgen Extra", "quantity": "10", "unit": "g", "calories": 88.4, "protein": 0, "carbs": 0, "fats": 10, "baseCalories": 8.84, "baseProtein": 0, "baseCarbs": 0, "baseFats": 1 }
-    ],
-    "preparation": "1. Asar el boniato al horno hasta que esté tierno. 2. Preparar ensalada picando tomate y cebolla. Aliñar con aceite.",
-    "originalBaseRecipeId": "pp_boniato_asado_con_ensalada_de_tomate"
+  "o2_cen": {
+    "name":"Cena: Ternera magra con patata y verduras", "calories":601, "protein":38, "carbs":47, "fats":31,
+    "ingredients":[
+      {"name":"Ternera magra","quantity":"120","unit":"g","calories":240,"protein":31,"carbs":0,"fats":12},
+      {"name":"Patata cocida o asada","quantity":"220","unit":"g","calories":169,"protein":4.4,"carbs":37.4,"fats":0.2},
+      {"name":"Verduras variadas","quantity":"150","unit":"g","calories":60,"protein":3,"carbs":10,"fats":0.5},
+      {"name":"Aceite de oliva virgen extra","quantity":"15","unit":"g","calories":132,"protein":0,"carbs":0,"fats":15}
+    ], "preparation":"Cocinar la ternera al punto deseado y acompañar con patata y verduras."
   },
-  "p0_m3": {
-    "name": "Merluza a la Plancha",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684f001d4d606642b1333279.png",
-    "calories": 328.4,
-    "protein": 42,
-    "carbs": 0,
-    "fats": 16,
-    "ingredients": [
-      { "name": "Filete de Merluza", "quantity": "150", "unit": "g", "calories": 240, "protein": 42, "carbs": 0, "fats": 6, "baseCalories": 1.6, "baseProtein": 0.28, "baseCarbs": 0, "baseFats": 0.04 },
-      { "name": "Aceite de Oliva Virgen Extra", "quantity": "10", "unit": "g", "calories": 88.4, "protein": 0, "carbs": 0, "fats": 10, "baseCalories": 8.84, "baseProtein": 0, "baseCarbs": 0, "baseFats": 1 }
-    ],
-    "preparation": "1. Cocinar a la plancha con aceite por ambos lados hasta que esté opaca.",
-    "originalBaseRecipeId": "ac_merluza_a_la_plancha"
+  "o2_sna": {
+    "name":"Snack: Batido whey de proteína", "calories":250, "protein":29, "carbs":8, "fats":13,
+    "ingredients":[
+      {"name":"Proteína whey","quantity":"30","unit":"g","calories":120,"protein":24,"carbs":3,"fats":2},
+      {"name":"Bebida de almendra sin azúcar","quantity":"250","unit":"ml","calories":40,"protein":1,"carbs":2,"fats":3},
+      {"name":"Crema de cacahuete","quantity":"15","unit":"g","calories":90,"protein":4,"carbs":3,"fats":7.5}
+    ], "preparation":"Triturar todos los ingredientes con hielo hasta obtener un batido homogéneo."
   },
-  "p0_m4": {
-    "name": "Yogur Protéico (Sabores, Natural...)",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd789b8ed38b127cbc09.png",
-    "calories": 125,
-    "protein": 6.25,
-    "carbs": 12.5,
-    "fats": 5,
-    "ingredients": [
-      { "name": "Yogur Protéico", "quantity": "1", "unit": "unidad(es)", "gramsPerUnit": 125, "calories": 125, "protein": 6.25, "carbs": 12.5, "fats": 5, "baseCalories": 1, "baseProtein": 0.05, "baseCarbs": 0.1, "baseFats": 0.04 }
-    ],
-    "preparation": "Consumir directamente.",
-    "originalBaseRecipeId": "ext_yogur_protico_sabores_natural"
+
+  "o3_des": {
+    "name":"Desayuno: Yogur, avena, frutos rojos y nueces", "calories":476, "protein":38, "carbs":48, "fats":13,
+    "ingredients":[
+      {"name":"Yogur griego alto en proteína","quantity":"300","unit":"g","calories":180,"protein":30,"carbs":12,"fats":0},
+      {"name":"Copos de avena","quantity":"40","unit":"g","calories":148,"protein":5.2,"carbs":24,"fats":2.8},
+      {"name":"Frutos rojos","quantity":"100","unit":"g","calories":50,"protein":1,"carbs":10,"fats":0.5},
+      {"name":"Nueces","quantity":"15","unit":"g","calories":98,"protein":2,"carbs":2,"fats":10}
+    ], "preparation":"Mezclar todos los ingredientes en un bol."
   },
-  "p0_m5": {
-    "name": "Fruta Densa (Plátano, Manzana)",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe4bb91eb325b93d4a82.png",
-    "calories": 72,
-    "protein": 0.6,
-    "carbs": 18,
-    "fats": 0.24,
-    "ingredients": [
-      { "name": "Plátano", "quantity": "1", "unit": "unidad(es)", "gramsPerUnit": 120, "calories": 72, "protein": 0.6, "carbs": 18, "fats": 0.24, "baseCalories": 0.6, "baseProtein": 0.005, "baseCarbs": 0.15, "baseFats": 0.4 }
-    ],
-    "preparation": "Pelar y consumir.",
-    "originalBaseRecipeId": "ext_fruta_densa_pltano_manzana"
+  "o3_com": {
+    "name":"Comida: Bacalao con garbanzos y verduras", "calories":669, "protein":50, "carbs":46, "fats":33,
+    "ingredients":[
+      {"name":"Bacalao","quantity":"170","unit":"g","calories":153,"protein":35.7,"carbs":0,"fats":1.7},
+      {"name":"Garbanzos cocidos","quantity":"120","unit":"g","calories":197,"protein":10.5,"carbs":32,"fats":3},
+      {"name":"Verduras variadas","quantity":"200","unit":"g","calories":80,"protein":4,"carbs":14,"fats":1},
+      {"name":"Aceite de oliva virgen extra","quantity":"27","unit":"g","calories":239,"protein":0,"carbs":0,"fats":27}
+    ], "preparation":"Cocinar el bacalao y servir con los garbanzos y las verduras salteadas."
+  },
+  "o3_cen": {
+    "name":"Cena: Pollo con arroz y verduras", "calories":613, "protein":43, "carbs":46, "fats":27,
+    "ingredients":[
+      {"name":"Pechuga de pollo","quantity":"120","unit":"g","calories":198,"protein":37.2,"carbs":0,"fats":4.3},
+      {"name":"Arroz cocido","quantity":"130","unit":"g","calories":169,"protein":3.5,"carbs":36.4,"fats":0.4},
+      {"name":"Verduras variadas","quantity":"150","unit":"g","calories":60,"protein":3,"carbs":10,"fats":0.5},
+      {"name":"Aceite de oliva virgen extra","quantity":"21","unit":"g","calories":186,"protein":0,"carbs":0,"fats":21}
+    ], "preparation":"Cocinar el pollo a la plancha y servir con arroz y verduras."
+  },
+  "o3_sna": {
+    "name":"Snack: Queso fresco batido con nueces", "calories":212, "protein":20, "carbs":8, "fats":11,
+    "ingredients":[
+      {"name":"Queso fresco batido","quantity":"150","unit":"g","calories":147,"protein":18,"carbs":6,"fats":4.5},
+      {"name":"Nueces","quantity":"10","unit":"g","calories":65,"protein":1.5,"carbs":1.5,"fats":6.5}
+    ], "preparation":"Mezclar y consumir frío."
   }
 };
 
-export const dailyMenus = [
-  {
-    "name": "Opciones 1",
-    "targetMacros": { "calories": 1700, "protein": 140, "carbs": 140 },
-    "desayuno": ["p0_m0"],
-    "comida": ["p0_m1"],
-    "cena": ["p0_m2", "p0_m3"],
-    "extra": ["p0_m4", "p0_m5"]
-  }
+const dailyMenus = [
+  {"name":"Opciones uno","targetMacros":{"calories":1977,"protein":159,"carbs":144,"fats":75},"baselineTotals":{"calories":1977,"protein":159,"carbs":144,"fats":75},"desayuno":["o1_des"],"comida":["o1_com"],"cena":["o1_cen"],"extra":["o1_sna"]},
+  {"name":"Opciones dos","targetMacros":{"calories":2000,"protein":149,"carbs":131,"fats":106},"baselineTotals":{"calories":2000,"protein":149,"carbs":131,"fats":106},"desayuno":["o2_des"],"comida":["o2_com"],"cena":["o2_cen"],"extra":["o2_sna"]},
+  {"name":"Opciones tres","targetMacros":{"calories":1970,"protein":151,"carbs":148,"fats":84},"baselineTotals":{"calories":1970,"protein":151,"carbs":148,"fats":84},"desayuno":["o3_des"],"comida":["o3_com"],"cena":["o3_cen"],"extra":["o3_sna"]}
 ];
