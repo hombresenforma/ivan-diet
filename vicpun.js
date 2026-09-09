@@ -1,5 +1,7 @@
+// Última actualización: 09/09/2026
 // Titulo: Plan de Alimentación
-// Alergias: 
+// Alergias:
+
 const foodDatabase = {
   "p0_m0": {
     "name": "Tostada de Centeno con Huevo y Queso Cottage",
@@ -68,19 +70,19 @@ const foodDatabase = {
   "p0_m1": {
     "name": "Ensala de Patata, Atún y Huevo",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afc08b91eb31afe3d4796.png",
-    "calories": 634,
-    "protein": 66,
-    "carbs": 53,
-    "fats": 15,
+    "calories": 664,
+    "protein": 74,
+    "carbs": 49,
+    "fats": 16,
     "ingredients": [
       {
         "name": "Patata",
-        "quantity": "160",
+        "quantity": "140",
         "unit": "g",
-        "calories": 144,
-        "protein": 3.2,
-        "carbs": 32,
-        "fats": 0.16,
+        "calories": 126,
+        "protein": 2.8,
+        "carbs": 28,
+        "fats": 0.1,
         "baseCalories": 0.9,
         "baseProtein": 0.02,
         "baseCarbs": 0.2,
@@ -153,12 +155,12 @@ const foodDatabase = {
       },
       {
         "name": "Atún en Conserva",
-        "quantity": "170",
+        "quantity": "200",
         "unit": "g",
-        "calories": 272,
-        "protein": 47.6,
+        "calories": 320,
+        "protein": 56,
         "carbs": 0,
-        "fats": 6.8,
+        "fats": 8,
         "baseCalories": 1.6,
         "baseProtein": 0.28,
         "baseCarbs": 0,
@@ -170,7 +172,7 @@ const foodDatabase = {
         "unit": "unidad(es)",
         "calories": 77.5,
         "protein": 6.5,
-        "carbs": 0.55,
+        "carbs": 0.6,
         "fats": 5.5,
         "baseCalories": 77.5,
         "baseProtein": 6.5,
@@ -1173,12 +1175,6 @@ const dailyMenus = [
       "protein": 150,
       "carbs": 150
     },
-    "baselineTotals": {
-      "calories": 1776,
-      "protein": 130,
-      "carbs": 152,
-      "fats": 71
-    },
     "desayuno": [
       "p0_m0"
     ],
@@ -1199,12 +1195,6 @@ const dailyMenus = [
       "calories": 1800,
       "protein": 150,
       "carbs": 150
-    },
-    "baselineTotals": {
-      "calories": 1650,
-      "protein": 150,
-      "carbs": 95,
-      "fats": 70
     },
     "desayuno": [
       "p1_m0",
@@ -1228,12 +1218,6 @@ const dailyMenus = [
       "protein": 150,
       "carbs": 150
     },
-    "baselineTotals": {
-      "calories": 1853,
-      "protein": 107,
-      "carbs": 146,
-      "fats": 93
-    },
     "desayuno": [
       "p2_m0"
     ],
@@ -1254,12 +1238,6 @@ const dailyMenus = [
       "calories": 1750,
       "protein": 150,
       "carbs": 90
-    },
-    "baselineTotals": {
-      "calories": 1560,
-      "protein": 124,
-      "carbs": 98,
-      "fats": 70
     },
     "desayuno": [
       "p3_m0"
