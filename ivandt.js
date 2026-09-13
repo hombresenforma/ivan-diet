@@ -1083,10 +1083,10 @@ const foodDatabase = {
   "p3_m0": {
     "name": "Poke de aguacate, mango, tomate, soja, cebolla, arroz and pollo",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684efa4ef6c48db833a5b1af.png",
-    "calories": 962,
-    "protein": 63,
-    "carbs": 98,
-    "fats": 33,
+    "calories": 958.9,
+    "protein": 57.65,
+    "carbs": 105.75,
+    "fats": 32.55,
     "ingredients": [
       {
         "name": "Aguacate",
@@ -1129,12 +1129,12 @@ const foodDatabase = {
       },
       {
         "name": "Arroz",
-        "quantity": "110",
+        "quantity": "120",
         "unit": "g",
-        "calories": 401.5,
-        "protein": 13.2,
-        "carbs": 82.5,
-        "fats": 2.2,
+        "calories": 438.0,
+        "protein": 14.4,
+        "carbs": 90.0,
+        "fats": 2.4,
         "baseCalories": 3.65,
         "baseProtein": 0.12,
         "baseCarbs": 0.75,
@@ -1142,12 +1142,12 @@ const foodDatabase = {
       },
       {
         "name": "Pechuga de Pollo",
-        "quantity": "150",
+        "quantity": "125",
         "unit": "g",
-        "calories": 240,
-        "protein": 42.00000000000001,
+        "calories": 200,
+        "protein": 35,
         "carbs": 0,
-        "fats": 6,
+        "fats": 5,
         "baseCalories": 1.6,
         "baseProtein": 0.28,
         "baseCarbs": 0,
@@ -1264,19 +1264,19 @@ const foodDatabase = {
   "p3_m3": {
     "name": "Revuelto de Huevos con Jamón",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682ad5e1e819fcb589a8a30e.png",
-    "calories": 495,
-    "protein": 44,
-    "carbs": 2,
-    "fats": 34,
+    "calories": 410,
+    "protein": 36.85,
+    "carbs": 1.82,
+    "fats": 27.95,
     "ingredients": [
       {
         "name": "Huevos",
-        "quantity": "4",
+        "quantity": "3",
         "unit": "ud",
-        "calories": 341.0,
-        "protein": 28.6,
-        "carbs": 2.42,
-        "fats": 24.2,
+        "calories": 255.75,
+        "protein": 21.45,
+        "carbs": 1.815,
+        "fats": 18.15,
         "baseCalories": 85.25,
         "baseProtein": 7.15,
         "baseCarbs": 0.605,
@@ -3290,37 +3290,37 @@ const foodDatabase = {
   "ivandt_d4_comida": {
     "name": "Quinoa con ternera y verduras",
     "image": "https://raw.githubusercontent.com/hombresenforma/ivan-diet/main/assets/ivandt/dias-4-7/quinoa-ternera-verduras.jpg",
-    "calories": 730,
-    "protein": 48,
-    "carbs": 74,
-    "fats": 25,
+    "calories": 735,
+    "protein": 40.7,
+    "carbs": 86.3,
+    "fats": 23.6,
     "ingredients": [
       {
         "name": "Quinoa (seca)",
-        "quantity": "105",
+        "quantity": "125",
         "unit": "g",
         "category": "cereals",
-        "calories": 386.4,
+        "calories": 460.0,
         "baseCalories": 3.68,
-        "protein": 14.7,
+        "protein": 17.5,
         "baseProtein": 0.14,
-        "carbs": 67.2,
+        "carbs": 80.0,
         "baseCarbs": 0.64,
-        "fats": 6.3,
+        "fats": 7.5,
         "baseFats": 0.06
       },
       {
         "name": "Ternera magra (cruda)",
-        "quantity": "150",
+        "quantity": "100",
         "unit": "g",
         "category": "meat",
-        "calories": 205.5,
+        "calories": 137.0,
         "baseCalories": 1.37,
-        "protein": 31.5,
+        "protein": 21.0,
         "baseProtein": 0.21,
         "carbs": 0.0,
         "baseCarbs": 0.0,
-        "fats": 8.25,
+        "fats": 5.5,
         "baseFats": 0.055
       },
       {
@@ -3588,20 +3588,20 @@ const foodDatabase = {
   "ivandt_d5_comida": {
     "name": "Cuscús integral con pavo y calabaza",
     "image": "https://raw.githubusercontent.com/hombresenforma/ivan-diet/main/assets/ivandt/dias-4-7/cuscus-pavo-calabaza.jpg",
-    "calories": 685,
-    "protein": 61,
-    "carbs": 72,
-    "fats": 14,
+    "calories": 830,
+    "protein": 45.2,
+    "carbs": 121.2,
+    "fats": 14.6,
     "ingredients": [
       {
         "name": "Cuscús integral (seco)",
-        "quantity": "90",
+        "quantity": "160",
         "unit": "g",
         "category": "cereals",
-        "calories": 324.0,
-        "protein": 10.8,
-        "carbs": 63.0,
-        "fats": 1.8,
+        "calories": 576.0,
+        "protein": 19.2,
+        "carbs": 112.0,
+        "fats": 3.2,
         "baseCalories": 3.6,
         "baseProtein": 0.12,
         "baseCarbs": 0.7,
@@ -3609,13 +3609,13 @@ const foodDatabase = {
       },
       {
         "name": "Pechuga de pavo (cruda)",
-        "quantity": "200",
+        "quantity": "100",
         "unit": "g",
         "category": "poultry",
-        "calories": 214.0,
-        "protein": 48.0,
+        "calories": 107.0,
+        "protein": 24.0,
         "carbs": 0,
-        "fats": 2.0,
+        "fats": 1.0,
         "baseCalories": 1.07,
         "baseProtein": 0.24,
         "baseCarbs": 0,
@@ -3669,20 +3669,20 @@ const foodDatabase = {
   "ivandt_d5_cena": {
     "name": "Tortilla de claras, champiñones y queso de cabra",
     "image": "https://raw.githubusercontent.com/hombresenforma/ivan-diet/main/assets/ivandt/dias-4-7/tortilla-claras-champinones-cabra.jpg",
-    "calories": 472,
-    "protein": 49,
-    "carbs": 6,
-    "fats": 29,
+    "calories": 379.5,
+    "protein": 27.65,
+    "carbs": 4.4,
+    "fats": 28.2,
     "ingredients": [
       {
         "name": "Claras de huevo pasteurizadas",
-        "quantity": "300",
+        "quantity": "100",
         "unit": "g",
         "category": "eggs",
-        "calories": 138.0,
-        "protein": 31.5,
-        "carbs": 2.1,
-        "fats": 0.6,
+        "calories": 46.0,
+        "protein": 10.5,
+        "carbs": 0.7,
+        "fats": 0.2,
         "baseCalories": 0.46,
         "baseProtein": 0.105,
         "baseCarbs": 0.007,
@@ -3870,10 +3870,10 @@ const foodDatabase = {
   "ivandt_d6_comida": {
     "name": "Burrito bowl de pollo y frijoles",
     "image": "https://raw.githubusercontent.com/hombresenforma/ivan-diet/main/assets/ivandt/dias-4-7/burrito-bowl-pollo-frijoles.jpg",
-    "calories": 1034,
-    "protein": 58,
+    "calories": 979,
+    "protein": 46.5,
     "carbs": 134,
-    "fats": 26,
+    "fats": 25.25,
     "ingredients": [
       {
         "name": "Arroz basmati (seco)",
@@ -3891,13 +3891,13 @@ const foodDatabase = {
       },
       {
         "name": "Pechuga de pollo (cruda)",
-        "quantity": "150",
+        "quantity": "100",
         "unit": "g",
         "category": "poultry",
-        "calories": 165.0,
-        "protein": 34.5,
+        "calories": 110.0,
+        "protein": 23.0,
         "carbs": 0,
-        "fats": 2.25,
+        "fats": 1.5,
         "baseCalories": 1.1,
         "baseProtein": 0.23,
         "baseCarbs": 0,
@@ -3979,20 +3979,20 @@ const foodDatabase = {
   "ivandt_d6_cena": {
     "name": "Albóndigas de pavo con calabacín",
     "image": "https://raw.githubusercontent.com/hombresenforma/ivan-diet/main/assets/ivandt/dias-4-7/albondigas-pavo-calabacin.jpg",
-    "calories": 459,
-    "protein": 60,
+    "calories": 512,
+    "protein": 49.2,
     "carbs": 5,
-    "fats": 21,
+    "fats": 31.8,
     "ingredients": [
       {
         "name": "Pechuga de pavo (cruda)",
-        "quantity": "200",
+        "quantity": "100",
         "unit": "g",
         "category": "poultry",
-        "calories": 214.0,
-        "protein": 48.0,
+        "calories": 107.0,
+        "protein": 24.0,
         "carbs": 0,
-        "fats": 2.0,
+        "fats": 1.0,
         "baseCalories": 1.07,
         "baseProtein": 0.24,
         "baseCarbs": 0,
@@ -4028,13 +4028,13 @@ const foodDatabase = {
       },
       {
         "name": "Queso parmesano",
-        "quantity": "30",
+        "quantity": "70",
         "unit": "g",
         "category": "dairy",
-        "calories": 120,
-        "protein": 9.9,
+        "calories": 280,
+        "protein": 23.1,
         "carbs": 0,
-        "fats": 8.7,
+        "fats": 20.3,
         "baseCalories": 4,
         "baseProtein": 0.33,
         "baseCarbs": 0,
@@ -4641,10 +4641,10 @@ const foodDatabase = {
   "ivandt_nc_d5_desayuno": {
     "name": "Vaso exprés de queso batido, whey, plátano y avena",
     "image": "https://raw.githubusercontent.com/hombresenforma/ivan-diet/main/assets/ivandt/sin-cocina/vaso-queso-batido-platano-avena.jpg",
-    "calories": 684,
-    "protein": 60,
-    "carbs": 94,
-    "fats": 8,
+    "calories": 868.5,
+    "protein": 66.55,
+    "carbs": 124,
+    "fats": 11.75,
     "ingredients": [
       {
         "name": "Queso fresco batido 0%",
@@ -4690,13 +4690,13 @@ const foodDatabase = {
       },
       {
         "name": "Copos de avena",
-        "quantity": "80",
+        "quantity": "130",
         "unit": "g",
         "category": "cereals",
-        "calories": 296.0,
-        "protein": 10.4,
-        "carbs": 48.0,
-        "fats": 5.6,
+        "calories": 481.0,
+        "protein": 16.9,
+        "carbs": 78.0,
+        "fats": 9.1,
         "baseCalories": 3.7,
         "baseProtein": 0.13,
         "baseCarbs": 0.6,
@@ -5155,10 +5155,10 @@ const foodDatabase = {
   "ivandt_nc_d6_ensagua": {
     "name": "Ensalada de Tomate, Aguacate, Cebolla y Lima",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cf9a725d68c4bc3ec3502.png",
-    "calories": 294,
-    "protein": 4,
-    "carbs": 9,
-    "fats": 25,
+    "calories": 374.2,
+    "protein": 5.39,
+    "carbs": 9.8,
+    "fats": 32.92,
     "ingredients": [
       {
         "name": "Tomate",
@@ -5176,13 +5176,13 @@ const foodDatabase = {
       },
       {
         "name": "Aguacate (sin piel ni hueso)",
-        "quantity": "100",
+        "quantity": "150",
         "unit": "g",
         "category": "fruit",
-        "calories": 160.0,
-        "protein": 2.0,
-        "carbs": 2.0,
-        "fats": 15.0,
+        "calories": 240.0,
+        "protein": 3.0,
+        "carbs": 3.0,
+        "fats": 22.5,
         "baseCalories": 1.6,
         "baseProtein": 0.02,
         "baseCarbs": 0.02,
@@ -5425,14 +5425,14 @@ const dailyMenus = [
     "name": "IVÁN 1",
     "targetMacros": {
       "calories": 2400,
-      "protein": 172,
-      "carbs": 243
+      "protein": 145,
+      "carbs": 242
     },
     "baselineTotals": {
-      "calories": 2400,
-      "protein": 172,
+      "calories": 2398,
+      "protein": 149.7,
       "carbs": 243,
-      "fats": 77
+      "fats": 87.05
     },
     "desayuno": [
       "ivandt_d6_desayuno"
@@ -5479,15 +5479,15 @@ const dailyMenus = [
   {
     "name": "IVÁN 2 (LOW)",
     "targetMacros": {
-      "calories": 2430,
-      "protein": 191,
-      "carbs": 109
+      "calories": 2400,
+      "protein": 147,
+      "carbs": 156
     },
     "baselineTotals": {
-      "calories": 2430,
-      "protein": 191,
-      "carbs": 109,
-      "fats": 138
+      "calories": 2397.5,
+      "protein": 146.7,
+      "carbs": 156.42,
+      "fats": 131.75
     },
     "desayuno": [
       "p3_m3"
@@ -5533,31 +5533,55 @@ const dailyMenus = [
     ]
   },
   {
-    "name": "IVÁN 3 ",
+    "name": "IVÁN 3",
     "targetMacros": {
-      "calories": 2402,
-      "protein": 167,
-      "carbs": 216
+      "calories": 2400,
+      "protein": 146,
+      "carbs": 239
     },
     "baselineTotals": {
-      "calories": 2402,
-      "protein": 167,
-      "carbs": 216,
-      "fats": 101
+      "calories": 2386.9,
+      "protein": 146.65,
+      "carbs": 238.75,
+      "fats": 90.55
     },
     "desayuno": [
-      "p7_m0",
-      "p8_m4"
+      "p8_m0"
     ],
     "comida": [
-      "p7_m3"
+      "p3_m0"
     ],
     "cena": [
-      "ivandt_d7_cena",
-      "p5_m1"
+      "ivandt_nc_d5_cena"
     ],
     "extra": [
-      "p7_m4"
+      "ivandt_d4_extra"
+    ]
+  },
+  {
+    "name": "IVÁN 4",
+    "targetMacros": {
+      "calories": 2400,
+      "protein": 150,
+      "carbs": 233
+    },
+    "baselineTotals": {
+      "calories": 2406.7,
+      "protein": 149.64,
+      "carbs": 233.1,
+      "fats": 94.27
+    },
+    "desayuno": [
+      "ivandt_nc_d5_desayuno"
+    ],
+    "comida": [
+      "ivandt_d4_comida"
+    ],
+    "cena": [
+      "ivandt_nc_d4_cena"
+    ],
+    "extra": [
+      "ivandt_nc_d6_ensagua"
     ]
   },
   {
