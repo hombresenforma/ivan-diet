@@ -2,123 +2,367 @@
 // Alergias: 
 const foodDatabase = {
   "p0_m0": {
-    "name": "Tostada de centeno con jamón ibérico",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6887226c7537da60484d071f.png",
-    "calories": 218,
-    "protein": 15,
-    "carbs": 20,
-    "fats": 8,
+    "name": "Tostada de salmon ahumado y queso crema",
+    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69b512ae277ba07965ecc3bf.png",
+    "calories": 721,
+    "protein": 53,
+    "carbs": 41,
+    "fats": 36,
     "ingredients": [
       {
-        "name": "Tostada de Pan de Centeno",
-        "quantity": "1",
+        "name": "Pan de Centeno",
+        "quantity": "2",
         "unit": "rebanada",
-        "calories": 108,
-        "protein": 3.5999999999999996,
-        "carbs": 20,
-        "fats": 1.2,
+        "calories": 216,
+        "protein": 7.199999999999999,
+        "carbs": 40,
+        "fats": 2.4,
         "baseCalories": 108,
         "baseProtein": 3.5999999999999996,
         "baseCarbs": 20,
         "baseFats": 1.2
       },
       {
-        "name": "Jamón Ibérico",
-        "quantity": "50",
+        "name": "Salmón Ahumado",
+        "quantity": "150",
         "unit": "g",
-        "calories": 110.00000000000001,
-        "protein": 11,
+        "calories": 330,
+        "protein": 33,
         "carbs": 0,
-        "fats": 7.000000000000001,
+        "fats": 21.000000000000004,
         "baseCalories": 2.2,
         "baseProtein": 0.22,
         "baseCarbs": 0,
         "baseFats": 0.14
+      },
+      {
+        "name": "Queso Crema",
+        "quantity": "50",
+        "unit": "g",
+        "calories": 175,
+        "protein": 12.5,
+        "carbs": 1,
+        "fats": 12.5,
+        "baseCalories": 3.5,
+        "baseProtein": 0.25,
+        "baseCarbs": 0.02,
+        "baseFats": 0.25
       }
     ],
-    "preparation": "1. Tostar el pan de centeno. 2. Colocar las lonchas de jamón ibérico por encima. Opcional: añadir un chorrito de aceite de oliva.",
-    "originalBaseRecipeId": "des_tostada_de_centeno_con_jamn_ibrico"
+    "preparation": "1. Tostar el pan. 2. Untar el queso crema. 3. Colocar el salmón ahumado encima.",
+    "originalBaseRecipeId": "des_tostada_de_salmon_ahumado_y_queso_crema"
   },
   "p0_m1": {
-    "name": "Frutas Silvestres / Rojas",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684f020655f9650aaa228fc9.png",
-    "calories": 45,
-    "protein": 1,
-    "carbs": 11,
-    "fats": 0,
+    "name": "Ensalada de Tomate Espárragos Blancos con Atún",
+    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/699b47f820c0359e700b32ca.png",
+    "calories": 264,
+    "protein": 29,
+    "carbs": 15,
+    "fats": 9,
     "ingredients": [
       {
+        "name": "Tomate",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 30,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Espárragos Blancos",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 30,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Atún en Conserva",
+        "quantity": "81",
+        "unit": "g",
+        "calories": 129.6,
+        "protein": 22.680000000000003,
+        "carbs": 0,
+        "fats": 3.24,
+        "baseCalories": 1.6,
+        "baseProtein": 0.28,
+        "baseCarbs": 0,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Cebolla",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 30,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Aceite de Oliva Virgen Extra",
+        "quantity": "5",
+        "unit": "g",
+        "calories": 44.2,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 5,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1
+      }
+    ],
+    "preparation": "1. Lavar y cortar los tomates en gajos. 2. Escurrir los espárragos blancos y el atún. 3. Picar la cebolla en juliana fina. 4. En una fuente, disponer los tomates, los espárragos y el atún. 5. Añadir la cebolla y aliñar con aceite de oliva, vinagre y sal al gusto.",
+    "originalBaseRecipeId": "cc_ensalada_de_tomate_esprragos_blancos_con_atn"
+  },
+  "p0_m2": {
+    "name": "Arroz Basmati con Pavo y Verduras",
+    "image": "https://raw.githubusercontent.com/hombresenforma/ivan-diet/main/assets/ivandt/prueba-chatgpt/arroz-basmati-pavo-verduras.jpg",
+    "calories": 819,
+    "protein": 62,
+    "carbs": 108,
+    "fats": 14,
+    "ingredients": [
+      {
+        "name": "Arroz Basmati en Crudo",
+        "quantity": "130",
+        "unit": "g",
+        "calories": 474.5,
+        "protein": 15.6,
+        "carbs": 97.5,
+        "fats": 2.6,
+        "baseCalories": 3.65,
+        "baseProtein": 0.12,
+        "baseCarbs": 0.75,
+        "baseFats": 0.02
+      },
+      {
+        "name": "Pechuga de Pavo",
+        "quantity": "150",
+        "unit": "g",
+        "calories": 240,
+        "protein": 42.00000000000001,
+        "carbs": 0,
+        "fats": 6,
+        "baseCalories": 1.6,
+        "baseProtein": 0.28,
+        "baseCarbs": 0,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Calabacín",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 30,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Zanahoria",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 30,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Aceite de Oliva Virgen",
+        "quantity": "5",
+        "unit": "g",
+        "calories": 44.2,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 5,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1
+      }
+    ],
+    "preparation": "1. Cocer el arroz basmati. 2. Saltear el pavo troceado con el calabacín y la zanahoria. 3. Incorporar el arroz y mezclar antes de servir.",
+    "originalBaseRecipeId": "cc_arroz_basmati_con_pavo_y_verduras"
+  },
+  "p0_m3": {
+    "name": "Naranja con anacardos",
+    "image": "https://raw.githubusercontent.com/hombresenforma/ivan-diet/main/assets/ivandt/dias-4-7/naranja-anacardos.jpg",
+    "calories": 203,
+    "protein": 2,
+    "carbs": 46,
+    "fats": 3,
+    "ingredients": [
+      {
+        "name": "Naranja",
+        "quantity": "2",
+        "unit": "ud",
+        "calories": 180,
+        "protein": 1.5,
+        "carbs": 45,
+        "fats": 0.6,
+        "baseCalories": 90,
+        "baseProtein": 0.75,
+        "baseCarbs": 22.5,
+        "baseFats": 0.3
+      },
+      {
+        "name": "Anacardos",
+        "quantity": "5",
+        "unit": "g",
+        "calories": 22.5,
+        "protein": 0.5,
+        "carbs": 0.75,
+        "fats": 2,
+        "baseCalories": 4.5,
+        "baseProtein": 0.1,
+        "baseCarbs": 0.15,
+        "baseFats": 0.4
+      }
+    ],
+    "preparation": "1. Pelar la naranja, separar los gajos y servir con los anacardos pesados.",
+    "originalBaseRecipeId": "ext_naranja_con_anacardos"
+  },
+  "p1_m0": {
+    "name": "Tostadas francesas con skyr y fresas",
+    "image": "https://raw.githubusercontent.com/hombresenforma/ivan-diet/main/assets/ivandt/dias-4-7/tostadas-francesas-skyr-fresas.jpg",
+    "calories": 532,
+    "protein": 31,
+    "carbs": 57,
+    "fats": 20,
+    "ingredients": [
+      {
+        "name": "Pan integral",
+        "quantity": "2",
+        "unit": "rebanada",
+        "calories": 216,
+        "protein": 7.199999999999999,
+        "carbs": 40,
+        "fats": 2.4,
+        "baseCalories": 108,
+        "baseProtein": 3.5999999999999996,
+        "baseCarbs": 20,
+        "baseFats": 1.2
+      },
+      {
+        "name": "Huevo",
+        "quantity": "2",
+        "unit": "ud",
+        "calories": 170.5,
+        "protein": 14.3,
+        "carbs": 1.2100000000000002,
+        "fats": 12.1,
+        "baseCalories": 85.25,
+        "baseProtein": 7.15,
+        "baseCarbs": 0.6050000000000001,
+        "baseFats": 6.05
+      },
+      {
+        "name": "Leche semidesnatada",
+        "quantity": "80",
+        "unit": "g",
+        "calories": 80,
+        "protein": 4,
+        "carbs": 8,
+        "fats": 3.2,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Skyr natural",
+        "quantity": "40",
+        "unit": "g",
+        "calories": 40,
+        "protein": 4.8,
+        "carbs": 1.6,
+        "fats": 1.6,
+        "baseCalories": 1,
+        "baseProtein": 0.12,
+        "baseCarbs": 0.04,
+        "baseFats": 0.04
+      },
+      {
         "name": "Fresas",
-        "quantity": "30",
+        "quantity": "50",
         "unit": "g",
-        "calories": 15,
-        "protein": 0.3,
-        "carbs": 3.5999999999999996,
-        "fats": 0.15,
+        "calories": 25,
+        "protein": 0.5,
+        "carbs": 6,
+        "fats": 0.25,
         "baseCalories": 0.5,
         "baseProtein": 0.01,
-        "baseCarbs": 0.11999999999999998,
-        "baseFats": 0.005
-      },
-      {
-        "name": "Frambuesas",
-        "quantity": "30",
-        "unit": "g",
-        "calories": 15,
-        "protein": 0.3,
-        "carbs": 3.5999999999999996,
-        "fats": 0.15,
-        "baseCalories": 0.5,
-        "baseProtein": 0.01,
-        "baseCarbs": 0.11999999999999998,
-        "baseFats": 0.005
-      },
-      {
-        "name": "Arándanos",
-        "quantity": "30",
-        "unit": "g",
-        "calories": 15,
-        "protein": 0.3,
-        "carbs": 3.5999999999999996,
-        "fats": 0.15,
-        "baseCalories": 0.5,
-        "baseProtein": 0.01,
-        "baseCarbs": 0.11999999999999998,
+        "baseCarbs": 0.12,
         "baseFats": 0.005
       }
     ],
-    "preparation": "1. Seleccionar las frutas silvestres o rojas deseadas. 2. Lavar suavemente las frutas bajo un chorro de agua fría. 3. Para fresas: retirar el pedúnculo verde. 4. Consumir directamente como snack o añadir a yogures.",
-    "originalBaseRecipeId": "ext_frutas_silvestres_rojas"
+    "preparation": "1. Batir el huevo con la leche, empapar el pan y dorar en sartén con el aceite medido hasta que el huevo esté bien cuajado. 2. Servir con skyr y fresas.",
+    "originalBaseRecipeId": "des_tostadas_francesas_con_skyr_y_fresas"
   },
-  "p0_m2": {
-    "name": "Ensalada de Lentejas",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682aff5a365e949c0a73d706.png",
-    "calories": 506,
-    "protein": 19,
-    "carbs": 44,
-    "fats": 28,
+  "p1_m1": {
+    "name": "Potaje de Garbanzos con Espinacas y Bacalao",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6922cfb06984f10e4539887a.png",
+    "calories": 560,
+    "protein": 56,
+    "carbs": 40,
+    "fats": 17,
     "ingredients": [
       {
-        "name": "Lentejas Cocidas",
-        "quantity": "125",
+        "name": "Garbanzos Cocidos",
+        "quantity": "130",
         "unit": "g",
-        "calories": 162.5,
-        "protein": 10,
-        "carbs": 27.5,
-        "fats": 0.625,
+        "calories": 169,
+        "protein": 10.4,
+        "carbs": 28.6,
+        "fats": 0.65,
         "baseCalories": 1.3,
         "baseProtein": 0.08,
         "baseCarbs": 0.22,
         "baseFats": 0.005
       },
       {
-        "name": "Tomate",
-        "quantity": "75",
+        "name": "Bacalao Desalado",
+        "quantity": "120",
         "unit": "g",
-        "calories": 22.5,
-        "protein": 1.5,
-        "carbs": 3.75,
-        "fats": 0.15,
+        "calories": 192,
+        "protein": 33.6,
+        "carbs": 0,
+        "fats": 4.8,
+        "baseCalories": 1.6,
+        "baseProtein": 0.28,
+        "baseCarbs": 0,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Espinacas",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 30,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
         "baseCalories": 0.3,
         "baseProtein": 0.02,
         "baseCarbs": 0.05,
@@ -126,63 +370,358 @@ const foodDatabase = {
       },
       {
         "name": "Cebolla",
-        "quantity": "75",
+        "quantity": "100",
         "unit": "g",
-        "calories": 75,
-        "protein": 3.75,
-        "carbs": 7.5,
-        "fats": 3,
+        "calories": 30,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Ajo",
+        "quantity": "10",
+        "unit": "g",
+        "calories": 10,
+        "protein": 0.5,
+        "carbs": 1,
+        "fats": 0.4,
         "baseCalories": 1,
         "baseProtein": 0.05,
         "baseCarbs": 0.1,
         "baseFats": 0.04
       },
       {
-        "name": "Aguacate",
-        "quantity": "35",
-        "unit": "g",
-        "calories": 157.5,
-        "protein": 3.5,
-        "carbs": 5.25,
-        "fats": 14,
-        "baseCalories": 4.5,
-        "baseProtein": 0.1,
-        "baseCarbs": 0.15,
-        "baseFats": 0.4
+        "name": "Huevo Cocido",
+        "quantity": "1",
+        "unit": "ud",
+        "calories": 85.25,
+        "protein": 7.15,
+        "carbs": 0.6050000000000001,
+        "fats": 6.05,
+        "baseCalories": 85.25,
+        "baseProtein": 7.15,
+        "baseCarbs": 0.6050000000000001,
+        "baseFats": 6.05
       },
       {
         "name": "Aceite de Oliva Virgen",
-        "quantity": "10",
+        "quantity": "5",
         "unit": "g",
-        "calories": 88.4,
+        "calories": 44.2,
         "protein": 0,
         "carbs": 0,
-        "fats": 10,
+        "fats": 5,
         "baseCalories": 8.84,
         "baseProtein": 0,
         "baseCarbs": 0,
         "baseFats": 1
       }
     ],
-    "preparation": "1. Si usas lentejas de bote, enjuagarlas bien bajo el grifo y escurrirlas. Si las cocinas, déjalas enfriar. 2. Picar el tomate y la cebolla (preferiblemente morada) en dados pequeños. Cortar el queso de Burgos 0% y el aguacate en dados. 3. En un bol grande, mezclar con cuidado las lentejas, el tomate, la cebolla, el queso de Burgos y el aguacate. 4. Aliñar con aceite de oliva virgen extra, vinagre (de manzana o Jerez) y sal al gusto.",
-    "originalBaseRecipeId": "pp_ensalada_de_lentejas"
+    "preparation": "1. Sofreír cebolla y ajo. 2. Añadir espinacas y rehogar. 3. Añadir garbanzos y caldo (o agua). Cocer 10 min. 4. Añadir el bacalao desmigado y cocer 5 min más. 5. Servir con huevo duro picado.",
+    "originalBaseRecipeId": "cc_potaje_de_garbanzos_con_espinacas_y_bacalao"
   },
-  "p0_m3": {
-    "name": "Pechuga de Pollo a Tiras",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68f27f90fb2e446db8a380a9.png",
-    "calories": 164,
-    "protein": 21,
-    "carbs": 0,
-    "fats": 8,
+  "p1_m2": {
+    "name": "Ñoquis con ternera y tomate",
+    "image": "https://raw.githubusercontent.com/hombresenforma/ivan-diet/main/assets/ivandt/dias-4-7/noquis-ternera-tomate.jpg",
+    "calories": 582,
+    "protein": 39,
+    "carbs": 45,
+    "fats": 26,
     "ingredients": [
       {
-        "name": "Pechuga de Pollo",
-        "quantity": "75",
+        "name": "Ñoquis de patata",
+        "quantity": "203",
         "unit": "g",
-        "calories": 120,
-        "protein": 21.000000000000004,
+        "calories": 182.70000000000002,
+        "protein": 4.0600000000000005,
+        "carbs": 40.6,
+        "fats": 0.203,
+        "baseCalories": 0.9,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.2,
+        "baseFats": 0.001
+      },
+      {
+        "name": "Ternera magra",
+        "quantity": "150",
+        "unit": "g",
+        "calories": 330,
+        "protein": 33,
         "carbs": 0,
-        "fats": 3,
+        "fats": 21.000000000000004,
+        "baseCalories": 2.2,
+        "baseProtein": 0.22,
+        "baseCarbs": 0,
+        "baseFats": 0.14
+      },
+      {
+        "name": "Tomate",
+        "quantity": "85",
+        "unit": "g",
+        "calories": 25.5,
+        "protein": 1.7,
+        "carbs": 4.25,
+        "fats": 0.17,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Aceite de oliva virgen extra",
+        "quantity": "5",
+        "unit": "g",
+        "calories": 44.2,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 5,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1
+      }
+    ],
+    "preparation": "1. Cocer los ñoquis según el envase. 2. Dorar la ternera picada con el aceite, añadir el tomate triturado y cocinar 5–8 minutos. 3. Mezclar con los ñoquis escurridos.",
+    "originalBaseRecipeId": "cc_oquis_con_ternera_y_tomate"
+  },
+  "p1_m3": {
+    "name": "Onza de Chocolate 85%",
+    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69b51011eba487f7273f1096.png",
+    "calories": 165,
+    "protein": 2,
+    "carbs": 9,
+    "fats": 12,
+    "ingredients": [
+      {
+        "name": "Chocolate 85%",
+        "quantity": "30",
+        "unit": "g",
+        "calories": 165,
+        "protein": 1.7999999999999998,
+        "carbs": 9,
+        "fats": 12,
+        "baseCalories": 5.5,
+        "baseProtein": 0.06,
+        "baseCarbs": 0.3,
+        "baseFats": 0.4
+      }
+    ],
+    "preparation": "Consumir directamente.",
+    "originalBaseRecipeId": "ext_onza_de_chocolate_85"
+  },
+  "p2_m0": {
+    "name": "Revuelto de espinacas y champiñones con queso feta",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cfe059b0c6721a19b02e4.png",
+    "calories": 406,
+    "protein": 31,
+    "carbs": 12,
+    "fats": 25,
+    "ingredients": [
+      {
+        "name": "Espinacas",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 30,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Champiñones",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 30,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Queso Feta",
+        "quantity": "50",
+        "unit": "g",
+        "calories": 175,
+        "protein": 12.5,
+        "carbs": 1,
+        "fats": 12.5,
+        "baseCalories": 3.5,
+        "baseProtein": 0.25,
+        "baseCarbs": 0.02,
+        "baseFats": 0.25
+      },
+      {
+        "name": "Huevos",
+        "quantity": "2",
+        "unit": "ud",
+        "calories": 170.5,
+        "protein": 14.3,
+        "carbs": 1.2100000000000002,
+        "fats": 12.1,
+        "baseCalories": 85.25,
+        "baseProtein": 7.15,
+        "baseCarbs": 0.6050000000000001,
+        "baseFats": 6.05
+      }
+    ],
+    "preparation": "1. Saltear los champiñones y las espinacas en una sartén. 2. Batir los huevos y verterlos en la sartén. 3. Remover hasta que los huevos estén casi cuajados. 4. Añadir el queso feta desmenuzado y mezclar.",
+    "originalBaseRecipeId": "des_revuelto_de_espinacas_y_championes_con_queso_feta"
+  },
+  "p2_m1": {
+    "name": "Pasta tricolor con pisto de verduras, y carne picada",
+    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69b50fe5fc5128125e8bc1e4.png",
+    "calories": 426,
+    "protein": 15,
+    "carbs": 67,
+    "fats": 11,
+    "ingredients": [
+      {
+        "name": "Pasta Tricolor",
+        "quantity": "69",
+        "unit": "g",
+        "calories": 251.85,
+        "protein": 8.28,
+        "carbs": 51.75,
+        "fats": 1.3800000000000001,
+        "baseCalories": 3.65,
+        "baseProtein": 0.12,
+        "baseCarbs": 0.75,
+        "baseFats": 0.02
+      },
+      {
+        "name": "Pisto de Verduras",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 30,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Carne Picada",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 100,
+        "protein": 5,
+        "carbs": 10,
+        "fats": 4,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Aceite de Oliva Virgen",
+        "quantity": "5",
+        "unit": "g",
+        "calories": 44.2,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 5,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1
+      }
+    ],
+    "preparation": "1. Cocer la pasta. 2. Saltear la carne picada con el pisto. 3. Mezclar todo.",
+    "originalBaseRecipeId": "cc_pasta_tricolor_con_pisto_de_verduras_y_carne_picada"
+  },
+  "p2_m2": {
+    "name": "Poke de aguacate, mango, tomate, soja, cebolla, arroz and pollo",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684efa4ef6c48db833a5b1af.png",
+    "calories": 821,
+    "protein": 58,
+    "carbs": 89,
+    "fats": 25,
+    "ingredients": [
+      {
+        "name": "Aguacate",
+        "quantity": "30",
+        "unit": "g",
+        "calories": 135,
+        "protein": 3,
+        "carbs": 4.5,
+        "fats": 12,
+        "baseCalories": 4.5,
+        "baseProtein": 0.1,
+        "baseCarbs": 0.15,
+        "baseFats": 0.4
+      },
+      {
+        "name": "Mango",
+        "quantity": "1",
+        "unit": "ud",
+        "calories": 90,
+        "protein": 0.75,
+        "carbs": 22.5,
+        "fats": 0.3,
+        "baseCalories": 90,
+        "baseProtein": 0.75,
+        "baseCarbs": 22.5,
+        "baseFats": 0.3
+      },
+      {
+        "name": "Tomate",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 30,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Cebolla",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 30,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Arroz",
+        "quantity": "69",
+        "unit": "g",
+        "calories": 251.85,
+        "protein": 8.28,
+        "carbs": 51.75,
+        "fats": 1.3800000000000001,
+        "baseCalories": 3.65,
+        "baseProtein": 0.12,
+        "baseCarbs": 0.75,
+        "baseFats": 0.02
+      },
+      {
+        "name": "Pechuga de Pollo",
+        "quantity": "150",
+        "unit": "g",
+        "calories": 240,
+        "protein": 42.00000000000001,
+        "carbs": 0,
+        "fats": 6,
         "baseCalories": 1.6,
         "baseProtein": 0.28,
         "baseCarbs": 0,
@@ -202,108 +741,19 @@ const foodDatabase = {
         "baseFats": 1
       }
     ],
-    "preparation": "Cocinar la pechuga de pollo a la plancha o cocida y cortar en tiras. Servir solo o añadir a otros platos.",
-    "originalBaseRecipeId": "ac_pechuga_de_pollo_a_tiras"
+    "preparation": "1. Cocer el arroz (preferiblemente de sushi o grano corto siguiendo las instrucciones del paquete) y dejar enfriar. 2. Cocinar la pechuga de pollo (hervida, a la plancha o al vapor) y cortarla en dados. Dejar enfriar. 3. Cortar el aguacate y el mango en dados. Picar el tomate en dados pequeños y la cebolla (preferiblemente morada) en juliana fina o brunoise. 4. Para el aliño, mezclar en un cuenco salsa de soja, un chorrito de aceite de sésamo, zumo de lima o limón y opcionalmente un poco de jengibre rallado y miel o sirope de agave. 5. En un bol individual, colocar una base de arroz. Disponer encima de forma separada y estética: el pollo, aguacate, mango, tomate y cebolla. 6. Rociar generosamente con el aliño justo antes de servir. Opcional: espolvorear con semillas de sésamo tostadas o furikake.",
+    "originalBaseRecipeId": "cc_poke_de_aguacate_mango_tomate_soja_cebolla_arroz_and_pollo"
   },
-  "p0_m4": {
-    "name": "Boniato asado con ensalada de tomate",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684efcd1f6c48df26aa5ba5b.png",
-    "calories": 291,
-    "protein": 8,
-    "carbs": 41,
-    "fats": 11,
+  "p2_m3": {
+    "name": "Uvas con skyr y nueces",
+    "image": "https://raw.githubusercontent.com/hombresenforma/ivan-diet/main/assets/ivandt/dias-4-7/uvas-skyr-nueces.jpg",
+    "calories": 272,
+    "protein": 18,
+    "carbs": 29,
+    "fats": 10,
     "ingredients": [
       {
-        "name": "Boniato",
-        "quantity": "150",
-        "unit": "g",
-        "calories": 135,
-        "protein": 3,
-        "carbs": 30,
-        "fats": 0.15,
-        "baseCalories": 0.9,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.2,
-        "baseFats": 0.001
-      },
-      {
-        "name": "Tomate",
-        "quantity": "150",
-        "unit": "g",
-        "calories": 45,
-        "protein": 3,
-        "carbs": 7.5,
-        "fats": 0.3,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Cebolla",
-        "quantity": "75",
-        "unit": "g",
-        "calories": 22.5,
-        "protein": 1.5,
-        "carbs": 3.75,
-        "fats": 0.15,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Aceite de Oliva Virgen Extra",
-        "quantity": "10",
-        "unit": "g",
-        "calories": 88.4,
-        "protein": 0,
-        "carbs": 0,
-        "fats": 10,
-        "baseCalories": 8.84,
-        "baseProtein": 0,
-        "baseCarbs": 0,
-        "baseFats": 1
-      }
-    ],
-    "preparation": "1. Precalentar el horno a 200°C (390°F). Lavar bien el boniato, pincharlo varias veces con un tenedor para que no reviente durante la cocción. 2. Asar el boniato entero directamente sobre la rejilla del horno o en una bandeja durante 45-60 minutos, o hasta que esté tierno al pincharlo. 3. Mientras se asa el boniato, preparar la ensalada: lavar y cortar el tomate en dados pequeños. Picar la cebolla y el ajo muy finamente. 4. En un bol, mezclar el tomate, la cebolla y el ajo. Aliñar con aceite de oliva virgen extra, vinagre y sal al gusto. 5. Una vez el boniato esté asado y tierno, sacarlo del horno, dejarlo templar unos minutos, y luego abrirlo por la mitad a lo largo. Servirlo caliente o templado, acompañado de la ensalada de tomate.",
-    "originalBaseRecipeId": "pp_boniato_asado_con_ensalada_de_tomate"
-  },
-  "p0_m5": {
-    "name": "Hamburguesa de Ternera a la Plancha",
-    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69fee800bc1f77cc3522f7f3.png",
-    "calories": 276,
-    "protein": 19,
-    "carbs": 2,
-    "fats": 22,
-    "ingredients": [
-      {
-        "name": "Hamburguesa de Ternera",
-        "quantity": "120",
-        "unit": "g",
-        "calories": 276,
-        "protein": 19.2,
-        "carbs": 2.4,
-        "fats": 21.599999999999998,
-        "baseCalories": 2.3,
-        "baseProtein": 0.16,
-        "baseCarbs": 0.02,
-        "baseFats": 0.18
-      }
-    ],
-    "preparation": "1. Cocinar la hamburguesa de ternera a la plancha hasta el punto deseado.",
-    "originalBaseRecipeId": "ac_hamburguesa_de_ternera_a_la_plancha"
-  },
-  "p0_m6": {
-    "name": "Fruta Densa (Plátano, Manzana, Pera)",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe4bb91eb325b93d4a82.png",
-    "calories": 90,
-    "protein": 1,
-    "carbs": 23,
-    "fats": 0,
-    "ingredients": [
-      {
-        "name": "Plátano",
+        "name": "Uvas",
         "quantity": "1",
         "unit": "ud",
         "calories": 90,
@@ -314,643 +764,19 @@ const foodDatabase = {
         "baseProtein": 0.75,
         "baseCarbs": 22.5,
         "baseFats": 0.3
-      }
-    ],
-    "preparation": "1. Seleccionar la fruta densa de preferencia. 2. Para plátanos: pelar la piel y consumir directamente. 3. Para manzanas o peras: lavar bien la fruta. Se puede consumir con piel o pelada.",
-    "originalBaseRecipeId": "ext_fruta_densa_pltano_manzana_pera"
-  },
-  "p0_m7": {
-    "name": "Batido Whey de Proteínas",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684f021af6c48d41b5a5c003.png",
-    "calories": 114,
-    "protein": 24,
-    "carbs": 2,
-    "fats": 1,
-    "ingredients": [
-      {
-        "name": "Proteína Whey en Polvo",
-        "quantity": "30",
-        "unit": "g",
-        "calories": 114,
-        "protein": 24,
-        "carbs": 1.5,
-        "fats": 1.2,
-        "baseCalories": 3.8,
-        "baseProtein": 0.8,
-        "baseCarbs": 0.05,
-        "baseFats": 0.04
-      }
-    ],
-    "preparation": "1. En un shaker, añadir la cantidad recomendada de proteína en polvo. 2. Añadir la cantidad de líquido deseada (unos 200-300 ml). 3. Cerrar bien el shaker. 4. Agitar enérgicamente durante unos 20-30 segundos hasta que el polvo esté completamente disuelto.",
-    "originalBaseRecipeId": "ext_batido_whey_de_protenas"
-  },
-  "p1_m0": {
-    "name": "Tostada de Pan de Centeno con Revuelto de Huevos y Jamón York",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687d09e04d6fb7f271b84cc9.png",
-    "calories": 351,
-    "protein": 24,
-    "carbs": 17,
-    "fats": 21,
-    "ingredients": [
-      {
-        "name": "Tostada de Pan de Centeno",
-        "quantity": "1",
-        "unit": "rebanada(s)",
-        "calories": 81,
-        "protein": 2.6999999999999997,
-        "carbs": 15,
-        "fats": 0.8999999999999999,
-        "baseCalories": 81,
-        "baseProtein": 2.6999999999999997,
-        "baseCarbs": 15,
-        "baseFats": 0.8999999999999999
       },
       {
-        "name": "Huevos",
-        "quantity": "2",
-        "unit": "unidad(es)",
-        "calories": 155,
-        "protein": 13,
-        "carbs": 1.1,
-        "fats": 11,
-        "baseCalories": 77.5,
-        "baseProtein": 6.5,
-        "baseCarbs": 0.55,
-        "baseFats": 5.5
-      },
-      {
-        "name": "Jamón York",
-        "quantity": "50",
+        "name": "Skyr natural",
+        "quantity": "137",
         "unit": "g",
-        "calories": 114.99999999999999,
-        "protein": 8,
-        "carbs": 1,
-        "fats": 9,
-        "baseCalories": 2.3,
-        "baseProtein": 0.16,
-        "baseCarbs": 0.02,
-        "baseFats": 0.18
-      }
-    ],
-    "preparation": "1. Tostar el pan de centeno. 2. Preparar un revuelto de huevos con taquitos de jamón york. 3. Servir el revuelto sobre la tostada.",
-    "originalBaseRecipeId": "des_tostada_de_pan_de_centeno_con_revuelto_de_huevos_y_jamn_york"
-  },
-  "p1_m1": {
-    "name": "Ensala de Patata, Atún y Huevo",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afc08b91eb31afe3d4796.png",
-    "calories": 591,
-    "protein": 56,
-    "carbs": 49,
-    "fats": 17,
-    "ingredients": [
-      {
-        "name": "Patata",
-        "quantity": "170",
-        "unit": "g",
-        "calories": 153,
-        "protein": 3.4,
-        "carbs": 34,
-        "fats": 0.17,
-        "baseCalories": 0.9,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.2,
-        "baseFats": 0.001
-      },
-      {
-        "name": "Pimiento Verde",
-        "quantity": "55",
-        "unit": "g",
-        "calories": 16.5,
-        "protein": 1.1,
-        "carbs": 2.75,
-        "fats": 0.11,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Pimiento Rojo",
-        "quantity": "55",
-        "unit": "g",
-        "calories": 16.5,
-        "protein": 1.1,
-        "carbs": 2.75,
-        "fats": 0.11,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Cebolla",
-        "quantity": "55",
-        "unit": "g",
-        "calories": 16.5,
-        "protein": 1.1,
-        "carbs": 2.75,
-        "fats": 0.11,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Tomate",
-        "quantity": "55",
-        "unit": "g",
-        "calories": 16.5,
-        "protein": 1.1,
-        "carbs": 2.75,
-        "fats": 0.11,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Maíz",
-        "quantity": "25",
-        "unit": "g",
-        "calories": 25,
-        "protein": 1.25,
-        "carbs": 2.5,
-        "fats": 1,
+        "calories": 137,
+        "protein": 16.439999999999998,
+        "carbs": 5.48,
+        "fats": 5.48,
         "baseCalories": 1,
-        "baseProtein": 0.05,
-        "baseCarbs": 0.1,
+        "baseProtein": 0.12,
+        "baseCarbs": 0.04,
         "baseFats": 0.04
-      },
-      {
-        "name": "Atún en Conserva",
-        "quantity": "120",
-        "unit": "g",
-        "calories": 192,
-        "protein": 33.6,
-        "carbs": 0,
-        "fats": 4.8,
-        "baseCalories": 1.6,
-        "baseProtein": 0.28,
-        "baseCarbs": 0,
-        "baseFats": 0.04
-      },
-      {
-        "name": "Huevo Cocido",
-        "quantity": "2",
-        "unit": "unidad(es)",
-        "calories": 155,
-        "protein": 13,
-        "carbs": 1.1,
-        "fats": 11,
-        "baseCalories": 77.5,
-        "baseProtein": 6.5,
-        "baseCarbs": 0.55,
-        "baseFats": 5.5
-      }
-    ],
-    "preparation": "1. Cocer las patatas con piel en agua con sal hasta que estén tiernas (unos 20-25 minutos). Dejar enfriar, pelar y cortar en dados. 2. Cocer los huevos en agua hirviendo durante 10 minutos. Dejar enfriar, pelar y cortar en rodajas o trozos. 3. Picar finamente el pimiento verde, pimiento rojo, cebolla y tomate. 4. En un bol grande, mezclar las patatas, los huevos, las verduras picadas, el maíz dulce (escurrido) y el atún (escurrido y desmenuzado). 5. Aliñar con aceite de oliva virgen extra, vinagre y sal al gusto. Mezclar con cuidado.",
-    "originalBaseRecipeId": "cc_ensala_de_patata_atn_y_huevo"
-  },
-  "p1_m2": {
-    "name": "Ensalada de Tomate, Ajo y Cebolla",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe199b8ed3c4d37cbd18.png",
-    "calories": 68,
-    "protein": 5,
-    "carbs": 11,
-    "fats": 0,
-    "ingredients": [
-      {
-        "name": "Tomate",
-        "quantity": "150",
-        "unit": "g",
-        "calories": 45,
-        "protein": 3,
-        "carbs": 7.5,
-        "fats": 0.3,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Cebolla",
-        "quantity": "75",
-        "unit": "g",
-        "calories": 22.5,
-        "protein": 1.5,
-        "carbs": 3.75,
-        "fats": 0.15,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
-      }
-    ],
-    "preparation": "1. Lavar bien los tomates y cortarlos en rodajas, gajos o dados, según preferencia. 2. Pelar y picar la cebolla en juliana fina. Para suavizar su sabor, se puede dejar en remojo en agua fría con un poco de vinagre durante 10 minutos y luego escurrir. 3. Pelar y picar el ajo muy finamente, o machacarlo en un mortero. 4. En un bol o fuente, combinar el tomate, la cebolla y el ajo. 5. Aliñar generosamente con aceite de oliva virgen extra de buena calidad, un poco de vinagre (opcional, preferiblemente de Jerez o manzana) y sal. Mezclar bien y dejar reposar unos minutos antes de servir para que se integren los sabores.",
-    "originalBaseRecipeId": "pp_ensalada_de_tomate_ajo_y_cebolla"
-  },
-  "p1_m3": {
-    "name": "Solomillo/Filete de Ternera a la Plancha",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe6c0ed5060d3743015a.png",
-    "calories": 418,
-    "protein": 33,
-    "carbs": 0,
-    "fats": 31,
-    "ingredients": [
-      {
-        "name": "Solomillo de Ternera",
-        "quantity": "150",
-        "unit": "g",
-        "calories": 330,
-        "protein": 33,
-        "carbs": 0,
-        "fats": 21.000000000000004,
-        "baseCalories": 2.2,
-        "baseProtein": 0.22,
-        "baseCarbs": 0,
-        "baseFats": 0.14
-      },
-      {
-        "name": "Aceite de Oliva Virgen Extra",
-        "quantity": "10",
-        "unit": "g",
-        "calories": 88.4,
-        "protein": 0,
-        "carbs": 0,
-        "fats": 10,
-        "baseCalories": 8.84,
-        "baseProtein": 0,
-        "baseCarbs": 0,
-        "baseFats": 1
-      }
-    ],
-    "preparation": "1. Sacar el filete o solomillo de ternera del refrigerador unos 15-20 minutos antes de cocinar para que se temple. 2. Sazonar la carne con sal y pimienta negra recién molida justo antes de ponerla en la plancha. 3. Calentar una plancha o sartén de fondo grueso a fuego alto hasta que esté bien caliente. Añadir una gota de aceite de oliva y extenderlo. 4. Cocinar el filete al gusto. 5. Dejar reposar la carne un par de minutos antes de servir para que los jugos se redistribuyan.",
-    "originalBaseRecipeId": "ac_solomillofilete_de_ternera_a_la_plancha"
-  },
-  "p1_m4": {
-    "name": "Fruta Cítrica (Mandarina, Kiwi, Naranja...)",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd3d0ed506305442ffe4.png",
-    "calories": 45,
-    "protein": 0,
-    "carbs": 11,
-    "fats": 0,
-    "ingredients": [
-      {
-        "name": "Kiwi",
-        "quantity": "1",
-        "unit": "unidad(es)",
-        "calories": 45,
-        "protein": 0.375,
-        "carbs": 11.25,
-        "fats": 0.15,
-        "baseCalories": 45,
-        "baseProtein": 0.375,
-        "baseCarbs": 11.25,
-        "baseFats": 0.15
-      }
-    ],
-    "preparation": "1. Seleccionar la fruta cítrica de preferencia. 2. Lavar bien la fruta bajo el grifo. 3. Para mandarinas y naranjas: pelar la piel con las manos. 4. Para kiwis: cortar por la mitad y comer la pulpa con una cucharita.",
-    "originalBaseRecipeId": "ext_fruta_ctrica_mandarina_kiwi_naranja"
-  },
-  "p1_m5": {
-    "name": "Yogur Protéico (Sabores, Natural...)",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd789b8ed38b127cbc09.png",
-    "calories": 125,
-    "protein": 6,
-    "carbs": 13,
-    "fats": 5,
-    "ingredients": [
-      {
-        "name": "Yogur Protéico",
-        "quantity": "1",
-        "unit": "unidad(es)",
-        "calories": 125,
-        "protein": 6.25,
-        "carbs": 12.5,
-        "fats": 5,
-        "baseCalories": 125,
-        "baseProtein": 6.25,
-        "baseCarbs": 12.5,
-        "baseFats": 5
-      }
-    ],
-    "preparation": "1. Seleccionar el yogur proteico de preferencia. 2. Abrir el envase. 3. Consumir directamente con una cuchara.",
-    "originalBaseRecipeId": "ext_yogur_protico_sabores_natural"
-  },
-  "p2_m0": {
-    "name": "Yogurt Protéico con Frutos Rojos y Secos",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afea2b91eb35e413d4ab6.png",
-    "calories": 268,
-    "protein": 9,
-    "carbs": 24,
-    "fats": 15,
-    "ingredients": [
-      {
-        "name": "Yogur Protéico",
-        "quantity": "1",
-        "unit": "unidad(es)",
-        "calories": 125,
-        "protein": 6.25,
-        "carbs": 12.5,
-        "fats": 5,
-        "baseCalories": 125,
-        "baseProtein": 6.25,
-        "baseCarbs": 12.5,
-        "baseFats": 5
-      },
-      {
-        "name": "Frutos Rojos",
-        "quantity": "50",
-        "unit": "g",
-        "calories": 30,
-        "protein": 0.25,
-        "carbs": 7.5,
-        "fats": 0.1,
-        "baseCalories": 0.6,
-        "baseProtein": 0.005,
-        "baseCarbs": 0.15,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Frutos Secos",
-        "quantity": "25",
-        "unit": "g",
-        "calories": 112.5,
-        "protein": 2.5,
-        "carbs": 3.75,
-        "fats": 10,
-        "baseCalories": 4.5,
-        "baseProtein": 0.1,
-        "baseCarbs": 0.15,
-        "baseFats": 0.4
-      }
-    ],
-    "preparation": "1. En un bol, verter el yogur proteico. 2. Añadir los frutos rojos frescos o descongelados. 3. Espolvorear con los frutos secos troceados por encima. Servir inmediatamente.",
-    "originalBaseRecipeId": "des_yogurt_protico_con_frutos_rojos_y_secos"
-  },
-  "p2_m1": {
-    "name": "Musakka de Patata al horno con verduras y carne picada",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684efda5653a2c17a7172d67.png",
-    "calories": 687,
-    "protein": 40,
-    "carbs": 50,
-    "fats": 35,
-    "ingredients": [
-      {
-        "name": "Patata",
-        "quantity": "190",
-        "unit": "g",
-        "calories": 171,
-        "protein": 3.8000000000000003,
-        "carbs": 38,
-        "fats": 0.19,
-        "baseCalories": 0.9,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.2,
-        "baseFats": 0.001
-      },
-      {
-        "name": "Cebolla",
-        "quantity": "75",
-        "unit": "g",
-        "calories": 22.5,
-        "protein": 1.5,
-        "carbs": 3.75,
-        "fats": 0.15,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Berenjena",
-        "quantity": "75",
-        "unit": "g",
-        "calories": 22.5,
-        "protein": 1.5,
-        "carbs": 3.75,
-        "fats": 0.15,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Tomate Frito",
-        "quantity": "75",
-        "unit": "g",
-        "calories": 22.5,
-        "protein": 1.5,
-        "carbs": 3.75,
-        "fats": 0.15,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Queso Rallado",
-        "quantity": "40",
-        "unit": "g",
-        "calories": 140,
-        "protein": 10,
-        "carbs": 0.8,
-        "fats": 10,
-        "baseCalories": 3.5,
-        "baseProtein": 0.25,
-        "baseCarbs": 0.02,
-        "baseFats": 0.25
-      },
-      {
-        "name": "Carne Picada Mixta (Ternera y Cerdo)",
-        "quantity": "100",
-        "unit": "g",
-        "calories": 220.00000000000003,
-        "protein": 22,
-        "carbs": 0,
-        "fats": 14.000000000000002,
-        "baseCalories": 2.2,
-        "baseProtein": 0.22,
-        "baseCarbs": 0,
-        "baseFats": 0.14
-      },
-      {
-        "name": "Aceite de Oliva Virgen Extra",
-        "quantity": "10",
-        "unit": "g",
-        "calories": 88.4,
-        "protein": 0,
-        "carbs": 0,
-        "fats": 10,
-        "baseCalories": 8.84,
-        "baseProtein": 0,
-        "baseCarbs": 0,
-        "baseFats": 1
-      }
-    ],
-    "preparation": "1. Precalentar el horno a 180°C. Pelar y cortar las patatas en rodajas finas (aproximadamente 0.5 cm). Cortar la berenjena en rodajas similares. Picar la cebolla. 2. En una sartén, calentar aceite y sofreír la cebolla hasta que esté blanda. Añadir la carne picada mixta y cocinar hasta que se dore. Escurrir el exceso de grasa. Incorporar tomate frito, sal, pimienta y orégano. Cocinar unos minutos. 3. En una fuente para horno, montar la musakka: colocar una capa de rodajas de patata en el fondo, luego una capa de rodajas de berenjena, y encima una capa de la mezcla de carne. Repetir las capas hasta terminar con una capa de patata o berenjena. 4. Opcional: cubrir con salsa bechamel y espolvorear con queso rallado. 5. Hornear durante 40-50 minutos, o hasta que las patatas y berenjenas estén tiernas y la superficie dorada. Dejar reposar unos minutos antes de servir.",
-    "originalBaseRecipeId": "cc_musakka_de_patata_al_horno_con_verduras_y_carne_picada"
-  },
-  "p2_m2": {
-    "name": "Pimientos Salteados con Cebolla y Tomate Cherry.",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cd7144d6fb7451eb7bbf9.png",
-    "calories": 156,
-    "protein": 5,
-    "carbs": 11,
-    "fats": 10,
-    "ingredients": [
-      {
-        "name": "Pimiento Rojo",
-        "quantity": "75",
-        "unit": "g",
-        "calories": 22.5,
-        "protein": 1.5,
-        "carbs": 3.75,
-        "fats": 0.15,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Cebolla",
-        "quantity": "75",
-        "unit": "g",
-        "calories": 22.5,
-        "protein": 1.5,
-        "carbs": 3.75,
-        "fats": 0.15,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Tomate Cherry",
-        "quantity": "75",
-        "unit": "g",
-        "calories": 22.5,
-        "protein": 1.5,
-        "carbs": 3.75,
-        "fats": 0.15,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Aceite de Oliva Virgen Extra",
-        "quantity": "10",
-        "unit": "g",
-        "calories": 88.4,
-        "protein": 0,
-        "carbs": 0,
-        "fats": 10,
-        "baseCalories": 8.84,
-        "baseProtein": 0,
-        "baseCarbs": 0,
-        "baseFats": 1
-      }
-    ],
-    "preparation": "1. Lavar las verduras y cortarlas a láminas finas a lo largo. 2. Poner un poco de aceite en una sartén y saltear las verduras.",
-    "originalBaseRecipeId": "pp_pimientos_salteados_con_cebolla_y_tomate_cherry"
-  },
-  "p2_m3": {
-    "name": "Pechuga de Pavo a la Plancha",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684f003ef6c48dfc43a5bdb3.png",
-    "calories": 392,
-    "protein": 53,
-    "carbs": 0,
-    "fats": 18,
-    "ingredients": [
-      {
-        "name": "Pechuga de Pavo",
-        "quantity": "190",
-        "unit": "g",
-        "calories": 304,
-        "protein": 53.2,
-        "carbs": 0,
-        "fats": 7.6000000000000005,
-        "baseCalories": 1.6,
-        "baseProtein": 0.28,
-        "baseCarbs": 0,
-        "baseFats": 0.04
-      },
-      {
-        "name": "Aceite de Oliva Virgen Extra",
-        "quantity": "10",
-        "unit": "g",
-        "calories": 88.4,
-        "protein": 0,
-        "carbs": 0,
-        "fats": 10,
-        "baseCalories": 8.84,
-        "baseProtein": 0,
-        "baseCarbs": 0,
-        "baseFats": 1
-      }
-    ],
-    "preparation": "1. Si los filetes de pechuga de pavo son muy gruesos, se pueden abrir tipo libro o golpear ligeramente para que tengan un grosor más uniforme y se cocinen mejor. 2. Sazonar los filetes de pavo con sal, pimienta y tus especias favoritas. 3. Calentar una plancha o sartén antiadherente a fuego medio-alto con una gota de aceite de oliva. 4. Cocinar la pechuga de pavo durante unos 3-4 minutos por cada lado, o hasta que esté dorada por fuera y completamente cocida por dentro.",
-    "originalBaseRecipeId": "ac_pechuga_de_pavo_a_la_plancha"
-  },
-  "p2_m4": {
-    "name": "Fruta Densa (Plátano, Manzana)",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe4bb91eb325b93d4a82.png",
-    "calories": 90,
-    "protein": 1,
-    "carbs": 23,
-    "fats": 0,
-    "ingredients": [
-      {
-        "name": "Manzana",
-        "quantity": "1",
-        "unit": "unidad(es)",
-        "calories": 90,
-        "protein": 0.75,
-        "carbs": 22.5,
-        "fats": 0.3,
-        "baseCalories": 90,
-        "baseProtein": 0.75,
-        "baseCarbs": 22.5,
-        "baseFats": 0.3
-      }
-    ],
-    "preparation": "1. Seleccionar la fruta densa de preferencia. 2. Para plátanos: pelar la piel y consumir directamente. 3. Para manzanas o peras: lavar bien la fruta. Se puede consumir con piel o pelada.",
-    "originalBaseRecipeId": "ext_fruta_densa_pltano_manzana"
-  },
-  "p2_m5": {
-    "name": "Frutos Secos (Mezcla)",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68525c0b1d27cfeb580a55f7.png",
-    "calories": 135,
-    "protein": 3,
-    "carbs": 5,
-    "fats": 12,
-    "ingredients": [
-      {
-        "name": "Anacardos",
-        "quantity": "10",
-        "unit": "g",
-        "calories": 45,
-        "protein": 1,
-        "carbs": 1.5,
-        "fats": 4,
-        "baseCalories": 4.5,
-        "baseProtein": 0.1,
-        "baseCarbs": 0.15,
-        "baseFats": 0.4
-      },
-      {
-        "name": "Almendras",
-        "quantity": "10",
-        "unit": "g",
-        "calories": 45,
-        "protein": 1,
-        "carbs": 1.5,
-        "fats": 4,
-        "baseCalories": 4.5,
-        "baseProtein": 0.1,
-        "baseCarbs": 0.15,
-        "baseFats": 0.4
       },
       {
         "name": "Nueces",
@@ -966,32 +792,83 @@ const foodDatabase = {
         "baseFats": 0.4
       }
     ],
-    "preparation": "Consumir directamente como un snack energético y nutritivo.",
-    "originalBaseRecipeId": "ext_frutos_secos_mezcla"
+    "preparation": "1. Lavar las uvas y servirlas con el skyr y las nueces picadas.",
+    "originalBaseRecipeId": "ext_uvas_con_skyr_y_nueces"
   },
   "p3_m0": {
-    "name": "Pan wasa con Huevo, Aguacate y Cherries",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68cc56abf782ba4c11b42a44.png",
-    "calories": 255,
-    "protein": 13,
-    "carbs": 27,
-    "fats": 10,
+    "name": "Revuelto de Huevos y Claras con Jamón",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682ad5e1e819fcb589a8a30e.png",
+    "calories": 333,
+    "protein": 36,
+    "carbs": 2,
+    "fats": 19,
     "ingredients": [
       {
-        "name": "Pan Wasa",
-        "quantity": "1",
-        "unit": "rebanada",
-        "calories": 108,
-        "protein": 3.5999999999999996,
-        "carbs": 20,
-        "fats": 1.2,
-        "baseCalories": 108,
-        "baseProtein": 3.5999999999999996,
-        "baseCarbs": 20,
-        "baseFats": 1.2
+        "name": "Huevos",
+        "quantity": "2",
+        "unit": "ud",
+        "calories": 170.5,
+        "protein": 14.3,
+        "carbs": 1.2100000000000002,
+        "fats": 12.1,
+        "baseCalories": 85.25,
+        "baseProtein": 7.15,
+        "baseCarbs": 0.6050000000000001,
+        "baseFats": 6.05
       },
       {
-        "name": "Huevo",
+        "name": "Claras de Huevo",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 52,
+        "protein": 11,
+        "carbs": 0.7,
+        "fats": 0.2,
+        "baseCalories": 0.52,
+        "baseProtein": 0.11,
+        "baseCarbs": 0.006999999999999999,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Jamón Serrano",
+        "quantity": "50",
+        "unit": "g",
+        "calories": 110.00000000000001,
+        "protein": 11,
+        "carbs": 0,
+        "fats": 7.000000000000001,
+        "baseCalories": 2.2,
+        "baseProtein": 0.22,
+        "baseCarbs": 0,
+        "baseFats": 0.14
+      }
+    ],
+    "preparation": "1. Batir los huevos y las claras. 2. Cortar el jamón en taquitos o tiras. 3. Saltear ligeramente el jamón en una sartén con una pizca de aceite (opcional). 4. Verter la mezcla de huevo y remover constantemente a fuego medio-bajo hasta que cuaje al gusto.",
+    "originalBaseRecipeId": "des_revuelto_de_huevos_y_claras_con_jamn"
+  },
+  "p3_m1": {
+    "name": "Arroz tres delicias",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68872f8e1fc4545c499532f0.png",
+    "calories": 732,
+    "protein": 35,
+    "carbs": 77,
+    "fats": 31,
+    "ingredients": [
+      {
+        "name": "Arroz",
+        "quantity": "80",
+        "unit": "g",
+        "calories": 292,
+        "protein": 9.6,
+        "carbs": 60,
+        "fats": 1.6,
+        "baseCalories": 3.65,
+        "baseProtein": 0.12,
+        "baseCarbs": 0.75,
+        "baseFats": 0.02
+      },
+      {
+        "name": "Huevo (en tortilla)",
         "quantity": "1",
         "unit": "ud",
         "calories": 85.25,
@@ -1004,20 +881,187 @@ const foodDatabase = {
         "baseFats": 6.05
       },
       {
-        "name": "Aguacate",
-        "quantity": "7",
+        "name": "Guisantes",
+        "quantity": "100",
         "unit": "g",
-        "calories": 31.5,
-        "protein": 0.7000000000000001,
-        "carbs": 1.05,
-        "fats": 2.8000000000000003,
-        "baseCalories": 4.5,
-        "baseProtein": 0.1,
-        "baseCarbs": 0.15,
-        "baseFats": 0.4
+        "calories": 100,
+        "protein": 5,
+        "carbs": 10,
+        "fats": 4,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
       },
       {
-        "name": "Tomates Cherry",
+        "name": "Jamón York",
+        "quantity": "70",
+        "unit": "g",
+        "calories": 161,
+        "protein": 11.200000000000001,
+        "carbs": 1.4000000000000001,
+        "fats": 12.6,
+        "baseCalories": 2.3,
+        "baseProtein": 0.16,
+        "baseCarbs": 0.02,
+        "baseFats": 0.18
+      },
+      {
+        "name": "Maíz",
+        "quantity": "50",
+        "unit": "g",
+        "calories": 50,
+        "protein": 2.5,
+        "carbs": 5,
+        "fats": 2,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Aceite de Oliva Virgen",
+        "quantity": "5",
+        "unit": "g",
+        "calories": 44.2,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 5,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1
+      }
+    ],
+    "preparation": "1. Cocer el arroz y reservar. 2. Hacer una tortilla francesa con los huevos y cortarla en trocitos. 3. Saltear los guisantes y el maíz. 4. Cortar el jamón York en daditos. 5. Mezclar todos los ingredientes en una sartén o wok con un poco de salsa de soja (opcional) y saltear todo junto durante un par de minutos.",
+    "originalBaseRecipeId": "cc_arroz_tres_delicias"
+  },
+  "p3_m2": {
+    "name": "Sopa de Pescado y Marisco",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6922cdd4f96c9c485a257968.png",
+    "calories": 624,
+    "protein": 70,
+    "carbs": 30,
+    "fats": 21,
+    "ingredients": [
+      {
+        "name": "Merluza",
+        "quantity": "150",
+        "unit": "g",
+        "calories": 240,
+        "protein": 42.00000000000001,
+        "carbs": 0,
+        "fats": 6,
+        "baseCalories": 1.6,
+        "baseProtein": 0.28,
+        "baseCarbs": 0,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Gambas",
+        "quantity": "50",
+        "unit": "g",
+        "calories": 80,
+        "protein": 14.000000000000002,
+        "carbs": 0,
+        "fats": 2,
+        "baseCalories": 1.6,
+        "baseProtein": 0.28,
+        "baseCarbs": 0,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Almejas",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 100,
+        "protein": 5,
+        "carbs": 10,
+        "fats": 4,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Tomate",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 30,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Pimiento Rojo",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 30,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Caldo de Pescado",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 100,
+        "protein": 5,
+        "carbs": 10,
+        "fats": 4,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Aceite de Oliva Virgen",
+        "quantity": "5",
+        "unit": "g",
+        "calories": 44.2,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 5,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1
+      }
+    ],
+    "preparation": "1. Sofreír pimiento y tomate. 2. Añadir caldo de pescado y llevar a ebullición. 3. Incorporar la merluza troceada y marisco limpio. Cocer 5-7 minutos hasta que el pescado esté listo y almejas abiertas.",
+    "originalBaseRecipeId": "cc_sopa_de_pescado_y_marisco"
+  },
+  "p3_m3": {
+    "name": "Hummus Casero con Palitos de Zanahoria",
+    "image": "https://raw.githubusercontent.com/hombresenforma/ivan-diet/main/assets/ivandt/prueba-chatgpt/hummus-zanahoria.jpg",
+    "calories": 134,
+    "protein": 8,
+    "carbs": 23,
+    "fats": 1,
+    "ingredients": [
+      {
+        "name": "Hummus",
+        "quantity": "80",
+        "unit": "g",
+        "calories": 104,
+        "protein": 6.4,
+        "carbs": 17.6,
+        "fats": 0.4,
+        "baseCalories": 1.3,
+        "baseProtein": 0.08,
+        "baseCarbs": 0.22,
+        "baseFats": 0.005
+      },
+      {
+        "name": "Zanahoria",
         "quantity": "100",
         "unit": "g",
         "calories": 30,
@@ -1030,296 +1074,49 @@ const foodDatabase = {
         "baseFats": 0.002
       }
     ],
-    "preparation": "1. Tostar el pan wasa. 2. Cocinar el huevo al gusto. 3. Untar el aguacate sobre el pan, añadir el huevo y los tomates cherry.",
-    "originalBaseRecipeId": "des_pan_wasa_con_huevo_aguacate_y_cherries"
-  },
-  "p3_m1": {
-    "name": "Pasta de lentejas con sofrito de ternera y cerdo",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684efc77653a2c50f9172c7c.png",
-    "calories": 565,
-    "protein": 37,
-    "carbs": 36,
-    "fats": 29,
-    "ingredients": [
-      {
-        "name": "Pasta de Lentejas",
-        "quantity": "100",
-        "unit": "g",
-        "calories": 130,
-        "protein": 8,
-        "carbs": 22,
-        "fats": 0.5,
-        "baseCalories": 1.3,
-        "baseProtein": 0.08,
-        "baseCarbs": 0.22,
-        "baseFats": 0.005
-      },
-      {
-        "name": "Carne Picada Mixta (Ternera y Cerdo)",
-        "quantity": "100",
-        "unit": "g",
-        "calories": 220.00000000000003,
-        "protein": 22,
-        "carbs": 0,
-        "fats": 14.000000000000002,
-        "baseCalories": 2.2,
-        "baseProtein": 0.22,
-        "baseCarbs": 0,
-        "baseFats": 0.14
-      },
-      {
-        "name": "Calabacín",
-        "quantity": "55",
-        "unit": "g",
-        "calories": 16.5,
-        "protein": 1.1,
-        "carbs": 2.75,
-        "fats": 0.11,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Cebolla",
-        "quantity": "55",
-        "unit": "g",
-        "calories": 55,
-        "protein": 2.75,
-        "carbs": 5.5,
-        "fats": 2.2,
-        "baseCalories": 1,
-        "baseProtein": 0.05,
-        "baseCarbs": 0.1,
-        "baseFats": 0.04
-      },
-      {
-        "name": "Zanahoria",
-        "quantity": "55",
-        "unit": "g",
-        "calories": 55,
-        "protein": 2.75,
-        "carbs": 5.5,
-        "fats": 2.2,
-        "baseCalories": 1,
-        "baseProtein": 0.05,
-        "baseCarbs": 0.1,
-        "baseFats": 0.04
-      },
-      {
-        "name": "Aceite de Oliva Virgen",
-        "quantity": "10",
-        "unit": "g",
-        "calories": 88.4,
-        "protein": 0,
-        "carbs": 0,
-        "fats": 10,
-        "baseCalories": 8.84,
-        "baseProtein": 0,
-        "baseCarbs": 0,
-        "baseFats": 1
-      }
-    ],
-    "preparation": "1. Cocinar la pasta de lentejas según las instrucciones del paquete hasta que esté al dente. Escurrir y reservar. 2. Picar finamente la cebolla y la zanahoria. Rallar o picar el calabacín en dados pequeños. 3. En una sartén grande, calentar un poco de aceite de oliva y sofreír la cebolla y zanahoria hasta que estén blandas. 4. Añadir la carne picada mixta (ternera y cerdo) y cocinar a fuego medio-alto, deshaciendo los grumos con una cuchara, hasta que se dore. 5. Incorporar el calabacín y cocinar unos minutos más hasta que esté tierno. Añadir salsa de tomate (opcional, o tomate triturado natural) y sazonar al gusto con sal, pimienta, orégano o albahaca. Cocinar a fuego lento durante 10-15 minutos para que se integren los sabores. 6. Mezclar la pasta de lentejas escurrida con el sofrito. Servir caliente, opcionalmente con queso parmesano rallado.",
-    "originalBaseRecipeId": "cc_pasta_de_lentejas_con_sofrito_de_ternera_y_cerdo"
-  },
-  "p3_m2": {
-    "name": "Patatas Gajo al Horno o Air Fryer",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cd8b854a1885423545b10.png",
-    "calories": 236,
-    "protein": 4,
-    "carbs": 28,
-    "fats": 12,
-    "ingredients": [
-      {
-        "name": "Patatas",
-        "quantity": "120",
-        "unit": "g",
-        "calories": 108,
-        "protein": 2.4,
-        "carbs": 24,
-        "fats": 0.12,
-        "baseCalories": 0.9,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.2,
-        "baseFats": 0.001
-      },
-      {
-        "name": "Cebolla",
-        "quantity": "40",
-        "unit": "g",
-        "calories": 40,
-        "protein": 2,
-        "carbs": 4,
-        "fats": 1.6,
-        "baseCalories": 1,
-        "baseProtein": 0.05,
-        "baseCarbs": 0.1,
-        "baseFats": 0.04
-      },
-      {
-        "name": "Aceite de Oliva Virgen",
-        "quantity": "10",
-        "unit": "g",
-        "calories": 88.4,
-        "protein": 0,
-        "carbs": 0,
-        "fats": 10,
-        "baseCalories": 8.84,
-        "baseProtein": 0,
-        "baseCarbs": 0,
-        "baseFats": 1
-      }
-    ],
-    "preparation": "1. Precalentar el horno a 200°C (390°F). 2. Lavar bien las patatas, cortarlas a trozos al gusto junto con la cebolla 3. Asar las patatas directamente sobre la rejilla del horno o en una bandeja durante 45-60 minutos (el tiempo dependerá del tamaño).  3. Servir todo junto en un bol and aliñar con aceite de oliva virgen extra, sal y otras especies al gusto.",
-    "originalBaseRecipeId": "pp_patatas_gajo_al_horno_o_air_fryer"
-  },
-  "p3_m3": {
-    "name": "Pechuga de Pollo a la Plancha",
-    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69b66b3087f0f2415505fc9a.png",
-    "calories": 280,
-    "protein": 34,
-    "carbs": 0,
-    "fats": 15,
-    "ingredients": [
-      {
-        "name": "Pechuga de Pollo",
-        "quantity": "120",
-        "unit": "g",
-        "calories": 192,
-        "protein": 33.6,
-        "carbs": 0,
-        "fats": 4.8,
-        "baseCalories": 1.6,
-        "baseProtein": 0.28,
-        "baseCarbs": 0,
-        "baseFats": 0.04
-      },
-      {
-        "name": "Aceite de Oliva Virgen",
-        "quantity": "10",
-        "unit": "g",
-        "calories": 88.4,
-        "protein": 0,
-        "carbs": 0,
-        "fats": 10,
-        "baseCalories": 8.84,
-        "baseProtein": 0,
-        "baseCarbs": 0,
-        "baseFats": 1
-      }
-    ],
-    "preparation": "1. Sazonar la pechuga de pollo con sal, pimienta y especias al gusto. 2. Calentar una plancha o sartén antiadherente con una gota de aceite. 3. Cocinar la pechuga hasta que esté dorada por fuera y cocida por dentro.",
-    "originalBaseRecipeId": "ac_pechuga_de_pollo_a_la_plancha"
-  },
-  "p3_m4": {
-    "name": "Fajita/Wrap de Jamón y Queso",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68a36fb52e34b733ba5c5630.png",
-    "calories": 270,
-    "protein": 15,
-    "carbs": 21,
-    "fats": 13,
-    "ingredients": [
-      {
-        "name": "Pan de Fajita",
-        "quantity": "1",
-        "unit": "rebanada",
-        "calories": 108,
-        "protein": 3.5999999999999996,
-        "carbs": 20,
-        "fats": 1.2,
-        "baseCalories": 108,
-        "baseProtein": 3.5999999999999996,
-        "baseCarbs": 20,
-        "baseFats": 1.2
-      },
-      {
-        "name": "Jamón Cocido",
-        "quantity": "40",
-        "unit": "g",
-        "calories": 92,
-        "protein": 6.4,
-        "carbs": 0.8,
-        "fats": 7.199999999999999,
-        "baseCalories": 2.3,
-        "baseProtein": 0.16,
-        "baseCarbs": 0.02,
-        "baseFats": 0.18
-      },
-      {
-        "name": "Queso Havarti Light",
-        "quantity": "20",
-        "unit": "g",
-        "calories": 70,
-        "protein": 5,
-        "carbs": 0.4,
-        "fats": 5,
-        "baseCalories": 3.5,
-        "baseProtein": 0.25,
-        "baseCarbs": 0.02,
-        "baseFats": 0.25
-      },
-      {
-        "name": "Aceite de Oliva Virgen Extra",
-        "quantity": "0",
-        "unit": "g",
-        "calories": 0,
-        "protein": 0,
-        "carbs": 0,
-        "fats": 0,
-        "baseCalories": 0,
-        "baseProtein": 0,
-        "baseCarbs": 0,
-        "baseFats": 0
-      }
-    ],
-    "preparation": "1. Calentar la tortilla de fajita. 2. Añadir el jamón cocido y el queso. 3. Doblar y servir.",
-    "originalBaseRecipeId": "ext_fajitawrap_de_jamn_y_queso"
+    "preparation": "1. Cortar la zanahoria en bastones. 2. Servir junto al hummus para mojar.",
+    "originalBaseRecipeId": "ext_hummus_casero_con_palitos_de_zanahoria"
   }
 };
 const dailyMenus = [
   {
     "name": "Entreno 1",
     "targetMacros": {
-      "calories": 1700,
+      "calories": 2050,
       "protein": 140,
-      "carbs": 140
+      "carbs": 225
     },
     "baselineTotals": {
-      "calories": 1852,
-      "protein": 121,
-      "carbs": 142,
-      "fats": 86
+      "calories": 2185,
+      "protein": 141,
+      "carbs": 225,
+      "fats": 77
     },
     "desayuno": [
-      "p0_m0",
-      "p0_m1"
+      "p0_m0"
     ],
     "comida": [
-      "p0_m2",
-      "p0_m3"
+      "p0_m1"
     ],
     "cena": [
-      "p0_m4",
-      "p0_m5"
+      "p0_m2"
     ],
     "extra": [
-      "p0_m6",
-      "p0_m7"
+      "p0_m3"
     ]
   },
   {
     "name": "Libre 1",
     "targetMacros": {
-      "calories": 1700,
+      "calories": 2100,
       "protein": 140,
-      "carbs": 140
+      "carbs": 235
     },
     "baselineTotals": {
-      "calories": 1767,
-      "protein": 137,
-      "carbs": 123,
-      "fats": 77
+      "calories": 2601,
+      "protein": 140,
+      "carbs": 235,
+      "fats": 113
     },
     "desayuno": [
       "p1_m0"
@@ -1328,26 +1125,24 @@ const dailyMenus = [
       "p1_m1"
     ],
     "cena": [
-      "p1_m2",
-      "p1_m3"
+      "p1_m2"
     ],
     "extra": [
-      "p1_m4",
-      "p1_m5"
+      "p1_m3"
     ]
   },
   {
     "name": "Entreno 2",
     "targetMacros": {
-      "calories": 1800,
-      "protein": 150,
-      "carbs": 150
+      "calories": 1900,
+      "protein": 140,
+      "carbs": 195
     },
     "baselineTotals": {
-      "calories": 1717,
-      "protein": 105,
-      "carbs": 115,
-      "fats": 90
+      "calories": 1966,
+      "protein": 140,
+      "carbs": 194,
+      "fats": 67
     },
     "desayuno": [
       "p2_m0"
@@ -1356,26 +1151,24 @@ const dailyMenus = [
       "p2_m1"
     ],
     "cena": [
-      "p2_m2",
-      "p2_m3"
+      "p2_m2"
     ],
     "extra": [
-      "p2_m4",
-      "p2_m5"
+      "p2_m3"
     ]
   },
   {
     "name": "Libre 2",
     "targetMacros": {
-      "calories": 1800,
-      "protein": 150,
-      "carbs": 120
+      "calories": 1900,
+      "protein": 140,
+      "carbs": 195
     },
     "baselineTotals": {
-      "calories": 2602,
-      "protein": 189,
-      "carbs": 259,
-      "fats": 86
+      "calories": 2135,
+      "protein": 141,
+      "carbs": 194,
+      "fats": 83
     },
     "desayuno": [
       "p3_m0"
@@ -1384,11 +1177,10 @@ const dailyMenus = [
       "p3_m1"
     ],
     "cena": [
-      "p3_m2",
-      "p3_m3"
+      "p3_m2"
     ],
     "extra": [
-      "p3_m4"
+      "p3_m3"
     ]
   }
 ];
