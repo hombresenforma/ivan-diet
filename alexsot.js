@@ -473,10 +473,10 @@ export const foodDatabase = {
   "o3_des": {
     "name": "Bol rápido de skyr, avena, frutos rojos y nueces",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68e7ef66df76fef1b58db3f2.png",
-    "calories": 456.25,
-    "protein": 23.25,
-    "carbs": 62,
-    "fats": 13.45,
+    "calories": 366.25,
+    "protein": 21.25,
+    "carbs": 59,
+    "fats": 5.45,
     "ingredients": [
       {
         "name": "Skyr natural 0%",
@@ -519,12 +519,12 @@ export const foodDatabase = {
       },
       {
         "name": "Nueces",
-        "quantity": "30",
+        "quantity": "10",
         "unit": "g",
-        "calories": 135,
-        "protein": 3,
-        "carbs": 4.5,
-        "fats": 12,
+        "calories": 45,
+        "protein": 1,
+        "carbs": 1.5,
+        "fats": 4,
         "baseCalories": 4.5,
         "baseProtein": 0.1,
         "baseCarbs": 0.15,
@@ -534,54 +534,81 @@ export const foodDatabase = {
     "preparation": "Mezclar el skyr con avena, frutos rojos y nueces. Se puede dejar listo la noche anterior."
   },
   "o3_com": {
-    "name": "Patatas con pavo y pimientos en air fryer",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cd8b854a1885423545b10.png",
-    "calories": 437.5,
-    "protein": 43,
-    "carbs": 50,
-    "fats": 5.55,
+    "name": "Patatas Cocidas con Salteado de Verduras y Hamburguesa a la plancha",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cf8559b0c6709fc9afa98.png",
+    "calories": 617.5,
+    "protein": 35.5,
+    "carbs": 48,
+    "fats": 31.525,
     "ingredients": [
       {
-        "name": "Patatas",
-        "quantity": "250",
+        "name": "Patata",
+        "quantity": "125",
         "unit": "g",
-        "calories": 192.5,
-        "protein": 5,
-        "carbs": 42.5,
-        "fats": 0.25,
-        "baseCalories": 0.77,
+        "calories": 112.5,
+        "protein": 2.5,
+        "carbs": 25,
+        "fats": 0.125,
+        "baseCalories": 0.9,
         "baseProtein": 0.02,
-        "baseCarbs": 0.17,
+        "baseCarbs": 0.2,
         "baseFats": 0.001
       },
       {
-        "name": "Pechuga de Pavo",
-        "quantity": "125",
+        "name": "Pimiento Verde",
+        "quantity": "100",
         "unit": "g",
-        "calories": 200,
-        "protein": 35,
-        "carbs": 0,
-        "fats": 5,
-        "baseCalories": 1.6,
-        "baseProtein": 0.28,
-        "baseCarbs": 0,
-        "baseFats": 0.04
-      },
-      {
-        "name": "Pimiento Rojo",
-        "quantity": "150",
-        "unit": "g",
-        "calories": 45,
-        "protein": 3,
-        "carbs": 7.5,
-        "fats": 0.3,
+        "calories": 30,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
         "baseCalories": 0.3,
         "baseProtein": 0.02,
         "baseCarbs": 0.05,
         "baseFats": 0.002
+      },
+      {
+        "name": "Pimiento Rojo",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 30,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Cebolla",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 100,
+        "protein": 5,
+        "carbs": 10,
+        "fats": 4,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Hamburguesa de Pavo-Pollo",
+        "quantity": "150",
+        "unit": "g",
+        "calories": 345,
+        "protein": 24,
+        "carbs": 3,
+        "fats": 27,
+        "baseCalories": 2.3,
+        "baseProtein": 0.16,
+        "baseCarbs": 0.02,
+        "baseFats": 0.18
       }
     ],
-    "preparation": "Asar las patatas y el pimiento en air fryer sin aceite. Cocinar el pavo en sartén antiadherente."
+    "preparation": "1. Cocer las patatas en agua con sal. 2. Mientras, saltear las verduras (pimiento, cebolla) en una sartén. 3. Cocinar la hamburguesa a la plancha. 4. Servir las patatas cocidas con el salteado de verduras y la hamburguesa.",
+    "originalBaseRecipeId": "cc_patatas_cocidas_con_salteado_de_verduras_y_hamburguesa_a_la_plancha"
   },
   "o3_cen": {
     "name": "Cuscús integral con atún, verduras y feta",
@@ -662,10 +689,10 @@ export const foodDatabase = {
   "o3_ext": {
     "name": "Queso fresco batido con manzana y nueces",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6879302d02da47667d446b43.png",
-    "calories": 347,
-    "protein": 27.6,
-    "carbs": 32.5,
-    "fats": 13.24,
+    "calories": 257,
+    "protein": 25.6,
+    "carbs": 29.5,
+    "fats": 5.24,
     "ingredients": [
       {
         "name": "Queso Fresco Batido",
@@ -696,12 +723,12 @@ export const foodDatabase = {
       },
       {
         "name": "Nueces",
-        "quantity": "30",
+        "quantity": "10",
         "unit": "g",
-        "calories": 135,
-        "protein": 3,
-        "carbs": 4.5,
-        "fats": 12,
+        "calories": 45,
+        "protein": 1,
+        "carbs": 1.5,
+        "fats": 4,
         "baseCalories": 4.5,
         "baseProtein": 0.1,
         "baseCarbs": 0.15,
@@ -786,9 +813,9 @@ export const dailyMenus = [
     ],
     "baselineTotals": {
       "calories": 1985.75,
-      "protein": 163.35,
-      "carbs": 198.4,
-      "fats": 56.24
+      "protein": 151.85,
+      "carbs": 190.4,
+      "fats": 66.215
     }
   }
 ];
