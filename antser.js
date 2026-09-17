@@ -68,19 +68,19 @@ const foodDatabase = {
   "p0_m1": {
     "name": "Estofado de Lentejas con Verduras y Costilla",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6922cf648c174dc51742182c.png",
-    "calories": 577,
-    "protein": 45,
-    "carbs": 49,
+    "calories": 512,
+    "protein": 41,
+    "carbs": 38,
     "fats": 20,
     "ingredients": [
       {
         "name": "Lentejas Cocidas",
-        "quantity": "150",
+        "quantity": "100",
         "unit": "g",
-        "calories": 195,
-        "protein": 12,
-        "carbs": 33,
-        "fats": 0.75,
+        "calories": 130,
+        "protein": 8,
+        "carbs": 22,
+        "fats": 0.5,
         "baseCalories": 1.3,
         "baseProtein": 0.08,
         "baseCarbs": 0.22,
@@ -361,19 +361,19 @@ const foodDatabase = {
   "p1_m1": {
     "name": "Ensala de Patata, Atún y Huevo",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afc08b91eb31afe3d4796.png",
-    "calories": 595,
-    "protein": 64,
-    "carbs": 36,
-    "fats": 20,
+    "calories": 573,
+    "protein": 63,
+    "carbs": 31,
+    "fats": 19,
     "ingredients": [
       {
         "name": "Patata",
-        "quantity": "100",
+        "quantity": "75",
         "unit": "g",
-        "calories": 90,
-        "protein": 2,
-        "carbs": 20,
-        "fats": 0.1,
+        "calories": 67.5,
+        "protein": 1.5,
+        "carbs": 15,
+        "fats": 0.075,
         "baseCalories": 0.9,
         "baseProtein": 0.02,
         "baseCarbs": 0.2,
@@ -654,19 +654,19 @@ const foodDatabase = {
   "p2_m1": {
     "name": "Musakka de Patata al horno con verduras y carne picada",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684efda5653a2c17a7172d67.png",
-    "calories": 650,
-    "protein": 43,
-    "carbs": 32,
-    "fats": 37,
+    "calories": 487,
+    "protein": 32,
+    "carbs": 26,
+    "fats": 27,
     "ingredients": [
       {
         "name": "Patata",
-        "quantity": "100",
+        "quantity": "75",
         "unit": "g",
-        "calories": 90,
-        "protein": 2,
-        "carbs": 20,
-        "fats": 0.1,
+        "calories": 67.5,
+        "protein": 1.5,
+        "carbs": 15,
+        "fats": 0.075,
         "baseCalories": 0.9,
         "baseProtein": 0.02,
         "baseCarbs": 0.2,
@@ -710,19 +710,6 @@ const foodDatabase = {
         "baseProtein": 0.02,
         "baseCarbs": 0.05,
         "baseFats": 0.002
-      },
-      {
-        "name": "Queso Rallado",
-        "quantity": "40",
-        "unit": "g",
-        "calories": 140,
-        "protein": 10,
-        "carbs": 0.8,
-        "fats": 10,
-        "baseCalories": 3.5,
-        "baseProtein": 0.25,
-        "baseCarbs": 0.02,
-        "baseFats": 0.25
       },
       {
         "name": "Carne Picada Mixta (Ternera y Cerdo)",
@@ -999,19 +986,19 @@ const foodDatabase = {
   "p3_m1": {
     "name": "Pasta de lentejas con sofrito de ternera y cerdo",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684efc77653a2c50f9172c7c.png",
-    "calories": 690,
-    "protein": 53,
-    "carbs": 47,
+    "calories": 658,
+    "protein": 51,
+    "carbs": 42,
     "fats": 30,
     "ingredients": [
       {
         "name": "Pasta de Lentejas",
-        "quantity": "100",
+        "quantity": "75",
         "unit": "g",
-        "calories": 130,
-        "protein": 8,
-        "carbs": 22,
-        "fats": 0.5,
+        "calories": 97.5,
+        "protein": 6,
+        "carbs": 16.5,
+        "fats": 0.375,
         "baseCalories": 1.3,
         "baseProtein": 0.08,
         "baseCarbs": 0.22,
@@ -1431,72 +1418,72 @@ const foodDatabase = {
     "originalBaseRecipeId": "ext_frutos_secos_mezcla"
   },
   "p5_m0": {
-    "name": "Porridge de Avena y Frutos Rojos",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afdf19b8ed348797cbcd8.png",
-    "calories": 394,
-    "protein": 15,
-    "carbs": 66,
+    "name": "Tostada de Centeno con Cottage y Pavo",
+    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69b669d75b89c7ceec966248.png",
+    "calories": 318,
+    "protein": 38,
+    "carbs": 22,
     "fats": 7,
     "ingredients": [
       {
-        "name": "Copos de Avena",
-        "quantity": "60",
-        "unit": "g",
-        "calories": 219,
-        "protein": 7.199999999999999,
-        "carbs": 45,
+        "name": "Pan de Centeno",
+        "quantity": "1",
+        "unit": "rebanada",
+        "calories": 108,
+        "protein": 3.5999999999999996,
+        "carbs": 20,
         "fats": 1.2,
-        "baseCalories": 3.65,
-        "baseProtein": 0.11999999999999998,
-        "baseCarbs": 0.75,
-        "baseFats": 0.02
+        "baseCalories": 108,
+        "baseProtein": 3.5999999999999996,
+        "baseCarbs": 20,
+        "baseFats": 1.2
       },
       {
-        "name": "Leche",
-        "quantity": "150",
+        "name": "Queso Cottage",
+        "quantity": "50",
         "unit": "g",
-        "calories": 150,
-        "protein": 7.5,
-        "carbs": 15,
-        "fats": 6,
+        "calories": 50,
+        "protein": 6,
+        "carbs": 2,
+        "fats": 2,
         "baseCalories": 1,
-        "baseProtein": 0.05,
-        "baseCarbs": 0.1,
+        "baseProtein": 0.12,
+        "baseCarbs": 0.04,
         "baseFats": 0.04
       },
       {
-        "name": "Frutos Rojos",
-        "quantity": "50",
+        "name": "Pavo",
+        "quantity": "100",
         "unit": "g",
-        "calories": 25,
-        "protein": 0.5,
-        "carbs": 6,
-        "fats": 0.25,
-        "baseCalories": 0.5,
-        "baseProtein": 0.01,
-        "baseCarbs": 0.12,
-        "baseFats": 0.005
+        "calories": 160,
+        "protein": 28.000000000000004,
+        "carbs": 0,
+        "fats": 4,
+        "baseCalories": 1.6,
+        "baseProtein": 0.28,
+        "baseCarbs": 0,
+        "baseFats": 0.04
       }
     ],
-    "preparation": "1. En un cazo, cocinar los copos de avena con la leche o bebida vegetal a fuego medio, removiendo constantemente hasta que espese y la avena esté cocida (unos 5-7 minutos). 2. Servir caliente en un bol con los frutos rojos por encima. Opcional: añadir canela o edulcorante al gusto.",
-    "originalBaseRecipeId": "des_porridge_de_avena_y_frutos_rojos"
+    "preparation": "1. Tostar el pan de centeno. 2. Untar el queso cottage. 3. Colocar las lonchas de pavo encima.",
+    "originalBaseRecipeId": "des_tostada_de_centeno_con_cottage_y_pavo"
   },
   "p5_m1": {
-    "name": "Ensalada de garbanzos con verduras y queso",
+    "name": "Ensalada de garbanzos con verduras",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68ff252d3f16b5241c27c1e4.png",
-    "calories": 558,
-    "protein": 31,
-    "carbs": 66,
-    "fats": 17,
+    "calories": 378,
+    "protein": 17,
+    "carbs": 42,
+    "fats": 15,
     "ingredients": [
       {
         "name": "Garbanzos en Conserva",
-        "quantity": "200",
+        "quantity": "100",
         "unit": "g",
-        "calories": 260,
-        "protein": 16,
-        "carbs": 44,
-        "fats": 1,
+        "calories": 130,
+        "protein": 8,
+        "carbs": 22,
+        "fats": 0.5,
         "baseCalories": 1.3,
         "baseProtein": 0.08,
         "baseCarbs": 0.22,
@@ -1542,19 +1529,6 @@ const foodDatabase = {
         "baseFats": 0.002
       },
       {
-        "name": "Queso de Burgos 0%",
-        "quantity": "50",
-        "unit": "g",
-        "calories": 50,
-        "protein": 6,
-        "carbs": 2,
-        "fats": 2,
-        "baseCalories": 1,
-        "baseProtein": 0.12,
-        "baseCarbs": 0.04,
-        "baseFats": 0.04
-      },
-      {
         "name": "Aceite de Oliva Virgen",
         "quantity": "10",
         "unit": "g",
@@ -1572,6 +1546,44 @@ const foodDatabase = {
     "originalBaseRecipeId": "pp_ensalada_de_garbanzos_con_verduras_y_queso"
   },
   "p5_m2": {
+    "name": "Huevo Duro Cocido",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68f27f5bfb2e440988a37788.png",
+    "calories": 344,
+    "protein": 21,
+    "carbs": 2,
+    "fats": 28,
+    "ingredients": [
+      {
+        "name": "Huevo Cocido",
+        "quantity": "3",
+        "unit": "ud",
+        "calories": 255.75,
+        "protein": 21.450000000000003,
+        "carbs": 1.8150000000000004,
+        "fats": 18.15,
+        "baseCalories": 85.25,
+        "baseProtein": 7.150000000000001,
+        "baseCarbs": 0.6050000000000001,
+        "baseFats": 6.05
+      },
+      {
+        "name": "Aceite de Oliva Virgen",
+        "quantity": "10",
+        "unit": "g",
+        "calories": 88.4,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 10,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1
+      }
+    ],
+    "preparation": "Cocer the huevo en agua hirviendo durante 10-12 minutos. Pelar y servir.",
+    "originalBaseRecipeId": "ac_huevo_duro_cocido"
+  },
+  "p5_m3": {
     "name": "Ensalada de Tomate, Ajo y Cebolla",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe199b8ed3c4d37cbd18.png",
     "calories": 68,
@@ -1609,7 +1621,7 @@ const foodDatabase = {
     "preparation": "1. Lavar bien los tomates y cortarlos en rodajas, gajos o dados, según preferencia. 2. Pelar y picar la cebolla en juliana fina. Para suavizar su sabor, se puede dejar en remojo en agua fría con un poco de vinagre durante 10 minutos y luego escurrir. 3. Pelar y picar el ajo muy finamente, o machacarlo en un mortero. 4. En un bol o fuente, combinar el tomate, la cebolla y el ajo. 5. Aliñar generosamente con aceite de oliva virgen extra de buena calidad, un poco de vinagre (opcional, preferiblemente de Jerez o manzana) y sal. Mezclar bien y dejar reposar unos minutos antes de servir para que se integren los sabores.",
     "originalBaseRecipeId": "pp_ensalada_de_tomate_ajo_y_cebolla"
   },
-  "p5_m3": {
+  "p5_m4": {
     "name": "Pechuga de Pollo a la Plancha",
     "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69b66b3087f0f2415505fc9a.png",
     "calories": 288,
@@ -1634,7 +1646,7 @@ const foodDatabase = {
     "preparation": "1. Sazonar la pechuga de pollo con sal, pimienta y especias al gusto. 2. Calentar una plancha o sartén antiadherente con una gota de aceite. 3. Cocinar la pechuga hasta que esté dorada por fuera y cocida por dentro.",
     "originalBaseRecipeId": "ac_pechuga_de_pollo_a_la_plancha"
   },
-  "p5_m4": {
+  "p5_m5": {
     "name": "Fruta Cítrica (Mandarina, Kiwi, Naranja...)",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd3d0ed506305442ffe4.png",
     "calories": 45,
@@ -1659,7 +1671,7 @@ const foodDatabase = {
     "preparation": "1. Seleccionar la fruta cítrica de preferencia. 2. Lavar bien la fruta bajo el grifo. 3. Para mandarinas y naranjas: pelar la piel con las manos. 4. Para kiwis: cortar por la mitad y comer la pulpa con una cucharita.",
     "originalBaseRecipeId": "ext_fruta_ctrica_mandarina_kiwi_naranja"
   },
-  "p5_m5": {
+  "p5_m6": {
     "name": "Yogur Protéico (Sabores, Natural...)",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd789b8ed38b127cbc09.png",
     "calories": 125,
@@ -1683,44 +1695,6 @@ const foodDatabase = {
     ],
     "preparation": "1. Seleccionar el yogur proteico de preferencia. 2. Abrir el envase. 3. Consumir directamente con una cuchara.",
     "originalBaseRecipeId": "ext_yogur_protico_sabores_natural"
-  },
-  "p5_m6": {
-    "name": "Huevo Duro Cocido",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68f27f5bfb2e440988a37788.png",
-    "calories": 344,
-    "protein": 21,
-    "carbs": 2,
-    "fats": 28,
-    "ingredients": [
-      {
-        "name": "Huevo Cocido",
-        "quantity": "3",
-        "unit": "ud",
-        "calories": 255.75,
-        "protein": 21.450000000000003,
-        "carbs": 1.8150000000000004,
-        "fats": 18.15,
-        "baseCalories": 85.25,
-        "baseProtein": 7.15,
-        "baseCarbs": 0.6050000000000001,
-        "baseFats": 6.05
-      },
-      {
-        "name": "Aceite de Oliva Virgen",
-        "quantity": "10",
-        "unit": "g",
-        "calories": 88.4,
-        "protein": 0,
-        "carbs": 0,
-        "fats": 10,
-        "baseCalories": 8.84,
-        "baseProtein": 0,
-        "baseCarbs": 0,
-        "baseFats": 1
-      }
-    ],
-    "preparation": "Cocer the huevo en agua hirviendo durante 10-12 minutos. Pelar y servir.",
-    "originalBaseRecipeId": "ac_huevo_duro_cocido"
   }
 };
 const dailyMenus = [
@@ -1879,15 +1853,15 @@ const dailyMenus = [
     ],
     "comida": [
       "p5_m1",
-      "p5_m6"
+      "p5_m2"
     ],
     "cena": [
-      "p5_m2",
-      "p5_m3"
+      "p5_m3",
+      "p5_m4"
     ],
     "extra": [
-      "p5_m4",
-      "p5_m5"
+      "p5_m5",
+      "p5_m6"
     ]
   }
 ];
