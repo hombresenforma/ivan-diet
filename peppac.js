@@ -3,10 +3,10 @@ export const foodDatabase = {
   "p0_m0": {
     "name": "Tostada de Centeno con Huevo y Queso Cottage",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682ad5cf9b8ed31c657c80e8.png",
-    "calories": 431,
-    "protein": 26.8,
-    "carbs": 33.9,
-    "fats": 20.6,
+    "calories": 354,
+    "protein": 20.3,
+    "carbs": 33.4,
+    "fats": 15.1,
     "ingredients": [
       {
         "name": "Tostada de Pan de Centeno",
@@ -23,12 +23,12 @@ export const foodDatabase = {
       },
       {
         "name": "Huevo",
-        "quantity": "2",
+        "quantity": "1",
         "unit": "unidad(es)",
-        "calories": 155.0,
-        "protein": 13.0,
-        "carbs": 1.1,
-        "fats": 11.0,
+        "calories": 77.5,
+        "protein": 6.5,
+        "carbs": 0.6,
+        "fats": 5.5,
         "baseCalories": 77.5,
         "baseProtein": 6.5,
         "baseCarbs": 0.55,
@@ -67,19 +67,19 @@ export const foodDatabase = {
   "p0_m1": {
     "name": "Patatas Cocidas con Salteado de Verduras y Hamburguesa a la plancha",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cf8559b0c6709fc9afa98.png",
-    "calories": 704,
-    "protein": 50.0,
-    "carbs": 77.5,
-    "fats": 21.7,
+    "calories": 497,
+    "protein": 45.4,
+    "carbs": 31.5,
+    "fats": 21.4,
     "ingredients": [
       {
         "name": "Patata",
-        "quantity": "350",
+        "quantity": "120",
         "unit": "g",
-        "calories": 315.0,
-        "protein": 7.0,
-        "carbs": 70.0,
-        "fats": 0.4,
+        "calories": 108.0,
+        "protein": 2.4,
+        "carbs": 24.0,
+        "fats": 0.1,
         "baseCalories": 0.9,
         "baseProtein": 0.02,
         "baseCarbs": 0.2,
@@ -157,19 +157,19 @@ export const foodDatabase = {
   "p0_m2": {
     "name": "Boniato asado con ensalada de tomate",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684efcd1f6c48df26aa5ba5b.png",
-    "calories": 374,
-    "protein": 10.0,
-    "carbs": 70.0,
-    "fats": 5.7,
+    "calories": 329,
+    "protein": 9.0,
+    "carbs": 60.0,
+    "fats": 5.6,
     "ingredients": [
       {
         "name": "Boniato",
-        "quantity": "300",
+        "quantity": "250",
         "unit": "g",
-        "calories": 270.0,
-        "protein": 6.0,
-        "carbs": 60.0,
-        "fats": 0.3,
+        "calories": 225.0,
+        "protein": 5.0,
+        "carbs": 50.0,
+        "fats": 0.2,
         "baseCalories": 0.9,
         "baseProtein": 0.02,
         "baseCarbs": 0.2,
@@ -259,19 +259,19 @@ export const foodDatabase = {
   "p0_m4": {
     "name": "Fruta Cítrica (Mandarina, Kiwi, Naranja...)",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd3d0ed506305442ffe4.png",
-    "calories": 90,
-    "protein": 0.8,
-    "carbs": 22.5,
-    "fats": 0.3,
+    "calories": 45,
+    "protein": 0.4,
+    "carbs": 11.2,
+    "fats": 0.2,
     "ingredients": [
       {
         "name": "Kiwi",
-        "quantity": "2",
+        "quantity": "1",
         "unit": "unidad(es)",
-        "calories": 90.0,
-        "protein": 0.8,
-        "carbs": 22.5,
-        "fats": 0.3,
+        "calories": 45.0,
+        "protein": 0.4,
+        "carbs": 11.2,
+        "fats": 0.2,
         "baseCalories": 45,
         "baseProtein": 0.375,
         "baseCarbs": 11.25,
@@ -282,63 +282,63 @@ export const foodDatabase = {
     "originalBaseRecipeId": "ext_fruta_ctrica_mandarina_kiwi_naranja"
   },
   "p0_m5": {
-    "name": "Frutos Secos (Mezcla)",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68525c0b1d27cfeb580a55f7.png",
-    "calories": 135,
-    "protein": 3.0,
-    "carbs": 4.5,
-    "fats": 12.0,
+    "name": "Queso Fresco Batido con Frutos Rojos y Miel",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6879302d02da47667d446b43.png",
+    "calories": 208,
+    "protein": 24.8,
+    "carbs": 27.2,
+    "fats": 1.4,
     "ingredients": [
       {
-        "name": "Anacardos",
-        "quantity": "10",
+        "name": "Queso Fresco Batido",
+        "quantity": "250",
         "unit": "g",
-        "calories": 45.0,
-        "protein": 1.0,
-        "carbs": 1.5,
-        "fats": 4.0,
-        "baseCalories": 4.5,
-        "baseProtein": 0.1,
-        "baseCarbs": 0.15,
-        "baseFats": 0.4
+        "calories": 140.0,
+        "protein": 24.0,
+        "carbs": 10.0,
+        "fats": 1.0,
+        "baseCalories": 0.56,
+        "baseProtein": 0.096,
+        "baseCarbs": 0.04,
+        "baseFats": 0.004
       },
       {
-        "name": "Almendras",
-        "quantity": "10",
+        "name": "Frutos Rojos",
+        "quantity": "75",
         "unit": "g",
-        "calories": 45.0,
-        "protein": 1.0,
-        "carbs": 1.5,
-        "fats": 4.0,
-        "baseCalories": 4.5,
-        "baseProtein": 0.1,
-        "baseCarbs": 0.15,
-        "baseFats": 0.4
+        "calories": 37.5,
+        "protein": 0.8,
+        "carbs": 9.0,
+        "fats": 0.4,
+        "baseCalories": 0.5,
+        "baseProtein": 0.01,
+        "baseCarbs": 0.12,
+        "baseFats": 0.005
       },
       {
-        "name": "Nueces",
+        "name": "Miel Cruda",
         "quantity": "10",
         "unit": "g",
-        "calories": 45.0,
-        "protein": 1.0,
-        "carbs": 1.5,
-        "fats": 4.0,
-        "baseCalories": 4.5,
-        "baseProtein": 0.1,
-        "baseCarbs": 0.15,
-        "baseFats": 0.4
+        "calories": 30.4,
+        "protein": 0.0,
+        "carbs": 8.2,
+        "fats": 0.0,
+        "baseCalories": 3.04,
+        "baseProtein": 0.003,
+        "baseCarbs": 0.82,
+        "baseFats": 0
       }
     ],
-    "preparation": "Consumir directamente como un snack energético y nutritivo.",
-    "originalBaseRecipeId": "ext_frutos_secos_mezcla"
+    "preparation": "1. En un bol, verter el queso fresco. 2. Añadir los frutos rojos frescos o descongelados. 3. Echar la cantidad de miel acordada por encima.",
+    "originalBaseRecipeId": "ext_queso_fresco_batido_con_frutos_rojos_y_miel"
   },
   "p1_m0": {
     "name": "Bol proteico de skyr, frutos rojos y avena",
     "image": "https://raw.githubusercontent.com/hombresenforma/ivan-diet/main/assets/ivandt/sin-cocina/bol-skyr-frutos-rojos-avena.jpg",
-    "calories": 560,
-    "protein": 53.8,
-    "carbs": 65.0,
-    "fats": 6.8,
+    "calories": 524,
+    "protein": 59.2,
+    "carbs": 53.5,
+    "fats": 5.8,
     "ingredients": [
       {
         "name": "Skyr natural 0%",
@@ -355,12 +355,12 @@ export const foodDatabase = {
       },
       {
         "name": "Proteína whey",
-        "quantity": "20",
+        "quantity": "30",
         "unit": "g",
-        "calories": 76.0,
-        "protein": 16.0,
-        "carbs": 1.0,
-        "fats": 0.8,
+        "calories": 114.0,
+        "protein": 24.0,
+        "carbs": 1.5,
+        "fats": 1.2,
         "baseCalories": 3.8,
         "baseProtein": 0.8,
         "baseCarbs": 0.05,
@@ -381,12 +381,12 @@ export const foodDatabase = {
       },
       {
         "name": "Copos de avena",
-        "quantity": "70",
+        "quantity": "50",
         "unit": "g",
-        "calories": 259.0,
-        "protein": 9.1,
-        "carbs": 42.0,
-        "fats": 4.9,
+        "calories": 185.0,
+        "protein": 6.5,
+        "carbs": 30.0,
+        "fats": 3.5,
         "baseCalories": 3.7,
         "baseProtein": 0.13,
         "baseCarbs": 0.6,
@@ -396,83 +396,6 @@ export const foodDatabase = {
     "preparation": "Poner el skyr en un bol, mezclar la proteína y añadir la avena y los frutos rojos. Se prepara en 3 minutos, sin fuego, cocina ni electrodomésticos."
   },
   "p1_m1": {
-    "name": "Arroz Basmati con Pavo y Verduras",
-    "image": "https://raw.githubusercontent.com/hombresenforma/ivan-diet/main/assets/ivandt/prueba-chatgpt/arroz-basmati-pavo-verduras.jpg",
-    "calories": 862,
-    "protein": 74.4,
-    "carbs": 100.0,
-    "fats": 15.8,
-    "ingredients": [
-      {
-        "name": "Arroz Basmati en Crudo",
-        "quantity": "120",
-        "unit": "g",
-        "calories": 438.0,
-        "protein": 14.4,
-        "carbs": 90.0,
-        "fats": 2.4,
-        "baseCalories": 3.65,
-        "baseProtein": 0.12,
-        "baseCarbs": 0.75,
-        "baseFats": 0.02
-      },
-      {
-        "name": "Pechuga de Pavo",
-        "quantity": "200",
-        "unit": "g",
-        "calories": 320.0,
-        "protein": 56.0,
-        "carbs": 0.0,
-        "fats": 8.0,
-        "baseCalories": 1.6,
-        "baseProtein": 0.28,
-        "baseCarbs": 0,
-        "baseFats": 0.04
-      },
-      {
-        "name": "Calabacín",
-        "quantity": "100",
-        "unit": "g",
-        "calories": 30.0,
-        "protein": 2.0,
-        "carbs": 5.0,
-        "fats": 0.2,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Zanahoria",
-        "quantity": "100",
-        "unit": "g",
-        "calories": 30.0,
-        "protein": 2.0,
-        "carbs": 5.0,
-        "fats": 0.2,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Aceite de Oliva Virgen",
-        "quantity": "5",
-        "unit": "g",
-        "calories": 44.2,
-        "protein": 0.0,
-        "carbs": 0.0,
-        "fats": 5.0,
-        "baseCalories": 8.84,
-        "baseProtein": 0,
-        "baseCarbs": 0,
-        "baseFats": 1
-      }
-    ],
-    "preparation": "1. Cocer el arroz basmati. 2. Saltear el pavo troceado con el calabacín y la zanahoria. 3. Incorporar el arroz y mezclar antes de servir.",
-    "originalBaseRecipeId": "cc_arroz_basmati_con_pavo_y_verduras"
-  },
-  "p1_m2": {
     "name": "Pimientos Salteados con Cebolla y Tomate Cherry.",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cd7144d6fb7451eb7bbf9.png",
     "calories": 104,
@@ -536,7 +459,7 @@ export const foodDatabase = {
     "preparation": "1. Lavar las verduras y cortarlas a láminas finas a lo largo. 2. Poner un poco de aceite en una sartén y saltear las verduras.",
     "originalBaseRecipeId": "pp_pimientos_salteados_con_cebolla_y_tomate_cherry"
   },
-  "p1_m3": {
+  "p1_m2": {
     "name": "Revuelto de Huevos con Queso Habarti Light",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684f0183653a2c532c17327c.png",
     "calories": 356,
@@ -587,6 +510,83 @@ export const foodDatabase = {
     "preparation": "1. Batir los huevos en un bol con una pizca de sal y pimienta. 2. Cortar el queso Havarti light en trocitos pequeños o rallarlo. 3. Calentar una sartén antiadherente a fuego medio con una pizca de aceite de oliva o mantequilla (opcional). 4. Verter los huevos batidos en la sartén caliente. Dejar que empiecen a cuajar ligeramente por los bordes. 5. Añadir los trocitos de queso Havarti light distribuyéndolos por encima de los huevos. 6. Remover suavemente con una espátula, llevando los bordes cuajados hacia el centro y permitiendo que la parte líquida fluya hacia los lados, hasta que los huevos estén cuajados al gusto y el queso esté derretido e integrado.",
     "originalBaseRecipeId": "ac_revuelto_de_huevos_con_queso_habarti_light"
   },
+  "p1_m3": {
+    "name": "Arroz Basmati con Pavo y Verduras",
+    "image": "https://raw.githubusercontent.com/hombresenforma/ivan-diet/main/assets/ivandt/prueba-chatgpt/arroz-basmati-pavo-verduras.jpg",
+    "calories": 680,
+    "protein": 68.4,
+    "carbs": 62.5,
+    "fats": 14.8,
+    "ingredients": [
+      {
+        "name": "Arroz Basmati en Crudo",
+        "quantity": "70",
+        "unit": "g",
+        "calories": 255.5,
+        "protein": 8.4,
+        "carbs": 52.5,
+        "fats": 1.4,
+        "baseCalories": 3.65,
+        "baseProtein": 0.12,
+        "baseCarbs": 0.75,
+        "baseFats": 0.02
+      },
+      {
+        "name": "Pechuga de Pavo",
+        "quantity": "200",
+        "unit": "g",
+        "calories": 320.0,
+        "protein": 56.0,
+        "carbs": 0.0,
+        "fats": 8.0,
+        "baseCalories": 1.6,
+        "baseProtein": 0.28,
+        "baseCarbs": 0,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Calabacín",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 30.0,
+        "protein": 2.0,
+        "carbs": 5.0,
+        "fats": 0.2,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Zanahoria",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 30.0,
+        "protein": 2.0,
+        "carbs": 5.0,
+        "fats": 0.2,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Aceite de Oliva Virgen",
+        "quantity": "5",
+        "unit": "g",
+        "calories": 44.2,
+        "protein": 0.0,
+        "carbs": 0.0,
+        "fats": 5.0,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1
+      }
+    ],
+    "preparation": "1. Cocer el arroz basmati. 2. Saltear el pavo troceado con el calabacín y la zanahoria. 3. Incorporar el arroz y mezclar antes de servir.",
+    "originalBaseRecipeId": "cc_arroz_basmati_con_pavo_y_verduras"
+  },
   "p1_m4": {
     "name": "Fruta Densa (Plátano, Manzana, Pera)",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe4bb91eb325b93d4a82.png",
@@ -615,19 +615,19 @@ export const foodDatabase = {
   "p1_m5": {
     "name": "Onza de Chocolate 85%",
     "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69b51011eba487f7273f1096.png",
-    "calories": 110,
-    "protein": 1.2,
-    "carbs": 6.0,
-    "fats": 8.0,
+    "calories": 55,
+    "protein": 0.6,
+    "carbs": 3.0,
+    "fats": 4.0,
     "ingredients": [
       {
         "name": "Chocolate 85%",
-        "quantity": "20",
+        "quantity": "10",
         "unit": "g",
-        "calories": 110.0,
-        "protein": 1.2,
-        "carbs": 6.0,
-        "fats": 8.0,
+        "calories": 55.0,
+        "protein": 0.6,
+        "carbs": 3.0,
+        "fats": 4.0,
         "baseCalories": 5.5,
         "baseProtein": 0.06,
         "baseCarbs": 0.3,
@@ -702,70 +702,6 @@ export const foodDatabase = {
     "originalBaseRecipeId": "des_sandwich_vegetal_de_atn"
   },
   "p2_m1": {
-    "name": "Quinoa con ternera y verduras",
-    "image": "https://raw.githubusercontent.com/hombresenforma/ivan-diet/main/assets/ivandt/dias-4-7/quinoa-ternera-verduras.jpg",
-    "calories": 887,
-    "protein": 55.8,
-    "carbs": 86.8,
-    "fats": 25.1,
-    "ingredients": [
-      {
-        "name": "Quinoa",
-        "quantity": "120",
-        "unit": "g",
-        "calories": 441.6,
-        "protein": 16.8,
-        "carbs": 76.8,
-        "fats": 7.2,
-        "baseCalories": 3.68,
-        "baseProtein": 0.14,
-        "baseCarbs": 0.64,
-        "baseFats": 0.06
-      },
-      {
-        "name": "Ternera magra",
-        "quantity": "175",
-        "unit": "g",
-        "calories": 385.0,
-        "protein": 35.0,
-        "carbs": 0.0,
-        "fats": 17.5,
-        "baseCalories": 2.2,
-        "baseProtein": 0.2,
-        "baseCarbs": 0,
-        "baseFats": 0.1
-      },
-      {
-        "name": "Pimiento Rojo",
-        "quantity": "100",
-        "unit": "g",
-        "calories": 30.0,
-        "protein": 2.0,
-        "carbs": 5.0,
-        "fats": 0.2,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Calabacín",
-        "quantity": "100",
-        "unit": "g",
-        "calories": 30.0,
-        "protein": 2.0,
-        "carbs": 5.0,
-        "fats": 0.2,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
-      }
-    ],
-    "preparation": "1. Lavar y cocer la quinoa según el envase. 2. Saltear el pimiento y el calabacín con el aceite medido, añadir la ternera en tiras y cocinar; mezclar con la quinoa.",
-    "originalBaseRecipeId": "cc_quinoa_con_ternera_y_verduras"
-  },
-  "p2_m2": {
     "name": "Calabacín con Cebolla a la Plancha",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afc8e9b8ed35d8e7cbb0e.png",
     "calories": 89,
@@ -816,22 +752,22 @@ export const foodDatabase = {
     "preparation": "1. Lavar el calabacín y cortarlo en rodajas de aproximadamente 0.5 a 1 cm de grosor. Pelar y cortar la cebolla en juliana o rodajas. 2. Calentar una plancha o sartén grande con un chorrito de aceite de oliva a fuego medio-alto. 3. Colocar las rodajas de calabacín y la cebolla sobre la plancha caliente. Cocinar durante 3-5 minutos por cada lado, o hasta que estén tiernos y presenten marcas doradas de la plancha. 4. Sazonar con sal, pimienta y opcionalmente un poco de ajo en polvo u orégano durante la cocción o al final.",
     "originalBaseRecipeId": "pp_calabacn_con_cebolla_a_la_plancha"
   },
-  "p2_m3": {
+  "p2_m2": {
     "name": "Pechuga de Pollo a la Plancha",
     "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69b66b3087f0f2415505fc9a.png",
-    "calories": 284,
-    "protein": 42.0,
+    "calories": 324,
+    "protein": 49.0,
     "carbs": 0.0,
-    "fats": 11.0,
+    "fats": 12.0,
     "ingredients": [
       {
         "name": "Pechuga de Pollo",
-        "quantity": "150",
+        "quantity": "175",
         "unit": "g",
-        "calories": 240.0,
-        "protein": 42.0,
+        "calories": 280.0,
+        "protein": 49.0,
         "carbs": 0.0,
-        "fats": 6.0,
+        "fats": 7.0,
         "baseCalories": 1.6,
         "baseProtein": 0.28,
         "baseCarbs": 0,
@@ -853,6 +789,70 @@ export const foodDatabase = {
     ],
     "preparation": "1. Sazonar la pechuga de pollo con sal, pimienta y especias al gusto. 2. Calentar una plancha o sartén antiadherente con una gota de aceite. 3. Cocinar la pechuga hasta que esté dorada por fuera y cocida por dentro.",
     "originalBaseRecipeId": "ac_pechuga_de_pollo_a_la_plancha"
+  },
+  "p2_m3": {
+    "name": "Quinoa con ternera y verduras",
+    "image": "https://raw.githubusercontent.com/hombresenforma/ivan-diet/main/assets/ivandt/dias-4-7/quinoa-ternera-verduras.jpg",
+    "calories": 684,
+    "protein": 45.2,
+    "carbs": 61.2,
+    "fats": 20.2,
+    "ingredients": [
+      {
+        "name": "Quinoa",
+        "quantity": "80",
+        "unit": "g",
+        "calories": 294.4,
+        "protein": 11.2,
+        "carbs": 51.2,
+        "fats": 4.8,
+        "baseCalories": 3.68,
+        "baseProtein": 0.14,
+        "baseCarbs": 0.64,
+        "baseFats": 0.06
+      },
+      {
+        "name": "Ternera magra",
+        "quantity": "150",
+        "unit": "g",
+        "calories": 330.0,
+        "protein": 30.0,
+        "carbs": 0.0,
+        "fats": 15.0,
+        "baseCalories": 2.2,
+        "baseProtein": 0.2,
+        "baseCarbs": 0,
+        "baseFats": 0.1
+      },
+      {
+        "name": "Pimiento Rojo",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 30.0,
+        "protein": 2.0,
+        "carbs": 5.0,
+        "fats": 0.2,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Calabacín",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 30.0,
+        "protein": 2.0,
+        "carbs": 5.0,
+        "fats": 0.2,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      }
+    ],
+    "preparation": "1. Lavar y cocer la quinoa según el envase. 2. Saltear el pimiento y el calabacín con el aceite medido, añadir la ternera en tiras y cocinar; mezclar con la quinoa.",
+    "originalBaseRecipeId": "cc_quinoa_con_ternera_y_verduras"
   },
   "p2_m4": {
     "name": "Batido Whey de Proteínas",
@@ -882,10 +882,10 @@ export const foodDatabase = {
   "p2_m5": {
     "name": "Naranja con anacardos",
     "image": "https://raw.githubusercontent.com/hombresenforma/ivan-diet/main/assets/ivandt/dias-4-7/naranja-anacardos.jpg",
-    "calories": 270,
-    "protein": 3.5,
-    "carbs": 48.0,
-    "fats": 8.6,
+    "calories": 248,
+    "protein": 3.0,
+    "carbs": 47.2,
+    "fats": 6.6,
     "ingredients": [
       {
         "name": "Naranja",
@@ -902,12 +902,12 @@ export const foodDatabase = {
       },
       {
         "name": "Anacardos",
-        "quantity": "20",
+        "quantity": "15",
         "unit": "g",
-        "calories": 90.0,
-        "protein": 2.0,
-        "carbs": 3.0,
-        "fats": 8.0,
+        "calories": 67.5,
+        "protein": 1.5,
+        "carbs": 2.2,
+        "fats": 6.0,
         "baseCalories": 4.5,
         "baseProtein": 0.1,
         "baseCarbs": 0.15,
@@ -923,9 +923,9 @@ export const dailyMenus = [
   {
     "name": "Opciones 1",
     "targetMacros": {
-      "calories": 2100,
+      "calories": 1800,
       "protein": 160,
-      "carbs": 205
+      "carbs": 155
     },
     "desayuno": [
       "p0_m0"
@@ -945,18 +945,18 @@ export const dailyMenus = [
   {
     "name": "Opciones 2",
     "targetMacros": {
-      "calories": 2100,
+      "calories": 1800,
       "protein": 160,
-      "carbs": 205
+      "carbs": 155
     },
     "desayuno": [
       "p1_m0"
     ],
     "comida": [
-      "p1_m1"
+      "p1_m1",
+      "p1_m2"
     ],
     "cena": [
-      "p1_m2",
       "p1_m3"
     ],
     "extra": [
@@ -967,18 +967,18 @@ export const dailyMenus = [
   {
     "name": "Opciones 3",
     "targetMacros": {
-      "calories": 2100,
+      "calories": 1800,
       "protein": 160,
-      "carbs": 205
+      "carbs": 155
     },
     "desayuno": [
       "p2_m0"
     ],
     "comida": [
-      "p2_m1"
+      "p2_m1",
+      "p2_m2"
     ],
     "cena": [
-      "p2_m2",
       "p2_m3"
     ],
     "extra": [
