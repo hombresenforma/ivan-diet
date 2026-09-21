@@ -919,6 +919,401 @@ const foodDatabase = {
     ],
     "preparation": "Cocer the huevo en agua hirviendo durante 10-12 minutos. Pelar y servir.",
     "originalBaseRecipeId": "ac_huevo_duro_cocido"
+  },
+  "p3_m0": {
+    "name": "Revuelto de espinacas y champiñones con queso feta",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cfe059b0c6721a19b02e4.png",
+    "calories": 498,
+    "protein": 32,
+    "carbs": 8,
+    "fats": 38,
+    "ingredients": [
+      {
+        "name": "Espinacas",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 23,
+        "protein": 2.9,
+        "carbs": 1.4,
+        "fats": 0.4,
+        "baseCalories": 0.23,
+        "baseProtein": 0.029,
+        "baseCarbs": 0.014,
+        "baseFats": 0.004
+      },
+      {
+        "name": "Champiñones",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 22,
+        "protein": 3,
+        "carbs": 3,
+        "fats": 0.3,
+        "baseCalories": 0.22,
+        "baseProtein": 0.03,
+        "baseCarbs": 0.03,
+        "baseFats": 0.003
+      },
+      {
+        "name": "Queso Feta",
+        "quantity": "50",
+        "unit": "g",
+        "calories": 132,
+        "protein": 7,
+        "carbs": 2,
+        "fats": 10.5,
+        "baseCalories": 2.64,
+        "baseProtein": 0.14,
+        "baseCarbs": 0.04,
+        "baseFats": 0.21
+      },
+      {
+        "name": "Huevos",
+        "quantity": "3",
+        "unit": "ud",
+        "calories": 232.5,
+        "protein": 19.5,
+        "carbs": 1.7,
+        "fats": 16.5,
+        "baseCalories": 77.5,
+        "baseProtein": 6.5,
+        "baseCarbs": 0.55,
+        "baseFats": 5.5
+      },
+      {
+        "name": "Aceite de Oliva Virgen",
+        "quantity": "10",
+        "unit": "g",
+        "calories": 88.4,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 10,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1
+      }
+    ],
+    "preparation": "1. Saltear los champiñones y las espinacas en una sartén. 2. Batir los huevos y verterlos en la sartén. 3. Remover hasta que los huevos estén casi cuajados. 4. Añadir el queso feta desmenuzado y mezclar.",
+    "originalBaseRecipeId": "des_revuelto_de_espinacas_y_championes_con_queso_feta"
+  },
+  "p3_m1": {
+    "name": "Wok de Verduras con Salmón",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afda0b91eb330dd3d49b2.png",
+    "calories": 483,
+    "protein": 36,
+    "carbs": 20,
+    "fats": 28,
+    "ingredients": [
+      {
+        "name": "Tomate",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 30,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Pimiento Rojo",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 30,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Pimiento Verde",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 30,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Cebolla",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 30,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Lomo de Salmón",
+        "quantity": "125",
+        "unit": "g",
+        "calories": 275,
+        "protein": 27.5,
+        "carbs": 0,
+        "fats": 17.5,
+        "baseCalories": 2.2,
+        "baseProtein": 0.22,
+        "baseCarbs": 0,
+        "baseFats": 0.14
+      },
+      {
+        "name": "Aceite de Oliva Virgen Extra",
+        "quantity": "10",
+        "unit": "g",
+        "calories": 88.4,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 10,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1
+      }
+    ],
+    "preparation": "1. Cortar el salmón en dados de tamaño mediano. Picar el tomate, pimiento rojo, pimiento verde y cebolla en trozos adecuados para wok (ej. juliana gruesa o dados). 2. Calentar un wok o sartén grande con un poco de aceite a fuego alto. Saltear el salmón unos 2-3 minutos hasta que esté dorado por fuera pero ligeramente crudo por dentro. Retirar y reservar. 3. Añadir las verduras más duras (cebolla, pimientos) al wok y saltear durante 3-4 minutos. Luego añadir el tomate y saltear 1-2 minutos más. 4. Incorporar el salmón de nuevo al wok. Añadir salsa de soja (baja en sodio preferiblemente) y un toque de jengibre rallado o ajo picado (opcional). Mezclar bien y cocinar por 1-2 minutos más hasta que el salmón esté cocido y todo bien caliente. Servir inmediatamente, opcionalmente sobre una base de arroz o noodles.",
+    "originalBaseRecipeId": "cc_wok_de_verduras_con_salmn"
+  },
+  "p3_m2": {
+    "name": "Arroz Hervido",
+    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69fee8aca3dd25aa2ac2626b.png",
+    "calories": 475,
+    "protein": 16,
+    "carbs": 98,
+    "fats": 3,
+    "ingredients": [
+      {
+        "name": "Arroz",
+        "quantity": "130",
+        "unit": "g",
+        "calories": 474.5,
+        "protein": 15.6,
+        "carbs": 97.5,
+        "fats": 2.6,
+        "baseCalories": 3.65,
+        "baseProtein": 0.12,
+        "baseCarbs": 0.75,
+        "baseFats": 0.02
+      }
+    ],
+    "preparation": "1. Cocer el arroz en agua con sal según las instrucciones del paquete hasta que esté en su punto. 2. Escurrir bien y servir.",
+    "originalBaseRecipeId": ""
+  },
+  "p3_m3": {
+    "name": "Merluza a la Plancha",
+    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69b66b6dad027629d2f1e944.png",
+    "calories": 288,
+    "protein": 35,
+    "carbs": 0,
+    "fats": 15,
+    "ingredients": [
+      {
+        "name": "Filete de Merluza",
+        "quantity": "125",
+        "unit": "g",
+        "calories": 200,
+        "protein": 35,
+        "carbs": 0,
+        "fats": 5,
+        "baseCalories": 1.6,
+        "baseProtein": 0.28,
+        "baseCarbs": 0,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Aceite de Oliva Virgen Extra",
+        "quantity": "10",
+        "unit": "g",
+        "calories": 88.4,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 10,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1
+      }
+    ],
+    "preparation": "1. Sazonar los filetes o rodajas de merluza con sal, pimienta y opcionalmente un poco de ajo en polvo o perejil picado. 2. Calentar una plancha o sartén antiadherente a fuego medio-alto con un chorrito de aceite de oliva virgen extra. 3. Cuando el aceite esté caliente, colocar la merluza en la plancha. Cocinar durante unos 3-5 minutos por cada lado, dependiendo del grosor del pescado, hasta que esté opaca, bien cocida por dentro y se desmenuce fácilmente con un tenedor. 4. Servir inmediatamente, opcionalmente con un chorrito de zumo de limón fresco por encima.",
+    "originalBaseRecipeId": ""
+  },
+  "p3_m4": {
+    "name": "Boniato asado con ensalada de tomate",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684efcd1f6c48df26aa5ba5b.png",
+    "calories": 225,
+    "protein": 7,
+    "carbs": 48,
+    "fats": 1,
+    "ingredients": [
+      {
+        "name": "Boniato",
+        "quantity": "200",
+        "unit": "g",
+        "calories": 180,
+        "protein": 4,
+        "carbs": 40,
+        "fats": 0.2,
+        "baseCalories": 0.9,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.2,
+        "baseFats": 0.001
+      },
+      {
+        "name": "Tomate",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 30,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Cebolla",
+        "quantity": "50",
+        "unit": "g",
+        "calories": 15,
+        "protein": 1,
+        "carbs": 2.5,
+        "fats": 0.1,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      }
+    ],
+    "preparation": "1. Precalentar el horno a 200°C (390°F). Lavar bien el boniato, pincharlo varias veces con un tenedor para que no reviente durante la cocción. 2. Asar el boniato entero directamente sobre la rejilla del horno o en una bandeja durante 45-60 minutos, o hasta que esté tierno al pincharlo. 3. Mientras se asa el boniato, preparar la ensalada: lavar y cortar el tomate en dados pequeños. Picar la cebolla y el ajo muy finamente. 4. En un bol, mezclar el tomate, la cebolla y el ajo. Aliñar con aceite de oliva virgen extra, vinagre y sal al gusto. 5. Una vez el boniato esté asado y tierno, sacarlo del horno, dejarlo templar unos minutos, y luego abrirlo por la mitad a lo largo. Servirlo caliente o templado, acompañado de la ensalada de tomate.",
+    "originalBaseRecipeId": "pp_boniato_asado_con_ensalada_de_tomate"
+  },
+  "p3_m5": {
+    "name": "Fruta Cítrica (Mandarina, Kiwi, Naranja...)",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd3d0ed506305442ffe4.png",
+    "calories": 93,
+    "protein": 1,
+    "carbs": 23,
+    "fats": 0,
+    "ingredients": [
+      {
+        "name": "Kiwi",
+        "quantity": "1",
+        "unit": "unidad(es)",
+        "calories": 45,
+        "protein": 0.4,
+        "carbs": 11.3,
+        "fats": 0.2,
+        "baseCalories": 45,
+        "baseProtein": 0.375,
+        "baseCarbs": 11.25,
+        "baseFats": 0.15
+      },
+      {
+        "name": "Mandarina",
+        "quantity": "1",
+        "unit": "unidad(es)",
+        "calories": 48,
+        "protein": 0.4,
+        "carbs": 12,
+        "fats": 0.2,
+        "baseCalories": 48,
+        "baseProtein": 0.4,
+        "baseCarbs": 12,
+        "baseFats": 0.16
+      }
+    ],
+    "preparation": "1. Seleccionar la fruta cítrica de preferencia. 2. Lavar bien la fruta bajo el grifo. 3. Para mandarinas y naranjas: pelar la piel con las manos. 4. Para kiwis: cortar por la mitad y comer la pulpa con una cucharita.",
+    "originalBaseRecipeId": "ext_fruta_ctrica_mandarina_kiwi_naranja"
+  },
+  "p3_m6": {
+    "name": "Queso Fresco Batido con Frutos Rojos y Miel",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6879302d02da47667d446b43.png",
+    "calories": 150,
+    "protein": 13,
+    "carbs": 25,
+    "fats": 1,
+    "ingredients": [
+      {
+        "name": "Queso Fresco Batido",
+        "quantity": "125",
+        "unit": "g",
+        "calories": 70,
+        "protein": 12,
+        "carbs": 5,
+        "fats": 0.5,
+        "baseCalories": 0.56,
+        "baseProtein": 0.096,
+        "baseCarbs": 0.04,
+        "baseFats": 0.004
+      },
+      {
+        "name": "Frutos Rojos",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 50,
+        "protein": 1,
+        "carbs": 12,
+        "fats": 0.5,
+        "baseCalories": 0.5,
+        "baseProtein": 0.01,
+        "baseCarbs": 0.12,
+        "baseFats": 0.005
+      },
+      {
+        "name": "Miel Cruda",
+        "quantity": "10",
+        "unit": "g",
+        "calories": 30.4,
+        "protein": 0,
+        "carbs": 8.2,
+        "fats": 0,
+        "baseCalories": 3.04,
+        "baseProtein": 0.003,
+        "baseCarbs": 0.82,
+        "baseFats": 0
+      }
+    ],
+    "preparation": "1. Poner el queso fresco batido en un bol. 2. Lavar y escurrir los frutos rojos y repartirlos por encima. 3. Regar con la miel y servir frío.",
+    "originalBaseRecipeId": "ex_queso_fresco_batido_con_frutos_rojos_y_miel"
+  },
+  "p3_m7": {
+    "name": "Onza de Chocolate 85%",
+    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69b51011eba487f7273f1096.png",
+    "calories": 177,
+    "protein": 3,
+    "carbs": 6,
+    "fats": 15,
+    "ingredients": [
+      {
+        "name": "Chocolate 85%",
+        "quantity": "30",
+        "unit": "g",
+        "calories": 177,
+        "protein": 3,
+        "carbs": 6,
+        "fats": 15,
+        "baseCalories": 5.9,
+        "baseProtein": 0.1,
+        "baseCarbs": 0.2,
+        "baseFats": 0.5
+      }
+    ],
+    "preparation": "Consumir la onza de chocolate negro 85% como postre o snack.",
+    "originalBaseRecipeId": "ext_onza_de_chocolate_85"
   }
 };
 const dailyMenus = [
@@ -1003,6 +1398,36 @@ const dailyMenus = [
     ],
     "extra": [
       "p2_m3"
+    ]
+  },
+  {
+    "name": "Alto en HC 2",
+    "targetMacros": {
+      "calories": 2000,
+      "protein": 160,
+      "carbs": 220
+    },
+    "baselineTotals": {
+      "calories": 2390,
+      "protein": 142,
+      "carbs": 228,
+      "fats": 100
+    },
+    "desayuno": [
+      "p3_m0"
+    ],
+    "comida": [
+      "p3_m1",
+      "p3_m2"
+    ],
+    "cena": [
+      "p3_m3",
+      "p3_m4"
+    ],
+    "extra": [
+      "p3_m5",
+      "p3_m6",
+      "p3_m7"
     ]
   }
 ];
