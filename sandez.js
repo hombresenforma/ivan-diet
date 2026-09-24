@@ -1,4 +1,4 @@
-// Titulo: Plan de alimentación de Santi — 3 opciones
+// Titulo: Plan de alimentación de Santi — 4 opciones
 // Alergias: Sin restricciones médicas registradas
 export const foodDatabase = {
   "o1_des": {
@@ -771,6 +771,334 @@ export const foodDatabase = {
       }
     ],
     "preparation": "1. Lavar suavemente las frutas bajo agua fría. 2. Consumir directamente o mezclar con el batido."
+  },
+  "o4_des": {
+    "name": "Sandwich Vegetal de Atún",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cd60954a1880bed54596d.png",
+    "calories": 486.0,
+    "protein": 51.2,
+    "carbs": 45.0,
+    "fats": 8.6,
+    "ingredients": [
+      {
+        "name": "Pan de Centeno",
+        "quantity": "2",
+        "unit": "rebanada(s)",
+        "calories": 216,
+        "protein": 7.2,
+        "carbs": 40,
+        "fats": 2.4,
+        "baseCalories": 108,
+        "baseProtein": 3.6,
+        "baseCarbs": 20,
+        "baseFats": 1.2
+      },
+      {
+        "name": "Atún en Conserva",
+        "quantity": "150",
+        "unit": "g",
+        "calories": 240.0,
+        "protein": 42.0,
+        "carbs": 0,
+        "fats": 6.0,
+        "baseCalories": 1.6,
+        "baseProtein": 0.28,
+        "baseCarbs": 0,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Tomate",
+        "quantity": "50",
+        "unit": "g",
+        "calories": 15.0,
+        "protein": 1.0,
+        "carbs": 2.5,
+        "fats": 0.1,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Lechuga",
+        "quantity": "50",
+        "unit": "g",
+        "calories": 15.0,
+        "protein": 1.0,
+        "carbs": 2.5,
+        "fats": 0.1,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      }
+    ],
+    "preparation": "1. Prepara un bocadillo con un par de rebanadas de Pan de Centeno. 2. Añade el Atún bien escurrido y el tomate y la lechuga."
+  },
+  "o4_com": {
+    "name": "Estofado de Lentejas con Verduras y Costilla",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6922cf648c174dc51742182c.png",
+    "calories": 628.0,
+    "protein": 49.5,
+    "carbs": 59.2,
+    "fats": 19.2,
+    "ingredients": [
+      {
+        "name": "Lentejas Cocidas",
+        "quantity": "210",
+        "unit": "g",
+        "calories": 273.0,
+        "protein": 16.8,
+        "carbs": 46.2,
+        "fats": 1.05,
+        "baseCalories": 1.3,
+        "baseProtein": 0.08,
+        "baseCarbs": 0.22,
+        "baseFats": 0.005
+      },
+      {
+        "name": "Costilla de Cerdo",
+        "quantity": "125",
+        "unit": "g",
+        "calories": 275.0,
+        "protein": 27.5,
+        "carbs": 0,
+        "fats": 17.5,
+        "baseCalories": 2.2,
+        "baseProtein": 0.22,
+        "baseCarbs": 0,
+        "baseFats": 0.14
+      },
+      {
+        "name": "Zanahoria",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 30.0,
+        "protein": 2.0,
+        "carbs": 5.0,
+        "fats": 0.2,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Pimiento Rojo",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 30.0,
+        "protein": 2.0,
+        "carbs": 5.0,
+        "fats": 0.2,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Cebolla",
+        "quantity": "50",
+        "unit": "g",
+        "calories": 15.0,
+        "protein": 1.0,
+        "carbs": 2.5,
+        "fats": 0.1,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Ajo",
+        "quantity": "5",
+        "unit": "g",
+        "calories": 5,
+        "protein": 0.25,
+        "carbs": 0.5,
+        "fats": 0.2,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04
+      }
+    ],
+    "preparation": "1. Sofreír la costilla troceada hasta dorar. 2. Añadir las verduras picadas y pochar. 3. Añadir las lentejas (si son de bote, lavadas) y cubrir con agua o caldo. 4. Cocer a fuego lento hasta que espese."
+  },
+  "o4_cen": {
+    "name": "Wok de Verduras con Salmón",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afda0b91eb330dd3d49b2.png",
+    "calories": 549.2,
+    "protein": 46.5,
+    "carbs": 20.0,
+    "fats": 30.3,
+    "ingredients": [
+      {
+        "name": "Tomate",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 30.0,
+        "protein": 2.0,
+        "carbs": 5.0,
+        "fats": 0.2,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Pimiento Rojo",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 30.0,
+        "protein": 2.0,
+        "carbs": 5.0,
+        "fats": 0.2,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Pimiento Verde",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 30.0,
+        "protein": 2.0,
+        "carbs": 5.0,
+        "fats": 0.2,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Cebolla",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 30.0,
+        "protein": 2.0,
+        "carbs": 5.0,
+        "fats": 0.2,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Lomo de Salmón",
+        "quantity": "175",
+        "unit": "g",
+        "calories": 385.0,
+        "protein": 38.5,
+        "carbs": 0,
+        "fats": 24.5,
+        "baseCalories": 2.2,
+        "baseProtein": 0.22,
+        "baseCarbs": 0,
+        "baseFats": 0.14
+      },
+      {
+        "name": "Aceite de Oliva Virgen Extra",
+        "quantity": "5",
+        "unit": "g",
+        "calories": 44.2,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 5,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1
+      }
+    ],
+    "preparation": "1. Cortar el salmón en dados y las verduras en juliana gruesa. 2. Saltear las verduras en el wok a fuego fuerte con el aceite. 3. Añadir el salmón al final y cocinar 3-4 minutos. 4. Servir caliente."
+  },
+  "o4_sna": {
+    "name": "Frutos Secos (Mezcla)",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68525c0b1d27cfeb580a55f7.png",
+    "calories": 135.0,
+    "protein": 3.0,
+    "carbs": 4.5,
+    "fats": 12.0,
+    "ingredients": [
+      {
+        "name": "Anacardos",
+        "quantity": "10",
+        "unit": "g",
+        "calories": 45.0,
+        "protein": 1.0,
+        "carbs": 1.5,
+        "fats": 4.0,
+        "baseCalories": 4.5,
+        "baseProtein": 0.1,
+        "baseCarbs": 0.15,
+        "baseFats": 0.4
+      },
+      {
+        "name": "Almendras",
+        "quantity": "10",
+        "unit": "g",
+        "calories": 45.0,
+        "protein": 1.0,
+        "carbs": 1.5,
+        "fats": 4.0,
+        "baseCalories": 4.5,
+        "baseProtein": 0.1,
+        "baseCarbs": 0.15,
+        "baseFats": 0.4
+      },
+      {
+        "name": "Nueces",
+        "quantity": "10",
+        "unit": "g",
+        "calories": 45.0,
+        "protein": 1.0,
+        "carbs": 1.5,
+        "fats": 4.0,
+        "baseCalories": 4.5,
+        "baseProtein": 0.1,
+        "baseCarbs": 0.15,
+        "baseFats": 0.4
+      }
+    ],
+    "preparation": "Consumir directamente como un snack energético y nutritivo."
+  },
+  "o4_sna2": {
+    "name": "Fruta Cítrica (Mandarina, Kiwi, Naranja...)",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd3d0ed506305442ffe4.png",
+    "calories": 93,
+    "protein": 0.8,
+    "carbs": 23.2,
+    "fats": 0.3,
+    "ingredients": [
+      {
+        "name": "Kiwi",
+        "quantity": "1",
+        "unit": "unidad(es)",
+        "calories": 45,
+        "protein": 0.38,
+        "carbs": 11.25,
+        "fats": 0.15,
+        "baseCalories": 45,
+        "baseProtein": 0.375,
+        "baseCarbs": 11.25,
+        "baseFats": 0.15
+      },
+      {
+        "name": "Mandarina",
+        "quantity": "1",
+        "unit": "unidad(es)",
+        "calories": 48,
+        "protein": 0.4,
+        "carbs": 12,
+        "fats": 0.16,
+        "baseCalories": 48,
+        "baseProtein": 0.4,
+        "baseCarbs": 12,
+        "baseFats": 0.16
+      }
+    ],
+    "preparation": "1. Seleccionar la fruta cítrica de preferencia. 2. Lavar bien la fruta. 3. Pelar y consumir."
   }
 };
 
@@ -856,6 +1184,34 @@ export const dailyMenus = [
     "extra": [
       "o3_sna",
       "o3_sna2"
+    ]
+  },
+  {
+    "name": "Opciones 4",
+    "targetMacros": {
+      "calories": 1891,
+      "protein": 151,
+      "carbs": 152,
+      "fats": 70
+    },
+    "baselineTotals": {
+      "calories": 1891,
+      "protein": 151,
+      "carbs": 152,
+      "fats": 70
+    },
+    "desayuno": [
+      "o4_des"
+    ],
+    "comida": [
+      "o4_com"
+    ],
+    "cena": [
+      "o4_cen"
+    ],
+    "extra": [
+      "o4_sna",
+      "o4_sna2"
     ]
   }
 ];
