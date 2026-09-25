@@ -1,13 +1,13 @@
 // Titulo: Plan de Alimentación
-// Alergias: 
+// Alergias: const foodDatabase = {
 const foodDatabase = {
   "p0_m0": {
     "name": "Yogurt Protéico con Frutos Rojos y Secos",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afea2b91eb35e413d4ab6.png",
-    "calories": 376,
-    "protein": 15,
-    "carbs": 37,
-    "fats": 18,
+    "calories": 354,
+    "protein": 14,
+    "carbs": 36,
+    "fats": 16,
     "ingredients": [
       {
         "name": "Yogur Protéico",
@@ -37,12 +37,12 @@ const foodDatabase = {
       },
       {
         "name": "Frutos Secos",
-        "quantity": "20",
+        "quantity": "15",
         "unit": "g",
-        "calories": 90,
-        "protein": 2,
-        "carbs": 3,
-        "fats": 8,
+        "calories": 67.5,
+        "protein": 1.5,
+        "carbs": 2.25,
+        "fats": 6,
         "baseCalories": 4.5,
         "baseProtein": 0.1,
         "baseCarbs": 0.15,
@@ -55,9 +55,9 @@ const foodDatabase = {
   "p0_m1": {
     "name": "Wrap de pollo hervido con verduras y arroz",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684ef7e26202d54cb0de24e8.png",
-    "calories": 935,
-    "protein": 74,
-    "carbs": 124,
+    "calories": 1008,
+    "protein": 77,
+    "carbs": 139,
     "fats": 13,
     "ingredients": [
       {
@@ -75,12 +75,12 @@ const foodDatabase = {
       },
       {
         "name": "Arroz",
-        "quantity": "70",
+        "quantity": "90",
         "unit": "g",
-        "calories": 255.5,
-        "protein": 8.4,
-        "carbs": 52.5,
-        "fats": 1.4000000000000001,
+        "calories": 328.5,
+        "protein": 10.8,
+        "carbs": 67.5,
+        "fats": 1.8,
         "baseCalories": 3.65,
         "baseProtein": 0.12000000000000001,
         "baseCarbs": 0.75,
@@ -337,19 +337,19 @@ const foodDatabase = {
   "p1_m1": {
     "name": "Ensalada de Pasta con Pollo",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afc47b91eb349463d47dd.png",
-    "calories": 879,
-    "protein": 64,
-    "carbs": 109,
+    "calories": 915,
+    "protein": 65,
+    "carbs": 116,
     "fats": 19,
     "ingredients": [
       {
         "name": "Pasta Integral",
-        "quantity": "120",
+        "quantity": "130",
         "unit": "g",
-        "calories": 438,
-        "protein": 14.400000000000002,
-        "carbs": 90,
-        "fats": 2.4,
+        "calories": 474.5,
+        "protein": 15.600000000000003,
+        "carbs": 97.5,
+        "fats": 2.6,
         "baseCalories": 3.65,
         "baseProtein": 0.12000000000000002,
         "baseCarbs": 0.75,
@@ -554,8 +554,8 @@ const foodDatabase = {
   "p2_m0": {
     "name": "Sandwich Vegetal de Atún",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cd60954a1880bed54596d.png",
-    "calories": 342,
-    "protein": 33,
+    "calories": 358,
+    "protein": 36,
     "carbs": 36,
     "fats": 6,
     "ingredients": [
@@ -574,12 +574,12 @@ const foodDatabase = {
       },
       {
         "name": "Atún en Conserva",
-        "quantity": "90",
+        "quantity": "100",
         "unit": "g",
-        "calories": 144,
-        "protein": 25.2,
+        "calories": 160,
+        "protein": 27.999999999999996,
         "carbs": 0,
-        "fats": 3.6,
+        "fats": 4,
         "baseCalories": 1.6,
         "baseProtein": 0.27999999999999997,
         "baseCarbs": 0,
