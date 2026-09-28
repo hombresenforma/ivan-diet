@@ -1,5 +1,5 @@
 // Titulo: Plan de Alimentación
-// Alergias: 
+// Alergias: const foodDatabase = {
 const foodDatabase = {
   "p0_m0": {
     "name": "Yogurt Protéico con Frutos Rojos y Secos",
@@ -171,19 +171,19 @@ const foodDatabase = {
   "p0_m2": {
     "name": "Boniato asado con ensalada de tomate",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684efcd1f6c48df26aa5ba5b.png",
-    "calories": 313,
-    "protein": 7,
-    "carbs": 48,
-    "fats": 11,
+    "calories": 268,
+    "protein": 6,
+    "carbs": 38,
+    "fats": 10,
     "ingredients": [
       {
         "name": "Boniato",
-        "quantity": "200",
+        "quantity": "150",
         "unit": "g",
-        "calories": 180,
-        "protein": 4,
-        "carbs": 40,
-        "fats": 0.2,
+        "calories": 135,
+        "protein": 3,
+        "carbs": 30,
+        "fats": 0.15,
         "baseCalories": 0.9,
         "baseProtein": 0.02,
         "baseCarbs": 0.2,
@@ -374,19 +374,19 @@ const foodDatabase = {
   "p1_m1": {
     "name": "Patatas Cocidas con Salteado de Verduras y Hamburguesa a la plancha",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cf8559b0c6709fc9afa98.png",
-    "calories": 688,
-    "protein": 34,
-    "carbs": 48,
+    "calories": 643,
+    "protein": 33,
+    "carbs": 38,
     "fats": 40,
     "ingredients": [
       {
         "name": "Patata",
-        "quantity": "150",
+        "quantity": "100",
         "unit": "g",
-        "calories": 135,
-        "protein": 3,
-        "carbs": 30,
-        "fats": 0.15,
+        "calories": 90,
+        "protein": 2,
+        "carbs": 20,
+        "fats": 0.1,
         "baseCalories": 0.9,
         "baseProtein": 0.02,
         "baseCarbs": 0.2,
@@ -462,12 +462,12 @@ const foodDatabase = {
     "originalBaseRecipeId": "cc_patatas_cocidas_con_salteado_de_verduras_y_hamburguesa_a_la_plancha"
   },
   "p1_m2": {
-    "name": "Ensalada de Tomate, Aguacate, Cebolla y Lima",
+    "name": "Ensalada de Tomate, Cebolla y Lima",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cf9a725d68c4bc3ec3502.png",
-    "calories": 393,
-    "protein": 10,
-    "carbs": 18,
-    "fats": 32,
+    "calories": 168,
+    "protein": 5,
+    "carbs": 10,
+    "fats": 12,
     "ingredients": [
       {
         "name": "Tomate",
@@ -481,19 +481,6 @@ const foodDatabase = {
         "baseProtein": 0.02,
         "baseCarbs": 0.05,
         "baseFats": 0.002
-      },
-      {
-        "name": "Aguacate",
-        "quantity": "50",
-        "unit": "g",
-        "calories": 225,
-        "protein": 5,
-        "carbs": 7.5,
-        "fats": 20,
-        "baseCalories": 4.5,
-        "baseProtein": 0.1,
-        "baseCarbs": 0.15,
-        "baseFats": 0.4
       },
       {
         "name": "Cebolla",
@@ -654,19 +641,19 @@ const foodDatabase = {
   "p2_m1": {
     "name": "Musakka de Patata al horno con verduras y carne picada",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684efda5653a2c17a7172d67.png",
-    "calories": 851,
-    "protein": 53,
-    "carbs": 62,
+    "calories": 761,
+    "protein": 51,
+    "carbs": 42,
     "fats": 42,
     "ingredients": [
       {
         "name": "Patata",
-        "quantity": "250",
+        "quantity": "150",
         "unit": "g",
-        "calories": 225,
-        "protein": 5,
-        "carbs": 50,
-        "fats": 0.25,
+        "calories": 135,
+        "protein": 3,
+        "carbs": 30,
+        "fats": 0.15,
         "baseCalories": 0.9,
         "baseProtein": 0.02,
         "baseCarbs": 0.2,
@@ -948,19 +935,19 @@ const foodDatabase = {
   "p3_m1": {
     "name": "Ensala de Patata, Atún y Huevo",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afc08b91eb31afe3d4796.png",
-    "calories": 638,
-    "protein": 54,
-    "carbs": 65,
+    "calories": 593,
+    "protein": 53,
+    "carbs": 55,
     "fats": 15,
     "ingredients": [
       {
         "name": "Patata",
-        "quantity": "200",
+        "quantity": "150",
         "unit": "g",
-        "calories": 180,
-        "protein": 4,
-        "carbs": 40,
-        "fats": 0.2,
+        "calories": 135,
+        "protein": 3,
+        "carbs": 30,
+        "fats": 0.15,
         "baseCalories": 0.9,
         "baseProtein": 0.02,
         "baseCarbs": 0.2,
