@@ -1,5 +1,5 @@
 // Titulo: Plan de Alimentación
-// Alergias: 
+// Alergias: const foodDatabase = {
 const foodDatabase = {
   "p0_m0": {
     "name": "Fajita con Revuelto de Jamón Dulce",
@@ -450,29 +450,55 @@ const foodDatabase = {
     "originalBaseRecipeId": "cc_oquis_con_ternera_y_tomate"
   },
   "p1_m3": {
-    "name": "Onza de Chocolate 85%",
-    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69b51011eba487f7273f1096.png",
-    "calories": 165,
+    "name": "Fruta Cítrica (Mandarina, Kiwi, Naranja...)",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd3d0ed506305442ffe4.png",
+    "calories": 270,
     "protein": 2,
-    "carbs": 9,
-    "fats": 12,
+    "carbs": 68,
+    "fats": 1,
     "ingredients": [
       {
-        "name": "Chocolate 85%",
-        "quantity": "30",
-        "unit": "g",
-        "calories": 165,
-        "protein": 1.7999999999999998,
-        "carbs": 9,
-        "fats": 12,
-        "baseCalories": 5.5,
-        "baseProtein": 0.06,
-        "baseCarbs": 0.3,
-        "baseFats": 0.4
+        "name": "Kiwi",
+        "quantity": "1",
+        "unit": "ud",
+        "calories": 90,
+        "protein": 0.75,
+        "carbs": 22.5,
+        "fats": 0.3,
+        "baseCalories": 90,
+        "baseProtein": 0.75,
+        "baseCarbs": 22.5,
+        "baseFats": 0.3
+      },
+      {
+        "name": "Mandarina",
+        "quantity": "1",
+        "unit": "ud",
+        "calories": 90,
+        "protein": 0.75,
+        "carbs": 22.5,
+        "fats": 0.3,
+        "baseCalories": 90,
+        "baseProtein": 0.75,
+        "baseCarbs": 22.5,
+        "baseFats": 0.3
+      },
+      {
+        "name": "Naranja",
+        "quantity": "1",
+        "unit": "ud",
+        "calories": 90,
+        "protein": 0.75,
+        "carbs": 22.5,
+        "fats": 0.3,
+        "baseCalories": 90,
+        "baseProtein": 0.75,
+        "baseCarbs": 22.5,
+        "baseFats": 0.3
       }
     ],
-    "preparation": "Consumir directamente.",
-    "originalBaseRecipeId": "ext_onza_de_chocolate_85"
+    "preparation": "1. Seleccionar la fruta cítrica de preferencia. 2. Lavar bien la fruta bajo el grifo. 3. Para mandarinas y naranjas: pelar la piel con las manos. 4. Para kiwis: cortar por la mitad y comer la pulpa con una cucharita.",
+    "originalBaseRecipeId": "ext_fruta_ctrica_mandarina_kiwi_naranja"
   },
   "p2_m0": {
     "name": "Tostada de Centeno con Aguacate y Atún",
@@ -590,107 +616,81 @@ const foodDatabase = {
     "originalBaseRecipeId": "cc_pasta_tricolor_con_pisto_de_verduras_y_carne_picada"
   },
   "p2_m2": {
-    "name": "Poke de aguacate, mango, tomate, soja, cebolla, arroz and pollo",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684efa4ef6c48db833a5b1af.png",
-    "calories": 821,
-    "protein": 58,
-    "carbs": 89,
-    "fats": 25,
+    "name": "Quinoa con ternera y verduras",
+    "image": "https://raw.githubusercontent.com/hombresenforma/ivan-diet/main/assets/ivandt/dias-4-7/quinoa-ternera-verduras.jpg",
+    "calories": 798,
+    "protein": 47,
+    "carbs": 76,
+    "fats": 33,
     "ingredients": [
       {
-        "name": "Aguacate",
-        "quantity": "30",
+        "name": "Quinoa",
+        "quantity": "90",
         "unit": "g",
-        "calories": 135,
-        "protein": 3,
-        "carbs": 4.5,
-        "fats": 12,
-        "baseCalories": 4.5,
-        "baseProtein": 0.1,
-        "baseCarbs": 0.15,
-        "baseFats": 0.4
-      },
-      {
-        "name": "Mango",
-        "quantity": "1",
-        "unit": "ud",
-        "calories": 90,
-        "protein": 0.75,
-        "carbs": 22.5,
-        "fats": 0.3,
-        "baseCalories": 90,
-        "baseProtein": 0.75,
-        "baseCarbs": 22.5,
-        "baseFats": 0.3
-      },
-      {
-        "name": "Tomate",
-        "quantity": "100",
-        "unit": "g",
-        "calories": 30,
-        "protein": 2,
-        "carbs": 5,
-        "fats": 0.2,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Cebolla",
-        "quantity": "100",
-        "unit": "g",
-        "calories": 30,
-        "protein": 2,
-        "carbs": 5,
-        "fats": 0.2,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Arroz",
-        "quantity": "69",
-        "unit": "g",
-        "calories": 251.85,
-        "protein": 8.28,
-        "carbs": 51.75,
-        "fats": 1.3800000000000001,
+        "calories": 328.5,
+        "protein": 10.799999999999999,
+        "carbs": 67.5,
+        "fats": 1.8,
         "baseCalories": 3.65,
         "baseProtein": 0.12,
         "baseCarbs": 0.75,
         "baseFats": 0.02
       },
       {
-        "name": "Pechuga de Pollo",
+        "name": "Ternera magra",
         "quantity": "150",
         "unit": "g",
-        "calories": 240,
-        "protein": 42.00000000000001,
+        "calories": 330,
+        "protein": 33,
         "carbs": 0,
-        "fats": 6,
-        "baseCalories": 1.6,
-        "baseProtein": 0.28,
+        "fats": 21.000000000000004,
+        "baseCalories": 2.2,
+        "baseProtein": 0.22,
         "baseCarbs": 0,
-        "baseFats": 0.04
+        "baseFats": 0.14
       },
       {
-        "name": "Aceite de Oliva Virgen",
-        "quantity": "5",
+        "name": "Pimiento rojo",
+        "quantity": "85",
         "unit": "g",
-        "calories": 44.2,
+        "calories": 25.5,
+        "protein": 1.7,
+        "carbs": 4.25,
+        "fats": 0.17,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Calabacín",
+        "quantity": "85",
+        "unit": "g",
+        "calories": 25.5,
+        "protein": 1.7,
+        "carbs": 4.25,
+        "fats": 0.17,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Aceite de oliva virgen extra",
+        "quantity": "10",
+        "unit": "g",
+        "calories": 88.4,
         "protein": 0,
         "carbs": 0,
-        "fats": 5,
+        "fats": 10,
         "baseCalories": 8.84,
         "baseProtein": 0,
         "baseCarbs": 0,
         "baseFats": 1
       }
     ],
-    "preparation": "1. Cocer el arroz (preferiblemente de sushi o grano corto siguiendo las instrucciones del paquete) y dejar enfriar. 2. Cocinar la pechuga de pollo (hervida, a la plancha o al vapor) y cortarla en dados. Dejar enfriar. 3. Cortar el aguacate y el mango en dados. Picar el tomate en dados pequeños y la cebolla (preferiblemente morada) en juliana fina o brunoise. 4. Para el aliño, mezclar en un cuenco salsa de soja, un chorrito de aceite de sésamo, zumo de lima o limón y opcionalmente un poco de jengibre rallado y miel o sirope de agave. 5. En un bol individual, colocar una base de arroz. Disponer encima de forma separada y estética: el pollo, aguacate, mango, tomate y cebolla. 6. Rociar generosamente con el aliño justo antes de servir. Opcional: espolvorear con semillas de sésamo tostadas o furikake.",
-    "originalBaseRecipeId": "cc_poke_de_aguacate_mango_tomate_soja_cebolla_arroz_and_pollo"
+    "preparation": "1. Lavar y cocer la quinoa según el envase. 2. Saltear el pimiento y el calabacín con el aceite medido, añadir la ternera en tiras y cocinar; mezclar con la quinoa.",
+    "originalBaseRecipeId": "cc_quinoa_con_ternera_y_verduras"
   },
   "p2_m3": {
     "name": "Tortita de arroz con crema de almendra",
