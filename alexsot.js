@@ -67,10 +67,10 @@ export const foodDatabase = {
   "o1_com": {
     "name": "Ensalada rápida de pasta integral con pollo",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afc47b91eb349463d47dd.png",
-    "calories": 662.15,
-    "protein": 55.00000000000001,
-    "carbs": 66.25,
-    "fats": 17.9,
+    "calories": 752.15,
+    "protein": 57,
+    "carbs": 86.25,
+    "fats": 18,
     "ingredients": [
       {
         "name": "Pasta Integral",
@@ -136,18 +136,31 @@ export const foodDatabase = {
         "baseProtein": 0,
         "baseCarbs": 0,
         "baseFats": 1
+      },
+      {
+        "name": "Boniato",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 90,
+        "protein": 2,
+        "carbs": 20,
+        "fats": 0.1,
+        "baseCalories": 0.9,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.2,
+        "baseFats": 0.001
       }
     ],
-    "preparation": "Cocer la pasta. Cocinar el pollo a la plancha. Mezclar con tomate y pimiento picados y aceite medido.",
+    "preparation": "Cocer la pasta. Cocinar el pollo a la plancha. Mezclar con tomate y pimiento picados y aceite medido. Acompañar con 100 g de boniato para concentrar más carbohidratos en la comida.",
     "originalBaseRecipeId": "cc_ensalada_de_pasta_con_pollo"
   },
   "o1_cen": {
     "name": "Merluza con boniato y calabacín",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684f001d4d606642b1333279.png",
-    "calories": 598.4,
-    "protein": 50.00000000000001,
-    "carbs": 57.5,
-    "fats": 16.55,
+    "calories": 508.4,
+    "protein": 48,
+    "carbs": 37.5,
+    "fats": 16.45,
     "ingredients": [
       {
         "name": "Filete de Merluza",
@@ -164,12 +177,12 @@ export const foodDatabase = {
       },
       {
         "name": "Boniato",
-        "quantity": "250",
+        "quantity": "150",
         "unit": "g",
-        "calories": 225,
-        "protein": 5,
-        "carbs": 50,
-        "fats": 0.25,
+        "calories": 135,
+        "protein": 3,
+        "carbs": 30,
+        "fats": 0.15,
         "baseCalories": 0.9,
         "baseProtein": 0.02,
         "baseCarbs": 0.2,
@@ -736,6 +749,133 @@ export const foodDatabase = {
       }
     ],
     "preparation": "Servir el queso fresco batido con manzana troceada y nueces."
+  },
+  "o4_com": {
+    "name": "Quinoa con ternera y verduras (ración alta de carbohidrato)",
+    "image": "https://raw.githubusercontent.com/hombresenforma/ivan-diet/main/assets/ivandt/dias-4-7/quinoa-ternera-verduras.jpg",
+    "calories": 758,
+    "protein": 48,
+    "carbs": 74,
+    "fats": 21.4,
+    "ingredients": [
+      {
+        "name": "Quinoa",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 368,
+        "protein": 14,
+        "carbs": 64,
+        "fats": 6,
+        "baseCalories": 3.68,
+        "baseProtein": 0.14,
+        "baseCarbs": 0.64,
+        "baseFats": 0.06
+      },
+      {
+        "name": "Ternera magra",
+        "quantity": "150",
+        "unit": "g",
+        "calories": 330,
+        "protein": 30,
+        "carbs": 0,
+        "fats": 15,
+        "baseCalories": 2.2,
+        "baseProtein": 0.2,
+        "baseCarbs": 0,
+        "baseFats": 0.1
+      },
+      {
+        "name": "Pimiento Rojo",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 30,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Calabacín",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 30,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      }
+    ],
+    "preparation": "Cocer la quinoa. Cocinar la ternera en tiras y las verduras en sartén antiadherente; mezclar.",
+    "originalBaseRecipeId": "cc_quinoa_con_ternera_y_verduras"
+  },
+  "o4_cen": {
+    "name": "Salmón con espinacas y feta (cena ligera en carbohidratos)",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afda0b91eb330dd3d49b2.png",
+    "calories": 641.25,
+    "protein": 51.5,
+    "carbs": 27.25,
+    "fats": 34.3,
+    "ingredients": [
+      {
+        "name": "Arroz",
+        "quantity": "25",
+        "unit": "g",
+        "calories": 91.25,
+        "protein": 3,
+        "carbs": 18.75,
+        "fats": 0.5,
+        "baseCalories": 3.65,
+        "baseProtein": 0.12,
+        "baseCarbs": 0.75,
+        "baseFats": 0.02
+      },
+      {
+        "name": "Lomo de Salmón",
+        "quantity": "150",
+        "unit": "g",
+        "calories": 330,
+        "protein": 33,
+        "carbs": 0,
+        "fats": 21.000000000000004,
+        "baseCalories": 2.2,
+        "baseProtein": 0.22,
+        "baseCarbs": 0,
+        "baseFats": 0.14
+      },
+      {
+        "name": "Espinacas",
+        "quantity": "150",
+        "unit": "g",
+        "calories": 45,
+        "protein": 3,
+        "carbs": 7.5,
+        "fats": 0.3,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Queso Feta",
+        "quantity": "50",
+        "unit": "g",
+        "calories": 175,
+        "protein": 12.5,
+        "carbs": 1,
+        "fats": 12.5,
+        "baseCalories": 3.5,
+        "baseProtein": 0.25,
+        "baseCarbs": 0.02,
+        "baseFats": 0.25
+      }
+    ],
+    "preparation": "Cocer el arroz. Cocinar el salmón en sartén antiadherente, añadir las espinacas y servir con el queso feta desmenuzado."
   }
 };
 
@@ -760,10 +900,10 @@ export const dailyMenus = [
       "o1_ext"
     ],
     "baselineTotals": {
-      "calories": 1992.4499999999998,
-      "protein": 155.70000000000002,
+      "calories": 1992.45,
+      "protein": 155.7,
       "carbs": 189.75,
-      "fats": 63.589999999999996
+      "fats": 63.59
     }
   },
   {
@@ -789,7 +929,7 @@ export const dailyMenus = [
       "calories": 2028,
       "protein": 157.75,
       "carbs": 157.65,
-      "fats": 75.05000000000001
+      "fats": 75.05
     }
   },
   {
@@ -816,6 +956,32 @@ export const dailyMenus = [
       "protein": 151.85,
       "carbs": 190.4,
       "fats": 66.215
+    }
+  },
+  {
+    "name": "Opción 4",
+    "targetMacros": {
+      "calories": 2000,
+      "protein": 150,
+      "carbs": 175
+    },
+    "desayuno": [
+      "o2_des"
+    ],
+    "comida": [
+      "o4_com"
+    ],
+    "cena": [
+      "o4_cen"
+    ],
+    "extra": [
+      "o2_ext"
+    ],
+    "baselineTotals": {
+      "calories": 2028.75,
+      "protein": 158.25,
+      "carbs": 154.9,
+      "fats": 76.05
     }
   }
 ];
