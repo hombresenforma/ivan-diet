@@ -876,6 +876,106 @@ export const foodDatabase = {
       }
     ],
     "preparation": "Cocer el arroz. Cocinar el salmón en sartén antiadherente, añadir las espinacas y servir con el queso feta desmenuzado."
+  },
+  "o4_des": {
+    "name": "Avena con huevos y frutos rojos",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68e7ef66df76fef1b58db3f2.png",
+    "calories": 385,
+    "protein": 19.875,
+    "carbs": 42.35,
+    "fats": 14.65,
+    "ingredients": [
+      {
+        "name": "Copos de Avena",
+        "quantity": "50",
+        "unit": "g",
+        "calories": 185,
+        "protein": 6.5,
+        "carbs": 30,
+        "fats": 3.5,
+        "baseCalories": 3.7,
+        "baseProtein": 0.13,
+        "baseCarbs": 0.6,
+        "baseFats": 0.07
+      },
+      {
+        "name": "Huevos",
+        "quantity": "2",
+        "unit": "unidad(es)",
+        "calories": 155,
+        "protein": 13,
+        "carbs": 1.1,
+        "fats": 11,
+        "baseCalories": 77.5,
+        "baseProtein": 6.5,
+        "baseCarbs": 0.55,
+        "baseFats": 5.5
+      },
+      {
+        "name": "Frutos Rojos",
+        "quantity": "75",
+        "unit": "g",
+        "calories": 45,
+        "protein": 0.375,
+        "carbs": 11.25,
+        "fats": 0.15,
+        "baseCalories": 0.6,
+        "baseProtein": 0.005,
+        "baseCarbs": 0.15,
+        "baseFats": 0.002
+      }
+    ],
+    "preparation": "Cocer la avena con agua. Acompañar con los huevos y los frutos rojos."
+  },
+  "o4_ext": {
+    "name": "Yogur proteico con almendras y kiwi",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6879302d02da47667d446b43.png",
+    "calories": 270,
+    "protein": 29.4,
+    "carbs": 23.5,
+    "fats": 6.7,
+    "ingredients": [
+      {
+        "name": "Skyr natural 0%",
+        "quantity": "250",
+        "unit": "g",
+        "calories": 157.5,
+        "protein": 27.5,
+        "carbs": 10,
+        "fats": 0.5,
+        "baseCalories": 0.63,
+        "baseProtein": 0.11,
+        "baseCarbs": 0.04,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Almendras",
+        "quantity": "15",
+        "unit": "g",
+        "calories": 67.5,
+        "protein": 1.5,
+        "carbs": 2.25,
+        "fats": 6,
+        "baseCalories": 4.5,
+        "baseProtein": 0.1,
+        "baseCarbs": 0.15,
+        "baseFats": 0.4
+      },
+      {
+        "name": "Kiwi",
+        "quantity": "1",
+        "unit": "unidad(es)",
+        "calories": 45,
+        "protein": 0.4,
+        "carbs": 11.25,
+        "fats": 0.2,
+        "baseCalories": 45,
+        "baseProtein": 0.375,
+        "baseCarbs": 11.25,
+        "baseFats": 0.15
+      }
+    ],
+    "preparation": "Servir el skyr con las almendras y el kiwi troceado."
   }
 };
 
@@ -966,7 +1066,7 @@ export const dailyMenus = [
       "carbs": 175
     },
     "desayuno": [
-      "o2_des"
+      "o4_des"
     ],
     "comida": [
       "o4_com"
@@ -975,13 +1075,13 @@ export const dailyMenus = [
       "o4_cen"
     ],
     "extra": [
-      "o2_ext"
+      "o4_ext"
     ],
     "baselineTotals": {
-      "calories": 2028.75,
-      "protein": 158.25,
-      "carbs": 154.9,
-      "fats": 76.05
+      "calories": 2054.25,
+      "protein": 148.775,
+      "carbs": 167.1,
+      "fats": 77.05
     }
   }
 ];
