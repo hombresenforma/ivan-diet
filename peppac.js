@@ -965,6 +965,182 @@ export const foodDatabase = {
       }
     ],
     "preparation": "Servir el skyr con las almendras y el kiwi troceado."
+  },
+  "p3_m0": {
+    "name": "Tortillas de maíz con huevo y aguacate",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682ad5cf9b8ed31c657c80e8.png",
+    "calories": 492.5,
+    "protein": 16.6,
+    "carbs": 72.63,
+    "fats": 18.25,
+    "ingredients": [
+      {
+        "name": "Tortillas de maíz",
+        "quantity": "75",
+        "unit": "g",
+        "calories": 327,
+        "protein": 9,
+        "carbs": 67.5,
+        "fats": 4.5,
+        "baseCalories": 4.36,
+        "baseProtein": 0.12,
+        "baseCarbs": 0.9,
+        "baseFats": 0.06
+      },
+      {
+        "name": "Huevo",
+        "quantity": "1",
+        "unit": "unidad(es)",
+        "calories": 77.5,
+        "protein": 6.5,
+        "carbs": 0.55,
+        "fats": 5.5,
+        "baseCalories": 77.5,
+        "baseProtein": 6.5,
+        "baseCarbs": 0.55,
+        "baseFats": 5.5
+      },
+      {
+        "name": "Aguacate",
+        "quantity": "55",
+        "unit": "g",
+        "calories": 88,
+        "protein": 1.1,
+        "carbs": 4.58,
+        "fats": 8.25,
+        "baseCalories": 1.6,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.0833,
+        "baseFats": 0.15
+      }
+    ],
+    "preparation": "Calentar las tortillas y rellenarlas con el huevo a la plancha y el aguacate laminado."
+  },
+  "p3_m1": {
+    "name": "Pollo con lentejas y verduras",
+    "image": "https://raw.githubusercontent.com/hombresenforma/ivan-diet/main/assets/ivandt/dias-4-7/quinoa-ternera-verduras.jpg",
+    "calories": 630.4,
+    "protein": 69,
+    "carbs": 45,
+    "fats": 18,
+    "ingredients": [
+      {
+        "name": "Pechuga de Pollo",
+        "quantity": "175",
+        "unit": "g",
+        "calories": 280,
+        "protein": 49,
+        "carbs": 0,
+        "fats": 7,
+        "baseCalories": 1.6,
+        "baseProtein": 0.28,
+        "baseCarbs": 0,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Lentejas cocidas",
+        "quantity": "200",
+        "unit": "g",
+        "calories": 232,
+        "protein": 18,
+        "carbs": 40,
+        "fats": 0.8,
+        "baseCalories": 1.16,
+        "baseProtein": 0.09,
+        "baseCarbs": 0.2,
+        "baseFats": 0.004
+      },
+      {
+        "name": "Verduras variadas",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 30,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Aceite de Oliva Virgen Extra",
+        "quantity": "10",
+        "unit": "g",
+        "calories": 88.4,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 10,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1
+      }
+    ],
+    "preparation": "Cocinar el pollo a la plancha. Calentar las lentejas y saltear las verduras con el aceite medido; servir junto."
+  },
+  "p3_m2": {
+    "name": "Merluza con calabaza asada y calabacín",
+    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69b66b6dad027629d2f1e944.png",
+    "calories": 410.4,
+    "protein": 46,
+    "carbs": 17,
+    "fats": 16.4,
+    "ingredients": [
+      {
+        "name": "Filete de Merluza",
+        "quantity": "150",
+        "unit": "g",
+        "calories": 240,
+        "protein": 42,
+        "carbs": 0,
+        "fats": 6,
+        "baseCalories": 1.6,
+        "baseProtein": 0.28,
+        "baseCarbs": 0,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Calabaza",
+        "quantity": "200",
+        "unit": "g",
+        "calories": 52,
+        "protein": 2,
+        "carbs": 12,
+        "fats": 0.2,
+        "baseCalories": 0.26,
+        "baseProtein": 0.01,
+        "baseCarbs": 0.06,
+        "baseFats": 0.001
+      },
+      {
+        "name": "Calabacín",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 30,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Aceite de Oliva Virgen Extra",
+        "quantity": "10",
+        "unit": "g",
+        "calories": 88.4,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 10,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1
+      }
+    ],
+    "preparation": "Asar la calabaza. Cocinar la merluza a la plancha y saltear el calabacín con el aceite medido."
   }
 };
 
@@ -1061,23 +1237,22 @@ export const dailyMenus = [
       "carbs": 155
     },
     "desayuno": [
-      "p0_m0"
+      "p3_m0"
     ],
     "comida": [
-      "p0_m1"
+      "p3_m1"
     ],
     "cena": [
-      "p0_m2",
-      "p0_m3"
+      "p3_m2"
     ],
     "extra": [
       "p3_ext"
     ],
     "baselineTotals": {
-      "calories": 1814,
-      "protein": 160.1,
-      "carbs": 148.4,
-      "fats": 61.8
+      "calories": 1803.3,
+      "protein": 161,
+      "carbs": 158.13,
+      "fats": 59.35
     }
   }
 ];
