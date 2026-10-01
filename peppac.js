@@ -919,19 +919,19 @@ export const foodDatabase = {
   "p3_ext": {
     "name": "Yogur proteico con almendras y kiwi",
     "image": "https://raw.githubusercontent.com/hombresenforma/ivan-diet/main/assets/ivandt/sin-cocina/bol-skyr-frutos-rojos-avena.jpg",
-    "calories": 175.5,
-    "protein": 12.9,
-    "carbs": 17.5,
-    "fats": 6.4,
+    "calories": 270,
+    "protein": 29.4,
+    "carbs": 23.5,
+    "fats": 6.7,
     "ingredients": [
       {
         "name": "Skyr natural 0%",
-        "quantity": "100",
+        "quantity": "250",
         "unit": "g",
-        "calories": 63,
-        "protein": 11,
-        "carbs": 4,
-        "fats": 0.2,
+        "calories": 157.5,
+        "protein": 27.5,
+        "carbs": 10,
+        "fats": 0.5,
         "baseCalories": 0.63,
         "baseProtein": 0.11,
         "baseCarbs": 0.04,
@@ -1061,23 +1061,23 @@ export const dailyMenus = [
       "carbs": 155
     },
     "desayuno": [
-      "p1_m0"
+      "p0_m0"
     ],
     "comida": [
-      "p1_m1",
-      "p1_m2"
+      "p0_m1"
     ],
     "cena": [
-      "p1_m3"
+      "p0_m2",
+      "p0_m3"
     ],
     "extra": [
       "p3_ext"
     ],
     "baselineTotals": {
-      "calories": 1839.5,
-      "protein": 171.2,
-      "carbs": 145.1,
-      "fats": 59.9
+      "calories": 1814,
+      "protein": 160.1,
+      "carbs": 148.4,
+      "fats": 61.8
     }
   }
 ];
