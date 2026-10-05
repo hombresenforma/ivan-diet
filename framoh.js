@@ -4,19 +4,19 @@ const foodDatabase = {
   "p0_m0": {
     "name": "Porridge de Avena y Frutos Rojos",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afdf19b8ed348797cbcd8.png",
-    "calories": 482,
-    "protein": 14,
-    "carbs": 98,
-    "fats": 4,
+    "calories": 556,
+    "protein": 17,
+    "carbs": 113,
+    "fats": 5,
     "ingredients": [
       {
         "name": "Copos de Avena",
-        "quantity": "90",
+        "quantity": "110",
         "unit": "g",
-        "calories": 328.5,
-        "protein": 10.8,
-        "carbs": 67.5,
-        "fats": 1.8,
+        "calories": 401.5,
+        "protein": 13.200000000000001,
+        "carbs": 82.5,
+        "fats": 2.2,
         "baseCalories": 3.65,
         "baseProtein": 0.12000000000000001,
         "baseCarbs": 0.75,
@@ -55,9 +55,9 @@ const foodDatabase = {
   "p0_m1": {
     "name": "Poke de aguacate, mango, tomate, soja, cebolla, arroz and pollo",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684efa4ef6c48db833a5b1af.png",
-    "calories": 640,
-    "protein": 50,
-    "carbs": 52,
+    "calories": 713,
+    "protein": 53,
+    "carbs": 66,
     "fats": 25,
     "ingredients": [
       {
@@ -88,12 +88,12 @@ const foodDatabase = {
       },
       {
         "name": "Arroz",
-        "quantity": "55",
+        "quantity": "75",
         "unit": "g",
-        "calories": 200.8,
-        "protein": 6.6,
-        "carbs": 41.2,
-        "fats": 1.1,
+        "calories": 273.81818181818187,
+        "protein": 9,
+        "carbs": 56.18181818181819,
+        "fats": 1.5,
         "baseCalories": 3.6509090909090913,
         "baseProtein": 0.12,
         "baseCarbs": 0.7490909090909091,
@@ -272,18 +272,18 @@ const foodDatabase = {
   "p1_m1": {
     "name": "Cuscús integral con pavo y calabaza",
     "image": "https://raw.githubusercontent.com/hombresenforma/ivan-diet/main/assets/ivandt/dias-4-7/cuscus-pavo-calabaza.jpg",
-    "calories": 666,
-    "protein": 53,
-    "carbs": 80,
+    "calories": 740,
+    "protein": 55,
+    "carbs": 96,
     "fats": 10,
     "ingredients": [
       {
         "name": "Cuscús integral",
-        "quantity": "75",
+        "quantity": "95",
         "unit": "g",
-        "calories": 277.5,
-        "protein": 7.5,
-        "carbs": 60,
+        "calories": 351.5,
+        "protein": 9.5,
+        "carbs": 76,
         "fats": 0,
         "baseCalories": 3.7,
         "baseProtein": 0.1,
@@ -426,10 +426,10 @@ const foodDatabase = {
   "p1_m3": {
     "name": "Vaso exprés de queso batido, whey, plátano y avena",
     "image": "https://raw.githubusercontent.com/hombresenforma/ivan-diet/main/assets/ivandt/sin-cocina/vaso-queso-batido-platano-avena.jpg",
-    "calories": 374,
-    "protein": 36,
-    "carbs": 49,
-    "fats": 4,
+    "calories": 465,
+    "protein": 39,
+    "carbs": 68,
+    "fats": 5,
     "ingredients": [
       {
         "name": "Queso fresco batido 0%",
@@ -472,12 +472,12 @@ const foodDatabase = {
       },
       {
         "name": "Copos de avena",
-        "quantity": "30",
+        "quantity": "55",
         "unit": "g",
-        "calories": 109.5,
-        "protein": 3.5999999999999996,
-        "carbs": 22.5,
-        "fats": 0.6,
+        "calories": 200.75,
+        "protein": 6.6,
+        "carbs": 41.25,
+        "fats": 1.1,
         "baseCalories": 3.65,
         "baseProtein": 0.12,
         "baseCarbs": 0.75,
@@ -488,34 +488,21 @@ const foodDatabase = {
     "originalBaseRecipeId": "des_vaso_exprs_de_queso_batido_whey_pltano_y_avena"
   },
   "p2_m0": {
-    "name": "Tostada de Pan de Centeno con Revuelto de Huevos y Jamón York",
+    "name": "Revuelto de Huevo y Jamón York",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687d09e04d6fb7f271b84cc9.png",
-    "calories": 285,
-    "protein": 17,
-    "carbs": 21,
-    "fats": 14,
+    "calories": 351,
+    "protein": 21,
+    "carbs": 2,
+    "fats": 29,
     "ingredients": [
       {
-        "name": "Tostada de Pan de Centeno",
-        "quantity": "1",
-        "unit": "rebanada",
-        "calories": 108,
-        "protein": 3.5999999999999996,
-        "carbs": 20,
-        "fats": 1.2,
-        "baseCalories": 108,
-        "baseProtein": 3.5999999999999996,
-        "baseCarbs": 20,
-        "baseFats": 1.2
-      },
-      {
         "name": "Huevos",
-        "quantity": "1",
+        "quantity": "2",
         "unit": "ud",
-        "calories": 85.25,
-        "protein": 7.15,
-        "carbs": 0.6050000000000001,
-        "fats": 6.05,
+        "calories": 170.5,
+        "protein": 14.3,
+        "carbs": 1.2100000000000002,
+        "fats": 12.1,
         "baseCalories": 85.25,
         "baseProtein": 7.15,
         "baseCarbs": 0.6050000000000001,
@@ -533,6 +520,19 @@ const foodDatabase = {
         "baseProtein": 0.16,
         "baseCarbs": 0.02,
         "baseFats": 0.18
+      },
+      {
+        "name": "Aceite de oliva virgen extra",
+        "quantity": "10",
+        "unit": "g",
+        "calories": 88.4,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 10,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1
       }
     ],
     "preparation": "1. Tostar el pan de centeno. 2. Preparar un revuelto de huevos con taquitos de jamón york. 3. Servir el revuelto sobre la tostada.",
@@ -541,10 +541,10 @@ const foodDatabase = {
   "p2_m1": {
     "name": "Ensalada verde de pollo, lentejas y salsa de yogur",
     "image": "https://raw.githubusercontent.com/hombresenforma/ivan-diet/main/assets/ivandt/sin-cocina/ensalada-verde-pollo-lentejas.jpg",
-    "calories": 595,
-    "protein": 67,
-    "carbs": 50,
-    "fats": 11,
+    "calories": 618,
+    "protein": 63,
+    "carbs": 39,
+    "fats": 21,
     "ingredients": [
       {
         "name": "Tiras de pechuga de pollo asada listas para comer",
@@ -574,12 +574,12 @@ const foodDatabase = {
       },
       {
         "name": "Lentejas cocidas de bote",
-        "quantity": "150",
+        "quantity": "100",
         "unit": "g",
-        "calories": 195,
-        "protein": 12,
-        "carbs": 33,
-        "fats": 0.75,
+        "calories": 130,
+        "protein": 8,
+        "carbs": 22,
+        "fats": 0.5,
         "baseCalories": 1.3,
         "baseProtein": 0.08,
         "baseCarbs": 0.22,
@@ -623,6 +623,19 @@ const foodDatabase = {
         "baseProtein": 0.12,
         "baseCarbs": 0.04,
         "baseFats": 0.04
+      },
+      {
+        "name": "Aceite de oliva virgen extra",
+        "quantity": "10",
+        "unit": "g",
+        "calories": 88.4,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 10,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1
       }
     ],
     "preparation": "Escurrir las lentejas y ponerlas sobre las hojas verdes con el pollo, el pepino y los tomates. Mezclar skyr y mostaza para el aliño. Todo se compra cocinado o listo para consumir; montaje en 5 minutos y sin calor.",
@@ -631,19 +644,19 @@ const foodDatabase = {
   "p2_m2": {
     "name": "Quinoa con ternera y verduras",
     "image": "https://raw.githubusercontent.com/hombresenforma/ivan-diet/main/assets/ivandt/dias-4-7/quinoa-ternera-verduras.jpg",
-    "calories": 752,
-    "protein": 46,
-    "carbs": 66,
-    "fats": 33,
+    "calories": 661,
+    "protein": 43,
+    "carbs": 48,
+    "fats": 32,
     "ingredients": [
       {
         "name": "Quinoa",
-        "quantity": "75",
+        "quantity": "50",
         "unit": "g",
-        "calories": 273.6923076923077,
-        "protein": 9,
-        "carbs": 56.30769230769231,
-        "fats": 1.5,
+        "calories": 182.46153846153845,
+        "protein": 6,
+        "carbs": 37.53846153846154,
+        "fats": 1,
         "baseCalories": 3.649230769230769,
         "baseProtein": 0.12,
         "baseCarbs": 0.7507692307692307,
@@ -759,19 +772,19 @@ const foodDatabase = {
   "p2_m4": {
     "name": "Fruta Cítrica (Mandarina, Kiwi, Naranja...)",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd3d0ed506305442ffe4.png",
-    "calories": 180,
-    "protein": 2,
-    "carbs": 45,
-    "fats": 1,
+    "calories": 90,
+    "protein": 1,
+    "carbs": 23,
+    "fats": 0,
     "ingredients": [
       {
         "name": "Mandarina",
-        "quantity": "2",
+        "quantity": "1",
         "unit": "ud",
-        "calories": 180,
-        "protein": 1.5,
-        "carbs": 45,
-        "fats": 0.6,
+        "calories": 90,
+        "protein": 0.75,
+        "carbs": 22.5,
+        "fats": 0.3,
         "baseCalories": 90,
         "baseProtein": 0.75,
         "baseCarbs": 22.5,
@@ -780,22 +793,290 @@ const foodDatabase = {
     ],
     "preparation": "1. Seleccionar la fruta cítrica de preferencia. 2. Lavar bien la fruta bajo el grifo. 3. Para mandarinas y naranjas: pelar la piel con las manos. 4. Para kiwis: cortar por la mitad y comer la pulpa con una cucharita.",
     "originalBaseRecipeId": "ext_fruta_ctrica_mandarina_kiwi_naranja"
+  },
+  "p2_m5": {
+    "name": "Crema de cacahuete",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68525c0b1d27cfeb580a55f7.png",
+    "ingredients": [
+      {
+        "name": "Crema de cacahuete",
+        "quantity": "30",
+        "unit": "g",
+        "calories": 135,
+        "protein": 3,
+        "carbs": 4.5,
+        "fats": 12,
+        "baseCalories": 4.5,
+        "baseProtein": 0.1,
+        "baseCarbs": 0.15,
+        "baseFats": 0.4
+      }
+    ],
+    "preparation": "Tomar como acompañamiento del snack.",
+    "originalBaseRecipeId": "custom_framoh_crema_cacahuete",
+    "calories": 135,
+    "protein": 3,
+    "carbs": 5,
+    "fats": 12
+  },
+  "p3_m0": {
+    "name": "Revuelto de Huevos con Queso y Espinacas",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682ad5e1e819fcb589a8a30e.png",
+    "ingredients": [
+      {
+        "name": "Huevos",
+        "quantity": "3",
+        "unit": "ud",
+        "calories": 255.75,
+        "protein": 21.450000000000003,
+        "carbs": 1.815,
+        "fats": 18.15,
+        "baseCalories": 85.25,
+        "baseProtein": 7.15,
+        "baseCarbs": 0.605,
+        "baseFats": 6.05
+      },
+      {
+        "name": "Queso Gouda",
+        "quantity": "30",
+        "unit": "g",
+        "calories": 105,
+        "protein": 7.5,
+        "carbs": 0.6,
+        "fats": 7.5,
+        "baseCalories": 3.5,
+        "baseProtein": 0.25,
+        "baseCarbs": 0.02,
+        "baseFats": 0.25
+      },
+      {
+        "name": "Espinacas",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 30,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      }
+    ],
+    "preparation": "Saltear las espinacas y cuajar con los huevos. Añadir el queso al final.",
+    "originalBaseRecipeId": "custom_framoh_revuelto_queso_espinaca",
+    "calories": 391,
+    "protein": 31,
+    "carbs": 7,
+    "fats": 26
+  },
+  "p3_m1": {
+    "name": "Yogur proteico con semillas de chía",
+    "image": "https://raw.githubusercontent.com/hombresenforma/ivan-diet/main/assets/ivandt/sin-cocina/vaso-queso-batido-platano-avena.jpg",
+    "ingredients": [
+      {
+        "name": "Yogur proteico",
+        "quantity": "150",
+        "unit": "g",
+        "calories": 93,
+        "protein": 15.75,
+        "carbs": 6,
+        "fats": 0.45,
+        "baseCalories": 0.62,
+        "baseProtein": 0.105,
+        "baseCarbs": 0.04,
+        "baseFats": 0.003
+      },
+      {
+        "name": "Semillas de chía",
+        "quantity": "30",
+        "unit": "g",
+        "calories": 135,
+        "protein": 3,
+        "carbs": 4.5,
+        "fats": 12,
+        "baseCalories": 4.5,
+        "baseProtein": 0.1,
+        "baseCarbs": 0.15,
+        "baseFats": 0.4
+      }
+    ],
+    "preparation": "Mezclar el yogur proteico con la crema de cacahuete.",
+    "originalBaseRecipeId": "custom_framoh_yogur_cacahuete",
+    "calories": 228,
+    "protein": 19,
+    "carbs": 11,
+    "fats": 12
+  },
+  "p3_m2": {
+    "name": "Ensalada de Atún con Patata",
+    "image": "https://raw.githubusercontent.com/hombresenforma/ivan-diet/main/assets/ivandt/sin-cocina/ensalada-verde-pollo-lentejas.jpg",
+    "ingredients": [
+      {
+        "name": "Atún al natural escurrido",
+        "quantity": "150",
+        "unit": "g",
+        "calories": 240,
+        "protein": 42.00000000000001,
+        "carbs": 0,
+        "fats": 6,
+        "baseCalories": 1.6,
+        "baseProtein": 0.28,
+        "baseCarbs": 0,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Hojas verdes",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 30,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Patata cocida",
+        "quantity": "200",
+        "unit": "g",
+        "calories": 180,
+        "protein": 4,
+        "carbs": 40,
+        "fats": 0.2,
+        "baseCalories": 0.9,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.2,
+        "baseFats": 0.001
+      },
+      {
+        "name": "Aceite de oliva virgen extra",
+        "quantity": "5",
+        "unit": "g",
+        "calories": 44.2,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 5,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1
+      }
+    ],
+    "preparation": "Cocer la patata, dejar templar y servir con atún, hojas verdes y aceite medido.",
+    "originalBaseRecipeId": "custom_framoh_ensalada_atun_patata",
+    "calories": 494,
+    "protein": 48,
+    "carbs": 45,
+    "fats": 11
+  },
+  "p3_m3": {
+    "name": "Salmón al horno con verduras",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afda0b91eb330dd3d49b2.png",
+    "ingredients": [
+      {
+        "name": "Salmón",
+        "quantity": "200",
+        "unit": "g",
+        "calories": 440.00000000000006,
+        "protein": 44,
+        "carbs": 0,
+        "fats": 28.000000000000004,
+        "baseCalories": 2.2,
+        "baseProtein": 0.22,
+        "baseCarbs": 0,
+        "baseFats": 0.14
+      },
+      {
+        "name": "Verduras variadas",
+        "quantity": "200",
+        "unit": "g",
+        "calories": 60,
+        "protein": 4,
+        "carbs": 10,
+        "fats": 0.4,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Aceite de oliva virgen extra",
+        "quantity": "10",
+        "unit": "g",
+        "calories": 88.4,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 10,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1
+      }
+    ],
+    "preparation": "Hornear el salmón y acompañarlo con verduras cocinadas; medir el aceite.",
+    "originalBaseRecipeId": "custom_framoh_salmon_verduras",
+    "calories": 588,
+    "protein": 48,
+    "carbs": 10,
+    "fats": 38
+  },
+  "p3_m4": {
+    "name": "Queso Cottage con Kiwi",
+    "image": "https://raw.githubusercontent.com/hombresenforma/ivan-diet/main/assets/ivandt/sin-cocina/ensalada-verde-pollo-lentejas.jpg",
+    "ingredients": [
+      {
+        "name": "Queso Cottage",
+        "quantity": "150",
+        "unit": "g",
+        "calories": 150,
+        "protein": 18,
+        "carbs": 6,
+        "fats": 6,
+        "baseCalories": 1,
+        "baseProtein": 0.12,
+        "baseCarbs": 0.04,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Kiwi",
+        "quantity": "1",
+        "unit": "ud",
+        "calories": 90,
+        "protein": 0.75,
+        "carbs": 22.5,
+        "fats": 0.3,
+        "baseCalories": 90,
+        "baseProtein": 0.75,
+        "baseCarbs": 22.5,
+        "baseFats": 0.3
+      }
+    ],
+    "preparation": "Servir el queso cottage con el kiwi troceado.",
+    "originalBaseRecipeId": "custom_framoh_cottage_kiwi",
+    "calories": 240,
+    "protein": 19,
+    "carbs": 29,
+    "fats": 6
   }
 };
+
 const dailyMenus = [
   {
-    "name": "Opciones 1",
+    "name": "Entreno 1",
     "targetMacros": {
-      "calories": 2003,
-      "protein": 150,
-      "carbs": 178,
-      "fats": 75
+      "calories": 2150,
+      "protein": 156,
+      "carbs": 207,
+      "fats": 76
     },
     "baselineTotals": {
-      "calories": 2003,
-      "protein": 150,
-      "carbs": 178,
-      "fats": 75
+      "calories": 2150,
+      "protein": 156,
+      "carbs": 207,
+      "fats": 76
     },
     "desayuno": [
       "p0_m0"
@@ -811,18 +1092,18 @@ const dailyMenus = [
     ]
   },
   {
-    "name": "Opciones 2",
+    "name": "Entreno 2",
     "targetMacros": {
-      "calories": 2000,
-      "protein": 150,
-      "carbs": 168,
-      "fats": 77
+      "calories": 2064,
+      "protein": 164,
+      "carbs": 186,
+      "fats": 69
     },
     "baselineTotals": {
-      "calories": 2000,
-      "protein": 150,
-      "carbs": 168,
-      "fats": 77
+      "calories": 2064,
+      "protein": 164,
+      "carbs": 186,
+      "fats": 69
     },
     "desayuno": [
       "p1_m0"
@@ -838,18 +1119,18 @@ const dailyMenus = [
     ]
   },
   {
-    "name": "Opciones 3",
+    "name": "Libre 1",
     "targetMacros": {
-      "calories": 2002,
-      "protein": 150,
-      "carbs": 179,
-      "fats": 73
+      "calories": 1900,
+      "protein": 133,
+      "carbs": 99,
+      "fats": 106
     },
     "baselineTotals": {
-      "calories": 2002,
-      "protein": 150,
-      "carbs": 179,
-      "fats": 73
+      "calories": 1900,
+      "protein": 133,
+      "carbs": 99,
+      "fats": 106
     },
     "desayuno": [
       "p2_m0"
@@ -862,7 +1143,35 @@ const dailyMenus = [
     ],
     "extra": [
       "p2_m3",
-      "p2_m4"
+      "p2_m5"
+    ]
+  },
+  {
+    "name": "Libre 2",
+    "targetMacros": {
+      "calories": 1941,
+      "protein": 165,
+      "carbs": 102,
+      "fats": 93
+    },
+    "baselineTotals": {
+      "calories": 1941,
+      "protein": 165,
+      "carbs": 102,
+      "fats": 93
+    },
+    "desayuno": [
+      "p3_m0"
+    ],
+    "comida": [
+      "p3_m2"
+    ],
+    "cena": [
+      "p3_m3"
+    ],
+    "extra": [
+      "p3_m1",
+      "p3_m4"
     ]
   }
 ];
