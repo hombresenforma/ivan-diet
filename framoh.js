@@ -796,7 +796,7 @@ const foodDatabase = {
   },
   "p2_m5": {
     "name": "Crema de cacahuete",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68525c0b1d27cfeb580a55f7.png",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68ee03e1c8952ccb30699d34.png",
     "ingredients": [
       {
         "name": "Crema de cacahuete",
@@ -872,7 +872,7 @@ const foodDatabase = {
   },
   "p3_m1": {
     "name": "Yogur proteico con semillas de chía",
-    "image": "https://raw.githubusercontent.com/hombresenforma/ivan-diet/main/assets/ivandt/sin-cocina/vaso-queso-batido-platano-avena.jpg",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687d043e9b0c67b6db9b08b8.png",
     "ingredients": [
       {
         "name": "Yogur proteico",
@@ -910,7 +910,7 @@ const foodDatabase = {
   },
   "p3_m2": {
     "name": "Ensalada de Atún con Patata",
-    "image": "https://raw.githubusercontent.com/hombresenforma/ivan-diet/main/assets/ivandt/sin-cocina/ensalada-verde-pollo-lentejas.jpg",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afc08b91eb31afe3d4796.png",
     "ingredients": [
       {
         "name": "Atún al natural escurrido",
@@ -1025,7 +1025,6 @@ const foodDatabase = {
   },
   "p3_m4": {
     "name": "Queso Cottage con Kiwi",
-    "image": "https://raw.githubusercontent.com/hombresenforma/ivan-diet/main/assets/ivandt/sin-cocina/ensalada-verde-pollo-lentejas.jpg",
     "ingredients": [
       {
         "name": "Queso Cottage",
