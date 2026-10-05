@@ -1,13 +1,13 @@
 // Titulo: Plan de alimentación de César Espíritu — 3 opciones
-// Alergias: 
+// Alergias: const foodDatabase = {
 const foodDatabase = {
   "p0_m0": {
     "name": "Revuelto de Huevos con Jamón",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682ad5e1e819fcb589a8a30e.png",
-    "calories": 265,
-    "protein": 24,
+    "calories": 309,
+    "protein": 28,
     "carbs": 1,
-    "fats": 18,
+    "fats": 21,
     "ingredients": [
       {
         "name": "Huevos",
@@ -24,12 +24,12 @@ const foodDatabase = {
       },
       {
         "name": "Jamón Serrano",
-        "quantity": "50",
+        "quantity": "70",
         "unit": "g",
-        "calories": 110,
-        "protein": 11,
+        "calories": 154,
+        "protein": 15.4,
         "carbs": 0,
-        "fats": 7,
+        "fats": 9.8,
         "baseCalories": 2.2,
         "baseProtein": 0.22,
         "baseCarbs": 0,
@@ -158,19 +158,19 @@ const foodDatabase = {
   "p0_m2": {
     "name": "Merluza a la Plancha",
     "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69b66b6dad027629d2f1e944.png",
-    "calories": 408,
-    "protein": 56,
+    "calories": 360,
+    "protein": 48,
     "carbs": 0,
-    "fats": 18,
+    "fats": 17,
     "ingredients": [
       {
         "name": "Filete de Merluza",
-        "quantity": "200",
+        "quantity": "170",
         "unit": "g",
-        "calories": 320,
-        "protein": 56,
+        "calories": 272,
+        "protein": 47.6,
         "carbs": 0,
-        "fats": 8,
+        "fats": 6.8,
         "baseCalories": 1.6,
         "baseProtein": 0.28,
         "baseCarbs": 0,
@@ -308,68 +308,68 @@ const foodDatabase = {
     "originalBaseRecipeId": ""
   },
   "p1_m0": {
-    "name": "Vaso exprés de queso batido, whey, plátano y avena",
-    "image": "https://raw.githubusercontent.com/hombresenforma/ivan-diet/main/assets/ivandt/sin-cocina/vaso-queso-batido-platano-avena.jpg",
-    "calories": 399,
-    "protein": 51,
-    "carbs": 45,
-    "fats": 3,
+    "name": "Skyr con plátano, frutos rojos y almendras",
+    "image": "https://raw.githubusercontent.com/hombresenforma/ivan-diet/main/assets/ivandt/dias-4-7/skyr-platano-frutos-rojos-almendras.jpg",
+    "calories": 275,
+    "protein": 15,
+    "carbs": 38,
+    "fats": 9,
     "ingredients": [
       {
-        "name": "Queso fresco batido 0%",
-        "quantity": "250",
+        "name": "Skyr natural",
+        "quantity": "100",
         "unit": "g",
-        "calories": 140,
-        "protein": 24,
-        "carbs": 10,
-        "fats": 1,
-        "baseCalories": 0.56,
-        "baseProtein": 0.096,
+        "calories": 100,
+        "protein": 12,
+        "carbs": 4,
+        "fats": 4,
+        "baseCalories": 1,
+        "baseProtein": 0.12,
         "baseCarbs": 0.04,
-        "baseFats": 0.004
-      },
-      {
-        "name": "Proteína Whey en Polvo",
-        "quantity": "30",
-        "unit": "g",
-        "calories": 114,
-        "protein": 24,
-        "carbs": 1.5,
-        "fats": 1.2,
-        "baseCalories": 3.8,
-        "baseProtein": 0.8,
-        "baseCarbs": 0.05,
         "baseFats": 0.04
       },
       {
         "name": "Plátano",
         "quantity": "1",
-        "unit": "unidad(es)",
-        "calories": 72,
-        "protein": 0.6,
-        "carbs": 18,
-        "fats": 0.24,
-        "baseCalories": 72,
-        "baseProtein": 0.6,
-        "baseCarbs": 18,
-        "baseFats": 0.24
+        "unit": "ud",
+        "calories": 90,
+        "protein": 0.75,
+        "carbs": 22.5,
+        "fats": 0.3,
+        "baseCalories": 90,
+        "baseProtein": 0.75,
+        "baseCarbs": 22.5,
+        "baseFats": 0.3
       },
       {
-        "name": "Copos de Avena",
-        "quantity": "20",
+        "name": "Frutos rojos",
+        "quantity": "80",
         "unit": "g",
-        "calories": 73,
-        "protein": 2.4,
-        "carbs": 15,
+        "calories": 40,
+        "protein": 0.8,
+        "carbs": 9.6,
         "fats": 0.4,
-        "baseCalories": 3.65,
-        "baseProtein": 0.12,
-        "baseCarbs": 0.75,
-        "baseFats": 0.02
+        "baseCalories": 0.5,
+        "baseProtein": 0.01,
+        "baseCarbs": 0.12,
+        "baseFats": 0.005
+      },
+      {
+        "name": "Almendras",
+        "quantity": "10",
+        "unit": "g",
+        "calories": 45,
+        "protein": 1,
+        "carbs": 1.5,
+        "fats": 4,
+        "baseCalories": 4.5,
+        "baseProtein": 0.1,
+        "baseCarbs": 0.15,
+        "baseFats": 0.4
       }
     ],
-    "preparation": "Mezclar el queso batido con la whey y terminar con el plátano en rodajas y la avena. Se monta en 3 minutos y no necesita cocina.",
-    "originalBaseRecipeId": ""
+    "preparation": "1. Servir el skyr con el plátano en rodajas, los frutos rojos y las almendras picadas.",
+    "originalBaseRecipeId": "ext_skyr_con_pltano_frutos_rojos_y_almendras"
   },
   "p1_m1": {
     "name": "Wok de Verduras con Salmón",
@@ -476,8 +476,8 @@ const foodDatabase = {
   "p1_m3": {
     "name": "Wrap frío integral de pavo, cottage y hojas verdes",
     "image": "https://raw.githubusercontent.com/hombresenforma/ivan-diet/main/assets/ivandt/sin-cocina/wrap-frio-pavo-cottage.jpg",
-    "calories": 355,
-    "protein": 38,
+    "calories": 376,
+    "protein": 42,
     "carbs": 33,
     "fats": 8,
     "ingredients": [
@@ -496,12 +496,12 @@ const foodDatabase = {
       },
       {
         "name": "Lonchas de pechuga de pavo alta en carne",
-        "quantity": "100",
+        "quantity": "120",
         "unit": "g",
-        "calories": 105,
-        "protein": 22,
-        "carbs": 1.5,
-        "fats": 1.5,
+        "calories": 126,
+        "protein": 26.4,
+        "carbs": 1.7999999999999998,
+        "fats": 1.7999999999999998,
         "baseCalories": 1.05,
         "baseProtein": 0.22,
         "baseCarbs": 0.015,
@@ -1062,9 +1062,9 @@ const foodDatabase = {
   "p3_m2": {
     "name": "Albóndigas de pavo con calabacín",
     "image": "https://raw.githubusercontent.com/hombresenforma/ivan-diet/main/assets/ivandt/dias-4-7/albondigas-pavo-calabacin.jpg",
-    "calories": 406,
-    "protein": 40,
-    "carbs": 7,
+    "calories": 397,
+    "protein": 39,
+    "carbs": 5,
     "fats": 22,
     "ingredients": [
       {
@@ -1082,12 +1082,12 @@ const foodDatabase = {
       },
       {
         "name": "Calabacín",
-        "quantity": "55",
+        "quantity": "40",
         "unit": "g",
-        "calories": 16.5,
-        "protein": 1.1,
-        "carbs": 2.75,
-        "fats": 0.11,
+        "calories": 12,
+        "protein": 0.8,
+        "carbs": 2,
+        "fats": 0.08,
         "baseCalories": 0.3,
         "baseProtein": 0.02,
         "baseCarbs": 0.05,
@@ -1095,12 +1095,12 @@ const foodDatabase = {
       },
       {
         "name": "Tomate",
-        "quantity": "55",
+        "quantity": "40",
         "unit": "g",
-        "calories": 16.5,
-        "protein": 1.1,
-        "carbs": 2.75,
-        "fats": 0.11,
+        "calories": 12,
+        "protein": 0.8,
+        "carbs": 2,
+        "fats": 0.08,
         "baseCalories": 0.3,
         "baseProtein": 0.02,
         "baseCarbs": 0.05,
@@ -1137,44 +1137,6 @@ const foodDatabase = {
     "originalBaseRecipeId": "pp_albndigas_de_pavo_con_calabacn"
   },
   "p3_m3": {
-    "name": "Naranja con anacardos",
-    "image": "https://raw.githubusercontent.com/hombresenforma/ivan-diet/main/assets/ivandt/dias-4-7/naranja-anacardos.jpg",
-    "calories": 135,
-    "protein": 2,
-    "carbs": 24,
-    "fats": 4,
-    "ingredients": [
-      {
-        "name": "Naranja",
-        "quantity": "1",
-        "unit": "ud",
-        "calories": 90,
-        "protein": 0.75,
-        "carbs": 22.5,
-        "fats": 0.3,
-        "baseCalories": 90,
-        "baseProtein": 0.75,
-        "baseCarbs": 22.5,
-        "baseFats": 0.3
-      },
-      {
-        "name": "Anacardos",
-        "quantity": "10",
-        "unit": "g",
-        "calories": 45,
-        "protein": 1,
-        "carbs": 1.5,
-        "fats": 4,
-        "baseCalories": 4.5,
-        "baseProtein": 0.1,
-        "baseCarbs": 0.15,
-        "baseFats": 0.4
-      }
-    ],
-    "preparation": "1. Pelar la naranja, separar los gajos y servir con los anacardos pesados.",
-    "originalBaseRecipeId": "ext_naranja_con_anacardos"
-  },
-  "p3_m4": {
     "name": "Revuelto de Huevos con Espárragos Trigueros",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684f019a532eaa9f6977a78c.png",
     "calories": 155,
@@ -1224,11 +1186,49 @@ const foodDatabase = {
     ],
     "preparation": "1. Lavar los espárragos trigueros y cortar la parte inferior más dura del tallo. Trocear los espárragos en trozos de unos 2-3 cm. 2. Batir los huevos en un bol con una pizca de sal y pimienta. 3. Calentar un poco de aceite de oliva en una sartén a fuego medio. Añadir los espárragos troceados y saltear durante 3-5 minutos, o hasta que estén tiernos pero aún crujientes. 4. Verter los huevos batidos sobre los espárragos en la sartén. 5. Remover suavemente con una espátula, mezclando los huevos con los espárragos, hasta que los huevos estén cuajados al gusto.",
     "originalBaseRecipeId": "ac_revuelto_de_huevos_con_esprragos_trigueros"
+  },
+  "p3_m4": {
+    "name": "Naranja con anacardos",
+    "image": "https://raw.githubusercontent.com/hombresenforma/ivan-diet/main/assets/ivandt/dias-4-7/naranja-anacardos.jpg",
+    "calories": 135,
+    "protein": 2,
+    "carbs": 24,
+    "fats": 4,
+    "ingredients": [
+      {
+        "name": "Naranja",
+        "quantity": "1",
+        "unit": "ud",
+        "calories": 90,
+        "protein": 0.75,
+        "carbs": 22.5,
+        "fats": 0.3,
+        "baseCalories": 90,
+        "baseProtein": 0.75,
+        "baseCarbs": 22.5,
+        "baseFats": 0.3
+      },
+      {
+        "name": "Anacardos",
+        "quantity": "10",
+        "unit": "g",
+        "calories": 45,
+        "protein": 1,
+        "carbs": 1.5,
+        "fats": 4,
+        "baseCalories": 4.5,
+        "baseProtein": 0.1,
+        "baseCarbs": 0.15,
+        "baseFats": 0.4
+      }
+    ],
+    "preparation": "1. Pelar la naranja, separar los gajos y servir con los anacardos pesados.",
+    "originalBaseRecipeId": "ext_naranja_con_anacardos"
   }
 };
 const dailyMenus = [
   {
-    "name": "Opciones 1",
+    "name": "Entreno 1",
     "targetMacros": {
       "calories": 1797,
       "protein": 147,
@@ -1257,7 +1257,7 @@ const dailyMenus = [
     ]
   },
   {
-    "name": "Opciones 2",
+    "name": "Libre 1",
     "targetMacros": {
       "calories": 1786,
       "protein": 149,
@@ -1287,7 +1287,7 @@ const dailyMenus = [
     ]
   },
   {
-    "name": "Opciones 3",
+    "name": "Entreno 2",
     "targetMacros": {
       "calories": 1800,
       "protein": 148,
@@ -1316,7 +1316,7 @@ const dailyMenus = [
     ]
   },
   {
-    "name": "Opciones 4",
+    "name": "Libre 2",
     "targetMacros": {
       "calories": 1700,
       "protein": 150,
@@ -1336,10 +1336,10 @@ const dailyMenus = [
     ],
     "cena": [
       "p3_m2",
-      "p3_m4"
+      "p3_m3"
     ],
     "extra": [
-      "p3_m3"
+      "p3_m4"
     ]
   }
 ];
