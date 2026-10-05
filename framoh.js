@@ -821,7 +821,6 @@ const foodDatabase = {
   },
   "p3_m0": {
     "name": "Revuelto de Huevos con Queso y Espinacas",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682ad5e1e819fcb589a8a30e.png",
     "ingredients": [
       {
         "name": "Huevos",
@@ -872,7 +871,6 @@ const foodDatabase = {
   },
   "p3_m1": {
     "name": "Yogur proteico con semillas de chía",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687d043e9b0c67b6db9b08b8.png",
     "ingredients": [
       {
         "name": "Yogur proteico",
@@ -910,7 +908,6 @@ const foodDatabase = {
   },
   "p3_m2": {
     "name": "Ensalada de Atún con Patata",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afc08b91eb31afe3d4796.png",
     "ingredients": [
       {
         "name": "Atún al natural escurrido",
@@ -974,7 +971,6 @@ const foodDatabase = {
   },
   "p3_m3": {
     "name": "Salmón al horno con verduras",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afda0b91eb330dd3d49b2.png",
     "ingredients": [
       {
         "name": "Salmón",
