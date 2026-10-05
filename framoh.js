@@ -272,18 +272,18 @@ const foodDatabase = {
   "p1_m1": {
     "name": "Cuscús integral con pavo y calabaza",
     "image": "https://raw.githubusercontent.com/hombresenforma/ivan-diet/main/assets/ivandt/dias-4-7/cuscus-pavo-calabaza.jpg",
-    "calories": 740,
-    "protein": 55,
-    "carbs": 96,
+    "calories": 814,
+    "protein": 57,
+    "carbs": 112,
     "fats": 10,
     "ingredients": [
       {
         "name": "Cuscús integral",
-        "quantity": "95",
+        "quantity": "115",
         "unit": "g",
-        "calories": 351.5,
-        "protein": 9.5,
-        "carbs": 76,
+        "calories": 425.5,
+        "protein": 11.5,
+        "carbs": 92,
         "fats": 0,
         "baseCalories": 3.7,
         "baseProtein": 0.1,
@@ -426,10 +426,10 @@ const foodDatabase = {
   "p1_m3": {
     "name": "Vaso exprés de queso batido, whey, plátano y avena",
     "image": "https://raw.githubusercontent.com/hombresenforma/ivan-diet/main/assets/ivandt/sin-cocina/vaso-queso-batido-platano-avena.jpg",
-    "calories": 465,
-    "protein": 39,
-    "carbs": 68,
-    "fats": 5,
+    "calories": 374,
+    "protein": 36,
+    "carbs": 49,
+    "fats": 4,
     "ingredients": [
       {
         "name": "Queso fresco batido 0%",
@@ -472,12 +472,12 @@ const foodDatabase = {
       },
       {
         "name": "Copos de avena",
-        "quantity": "55",
+        "quantity": "30",
         "unit": "g",
-        "calories": 200.75,
-        "protein": 6.6,
-        "carbs": 41.25,
-        "fats": 1.1,
+        "calories": 109.5,
+        "protein": 3.5999999999999996,
+        "carbs": 22.5,
+        "fats": 0.6,
         "baseCalories": 3.65,
         "baseProtein": 0.12,
         "baseCarbs": 0.75,
@@ -1094,16 +1094,16 @@ const dailyMenus = [
   {
     "name": "Entreno 2",
     "targetMacros": {
-      "calories": 2064,
-      "protein": 164,
-      "carbs": 186,
-      "fats": 69
+      "calories": 2047,
+      "protein": 163,
+      "carbs": 183,
+      "fats": 68
     },
     "baselineTotals": {
-      "calories": 2064,
-      "protein": 164,
-      "carbs": 186,
-      "fats": 69
+      "calories": 2047,
+      "protein": 163,
+      "carbs": 183,
+      "fats": 68
     },
     "desayuno": [
       "p1_m0"
