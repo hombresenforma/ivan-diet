@@ -3,7 +3,7 @@
 export const foodDatabase = {
   "o1_des": {
     "name": "Tostada de Centeno con Cottage y Pavo",
-    "image": "",
+    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69b669d75b89c7ceec966248.png",
     "calories": 344,
     "protein": 33.4,
     "carbs": 32.8,
@@ -131,7 +131,7 @@ export const foodDatabase = {
   },
   "o1_cen": {
     "name": "Merluza a la Plancha",
-    "image": "",
+    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69b66b6dad027629d2f1e944.png",
     "calories": 240,
     "protein": 42,
     "carbs": 0,
@@ -155,7 +155,7 @@ export const foodDatabase = {
   },
   "o1_cen2": {
     "name": "Judía verde con patata y Zanahoria",
-    "image": "",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cf5c1ddc9c1507857434b.png",
     "calories": 209.2,
     "protein": 7,
     "carbs": 32.5,
@@ -218,7 +218,7 @@ export const foodDatabase = {
   },
   "o1_sna": {
     "name": "Skyr con plátano, frutos rojos y almendras",
-    "image": "",
+    "image": "https://raw.githubusercontent.com/hombresenforma/ivan-diet/main/assets/ivandt/dias-4-7/skyr-platano-frutos-rojos-almendras.jpg",
     "calories": 304.5,
     "protein": 29.4,
     "carbs": 37,
@@ -434,7 +434,7 @@ export const foodDatabase = {
   },
   "o2_cen": {
     "name": "Bacalao con Pisto de Verduras",
-    "image": "",
+    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69fee682bc1f77cc3522d18f.png",
     "calories": 285,
     "protein": 45,
     "carbs": 7.5,
@@ -509,7 +509,7 @@ export const foodDatabase = {
   },
   "o3_des": {
     "name": "Fajita con Revuelto de Jamón Dulce",
-    "image": "",
+    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69b51120eba48737da3f22f1.png",
     "calories": 378,
     "protein": 24.6,
     "carbs": 22.1,
@@ -561,7 +561,7 @@ export const foodDatabase = {
   },
   "o3_com": {
     "name": "Quinoa con ternera y verduras",
-    "image": "",
+    "image": "https://raw.githubusercontent.com/hombresenforma/ivan-diet/main/assets/ivandt/dias-4-7/quinoa-ternera-verduras.jpg",
     "calories": 563.2,
     "protein": 36,
     "carbs": 42,
@@ -637,7 +637,7 @@ export const foodDatabase = {
   },
   "o3_cen": {
     "name": "Ensalada de Queso Fresco, Pavo y Nueces",
-    "image": "",
+    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/699b499d20c03528200c03e2.png",
     "calories": 490,
     "protein": 61.5,
     "carbs": 12.1,
@@ -713,7 +713,7 @@ export const foodDatabase = {
   },
   "o3_sna": {
     "name": "Batido Whey de Proteínas",
-    "image": "",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684f021af6c48d41b5a5c003.png",
     "calories": 114,
     "protein": 24,
     "carbs": 1.5,
@@ -750,7 +750,7 @@ export const foodDatabase = {
   },
   "o3_sna2": {
     "name": "Frutas Silvestres / Rojas",
-    "image": "",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684f020655f9650aaa228fc9.png",
     "calories": 60,
     "protein": 0.5,
     "carbs": 15,
@@ -1015,7 +1015,7 @@ export const foodDatabase = {
   },
   "o4_sna": {
     "name": "Frutos Secos (Mezcla)",
-    "image": "",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68525c0b1d27cfeb580a55f7.png",
     "calories": 135,
     "protein": 3,
     "carbs": 4.5,
@@ -1065,7 +1065,7 @@ export const foodDatabase = {
   },
   "o4_sna2": {
     "name": "Fruta Cítrica (Mandarina, Kiwi, Naranja...)",
-    "image": "",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd3d0ed506305442ffe4.png",
     "calories": 70.5,
     "protein": 0.6,
     "carbs": 17.6,
