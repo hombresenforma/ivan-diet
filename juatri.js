@@ -80,7 +80,7 @@ const foodDatabase = {
   },
   "p0_m1": {
     "name": "Arroz Hervido",
-    "image": "",
+    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69fee8aca3dd25aa2ac2626b.png",
     "calories": 401.5,
     "protein": 13.2,
     "carbs": 82.5,
@@ -105,7 +105,7 @@ const foodDatabase = {
   },
   "p0_m2": {
     "name": "Pechuga de Pollo a la Plancha",
-    "image": "",
+    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69b66b3087f0f2415505fc9a.png",
     "calories": 284.2,
     "protein": 42,
     "carbs": 0,
@@ -143,7 +143,7 @@ const foodDatabase = {
   },
   "p0_m3": {
     "name": "Ensalada de Tomate Espárragos Blancos con Atún",
-    "image": "",
+    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/699b47f820c0359e700b32ca.png",
     "calories": 406.4,
     "protein": 46,
     "carbs": 15.2,
@@ -220,7 +220,7 @@ const foodDatabase = {
   },
   "p0_m4": {
     "name": "Fruta Cítrica (Mandarina, Kiwi, Naranja...)",
-    "image": "",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd3d0ed506305442ffe4.png",
     "calories": 112,
     "protein": 2,
     "carbs": 28,
@@ -309,7 +309,7 @@ const foodDatabase = {
   },
   "p0_m6": {
     "name": "Pan de Centeno",
-    "image": "",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6879305ee8df5478eb937c5e.png",
     "calories": 216,
     "protein": 7.2,
     "carbs": 40,
@@ -475,7 +475,7 @@ const foodDatabase = {
   },
   "p1_m2": {
     "name": "Pechuga de Pavo a la Plancha",
-    "image": "",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684f003ef6c48dfc43a5bdb3.png",
     "calories": 178,
     "protein": 28.8,
     "carbs": 0,
@@ -513,7 +513,7 @@ const foodDatabase = {
   },
   "p1_m3": {
     "name": "Ensalada de Pepino, Tomate y Apio",
-    "image": "",
+    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69fee83da3dd25aa2ac2564d.png",
     "calories": 137.4,
     "protein": 2.3,
     "carbs": 9.9,
@@ -577,7 +577,7 @@ const foodDatabase = {
   },
   "p1_m4": {
     "name": "Lenguado a la Plancha",
-    "image": "",
+    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69b66f8887f0f23298065695.png",
     "calories": 237.2,
     "protein": 29.8,
     "carbs": 0,
@@ -615,7 +615,7 @@ const foodDatabase = {
   },
   "p1_m5": {
     "name": "Patata Hervida",
-    "image": "",
+    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69fee88fa3dd25aa2ac25fdc.png",
     "calories": 90,
     "protein": 2,
     "carbs": 20,
@@ -640,7 +640,7 @@ const foodDatabase = {
   },
   "p1_m6": {
     "name": "Queso Fresco Batido con Frutos Rojos y Miel",
-    "image": "",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6879302d02da47667d446b43.png",
     "calories": 186.2,
     "protein": 12.6,
     "carbs": 35.6,
@@ -691,7 +691,7 @@ const foodDatabase = {
   },
   "p1_m7": {
     "name": "Batido Whey de Proteínas",
-    "image": "",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684f021af6c48d41b5a5c003.png",
     "calories": 114,
     "protein": 24,
     "carbs": 1.5,
@@ -754,7 +754,7 @@ const foodDatabase = {
   },
   "p1_m9": {
     "name": "Onza de Chocolate 85%",
-    "image": "",
+    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69b51011eba487f7273f1096.png",
     "calories": 177,
     "protein": 3,
     "carbs": 6,
@@ -830,7 +830,7 @@ const foodDatabase = {
   },
   "p2_m1": {
     "name": "Bacalao con Pisto de Verduras",
-    "image": "",
+    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69fee682bc1f77cc3522d18f.png",
     "calories": 327.4,
     "protein": 37.8,
     "carbs": 7.5,
@@ -1009,7 +1009,7 @@ const foodDatabase = {
   },
   "p2_m4": {
     "name": "Naranja con anacardos",
-    "image": "",
+    "image": "https://raw.githubusercontent.com/hombresenforma/ivan-diet/main/assets/ivandt/dias-4-7/naranja-anacardos.jpg",
     "calories": 180,
     "protein": 4.6,
     "carbs": 24,
@@ -1047,7 +1047,7 @@ const foodDatabase = {
   },
   "p3_m0": {
     "name": "Bol proteico de skyr, frutos rojos y avena",
-    "image": "",
+    "image": "https://raw.githubusercontent.com/hombresenforma/ivan-diet/main/assets/ivandt/sin-cocina/bol-skyr-frutos-rojos-avena.jpg",
     "calories": 358.8,
     "protein": 42.9,
     "carbs": 41.3,
@@ -1111,7 +1111,7 @@ const foodDatabase = {
   },
   "p3_m1": {
     "name": "Ensalada de Tomate, Aguacate, Cebolla y Lima",
-    "image": "",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cf9a725d68c4bc3ec3502.png",
     "calories": 199.4,
     "protein": 2.2,
     "carbs": 11.7,
@@ -1188,7 +1188,7 @@ const foodDatabase = {
   },
   "p3_m2": {
     "name": "Pechuga de Pollo a Tiras",
-    "image": "",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68f27f90fb2e446db8a380a9.png",
     "calories": 364.2,
     "protein": 56,
     "carbs": 0,
@@ -1226,7 +1226,7 @@ const foodDatabase = {
   },
   "p3_m3": {
     "name": "Ensalada verde de salmón ahumado y edamame",
-    "image": "",
+    "image": "https://raw.githubusercontent.com/hombresenforma/ivan-diet/main/assets/ivandt/sin-cocina/ensalada-verde-salmon-edamame.jpg",
     "calories": 462.3,
     "protein": 55.9,
     "carbs": 12.6,
@@ -1316,7 +1316,7 @@ const foodDatabase = {
   },
   "p3_m4": {
     "name": "Fruta Densa (Plátano, Manzana, Pera)",
-    "image": "",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe4bb91eb325b93d4a82.png",
     "calories": 52.5,
     "protein": 0.7,
     "carbs": 13.5,
@@ -1341,7 +1341,7 @@ const foodDatabase = {
   },
   "p3_m5": {
     "name": "Frutos Secos (Mezcla)",
-    "image": "",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68525c0b1d27cfeb580a55f7.png",
     "calories": 235.5,
     "protein": 7.2,
     "carbs": 9.8,
