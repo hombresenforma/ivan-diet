@@ -125,10 +125,10 @@ const foodDatabase = {
   "p0_m2": {
     "name": "Ensalada de garbanzos con verduras y queso",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68ff252d3f16b5241c27c1e4.png",
-    "calories": 540,
-    "protein": 31,
-    "carbs": 57,
-    "fats": 20.4,
+    "calories": 590,
+    "protein": 37,
+    "carbs": 59,
+    "fats": 22.4,
     "ingredients": [
       {
         "name": "Garbanzos en Conserva",
@@ -202,12 +202,12 @@ const foodDatabase = {
       },
       {
         "name": "Queso de Burgos 0%",
-        "quantity": "75",
+        "quantity": "125",
         "unit": "g",
-        "calories": 75,
-        "protein": 9,
-        "carbs": 3,
-        "fats": 3,
+        "calories": 125,
+        "protein": 15,
+        "carbs": 5,
+        "fats": 5,
         "baseCalories": 1,
         "baseProtein": 0.12,
         "baseCarbs": 0.04,
@@ -610,10 +610,10 @@ const foodDatabase = {
   "p2_m1": {
     "name": "Estofado de Lentejas con Verduras y Costilla",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6922cf648c174dc51742182c.png",
-    "calories": 571.5,
-    "protein": 44.1,
+    "calories": 626.5,
+    "protein": 49.6,
     "carbs": 59.3,
-    "fats": 15.6,
+    "fats": 19.099999999999998,
     "ingredients": [
       {
         "name": "Lentejas Cocidas",
@@ -631,12 +631,12 @@ const foodDatabase = {
       },
       {
         "name": "Costilla de Cerdo",
-        "quantity": "100",
+        "quantity": "125",
         "unit": "g",
-        "calories": 220,
-        "protein": 22,
+        "calories": 275,
+        "protein": 27.5,
         "carbs": 0,
-        "fats": 14,
+        "fats": 17.5,
         "baseCalories": 2.2,
         "baseProtein": 0.22,
         "baseCarbs": 0,
@@ -705,19 +705,19 @@ const foodDatabase = {
   "p2_m2": {
     "name": "Sopa de Pescado y Marisco",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6922cdd4f96c9c485a257968.png",
-    "calories": 540,
-    "protein": 88,
+    "calories": 660,
+    "protein": 109,
     "carbs": 10,
-    "fats": 12.4,
+    "fats": 15.399999999999999,
     "ingredients": [
       {
         "name": "Merluza",
-        "quantity": "100",
+        "quantity": "125",
         "unit": "g",
-        "calories": 160,
-        "protein": 28,
+        "calories": 200,
+        "protein": 35,
         "carbs": 0,
-        "fats": 4,
+        "fats": 5,
         "baseCalories": 1.6,
         "baseProtein": 0.28,
         "baseCarbs": 0,
@@ -726,12 +726,12 @@ const foodDatabase = {
       },
       {
         "name": "Gambas",
-        "quantity": "100",
+        "quantity": "125",
         "unit": "g",
-        "calories": 160,
-        "protein": 28,
+        "calories": 200,
+        "protein": 35,
         "carbs": 0,
-        "fats": 4,
+        "fats": 5,
         "baseCalories": 1.6,
         "baseProtein": 0.28,
         "baseCarbs": 0,
@@ -740,12 +740,12 @@ const foodDatabase = {
       },
       {
         "name": "Almejas",
-        "quantity": "100",
+        "quantity": "125",
         "unit": "g",
-        "calories": 160,
-        "protein": 28,
+        "calories": 200,
+        "protein": 35,
         "carbs": 0,
-        "fats": 4,
+        "fats": 5,
         "baseCalories": 1.6,
         "baseProtein": 0.28,
         "baseCarbs": 0,
@@ -846,10 +846,10 @@ const dailyMenus = [
       "carbs": 150
     },
     "baselineTotals": {
-      "calories": 1686.8,
-      "protein": 150.5,
-      "carbs": 159.2,
-      "fats": 46.2
+      "calories": 1736.8,
+      "protein": 156.5,
+      "carbs": 161.2,
+      "fats": 48.199999999999996
     },
     "desayuno": [
       "p0_m0"
@@ -898,10 +898,10 @@ const dailyMenus = [
       "carbs": 150
     },
     "baselineTotals": {
-      "calories": 1703.7,
-      "protein": 154.9,
+      "calories": 1878.7,
+      "protein": 181.4,
       "carbs": 152,
-      "fats": 47.1
+      "fats": 53.599999999999994
     },
     "desayuno": [
       "p2_m0"
