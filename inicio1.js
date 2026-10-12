@@ -4,10 +4,10 @@ const foodDatabase = {
   "p0_m0": {
     "name": "Tostada de Centeno con Huevo y Queso Cottage",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682ad5cf9b8ed31c657c80e8.png",
-    "calories": 538.8,
-    "protein": 46.1,
-    "carbs": 28.8,
-    "fats": 26.4,
+    "calories": 453.5,
+    "protein": 38.900000000000006,
+    "carbs": 28.21,
+    "fats": 20.299999999999997,
     "ingredients": [
       {
         "name": "Tostada de Pan de Centeno",
@@ -26,12 +26,12 @@ const foodDatabase = {
       },
       {
         "name": "Huevo",
-        "quantity": "3",
+        "quantity": "2",
         "unit": "ud",
-        "calories": 255.8,
-        "protein": 21.5,
-        "carbs": 1.8,
-        "fats": 18.2,
+        "calories": 170.5,
+        "protein": 14.3,
+        "carbs": 1.21,
+        "fats": 12.1,
         "baseCalories": 85.25,
         "baseProtein": 7.15,
         "baseCarbs": 0.605,
@@ -59,10 +59,10 @@ const foodDatabase = {
   "p0_m1": {
     "name": "Ensalada de Pasta con Pollo",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afc47b91eb349463d47dd.png",
-    "calories": 602,
-    "protein": 47.6,
+    "calories": 642,
+    "protein": 54.6,
     "carbs": 85,
-    "fats": 6.6,
+    "fats": 7.6000000000000005,
     "ingredients": [
       {
         "name": "Pasta Integral",
@@ -150,12 +150,12 @@ const foodDatabase = {
       },
       {
         "name": "Pechuga de Pollo",
-        "quantity": "100",
+        "quantity": "125",
         "unit": "g",
-        "calories": 160,
-        "protein": 28,
+        "calories": 200,
+        "protein": 35,
         "carbs": 0,
-        "fats": 4,
+        "fats": 5,
         "baseCalories": 1.6,
         "baseProtein": 0.28,
         "baseCarbs": 0,
@@ -168,10 +168,10 @@ const foodDatabase = {
   "p0_m2": {
     "name": "Falso Risotto de Coliflor con Pollo y Setas",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6922cee78c174d4e6d420b9d.png",
-    "calories": 250,
-    "protein": 34,
+    "calories": 290,
+    "protein": 41,
     "carbs": 15,
-    "fats": 4.6,
+    "fats": 5.6000000000000005,
     "ingredients": [
       {
         "name": "Coliflor",
@@ -189,12 +189,12 @@ const foodDatabase = {
       },
       {
         "name": "Pechuga de Pollo",
-        "quantity": "100",
+        "quantity": "125",
         "unit": "g",
-        "calories": 160,
-        "protein": 28,
+        "calories": 200,
+        "protein": 35,
         "carbs": 0,
-        "fats": 4,
+        "fats": 5,
         "baseCalories": 1.6,
         "baseProtein": 0.28,
         "baseCarbs": 0,
@@ -288,10 +288,10 @@ const foodDatabase = {
   "p1_m0": {
     "name": "Tostada de Centeno con Queso Cottage y Cherries",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68792fea2035ba213493e87e.png",
-    "calories": 188,
-    "protein": 11.6,
-    "carbs": 27,
-    "fats": 3.4,
+    "calories": 263,
+    "protein": 20.6,
+    "carbs": 30,
+    "fats": 6.4,
     "ingredients": [
       {
         "name": "Tostada de Pan de Centeno",
@@ -324,12 +324,12 @@ const foodDatabase = {
       },
       {
         "name": "Queso Cottage",
-        "quantity": "50",
+        "quantity": "125",
         "unit": "g",
-        "calories": 50,
-        "protein": 6,
-        "carbs": 2,
-        "fats": 2,
+        "calories": 125,
+        "protein": 15,
+        "carbs": 5,
+        "fats": 5,
         "baseCalories": 1,
         "baseProtein": 0.12,
         "baseCarbs": 0.04,
@@ -342,10 +342,10 @@ const foodDatabase = {
   "p1_m1": {
     "name": "Fajitas de Pollo y Verduras",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afcef0ed50608b742ff33.png",
-    "calories": 388,
-    "protein": 39.6,
+    "calories": 428,
+    "protein": 46.6,
     "carbs": 40,
-    "fats": 6,
+    "fats": 7,
     "ingredients": [
       {
         "name": "Pan de Fajita",
@@ -420,12 +420,12 @@ const foodDatabase = {
       },
       {
         "name": "Pechuga de Pollo",
-        "quantity": "100",
+        "quantity": "125",
         "unit": "g",
-        "calories": 160,
-        "protein": 28,
+        "calories": 200,
+        "protein": 35,
         "carbs": 0,
-        "fats": 4,
+        "fats": 5,
         "baseCalories": 1.6,
         "baseProtein": 0.28,
         "baseCarbs": 0,
@@ -519,19 +519,19 @@ const foodDatabase = {
   "p1_m3": {
     "name": "Yogur Proteico con Cereales de Avena",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68e7ef66df76fef1b58db3f2.png",
-    "calories": 269.5,
-    "protein": 17,
-    "carbs": 47.5,
-    "fats": 1.6,
+    "calories": 285,
+    "protein": 19.625,
+    "carbs": 48.5,
+    "fats": 1.675,
     "ingredients": [
       {
         "name": "Yogur Protéico",
-        "quantity": "100",
+        "quantity": "125",
         "unit": "g",
-        "calories": 62,
-        "protein": 10.5,
-        "carbs": 4,
-        "fats": 0.3,
+        "calories": 77.5,
+        "protein": 13.125,
+        "carbs": 5,
+        "fats": 0.375,
         "baseCalories": 0.62,
         "baseProtein": 0.105,
         "baseCarbs": 0.04,
@@ -572,10 +572,10 @@ const foodDatabase = {
   "p2_m0": {
     "name": "Tostada de Centeno con Huevo y Aguacate",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687a695da648331355d3b0b2.png",
-    "calories": 498.8,
-    "protein": 28.1,
-    "carbs": 26.3,
-    "fats": 31.4,
+    "calories": 413.5,
+    "protein": 20.900000000000002,
+    "carbs": 25.71,
+    "fats": 25.299999999999997,
     "ingredients": [
       {
         "name": "Tostada de Pan de Centeno",
@@ -594,12 +594,12 @@ const foodDatabase = {
       },
       {
         "name": "Huevos",
-        "quantity": "3",
+        "quantity": "2",
         "unit": "ud",
-        "calories": 255.8,
-        "protein": 21.5,
-        "carbs": 1.8,
-        "fats": 18.2,
+        "calories": 170.5,
+        "protein": 14.3,
+        "carbs": 1.21,
+        "fats": 12.1,
         "baseCalories": 85.25,
         "baseProtein": 7.15,
         "baseCarbs": 0.605,
@@ -807,10 +807,10 @@ const dailyMenus = [
       "carbs": 150
     },
     "baselineTotals": {
-      "calories": 1684.3,
-      "protein": 150.1,
-      "carbs": 152.3,
-      "fats": 50.6
+      "calories": 1679,
+      "protein": 156.9,
+      "carbs": 151.71,
+      "fats": 46.5
     },
     "desayuno": [
       "p0_m0"
@@ -833,10 +833,10 @@ const dailyMenus = [
       "carbs": 150
     },
     "baselineTotals": {
-      "calories": 1690.5,
-      "protein": 151.2,
-      "carbs": 160.7,
-      "fats": 43.7
+      "calories": 1821,
+      "protein": 169.825,
+      "carbs": 164.7,
+      "fats": 47.775
     },
     "desayuno": [
       "p1_m0"
@@ -859,10 +859,10 @@ const dailyMenus = [
       "carbs": 150
     },
     "baselineTotals": {
-      "calories": 1712.3,
-      "protein": 153.5,
-      "carbs": 149.1,
-      "fats": 51.4
+      "calories": 1627,
+      "protein": 146.3,
+      "carbs": 148.51,
+      "fats": 45.3
     },
     "desayuno": [
       "p2_m0"
