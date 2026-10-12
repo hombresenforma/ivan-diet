@@ -1013,10 +1013,10 @@ const foodDatabase = {
   "p2_m4": {
     "name": "Yogurt Protéico con Frutos Rojos y Secos",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afea2b91eb35e413d4ab6.png",
-    "calories": 150,
-    "protein": 6.75,
-    "carbs": 18.5,
-    "fats": 5.25,
+    "calories": 195,
+    "protein": 7.75,
+    "carbs": 20,
+    "fats": 9.25,
     "ingredients": [
       {
         "name": "Yogur Protéico",
@@ -1046,12 +1046,12 @@ const foodDatabase = {
       },
       {
         "name": "Frutos Secos",
-        "quantity": "0",
+        "quantity": "10",
         "unit": "g",
-        "calories": 0,
-        "protein": 0,
-        "carbs": 0,
-        "fats": 0,
+        "calories": 45,
+        "protein": 1,
+        "carbs": 1.5,
+        "fats": 4,
         "baseCalories": 4.5,
         "baseProtein": 0.1,
         "baseCarbs": 0.15,
@@ -1166,10 +1166,10 @@ const foodDatabase = {
   "p3_m1": {
     "name": "Ensala de Patata, Atún y Huevo",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afc08b91eb31afe3d4796.png",
-    "calories": 811,
-    "protein": 58,
-    "carbs": 80,
-    "fats": 29,
+    "calories": 754,
+    "protein": 65.80000000000001,
+    "carbs": 79.83,
+    "fats": 18.7,
     "ingredients": [
       {
         "name": "Patata",
@@ -1189,7 +1189,7 @@ const foodDatabase = {
         "quantity": "50",
         "unit": "g",
         "calories": 10,
-        "protein": 0.45,
+        "protein": 0.45000000000000007,
         "carbs": 2.3,
         "fats": 0.1,
         "baseCalories": 0.2,
@@ -1228,7 +1228,7 @@ const foodDatabase = {
         "quantity": "100",
         "unit": "g",
         "calories": 18,
-        "protein": 0.9,
+        "protein": 0.9000000000000001,
         "carbs": 3.9,
         "fats": 0.2,
         "baseCalories": 0.18,
@@ -1250,46 +1250,33 @@ const foodDatabase = {
         "baseFats": 0.012
       },
       {
-        "name": "Atún",
+        "name": "Atún en Conserva",
         "quantity": "150",
         "unit": "g",
-        "calories": 162,
-        "protein": 34.5,
+        "calories": 240,
+        "protein": 42.00000000000001,
         "carbs": 0,
-        "fats": 1.5,
-        "baseCalories": 1.08,
-        "baseProtein": 0.23,
+        "fats": 6,
+        "baseCalories": 1.6,
+        "baseProtein": 0.28,
         "baseCarbs": 0,
-        "baseFats": 0.01
+        "baseFats": 0.04
       },
       {
-        "name": "Huevo",
+        "name": "Huevo Cocido",
         "quantity": "2",
-        "unit": "unidad",
+        "unit": "unidad(es)",
         "calories": 155,
-        "protein": 12.6,
+        "protein": 13,
         "carbs": 1.1,
-        "fats": 10.6,
+        "fats": 11,
         "baseCalories": 77.5,
-        "baseProtein": 6.3,
+        "baseProtein": 6.5,
         "baseCarbs": 0.55,
-        "baseFats": 5.3
-      },
-      {
-        "name": "Aceite de Oliva Virgen Extra",
-        "quantity": "15",
-        "unit": "g",
-        "calories": 135,
-        "protein": 0,
-        "carbs": 0,
-        "fats": 15,
-        "baseCalories": 9,
-        "baseProtein": 0,
-        "baseCarbs": 0,
-        "baseFats": 1
+        "baseFats": 5.5
       }
     ],
-    "preparation": "1. Cocer las patatas con piel hasta que estén tiernas. Dejar enfriar, pelar y trocear. 2. Cocer los huevos hasta que estén duros. Pelar y trocear. 3. Lavar y picar finamente los pimientos y la cebolla. Picar el tomate en cubos. 4. Escurrir bien el maíz y el atún. 5. En un bol grande, mezclar todos los ingredientes. 6. Aliñar con aceite de oliva virgen extra, sal y pimienta al gusto. Mezclar bien antes de servir.",
+    "preparation": "1. Cocer las patatas con piel en agua con sal hasta que estén tiernas (unos 20-25 minutos). Dejar enfriar, pelar y cortar en dados. 2. Cocer los huevos en agua hirviendo durante 10 minutos. Dejar enfriar, pelar y cortar en rodajas o trozos. 3. Picar finamente el pimiento verde, pimiento rojo, cebolla y tomate. 4. En un bol grande, mezclar las patatas, los huevos, las verduras picadas, el maíz dulce (escurrido) y el atún (escurrido y desmenuzado). 5. Aliñar con aceite de oliva virgen extra, vinagre y sal al gusto. Mezclar con cuidado.",
     "originalBaseRecipeId": "cc_ensala_de_patata_atn_y_huevo"
   },
   "p3_m2": {
@@ -1817,10 +1804,10 @@ const dailyMenus = [
       "carbs": 151
     },
     "baselineTotals": {
-      "calories": 1824.8333333333335,
-      "protein": 141.33333333333334,
-      "carbs": 168.33333333333334,
-      "fats": 68
+      "calories": 1869.8333333333335,
+      "protein": 142.33333333333334,
+      "carbs": 169.83333333333334,
+      "fats": 72
     },
     "desayuno": [
       "p2_m0"
@@ -1845,10 +1832,10 @@ const dailyMenus = [
       "carbs": 150
     },
     "baselineTotals": {
-      "calories": 1952.1,
-      "protein": 155.64,
-      "carbs": 199.22,
-      "fats": 61.82
+      "calories": 1895.1,
+      "protein": 163.44,
+      "carbs": 199.04999999999998,
+      "fats": 51.52
     },
     "desayuno": [
       "p3_m0"
