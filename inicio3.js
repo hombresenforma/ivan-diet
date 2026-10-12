@@ -7,7 +7,7 @@ const foodDatabase = {
     "calories": 200,
     "protein": 10,
     "carbs": 20.8,
-    "fats": 8.4,
+    "fats": 8.399999999999999,
     "ingredients": [
       {
         "name": "Tostada de Pan de Centeno",
@@ -31,7 +31,7 @@ const foodDatabase = {
         "calories": 92,
         "protein": 6.4,
         "carbs": 0.8,
-        "fats": 7.2,
+        "fats": 7.199999999999999,
         "baseCalories": 2.3,
         "baseProtein": 0.16,
         "baseCarbs": 0.02,
@@ -44,9 +44,9 @@ const foodDatabase = {
   "p0_m1": {
     "name": "Ensalada de berenjena y tomate asado, queso y pollo con arroz",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684ef97c6202d51cbcde28c8.png",
-    "calories": 708.8,
+    "calories": 708.75,
     "protein": 64.5,
-    "carbs": 71.9,
+    "carbs": 71.85,
     "fats": 15.6,
     "ingredients": [
       {
@@ -96,7 +96,7 @@ const foodDatabase = {
         "quantity": "150",
         "unit": "g",
         "calories": 240,
-        "protein": 42,
+        "protein": 42.00000000000001,
         "carbs": 0,
         "fats": 6,
         "baseCalories": 1.6,
@@ -109,9 +109,9 @@ const foodDatabase = {
         "name": "Arroz",
         "quantity": "75",
         "unit": "g",
-        "calories": 273.8,
+        "calories": 273.75,
         "protein": 9,
-        "carbs": 56.3,
+        "carbs": 56.25,
         "fats": 1.5,
         "baseCalories": 3.65,
         "baseProtein": 0.12,
@@ -125,10 +125,10 @@ const foodDatabase = {
   "p0_m2": {
     "name": "Ensalada de garbanzos con verduras y queso",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68ff252d3f16b5241c27c1e4.png",
-    "calories": 590,
+    "calories": 634.2,
     "protein": 37,
     "carbs": 59,
-    "fats": 22.4,
+    "fats": 27.349999999999998,
     "ingredients": [
       {
         "name": "Garbanzos en Conserva",
@@ -137,7 +137,7 @@ const foodDatabase = {
         "calories": 195,
         "protein": 12,
         "carbs": 33,
-        "fats": 0.8,
+        "fats": 0.75,
         "baseCalories": 1.3,
         "baseProtein": 0.08,
         "baseCarbs": 0.22,
@@ -213,6 +213,19 @@ const foodDatabase = {
         "baseCarbs": 0.04,
         "baseFats": 0.04,
         "category": "light_cheese"
+      },
+      {
+        "name": "Aceite de Oliva Virgen Extra",
+        "quantity": "5",
+        "unit": "g",
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1,
+        "calories": 44.2,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 5
       }
     ],
     "preparation": "1. Enjuagar los garbanzos y escurrirlos. 2. Picar el aguacate, pepino y tomates cherry. 3. Mezclar todos los ingredientes en un bol con las espinacas. 4. Cortar el queso de Burgos en dados y añadirlo a la ensalada. 5. Aliñar al gusto con aceite de oliva, vinagre y sal."
@@ -223,7 +236,7 @@ const foodDatabase = {
     "calories": 238,
     "protein": 45,
     "carbs": 9.5,
-    "fats": 1.8,
+    "fats": 1.7999999999999998,
     "ingredients": [
       {
         "name": "Yogur Griego Desnatado",
@@ -260,7 +273,7 @@ const foodDatabase = {
     "name": "Pan wasa con Jamón dulce y Aguacate",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68cc568b05b71972b49f95e0.png",
     "calories": 199,
-    "protein": 7.8,
+    "protein": 7.800000000000001,
     "carbs": 21.9,
     "fats": 8.8,
     "ingredients": [
@@ -286,7 +299,7 @@ const foodDatabase = {
         "calories": 46,
         "protein": 3.2,
         "carbs": 0.4,
-        "fats": 3.6,
+        "fats": 3.5999999999999996,
         "baseCalories": 2.3,
         "baseProtein": 0.16,
         "baseCarbs": 0.02,
@@ -316,7 +329,7 @@ const foodDatabase = {
     "calories": 650,
     "protein": 51,
     "carbs": 35.8,
-    "fats": 31.7,
+    "fats": 31.700000000000003,
     "ingredients": [
       {
         "name": "Patata",
@@ -395,7 +408,7 @@ const foodDatabase = {
         "calories": 330,
         "protein": 33,
         "carbs": 0,
-        "fats": 21,
+        "fats": 21.000000000000004,
         "baseCalories": 2.2,
         "baseProtein": 0.22,
         "baseCarbs": 0,
@@ -408,10 +421,10 @@ const foodDatabase = {
   "p1_m2": {
     "name": "Ensalada con Pollo y Queso de Burgos",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afdceb91eb360843d4a0b.png",
-    "calories": 430,
-    "protein": 60,
+    "calories": 474.2,
+    "protein": 60.00000000000001,
     "carbs": 19,
-    "fats": 10.6,
+    "fats": 15.6,
     "ingredients": [
       {
         "name": "Canónigos",
@@ -474,7 +487,7 @@ const foodDatabase = {
         "quantity": "150",
         "unit": "g",
         "calories": 240,
-        "protein": 42,
+        "protein": 42.00000000000001,
         "carbs": 0,
         "fats": 6,
         "category": "lean_protein",
@@ -482,6 +495,19 @@ const foodDatabase = {
         "baseProtein": 0.28,
         "baseCarbs": 0,
         "baseFats": 0.04
+      },
+      {
+        "name": "Aceite de Oliva Virgen Extra",
+        "quantity": "5",
+        "unit": "g",
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1,
+        "calories": 44.2,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 5
       }
     ],
     "preparation": "1. Cocinar la pechuga de pollo (a la plancha, hervida o asada) y cortarla en tiras o dados. 2. Lavar los canónigos y escurrirlos bien. Cortar los tomates (cherry por la mitad, o normales en gajos) y la cebolla en rodajas finas o juliana. Cortar el queso de Burgos 0% en dados o láminas. 3. En un bol o plato grande, disponer una base de canónigos. Añadir encima el tomate, la cebolla, el pollo y el queso de Burgos. 4. Aliñar con aceite de oliva virgen extra, vinagre (de manzana o Módena) y sal al gusto."
@@ -492,7 +518,7 @@ const foodDatabase = {
     "calories": 441,
     "protein": 31.1,
     "carbs": 74,
-    "fats": 2.5,
+    "fats": 2.45,
     "ingredients": [
       {
         "name": "Yogur Protéico",
@@ -529,7 +555,7 @@ const foodDatabase = {
         "calories": 25,
         "protein": 0.5,
         "carbs": 6,
-        "fats": 0.3,
+        "fats": 0.25,
         "baseCalories": 0.5,
         "baseProtein": 0.01,
         "baseCarbs": 0.12,
@@ -544,7 +570,7 @@ const foodDatabase = {
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68a36fb52e34b733ba5c5630.png",
     "calories": 272.4,
     "protein": 10.4,
-    "carbs": 21.6,
+    "carbs": 21.599999999999998,
     "fats": 16,
     "ingredients": [
       {
@@ -569,7 +595,7 @@ const foodDatabase = {
         "calories": 46,
         "protein": 3.2,
         "carbs": 0.4,
-        "fats": 3.6,
+        "fats": 3.5999999999999996,
         "baseCalories": 2.3,
         "baseProtein": 0.16,
         "baseCarbs": 0.02,
@@ -581,7 +607,7 @@ const foodDatabase = {
         "quantity": "30",
         "unit": "g",
         "calories": 30,
-        "protein": 3.6,
+        "protein": 3.5999999999999996,
         "carbs": 1.2,
         "fats": 1.2,
         "baseCalories": 1,
@@ -612,8 +638,8 @@ const foodDatabase = {
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6922cf648c174dc51742182c.png",
     "calories": 626.5,
     "protein": 49.6,
-    "carbs": 59.3,
-    "fats": 19.099999999999998,
+    "carbs": 59.25,
+    "fats": 19.11,
     "ingredients": [
       {
         "name": "Lentejas Cocidas",
@@ -691,8 +717,8 @@ const foodDatabase = {
         "unit": "g",
         "calories": 1.5,
         "protein": 0.1,
-        "carbs": 0.3,
-        "fats": 0,
+        "carbs": 0.25,
+        "fats": 0.01,
         "baseCalories": 0.3,
         "baseProtein": 0.02,
         "baseCarbs": 0.05,
@@ -800,18 +826,18 @@ const foodDatabase = {
   "p2_m3": {
     "name": "Cereales de Trigo sin Azúcar",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68e7eff3a54d8879c640b271.png",
-    "calories": 319.8,
+    "calories": 319.75,
     "protein": 12.4,
-    "carbs": 61.1,
+    "carbs": 61.05,
     "fats": 3.1,
     "ingredients": [
       {
         "name": "Cereales de Trigo",
         "quantity": "75",
         "unit": "g",
-        "calories": 273.8,
+        "calories": 273.75,
         "protein": 9,
-        "carbs": 56.3,
+        "carbs": 56.25,
         "fats": 1.5,
         "category": "grain_carb_dry",
         "baseCalories": 3.65,
@@ -824,7 +850,7 @@ const foodDatabase = {
         "quantity": "100",
         "unit": "g",
         "calories": 46,
-        "protein": 3.4,
+        "protein": 3.4000000000000004,
         "carbs": 4.8,
         "fats": 1.6,
         "category": "milk",
@@ -846,10 +872,10 @@ const dailyMenus = [
       "carbs": 150
     },
     "baselineTotals": {
-      "calories": 1736.8,
+      "calories": 1780.95,
       "protein": 156.5,
-      "carbs": 161.2,
-      "fats": 48.199999999999996
+      "carbs": 161.14999999999998,
+      "fats": 53.14999999999999
     },
     "desayuno": [
       "p0_m0"
@@ -872,10 +898,10 @@ const dailyMenus = [
       "carbs": 150
     },
     "baselineTotals": {
-      "calories": 1720,
+      "calories": 1764.2,
       "protein": 149.9,
       "carbs": 150.7,
-      "fats": 53.6
+      "fats": 58.550000000000004
     },
     "desayuno": [
       "p1_m0"
@@ -898,10 +924,10 @@ const dailyMenus = [
       "carbs": 150
     },
     "baselineTotals": {
-      "calories": 1878.7,
+      "calories": 1878.65,
       "protein": 181.4,
-      "carbs": 152,
-      "fats": 53.599999999999994
+      "carbs": 151.89999999999998,
+      "fats": 53.61
     },
     "desayuno": [
       "p2_m0"
