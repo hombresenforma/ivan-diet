@@ -4,10 +4,10 @@ const foodDatabase = {
   "p0_m0": {
     "name": "Tostada de Centeno con Aguacate y Atún",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682aff33e819fcc7a1a8d946.png",
-    "calories": 313,
-    "protein": 32.6,
+    "calories": 353,
+    "protein": 39.6,
     "carbs": 21.5,
-    "fats": 9.2,
+    "fats": 10.2,
     "ingredients": [
       {
         "name": "Tostada de Pan de Centeno",
@@ -40,12 +40,12 @@ const foodDatabase = {
       },
       {
         "name": "Atún en Conserva",
-        "quantity": "100",
+        "quantity": "125",
         "unit": "g",
-        "calories": 160,
-        "protein": 28,
+        "calories": 200,
+        "protein": 35,
         "carbs": 0,
-        "fats": 4,
+        "fats": 5,
         "baseCalories": 1.6,
         "baseProtein": 0.28,
         "baseCarbs": 0,
@@ -58,19 +58,19 @@ const foodDatabase = {
   "p0_m1": {
     "name": "Wrap de pollo hervido con verduras y arroz",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684ef7e26202d54cb0de24e8.png",
-    "calories": 613.5,
-    "protein": 46,
+    "calories": 653.5,
+    "protein": 53,
     "carbs": 87.5,
-    "fats": 7.2,
+    "fats": 8.200000000000001,
     "ingredients": [
       {
         "name": "Pechuga de Pollo",
-        "quantity": "100",
+        "quantity": "125",
         "unit": "g",
-        "calories": 160,
-        "protein": 28,
+        "calories": 200,
+        "protein": 35,
         "carbs": 0,
-        "fats": 4,
+        "fats": 5,
         "baseCalories": 1.6,
         "baseProtein": 0.28,
         "baseCarbs": 0,
@@ -154,10 +154,10 @@ const foodDatabase = {
   "p0_m2": {
     "name": "Potaje de Garbanzos con Espinacas y Bacalao",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6922cfb06984f10e4539887a.png",
-    "calories": 554.5,
-    "protein": 56.4,
+    "calories": 594.5,
+    "protein": 63.400000000000006,
     "carbs": 39,
-    "fats": 17.1,
+    "fats": 18.1,
     "ingredients": [
       {
         "name": "Garbanzos Cocidos",
@@ -175,12 +175,12 @@ const foodDatabase = {
       },
       {
         "name": "Bacalao Desalado",
-        "quantity": "100",
+        "quantity": "125",
         "unit": "g",
-        "calories": 160,
-        "protein": 28,
+        "calories": 200,
+        "protein": 35,
         "carbs": 0,
-        "fats": 4,
+        "fats": 5,
         "baseCalories": 1.6,
         "baseProtein": 0.28,
         "baseCarbs": 0,
@@ -778,19 +778,19 @@ const foodDatabase = {
   "p2_m3": {
     "name": "Yogur Proteico con Cereales de Avena",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68e7ef66df76fef1b58db3f2.png",
-    "calories": 269.5,
-    "protein": 17,
-    "carbs": 47.5,
-    "fats": 1.6,
+    "calories": 285,
+    "protein": 19.625,
+    "carbs": 48.5,
+    "fats": 1.675,
     "ingredients": [
       {
         "name": "Yogur Protéico",
-        "quantity": "100",
+        "quantity": "125",
         "unit": "g",
-        "calories": 62,
-        "protein": 10.5,
-        "carbs": 4,
-        "fats": 0.3,
+        "calories": 77.5,
+        "protein": 13.125,
+        "carbs": 5,
+        "fats": 0.375,
         "baseCalories": 0.62,
         "baseProtein": 0.105,
         "baseCarbs": 0.04,
@@ -838,10 +838,10 @@ const dailyMenus = [
       "carbs": 150
     },
     "baselineTotals": {
-      "calories": 1693,
-      "protein": 156.4,
+      "calories": 1813,
+      "protein": 177.4,
       "carbs": 156.8,
-      "fats": 43.9
+      "fats": 46.9
     },
     "desayuno": [
       "p0_m0"
@@ -865,7 +865,7 @@ const dailyMenus = [
     },
     "baselineTotals": {
       "calories": 1717.1,
-      "protein": 148.1,
+      "protein": 148.10000000000002,
       "carbs": 150.5,
       "fats": 56.2
     },
@@ -890,10 +890,10 @@ const dailyMenus = [
       "carbs": 150
     },
     "baselineTotals": {
-      "calories": 1680.4,
-      "protein": 149.8,
-      "carbs": 152,
-      "fats": 49
+      "calories": 1695.9,
+      "protein": 152.42499999999998,
+      "carbs": 153,
+      "fats": 49.074999999999996
     },
     "desayuno": [
       "p2_m0"
