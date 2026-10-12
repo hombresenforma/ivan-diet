@@ -55,10 +55,10 @@ const foodDatabase = {
   "p0_m1": {
     "name": "Ensalada de Lentejas",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682aff5a365e949c0a73d706.png",
-    "calories": 545.5,
+    "calories": 589.7,
     "protein": 36.5,
     "carbs": 76,
-    "fats": 12.25,
+    "fats": 17.25,
     "ingredients": [
       {
         "name": "Lentejas Cocidas",
@@ -124,6 +124,19 @@ const foodDatabase = {
         "baseProtein": 0.02666666666666667,
         "baseCarbs": 0.09333333333333334,
         "baseFats": 0.14666666666666667
+      },
+      {
+        "name": "Aceite de Oliva Virgen Extra",
+        "quantity": "5",
+        "unit": "g",
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1,
+        "calories": 44.2,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 5
       }
     ],
     "preparation": "1. Si usas lentejas de bote, enjuagarlas bien bajo el grifo y escurrirlas. Si las cocinas, déjalas enfriar. 2. Picar el tomate y la cebolla (preferiblemente morada) en dados pequeños. Cortar el queso de Burgos 0% y el aguacate en dados. 3. En un bol grande, mezclar con cuidado las lentejas, el tomate, la cebolla, el queso de Burgos y el aguacate. 4. Aliñar con aceite de oliva virgen extra, vinagre (de manzana o Jerez) y sal al gusto.",
@@ -132,10 +145,10 @@ const foodDatabase = {
   "p0_m2": {
     "name": "Pechuga de Pavo a la Plancha",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684f003ef6c48dfc43a5bdb3.png",
-    "calories": 137.5,
+    "calories": 181.7,
     "protein": 28.75,
     "carbs": 0,
-    "fats": 2.5,
+    "fats": 7.5,
     "ingredients": [
       {
         "name": "Pechuga de Pavo",
@@ -149,6 +162,19 @@ const foodDatabase = {
         "baseProtein": 0.23,
         "baseCarbs": 0,
         "baseFats": 0.02
+      },
+      {
+        "name": "Aceite de Oliva Virgen Extra",
+        "quantity": "5",
+        "unit": "g",
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1,
+        "calories": 44.2,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 5
       }
     ],
     "preparation": "1. Si los filetes de pechuga de pavo son muy gruesos, se pueden abrir tipo libro o golpear ligeramente para que tengan un grosor más uniforme y se cocinen mejor. 2. Sazonar los filetes de pavo con sal, pimienta y tus especias favoritas. 3. Calentar una plancha o sartén antiadherente a fuego medio-alto con una gota de aceite de oliva. 4. Cocinar la pechuga de pavo durante unos 3-4 minutos por cada lado, o hasta que esté dorada por fuera y completamente cocida por dentro.",
@@ -450,10 +476,10 @@ const foodDatabase = {
   "p1_m2": {
     "name": "Ensalada de Pasta con Pollo",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afc47b91eb349463d47dd.png",
-    "calories": 783.75,
+    "calories": 827.95,
     "protein": 66.50000000000001,
     "carbs": 102.5,
-    "fats": 9.950000000000001,
+    "fats": 14.950000000000001,
     "ingredients": [
       {
         "name": "Pasta Integral",
@@ -545,6 +571,19 @@ const foodDatabase = {
         "baseProtein": 0.01,
         "baseCarbs": 0.09,
         "baseFats": 0.0012
+      },
+      {
+        "name": "Aceite de Oliva Virgen Extra",
+        "quantity": "5",
+        "unit": "g",
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1,
+        "calories": 44.2,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 5
       }
     ],
     "preparation": "1. Cocer la pasta según las instrucciones del paquete. Escurrir, pasar por agua fría para detener la cocción y dejar enfriar. 2. Cocinar la pechuga de pollo (a la plancha, hervida o asada) y desmenuzarla o cortarla en dados. 3. Lavar los canónigos. Picar el tomate, pimiento rojo, pimiento verde y cebolla en trozos pequeños. 4. En un bol grande, combinar la pasta fría, el pollo, los canónigos y las verduras picadas. 5. Aliñar con aceite de oliva virgen extra, vinagre o tu salsa para ensaladas favorita (ej. yogur, mostaza y miel). Salpimentar al gusto.",
@@ -911,10 +950,10 @@ const foodDatabase = {
   "p2_m2": {
     "name": "Ensalada de Tomate, Aguacate, Cebolla y Lima",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cf9a725d68c4bc3ec3502.png",
-    "calories": 182,
+    "calories": 226.2,
     "protein": 4,
     "carbs": 23,
-    "fats": 11,
+    "fats": 16,
     "ingredients": [
       {
         "name": "Tomate",
@@ -967,6 +1006,19 @@ const foodDatabase = {
         "baseProtein": 0,
         "baseCarbs": 0.1,
         "baseFats": 0
+      },
+      {
+        "name": "Aceite de Oliva Virgen Extra",
+        "quantity": "5",
+        "unit": "g",
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1,
+        "calories": 44.2,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 5
       }
     ],
     "preparation": "1. Cortar el tomate y el aguacate en dados. 2. Picar la cebolla en juliana fina. 3. Mezclar todos los ingredientes en un bol. 4. Exprimir el zumo de media lima por encima, añadir aceite de oliva y sal. Mezclar bien.",
@@ -1166,10 +1218,10 @@ const foodDatabase = {
   "p3_m1": {
     "name": "Ensala de Patata, Atún y Huevo",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afc08b91eb31afe3d4796.png",
-    "calories": 754,
+    "calories": 798.2,
     "protein": 65.80000000000001,
     "carbs": 79.83,
-    "fats": 18.7,
+    "fats": 23.7,
     "ingredients": [
       {
         "name": "Patata",
@@ -1274,6 +1326,19 @@ const foodDatabase = {
         "baseProtein": 6.5,
         "baseCarbs": 0.55,
         "baseFats": 5.5
+      },
+      {
+        "name": "Aceite de Oliva Virgen Extra",
+        "quantity": "5",
+        "unit": "g",
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1,
+        "calories": 44.2,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 5
       }
     ],
     "preparation": "1. Cocer las patatas con piel en agua con sal hasta que estén tiernas (unos 20-25 minutos). Dejar enfriar, pelar y cortar en dados. 2. Cocer los huevos en agua hirviendo durante 10 minutos. Dejar enfriar, pelar y cortar en rodajas o trozos. 3. Picar finamente el pimiento verde, pimiento rojo, cebolla y tomate. 4. En un bol grande, mezclar las patatas, los huevos, las verduras picadas, el maíz dulce (escurrido) y el atún (escurrido y desmenuzado). 5. Aliñar con aceite de oliva virgen extra, vinagre y sal al gusto. Mezclar con cuidado.",
@@ -1333,10 +1398,10 @@ const foodDatabase = {
   "p3_m3": {
     "name": "Solomillo/Filete de Ternera a la Plancha",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe6c0ed5060d3743015a.png",
-    "calories": 195,
+    "calories": 239.2,
     "protein": 31.5,
     "carbs": 0,
-    "fats": 7.5,
+    "fats": 12.5,
     "ingredients": [
       {
         "name": "Solomillo de Ternera",
@@ -1350,6 +1415,19 @@ const foodDatabase = {
         "baseProtein": 0.21,
         "baseCarbs": 0,
         "baseFats": 0.05
+      },
+      {
+        "name": "Aceite de Oliva Virgen Extra",
+        "quantity": "5",
+        "unit": "g",
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1,
+        "calories": 44.2,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 5
       }
     ],
     "preparation": "1. Sacar el filete o solomillo de ternera del refrigerador unos 15-20 minutos antes de cocinar para que se temple. 2. Sazonar la carne con sal y pimienta negra recién molida justo antes de ponerla en la plancha. 3. Calentar una plancha o sartén de fondo grueso a fuego alto hasta que esté bien caliente. Añadir una gota de aceite de oliva y extenderlo. 4. Cocinar el filete al gusto. 5. Dejar reposar la carne un par de minutos antes de servir para que los jugos se redistribuyan.",
@@ -1574,10 +1652,10 @@ const foodDatabase = {
   "p4_m2": {
     "name": "Patata con brócoli y pollo asado",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687de454838c601605b6e271.png",
-    "calories": 590,
+    "calories": 634.2,
     "protein": 64,
     "carbs": 57.5,
-    "fats": 8.55,
+    "fats": 13.55,
     "ingredients": [
       {
         "name": "Patata",
@@ -1617,6 +1695,19 @@ const foodDatabase = {
         "baseProtein": 0.28,
         "baseCarbs": 0,
         "baseFats": 0.04
+      },
+      {
+        "name": "Aceite de Oliva Virgen Extra",
+        "quantity": "5",
+        "unit": "g",
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1,
+        "calories": 44.2,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 5
       }
     ],
     "preparation": "1. Cocer la patata y el brócoli al vapor o en agua hirviendo hasta que estén tiernos. 2. Cocinar la pechuga de pollo a la plancha o asada al horno, sazonada al gusto. 3. Servir la patata y el brócoli como base y colocar el pollo troceado por encima. Aliñar con aceite de oliva y especias si se desea.",
@@ -1746,10 +1837,10 @@ const dailyMenus = [
       "carbs": 250
     },
     "baselineTotals": {
-      "calories": 2458.65,
+      "calories": 2547.05,
       "protein": 198.54999999999998,
       "carbs": 284.65000000000003,
-      "fats": 59.15
+      "fats": 69.15
     },
     "desayuno": [
       "p0_m0"
@@ -1775,10 +1866,10 @@ const dailyMenus = [
       "carbs": 250
     },
     "baselineTotals": {
-      "calories": 2530.55,
+      "calories": 2574.75,
       "protein": 172.48,
       "carbs": 319.35,
-      "fats": 59.41333333333333
+      "fats": 64.41333333333333
     },
     "desayuno": [
       "p1_m0",
@@ -1804,10 +1895,10 @@ const dailyMenus = [
       "carbs": 151
     },
     "baselineTotals": {
-      "calories": 1869.8333333333335,
+      "calories": 1914.0333333333333,
       "protein": 142.33333333333334,
       "carbs": 169.83333333333334,
-      "fats": 72
+      "fats": 77
     },
     "desayuno": [
       "p2_m0"
@@ -1832,10 +1923,10 @@ const dailyMenus = [
       "carbs": 150
     },
     "baselineTotals": {
-      "calories": 1895.1,
+      "calories": 1983.5,
       "protein": 163.44,
       "carbs": 199.04999999999998,
-      "fats": 51.52
+      "fats": 61.52
     },
     "desayuno": [
       "p3_m0"
@@ -1860,10 +1951,10 @@ const dailyMenus = [
       "carbs": 200
     },
     "baselineTotals": {
-      "calories": 2223.5,
+      "calories": 2267.7,
       "protein": 160.50000000000003,
       "carbs": 275.7,
-      "fats": 46.7
+      "fats": 51.7
     },
     "desayuno": [
       "p4_m0"
