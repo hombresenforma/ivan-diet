@@ -59,10 +59,10 @@ const foodDatabase = {
   "p0_m1": {
     "name": "Ensalada de Pasta con Pollo",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afc47b91eb349463d47dd.png",
-    "calories": 642,
+    "calories": 686.2,
     "protein": 54.6,
     "carbs": 85,
-    "fats": 7.6000000000000005,
+    "fats": 12.600000000000001,
     "ingredients": [
       {
         "name": "Pasta Integral",
@@ -161,6 +161,19 @@ const foodDatabase = {
         "baseCarbs": 0,
         "baseFats": 0.04,
         "category": "lean_protein"
+      },
+      {
+        "name": "Aceite de Oliva Virgen Extra",
+        "quantity": "5",
+        "unit": "g",
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1,
+        "calories": 44.2,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 5
       }
     ],
     "preparation": "1. Cocer la pasta según las instrucciones del paquete. Escurrir, pasar por agua fría para detener la cocción y dejar enfriar. 2. Cocinar la pechuga de pollo (a la plancha, hervida o asada) y desmenuzarla o cortarla en dados. 3. Lavar los canónigos. Picar el tomate, pimiento rojo, pimiento verde y cebolla en trozos pequeños. 4. En un bol grande, combinar la pasta fría, el pollo, los canónigos y las verduras picadas. 5. Aliñar con aceite de oliva virgen extra, vinagre o tu salsa para ensaladas favorita (ej. yogur, mostaza y miel). Salpimentar al gusto."
@@ -236,18 +249,18 @@ const foodDatabase = {
     "name": "Yogurt Protéico con Frutos Rojos y Secos",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afea2b91eb35e413d4ab6.png",
     "calories": 293.5,
-    "protein": 22.4,
+    "protein": 22.375,
     "carbs": 23.5,
-    "fats": 13,
+    "fats": 13.025,
     "ingredients": [
       {
         "name": "Yogur Protéico",
         "quantity": "175",
         "unit": "g",
         "calories": 108.5,
-        "protein": 18.4,
+        "protein": 18.375,
         "carbs": 7,
-        "fats": 0.5,
+        "fats": 0.525,
         "baseCalories": 0.62,
         "baseProtein": 0.105,
         "baseCarbs": 0.04,
@@ -440,7 +453,7 @@ const foodDatabase = {
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cf7d29b0c67d84e9af509.png",
     "calories": 845,
     "protein": 83,
-    "carbs": 46.2,
+    "carbs": 46.15,
     "fats": 32.7,
     "ingredients": [
       {
@@ -462,7 +475,7 @@ const foodDatabase = {
         "quantity": "200",
         "unit": "g",
         "calories": 320,
-        "protein": 56,
+        "protein": 56.00000000000001,
         "carbs": 0,
         "fats": 8,
         "baseCalories": 1.6,
@@ -477,7 +490,7 @@ const foodDatabase = {
         "unit": "g",
         "calories": 245,
         "protein": 17.5,
-        "carbs": 1.4,
+        "carbs": 1.4000000000000001,
         "fats": 17.5,
         "baseCalories": 3.5,
         "baseProtein": 0.25,
@@ -505,7 +518,7 @@ const foodDatabase = {
         "unit": "g",
         "calories": 67.5,
         "protein": 1.5,
-        "carbs": 2.3,
+        "carbs": 2.25,
         "fats": 6,
         "baseCalories": 4.5,
         "baseProtein": 0.1,
@@ -522,7 +535,7 @@ const foodDatabase = {
     "calories": 285,
     "protein": 19.625,
     "carbs": 48.5,
-    "fats": 1.675,
+    "fats": 1.625,
     "ingredients": [
       {
         "name": "Yogur Protéico",
@@ -559,7 +572,7 @@ const foodDatabase = {
         "calories": 25,
         "protein": 0.5,
         "carbs": 6,
-        "fats": 0.3,
+        "fats": 0.25,
         "baseCalories": 0.5,
         "baseProtein": 0.01,
         "baseCarbs": 0.12,
@@ -627,10 +640,10 @@ const foodDatabase = {
   "p2_m1": {
     "name": "Patata con brócoli y pollo asado",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687de454838c601605b6e271.png",
-    "calories": 525,
-    "protein": 51,
+    "calories": 569.2,
+    "protein": 51.00000000000001,
     "carbs": 60,
-    "fats": 6.7,
+    "fats": 11.65,
     "ingredients": [
       {
         "name": "Patata",
@@ -639,7 +652,7 @@ const foodDatabase = {
         "calories": 225,
         "protein": 5,
         "carbs": 50,
-        "fats": 0.3,
+        "fats": 0.25,
         "baseCalories": 0.9,
         "baseProtein": 0.02,
         "baseCarbs": 0.2,
@@ -665,7 +678,7 @@ const foodDatabase = {
         "quantity": "150",
         "unit": "g",
         "calories": 240,
-        "protein": 42,
+        "protein": 42.00000000000001,
         "carbs": 0,
         "fats": 6,
         "baseCalories": 1.6,
@@ -673,6 +686,19 @@ const foodDatabase = {
         "baseCarbs": 0,
         "baseFats": 0.04,
         "category": "lean_protein"
+      },
+      {
+        "name": "Aceite de Oliva Virgen Extra",
+        "quantity": "5",
+        "unit": "g",
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1,
+        "calories": 44.2,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 5
       }
     ],
     "preparation": "1. Cocer la patata y el brócoli al vapor o en agua hirviendo hasta que estén tiernos. 2. Cocinar la pechuga de pollo a la plancha o asada al horno, sazonada al gusto. 3. Servir la patata y el brócoli como base y colocar el pollo troceado por encima. Aliñar con aceite de oliva y especias si se desea."
@@ -704,7 +730,7 @@ const foodDatabase = {
         "quantity": "175",
         "unit": "g",
         "calories": 280,
-        "protein": 49,
+        "protein": 49.00000000000001,
         "carbs": 0,
         "fats": 7,
         "baseCalories": 1.6,
@@ -785,7 +811,7 @@ const foodDatabase = {
         "quantity": "100",
         "unit": "g",
         "calories": 46,
-        "protein": 3.4,
+        "protein": 3.4000000000000004,
         "carbs": 4.8,
         "fats": 1.6,
         "category": "milk",
@@ -807,10 +833,10 @@ const dailyMenus = [
       "carbs": 150
     },
     "baselineTotals": {
-      "calories": 1679,
-      "protein": 156.9,
+      "calories": 1723.2,
+      "protein": 156.875,
       "carbs": 151.71,
-      "fats": 46.5
+      "fats": 51.525
     },
     "desayuno": [
       "p0_m0"
@@ -835,8 +861,8 @@ const dailyMenus = [
     "baselineTotals": {
       "calories": 1821,
       "protein": 169.825,
-      "carbs": 164.7,
-      "fats": 47.775
+      "carbs": 164.65,
+      "fats": 47.725
     },
     "desayuno": [
       "p1_m0"
@@ -859,10 +885,10 @@ const dailyMenus = [
       "carbs": 150
     },
     "baselineTotals": {
-      "calories": 1627,
+      "calories": 1671.2,
       "protein": 146.3,
       "carbs": 148.51,
-      "fats": 45.3
+      "fats": 50.24999999999999
     },
     "desayuno": [
       "p2_m0"
