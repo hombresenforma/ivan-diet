@@ -4,10 +4,10 @@ const foodDatabase = {
   "p0_m0": {
     "name": "Tostada de Centeno con Huevo y Queso Cottage",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682ad5cf9b8ed31c657c80e8.png",
-    "calories": 243.3,
-    "protein": 16.8,
-    "carbs": 22.6,
-    "fats": 9.3,
+    "calories": 538.8,
+    "protein": 46.1,
+    "carbs": 28.8,
+    "fats": 26.4,
     "ingredients": [
       {
         "name": "Tostada de Pan de Centeno",
@@ -26,7 +26,7 @@ const foodDatabase = {
       },
       {
         "name": "Huevo",
-        "quantity": "1",
+        "quantity": "3",
         "unit": "ud",
         "calories": 85.3,
         "protein": 7.2,
@@ -41,7 +41,7 @@ const foodDatabase = {
       },
       {
         "name": "Queso Cottage",
-        "quantity": "50",
+        "quantity": "175",
         "unit": "g",
         "calories": 50,
         "protein": 6,
@@ -59,10 +59,10 @@ const foodDatabase = {
   "p0_m1": {
     "name": "Ensalada de Pasta con Pollo",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afc47b91eb349463d47dd.png",
-    "calories": 730.5,
-    "protein": 70.4,
-    "carbs": 85,
-    "fats": 9.7,
+    "calories": 595.5,
+    "protein": 48.4,
+    "carbs": 82.5,
+    "fats": 6.6,
     "ingredients": [
       {
         "name": "Pasta Integral",
@@ -80,7 +80,7 @@ const foodDatabase = {
       },
       {
         "name": "Canónigos",
-        "quantity": "200",
+        "quantity": "100",
         "unit": "g",
         "calories": 60,
         "protein": 4,
@@ -94,7 +94,7 @@ const foodDatabase = {
       },
       {
         "name": "Tomate",
-        "quantity": "150",
+        "quantity": "100",
         "unit": "g",
         "calories": 45,
         "protein": 3,
@@ -136,7 +136,7 @@ const foodDatabase = {
       },
       {
         "name": "Cebolla",
-        "quantity": "100",
+        "quantity": "200",
         "unit": "g",
         "calories": 30,
         "protein": 2,
@@ -150,7 +150,7 @@ const foodDatabase = {
       },
       {
         "name": "Pechuga de Pollo",
-        "quantity": "175",
+        "quantity": "100",
         "unit": "g",
         "calories": 280,
         "protein": 49,
@@ -235,14 +235,14 @@ const foodDatabase = {
   "p0_m3": {
     "name": "Yogurt Protéico con Frutos Rojos y Secos",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afea2b91eb35e413d4ab6.png",
-    "calories": 537,
-    "protein": 21,
-    "carbs": 25,
-    "fats": 40.6,
+    "calories": 293.5,
+    "protein": 22.4,
+    "carbs": 23.5,
+    "fats": 13,
     "ingredients": [
       {
         "name": "Yogur Protéico",
-        "quantity": "100",
+        "quantity": "175",
         "unit": "g",
         "calories": 62,
         "protein": 10.5,
@@ -256,7 +256,7 @@ const foodDatabase = {
       },
       {
         "name": "Frutos Rojos",
-        "quantity": "50",
+        "quantity": "100",
         "unit": "g",
         "calories": 25,
         "protein": 0.5,
@@ -270,7 +270,7 @@ const foodDatabase = {
       },
       {
         "name": "Frutos Secos",
-        "quantity": "100",
+        "quantity": "30",
         "unit": "g",
         "calories": 450,
         "protein": 10,
@@ -288,10 +288,10 @@ const foodDatabase = {
   "p1_m0": {
     "name": "Tostada de Centeno con Queso Cottage y Cherries",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68792fea2035ba213493e87e.png",
-    "calories": 238,
-    "protein": 17.6,
-    "carbs": 29,
-    "fats": 5.4,
+    "calories": 188,
+    "protein": 11.6,
+    "carbs": 27,
+    "fats": 3.4,
     "ingredients": [
       {
         "name": "Tostada de Pan de Centeno",
@@ -324,7 +324,7 @@ const foodDatabase = {
       },
       {
         "name": "Queso Cottage",
-        "quantity": "100",
+        "quantity": "50",
         "unit": "g",
         "calories": 100,
         "protein": 12,
@@ -342,10 +342,10 @@ const foodDatabase = {
   "p1_m1": {
     "name": "Fajitas de Pollo y Verduras",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afcef0ed50608b742ff33.png",
-    "calories": 508,
-    "protein": 60.6,
+    "calories": 388,
+    "protein": 39.6,
     "carbs": 40,
-    "fats": 9,
+    "fats": 6,
     "ingredients": [
       {
         "name": "Pan de Fajita",
@@ -420,7 +420,7 @@ const foodDatabase = {
       },
       {
         "name": "Pechuga de Pollo",
-        "quantity": "175",
+        "quantity": "100",
         "unit": "g",
         "calories": 280,
         "protein": 49,
@@ -438,10 +438,10 @@ const foodDatabase = {
   "p1_m2": {
     "name": "Poke de Arroz con Atún, Queso Feta, Tomate and Aguacate",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cf7d29b0c67d84e9af509.png",
-    "calories": 685,
-    "protein": 55,
+    "calories": 845,
+    "protein": 83,
     "carbs": 46.2,
-    "fats": 28.7,
+    "fats": 32.7,
     "ingredients": [
       {
         "name": "Arroz",
@@ -459,7 +459,7 @@ const foodDatabase = {
       },
       {
         "name": "Atún en Conserva",
-        "quantity": "100",
+        "quantity": "200",
         "unit": "g",
         "calories": 160,
         "protein": 28,
@@ -572,10 +572,10 @@ const foodDatabase = {
   "p2_m0": {
     "name": "Tostada de Centeno con Huevo y Aguacate",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687a695da648331355d3b0b2.png",
-    "calories": 238.3,
-    "protein": 11.8,
-    "carbs": 22.1,
-    "fats": 11.3,
+    "calories": 413.5,
+    "protein": 20.9,
+    "carbs": 25.7,
+    "fats": 25.3,
     "ingredients": [
       {
         "name": "Tostada de Pan de Centeno",
@@ -594,7 +594,7 @@ const foodDatabase = {
       },
       {
         "name": "Huevos",
-        "quantity": "1",
+        "quantity": "2",
         "unit": "ud",
         "calories": 85.3,
         "protein": 7.2,
@@ -609,7 +609,7 @@ const foodDatabase = {
       },
       {
         "name": "Aguacate",
-        "quantity": "10",
+        "quantity": "30",
         "unit": "g",
         "calories": 45,
         "protein": 1,
@@ -627,10 +627,10 @@ const foodDatabase = {
   "p2_m1": {
     "name": "Patata con brócoli y pollo asado",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687de454838c601605b6e271.png",
-    "calories": 525,
-    "protein": 51,
+    "calories": 445,
+    "protein": 37,
     "carbs": 60,
-    "fats": 6.7,
+    "fats": 4.7,
     "ingredients": [
       {
         "name": "Patata",
@@ -662,7 +662,7 @@ const foodDatabase = {
       },
       {
         "name": "Pechuga de Pollo",
-        "quantity": "150",
+        "quantity": "100",
         "unit": "g",
         "calories": 240,
         "protein": 42,
@@ -680,10 +680,10 @@ const foodDatabase = {
   "p2_m2": {
     "name": "Berenjenas Rellenas de Pavo al Horno",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6922cdf6e7de6638e2767e27.png",
-    "calories": 440,
-    "protein": 52,
-    "carbs": 34,
-    "fats": 9.2,
+    "calories": 540,
+    "protein": 64,
+    "carbs": 38,
+    "fats": 13.2,
     "ingredients": [
       {
         "name": "Berenjena",
@@ -743,7 +743,7 @@ const foodDatabase = {
       },
       {
         "name": "Queso Havarti Light",
-        "quantity": "100",
+        "quantity": "200",
         "unit": "g",
         "calories": 100,
         "protein": 12,
@@ -761,14 +761,14 @@ const foodDatabase = {
   "p2_m3": {
     "name": "Pudding de chía alto en proteína",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687d043e9b0c67b6db9b08b8.png",
-    "calories": 572,
-    "protein": 29.4,
-    "carbs": 20.8,
-    "fats": 42.4,
+    "calories": 322,
+    "protein": 29.8,
+    "carbs": 15.4,
+    "fats": 16.2,
     "ingredients": [
       {
         "name": "Semillas de Chía",
-        "quantity": "100",
+        "quantity": "30",
         "unit": "g",
         "calories": 450,
         "protein": 10,
@@ -782,7 +782,7 @@ const foodDatabase = {
       },
       {
         "name": "Leche",
-        "quantity": "100",
+        "quantity": "200",
         "unit": "g",
         "calories": 46,
         "protein": 3.4,
@@ -796,7 +796,7 @@ const foodDatabase = {
       },
       {
         "name": "Proteína en Polvo",
-        "quantity": "20",
+        "quantity": "25",
         "unit": "g",
         "calories": 76,
         "protein": 16,
@@ -821,10 +821,10 @@ const dailyMenus = [
       "carbs": 150
     },
     "baselineTotals": {
-      "calories": 1760.8,
-      "protein": 142.2,
-      "carbs": 147.6,
-      "fats": 64.2
+      "calories": 1677.8,
+      "protein": 150.8,
+      "carbs": 149.8,
+      "fats": 50.6
     },
     "desayuno": [
       "p0_m0"
@@ -847,10 +847,10 @@ const dailyMenus = [
       "carbs": 150
     },
     "baselineTotals": {
-      "calories": 1700.5,
-      "protein": 150.2,
-      "carbs": 162.7,
-      "fats": 44.7
+      "calories": 1690.5,
+      "protein": 151.2,
+      "carbs": 160.7,
+      "fats": 43.7
     },
     "desayuno": [
       "p1_m0"
@@ -873,10 +873,10 @@ const dailyMenus = [
       "carbs": 150
     },
     "baselineTotals": {
-      "calories": 1775.3,
-      "protein": 144.2,
-      "carbs": 136.9,
-      "fats": 69.6
+      "calories": 1720.5,
+      "protein": 151.7,
+      "carbs": 139.1,
+      "fats": 59.4
     },
     "desayuno": [
       "p2_m0"
