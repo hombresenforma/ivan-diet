@@ -809,10 +809,10 @@ const foodDatabase = {
   "p2_m0": {
     "name": "Tostada de Centeno con Huevo y Queso Cottage",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682ad5cf9b8ed31c657c80e8.png",
-    "calories": 374,
-    "protein": 24,
-    "carbs": 23,
-    "fats": 20,
+    "calories": 378.33333333333337,
+    "protein": 29.333333333333336,
+    "carbs": 24.333333333333332,
+    "fats": 17,
     "ingredients": [
       {
         "name": "Tostada de Pan de Centeno",
@@ -842,32 +842,19 @@ const foodDatabase = {
       },
       {
         "name": "Queso Cottage",
-        "quantity": "75",
+        "quantity": "125",
         "unit": "g",
-        "calories": 74,
-        "protein": 8,
-        "carbs": 2,
-        "fats": 3,
+        "calories": 123.33333333333334,
+        "protein": 13.333333333333334,
+        "carbs": 3.3333333333333335,
+        "fats": 5,
         "baseCalories": 0.9866666666666667,
         "baseProtein": 0.10666666666666667,
         "baseCarbs": 0.02666666666666667,
         "baseFats": 0.04
-      },
-      {
-        "name": "Aceite de Oliva",
-        "quantity": "5",
-        "unit": "g",
-        "calories": 45,
-        "protein": 0,
-        "carbs": 0,
-        "fats": 5,
-        "baseCalories": 9,
-        "baseProtein": 0,
-        "baseCarbs": 0,
-        "baseFats": 1
       }
     ],
-    "preparation": "1. Tostar el pan de centeno. 2. Cocinar el huevo al gusto (escalfado, revuelto o a la plancha). 3. Extender el queso cottage sobre la tostada. 4. Colocar el huevo encima y condimentar con sal y pimienta.",
+    "preparation": "1. Tostar el pan de centeno. 2. Cocinar los huevos al gusto (revueltos, pochados, a la plancha). 3. Untar el queso cottage sobre las tostadas. 4. Añadir el aguacate laminado (si se usa en la receta ajustada) y los huevos encima.",
     "originalBaseRecipeId": "des_tostada_de_centeno_con_huevo_y_queso_cottage"
   },
   "p2_m1": {
@@ -1206,10 +1193,10 @@ const foodDatabase = {
   "p3_m0": {
     "name": "Tostada de Pan Wasa con Salmón ahumado y Aguacate",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687d025bddc9c119c957ab9c.png",
-    "calories": 390,
-    "protein": 21,
-    "carbs": 40,
-    "fats": 18,
+    "calories": 480,
+    "protein": 31,
+    "carbs": 39.5,
+    "fats": 23.5,
     "ingredients": [
       {
         "name": "Pan Wasa",
@@ -1226,12 +1213,12 @@ const foodDatabase = {
       },
       {
         "name": "Salmón Ahumado",
-        "quantity": "75",
+        "quantity": "125",
         "unit": "g",
-        "calories": 135,
-        "protein": 15,
+        "calories": 225,
+        "protein": 25,
         "carbs": 0,
-        "fats": 9,
+        "fats": 15,
         "baseCalories": 1.8,
         "baseProtein": 0.2,
         "baseCarbs": 0,
@@ -1251,7 +1238,7 @@ const foodDatabase = {
         "baseFats": 0.15
       }
     ],
-    "preparation": "1. Tostar ligeramente el pan Wasa si se desea. 2. Colocar las lonchas de salmón ahumado sobre el pan. 3. Cortar el aguacate en láminas o trozos y disponerlo sobre el salmón. Servir inmediatamente.",
+    "preparation": "1. Untar o laminar el aguacate sobre la tostada de pan Wasa. 2. Colocar el salmón ahumado por encima. 3. Opcional: añadir eneldo o pimienta.",
     "originalBaseRecipeId": "des_tostada_de_pan_wasa_con_salmn_ahumado_y_aguacate"
   },
   "p3_m1": {
@@ -1934,10 +1921,10 @@ const dailyMenus = [
       "carbs": 151
     },
     "baselineTotals": {
-      "calories": 2023,
-      "protein": 135.75,
-      "carbs": 166.5,
-      "fats": 94.75
+      "calories": 2027.3333333333335,
+      "protein": 141.08333333333334,
+      "carbs": 167.83333333333334,
+      "fats": 91.75
     },
     "desayuno": [
       "p2_m0"
@@ -1962,10 +1949,10 @@ const dailyMenus = [
       "carbs": 150
     },
     "baselineTotals": {
-      "calories": 1957.1,
-      "protein": 148.04,
+      "calories": 2047.1,
+      "protein": 158.04,
       "carbs": 204.04999999999998,
-      "fats": 62.62
+      "fats": 68.62
     },
     "desayuno": [
       "p3_m0"
