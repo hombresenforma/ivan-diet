@@ -55,10 +55,10 @@ const foodDatabase = {
   "p0_m1": {
     "name": "Ensalada de Lentejas",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682aff5a365e949c0a73d706.png",
-    "calories": 497.5,
+    "calories": 541.7,
     "protein": 32.5,
     "carbs": 45.75,
-    "fats": 19.7,
+    "fats": 24.7,
     "ingredients": [
       {
         "name": "Lentejas Cocidas",
@@ -124,6 +124,19 @@ const foodDatabase = {
         "baseProtein": 0.1,
         "baseCarbs": 0.15,
         "baseFats": 0.4
+      },
+      {
+        "name": "Aceite de Oliva Virgen Extra",
+        "quantity": "5",
+        "unit": "g",
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1,
+        "calories": 44.2,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 5
       }
     ],
     "preparation": "1. Si usas lentejas de bote, enjuagarlas bien bajo el grifo y escurrirlas. Si las cocinas, déjalas enfriar. 2. Picar el tomate y la cebolla (preferiblemente morada) en dados pequeños. Cortar el queso de Burgos 0% y el aguacate en dados. 3. En un bol grande, mezclar con cuidado las lentejas, el tomate, la cebolla, el queso de Burgos y el aguacate. 4. Aliñar con aceite de oliva virgen extra, vinagre (de manzana o Jerez) y sal al gusto.",
@@ -132,10 +145,10 @@ const foodDatabase = {
   "p0_m2": {
     "name": "Boniato asado con ensalada de tomate",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684efcd1f6c48df26aa5ba5b.png",
-    "calories": 140,
+    "calories": 184.2,
     "protein": 6.25,
     "carbs": 26.75,
-    "fats": 0.7250000000000001,
+    "fats": 5.725,
     "ingredients": [
       {
         "name": "Boniato",
@@ -189,6 +202,19 @@ const foodDatabase = {
         "baseCarbs": 0.1,
         "baseFats": 0.04,
         "category": "default_veg"
+      },
+      {
+        "name": "Aceite de Oliva Virgen Extra",
+        "quantity": "5",
+        "unit": "g",
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1,
+        "calories": 44.2,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 5
       }
     ],
     "preparation": "1. Precalentar el horno a 200°C (390°F). Lavar bien el boniato, pincharlo varias veces con un tenedor para que no reviente durante la cocción. 2. Asar el boniato entero directamente sobre la rejilla del horno o en una bandeja durante 45-60 minutos, o hasta que esté tierno al pincharlo. 3. Mientras se asa el boniato, preparar la ensalada: lavar y cortar el tomate en dados pequeños. Picar la cebolla y el ajo muy finamente. 4. En un bol, mezclar el tomate, la cebolla y el ajo. Aliñar con aceite de oliva virgen extra, vinagre y sal al gusto. 5. Una vez el boniato esté asado y tierno, sacarlo del horno, dejarlo templar unos minutos, y luego abrirlo por la mitad a lo largo. Servirlo caliente o templado, acompañado de la ensalada de tomate.",
@@ -322,10 +348,10 @@ const foodDatabase = {
   "p1_m1": {
     "name": "Ensala de Patata, Atún y Huevo",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afc08b91eb31afe3d4796.png",
-    "calories": 607.5,
+    "calories": 651.7,
     "protein": 59,
     "carbs": 46.1,
-    "fats": 18.725,
+    "fats": 23.725,
     "ingredients": [
       {
         "name": "Patata",
@@ -430,6 +456,19 @@ const foodDatabase = {
         "baseProtein": 6.5,
         "baseCarbs": 0.55,
         "baseFats": 5.5
+      },
+      {
+        "name": "Aceite de Oliva Virgen Extra",
+        "quantity": "5",
+        "unit": "g",
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1,
+        "calories": 44.2,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 5
       }
     ],
     "preparation": "1. Cocer las patatas con piel en agua con sal hasta que estén tiernas (unos 20-25 minutos). Dejar enfriar, pelar y cortar en dados. 2. Cocer los huevos en agua hirviendo durante 10 minutos. Dejar enfriar, pelar y cortar en rodajas o trozos. 3. Picar finamente el pimiento verde, pimiento rojo, cebolla y tomate. 4. En un bol grande, mezclar las patatas, los huevos, las verduras picadas, el maíz dulce (escurrido) y el atún (escurrido y desmenuzado). 5. Aliñar con aceite de oliva virgen extra, vinagre y sal al gusto. Mezclar con cuidado.",
@@ -438,10 +477,10 @@ const foodDatabase = {
   "p1_m3": {
     "name": "Ensalada con Pollo y Queso de Burgos",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afdceb91eb360843d4a0b.png",
-    "calories": 400,
+    "calories": 444.2,
     "protein": 58.00000000000001,
     "carbs": 14,
-    "fats": 10.4,
+    "fats": 15.4,
     "ingredients": [
       {
         "name": "Canónigos",
@@ -507,6 +546,19 @@ const foodDatabase = {
         "baseProtein": 0.28,
         "baseCarbs": 0,
         "baseFats": 0.04
+      },
+      {
+        "name": "Aceite de Oliva Virgen Extra",
+        "quantity": "5",
+        "unit": "g",
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1,
+        "calories": 44.2,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 5
       }
     ],
     "preparation": "1. Cocinar la pechuga de pollo (a la plancha, hervida o asada) y cortarla en tiras o dados. 2. Lavar los canónigos y escurrirlos bien. Cortar los tomates (cherry por la mitad, o normales en gajos) y la cebolla en rodajas finas o juliana. Cortar el queso de Burgos 0% en dados o láminas. 3. En un bol o plato grande, disponer una base de canónigos. Añadir encima el tomate, la cebolla, el pollo y el queso de Burgos. 4. Aliñar con aceite de oliva virgen extra, vinagre (de manzana o Módena) y sal al gusto."
@@ -743,10 +795,10 @@ const foodDatabase = {
   "p2_m3": {
     "name": "Pechuga de Pavo a la Plancha",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684f003ef6c48dfc43a5bdb3.png",
-    "calories": 240,
+    "calories": 284.2,
     "protein": 42.00000000000001,
     "carbs": 0,
-    "fats": 6,
+    "fats": 11,
     "ingredients": [
       {
         "name": "Pechuga de Pavo",
@@ -760,6 +812,19 @@ const foodDatabase = {
         "baseProtein": 0.28,
         "baseCarbs": 0,
         "baseFats": 0.04
+      },
+      {
+        "name": "Aceite de Oliva Virgen Extra",
+        "quantity": "5",
+        "unit": "g",
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1,
+        "calories": 44.2,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 5
       }
     ],
     "preparation": "1. Si los filetes de pechuga de pavo son muy gruesos, se pueden abrir tipo libro o golpear ligeramente para que tengan un grosor más uniforme y se cocinen mejor. 2. Sazonar los filetes de pavo con sal, pimienta y tus especias favoritas. 3. Calentar una plancha o sartén antiadherente a fuego medio-alto con una gota de aceite de oliva. 4. Cocinar la pechuga de pavo durante unos 3-4 minutos por cada lado, o hasta que esté dorada por fuera y completamente cocida por dentro.",
@@ -1054,10 +1119,10 @@ const dailyMenus = [
       "carbs": 140
     },
     "baselineTotals": {
-      "calories": 1478,
+      "calories": 1566.4,
       "protein": 127.17500000000001,
       "carbs": 116.1,
-      "fats": 52.94
+      "fats": 62.94
     },
     "desayuno": [
       "p0_m0"
@@ -1082,10 +1147,10 @@ const dailyMenus = [
       "carbs": 140
     },
     "baselineTotals": {
-      "calories": 1581,
+      "calories": 1669.4,
       "protein": 156.525,
       "carbs": 110.06,
-      "fats": 52.574999999999996
+      "fats": 62.574999999999996
     },
     "desayuno": [
       "p1_m0"
@@ -1109,10 +1174,10 @@ const dailyMenus = [
       "carbs": 150
     },
     "baselineTotals": {
-      "calories": 1372.5,
+      "calories": 1416.7,
       "protein": 133.75,
       "carbs": 51.75,
-      "fats": 63.150000000000006
+      "fats": 68.15
     },
     "desayuno": [
       "p2_m0"
