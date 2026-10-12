@@ -284,10 +284,10 @@ const foodDatabase = {
   "p1_m0": {
     "name": "Tostada de Centeno con Huevo y Queso Cottage",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682ad5cf9b8ed31c657c80e8.png",
-    "calories": 378.5,
-    "protein": 29.9,
-    "carbs": 25.2,
-    "fats": 17.3,
+    "calories": 403.5,
+    "protein": 32.900000000000006,
+    "carbs": 26.2,
+    "fats": 18.299999999999997,
     "ingredients": [
       {
         "name": "Tostada de Pan de Centeno",
@@ -317,12 +317,12 @@ const foodDatabase = {
       },
       {
         "name": "Queso Cottage",
-        "quantity": "100",
+        "quantity": "125",
         "unit": "g",
-        "calories": 100,
-        "protein": 12,
-        "carbs": 4,
-        "fats": 4,
+        "calories": 125,
+        "protein": 15,
+        "carbs": 5,
+        "fats": 5,
         "baseCalories": 1,
         "baseProtein": 0.12,
         "baseCarbs": 0.04,
@@ -1144,9 +1144,9 @@ const dailyMenus = [
     },
     "baselineTotals": {
       "calories": 1561.4,
-      "protein": 126.9,
+      "protein": 126.92500000000001,
       "carbs": 115.6,
-      "fats": 62.7
+      "fats": 62.739999999999995
     },
     "desayuno": [
       "p0_m0"
@@ -1171,10 +1171,10 @@ const dailyMenus = [
       "carbs": 140
     },
     "baselineTotals": {
-      "calories": 1556,
-      "protein": 153.5,
-      "carbs": 109.1,
-      "fats": 51.6
+      "calories": 1581,
+      "protein": 156.525,
+      "carbs": 110.06,
+      "fats": 52.574999999999996
     },
     "desayuno": [
       "p1_m0"
@@ -1198,10 +1198,10 @@ const dailyMenus = [
       "carbs": 150
     },
     "baselineTotals": {
-      "calories": 1717,
-      "protein": 105,
-      "carbs": 115,
-      "fats": 90
+      "calories": 1637.7000000000003,
+      "protein": 133.75,
+      "carbs": 51.75,
+      "fats": 93.15
     },
     "desayuno": [
       "p2_m0"
@@ -1225,10 +1225,10 @@ const dailyMenus = [
       "carbs": 150
     },
     "baselineTotals": {
-      "calories": 1821.3,
+      "calories": 1821.25,
       "protein": 121,
-      "carbs": 87.4,
-      "fats": 106.1
+      "carbs": 87.405,
+      "fats": 106.10000000000001
     },
     "desayuno": [
       "p3_m0"
