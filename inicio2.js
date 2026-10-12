@@ -4,10 +4,10 @@ const foodDatabase = {
   "p0_m0": {
     "name": "Tostada de Centeno con Aguacate y Atún",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682aff33e819fcc7a1a8d946.png",
-    "calories": 403,
-    "protein": 34.6,
-    "carbs": 24.5,
-    "fats": 17.2,
+    "calories": 313,
+    "protein": 32.6,
+    "carbs": 21.5,
+    "fats": 9.2,
     "ingredients": [
       {
         "name": "Tostada de Pan de Centeno",
@@ -26,7 +26,7 @@ const foodDatabase = {
       },
       {
         "name": "Aguacate",
-        "quantity": "30",
+        "quantity": "10",
         "unit": "g",
         "calories": 135,
         "protein": 3,
@@ -154,10 +154,10 @@ const foodDatabase = {
   "p0_m2": {
     "name": "Potaje de Garbanzos con Espinacas y Bacalao",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6922cfb06984f10e4539887a.png",
-    "calories": 525.3,
-    "protein": 48,
-    "carbs": 55.1,
-    "fats": 11.3,
+    "calories": 610.5,
+    "protein": 55.1,
+    "carbs": 55.7,
+    "fats": 17.3,
     "ingredients": [
       {
         "name": "Garbanzos Cocidos",
@@ -232,7 +232,7 @@ const foodDatabase = {
       },
       {
         "name": "Huevo Cocido",
-        "quantity": "1",
+        "quantity": "2",
         "unit": "ud",
         "calories": 85.3,
         "protein": 7.2,
@@ -251,10 +251,10 @@ const foodDatabase = {
   "p0_m3": {
     "name": "Pudding de chía alto en proteína",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687d043e9b0c67b6db9b08b8.png",
-    "calories": 231,
-    "protein": 25.4,
-    "carbs": 9.1,
-    "fats": 10.6,
+    "calories": 212,
+    "protein": 21.4,
+    "carbs": 8.8,
+    "fats": 10.4,
     "ingredients": [
       {
         "name": "Semillas de Chía",
@@ -286,7 +286,7 @@ const foodDatabase = {
       },
       {
         "name": "Proteína en Polvo",
-        "quantity": "25",
+        "quantity": "20",
         "unit": "g",
         "calories": 95,
         "protein": 20,
@@ -304,10 +304,10 @@ const foodDatabase = {
   "p1_m0": {
     "name": "Tostada de Pan de Centeno con Revuelto de Huevos y Jamón York",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687d09e04d6fb7f271b84cc9.png",
-    "calories": 347.5,
-    "protein": 22.7,
-    "carbs": 21.8,
-    "fats": 18.7,
+    "calories": 239.3,
+    "protein": 14,
+    "carbs": 21,
+    "fats": 10.9,
     "ingredients": [
       {
         "name": "Tostada de Pan de Centeno",
@@ -326,7 +326,7 @@ const foodDatabase = {
       },
       {
         "name": "Huevos",
-        "quantity": "2",
+        "quantity": "1",
         "unit": "ud",
         "calories": 170.5,
         "protein": 14.3,
@@ -341,7 +341,7 @@ const foodDatabase = {
       },
       {
         "name": "Jamón York",
-        "quantity": "30",
+        "quantity": "20",
         "unit": "g",
         "calories": 69,
         "protein": 4.8,
@@ -359,14 +359,14 @@ const foodDatabase = {
   "p1_m1": {
     "name": "Arroz tres delicias",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68872f8e1fc4545c499532f0.png",
-    "calories": 602.8,
-    "protein": 30.8,
-    "carbs": 88.7,
-    "fats": 14.1,
+    "calories": 786.8,
+    "protein": 44.7,
+    "carbs": 97.2,
+    "fats": 24.5,
     "ingredients": [
       {
         "name": "Arroz",
-        "quantity": "90",
+        "quantity": "100",
         "unit": "g",
         "calories": 328.5,
         "protein": 10.8,
@@ -380,7 +380,7 @@ const foodDatabase = {
       },
       {
         "name": "Huevo (en tortilla)",
-        "quantity": "1",
+        "quantity": "3",
         "unit": "ud",
         "calories": 85.3,
         "protein": 7.2,
@@ -409,7 +409,7 @@ const foodDatabase = {
       },
       {
         "name": "Jamón York",
-        "quantity": "30",
+        "quantity": "20",
         "unit": "g",
         "calories": 69,
         "protein": 4.8,
@@ -441,10 +441,10 @@ const foodDatabase = {
   "p1_m2": {
     "name": "Guisantes con Jamón y Sepia a la Plancha",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/695e2065c98330f34a08a046.png",
-    "calories": 524,
-    "protein": 65.8,
-    "carbs": 11.6,
-    "fats": 21.8,
+    "calories": 472,
+    "protein": 66.4,
+    "carbs": 10.8,
+    "fats": 15.6,
     "ingredients": [
       {
         "name": "Guisantes",
@@ -462,7 +462,7 @@ const foodDatabase = {
       },
       {
         "name": "Jamón Serrano",
-        "quantity": "80",
+        "quantity": "40",
         "unit": "g",
         "calories": 184,
         "protein": 12.8,
@@ -476,7 +476,7 @@ const foodDatabase = {
       },
       {
         "name": "Sepia",
-        "quantity": "175",
+        "quantity": "200",
         "unit": "g",
         "calories": 280,
         "protein": 49,
@@ -494,10 +494,10 @@ const foodDatabase = {
   "p1_m3": {
     "name": "Yogurt Protéico con Frutos Rojos y Secos",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afea2b91eb35e413d4ab6.png",
-    "calories": 244,
-    "protein": 23.5,
-    "carbs": 27.5,
-    "fats": 5.4,
+    "calories": 219,
+    "protein": 23,
+    "carbs": 21.5,
+    "fats": 5.1,
     "ingredients": [
       {
         "name": "Yogur Protéico",
@@ -515,7 +515,7 @@ const foodDatabase = {
       },
       {
         "name": "Frutos Rojos",
-        "quantity": "150",
+        "quantity": "100",
         "unit": "g",
         "calories": 75,
         "protein": 1.5,
@@ -547,10 +547,10 @@ const foodDatabase = {
   "p2_m0": {
     "name": "Pan wasa con Huevo, Aguacate y Cherries",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68cc56abf782ba4c11b42a44.png",
-    "calories": 483.8,
-    "protein": 29.1,
-    "carbs": 29.8,
-    "fats": 27.6,
+    "calories": 353.5,
+    "protein": 20.9,
+    "carbs": 27.7,
+    "fats": 17.5,
     "ingredients": [
       {
         "name": "Pan Wasa",
@@ -569,7 +569,7 @@ const foodDatabase = {
       },
       {
         "name": "Huevo",
-        "quantity": "3",
+        "quantity": "2",
         "unit": "ud",
         "calories": 255.8,
         "protein": 21.5,
@@ -584,7 +584,7 @@ const foodDatabase = {
       },
       {
         "name": "Aguacate",
-        "quantity": "20",
+        "quantity": "10",
         "unit": "g",
         "calories": 90,
         "protein": 2,
@@ -616,10 +616,10 @@ const foodDatabase = {
   "p2_m1": {
     "name": "Poke de aguacate, mango, tomate, soja, cebolla, arroz and pollo",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684efa4ef6c48db833a5b1af.png",
-    "calories": 657.5,
-    "protein": 60.8,
+    "calories": 617.5,
+    "protein": 53.8,
     "carbs": 71.5,
-    "fats": 12.7,
+    "fats": 11.7,
     "ingredients": [
       {
         "name": "Aguacate",
@@ -694,7 +694,7 @@ const foodDatabase = {
       },
       {
         "name": "Pechuga de Pollo",
-        "quantity": "175",
+        "quantity": "150",
         "unit": "g",
         "calories": 280,
         "protein": 49,
@@ -712,14 +712,14 @@ const foodDatabase = {
   "p2_m2": {
     "name": "Lomo de Cerdo al Horno con Coles de Bruselas",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6922ce3de7de66151b7682ae.png",
-    "calories": 264.2,
-    "protein": 32,
+    "calories": 468.4,
+    "protein": 60,
     "carbs": 10,
-    "fats": 9.4,
+    "fats": 18.4,
     "ingredients": [
       {
         "name": "Cinta de Lomo de Cerdo",
-        "quantity": "100",
+        "quantity": "200",
         "unit": "g",
         "calories": 160,
         "protein": 28,
@@ -761,7 +761,7 @@ const foodDatabase = {
       },
       {
         "name": "Aceite de Oliva Virgen Extra",
-        "quantity": "5",
+        "quantity": "10",
         "unit": "g",
         "calories": 44.2,
         "protein": 0,
@@ -779,14 +779,14 @@ const foodDatabase = {
   "p2_m3": {
     "name": "Yogur Proteico con Cereales de Avena",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68e7ef66df76fef1b58db3f2.png",
-    "calories": 300.5,
-    "protein": 22.3,
-    "carbs": 49.5,
-    "fats": 1.8,
+    "calories": 269.5,
+    "protein": 17,
+    "carbs": 47.5,
+    "fats": 1.6,
     "ingredients": [
       {
         "name": "Yogur Protéico",
-        "quantity": "150",
+        "quantity": "100",
         "unit": "g",
         "calories": 93,
         "protein": 15.8,
@@ -839,10 +839,10 @@ const dailyMenus = [
       "carbs": 150
     },
     "baselineTotals": {
-      "calories": 1699.8,
-      "protein": 151.6,
-      "carbs": 161.2,
-      "fats": 45.9
+      "calories": 1676,
+      "protein": 152.7,
+      "carbs": 158.5,
+      "fats": 43.7
     },
     "desayuno": [
       "p0_m0"
@@ -865,10 +865,10 @@ const dailyMenus = [
       "carbs": 150
     },
     "baselineTotals": {
-      "calories": 1718.3,
-      "protein": 142.8,
-      "carbs": 149.6,
-      "fats": 60
+      "calories": 1717,
+      "protein": 148,
+      "carbs": 150.5,
+      "fats": 56.1
     },
     "desayuno": [
       "p1_m0"
@@ -891,10 +891,10 @@ const dailyMenus = [
       "carbs": 150
     },
     "baselineTotals": {
-      "calories": 1706,
-      "protein": 144.2,
-      "carbs": 160.8,
-      "fats": 51.5
+      "calories": 1708.9,
+      "protein": 151.7,
+      "carbs": 156.7,
+      "fats": 49.2
     },
     "desayuno": [
       "p2_m0"
