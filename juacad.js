@@ -14,9 +14,9 @@ const foodDatabase = {
         "quantity": "1",
         "unit": "rebanada(s)",
         "calories": 81,
-        "protein": 2.7,
+        "protein": 2.6999999999999997,
         "carbs": 15,
-        "fats": 0.9,
+        "fats": 0.8999999999999999,
         "baseCalories": 81,
         "baseProtein": 2.6999999999999997,
         "baseCarbs": 15,
@@ -57,7 +57,7 @@ const foodDatabase = {
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682aff5a365e949c0a73d706.png",
     "calories": 497.5,
     "protein": 32.5,
-    "carbs": 45.8,
+    "carbs": 45.75,
     "fats": 19.7,
     "ingredients": [
       {
@@ -118,7 +118,7 @@ const foodDatabase = {
         "unit": "g",
         "calories": 112.5,
         "protein": 2.5,
-        "carbs": 3.8,
+        "carbs": 3.75,
         "fats": 10,
         "baseCalories": 4.5,
         "baseProtein": 0.1,
@@ -132,10 +132,10 @@ const foodDatabase = {
   "p0_m2": {
     "name": "Boniato asado con ensalada de tomate",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684efcd1f6c48df26aa5ba5b.png",
-    "calories": 179.2,
-    "protein": 6,
-    "carbs": 26.3,
-    "fats": 5.5,
+    "calories": 140,
+    "protein": 6.25,
+    "carbs": 26.75,
+    "fats": 0.7250000000000001,
     "ingredients": [
       {
         "name": "Boniato",
@@ -144,7 +144,7 @@ const foodDatabase = {
         "calories": 67.5,
         "protein": 1.5,
         "carbs": 15,
-        "fats": 0.1,
+        "fats": 0.075,
         "baseCalories": 0.9,
         "baseProtein": 0.02,
         "baseCarbs": 0.2,
@@ -169,25 +169,26 @@ const foodDatabase = {
         "unit": "g",
         "calories": 22.5,
         "protein": 1.5,
-        "carbs": 3.8,
-        "fats": 0.2,
+        "carbs": 3.75,
+        "fats": 0.15,
         "baseCalories": 0.3,
         "baseProtein": 0.02,
         "baseCarbs": 0.05,
         "baseFats": 0.002
       },
       {
-        "name": "Aceite de Oliva Virgen Extra",
+        "name": "Ajo",
         "quantity": "5",
         "unit": "g",
-        "calories": 44.2,
-        "protein": 0,
-        "carbs": 0,
-        "fats": 5,
-        "baseCalories": 8.84,
-        "baseProtein": 0,
-        "baseCarbs": 0,
-        "baseFats": 1
+        "calories": 5,
+        "protein": 0.25,
+        "carbs": 0.5,
+        "fats": 0.2,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04,
+        "category": "default_veg"
       }
     ],
     "preparation": "1. Precalentar el horno a 200°C (390°F). Lavar bien el boniato, pincharlo varias veces con un tenedor para que no reviente durante la cocción. 2. Asar el boniato entero directamente sobre la rejilla del horno o en una bandeja durante 45-60 minutos, o hasta que esté tierno al pincharlo. 3. Mientras se asa el boniato, preparar la ensalada: lavar y cortar el tomate en dados pequeños. Picar la cebolla y el ajo muy finamente. 4. En un bol, mezclar el tomate, la cebolla y el ajo. Aliñar con aceite de oliva virgen extra, vinagre y sal al gusto. 5. Una vez el boniato esté asado y tierno, sacarlo del horno, dejarlo templar unos minutos, y luego abrirlo por la mitad a lo largo. Servirlo caliente o templado, acompañado de la ensalada de tomate.",
@@ -195,37 +196,24 @@ const foodDatabase = {
   },
   "p0_m3": {
     "name": "Merluza a la Plancha",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684f001d4d606642b1333279.png",
-    "calories": 364.2,
-    "protein": 56,
+    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69b66b6dad027629d2f1e944.png",
+    "calories": 320,
+    "protein": 56.00000000000001,
     "carbs": 0,
-    "fats": 13,
+    "fats": 8,
     "ingredients": [
       {
         "name": "Filete de Merluza",
         "quantity": "200",
         "unit": "g",
         "calories": 320,
-        "protein": 56,
+        "protein": 56.00000000000001,
         "carbs": 0,
         "fats": 8,
         "baseCalories": 1.6,
         "baseProtein": 0.28,
         "baseCarbs": 0,
         "baseFats": 0.04
-      },
-      {
-        "name": "Aceite de Oliva Virgen Extra",
-        "quantity": "5",
-        "unit": "g",
-        "calories": 44.2,
-        "protein": 0,
-        "carbs": 0,
-        "fats": 5,
-        "baseCalories": 8.84,
-        "baseProtein": 0,
-        "baseCarbs": 0,
-        "baseFats": 1
       }
     ],
     "preparation": "1. Sazonar los filetes o rodajas de merluza con sal, pimienta y opcionalmente un poco de ajo en polvo o perejil picado. 2. Calentar una plancha o sartén antiadherente a fuego medio-alto con un chorrito de aceite de oliva virgen extra. 3. Cuando el aceite esté caliente, colocar la merluza en la plancha. Cocinar durante unos 3-5 minutos por cada lado, dependiendo del grosor del pescado, hasta que esté opaca, bien cocida por dentro y se desmenuce fácilmente con un tenedor. 4. Servir inmediatamente, opcionalmente con un chorrito de zumo de limón fresco por encima.",
@@ -235,18 +223,18 @@ const foodDatabase = {
     "name": "Yogur Protéico (Sabores, Natural...)",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd789b8ed38b127cbc09.png",
     "calories": 77.5,
-    "protein": 13.1,
+    "protein": 13.125,
     "carbs": 5,
-    "fats": 0.4,
+    "fats": 0.375,
     "ingredients": [
       {
         "name": "Yogur Protéico",
         "quantity": "1",
         "unit": "unidad(es)",
         "calories": 77.5,
-        "protein": 13.1,
+        "protein": 13.125,
         "carbs": 5,
-        "fats": 0.4,
+        "fats": 0.375,
         "baseCalories": 77.5,
         "baseProtein": 13.125,
         "baseCarbs": 5,
@@ -257,12 +245,12 @@ const foodDatabase = {
     "originalBaseRecipeId": "ext_yogur_protico_sabores_natural"
   },
   "p0_m5": {
-    "name": "Fruta Densa (Plátano, Manzana)",
+    "name": "Fruta Densa (Plátano, Manzana, Pera)",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe4bb91eb325b93d4a82.png",
     "calories": 72,
     "protein": 0.6,
     "carbs": 18,
-    "fats": 0.2,
+    "fats": 0.24,
     "ingredients": [
       {
         "name": "Plátano",
@@ -271,7 +259,7 @@ const foodDatabase = {
         "calories": 72,
         "protein": 0.6,
         "carbs": 18,
-        "fats": 0.2,
+        "fats": 0.24,
         "baseCalories": 72,
         "baseProtein": 0.6,
         "baseCarbs": 18,
@@ -286,7 +274,7 @@ const foodDatabase = {
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682ad5cf9b8ed31c657c80e8.png",
     "calories": 403.5,
     "protein": 32.900000000000006,
-    "carbs": 26.2,
+    "carbs": 26.21,
     "fats": 18.299999999999997,
     "ingredients": [
       {
@@ -308,7 +296,7 @@ const foodDatabase = {
         "unit": "unidad(es)",
         "calories": 170.5,
         "protein": 14.3,
-        "carbs": 1.2,
+        "carbs": 1.21,
         "fats": 12.1,
         "baseCalories": 85.25,
         "baseProtein": 7.15,
@@ -337,7 +325,7 @@ const foodDatabase = {
     "calories": 607.5,
     "protein": 59,
     "carbs": 46.1,
-    "fats": 18.7,
+    "fats": 18.725,
     "ingredients": [
       {
         "name": "Patata",
@@ -346,7 +334,7 @@ const foodDatabase = {
         "calories": 112.5,
         "protein": 2.5,
         "carbs": 25,
-        "fats": 0.1,
+        "fats": 0.125,
         "baseCalories": 0.9,
         "baseProtein": 0.02,
         "baseCarbs": 0.2,
@@ -358,8 +346,8 @@ const foodDatabase = {
         "unit": "g",
         "calories": 22.5,
         "protein": 1.5,
-        "carbs": 3.8,
-        "fats": 0.2,
+        "carbs": 3.75,
+        "fats": 0.15,
         "baseCalories": 0.3,
         "baseProtein": 0.02,
         "baseCarbs": 0.05,
@@ -371,8 +359,8 @@ const foodDatabase = {
         "unit": "g",
         "calories": 22.5,
         "protein": 1.5,
-        "carbs": 3.8,
-        "fats": 0.2,
+        "carbs": 3.75,
+        "fats": 0.15,
         "baseCalories": 0.3,
         "baseProtein": 0.02,
         "baseCarbs": 0.05,
@@ -384,8 +372,8 @@ const foodDatabase = {
         "unit": "g",
         "calories": 22.5,
         "protein": 1.5,
-        "carbs": 3.8,
-        "fats": 0.2,
+        "carbs": 3.75,
+        "fats": 0.15,
         "baseCalories": 0.3,
         "baseProtein": 0.02,
         "baseCarbs": 0.05,
@@ -397,8 +385,8 @@ const foodDatabase = {
         "unit": "g",
         "calories": 22.5,
         "protein": 1.5,
-        "carbs": 3.8,
-        "fats": 0.2,
+        "carbs": 3.75,
+        "fats": 0.15,
         "baseCalories": 0.3,
         "baseProtein": 0.02,
         "baseCarbs": 0.05,
@@ -451,7 +439,7 @@ const foodDatabase = {
     "name": "Ensalada con Pollo y Queso de Burgos",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afdceb91eb360843d4a0b.png",
     "calories": 400,
-    "protein": 58,
+    "protein": 58.00000000000001,
     "carbs": 14,
     "fats": 10.4,
     "ingredients": [
@@ -512,7 +500,7 @@ const foodDatabase = {
         "quantity": "150",
         "unit": "g",
         "calories": 240,
-        "protein": 42,
+        "protein": 42.00000000000001,
         "carbs": 0,
         "fats": 6,
         "baseCalories": 1.6,
@@ -527,18 +515,18 @@ const foodDatabase = {
     "name": "Fruta Cítrica (Mandarina, Kiwi, Naranja...)",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd3d0ed506305442ffe4.png",
     "calories": 45,
-    "protein": 0.4,
-    "carbs": 11.3,
-    "fats": 0.2,
+    "protein": 0.375,
+    "carbs": 11.25,
+    "fats": 0.15,
     "ingredients": [
       {
         "name": "Kiwi",
         "quantity": "1",
         "unit": "unidad(es)",
         "calories": 45,
-        "protein": 0.4,
-        "carbs": 11.3,
-        "fats": 0.2,
+        "protein": 0.375,
+        "carbs": 11.25,
+        "fats": 0.15,
         "baseCalories": 45,
         "baseProtein": 0.375,
         "baseCarbs": 11.25,
@@ -552,7 +540,7 @@ const foodDatabase = {
     "name": "Yogur Protéico (Sabores, Natural...)",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd789b8ed38b127cbc09.png",
     "calories": 125,
-    "protein": 6.3,
+    "protein": 6.25,
     "carbs": 12.5,
     "fats": 5,
     "ingredients": [
@@ -561,7 +549,7 @@ const foodDatabase = {
         "quantity": "1",
         "unit": "unidad(es)",
         "calories": 125,
-        "protein": 6.3,
+        "protein": 6.25,
         "carbs": 12.5,
         "fats": 5,
         "baseCalories": 125,
@@ -576,10 +564,10 @@ const foodDatabase = {
   "p2_m0": {
     "name": "Yogurt Protéico con Frutos Rojos y Secos",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afea2b91eb35e413d4ab6.png",
-    "calories": 268,
+    "calories": 267.5,
     "protein": 9,
-    "carbs": 24,
-    "fats": 15,
+    "carbs": 23.75,
+    "fats": 15.1,
     "ingredients": [
       {
         "name": "Yogur Protéico",
@@ -627,10 +615,10 @@ const foodDatabase = {
   "p2_m1": {
     "name": "Ensalada de Queso Fresco, Pavo y Nueces",
     "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/699b499d20c03528200c03e2.png",
-    "calories": 811,
+    "calories": 722.5,
     "protein": 72,
-    "carbs": 12,
-    "fats": 49,
+    "carbs": 11.75,
+    "fats": 39.1,
     "ingredients": [
       {
         "name": "Canónigos o Lechuga",
@@ -696,19 +684,6 @@ const foodDatabase = {
         "baseProtein": 0.02,
         "baseCarbs": 0.05,
         "baseFats": 0.002
-      },
-      {
-        "name": "Aceite de Oliva Virgen",
-        "quantity": "10",
-        "unit": "g",
-        "calories": 88.4,
-        "protein": 0,
-        "carbs": 0,
-        "fats": 10,
-        "baseCalories": 8.84,
-        "baseProtein": 0,
-        "baseCarbs": 0,
-        "baseFats": 1
       }
     ],
     "preparation": "1. Lavar los canónigos y los tomates cherry. 2. Cortar el queso fresco y el pavo en dados. 3. Trocear las nueces. 4. En un bol, mezclar todos los ingredientes. 5. Aliñar con una vinagreta suave.",
@@ -717,10 +692,10 @@ const foodDatabase = {
   "p2_m2": {
     "name": "Pimientos Salteados con Cebolla y Tomate Cherry.",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cd7144d6fb7451eb7bbf9.png",
-    "calories": 156,
-    "protein": 5,
-    "carbs": 11,
-    "fats": 10,
+    "calories": 67.5,
+    "protein": 4.5,
+    "carbs": 11.25,
+    "fats": 0.44999999999999996,
     "ingredients": [
       {
         "name": "Pimiento Rojo",
@@ -760,19 +735,6 @@ const foodDatabase = {
         "baseProtein": 0.02,
         "baseCarbs": 0.05,
         "baseFats": 0.002
-      },
-      {
-        "name": "Aceite de Oliva Virgen Extra",
-        "quantity": "10",
-        "unit": "g",
-        "calories": 88.4,
-        "protein": 0,
-        "carbs": 0,
-        "fats": 10,
-        "baseCalories": 8.84,
-        "baseProtein": 0,
-        "baseCarbs": 0,
-        "baseFats": 1
       }
     ],
     "preparation": "1. Lavar las verduras y cortarlas a láminas finas a lo largo. 2. Poner un poco de aceite en una sartén y saltear las verduras.",
@@ -781,10 +743,10 @@ const foodDatabase = {
   "p2_m3": {
     "name": "Pechuga de Pavo a la Plancha",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684f003ef6c48dfc43a5bdb3.png",
-    "calories": 328,
-    "protein": 42,
+    "calories": 240,
+    "protein": 42.00000000000001,
     "carbs": 0,
-    "fats": 16,
+    "fats": 6,
     "ingredients": [
       {
         "name": "Pechuga de Pavo",
@@ -798,19 +760,6 @@ const foodDatabase = {
         "baseProtein": 0.28,
         "baseCarbs": 0,
         "baseFats": 0.04
-      },
-      {
-        "name": "Aceite de Oliva Virgen Extra",
-        "quantity": "10",
-        "unit": "g",
-        "calories": 88.4,
-        "protein": 0,
-        "carbs": 0,
-        "fats": 10,
-        "baseCalories": 8.84,
-        "baseProtein": 0,
-        "baseCarbs": 0,
-        "baseFats": 1
       }
     ],
     "preparation": "1. Si los filetes de pechuga de pavo son muy gruesos, se pueden abrir tipo libro o golpear ligeramente para que tengan un grosor más uniforme y se cocinen mejor. 2. Sazonar los filetes de pavo con sal, pimienta y tus especias favoritas. 3. Calentar una plancha o sartén antiadherente a fuego medio-alto con una gota de aceite de oliva. 4. Cocinar la pechuga de pavo durante unos 3-4 minutos por cada lado, o hasta que esté dorada por fuera y completamente cocida por dentro.",
@@ -820,9 +769,9 @@ const foodDatabase = {
     "name": "Yogur Protéico (Sabores, Natural...)",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd789b8ed38b127cbc09.png",
     "calories": 75,
-    "protein": 6,
+    "protein": 6.25,
     "carbs": 5,
-    "fats": 3,
+    "fats": 2.5,
     "ingredients": [
       {
         "name": "Yogur Protéico",
@@ -844,9 +793,9 @@ const foodDatabase = {
   "p3_m0": {
     "name": "Tortitas de Avena con Frutos Rojos",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682ad5d9e819fce58fa8a30c.png",
-    "calories": 370.8,
-    "protein": 30.2,
-    "carbs": 45.2,
+    "calories": 370.75,
+    "protein": 30.15,
+    "carbs": 45.154999999999994,
     "fats": 7.6,
     "ingredients": [
       {
@@ -868,7 +817,7 @@ const foodDatabase = {
         "unit": "g",
         "calories": 78,
         "protein": 16.5,
-        "carbs": 1.1,
+        "carbs": 1.05,
         "fats": 0.3,
         "baseCalories": 0.52,
         "baseProtein": 0.11,
@@ -879,10 +828,10 @@ const foodDatabase = {
         "name": "Huevo",
         "quantity": "1",
         "unit": "unidad(es)",
-        "calories": 85.3,
-        "protein": 7.2,
-        "carbs": 0.6,
-        "fats": 6.1,
+        "calories": 85.25,
+        "protein": 7.15,
+        "carbs": 0.605,
+        "fats": 6.05,
         "baseCalories": 85.25,
         "baseProtein": 7.15,
         "baseCarbs": 0.605,
@@ -895,7 +844,7 @@ const foodDatabase = {
         "calories": 25,
         "protein": 0.5,
         "carbs": 6,
-        "fats": 0.3,
+        "fats": 0.25,
         "baseCalories": 0.5,
         "baseProtein": 0.01,
         "baseCarbs": 0.12,
@@ -907,10 +856,10 @@ const foodDatabase = {
   "p3_m1": {
     "name": "Ensalada de Tomate, Maíz, Queso de Burgos y Frutos Secos",
     "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/6a953b1ea90361de8b63e6cb.png",
-    "calories": 585.9,
+    "calories": 497.5,
     "protein": 31,
-    "carbs": 14.3,
-    "fats": 43.2,
+    "carbs": 14.25,
+    "fats": 33.2,
     "ingredients": [
       {
         "name": "Tomate",
@@ -957,25 +906,12 @@ const foodDatabase = {
         "unit": "g",
         "calories": 67.5,
         "protein": 1.5,
-        "carbs": 2.3,
+        "carbs": 2.25,
         "fats": 6,
         "baseCalories": 4.5,
         "baseProtein": 0.1,
         "baseCarbs": 0.15,
         "baseFats": 0.4
-      },
-      {
-        "name": "Aceite de Oliva Virgen",
-        "quantity": "10",
-        "unit": "g",
-        "calories": 88.4,
-        "protein": 0,
-        "carbs": 0,
-        "fats": 10,
-        "baseCalories": 8.84,
-        "baseProtein": 0,
-        "baseCarbs": 0,
-        "baseFats": 1
       }
     ],
     "preparation": "1. Cortar el tomate en trozos. 2. Añadir el maíz, el queso de Burgos troceado y los frutos secos por encima. 3. Aliñar al gusto.",
@@ -984,10 +920,10 @@ const foodDatabase = {
   "p3_m2": {
     "name": "Espárragos Trigueros con Cebolla y Ajo",
     "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69fee5d1a7b9e0385a1fc28d.png",
-    "calories": 244.2,
-    "protein": 10,
-    "carbs": 20,
-    "fats": 13,
+    "calories": 205,
+    "protein": 10.25,
+    "carbs": 20.5,
+    "fats": 8.2,
     "ingredients": [
       {
         "name": "Espárragos Trigueros",
@@ -1016,17 +952,18 @@ const foodDatabase = {
         "baseFats": 0.04
       },
       {
-        "name": "Aceite de Oliva Virgen",
+        "name": "Ajo",
         "quantity": "5",
         "unit": "g",
-        "calories": 44.2,
-        "protein": 0,
-        "carbs": 0,
-        "fats": 5,
-        "baseCalories": 8.84,
-        "baseProtein": 0,
-        "baseCarbs": 0,
-        "baseFats": 1
+        "calories": 5,
+        "protein": 0.25,
+        "carbs": 0.5,
+        "fats": 0.2,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
+        "baseFats": 0.04,
+        "category": "default_veg"
       }
     ],
     "preparation": "1. Pochar cebolla y ajo. 2. Añadir espárragos y cocinar a la plancha hasta que estén tiernas.",
@@ -1035,10 +972,10 @@ const foodDatabase = {
   "p3_m3": {
     "name": "Hamburguesa de Pavo-Pollo",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afcbc9b8ed3b6397cbb33.png",
-    "calories": 389.2,
+    "calories": 345,
     "protein": 24,
     "carbs": 3,
-    "fats": 32,
+    "fats": 27,
     "ingredients": [
       {
         "name": "Hamburguesa de Pavo-Pollo",
@@ -1052,19 +989,6 @@ const foodDatabase = {
         "baseProtein": 0.16,
         "baseCarbs": 0.02,
         "baseFats": 0.18
-      },
-      {
-        "name": "Aceite de Oliva Virgen",
-        "quantity": "5",
-        "unit": "g",
-        "calories": 44.2,
-        "protein": 0,
-        "carbs": 0,
-        "fats": 5,
-        "baseCalories": 8.84,
-        "baseProtein": 0,
-        "baseCarbs": 0,
-        "baseFats": 1
       }
     ],
     "preparation": "1. Si la hamburguesa es casera a partir de carne picada, sazonar la carne con sal, pimienta, ajo en polvo y perejil picado (opcional) y formar la hamburguesa. 2. Calentar una plancha o sartén antiadherente a fuego medio-alto con una gota de aceite de oliva. 3. Cocinar la hamburguesa durante 4-6 minutos por cada lado, o hasta que esté bien cocida por dentro y dorada por fuera.",
@@ -1074,7 +998,7 @@ const foodDatabase = {
     "name": "Yogur Protéico (Sabores, Natural...)",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd789b8ed38b127cbc09.png",
     "calories": 75,
-    "protein": 6.3,
+    "protein": 6.25,
     "carbs": 5,
     "fats": 2.5,
     "ingredients": [
@@ -1083,7 +1007,7 @@ const foodDatabase = {
         "quantity": "125",
         "unit": "g",
         "calories": 75,
-        "protein": 6.3,
+        "protein": 6.25,
         "carbs": 5,
         "fats": 2.5,
         "baseCalories": 0.6,
@@ -1098,36 +1022,23 @@ const foodDatabase = {
   "p3_m5": {
     "name": "Atún en Lata Escurrido",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68f27ede567571bbd55f023e.png",
-    "calories": 156.2,
-    "protein": 19.6,
+    "calories": 200,
+    "protein": 35,
     "carbs": 0,
-    "fats": 7.8,
+    "fats": 5,
     "ingredients": [
       {
         "name": "Atún en Conserva",
-        "quantity": "70",
+        "quantity": "125",
         "unit": "g",
-        "calories": 112,
-        "protein": 19.6,
+        "calories": 200,
+        "protein": 35,
         "carbs": 0,
-        "fats": 2.8,
+        "fats": 5,
         "baseCalories": 1.6,
         "baseProtein": 0.28,
         "baseCarbs": 0,
         "baseFats": 0.04
-      },
-      {
-        "name": "Aceite de Oliva Virgen",
-        "quantity": "5",
-        "unit": "g",
-        "calories": 44.2,
-        "protein": 0,
-        "carbs": 0,
-        "fats": 5,
-        "baseCalories": 8.84,
-        "baseProtein": 0,
-        "baseCarbs": 0,
-        "baseFats": 1
       }
     ],
     "preparation": "Escurrir el aceite o el agua de la lata y servir.",
@@ -1143,10 +1054,10 @@ const dailyMenus = [
       "carbs": 140
     },
     "baselineTotals": {
-      "calories": 1561.4,
-      "protein": 126.92500000000001,
-      "carbs": 115.6,
-      "fats": 62.739999999999995
+      "calories": 1478,
+      "protein": 127.17500000000001,
+      "carbs": 116.1,
+      "fats": 52.94
     },
     "desayuno": [
       "p0_m0"
@@ -1198,10 +1109,10 @@ const dailyMenus = [
       "carbs": 150
     },
     "baselineTotals": {
-      "calories": 1637.7000000000003,
+      "calories": 1372.5,
       "protein": 133.75,
       "carbs": 51.75,
-      "fats": 93.15
+      "fats": 63.150000000000006
     },
     "desayuno": [
       "p2_m0"
@@ -1225,10 +1136,10 @@ const dailyMenus = [
       "carbs": 150
     },
     "baselineTotals": {
-      "calories": 1821.25,
-      "protein": 121,
-      "carbs": 87.405,
-      "fats": 106.10000000000001
+      "calories": 1693.25,
+      "protein": 136.65,
+      "carbs": 87.905,
+      "fats": 83.5
     },
     "desayuno": [
       "p3_m0"
