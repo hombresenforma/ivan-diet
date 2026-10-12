@@ -1,5 +1,6 @@
 // Titulo: Plan de Alimentación
-// Alergias: const foodDatabase = {
+// Alergias:
+const foodDatabase = {
   "p0_m0": {
     "name": "Tostada de Centeno con Aguacate y Atún",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682aff33e819fcc7a1a8d946.png",
@@ -412,10 +413,10 @@
   "p1_m0": {
     "name": "Sandwich Vegetal de Atún",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cd60954a1880bed54596d.png",
-    "calories": 303,
-    "protein": 38.3,
+    "calories": 311,
+    "protein": 39.7,
     "carbs": 20,
-    "fats": 5.9,
+    "fats": 6.1,
     "ingredients": [
       {
         "name": "Pan de Centeno",
@@ -432,12 +433,12 @@
       },
       {
         "name": "Atún en Conserva",
-        "quantity": "120",
+        "quantity": "125",
         "unit": "g",
-        "calories": 192,
-        "protein": 33.6,
+        "calories": 200,
+        "protein": 35,
         "carbs": 0,
-        "fats": 4.8,
+        "fats": 5,
         "baseCalories": 1.6,
         "baseProtein": 0.28,
         "baseCarbs": 0,
@@ -1601,19 +1602,19 @@
   "p4_m0": {
     "name": "Yogur Proteico con Cereales de Avena",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68e7ef66df76fef1b58db3f2.png",
-    "calories": 401,
-    "protein": 15,
+    "calories": 405.5,
+    "protein": 15.15,
     "carbs": 71,
-    "fats": 6,
+    "fats": 6.65,
     "ingredients": [
       {
         "name": "Yogur Protéico",
-        "quantity": "120",
+        "quantity": "125",
         "unit": "g",
-        "calories": 120,
-        "protein": 6,
-        "carbs": 12,
-        "fats": 4.8,
+        "calories": 125,
+        "protein": 6.25,
+        "carbs": 12.5,
+        "fats": 5,
         "baseCalories": 1,
         "baseProtein": 0.05,
         "baseCarbs": 0.1,
@@ -1875,9 +1876,9 @@ const dailyMenus = [
       "carbs": 250
     },
     "baselineTotals": {
-      "calories": 2724.6,
-      "protein": 190.3,
-      "carbs": 279.7,
+      "calories": 2724.55,
+      "protein": 190.29999999999998,
+      "carbs": 279.65,
       "fats": 97.4
     },
     "desayuno": [
@@ -1904,10 +1905,10 @@ const dailyMenus = [
       "carbs": 250
     },
     "baselineTotals": {
-      "calories": 2689.8,
-      "protein": 175.9,
-      "carbs": 302,
-      "fats": 83.1
+      "calories": 2697.8333333333335,
+      "protein": 177.33333333333331,
+      "carbs": 301.95,
+      "fats": 83.28999999999999
     },
     "desayuno": [
       "p1_m0",
@@ -1933,10 +1934,10 @@ const dailyMenus = [
       "carbs": 151
     },
     "baselineTotals": {
-      "calories": 2348,
-      "protein": 163,
-      "carbs": 172,
-      "fats": 120
+      "calories": 2023,
+      "protein": 135.75,
+      "carbs": 166.5,
+      "fats": 94.75
     },
     "desayuno": [
       "p2_m0"
@@ -1961,10 +1962,10 @@ const dailyMenus = [
       "carbs": 150
     },
     "baselineTotals": {
-      "calories": 2249,
-      "protein": 159,
-      "carbs": 217,
-      "fats": 90
+      "calories": 1957.1,
+      "protein": 148.04,
+      "carbs": 204.04999999999998,
+      "fats": 62.62
     },
     "desayuno": [
       "p3_m0"
@@ -1989,10 +1990,10 @@ const dailyMenus = [
       "carbs": 200
     },
     "baselineTotals": {
-      "calories": 1911,
-      "protein": 150,
-      "carbs": 200,
-      "fats": 53
+      "calories": 2223.5,
+      "protein": 160.50000000000003,
+      "carbs": 275.7,
+      "fats": 46.7
     },
     "desayuno": [
       "p4_m0"
