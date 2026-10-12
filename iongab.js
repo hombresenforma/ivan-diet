@@ -641,19 +641,19 @@ const foodDatabase = {
   "p2_m1": {
     "name": "Musakka de Patata al horno con verduras y carne picada",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684efda5653a2c17a7172d67.png",
-    "calories": 761,
-    "protein": 51,
-    "carbs": 42,
+    "calories": 716,
+    "protein": 50,
+    "carbs": 32,
     "fats": 42,
     "ingredients": [
       {
         "name": "Patata",
-        "quantity": "150",
+        "quantity": "100",
         "unit": "g",
-        "calories": 135,
-        "protein": 3,
-        "carbs": 30,
-        "fats": 0.15,
+        "calories": 90,
+        "protein": 2,
+        "carbs": 20,
+        "fats": 0.1,
         "baseCalories": 0.9,
         "baseProtein": 0.02,
         "baseCarbs": 0.2,
@@ -1216,7 +1216,7 @@ const foodDatabase = {
 };
 const dailyMenus = [
   {
-    "name": "Opciones 1",
+    "name": "Entreno 1",
     "targetMacros": {
       "calories": 1700,
       "protein": 140,
@@ -1244,7 +1244,7 @@ const dailyMenus = [
     ]
   },
   {
-    "name": "Opciones 2",
+    "name": "Libre 1",
     "targetMacros": {
       "calories": 1700,
       "protein": 140,
@@ -1272,7 +1272,7 @@ const dailyMenus = [
     ]
   },
   {
-    "name": "Opciones 3",
+    "name": "Libre 2",
     "targetMacros": {
       "calories": 1800,
       "protein": 150,
@@ -1299,7 +1299,7 @@ const dailyMenus = [
     ]
   },
   {
-    "name": "Opciones 4",
+    "name": "Entreno 2",
     "targetMacros": {
       "calories": 1650,
       "protein": 150,
