@@ -737,7 +737,6 @@ export const foodDatabase = {
         "name": "Naranja",
         "quantity": "1",
         "unit": "unidad(es)",
-        "gramsPerUnit": 1,
         "calories": 90,
         "protein": 0.75,
         "carbs": 22.5,
@@ -767,10 +766,10 @@ export const foodDatabase = {
   "o4_com": {
     "name": "Ternera con brócoli y sésamo",
     "image": "https://raw.githubusercontent.com/hombresenforma/ivan-diet/main/assets/ivandt/dias-4-7/ternera-brocoli-sesamo.jpg",
-    "calories": 711,
-    "protein": 49.2,
-    "carbs": 10.4,
-    "fats": 40.8,
+    "calories": 653.7,
+    "protein": 47.4,
+    "carbs": 9.2,
+    "fats": 35.8,
     "ingredients": [
       {
         "name": "Ternera magra",
@@ -800,12 +799,12 @@ export const foodDatabase = {
       },
       {
         "name": "Semillas de sésamo",
-        "quantity": "20",
+        "quantity": "10",
         "unit": "g",
-        "calories": 114.60000000000001,
-        "protein": 3.5999999999999996,
-        "carbs": 2.4,
-        "fats": 10,
+        "calories": 57.300000000000004,
+        "protein": 1.7999999999999998,
+        "carbs": 1.2,
+        "fats": 5,
         "baseCalories": 5.73,
         "baseProtein": 0.18,
         "baseCarbs": 0.12,
@@ -829,41 +828,81 @@ export const foodDatabase = {
     "originalBaseRecipeId": "pp_ternera_con_brocoli_y_sesamo"
   },
   "o4_cen": {
-    "name": "Merluza a la Plancha",
-    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69b66b6dad027629d2f1e944.png",
-    "calories": 364.2,
-    "protein": 56.00000000000001,
-    "carbs": 0,
-    "fats": 13,
+    "name": "Tortilla de claras, champiñones y queso de cabra",
+    "image": "https://raw.githubusercontent.com/hombresenforma/ivan-diet/main/assets/ivandt/dias-4-7/tortilla-claras-champinones-cabra.jpg",
+    "calories": 423.4,
+    "protein": 35.9,
+    "carbs": 6.6,
+    "fats": 28.65,
     "ingredients": [
       {
-        "name": "Filete de Merluza",
-        "quantity": "200",
+        "name": "Claras de huevo pasteurizadas",
+        "quantity": "150",
         "unit": "g",
-        "calories": 320,
-        "protein": 56.00000000000001,
-        "carbs": 0,
-        "fats": 8,
-        "baseCalories": 1.6,
-        "baseProtein": 0.28,
-        "baseCarbs": 0,
-        "baseFats": 0.04
+        "calories": 69,
+        "protein": 15.75,
+        "carbs": 1.05,
+        "fats": 0.3,
+        "baseCalories": 0.46,
+        "baseProtein": 0.105,
+        "baseCarbs": 0.007,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Champiñones",
+        "quantity": "150",
+        "unit": "g",
+        "calories": 33,
+        "protein": 4.65,
+        "carbs": 3.4499999999999997,
+        "fats": 0.45,
+        "baseCalories": 0.22,
+        "baseProtein": 0.031,
+        "baseCarbs": 0.023,
+        "baseFats": 0.003
+      },
+      {
+        "name": "Espinacas",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 23,
+        "protein": 2.9000000000000004,
+        "carbs": 1.4000000000000001,
+        "fats": 0.4,
+        "baseCalories": 0.23,
+        "baseProtein": 0.029,
+        "baseCarbs": 0.014,
+        "baseFats": 0.004
+      },
+      {
+        "name": "Queso de cabra",
+        "quantity": "70",
+        "unit": "g",
+        "calories": 210,
+        "protein": 12.6,
+        "carbs": 0.7000000000000001,
+        "fats": 17.5,
+        "baseCalories": 3,
+        "baseProtein": 0.18,
+        "baseCarbs": 0.01,
+        "baseFats": 0.25
       },
       {
         "name": "Aceite de oliva virgen extra",
-        "quantity": "5",
+        "quantity": "10",
         "unit": "g",
-        "calories": 44.2,
+        "calories": 88.4,
         "protein": 0,
         "carbs": 0,
-        "fats": 5,
+        "fats": 10,
         "baseCalories": 8.84,
         "baseProtein": 0,
         "baseCarbs": 0,
         "baseFats": 1
       }
     ],
-    "preparation": "1. Sazonar los filetes o rodajas de merluza con sal, pimienta y opcionalmente un poco de ajo en polvo o perejil picado. 2. Calentar una plancha o sartén antiadherente a fuego medio-alto con un chorrito de aceite de oliva virgen extra. 3. Cuando el aceite esté caliente, colocar la merluza en la plancha. Cocinar durante unos 3-5 minutos por cada lado, dependiendo del grosor del pescado, hasta que esté opaca, bien cocida por dentro y se desmenuce fácilmente con un tenedor. 4. Servir inmediatamente, opcionalmente con un chorrito de zumo de limón fresco por encima."
+    "preparation": "1. Saltear champiñones y espinacas con el aceite medido. 2. Añadir las claras y cocinar hasta cuajar por completo. 3. Repartir el queso de cabra, doblar la tortilla y servir.",
+    "originalBaseRecipeId": "cc_tortilla_de_claras_champinones_y_queso_de_cabra"
   },
   "o4_des": {
     "name": "Tostada de salmon ahumado y queso crema",
@@ -1054,10 +1093,10 @@ export const dailyMenus = [
       "o4_ext"
     ],
     "baselineTotals": {
-      "calories": 1750.7,
-      "protein": 178.6,
-      "carbs": 40.3,
-      "fats": 82.54999999999998
+      "calories": 1752.6,
+      "protein": 156.7,
+      "carbs": 45.699999999999996,
+      "fats": 93.19999999999999
     }
   }
 ];
