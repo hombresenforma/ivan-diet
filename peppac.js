@@ -639,19 +639,20 @@ export const foodDatabase = {
   "p2_m0": {
     "name": "Sandwich Vegetal de Atún",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cd60954a1880bed54596d.png",
-    "calories": 352,
-    "protein": 35.4,
-    "carbs": 35,
-    "fats": 6,
+    "calories": 311,
+    "protein": 39.7,
+    "carbs": 20,
+    "fats": 6.1,
     "ingredients": [
       {
         "name": "Pan de Centeno",
-        "quantity": "2",
+        "quantity": "1",
         "unit": "rebanada(s)",
-        "calories": 162,
-        "protein": 5.4,
-        "carbs": 30,
-        "fats": 1.8,
+        "gramsPerUnit": 30,
+        "calories": 81,
+        "protein": 2.7,
+        "carbs": 15,
+        "fats": 0.9,
         "baseCalories": 81,
         "baseProtein": 2.7,
         "baseCarbs": 15,
@@ -659,12 +660,12 @@ export const foodDatabase = {
       },
       {
         "name": "Atún en Conserva",
-        "quantity": "100",
+        "quantity": "125",
         "unit": "g",
-        "calories": 160,
-        "protein": 28,
+        "calories": 200,
+        "protein": 35,
         "carbs": 0,
-        "fats": 4,
+        "fats": 5,
         "baseCalories": 1.6,
         "baseProtein": 0.28,
         "baseCarbs": 0,
@@ -703,7 +704,7 @@ export const foodDatabase = {
   "p2_m1": {
     "name": "Calabacín con Cebolla a la Plancha",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afc8e9b8ed35d8e7cbb0e.png",
-    "calories": 89,
+    "calories": 89.2,
     "protein": 3,
     "carbs": 7.5,
     "fats": 5.3,
@@ -735,7 +736,7 @@ export const foodDatabase = {
         "baseFats": 0.002
       },
       {
-        "name": "Aceite de Oliva Virgen Extra",
+        "name": "Aceite de oliva virgen extra",
         "quantity": "5",
         "unit": "g",
         "calories": 44.2,
@@ -754,8 +755,8 @@ export const foodDatabase = {
   "p2_m2": {
     "name": "Pechuga de Pollo a la Plancha",
     "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69b66b3087f0f2415505fc9a.png",
-    "calories": 324,
-    "protein": 49,
+    "calories": 324.2,
+    "protein": 49.00000000000001,
     "carbs": 0,
     "fats": 12,
     "ingredients": [
@@ -764,7 +765,7 @@ export const foodDatabase = {
         "quantity": "175",
         "unit": "g",
         "calories": 280,
-        "protein": 49,
+        "protein": 49.00000000000001,
         "carbs": 0,
         "fats": 7,
         "baseCalories": 1.6,
@@ -773,7 +774,7 @@ export const foodDatabase = {
         "baseFats": 0.04
       },
       {
-        "name": "Aceite de Oliva Virgen",
+        "name": "Aceite de oliva virgen extra",
         "quantity": "5",
         "unit": "g",
         "calories": 44.2,
@@ -792,19 +793,19 @@ export const foodDatabase = {
   "p2_m3": {
     "name": "Quinoa con ternera y verduras",
     "image": "https://raw.githubusercontent.com/hombresenforma/ivan-diet/main/assets/ivandt/dias-4-7/quinoa-ternera-verduras.jpg",
-    "calories": 684,
-    "protein": 45.2,
-    "carbs": 61.2,
-    "fats": 20.2,
+    "calories": 563.2,
+    "protein": 36,
+    "carbs": 42,
+    "fats": 20.9,
     "ingredients": [
       {
         "name": "Quinoa",
-        "quantity": "80",
+        "quantity": "50",
         "unit": "g",
-        "calories": 294.4,
-        "protein": 11.2,
-        "carbs": 51.2,
-        "fats": 4.8,
+        "calories": 184,
+        "protein": 7.000000000000001,
+        "carbs": 32,
+        "fats": 3,
         "baseCalories": 3.68,
         "baseProtein": 0.14,
         "baseCarbs": 0.64,
@@ -812,19 +813,19 @@ export const foodDatabase = {
       },
       {
         "name": "Ternera magra",
-        "quantity": "150",
+        "quantity": "125",
         "unit": "g",
-        "calories": 330,
-        "protein": 30,
+        "calories": 275,
+        "protein": 25,
         "carbs": 0,
-        "fats": 15,
+        "fats": 12.5,
         "baseCalories": 2.2,
         "baseProtein": 0.2,
         "baseCarbs": 0,
         "baseFats": 0.1
       },
       {
-        "name": "Pimiento Rojo",
+        "name": "Pimiento rojo",
         "quantity": "100",
         "unit": "g",
         "calories": 30,
@@ -848,6 +849,19 @@ export const foodDatabase = {
         "baseProtein": 0.02,
         "baseCarbs": 0.05,
         "baseFats": 0.002
+      },
+      {
+        "name": "Aceite de oliva virgen extra",
+        "quantity": "5",
+        "unit": "g",
+        "calories": 44.2,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 5,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1
       }
     ],
     "preparation": "1. Lavar y cocer la quinoa según el envase. 2. Saltear el pimiento y el calabacín con el aceite medido, añadir la ternera en tiras y cocinar; mezclar con la quinoa.",
@@ -873,6 +887,19 @@ export const foodDatabase = {
         "baseProtein": 0.8,
         "baseCarbs": 0.05,
         "baseFats": 0.04
+      },
+      {
+        "name": "Agua",
+        "quantity": "250",
+        "unit": "ml",
+        "calories": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 0,
+        "baseCalories": 0,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 0
       }
     ],
     "preparation": "1. En un shaker, añadir la cantidad recomendada de proteína en polvo. 2. Añadir la cantidad de líquido deseada (unos 200-300 ml). 3. Cerrar bien el shaker. 4. Agitar enérgicamente durante unos 20-30 segundos hasta que el polvo esté completamente disuelto.",
@@ -881,19 +908,19 @@ export const foodDatabase = {
   "p2_m5": {
     "name": "Naranja con anacardos",
     "image": "https://raw.githubusercontent.com/hombresenforma/ivan-diet/main/assets/ivandt/dias-4-7/naranja-anacardos.jpg",
-    "calories": 248,
-    "protein": 3,
-    "carbs": 47.2,
-    "fats": 6.6,
+    "calories": 135,
+    "protein": 1.75,
+    "carbs": 24,
+    "fats": 4.3,
     "ingredients": [
       {
         "name": "Naranja",
-        "quantity": "2",
-        "unit": "ud",
-        "calories": 180,
-        "protein": 1.5,
-        "carbs": 45,
-        "fats": 0.6,
+        "quantity": "1",
+        "unit": "unidad(es)",
+        "calories": 90,
+        "protein": 0.75,
+        "carbs": 22.5,
+        "fats": 0.3,
         "baseCalories": 90,
         "baseProtein": 0.75,
         "baseCarbs": 22.5,
@@ -901,12 +928,12 @@ export const foodDatabase = {
       },
       {
         "name": "Anacardos",
-        "quantity": "15",
+        "quantity": "10",
         "unit": "g",
-        "calories": 67.5,
-        "protein": 1.5,
-        "carbs": 2.2,
-        "fats": 6,
+        "calories": 45,
+        "protein": 1,
+        "carbs": 1.5,
+        "fats": 4,
         "baseCalories": 4.5,
         "baseProtein": 0.1,
         "baseCarbs": 0.15,
@@ -917,84 +944,72 @@ export const foodDatabase = {
     "originalBaseRecipeId": "ext_naranja_con_anacardos"
   },
   "p3_ext": {
-    "name": "Yogur proteico con almendras y kiwi",
-    "image": "https://raw.githubusercontent.com/hombresenforma/ivan-diet/main/assets/ivandt/sin-cocina/bol-skyr-frutos-rojos-avena.jpg",
-    "calories": 270,
-    "protein": 29.4,
-    "carbs": 23.5,
-    "fats": 6.7,
+    "name": "Batido Whey de Proteínas",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684f021af6c48d41b5a5c003.png",
+    "calories": 152,
+    "protein": 32,
+    "carbs": 2,
+    "fats": 1.6,
     "ingredients": [
       {
-        "name": "Skyr natural 0%",
+        "name": "Proteína Whey en Polvo",
+        "quantity": "40",
+        "unit": "g",
+        "calories": 152,
+        "protein": 32,
+        "carbs": 2,
+        "fats": 1.6,
+        "baseCalories": 3.8,
+        "baseProtein": 0.8,
+        "baseCarbs": 0.05,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Agua",
         "quantity": "250",
-        "unit": "g",
-        "calories": 157.5,
-        "protein": 27.5,
-        "carbs": 10,
-        "fats": 0.5,
-        "baseCalories": 0.63,
-        "baseProtein": 0.11,
-        "baseCarbs": 0.04,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Almendras",
-        "quantity": "15",
-        "unit": "g",
-        "calories": 67.5,
-        "protein": 1.5,
-        "carbs": 2.25,
-        "fats": 6,
-        "baseCalories": 4.5,
-        "baseProtein": 0.1,
-        "baseCarbs": 0.15,
-        "baseFats": 0.4
-      },
-      {
-        "name": "Kiwi",
-        "quantity": "1",
-        "unit": "unidad(es)",
-        "calories": 45,
-        "protein": 0.4,
-        "carbs": 11.25,
-        "fats": 0.2,
-        "baseCalories": 45,
-        "baseProtein": 0.375,
-        "baseCarbs": 11.25,
-        "baseFats": 0.15
+        "unit": "ml",
+        "calories": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 0,
+        "baseCalories": 0,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 0
       }
     ],
-    "preparation": "Servir el skyr con las almendras y el kiwi troceado."
+    "preparation": "1. En un shaker, añadir la cantidad recomendada de proteína en polvo. 2. Añadir la cantidad de líquido deseada (unos 200-300 ml). 3. Cerrar bien el shaker. 4. Agitar enérgicamente durante unos 20-30 segundos hasta que el polvo esté completamente disuelto."
   },
   "p3_m0": {
-    "name": "Tortillas de maíz con huevo y aguacate",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682ad5cf9b8ed31c657c80e8.png",
-    "calories": 492.5,
-    "protein": 16.6,
-    "carbs": 72.63,
-    "fats": 18.25,
+    "name": "Tostada de Centeno con Huevo y Aguacate",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687a695da648331355d3b0b2.png",
+    "calories": 428.4,
+    "protein": 17,
+    "carbs": 21.5145,
+    "fats": 31.65,
     "ingredients": [
       {
-        "name": "Tortillas de maíz",
-        "quantity": "75",
-        "unit": "g",
-        "calories": 327,
-        "protein": 9,
-        "carbs": 67.5,
-        "fats": 4.5,
-        "baseCalories": 4.36,
-        "baseProtein": 0.12,
-        "baseCarbs": 0.9,
-        "baseFats": 0.06
+        "name": "Tostada de Pan de Centeno",
+        "quantity": "1",
+        "unit": "rebanada(s)",
+        "gramsPerUnit": 30,
+        "calories": 81,
+        "protein": 2.7,
+        "carbs": 15,
+        "fats": 0.9,
+        "baseCalories": 81,
+        "baseProtein": 2.7,
+        "baseCarbs": 15,
+        "baseFats": 0.9
       },
       {
-        "name": "Huevo",
-        "quantity": "1",
+        "name": "Huevos",
+        "quantity": "2",
         "unit": "unidad(es)",
-        "calories": 77.5,
-        "protein": 6.5,
-        "carbs": 0.55,
-        "fats": 5.5,
+        "calories": 155,
+        "protein": 13,
+        "carbs": 1.1,
+        "fats": 11,
         "baseCalories": 77.5,
         "baseProtein": 6.5,
         "baseCarbs": 0.55,
@@ -1002,69 +1017,19 @@ export const foodDatabase = {
       },
       {
         "name": "Aguacate",
-        "quantity": "55",
+        "quantity": "65",
         "unit": "g",
-        "calories": 88,
-        "protein": 1.1,
-        "carbs": 4.58,
-        "fats": 8.25,
+        "calories": 104,
+        "protein": 1.3,
+        "carbs": 5.4145,
+        "fats": 9.75,
         "baseCalories": 1.6,
         "baseProtein": 0.02,
         "baseCarbs": 0.0833,
         "baseFats": 0.15
-      }
-    ],
-    "preparation": "Calentar las tortillas y rellenarlas con el huevo a la plancha y el aguacate laminado."
-  },
-  "p3_m1": {
-    "name": "Pollo con lentejas y verduras",
-    "image": "https://raw.githubusercontent.com/hombresenforma/ivan-diet/main/assets/ivandt/dias-4-7/quinoa-ternera-verduras.jpg",
-    "calories": 630.4,
-    "protein": 69,
-    "carbs": 45,
-    "fats": 18,
-    "ingredients": [
-      {
-        "name": "Pechuga de Pollo",
-        "quantity": "175",
-        "unit": "g",
-        "calories": 280,
-        "protein": 49,
-        "carbs": 0,
-        "fats": 7,
-        "baseCalories": 1.6,
-        "baseProtein": 0.28,
-        "baseCarbs": 0,
-        "baseFats": 0.04
       },
       {
-        "name": "Lentejas cocidas",
-        "quantity": "200",
-        "unit": "g",
-        "calories": 232,
-        "protein": 18,
-        "carbs": 40,
-        "fats": 0.8,
-        "baseCalories": 1.16,
-        "baseProtein": 0.09,
-        "baseCarbs": 0.2,
-        "baseFats": 0.004
-      },
-      {
-        "name": "Verduras variadas",
-        "quantity": "100",
-        "unit": "g",
-        "calories": 30,
-        "protein": 2,
-        "carbs": 5,
-        "fats": 0.2,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Aceite de Oliva Virgen Extra",
+        "name": "Aceite de oliva virgen extra",
         "quantity": "10",
         "unit": "g",
         "calories": 88.4,
@@ -1077,57 +1042,83 @@ export const foodDatabase = {
         "baseFats": 1
       }
     ],
-    "preparation": "Cocinar el pollo a la plancha. Calentar las lentejas y saltear las verduras con el aceite medido; servir junto."
+    "preparation": "1. Tostar el pan de centeno. 2. Cocinar los huevos al gusto (revueltos, pochados, a la plancha). 3. Machacar el aguacate sobre las tostadas y añadir aceite y especias."
   },
-  "p3_m2": {
-    "name": "Merluza con calabaza asada y calabacín",
-    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69b66b6dad027629d2f1e944.png",
-    "calories": 410.4,
-    "protein": 46,
-    "carbs": 17,
-    "fats": 16.4,
+  "p3_m1": {
+    "name": "Patatas Cocidas con Salteado de Verduras y Hamburguesa a la plancha",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cf8559b0c6709fc9afa98.png",
+    "calories": 478.4,
+    "protein": 44,
+    "carbs": 17.5,
+    "fats": 26.35,
     "ingredients": [
       {
-        "name": "Filete de Merluza",
-        "quantity": "150",
+        "name": "Patata",
+        "quantity": "50",
         "unit": "g",
-        "calories": 240,
-        "protein": 42,
-        "carbs": 0,
-        "fats": 6,
-        "baseCalories": 1.6,
-        "baseProtein": 0.28,
-        "baseCarbs": 0,
-        "baseFats": 0.04
-      },
-      {
-        "name": "Calabaza",
-        "quantity": "200",
-        "unit": "g",
-        "calories": 52,
-        "protein": 2,
-        "carbs": 12,
-        "fats": 0.2,
-        "baseCalories": 0.26,
-        "baseProtein": 0.01,
-        "baseCarbs": 0.06,
+        "calories": 45,
+        "protein": 1,
+        "carbs": 10,
+        "fats": 0.05,
+        "baseCalories": 0.9,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.2,
         "baseFats": 0.001
       },
       {
-        "name": "Calabacín",
-        "quantity": "100",
+        "name": "Pimiento Verde",
+        "quantity": "50",
         "unit": "g",
-        "calories": 30,
-        "protein": 2,
-        "carbs": 5,
-        "fats": 0.2,
+        "calories": 15,
+        "protein": 1,
+        "carbs": 2.5,
+        "fats": 0.1,
         "baseCalories": 0.3,
         "baseProtein": 0.02,
         "baseCarbs": 0.05,
         "baseFats": 0.002
       },
       {
-        "name": "Aceite de Oliva Virgen Extra",
+        "name": "Pimiento Rojo",
+        "quantity": "50",
+        "unit": "g",
+        "calories": 15,
+        "protein": 1,
+        "carbs": 2.5,
+        "fats": 0.1,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Cebolla",
+        "quantity": "50",
+        "unit": "g",
+        "calories": 15,
+        "protein": 1,
+        "carbs": 2.5,
+        "fats": 0.1,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Hamburguesa de Pavo-Pollo",
+        "quantity": "200",
+        "unit": "g",
+        "calories": 300,
+        "protein": 40,
+        "carbs": 0,
+        "fats": 16,
+        "baseCalories": 1.5,
+        "baseProtein": 0.2,
+        "baseCarbs": 0,
+        "baseFats": 0.08
+      },
+      {
+        "name": "Aceite de oliva virgen extra",
         "quantity": "10",
         "unit": "g",
         "calories": 88.4,
@@ -1140,13 +1131,74 @@ export const foodDatabase = {
         "baseFats": 1
       }
     ],
-    "preparation": "Asar la calabaza. Cocinar la merluza a la plancha y saltear el calabacín con el aceite medido."
+    "preparation": "1. Cocer las patatas en agua con sal. 2. Mientras, saltear las verduras (pimiento, cebolla) en una sartén. 3. Cocinar la hamburguesa a la plancha. 4. Servir las patatas cocidas con el salteado de verduras y la hamburguesa."
+  },
+  "p3_m2": {
+    "name": "Merluza a la Plancha",
+    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69b66b6dad027629d2f1e944.png",
+    "calories": 408.4,
+    "protein": 56.00000000000001,
+    "carbs": 0,
+    "fats": 18,
+    "ingredients": [
+      {
+        "name": "Filete de Merluza",
+        "quantity": "200",
+        "unit": "g",
+        "calories": 320,
+        "protein": 56.00000000000001,
+        "carbs": 0,
+        "fats": 8,
+        "baseCalories": 1.6,
+        "baseProtein": 0.28,
+        "baseCarbs": 0,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Aceite de oliva virgen extra",
+        "quantity": "10",
+        "unit": "g",
+        "calories": 88.4,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 10,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1
+      }
+    ],
+    "preparation": "1. Sazonar los filetes o rodajas de merluza con sal, pimienta y opcionalmente un poco de ajo en polvo o perejil picado. 2. Calentar una plancha o sartén antiadherente a fuego medio-alto con un chorrito de aceite de oliva virgen extra. 3. Cuando el aceite esté caliente, colocar la merluza en la plancha. Cocinar durante unos 3-5 minutos por cada lado, dependiendo del grosor del pescado, hasta que esté opaca, bien cocida por dentro y se desmenuce fácilmente con un tenedor. 4. Servir inmediatamente, opcionalmente con un chorrito de zumo de limón fresco por encima."
+  },
+  "p3_ext2": {
+    "name": "Fruta Densa (Plátano, Manzana, Pera)",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe4bb91eb325b93d4a82.png",
+    "calories": 90,
+    "protein": 0.75,
+    "carbs": 22.5,
+    "fats": 0.3,
+    "ingredients": [
+      {
+        "name": "Plátano",
+        "quantity": "1",
+        "unit": "unidad(es)",
+        "calories": 90,
+        "protein": 0.75,
+        "carbs": 22.5,
+        "fats": 0.3,
+        "baseCalories": 90,
+        "baseProtein": 0.75,
+        "baseCarbs": 22.5,
+        "baseFats": 0.3
+      }
+    ],
+    "preparation": "1. Seleccionar la fruta densa de preferencia. 2. Para plátanos: pelar la piel y consumir directamente. 3. Para manzanas o peras: lavar bien la fruta. Se puede consumir con piel o pelada."
   }
 };
 
 export const dailyMenus = [
   {
-    "name": "Opciones 1",
+    "name": "Entreno 1",
     "targetMacros": {
       "calories": 1800,
       "protein": 160,
@@ -1174,7 +1226,7 @@ export const dailyMenus = [
     }
   },
   {
-    "name": "Opciones 2",
+    "name": "Entreno 2",
     "targetMacros": {
       "calories": 1800,
       "protein": 160,
@@ -1202,11 +1254,11 @@ export const dailyMenus = [
     }
   },
   {
-    "name": "Opciones 3",
+    "name": "Libre 1",
     "targetMacros": {
-      "calories": 1800,
+      "calories": 1550,
       "protein": 160,
-      "carbs": 155
+      "carbs": 100
     },
     "desayuno": [
       "p2_m0"
@@ -1223,18 +1275,18 @@ export const dailyMenus = [
       "p2_m5"
     ],
     "baselineTotals": {
-      "calories": 1811,
-      "protein": 159.6,
-      "carbs": 152.4,
-      "fats": 51.3
+      "calories": 1536.6,
+      "protein": 153.45000000000002,
+      "carbs": 95,
+      "fats": 49.8
     }
   },
   {
-    "name": "Opciones 4",
+    "name": "Libre 2",
     "targetMacros": {
-      "calories": 1800,
-      "protein": 160,
-      "carbs": 155
+      "calories": 1550,
+      "protein": 150,
+      "carbs": 100
     },
     "desayuno": [
       "p3_m0"
@@ -1246,13 +1298,14 @@ export const dailyMenus = [
       "p3_m2"
     ],
     "extra": [
-      "p3_ext"
+      "p3_ext",
+      "p3_ext2"
     ],
     "baselineTotals": {
-      "calories": 1803.3,
-      "protein": 161,
-      "carbs": 158.13,
-      "fats": 59.35
+      "calories": 1557.1999999999998,
+      "protein": 149.75,
+      "carbs": 63.5145,
+      "fats": 77.89999999999999
     }
   }
 ];
