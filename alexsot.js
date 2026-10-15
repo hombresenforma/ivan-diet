@@ -868,23 +868,23 @@ export const foodDatabase = {
   "o4_des": {
     "name": "Tostada de salmon ahumado y queso crema",
     "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69b512ae277ba07965ecc3bf.png",
-    "calories": 518,
-    "protein": 41.15,
-    "carbs": 27.05,
-    "fats": 27.3,
+    "calories": 523.5,
+    "protein": 41.4,
+    "carbs": 27.9,
+    "fats": 27.15,
     "ingredients": [
       {
         "name": "Pan de Centeno",
         "quantity": "50",
         "unit": "g",
-        "calories": 129.5,
-        "protein": 4.25,
-        "carbs": 24.15,
-        "fats": 1.6500000000000001,
-        "baseCalories": 2.59,
-        "baseProtein": 0.085,
-        "baseCarbs": 0.483,
-        "baseFats": 0.033
+        "calories": 135,
+        "protein": 4.5,
+        "carbs": 25,
+        "fats": 1.5,
+        "baseCalories": 2.7,
+        "baseProtein": 0.09,
+        "baseCarbs": 0.5,
+        "baseFats": 0.03
       },
       {
         "name": "Salmón Ahumado",
@@ -1054,10 +1054,10 @@ export const dailyMenus = [
       "o4_ext"
     ],
     "baselineTotals": {
-      "calories": 1745.2,
-      "protein": 178.35,
-      "carbs": 39.45,
-      "fats": 82.69999999999999
+      "calories": 1750.7,
+      "protein": 178.6,
+      "carbs": 40.3,
+      "fats": 82.54999999999998
     }
   }
 ];
