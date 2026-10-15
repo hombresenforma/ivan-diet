@@ -836,7 +836,7 @@ export const foodDatabase = {
     "fats": 28.65,
     "ingredients": [
       {
-        "name": "Claras de huevo pasteurizadas",
+        "name": "Claras de huevo",
         "quantity": "150",
         "unit": "g",
         "calories": 69,
