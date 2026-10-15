@@ -484,456 +484,12 @@ export const foodDatabase = {
     "preparation": "Mezclar la proteína con agua. Pelar y tomar los kiwis aparte."
   },
   "o3_des": {
-    "name": "Bol rápido de skyr, avena, frutos rojos y nueces",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68e7ef66df76fef1b58db3f2.png",
-    "calories": 366.25,
-    "protein": 21.25,
-    "carbs": 59,
-    "fats": 5.45,
-    "ingredients": [
-      {
-        "name": "Skyr natural 0%",
-        "quantity": "125",
-        "unit": "g",
-        "calories": 78.75,
-        "protein": 13.75,
-        "carbs": 5,
-        "fats": 0.25,
-        "baseCalories": 0.63,
-        "baseProtein": 0.11,
-        "baseCarbs": 0.04,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Copos de Avena",
-        "quantity": "50",
-        "unit": "g",
-        "calories": 182.5,
-        "protein": 6,
-        "carbs": 37.5,
-        "fats": 1,
-        "baseCalories": 3.65,
-        "baseProtein": 0.12,
-        "baseCarbs": 0.75,
-        "baseFats": 0.02
-      },
-      {
-        "name": "Frutos Rojos",
-        "quantity": "100",
-        "unit": "g",
-        "calories": 60,
-        "protein": 0.5,
-        "carbs": 15,
-        "fats": 0.2,
-        "baseCalories": 0.6,
-        "baseProtein": 0.005,
-        "baseCarbs": 0.15,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Nueces",
-        "quantity": "10",
-        "unit": "g",
-        "calories": 45,
-        "protein": 1,
-        "carbs": 1.5,
-        "fats": 4,
-        "baseCalories": 4.5,
-        "baseProtein": 0.1,
-        "baseCarbs": 0.15,
-        "baseFats": 0.4
-      }
-    ],
-    "preparation": "Mezclar el skyr con avena, frutos rojos y nueces. Se puede dejar listo la noche anterior."
-  },
-  "o3_com": {
-    "name": "Patatas Cocidas con Salteado de Verduras y Hamburguesa a la plancha",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cf8559b0c6709fc9afa98.png",
-    "calories": 617.5,
-    "protein": 35.5,
-    "carbs": 48,
-    "fats": 31.525,
-    "ingredients": [
-      {
-        "name": "Patata",
-        "quantity": "125",
-        "unit": "g",
-        "calories": 112.5,
-        "protein": 2.5,
-        "carbs": 25,
-        "fats": 0.125,
-        "baseCalories": 0.9,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.2,
-        "baseFats": 0.001
-      },
-      {
-        "name": "Pimiento Verde",
-        "quantity": "100",
-        "unit": "g",
-        "calories": 30,
-        "protein": 2,
-        "carbs": 5,
-        "fats": 0.2,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Pimiento Rojo",
-        "quantity": "100",
-        "unit": "g",
-        "calories": 30,
-        "protein": 2,
-        "carbs": 5,
-        "fats": 0.2,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Cebolla",
-        "quantity": "100",
-        "unit": "g",
-        "calories": 100,
-        "protein": 5,
-        "carbs": 10,
-        "fats": 4,
-        "baseCalories": 1,
-        "baseProtein": 0.05,
-        "baseCarbs": 0.1,
-        "baseFats": 0.04
-      },
-      {
-        "name": "Hamburguesa de Pavo-Pollo",
-        "quantity": "150",
-        "unit": "g",
-        "calories": 345,
-        "protein": 24,
-        "carbs": 3,
-        "fats": 27,
-        "baseCalories": 2.3,
-        "baseProtein": 0.16,
-        "baseCarbs": 0.02,
-        "baseFats": 0.18
-      }
-    ],
-    "preparation": "1. Cocer las patatas en agua con sal. 2. Mientras, saltear las verduras (pimiento, cebolla) en una sartén. 3. Cocinar la hamburguesa a la plancha. 4. Servir las patatas cocidas con el salteado de verduras y la hamburguesa.",
-    "originalBaseRecipeId": "cc_patatas_cocidas_con_salteado_de_verduras_y_hamburguesa_a_la_plancha"
-  },
-  "o3_cen": {
-    "name": "Cuscús integral con atún, verduras y feta",
-    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69b512c9bfc81fa0930b4288.png",
-    "calories": 745,
-    "protein": 69.5,
-    "carbs": 53.9,
-    "fats": 24,
-    "ingredients": [
-      {
-        "name": "Cuscús integral",
-        "quantity": "50",
-        "unit": "g",
-        "calories": 185,
-        "protein": 5,
-        "carbs": 40,
-        "fats": 0,
-        "baseCalories": 3.7,
-        "baseProtein": 0.1,
-        "baseCarbs": 0.8,
-        "baseFats": 0
-      },
-      {
-        "name": "Atún en Conserva",
-        "quantity": "150",
-        "unit": "g",
-        "calories": 240,
-        "protein": 42.00000000000001,
-        "carbs": 0,
-        "fats": 6,
-        "baseCalories": 1.6,
-        "baseProtein": 0.28,
-        "baseCarbs": 0,
-        "baseFats": 0.04
-      },
-      {
-        "name": "Calabacín",
-        "quantity": "150",
-        "unit": "g",
-        "calories": 45,
-        "protein": 3,
-        "carbs": 7.5,
-        "fats": 0.3,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Zanahoria",
-        "quantity": "100",
-        "unit": "g",
-        "calories": 30,
-        "protein": 2,
-        "carbs": 5,
-        "fats": 0.2,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Queso Feta",
-        "quantity": "70",
-        "unit": "g",
-        "calories": 245,
-        "protein": 17.5,
-        "carbs": 1.4000000000000001,
-        "fats": 17.5,
-        "baseCalories": 3.5,
-        "baseProtein": 0.25,
-        "baseCarbs": 0.02,
-        "baseFats": 0.25
-      }
-    ],
-    "preparation": "Hidratar el cuscús. Añadir el atún escurrido, las verduras salteadas en sartén antiadherente y el feta desmenuzado."
-  },
-  "o3_ext": {
-    "name": "Queso fresco batido con manzana y nueces",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6879302d02da47667d446b43.png",
-    "calories": 257,
-    "protein": 25.6,
-    "carbs": 29.5,
-    "fats": 5.24,
-    "ingredients": [
-      {
-        "name": "Queso Fresco Batido",
-        "quantity": "250",
-        "unit": "g",
-        "calories": 140,
-        "protein": 24,
-        "carbs": 10,
-        "fats": 1,
-        "baseCalories": 0.56,
-        "baseProtein": 0.096,
-        "baseCarbs": 0.04,
-        "baseFats": 0.004
-      },
-      {
-        "name": "Manzana",
-        "quantity": "1",
-        "unit": "unidad(es)",
-        "gramsPerUnit": 120,
-        "calories": 72,
-        "protein": 0.6,
-        "carbs": 18,
-        "fats": 0.24,
-        "baseCalories": 72,
-        "baseProtein": 0.6,
-        "baseCarbs": 18,
-        "baseFats": 0.24
-      },
-      {
-        "name": "Nueces",
-        "quantity": "10",
-        "unit": "g",
-        "calories": 45,
-        "protein": 1,
-        "carbs": 1.5,
-        "fats": 4,
-        "baseCalories": 4.5,
-        "baseProtein": 0.1,
-        "baseCarbs": 0.15,
-        "baseFats": 0.4
-      }
-    ],
-    "preparation": "Servir el queso fresco batido con manzana troceada y nueces."
-  },
-  "o4_com": {
-    "name": "Quinoa con ternera y verduras (ración alta de carbohidrato)",
-    "image": "https://raw.githubusercontent.com/hombresenforma/ivan-diet/main/assets/ivandt/dias-4-7/quinoa-ternera-verduras.jpg",
-    "calories": 758,
-    "protein": 48,
-    "carbs": 74,
-    "fats": 21.4,
-    "ingredients": [
-      {
-        "name": "Quinoa",
-        "quantity": "100",
-        "unit": "g",
-        "calories": 368,
-        "protein": 14,
-        "carbs": 64,
-        "fats": 6,
-        "baseCalories": 3.68,
-        "baseProtein": 0.14,
-        "baseCarbs": 0.64,
-        "baseFats": 0.06
-      },
-      {
-        "name": "Ternera magra",
-        "quantity": "150",
-        "unit": "g",
-        "calories": 330,
-        "protein": 30,
-        "carbs": 0,
-        "fats": 15,
-        "baseCalories": 2.2,
-        "baseProtein": 0.2,
-        "baseCarbs": 0,
-        "baseFats": 0.1
-      },
-      {
-        "name": "Pimiento Rojo",
-        "quantity": "100",
-        "unit": "g",
-        "calories": 30,
-        "protein": 2,
-        "carbs": 5,
-        "fats": 0.2,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Calabacín",
-        "quantity": "100",
-        "unit": "g",
-        "calories": 30,
-        "protein": 2,
-        "carbs": 5,
-        "fats": 0.2,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
-      }
-    ],
-    "preparation": "Cocer la quinoa. Cocinar la ternera en tiras y las verduras en sartén antiadherente; mezclar.",
-    "originalBaseRecipeId": "cc_quinoa_con_ternera_y_verduras"
-  },
-  "o4_cen": {
-    "name": "Salmón con espinacas y feta (cena ligera en carbohidratos)",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afda0b91eb330dd3d49b2.png",
-    "calories": 641.25,
-    "protein": 51.5,
-    "carbs": 27.25,
-    "fats": 34.3,
-    "ingredients": [
-      {
-        "name": "Arroz",
-        "quantity": "25",
-        "unit": "g",
-        "calories": 91.25,
-        "protein": 3,
-        "carbs": 18.75,
-        "fats": 0.5,
-        "baseCalories": 3.65,
-        "baseProtein": 0.12,
-        "baseCarbs": 0.75,
-        "baseFats": 0.02
-      },
-      {
-        "name": "Lomo de Salmón",
-        "quantity": "150",
-        "unit": "g",
-        "calories": 330,
-        "protein": 33,
-        "carbs": 0,
-        "fats": 21.000000000000004,
-        "baseCalories": 2.2,
-        "baseProtein": 0.22,
-        "baseCarbs": 0,
-        "baseFats": 0.14
-      },
-      {
-        "name": "Espinacas",
-        "quantity": "150",
-        "unit": "g",
-        "calories": 45,
-        "protein": 3,
-        "carbs": 7.5,
-        "fats": 0.3,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Queso Feta",
-        "quantity": "50",
-        "unit": "g",
-        "calories": 175,
-        "protein": 12.5,
-        "carbs": 1,
-        "fats": 12.5,
-        "baseCalories": 3.5,
-        "baseProtein": 0.25,
-        "baseCarbs": 0.02,
-        "baseFats": 0.25
-      }
-    ],
-    "preparation": "Cocer el arroz. Cocinar el salmón en sartén antiadherente, añadir las espinacas y servir con el queso feta desmenuzado."
-  },
-  "o4_des": {
-    "name": "Avena con huevos y frutos rojos",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68e7ef66df76fef1b58db3f2.png",
-    "calories": 385,
-    "protein": 19.875,
-    "carbs": 42.35,
-    "fats": 14.65,
-    "ingredients": [
-      {
-        "name": "Copos de Avena",
-        "quantity": "50",
-        "unit": "g",
-        "calories": 185,
-        "protein": 6.5,
-        "carbs": 30,
-        "fats": 3.5,
-        "baseCalories": 3.7,
-        "baseProtein": 0.13,
-        "baseCarbs": 0.6,
-        "baseFats": 0.07
-      },
-      {
-        "name": "Huevos",
-        "quantity": "2",
-        "unit": "unidad(es)",
-        "calories": 155,
-        "protein": 13,
-        "carbs": 1.1,
-        "fats": 11,
-        "baseCalories": 77.5,
-        "baseProtein": 6.5,
-        "baseCarbs": 0.55,
-        "baseFats": 5.5
-      },
-      {
-        "name": "Frutos Rojos",
-        "quantity": "75",
-        "unit": "g",
-        "calories": 45,
-        "protein": 0.375,
-        "carbs": 11.25,
-        "fats": 0.15,
-        "baseCalories": 0.6,
-        "baseProtein": 0.005,
-        "baseCarbs": 0.15,
-        "baseFats": 0.002
-      }
-    ],
-    "preparation": "Cocer la avena con agua. Acompañar con los huevos y los frutos rojos."
-  },
-  "o4_ext": {
-    "name": "Yogur proteico con almendras y kiwi",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6879302d02da47667d446b43.png",
-    "calories": 270,
-    "protein": 29.4,
-    "carbs": 23.5,
-    "fats": 6.7,
+    "name": "Bol proteico de skyr, frutos rojos y avena",
+    "image": "https://raw.githubusercontent.com/hombresenforma/ivan-diet/main/assets/ivandt/sin-cocina/bol-skyr-frutos-rojos-avena.jpg",
+    "calories": 469,
+    "protein": 58.25,
+    "carbs": 44.5,
+    "fats": 5.325,
     "ingredients": [
       {
         "name": "Skyr natural 0%",
@@ -949,39 +505,509 @@ export const foodDatabase = {
         "baseFats": 0.002
       },
       {
-        "name": "Almendras",
-        "quantity": "15",
+        "name": "Proteína whey",
+        "quantity": "30",
         "unit": "g",
-        "calories": 67.5,
-        "protein": 1.5,
-        "carbs": 2.25,
-        "fats": 6,
+        "calories": 114,
+        "protein": 24,
+        "carbs": 1.5,
+        "fats": 1.2,
+        "baseCalories": 3.8,
+        "baseProtein": 0.8,
+        "baseCarbs": 0.05,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Frutos rojos lavados",
+        "quantity": "25",
+        "unit": "g",
+        "calories": 12.5,
+        "protein": 0.25,
+        "carbs": 3,
+        "fats": 0.125,
+        "baseCalories": 0.5,
+        "baseProtein": 0.01,
+        "baseCarbs": 0.12,
+        "baseFats": 0.005
+      },
+      {
+        "name": "Copos de avena",
+        "quantity": "50",
+        "unit": "g",
+        "calories": 185,
+        "protein": 6.5,
+        "carbs": 30,
+        "fats": 3.5000000000000004,
+        "baseCalories": 3.7,
+        "baseProtein": 0.13,
+        "baseCarbs": 0.6,
+        "baseFats": 0.07
+      }
+    ],
+    "preparation": "Poner el skyr en un bol, mezclar la proteína y añadir la avena y los frutos rojos. Se prepara en 3 minutos, sin fuego, cocina ni electrodomésticos."
+  },
+  "o3_com": {
+    "name": "Patatas Cocidas con Salteado de Verduras y Hamburguesa a la plancha",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cf8559b0c6709fc9afa98.png",
+    "calories": 434.2,
+    "protein": 44,
+    "carbs": 17.5,
+    "fats": 21.35,
+    "ingredients": [
+      {
+        "name": "Patata",
+        "quantity": "50",
+        "unit": "g",
+        "calories": 45,
+        "protein": 1,
+        "carbs": 10,
+        "fats": 0.05,
+        "baseCalories": 0.9,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.2,
+        "baseFats": 0.001
+      },
+      {
+        "name": "Pimiento Verde",
+        "quantity": "50",
+        "unit": "g",
+        "calories": 15,
+        "protein": 1,
+        "carbs": 2.5,
+        "fats": 0.1,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Pimiento Rojo",
+        "quantity": "50",
+        "unit": "g",
+        "calories": 15,
+        "protein": 1,
+        "carbs": 2.5,
+        "fats": 0.1,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Cebolla",
+        "quantity": "50",
+        "unit": "g",
+        "calories": 15,
+        "protein": 1,
+        "carbs": 2.5,
+        "fats": 0.1,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Hamburguesa de Pavo-Pollo",
+        "quantity": "200",
+        "unit": "g",
+        "calories": 300,
+        "protein": 40,
+        "carbs": 0,
+        "fats": 16,
+        "baseCalories": 1.5,
+        "baseProtein": 0.2,
+        "baseCarbs": 0,
+        "baseFats": 0.08
+      },
+      {
+        "name": "Aceite de oliva virgen extra",
+        "quantity": "5",
+        "unit": "g",
+        "calories": 44.2,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 5,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1
+      }
+    ],
+    "preparation": "1. Cocer las patatas en agua con sal. 2. Mientras, saltear las verduras (pimiento, cebolla) en una sartén. 3. Cocinar la hamburguesa a la plancha. 4. Servir las patatas cocidas con el salteado de verduras y la hamburguesa.",
+    "originalBaseRecipeId": "cc_patatas_cocidas_con_salteado_de_verduras_y_hamburguesa_a_la_plancha"
+  },
+  "o3_cen": {
+    "name": "Wok de Verduras con Salmón",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afda0b91eb330dd3d49b2.png",
+    "calories": 588.4000000000001,
+    "protein": 48,
+    "carbs": 10,
+    "fats": 38.400000000000006,
+    "ingredients": [
+      {
+        "name": "Tomate",
+        "quantity": "50",
+        "unit": "g",
+        "calories": 15,
+        "protein": 1,
+        "carbs": 2.5,
+        "fats": 0.1,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Pimiento Rojo",
+        "quantity": "50",
+        "unit": "g",
+        "calories": 15,
+        "protein": 1,
+        "carbs": 2.5,
+        "fats": 0.1,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Pimiento Verde",
+        "quantity": "50",
+        "unit": "g",
+        "calories": 15,
+        "protein": 1,
+        "carbs": 2.5,
+        "fats": 0.1,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Cebolla",
+        "quantity": "50",
+        "unit": "g",
+        "calories": 15,
+        "protein": 1,
+        "carbs": 2.5,
+        "fats": 0.1,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Lomo de Salmón",
+        "quantity": "200",
+        "unit": "g",
+        "calories": 440.00000000000006,
+        "protein": 44,
+        "carbs": 0,
+        "fats": 28.000000000000004,
+        "baseCalories": 2.2,
+        "baseProtein": 0.22,
+        "baseCarbs": 0,
+        "baseFats": 0.14
+      },
+      {
+        "name": "Aceite de oliva virgen extra",
+        "quantity": "10",
+        "unit": "g",
+        "calories": 88.4,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 10,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1
+      }
+    ],
+    "preparation": "1. Cortar el salmón en dados de tamaño mediano. Picar el tomate, pimiento rojo, pimiento verde y cebolla en trozos adecuados para wok (ej. juliana gruesa o dados). 2. Calentar un wok o sartén grande con un poco de aceite a fuego alto. Saltear el salmón unos 2-3 minutos hasta que esté dorado por fuera pero ligeramente crudo por dentro. Retirar y reservar. 3. Añadir las verduras más duras (cebolla, pimientos) al wok y saltear durante 3-4 minutos. Luego añadir el tomate y saltear 1-2 minutos más. 4. Incorporar el salmón de nuevo al wok. Añadir salsa de soja (baja en sodio preferiblemente) y un toque de jengibre rallado o ajo picado (opcional). Mezclar bien y cocinar por 1-2 minutos más hasta que el salmón esté cocido y todo bien caliente. Servir inmediatamente, opcionalmente sobre una base de arroz o noodles."
+  },
+  "o3_ext": {
+    "name": "Skyr con plátano, frutos rojos y almendras",
+    "image": "https://raw.githubusercontent.com/hombresenforma/ivan-diet/main/assets/ivandt/dias-4-7/skyr-platano-frutos-rojos-almendras.jpg",
+    "calories": 260,
+    "protein": 29.125,
+    "carbs": 25.75,
+    "fats": 4.775,
+    "ingredients": [
+      {
+        "name": "Skyr natural",
+        "quantity": "250",
+        "unit": "g",
+        "calories": 157.5,
+        "protein": 27.5,
+        "carbs": 10,
+        "fats": 0.5,
+        "baseCalories": 0.63,
+        "baseProtein": 0.11,
+        "baseCarbs": 0.04,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Plátano",
+        "quantity": "0.5",
+        "unit": "unidad(es)",
+        "calories": 45,
+        "protein": 0.375,
+        "carbs": 11.25,
+        "fats": 0.15,
+        "baseCalories": 90,
+        "baseProtein": 0.75,
+        "baseCarbs": 22.5,
+        "baseFats": 0.3
+      },
+      {
+        "name": "Frutos rojos",
+        "quantity": "25",
+        "unit": "g",
+        "calories": 12.5,
+        "protein": 0.25,
+        "carbs": 3,
+        "fats": 0.125,
+        "baseCalories": 0.5,
+        "baseProtein": 0.01,
+        "baseCarbs": 0.12,
+        "baseFats": 0.005
+      },
+      {
+        "name": "Almendras",
+        "quantity": "10",
+        "unit": "g",
+        "calories": 45,
+        "protein": 1,
+        "carbs": 1.5,
+        "fats": 4,
         "baseCalories": 4.5,
         "baseProtein": 0.1,
         "baseCarbs": 0.15,
         "baseFats": 0.4
-      },
-      {
-        "name": "Kiwi",
-        "quantity": "1",
-        "unit": "unidad(es)",
-        "calories": 45,
-        "protein": 0.4,
-        "carbs": 11.25,
-        "fats": 0.2,
-        "baseCalories": 45,
-        "baseProtein": 0.375,
-        "baseCarbs": 11.25,
-        "baseFats": 0.15
       }
     ],
-    "preparation": "Servir el skyr con las almendras y el kiwi troceado."
+    "preparation": "1. Servir el skyr con el plátano en rodajas, los frutos rojos y las almendras picadas."
+  },
+  "o4_com": {
+    "name": "Quinoa con ternera y verduras",
+    "image": "https://raw.githubusercontent.com/hombresenforma/ivan-diet/main/assets/ivandt/dias-4-7/quinoa-ternera-verduras.jpg",
+    "calories": 864.4,
+    "protein": 54.5,
+    "carbs": 58,
+    "fats": 34.9,
+    "ingredients": [
+      {
+        "name": "Quinoa",
+        "quantity": "75",
+        "unit": "g",
+        "calories": 276,
+        "protein": 10.500000000000002,
+        "carbs": 48,
+        "fats": 4.5,
+        "baseCalories": 3.68,
+        "baseProtein": 0.14,
+        "baseCarbs": 0.64,
+        "baseFats": 0.06
+      },
+      {
+        "name": "Ternera magra",
+        "quantity": "200",
+        "unit": "g",
+        "calories": 440.00000000000006,
+        "protein": 40,
+        "carbs": 0,
+        "fats": 20,
+        "baseCalories": 2.2,
+        "baseProtein": 0.2,
+        "baseCarbs": 0,
+        "baseFats": 0.1
+      },
+      {
+        "name": "Pimiento rojo",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 30,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Calabacín",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 30,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Aceite de oliva virgen extra",
+        "quantity": "10",
+        "unit": "g",
+        "calories": 88.4,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 10,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1
+      }
+    ],
+    "preparation": "1. Lavar y cocer la quinoa según el envase. 2. Saltear el pimiento y el calabacín con el aceite medido, añadir la ternera en tiras y cocinar; mezclar con la quinoa.",
+    "originalBaseRecipeId": "cc_quinoa_con_ternera_y_verduras"
+  },
+  "o4_cen": {
+    "name": "Merluza a la Plancha",
+    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69b66b6dad027629d2f1e944.png",
+    "calories": 364.2,
+    "protein": 56.00000000000001,
+    "carbs": 0,
+    "fats": 13,
+    "ingredients": [
+      {
+        "name": "Filete de Merluza",
+        "quantity": "200",
+        "unit": "g",
+        "calories": 320,
+        "protein": 56.00000000000001,
+        "carbs": 0,
+        "fats": 8,
+        "baseCalories": 1.6,
+        "baseProtein": 0.28,
+        "baseCarbs": 0,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Aceite de oliva virgen extra",
+        "quantity": "5",
+        "unit": "g",
+        "calories": 44.2,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 5,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1
+      }
+    ],
+    "preparation": "1. Sazonar los filetes o rodajas de merluza con sal, pimienta y opcionalmente un poco de ajo en polvo o perejil picado. 2. Calentar una plancha o sartén antiadherente a fuego medio-alto con un chorrito de aceite de oliva virgen extra. 3. Cuando el aceite esté caliente, colocar la merluza en la plancha. Cocinar durante unos 3-5 minutos por cada lado, dependiendo del grosor del pescado, hasta que esté opaca, bien cocida por dentro y se desmenuce fácilmente con un tenedor. 4. Servir inmediatamente, opcionalmente con un chorrito de zumo de limón fresco por encima."
+  },
+  "o4_des": {
+    "name": "Tostada de Centeno con Huevo y Aguacate",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687a695da648331355d3b0b2.png",
+    "calories": 360.2,
+    "protein": 16.7,
+    "carbs": 20.265,
+    "fats": 24.4,
+    "ingredients": [
+      {
+        "name": "Tostada de Pan de Centeno",
+        "quantity": "1",
+        "unit": "rebanada(s)",
+        "gramsPerUnit": 30,
+        "calories": 81,
+        "protein": 2.7,
+        "carbs": 15,
+        "fats": 0.9,
+        "baseCalories": 81,
+        "baseProtein": 2.7,
+        "baseCarbs": 15,
+        "baseFats": 0.9
+      },
+      {
+        "name": "Huevos",
+        "quantity": "2",
+        "unit": "unidad(es)",
+        "calories": 155,
+        "protein": 13,
+        "carbs": 1.1,
+        "fats": 11,
+        "baseCalories": 77.5,
+        "baseProtein": 6.5,
+        "baseCarbs": 0.55,
+        "baseFats": 5.5
+      },
+      {
+        "name": "Aguacate",
+        "quantity": "50",
+        "unit": "g",
+        "calories": 80,
+        "protein": 1,
+        "carbs": 4.165,
+        "fats": 7.5,
+        "baseCalories": 1.6,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.0833,
+        "baseFats": 0.15
+      },
+      {
+        "name": "Aceite de oliva virgen extra",
+        "quantity": "5",
+        "unit": "g",
+        "calories": 44.2,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 5,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1
+      }
+    ],
+    "preparation": "1. Tostar el pan de centeno. 2. Cocinar los huevos al gusto (revueltos, pochados, a la plancha). 3. Machacar el aguacate sobre las tostadas y añadir aceite y especias."
+  },
+  "o4_ext": {
+    "name": "Batido Whey de Proteínas",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684f021af6c48d41b5a5c003.png",
+    "calories": 152,
+    "protein": 32,
+    "carbs": 2,
+    "fats": 1.6,
+    "ingredients": [
+      {
+        "name": "Proteína Whey en Polvo",
+        "quantity": "40",
+        "unit": "g",
+        "calories": 152,
+        "protein": 32,
+        "carbs": 2,
+        "fats": 1.6,
+        "baseCalories": 3.8,
+        "baseProtein": 0.8,
+        "baseCarbs": 0.05,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Agua",
+        "quantity": "250",
+        "unit": "ml",
+        "calories": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 0,
+        "baseCalories": 0,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 0
+      }
+    ],
+    "preparation": "1. En un shaker, añadir la cantidad recomendada de proteína en polvo. 2. Añadir la cantidad de líquido deseada (unos 200-300 ml). 3. Cerrar bien el shaker. 4. Agitar enérgicamente durante unos 20-30 segundos hasta que el polvo esté completamente disuelto."
   }
 };
 
 export const dailyMenus = [
   {
-    "name": "Opción 1",
+    "name": "Entreno 1",
     "targetMacros": {
       "calories": 2000,
       "protein": 150,
@@ -1007,7 +1033,7 @@ export const dailyMenus = [
     }
   },
   {
-    "name": "Opción 2",
+    "name": "Entreno 2",
     "targetMacros": {
       "calories": 2000,
       "protein": 150,
@@ -1033,11 +1059,11 @@ export const dailyMenus = [
     }
   },
   {
-    "name": "Opción 3",
+    "name": "Libre 1",
     "targetMacros": {
-      "calories": 2000,
+      "calories": 1750,
       "protein": 150,
-      "carbs": 175
+      "carbs": 100
     },
     "desayuno": [
       "o3_des"
@@ -1052,18 +1078,18 @@ export const dailyMenus = [
       "o3_ext"
     ],
     "baselineTotals": {
-      "calories": 1985.75,
-      "protein": 151.85,
-      "carbs": 190.4,
-      "fats": 66.215
+      "calories": 1751.6000000000001,
+      "protein": 179.375,
+      "carbs": 97.75,
+      "fats": 69.85000000000001
     }
   },
   {
-    "name": "Opción 4",
+    "name": "Libre 2",
     "targetMacros": {
-      "calories": 2000,
+      "calories": 1750,
       "protein": 150,
-      "carbs": 175
+      "carbs": 100
     },
     "desayuno": [
       "o4_des"
@@ -1078,10 +1104,10 @@ export const dailyMenus = [
       "o4_ext"
     ],
     "baselineTotals": {
-      "calories": 2054.25,
-      "protein": 148.775,
-      "carbs": 167.1,
-      "fats": 77.05
+      "calories": 1740.8,
+      "protein": 159.20000000000002,
+      "carbs": 80.265,
+      "fats": 73.89999999999999
     }
   }
 ];
