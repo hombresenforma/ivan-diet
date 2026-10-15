@@ -726,89 +726,52 @@ export const foodDatabase = {
     "preparation": "1. Cortar el salmón en dados de tamaño mediano. Picar el tomate, pimiento rojo, pimiento verde y cebolla en trozos adecuados para wok (ej. juliana gruesa o dados). 2. Calentar un wok o sartén grande con un poco de aceite a fuego alto. Saltear el salmón unos 2-3 minutos hasta que esté dorado por fuera pero ligeramente crudo por dentro. Retirar y reservar. 3. Añadir las verduras más duras (cebolla, pimientos) al wok y saltear durante 3-4 minutos. Luego añadir el tomate y saltear 1-2 minutos más. 4. Incorporar el salmón de nuevo al wok. Añadir salsa de soja (baja en sodio preferiblemente) y un toque de jengibre rallado o ajo picado (opcional). Mezclar bien y cocinar por 1-2 minutos más hasta que el salmón esté cocido y todo bien caliente. Servir inmediatamente, opcionalmente sobre una base de arroz o noodles."
   },
   "o3_ext": {
-    "name": "Skyr con plátano, frutos rojos y almendras",
-    "image": "https://raw.githubusercontent.com/hombresenforma/ivan-diet/main/assets/ivandt/dias-4-7/skyr-platano-frutos-rojos-almendras.jpg",
-    "calories": 260,
-    "protein": 29.125,
-    "carbs": 25.75,
-    "fats": 4.775,
+    "name": "Naranja con anacardos",
+    "image": "https://raw.githubusercontent.com/hombresenforma/ivan-diet/main/assets/ivandt/dias-4-7/naranja-anacardos.jpg",
+    "calories": 202.5,
+    "protein": 3.25,
+    "carbs": 26.25,
+    "fats": 10.3,
     "ingredients": [
       {
-        "name": "Skyr natural",
-        "quantity": "250",
-        "unit": "g",
-        "calories": 157.5,
-        "protein": 27.5,
-        "carbs": 10,
-        "fats": 0.5,
-        "baseCalories": 0.63,
-        "baseProtein": 0.11,
-        "baseCarbs": 0.04,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Plátano",
-        "quantity": "0.5",
+        "name": "Naranja",
+        "quantity": "1",
         "unit": "unidad(es)",
-        "calories": 45,
-        "protein": 0.375,
-        "carbs": 11.25,
-        "fats": 0.15,
+        "gramsPerUnit": 1,
+        "calories": 90,
+        "protein": 0.75,
+        "carbs": 22.5,
+        "fats": 0.3,
         "baseCalories": 90,
         "baseProtein": 0.75,
         "baseCarbs": 22.5,
         "baseFats": 0.3
       },
       {
-        "name": "Frutos rojos",
+        "name": "Anacardos",
         "quantity": "25",
         "unit": "g",
-        "calories": 12.5,
-        "protein": 0.25,
-        "carbs": 3,
-        "fats": 0.125,
-        "baseCalories": 0.5,
-        "baseProtein": 0.01,
-        "baseCarbs": 0.12,
-        "baseFats": 0.005
-      },
-      {
-        "name": "Almendras",
-        "quantity": "10",
-        "unit": "g",
-        "calories": 45,
-        "protein": 1,
-        "carbs": 1.5,
-        "fats": 4,
+        "calories": 112.5,
+        "protein": 2.5,
+        "carbs": 3.75,
+        "fats": 10,
         "baseCalories": 4.5,
         "baseProtein": 0.1,
         "baseCarbs": 0.15,
         "baseFats": 0.4
       }
     ],
-    "preparation": "1. Servir el skyr con el plátano en rodajas, los frutos rojos y las almendras picadas."
+    "preparation": "1. Pelar la naranja, separar los gajos y servir con los anacardos pesados.",
+    "originalBaseRecipeId": "ext_naranja_con_anacardos"
   },
   "o4_com": {
-    "name": "Quinoa con ternera y verduras",
-    "image": "https://raw.githubusercontent.com/hombresenforma/ivan-diet/main/assets/ivandt/dias-4-7/quinoa-ternera-verduras.jpg",
-    "calories": 864.4,
-    "protein": 54.5,
-    "carbs": 58,
-    "fats": 34.9,
+    "name": "Ternera con brócoli y sésamo",
+    "image": "https://raw.githubusercontent.com/hombresenforma/ivan-diet/main/assets/ivandt/dias-4-7/ternera-brocoli-sesamo.jpg",
+    "calories": 711,
+    "protein": 49.2,
+    "carbs": 10.4,
+    "fats": 40.8,
     "ingredients": [
-      {
-        "name": "Quinoa",
-        "quantity": "75",
-        "unit": "g",
-        "calories": 276,
-        "protein": 10.500000000000002,
-        "carbs": 48,
-        "fats": 4.5,
-        "baseCalories": 3.68,
-        "baseProtein": 0.14,
-        "baseCarbs": 0.64,
-        "baseFats": 0.06
-      },
       {
         "name": "Ternera magra",
         "quantity": "200",
@@ -823,30 +786,30 @@ export const foodDatabase = {
         "baseFats": 0.1
       },
       {
-        "name": "Pimiento rojo",
-        "quantity": "100",
+        "name": "Brócoli",
+        "quantity": "200",
         "unit": "g",
-        "calories": 30,
-        "protein": 2,
-        "carbs": 5,
-        "fats": 0.2,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
+        "calories": 68,
+        "protein": 5.6000000000000005,
+        "carbs": 8,
+        "fats": 0.8,
+        "baseCalories": 0.34,
+        "baseProtein": 0.028,
+        "baseCarbs": 0.04,
+        "baseFats": 0.004
       },
       {
-        "name": "Calabacín",
-        "quantity": "100",
+        "name": "Semillas de sésamo",
+        "quantity": "20",
         "unit": "g",
-        "calories": 30,
-        "protein": 2,
-        "carbs": 5,
-        "fats": 0.2,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
+        "calories": 114.60000000000001,
+        "protein": 3.5999999999999996,
+        "carbs": 2.4,
+        "fats": 10,
+        "baseCalories": 5.73,
+        "baseProtein": 0.18,
+        "baseCarbs": 0.12,
+        "baseFats": 0.5
       },
       {
         "name": "Aceite de oliva virgen extra",
@@ -862,8 +825,8 @@ export const foodDatabase = {
         "baseFats": 1
       }
     ],
-    "preparation": "1. Lavar y cocer la quinoa según el envase. 2. Saltear el pimiento y el calabacín con el aceite medido, añadir la ternera en tiras y cocinar; mezclar con la quinoa.",
-    "originalBaseRecipeId": "cc_quinoa_con_ternera_y_verduras"
+    "preparation": "1. Cocer el brócoli al vapor 3–4 minutos. 2. Saltear la ternera en tiras con el aceite, incorporar el brócoli y terminar con el sésamo. Cantidades para una ración; cereales en seco y carnes en crudo. Valores nutricionales aproximados según el producto.",
+    "originalBaseRecipeId": "pp_ternera_con_brocoli_y_sesamo"
   },
   "o4_cen": {
     "name": "Merluza a la Plancha",
@@ -903,68 +866,55 @@ export const foodDatabase = {
     "preparation": "1. Sazonar los filetes o rodajas de merluza con sal, pimienta y opcionalmente un poco de ajo en polvo o perejil picado. 2. Calentar una plancha o sartén antiadherente a fuego medio-alto con un chorrito de aceite de oliva virgen extra. 3. Cuando el aceite esté caliente, colocar la merluza en la plancha. Cocinar durante unos 3-5 minutos por cada lado, dependiendo del grosor del pescado, hasta que esté opaca, bien cocida por dentro y se desmenuce fácilmente con un tenedor. 4. Servir inmediatamente, opcionalmente con un chorrito de zumo de limón fresco por encima."
   },
   "o4_des": {
-    "name": "Tostada de Centeno con Huevo y Aguacate",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687a695da648331355d3b0b2.png",
-    "calories": 360.2,
-    "protein": 16.7,
-    "carbs": 20.265,
-    "fats": 24.4,
+    "name": "Tostada de salmon ahumado y queso crema",
+    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69b512ae277ba07965ecc3bf.png",
+    "calories": 518,
+    "protein": 41.15,
+    "carbs": 27.05,
+    "fats": 27.3,
     "ingredients": [
       {
-        "name": "Tostada de Pan de Centeno",
-        "quantity": "1",
-        "unit": "rebanada(s)",
-        "gramsPerUnit": 30,
-        "calories": 81,
-        "protein": 2.7,
-        "carbs": 15,
-        "fats": 0.9,
-        "baseCalories": 81,
-        "baseProtein": 2.7,
-        "baseCarbs": 15,
-        "baseFats": 0.9
-      },
-      {
-        "name": "Huevos",
-        "quantity": "2",
-        "unit": "unidad(es)",
-        "calories": 155,
-        "protein": 13,
-        "carbs": 1.1,
-        "fats": 11,
-        "baseCalories": 77.5,
-        "baseProtein": 6.5,
-        "baseCarbs": 0.55,
-        "baseFats": 5.5
-      },
-      {
-        "name": "Aguacate",
+        "name": "Pan de Centeno",
         "quantity": "50",
         "unit": "g",
-        "calories": 80,
-        "protein": 1,
-        "carbs": 4.165,
-        "fats": 7.5,
-        "baseCalories": 1.6,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.0833,
-        "baseFats": 0.15
+        "calories": 129.5,
+        "protein": 4.25,
+        "carbs": 24.15,
+        "fats": 1.6500000000000001,
+        "baseCalories": 2.59,
+        "baseProtein": 0.085,
+        "baseCarbs": 0.483,
+        "baseFats": 0.033
       },
       {
-        "name": "Aceite de oliva virgen extra",
-        "quantity": "5",
+        "name": "Salmón Ahumado",
+        "quantity": "150",
         "unit": "g",
-        "calories": 44.2,
-        "protein": 0,
-        "carbs": 0,
-        "fats": 5,
-        "baseCalories": 8.84,
-        "baseProtein": 0,
-        "baseCarbs": 0,
-        "baseFats": 1
+        "calories": 276,
+        "protein": 34.2,
+        "carbs": 0.75,
+        "fats": 15.15,
+        "baseCalories": 1.84,
+        "baseProtein": 0.228,
+        "baseCarbs": 0.005,
+        "baseFats": 0.101
+      },
+      {
+        "name": "Queso Crema",
+        "quantity": "50",
+        "unit": "g",
+        "calories": 112.5,
+        "protein": 2.7,
+        "carbs": 2.15,
+        "fats": 10.5,
+        "baseCalories": 2.25,
+        "baseProtein": 0.054,
+        "baseCarbs": 0.043,
+        "baseFats": 0.21
       }
     ],
-    "preparation": "1. Tostar el pan de centeno. 2. Cocinar los huevos al gusto (revueltos, pochados, a la plancha). 3. Machacar el aguacate sobre las tostadas y añadir aceite y especias."
+    "preparation": "1. Tostar el pan. 2. Untar el queso crema. 3. Colocar el salmón ahumado encima. Usa únicamente las cantidades de la lista. Aceite total: el indicado, repartido entre las preparaciones; sin añadir más.",
+    "originalBaseRecipeId": "des_tostada_de_salmon_ahumado_y_queso_crema"
   },
   "o4_ext": {
     "name": "Batido Whey de Proteínas",
@@ -1026,10 +976,10 @@ export const dailyMenus = [
       "o1_ext"
     ],
     "baselineTotals": {
-      "calories": 1992.45,
+      "calories": 1992.4499999999998,
       "protein": 155.7,
       "carbs": 189.75,
-      "fats": 63.59
+      "fats": 63.589999999999996
     }
   },
   {
@@ -1055,7 +1005,7 @@ export const dailyMenus = [
       "calories": 2028,
       "protein": 157.75,
       "carbs": 157.65,
-      "fats": 75.05
+      "fats": 75.05000000000001
     }
   },
   {
@@ -1078,10 +1028,10 @@ export const dailyMenus = [
       "o3_ext"
     ],
     "baselineTotals": {
-      "calories": 1751.6000000000001,
-      "protein": 179.375,
-      "carbs": 97.75,
-      "fats": 69.85000000000001
+      "calories": 1694.1000000000001,
+      "protein": 153.5,
+      "carbs": 98.25,
+      "fats": 75.375
     }
   },
   {
@@ -1104,10 +1054,10 @@ export const dailyMenus = [
       "o4_ext"
     ],
     "baselineTotals": {
-      "calories": 1740.8,
-      "protein": 159.20000000000002,
-      "carbs": 80.265,
-      "fats": 73.89999999999999
+      "calories": 1745.2,
+      "protein": 178.35,
+      "carbs": 39.45,
+      "fats": 82.69999999999999
     }
   }
 ];
