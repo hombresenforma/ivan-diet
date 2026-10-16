@@ -943,219 +943,157 @@ export const foodDatabase = {
     "preparation": "1. Pelar la naranja, separar los gajos y servir con los anacardos pesados.",
     "originalBaseRecipeId": "ext_naranja_con_anacardos"
   },
-  "p3_ext": {
-    "name": "Batido Whey de Proteínas",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684f021af6c48d41b5a5c003.png",
-    "calories": 152,
-    "protein": 32,
-    "carbs": 2,
-    "fats": 1.6,
+    "p3_ext": {
+    "name": "Yogur Protéico (Sabores, Natural...)",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd789b8ed38b127cbc09.png",
+    "calories": 108.5,
+    "protein": 18.375,
+    "carbs": 7,
+    "fats": 0.525,
     "ingredients": [
       {
-        "name": "Proteína Whey en Polvo",
-        "quantity": "40",
+        "name": "Yogur Protéico",
+        "quantity": "175",
         "unit": "g",
-        "calories": 152,
-        "protein": 32,
-        "carbs": 2,
-        "fats": 1.6,
-        "baseCalories": 3.8,
-        "baseProtein": 0.8,
-        "baseCarbs": 0.05,
+        "calories": 108.5,
+        "protein": 18.375,
+        "carbs": 7,
+        "fats": 0.525,
+        "baseCalories": 0.62,
+        "baseProtein": 0.105,
+        "baseCarbs": 0.04,
+        "baseFats": 0.003
+      }
+    ],
+    "preparation": "1. Seleccionar el yogur proteico de preferencia. 2. Abrir el envase. 3. Consumir directamente con una cuchara.",
+    "originalBaseRecipeId": "ext_yogur_protico_sabores_natural"
+  },
+      "p3_m0": {
+    "name": "Fajita con Revuelto de Jamón Dulce",
+    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69b51120eba48737da3f22f1.png",
+    "calories": 255.5,
+    "protein": 13.6,
+    "carbs": 27.55,
+    "fats": 9.5,
+    "ingredients": [
+      {
+        "name": "Pan de Fajita",
+        "quantity": "1",
+        "unit": "unidad(es)",
+        "calories": 108,
+        "protein": 3.6,
+        "carbs": 20,
+        "fats": 1.2,
+        "baseCalories": 108,
+        "baseProtein": 3.6,
+        "baseCarbs": 20,
+        "baseFats": 1.2
+      },
+      {
+        "name": "Jamón Dulce",
+        "quantity": "70",
+        "unit": "g",
+        "calories": 70,
+        "protein": 3.5,
+        "carbs": 7,
+        "fats": 2.8,
+        "baseCalories": 1,
+        "baseProtein": 0.05,
+        "baseCarbs": 0.1,
         "baseFats": 0.04
       },
       {
-        "name": "Agua",
-        "quantity": "250",
-        "unit": "ml",
-        "calories": 0,
-        "protein": 0,
-        "carbs": 0,
-        "fats": 0,
-        "baseCalories": 0,
-        "baseProtein": 0,
-        "baseCarbs": 0,
-        "baseFats": 0
-      }
-    ],
-    "preparation": "1. En un shaker, añadir la cantidad recomendada de proteína en polvo. 2. Añadir la cantidad de líquido deseada (unos 200-300 ml). 3. Cerrar bien el shaker. 4. Agitar enérgicamente durante unos 20-30 segundos hasta que el polvo esté completamente disuelto."
-  },
-  "p3_m0": {
-    "name": "Tostada de Centeno con Huevo y Aguacate",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687a695da648331355d3b0b2.png",
-    "calories": 428.4,
-    "protein": 17,
-    "carbs": 21.5145,
-    "fats": 31.65,
-    "ingredients": [
-      {
-        "name": "Tostada de Pan de Centeno",
-        "quantity": "1",
-        "unit": "rebanada(s)",
-        "gramsPerUnit": 30,
-        "calories": 81,
-        "protein": 2.7,
-        "carbs": 15,
-        "fats": 0.9,
-        "baseCalories": 81,
-        "baseProtein": 2.7,
-        "baseCarbs": 15,
-        "baseFats": 0.9
-      },
-      {
         "name": "Huevos",
-        "quantity": "2",
+        "quantity": "1",
         "unit": "unidad(es)",
-        "calories": 155,
-        "protein": 13,
-        "carbs": 1.1,
-        "fats": 11,
+        "calories": 77.5,
+        "protein": 6.5,
+        "carbs": 0.55,
+        "fats": 5.5,
         "baseCalories": 77.5,
         "baseProtein": 6.5,
         "baseCarbs": 0.55,
         "baseFats": 5.5
-      },
-      {
-        "name": "Aguacate",
-        "quantity": "65",
-        "unit": "g",
-        "calories": 104,
-        "protein": 1.3,
-        "carbs": 5.4145,
-        "fats": 9.75,
-        "baseCalories": 1.6,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.0833,
-        "baseFats": 0.15
-      },
-      {
-        "name": "Aceite de oliva virgen extra",
-        "quantity": "10",
-        "unit": "g",
-        "calories": 88.4,
-        "protein": 0,
-        "carbs": 0,
-        "fats": 10,
-        "baseCalories": 8.84,
-        "baseProtein": 0,
-        "baseCarbs": 0,
-        "baseFats": 1
       }
     ],
-    "preparation": "1. Tostar el pan de centeno. 2. Cocinar los huevos al gusto (revueltos, pochados, a la plancha). 3. Machacar el aguacate sobre las tostadas y añadir aceite y especias."
+    "preparation": "1. Preparar un revuelto con los huevos y el jamón dulce. 2. Rellenar la fajita caliente.",
+    "originalBaseRecipeId": "des_fajita_con_revuelto_de_jamn_dulce"
   },
-  "p3_m1": {
-    "name": "Patatas Cocidas con Salteado de Verduras y Hamburguesa a la plancha",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cf8559b0c6709fc9afa98.png",
-    "calories": 478.4,
-    "protein": 44,
-    "carbs": 17.5,
-    "fats": 26.35,
+      "p3_m1": {
+    "name": "Ensalada de Queso Fresco, Pavo y Nueces",
+    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/699b499d20c03528200c03e2.png",
+    "calories": 820.9,
+    "protein": 70.25,
+    "carbs": 16.2,
+    "fats": 49.65,
     "ingredients": [
       {
-        "name": "Patata",
-        "quantity": "50",
+        "name": "Canónigos o Lechuga",
+        "quantity": "100",
         "unit": "g",
-        "calories": 45,
-        "protein": 1,
-        "carbs": 10,
-        "fats": 0.05,
-        "baseCalories": 0.9,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.2,
-        "baseFats": 0.001
-      },
-      {
-        "name": "Pimiento Verde",
-        "quantity": "50",
-        "unit": "g",
-        "calories": 15,
-        "protein": 1,
-        "carbs": 2.5,
-        "fats": 0.1,
+        "calories": 30,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
         "baseCalories": 0.3,
         "baseProtein": 0.02,
         "baseCarbs": 0.05,
         "baseFats": 0.002
       },
       {
-        "name": "Pimiento Rojo",
-        "quantity": "50",
+        "name": "Queso Fresco",
+        "quantity": "85",
         "unit": "g",
-        "calories": 15,
-        "protein": 1,
-        "carbs": 2.5,
-        "fats": 0.1,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
+        "calories": 297.5,
+        "protein": 21.25,
+        "carbs": 1.7,
+        "fats": 21.25,
+        "baseCalories": 3.5,
+        "baseProtein": 0.25,
+        "baseCarbs": 0.02,
+        "baseFats": 0.25
       },
       {
-        "name": "Cebolla",
-        "quantity": "50",
+        "name": "Pechuga de Pavo",
+        "quantity": "150",
         "unit": "g",
-        "calories": 15,
-        "protein": 1,
-        "carbs": 2.5,
-        "fats": 0.1,
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002
-      },
-      {
-        "name": "Hamburguesa de Pavo-Pollo",
-        "quantity": "200",
-        "unit": "g",
-        "calories": 300,
-        "protein": 40,
+        "calories": 240,
+        "protein": 42,
         "carbs": 0,
-        "fats": 16,
-        "baseCalories": 1.5,
-        "baseProtein": 0.2,
-        "baseCarbs": 0,
-        "baseFats": 0.08
-      },
-      {
-        "name": "Aceite de oliva virgen extra",
-        "quantity": "10",
-        "unit": "g",
-        "calories": 88.4,
-        "protein": 0,
-        "carbs": 0,
-        "fats": 10,
-        "baseCalories": 8.84,
-        "baseProtein": 0,
-        "baseCarbs": 0,
-        "baseFats": 1
-      }
-    ],
-    "preparation": "1. Cocer las patatas en agua con sal. 2. Mientras, saltear las verduras (pimiento, cebolla) en una sartén. 3. Cocinar la hamburguesa a la plancha. 4. Servir las patatas cocidas con el salteado de verduras y la hamburguesa."
-  },
-  "p3_m2": {
-    "name": "Merluza a la Plancha",
-    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69b66b6dad027629d2f1e944.png",
-    "calories": 408.4,
-    "protein": 56.00000000000001,
-    "carbs": 0,
-    "fats": 18,
-    "ingredients": [
-      {
-        "name": "Filete de Merluza",
-        "quantity": "200",
-        "unit": "g",
-        "calories": 320,
-        "protein": 56.00000000000001,
-        "carbs": 0,
-        "fats": 8,
+        "fats": 6,
         "baseCalories": 1.6,
         "baseProtein": 0.28,
         "baseCarbs": 0,
         "baseFats": 0.04
       },
       {
-        "name": "Aceite de oliva virgen extra",
+        "name": "Nueces",
+        "quantity": "30",
+        "unit": "g",
+        "calories": 135,
+        "protein": 3,
+        "carbs": 4.5,
+        "fats": 12,
+        "baseCalories": 4.5,
+        "baseProtein": 0.1,
+        "baseCarbs": 0.15,
+        "baseFats": 0.4
+      },
+      {
+        "name": "Tomates Cherry",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 30,
+        "protein": 2,
+        "carbs": 5,
+        "fats": 0.2,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Aceite de Oliva Virgen Extra",
         "quantity": "10",
         "unit": "g",
         "calories": 88.4,
@@ -1168,31 +1106,71 @@ export const foodDatabase = {
         "baseFats": 1
       }
     ],
-    "preparation": "1. Sazonar los filetes o rodajas de merluza con sal, pimienta y opcionalmente un poco de ajo en polvo o perejil picado. 2. Calentar una plancha o sartén antiadherente a fuego medio-alto con un chorrito de aceite de oliva virgen extra. 3. Cuando el aceite esté caliente, colocar la merluza en la plancha. Cocinar durante unos 3-5 minutos por cada lado, dependiendo del grosor del pescado, hasta que esté opaca, bien cocida por dentro y se desmenuce fácilmente con un tenedor. 4. Servir inmediatamente, opcionalmente con un chorrito de zumo de limón fresco por encima."
+    "preparation": "1. Lavar los canónigos y los tomates cherry. 2. Cortar el queso fresco y el pavo en dados. 3. Trocear las nueces. 4. En un bol, mezclar todos los ingredientes. 5. Aliñar con una vinagreta suave.",
+    "originalBaseRecipeId": "cc_ensalada_de_queso_fresco_pavo_y_nueces"
   },
-  "p3_ext2": {
-    "name": "Fruta Densa (Plátano, Manzana, Pera)",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe4bb91eb325b93d4a82.png",
-    "calories": 90,
-    "protein": 0.75,
-    "carbs": 22.5,
-    "fats": 0.3,
+      "p3_m2": {
+    "name": "Bacalao con Pisto de Verduras",
+    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69fee682bc1f77cc3522d18f.png",
+    "calories": 330,
+    "protein": 48,
+    "carbs": 15,
+    "fats": 6.6,
     "ingredients": [
       {
-        "name": "Plátano",
-        "quantity": "1",
-        "unit": "unidad(es)",
+        "name": "Bacalao",
+        "quantity": "150",
+        "unit": "g",
+        "calories": 240,
+        "protein": 42,
+        "carbs": 0,
+        "fats": 6,
+        "baseCalories": 1.6,
+        "baseProtein": 0.28,
+        "baseCarbs": 0,
+        "baseFats": 0.04
+      },
+      {
+        "name": "Pisto de Verduras",
+        "quantity": "300",
+        "unit": "g",
         "calories": 90,
-        "protein": 0.75,
-        "carbs": 22.5,
-        "fats": 0.3,
-        "baseCalories": 90,
-        "baseProtein": 0.75,
-        "baseCarbs": 22.5,
-        "baseFats": 0.3
+        "protein": 6,
+        "carbs": 15,
+        "fats": 0.6,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
       }
     ],
-    "preparation": "1. Seleccionar la fruta densa de preferencia. 2. Para plátanos: pelar la piel y consumir directamente. 3. Para manzanas o peras: lavar bien la fruta. Se puede consumir con piel o pelada."
+    "preparation": "1. Cocinar el bacalao a la plancha. 2. Servir sobre una base de pisto de verduras caliente.",
+    "originalBaseRecipeId": "cc_bacalao_con_pisto_de_verduras"
+  },
+    "p3_ext2": {
+    "name": "Tortitas de Legumbres (Mercadona)",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682affdd9b8ed3082d7cbefc.png",
+    "calories": 32,
+    "protein": 1.6,
+    "carbs": 3.2,
+    "fats": 1.28,
+    "ingredients": [
+      {
+        "name": "Tortitas de Legumbres",
+        "quantity": "4",
+        "unit": "unidad(es)",
+        "calories": 32,
+        "protein": 1.6,
+        "carbs": 3.2,
+        "fats": 1.28,
+        "baseCalories": 8,
+        "baseProtein": 0.4,
+        "baseCarbs": 0.8,
+        "baseFats": 0.32
+      }
+    ],
+    "preparation": "1. Abrir el paquete de tortitas de legumbres. 2. Consumir directamente como snack crujiente. Son ideales para picar entre horas.",
+    "originalBaseRecipeId": "ext_tortitas_de_legumbres_mercadona"
   }
 };
 
@@ -1302,10 +1280,10 @@ export const dailyMenus = [
       "p3_ext2"
     ],
     "baselineTotals": {
-      "calories": 1557.1999999999998,
-      "protein": 149.75,
-      "carbs": 63.5145,
-      "fats": 77.89999999999999
+      "calories": 1546.9,
+      "protein": 151.825,
+      "carbs": 68.95,
+      "fats": 68.105
     }
   }
 ];
