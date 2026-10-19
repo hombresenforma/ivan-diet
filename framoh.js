@@ -1,5 +1,5 @@
 // Titulo: Plan de Alimentación
-// Alergias: 
+// Alergias: const foodDatabase = {
 const foodDatabase = {
   "p0_m0": {
     "name": "Porridge de Avena y Frutos Rojos",
@@ -7,7 +7,7 @@ const foodDatabase = {
     "calories": 675,
     "protein": 25,
     "carbs": 115,
-    "fats": 12.2,
+    "fats": 12,
     "ingredients": [
       {
         "name": "Copos de Avena",
@@ -49,15 +49,16 @@ const foodDatabase = {
         "baseFats": 0.002
       }
     ],
-    "preparation": "1. En un cazo, cocinar los copos de avena con la leche o bebida vegetal a fuego medio, removiendo constantemente hasta que espese y la avena esté cocida (unos 5-7 minutos). 2. Servir caliente en un bol con los frutos rojos por encima. Opcional: añadir canela o edulcorante al gusto."
+    "preparation": "1. En un cazo, cocinar los copos de avena con la leche o bebida vegetal a fuego medio, removiendo constantemente hasta que espese y la avena esté cocida (unos 5-7 minutos). 2. Servir caliente en un bol con los frutos rojos por encima. Opcional: añadir canela o edulcorante al gusto.",
+    "originalBaseRecipeId": ""
   },
   "p0_m1": {
     "name": "Ensalada de Pasta con Pollo",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afc47b91eb349463d47dd.png",
     "calories": 695,
-    "protein": 60.00000000000001,
+    "protein": 60,
     "carbs": 90,
-    "fats": 8.599999999999998,
+    "fats": 9,
     "ingredients": [
       {
         "name": "Pasta Integral",
@@ -151,15 +152,16 @@ const foodDatabase = {
         "baseFats": 0.002
       }
     ],
-    "preparation": "1. Cocer la pasta según las instrucciones del paquete. Escurrir, pasar por agua fría para detener la cocción y dejar enfriar. 2. Cocinar la pechuga de pollo (a la plancha, hervida o asada) y desmenuzarla o cortarla en dados. 3. Lavar los canónigos. Picar el tomate, pimiento rojo, pimiento verde y cebolla en trozos pequeños. 4. En un bol grande, combinar la pasta fría, el pollo, los canónigos y las verduras picadas. 5. Aliñar con aceite de oliva virgen extra, vinagre o tu salsa para ensaladas favorita (ej. yogur, mostaza y miel). Salpimentar al gusto."
+    "preparation": "1. Cocer la pasta según las instrucciones del paquete. Escurrir, pasar por agua fría para detener la cocción y dejar enfriar. 2. Cocinar la pechuga de pollo (a la plancha, hervida o asada) y desmenuzarla o cortarla en dados. 3. Lavar los canónigos. Picar el tomate, pimiento rojo, pimiento verde y cebolla en trozos pequeños. 4. En un bol grande, combinar la pasta fría, el pollo, los canónigos y las verduras picadas. 5. Aliñar con aceite de oliva virgen extra, vinagre o tu salsa para ensaladas favorita (ej. yogur, mostaza y miel). Salpimentar al gusto.",
+    "originalBaseRecipeId": ""
   },
   "p0_m2": {
     "name": "Wok de Verduras con Salmón",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afda0b91eb330dd3d49b2.png",
-    "calories": 494.2,
+    "calories": 494,
     "protein": 41,
     "carbs": 20,
-    "fats": 26.800000000000004,
+    "fats": 27,
     "ingredients": [
       {
         "name": "Tomate",
@@ -240,7 +242,8 @@ const foodDatabase = {
         "baseFats": 1
       }
     ],
-    "preparation": "1. Cortar el salmón en dados de tamaño mediano. Picar el tomate, pimiento rojo, pimiento verde y cebolla en trozos adecuados para wok (ej. juliana gruesa o dados). 2. Calentar un wok o sartén grande con un poco de aceite a fuego alto. Saltear el salmón unos 2-3 minutos hasta que esté dorado por fuera pero ligeramente crudo por dentro. Retirar y reservar. 3. Añadir las verduras más duras (cebolla, pimientos) al wok y saltear durante 3-4 minutos. Luego añadir el tomate y saltear 1-2 minutos más. 4. Incorporar el salmón de nuevo al wok. Añadir salsa de soja (baja en sodio preferiblemente) y un toque de jengibre rallado o ajo picado (opcional). Mezclar bien y cocinar por 1-2 minutos más hasta que el salmón esté cocido y todo bien caliente. Servir inmediatamente, opcionalmente sobre una base de arroz o noodles."
+    "preparation": "1. Cortar el salmón en dados de tamaño mediano. Picar el tomate, pimiento rojo, pimiento verde y cebolla en trozos adecuados para wok (ej. juliana gruesa o dados). 2. Calentar un wok o sartén grande con un poco de aceite a fuego alto. Saltear el salmón unos 2-3 minutos hasta que esté dorado por fuera pero ligeramente crudo por dentro. Retirar y reservar. 3. Añadir las verduras más duras (cebolla, pimientos) al wok y saltear durante 3-4 minutos. Luego añadir el tomate y saltear 1-2 minutos más. 4. Incorporar el salmón de nuevo al wok. Añadir salsa de soja (baja en sodio preferiblemente) y un toque de jengibre rallado o ajo picado (opcional). Mezclar bien y cocinar por 1-2 minutos más hasta que el salmón esté cocido y todo bien caliente. Servir inmediatamente, opcionalmente sobre una base de arroz o noodles.",
+    "originalBaseRecipeId": ""
   },
   "p0_m3": {
     "name": "Yogurt Protéico con Frutos Rojos y Secos",
@@ -248,7 +251,7 @@ const foodDatabase = {
     "calories": 265,
     "protein": 15,
     "carbs": 19,
-    "fats": 13.25,
+    "fats": 13,
     "ingredients": [
       {
         "name": "Yogur Protéico",
@@ -297,8 +300,8 @@ const foodDatabase = {
     "name": "Crema de Cacahuete",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68ee03e1c8952ccb30699d34.png",
     "calories": 180,
-    "protein": 7.5,
-    "carbs": 3.5999999999999996,
+    "protein": 8,
+    "carbs": 4,
     "fats": 15,
     "ingredients": [
       {
@@ -318,13 +321,38 @@ const foodDatabase = {
     "preparation": "Untar sobre tostadas, añadir a batidos o consumir directamente.",
     "originalBaseRecipeId": "ext_crema_de_cacahuete"
   },
+  "p0_m5": {
+    "name": "Fruta Densa (Plátano, Manzana, Pera)",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe4bb91eb325b93d4a82.png",
+    "calories": 90,
+    "protein": 1,
+    "carbs": 23,
+    "fats": 0,
+    "ingredients": [
+      {
+        "name": "Plátano",
+        "quantity": "1",
+        "unit": "ud",
+        "calories": 90,
+        "protein": 0.75,
+        "carbs": 22.5,
+        "fats": 0.3,
+        "baseCalories": 90,
+        "baseProtein": 0.75,
+        "baseCarbs": 22.5,
+        "baseFats": 0.3
+      }
+    ],
+    "preparation": "1. Seleccionar la fruta densa de preferencia. 2. Para plátanos: pelar la piel y consumir directamente. 3. Para manzanas o peras: lavar bien la fruta. Se puede consumir con piel o pelada.",
+    "originalBaseRecipeId": "ext_fruta_densa_pltano_manzana_pera"
+  },
   "p1_m0": {
     "name": "Tostada de Centeno con Queso Cottage y Cherries",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68792fea2035ba213493e87e.png",
     "calories": 193,
     "protein": 13,
-    "carbs": 25.3,
-    "fats": 4.1000000000000005,
+    "carbs": 25,
+    "fats": 4,
     "ingredients": [
       {
         "name": "Tostada de Pan de Centeno",
@@ -372,10 +400,10 @@ const foodDatabase = {
   "p1_m1": {
     "name": "Arroz tres delicias",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68872f8e1fc4545c499532f0.png",
-    "calories": 753.5,
-    "protein": 37.2,
-    "carbs": 91.95,
-    "fats": 26.1,
+    "calories": 754,
+    "protein": 37,
+    "carbs": 92,
+    "fats": 26,
     "ingredients": [
       {
         "name": "Arroz",
@@ -394,7 +422,6 @@ const foodDatabase = {
         "name": "Huevo (en tortilla)",
         "quantity": "1",
         "unit": "unidad(es)",
-        "gramsPerUnit": 50,
         "calories": 77.5,
         "protein": 6.5,
         "carbs": 0.55,
@@ -444,15 +471,16 @@ const foodDatabase = {
         "baseFats": 0.04
       }
     ],
-    "preparation": "1. Cocer el arroz y reservar. 2. Hacer una tortilla francesa con los huevos y cortarla en trocitos. 3. Saltear los guisantes y el maíz. 4. Cortar el jamón York en daditos. 5. Mezclar todos los ingredientes en una sartén o wok con un poco de salsa de soja (opcional) y saltear todo junto durante un par de minutos."
+    "preparation": "1. Cocer el arroz y reservar. 2. Hacer una tortilla francesa con los huevos y cortarla en trocitos. 3. Saltear los guisantes y el maíz. 4. Cortar el jamón York en daditos. 5. Mezclar todos los ingredientes en una sartén o wok con un poco de salsa de soja (opcional) y saltear todo junto durante un par de minutos.",
+    "originalBaseRecipeId": ""
   },
   "p1_m2": {
     "name": "Patatas Cocidas con Salteado de Verduras y Hamburguesa a la plancha",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cf8559b0c6709fc9afa98.png",
-    "calories": 582.5,
+    "calories": 583,
     "protein": 32,
-    "carbs": 52.5,
-    "fats": 27.05,
+    "carbs": 53,
+    "fats": 27,
     "ingredients": [
       {
         "name": "Patata",
@@ -527,15 +555,14 @@ const foodDatabase = {
     "name": "Yogur Griego Desnatado con Proteína en Polvo",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68e7efa6d27b18380fc8e8fd.png",
     "calories": 307,
-    "protein": 24.5,
-    "carbs": 25.75,
-    "fats": 10.6,
+    "protein": 25,
+    "carbs": 26,
+    "fats": 11,
     "ingredients": [
       {
         "name": "Yogur Griego Desnatado",
         "quantity": "2",
         "unit": "unidad(es)",
-        "gramsPerUnit": 125,
         "calories": 250,
         "protein": 12.5,
         "carbs": 25,
@@ -559,15 +586,16 @@ const foodDatabase = {
         "baseFats": 0.04
       }
     ],
-    "preparation": "1. Mezclar el yogur griego con la proteína en polvo en un bol hasta que esté bien integrado y sin grumos."
+    "preparation": "1. Mezclar el yogur griego con la proteína en polvo en un bol hasta que esté bien integrado y sin grumos.",
+    "originalBaseRecipeId": ""
   },
   "p1_m4": {
     "name": "Sandwich Vegetal de Jamón York",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cd5829b0c67f95e9a8e7e.png",
     "calories": 324,
-    "protein": 16.6,
-    "carbs": 35.2,
-    "fats": 12.759999999999998,
+    "protein": 17,
+    "carbs": 35,
+    "fats": 13,
     "ingredients": [
       {
         "name": "Pan de Centeno",
@@ -625,13 +653,38 @@ const foodDatabase = {
     "preparation": "1. Prepara un bocadillo con un par de rebanadas de Pan de Centeno. 2. Añade el Pavo o Jamón York y opcionalmente tomate y lechuga.",
     "originalBaseRecipeId": "des_sandwich_vegetal_de_jamn_york"
   },
+  "p1_m5": {
+    "name": "Fruta Densa (Plátano, Manzana, Pera)",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe4bb91eb325b93d4a82.png",
+    "calories": 90,
+    "protein": 1,
+    "carbs": 23,
+    "fats": 0,
+    "ingredients": [
+      {
+        "name": "Manzana",
+        "quantity": "1",
+        "unit": "ud",
+        "calories": 90,
+        "protein": 0.75,
+        "carbs": 22.5,
+        "fats": 0.3,
+        "baseCalories": 90,
+        "baseProtein": 0.75,
+        "baseCarbs": 22.5,
+        "baseFats": 0.3
+      }
+    ],
+    "preparation": "1. Seleccionar la fruta densa de preferencia. 2. Para plátanos: pelar la piel y consumir directamente. 3. Para manzanas o peras: lavar bien la fruta. Se puede consumir con piel o pelada.",
+    "originalBaseRecipeId": "ext_fruta_densa_pltano_manzana_pera"
+  },
   "p2_m0": {
     "name": "Revuelto de Huevos con Jamón",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682ad5e1e819fcb589a8a30e.png",
-    "calories": 365.75,
-    "protein": 32.45,
-    "carbs": 1.8150000000000004,
-    "fats": 25.15,
+    "calories": 366,
+    "protein": 32,
+    "carbs": 2,
+    "fats": 25,
     "ingredients": [
       {
         "name": "Huevos",
@@ -666,10 +719,10 @@ const foodDatabase = {
   "p2_m1": {
     "name": "Ensalada con Pollo y Queso de Burgos",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afdceb91eb360843d4a0b.png",
-    "calories": 604.2,
-    "protein": 70.5,
+    "calories": 604,
+    "protein": 71,
     "carbs": 24,
-    "fats": 22.2,
+    "fats": 22,
     "ingredients": [
       {
         "name": "Canónigos",
@@ -756,10 +809,10 @@ const foodDatabase = {
   "p2_m2": {
     "name": "Berenjenas Rellenas de Pavo al Horno",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6922cdf6e7de6638e2767e27.png",
-    "calories": 577.5,
-    "protein": 62.25000000000001,
-    "carbs": 22.05,
-    "fats": 23.15,
+    "calories": 578,
+    "protein": 62,
+    "carbs": 22,
+    "fats": 23,
     "ingredients": [
       {
         "name": "Berenjena",
@@ -833,10 +886,10 @@ const foodDatabase = {
   "p2_m3": {
     "name": "Revuelto de espinacas y champiñones con queso feta",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cfe059b0c6721a19b02e4.png",
-    "calories": 400.3,
+    "calories": 400,
     "protein": 30,
-    "carbs": 8.41,
-    "fats": 27.5,
+    "carbs": 8,
+    "fats": 28,
     "ingredients": [
       {
         "name": "Espinacas",
@@ -897,10 +950,10 @@ const foodDatabase = {
   "p3_m0": {
     "name": "Revuelto de Huevos y Claras con Jamón",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682ad5e1e819fcb589a8a30e.png",
-    "calories": 242.05,
-    "protein": 28.05,
-    "carbs": 1.2349999999999999,
-    "fats": 13.23,
+    "calories": 242,
+    "protein": 28,
+    "carbs": 1,
+    "fats": 13,
     "ingredients": [
       {
         "name": "Huevos",
@@ -948,9 +1001,9 @@ const foodDatabase = {
   "p3_m1": {
     "name": "Guisantes con Jamón y Sepia a la Plancha",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/695e2065c98330f34a08a046.png",
-    "calories": 649.2,
-    "protein": 75.75,
-    "carbs": 17.5,
+    "calories": 649,
+    "protein": 76,
+    "carbs": 18,
     "fats": 27,
     "ingredients": [
       {
@@ -1012,10 +1065,10 @@ const foodDatabase = {
   "p3_m2": {
     "name": "Crema de Calabacín con Huevo Poché y Jamón",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6922cdb9f96c9c55f5257809.png",
-    "calories": 346.5,
-    "protein": 30.900000000000002,
-    "carbs": 13.21,
-    "fats": 18.7,
+    "calories": 347,
+    "protein": 31,
+    "carbs": 13,
+    "fats": 19,
     "ingredients": [
       {
         "name": "Calabacín",
@@ -1089,10 +1142,10 @@ const foodDatabase = {
   "p3_m3": {
     "name": "Pasta de lentejas con sofrito de ternera y cerdo",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684efc77653a2c50f9172c7c.png",
-    "calories": 594.2,
-    "protein": 42.5,
-    "carbs": 39.4,
-    "fats": 27.600000000000005,
+    "calories": 594,
+    "protein": 43,
+    "carbs": 39,
+    "fats": 28,
     "ingredients": [
       {
         "name": "Pasta de Lentejas",
@@ -1163,14 +1216,14 @@ const foodDatabase = {
         "name": "Aceite de Oliva Virgen Extra",
         "quantity": "5",
         "unit": "g",
-        "baseCalories": 8.84,
-        "baseProtein": 0,
-        "baseCarbs": 0,
-        "baseFats": 1,
         "calories": 44.2,
         "protein": 0,
         "carbs": 0,
-        "fats": 5
+        "fats": 5,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1
       }
     ],
     "preparation": "1. Cocinar la pasta de lentejas según las instrucciones del paquete hasta que esté al dente. Escurrir y reservar. 2. Picar finamente la cebolla y la zanahoria. Rallar o picar el calabacín en dados pequeños. 3. En una sartén grande, calentar un poco de aceite de oliva y sofreír la cebolla y zanahoria hasta que estén blandas. 4. Añadir la carne picada mixta (ternera y cerdo) y cocinar a fuego medio-alto, deshaciendo los grumos con una cuchara, hasta que se dore. 5. Incorporar el calabacín y cocinar unos minutos más hasta que esté tierno. Añadir salsa de tomate (opcional, o tomate triturado natural) y sazonar al gusto con sal, pimienta, orégano o albahaca. Cocinar a fuego lento durante 10-15 minutos para que se integren los sabores. 6. Mezclar la pasta de lentejas escurrida con el sofrito. Servir caliente, opcionalmente con queso parmesano rallado.",
@@ -1178,6 +1231,11 @@ const foodDatabase = {
   },
   "p3_m4": {
     "name": "Tostada de Pan Wasa",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68e7f0c3fa127234824855fb.png",
+    "calories": 108,
+    "protein": 4,
+    "carbs": 20,
+    "fats": 1,
     "ingredients": [
       {
         "name": "Pan Wasa",
@@ -1193,15 +1251,10 @@ const foodDatabase = {
         "baseFats": 0.3
       }
     ],
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68e7f0c3fa127234824855fb.png",
     "preparation": "1. Servir como base para otros ingredientes o como acompañamiento.",
-    "calories": 108,
-    "protein": 3.5999999999999996,
-    "carbs": 20,
-    "fats": 1.2
+    "originalBaseRecipeId": ""
   }
 };
-
 const dailyMenus = [
   {
     "name": "Entreno 1",
@@ -1228,7 +1281,8 @@ const dailyMenus = [
     ],
     "extra": [
       "p0_m3",
-      "p0_m4"
+      "p0_m4",
+      "p0_m5"
     ]
   },
   {
@@ -1256,7 +1310,8 @@ const dailyMenus = [
     ],
     "extra": [
       "p1_m3",
-      "p1_m4"
+      "p1_m4",
+      "p1_m5"
     ]
   },
   {
