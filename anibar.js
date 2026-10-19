@@ -4,19 +4,19 @@ const foodDatabase = {
   "p0_m0": {
     "name": "Yogur Griego Desnatado con Proteína en Polvo",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68e7efa6d27b18380fc8e8fd.png",
-    "calories": 231,
-    "protein": 39,
-    "carbs": 7,
-    "fats": 4,
+    "calories": 234,
+    "protein": 34,
+    "carbs": 10,
+    "fats": 5,
     "ingredients": [
       {
         "name": "Yogur Griego Desnatado",
-        "quantity": "125",
+        "quantity": "200",
         "unit": "g",
-        "calories": 75,
-        "protein": 6.25,
-        "carbs": 5,
-        "fats": 2.5,
+        "calories": 120,
+        "protein": 10,
+        "carbs": 8,
+        "fats": 4,
         "baseCalories": 0.6,
         "baseProtein": 0.05,
         "baseCarbs": 0.04,
@@ -24,12 +24,12 @@ const foodDatabase = {
       },
       {
         "name": "Proteína en Polvo",
-        "quantity": "41",
+        "quantity": "30",
         "unit": "g",
-        "calories": 155.79999999999998,
-        "protein": 32.800000000000004,
-        "carbs": 2.0500000000000003,
-        "fats": 1.6400000000000001,
+        "calories": 114,
+        "protein": 24,
+        "carbs": 1.5,
+        "fats": 1.2,
         "baseCalories": 3.8,
         "baseProtein": 0.8,
         "baseCarbs": 0.05,
@@ -42,9 +42,9 @@ const foodDatabase = {
   "p0_m1": {
     "name": "Bacalao con Pisto de Verduras",
     "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69fee682bc1f77cc3522d18f.png",
-    "calories": 310,
-    "protein": 36,
-    "carbs": 5,
+    "calories": 325,
+    "protein": 37,
+    "carbs": 8,
     "fats": 15,
     "ingredients": [
       {
@@ -62,12 +62,12 @@ const foodDatabase = {
       },
       {
         "name": "Pisto de Verduras",
-        "quantity": "100",
+        "quantity": "150",
         "unit": "g",
-        "calories": 30,
-        "protein": 2,
-        "carbs": 5,
-        "fats": 0.2,
+        "calories": 45,
+        "protein": 3,
+        "carbs": 7.5,
+        "fats": 0.3,
         "baseCalories": 0.3,
         "baseProtein": 0.02,
         "baseCarbs": 0.05,
@@ -426,10 +426,10 @@ const foodDatabase = {
   "p1_m2": {
     "name": "Patata con brócoli y pollo asado",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687de454838c601605b6e271.png",
-    "calories": 522,
-    "protein": 46,
+    "calories": 570,
+    "protein": 54,
     "carbs": 50,
-    "fats": 13,
+    "fats": 14,
     "ingredients": [
       {
         "name": "Patata",
@@ -459,12 +459,12 @@ const foodDatabase = {
       },
       {
         "name": "Pechuga de Pollo",
-        "quantity": "141",
+        "quantity": "171",
         "unit": "g",
-        "calories": 225.60000000000002,
-        "protein": 39.480000000000004,
+        "calories": 273.6,
+        "protein": 47.88,
         "carbs": 0,
-        "fats": 5.64,
+        "fats": 6.84,
         "baseCalories": 1.6,
         "baseProtein": 0.28,
         "baseCarbs": 0,
@@ -654,6 +654,31 @@ const foodDatabase = {
     "originalBaseRecipeId": "cc_solomillo_de_cerdo_con_verduras_y_salsa_de_soja"
   },
   "p2_m2": {
+    "name": "Arroz Hervido",
+    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69fee8aca3dd25aa2ac2626b.png",
+    "calories": 219,
+    "protein": 7,
+    "carbs": 45,
+    "fats": 1,
+    "ingredients": [
+      {
+        "name": "Arroz",
+        "quantity": "60",
+        "unit": "g",
+        "calories": 219,
+        "protein": 7.199999999999999,
+        "carbs": 45,
+        "fats": 1.2,
+        "baseCalories": 3.65,
+        "baseProtein": 0.12,
+        "baseCarbs": 0.75,
+        "baseFats": 0.02
+      }
+    ],
+    "preparation": "1. Cocer el arroz en agua con sal según las instrucciones del paquete hasta que esté en su punto. 2. Escurrir bien y servir.",
+    "originalBaseRecipeId": "custom_imp_1790075692786_8xcj"
+  },
+  "p2_m3": {
     "name": "Quinoa con ternera y verduras",
     "image": "https://raw.githubusercontent.com/hombresenforma/ivan-diet/main/assets/ivandt/dias-4-7/quinoa-ternera-verduras.jpg",
     "calories": 734,
@@ -730,7 +755,7 @@ const foodDatabase = {
     "preparation": "1. Lavar y cocer la quinoa según el envase. 2. Saltear el pimiento y el calabacín con el aceite medido, añadir la ternera en tiras y cocinar; mezclar con la quinoa.",
     "originalBaseRecipeId": "cc_quinoa_con_ternera_y_verduras"
   },
-  "p2_m3": {
+  "p2_m4": {
     "name": "Naranja con anacardos",
     "image": "https://raw.githubusercontent.com/hombresenforma/ivan-diet/main/assets/ivandt/dias-4-7/naranja-anacardos.jpg",
     "calories": 135,
@@ -767,31 +792,6 @@ const foodDatabase = {
     ],
     "preparation": "1. Pelar la naranja, separar los gajos y servir con los anacardos pesados.",
     "originalBaseRecipeId": "ext_naranja_con_anacardos"
-  },
-  "p2_m4": {
-    "name": "Arroz Hervido",
-    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69fee8aca3dd25aa2ac2626b.png",
-    "calories": 219,
-    "protein": 7,
-    "carbs": 45,
-    "fats": 1,
-    "ingredients": [
-      {
-        "name": "Arroz",
-        "quantity": "60",
-        "unit": "g",
-        "calories": 219,
-        "protein": 7.199999999999999,
-        "carbs": 45,
-        "fats": 1.2,
-        "baseCalories": 3.65,
-        "baseProtein": 0.12,
-        "baseCarbs": 0.75,
-        "baseFats": 0.02
-      }
-    ],
-    "preparation": "1. Cocer el arroz en agua con sal según las instrucciones del paquete hasta que esté en su punto. 2. Escurrir bien y servir.",
-    "originalBaseRecipeId": "custom_imp_1790075692786_8xcj"
   },
   "p3_m0": {
     "name": "Bol proteico de skyr, frutos rojos y avena",
@@ -860,10 +860,10 @@ const foodDatabase = {
   "p3_m1": {
     "name": "Ensalada con Pollo y Queso de Burgos",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afdceb91eb360843d4a0b.png",
-    "calories": 446,
-    "protein": 49,
-    "carbs": 22,
-    "fats": 16,
+    "calories": 546,
+    "protein": 61,
+    "carbs": 26,
+    "fats": 20,
     "ingredients": [
       {
         "name": "Canónigos",
@@ -906,12 +906,12 @@ const foodDatabase = {
       },
       {
         "name": "Queso de Burgos 0%",
-        "quantity": "50",
+        "quantity": "150",
         "unit": "g",
-        "calories": 50,
-        "protein": 6,
-        "carbs": 2,
-        "fats": 2,
+        "calories": 150,
+        "protein": 18,
+        "carbs": 6,
+        "fats": 6,
         "baseCalories": 1,
         "baseProtein": 0.12,
         "baseCarbs": 0.04,
@@ -1148,13 +1148,13 @@ const dailyMenus = [
     ],
     "comida": [
       "p2_m1",
-      "p2_m4"
-    ],
-    "cena": [
       "p2_m2"
     ],
-    "extra": [
+    "cena": [
       "p2_m3"
+    ],
+    "extra": [
+      "p2_m4"
     ]
   },
   {
