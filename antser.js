@@ -40,56 +40,6 @@ const foodDatabase = {
     "originalBaseRecipeId": "des_revuelto_de_huevos_con_jamn"
   },
   "p0_m1": {
-    "name": "Yogur Protéico (Sabores, Natural...)",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd789b8ed38b127cbc09.png",
-    "calories": 125,
-    "protein": 6,
-    "carbs": 13,
-    "fats": 5,
-    "ingredients": [
-      {
-        "name": "Yogur Protéico",
-        "quantity": "1",
-        "unit": "unidad(es)",
-        "calories": 125,
-        "protein": 6.25,
-        "carbs": 12.5,
-        "fats": 5,
-        "baseCalories": 125,
-        "baseProtein": 6.25,
-        "baseCarbs": 12.5,
-        "baseFats": 5
-      }
-    ],
-    "preparation": "1. Seleccionar el yogur proteico de preferencia. 2. Abrir el envase. 3. Consumir directamente con una cuchara.",
-    "originalBaseRecipeId": "ext_yogur_protico_sabores_natural"
-  },
-  "p0_m2": {
-    "name": "Fruta Densa (Plátano, Manzana)",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe4bb91eb325b93d4a82.png",
-    "calories": 72,
-    "protein": 1,
-    "carbs": 18,
-    "fats": 0,
-    "ingredients": [
-      {
-        "name": "Plátano",
-        "quantity": "1",
-        "unit": "unidad(es)",
-        "calories": 72,
-        "protein": 0.6,
-        "carbs": 18,
-        "fats": 0.24,
-        "baseCalories": 72,
-        "baseProtein": 0.6,
-        "baseCarbs": 18,
-        "baseFats": 0.24
-      }
-    ],
-    "preparation": "1. Seleccionar la fruta densa de preferencia. 2. Para plátanos: pelar la piel y consumir directamente. 3. Para manzanas o peras: lavar bien la fruta. Se puede consumir con piel o pelada.",
-    "originalBaseRecipeId": "ext_fruta_densa_pltano_manzana"
-  },
-  "p0_m3": {
     "name": "Ensalada de Tomate, Maíz, Queso de Burgos y Frutos Secos",
     "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/6a953b1ea90361de8b63e6cb.png",
     "calories": 613,
@@ -166,7 +116,7 @@ const foodDatabase = {
     "preparation": "1. Cortar el tomate en trozos. 2. Añadir el maíz, el queso de Burgos troceado y los frutos secos por encima. 3. Aliñar al gusto.",
     "originalBaseRecipeId": "pp_ensalada_de_tomate_maz_queso_de_burgos_y_frutos_secos"
   },
-  "p0_m4": {
+  "p0_m2": {
     "name": "Ensala de Patata, Atún y Huevo",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afc08b91eb31afe3d4796.png",
     "calories": 531,
@@ -229,6 +179,56 @@ const foodDatabase = {
     ],
     "preparation": "Mezclar ingredientes troceados y aliñar.",
     "originalBaseRecipeId": "custom_imp_1778487627514_5hjw"
+  },
+  "p0_m3": {
+    "name": "Yogur Protéico (Sabores, Natural...)",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd789b8ed38b127cbc09.png",
+    "calories": 125,
+    "protein": 6,
+    "carbs": 13,
+    "fats": 5,
+    "ingredients": [
+      {
+        "name": "Yogur Protéico",
+        "quantity": "1",
+        "unit": "unidad(es)",
+        "calories": 125,
+        "protein": 6.25,
+        "carbs": 12.5,
+        "fats": 5,
+        "baseCalories": 125,
+        "baseProtein": 6.25,
+        "baseCarbs": 12.5,
+        "baseFats": 5
+      }
+    ],
+    "preparation": "1. Seleccionar el yogur proteico de preferencia. 2. Abrir el envase. 3. Consumir directamente con una cuchara.",
+    "originalBaseRecipeId": "ext_yogur_protico_sabores_natural"
+  },
+  "p0_m4": {
+    "name": "Fruta Densa (Plátano, Manzana)",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe4bb91eb325b93d4a82.png",
+    "calories": 72,
+    "protein": 1,
+    "carbs": 18,
+    "fats": 0,
+    "ingredients": [
+      {
+        "name": "Plátano",
+        "quantity": "1",
+        "unit": "unidad(es)",
+        "calories": 72,
+        "protein": 0.6,
+        "carbs": 18,
+        "fats": 0.24,
+        "baseCalories": 72,
+        "baseProtein": 0.6,
+        "baseCarbs": 18,
+        "baseFats": 0.24
+      }
+    ],
+    "preparation": "1. Seleccionar la fruta densa de preferencia. 2. Para plátanos: pelar la piel y consumir directamente. 3. Para manzanas o peras: lavar bien la fruta. Se puede consumir con piel o pelada.",
+    "originalBaseRecipeId": "ext_fruta_densa_pltano_manzana"
   },
   "p1_m0": {
     "name": "Tostada de Pan de Centeno con Revuelto de Huevos y Jamón York",
@@ -1587,14 +1587,14 @@ const dailyMenus = [
       "p0_m0"
     ],
     "comida": [
-      "p0_m3"
+      "p0_m1"
     ],
     "cena": [
-      "p0_m4"
+      "p0_m2"
     ],
     "extra": [
-      "p0_m1",
-      "p0_m2"
+      "p0_m3",
+      "p0_m4"
     ]
   },
   {
