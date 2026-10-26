@@ -55,19 +55,19 @@ const foodDatabase = {
   "p0_m1": {
     "name": "Ensalada de Lentejas",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682aff5a365e949c0a73d706.png",
-    "calories": 589.7,
-    "protein": 36.5,
-    "carbs": 76,
-    "fats": 17.25,
+    "calories": 738.9,
+    "protein": 41.1667,
+    "carbs": 89.3333,
+    "fats": 26.1667,
     "ingredients": [
       {
         "name": "Lentejas Cocidas",
-        "quantity": "250",
+        "quantity": "300",
         "unit": "g",
-        "calories": 325,
-        "protein": 20,
-        "carbs": 55,
-        "fats": 1.25,
+        "calories": 390,
+        "protein": 24,
+        "carbs": 66,
+        "fats": 1.5,
         "baseCalories": 1.3,
         "baseProtein": 0.08,
         "baseCarbs": 0.22,
@@ -114,12 +114,12 @@ const foodDatabase = {
       },
       {
         "name": "Aguacate",
-        "quantity": "75",
+        "quantity": "100",
         "unit": "g",
-        "calories": 120,
-        "protein": 2,
-        "carbs": 7,
-        "fats": 11,
+        "calories": 160,
+        "protein": 2.666667,
+        "carbs": 9.333333,
+        "fats": 14.666667,
         "baseCalories": 1.6,
         "baseProtein": 0.02666666666666667,
         "baseCarbs": 0.09333333333333334,
@@ -127,16 +127,42 @@ const foodDatabase = {
       },
       {
         "name": "Aceite de Oliva Virgen Extra",
-        "quantity": "5",
+        "quantity": "10",
         "unit": "g",
         "baseCalories": 8.84,
         "baseProtein": 0,
         "baseCarbs": 0,
         "baseFats": 1,
-        "calories": 44.2,
+        "calories": 88.4,
         "protein": 0,
         "carbs": 0,
-        "fats": 5
+        "fats": 10
+      },
+      {
+        "name": "Vinagre",
+        "quantity": "10",
+        "unit": "g",
+        "baseCalories": 0,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 0,
+        "calories": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 0
+      },
+      {
+        "name": "Sal",
+        "quantity": "1",
+        "unit": "g",
+        "baseCalories": 0,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 0,
+        "calories": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 0
       }
     ],
     "preparation": "1. Si usas lentejas de bote, enjuagarlas bien bajo el grifo y escurrirlas. Si las cocinas, déjalas enfriar. 2. Picar el tomate y la cebolla (preferiblemente morada) en dados pequeños. Cortar el queso de Burgos 0% y el aguacate en dados. 3. En un bol grande, mezclar con cuidado las lentejas, el tomate, la cebolla, el queso de Burgos y el aguacate. 4. Aliñar con aceite de oliva virgen extra, vinagre (de manzana o Jerez) y sal al gusto.",
@@ -476,19 +502,19 @@ const foodDatabase = {
   "p1_m2": {
     "name": "Ensalada de Pasta con Pollo",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afc47b91eb349463d47dd.png",
-    "calories": 827.95,
-    "protein": 66.50000000000001,
-    "carbs": 102.5,
-    "fats": 14.950000000000001,
+    "calories": 978.4,
+    "protein": 70,
+    "carbs": 124.25,
+    "fats": 20.59,
     "ingredients": [
       {
         "name": "Pasta Integral",
-        "quantity": "125",
+        "quantity": "150",
         "unit": "g",
-        "calories": 456.25,
-        "protein": 15.000000000000002,
-        "carbs": 93.75,
-        "fats": 2.5,
+        "calories": 547.5,
+        "protein": 18,
+        "carbs": 112.5,
+        "fats": 3,
         "baseCalories": 3.65,
         "baseProtein": 0.12000000000000001,
         "baseCarbs": 0.75,
@@ -499,7 +525,7 @@ const foodDatabase = {
         "quantity": "175",
         "unit": "g",
         "calories": 280,
-        "protein": 49.00000000000001,
+        "protein": 49,
         "carbs": 0,
         "fats": 7,
         "baseCalories": 1.6,
@@ -535,12 +561,12 @@ const foodDatabase = {
       },
       {
         "name": "Pimiento Rojo",
-        "quantity": "25",
+        "quantity": "75",
         "unit": "g",
-        "calories": 7.5,
-        "protein": 0.25,
-        "carbs": 1.5,
-        "fats": 0.07,
+        "calories": 22.5,
+        "protein": 0.75,
+        "carbs": 4.5,
+        "fats": 0.21,
         "baseCalories": 0.3,
         "baseProtein": 0.01,
         "baseCarbs": 0.06,
@@ -574,16 +600,55 @@ const foodDatabase = {
       },
       {
         "name": "Aceite de Oliva Virgen Extra",
-        "quantity": "5",
+        "quantity": "10",
         "unit": "g",
         "baseCalories": 8.84,
         "baseProtein": 0,
         "baseCarbs": 0,
         "baseFats": 1,
-        "calories": 44.2,
+        "calories": 88.4,
         "protein": 0,
         "carbs": 0,
-        "fats": 5
+        "fats": 10
+      },
+      {
+        "name": "Vinagre",
+        "quantity": "10",
+        "unit": "g",
+        "baseCalories": 0,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 0,
+        "calories": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 0
+      },
+      {
+        "name": "Sal",
+        "quantity": "1",
+        "unit": "g",
+        "baseCalories": 0,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 0,
+        "calories": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 0
+      },
+      {
+        "name": "Pimienta",
+        "quantity": "1",
+        "unit": "g",
+        "baseCalories": 0,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 0,
+        "calories": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 0
       }
     ],
     "preparation": "1. Cocer la pasta según las instrucciones del paquete. Escurrir, pasar por agua fría para detener la cocción y dejar enfriar. 2. Cocinar la pechuga de pollo (a la plancha, hervida o asada) y desmenuzarla o cortarla en dados. 3. Lavar los canónigos. Picar el tomate, pimiento rojo, pimiento verde y cebolla en trozos pequeños. 4. En un bol grande, combinar la pasta fría, el pollo, los canónigos y las verduras picadas. 5. Aliñar con aceite de oliva virgen extra, vinagre o tu salsa para ensaladas favorita (ej. yogur, mostaza y miel). Salpimentar al gusto.",
@@ -1832,15 +1897,16 @@ const dailyMenus = [
   {
     "name": "Entreno 1",
     "targetMacros": {
-      "calories": 2700,
-      "protein": 150,
-      "carbs": 250
+      "calories": 2697,
+      "protein": 203,
+      "carbs": 298,
+      "fats": 78
     },
     "baselineTotals": {
-      "calories": 2547.05,
-      "protein": 198.54999999999998,
-      "carbs": 284.65000000000003,
-      "fats": 69.15
+      "calories": 2696.25,
+      "protein": 203.22,
+      "carbs": 297.98,
+      "fats": 78.07
     },
     "desayuno": [
       "p0_m0"
@@ -1861,15 +1927,16 @@ const dailyMenus = [
   {
     "name": "Entreno 2",
     "targetMacros": {
-      "calories": 2700,
-      "protein": 150,
-      "carbs": 250
+      "calories": 2725,
+      "protein": 176,
+      "carbs": 341,
+      "fats": 70
     },
     "baselineTotals": {
-      "calories": 2574.75,
-      "protein": 172.48,
-      "carbs": 319.35,
-      "fats": 64.41333333333333
+      "calories": 2725.2,
+      "protein": 175.98,
+      "carbs": 341.1,
+      "fats": 70.05
     },
     "desayuno": [
       "p1_m0",
