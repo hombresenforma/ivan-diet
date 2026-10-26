@@ -796,7 +796,325 @@ const foodDatabase = {
       }
     ],
     "preparation": "1. Verter los cereales en un bol. 2. Añadir leche o bebida vegetal al gusto."
-  }
+  },
+"p3_m0": {
+  "name": "Pudding de chía alto en proteína",
+  "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687d043e9b0c67b6db9b08b8.png",
+  "ingredients": [
+    {
+      "name": "Semillas de Chía",
+      "quantity": "15",
+      "unit": "g",
+      "baseCalories": 4.5,
+      "baseProtein": 0.1,
+      "baseCarbs": 0.15,
+      "baseFats": 0.4,
+      "calories": 67.5,
+      "protein": 1.5,
+      "carbs": 2.25,
+      "fats": 6
+    },
+    {
+      "name": "Leche",
+      "quantity": "200",
+      "unit": "g",
+      "baseCalories": 0.46,
+      "baseProtein": 0.034,
+      "baseCarbs": 0.048,
+      "baseFats": 0.016,
+      "calories": 92,
+      "protein": 6.8,
+      "carbs": 9.6,
+      "fats": 3.2
+    },
+    {
+      "name": "Proteína en Polvo",
+      "quantity": "25",
+      "unit": "g",
+      "baseCalories": 3.8,
+      "baseProtein": 0.8,
+      "baseCarbs": 0.05,
+      "baseFats": 0.04,
+      "calories": 95,
+      "protein": 20,
+      "carbs": 1.25,
+      "fats": 1
+    }
+  ],
+  "preparation": "1. Mezclar las semillas de chía, la leche (o bebida vegetal) y la proteína en polvo en un recipiente. 2. Remover bien y dejar reposar en la nevara durante al menos 4 horas o toda la noche. 3. Servir frío, opcionalmente con fruta o frutos secos.",
+  "calories": 254.5,
+  "protein": 28.3,
+  "carbs": 13.1,
+  "fats": 10.2
+},
+"p3_m1": {
+  "name": "Estofado de Lentejas con Verduras y Costilla",
+  "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6922cf648c174dc51742182c.png",
+  "ingredients": [
+    {
+      "name": "Lentejas Cocidas",
+      "quantity": "175",
+      "unit": "g",
+      "baseCalories": 1.3,
+      "baseProtein": 0.08,
+      "baseCarbs": 0.22,
+      "baseFats": 0.005,
+      "calories": 227.5,
+      "protein": 14,
+      "carbs": 38.5,
+      "fats": 0.875
+    },
+    {
+      "name": "Costilla de Cerdo",
+      "quantity": "125",
+      "unit": "g",
+      "baseCalories": 2.2,
+      "baseProtein": 0.22,
+      "baseCarbs": 0,
+      "baseFats": 0.14,
+      "calories": 275,
+      "protein": 27.5,
+      "carbs": 0,
+      "fats": 17.5
+    },
+    {
+      "name": "Zanahoria",
+      "quantity": "100",
+      "unit": "g",
+      "baseCalories": 0.3,
+      "baseProtein": 0.02,
+      "baseCarbs": 0.05,
+      "baseFats": 0.002,
+      "calories": 30,
+      "protein": 2,
+      "carbs": 5,
+      "fats": 0.2
+    },
+    {
+      "name": "Pimiento Rojo",
+      "quantity": "100",
+      "unit": "g",
+      "baseCalories": 0.3,
+      "baseProtein": 0.02,
+      "baseCarbs": 0.05,
+      "baseFats": 0.002,
+      "calories": 30,
+      "protein": 2,
+      "carbs": 5,
+      "fats": 0.2
+    },
+    {
+      "name": "Cebolla",
+      "quantity": "50",
+      "unit": "g",
+      "baseCalories": 0.3,
+      "baseProtein": 0.02,
+      "baseCarbs": 0.05,
+      "baseFats": 0.002,
+      "calories": 15,
+      "protein": 1,
+      "carbs": 2.5,
+      "fats": 0.1
+    },
+    {
+      "name": "Ajo",
+      "quantity": "5",
+      "unit": "g",
+      "baseCalories": 0.3,
+      "baseProtein": 0.02,
+      "baseCarbs": 0.05,
+      "baseFats": 0.002,
+      "calories": 1.5,
+      "protein": 0.1,
+      "carbs": 0.25,
+      "fats": 0.01
+    },
+    {
+      "name": "Agua",
+      "quantity": "200",
+      "unit": "g",
+      "baseCalories": 0,
+      "baseProtein": 0,
+      "baseCarbs": 0,
+      "baseFats": 0,
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fats": 0
+    },
+    {
+      "name": "Laurel",
+      "quantity": "1",
+      "unit": "g",
+      "baseCalories": 0,
+      "baseProtein": 0,
+      "baseCarbs": 0,
+      "baseFats": 0,
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fats": 0
+    },
+    {
+      "name": "Pimentón",
+      "quantity": "1",
+      "unit": "g",
+      "baseCalories": 0,
+      "baseProtein": 0,
+      "baseCarbs": 0,
+      "baseFats": 0,
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fats": 0
+    }
+  ],
+  "preparation": "1. Sofreír la costilla troceada hasta dorar. 2. Añadir las verduras picadas y pochar. 3. Añadir las lentejas (si son de bote, lavadas; si son secas, remojadas) y cubrir con agua/caldo. 4. Cocer hasta que todo esté tierno. Sazonar con laurel y pimentón.",
+  "calories": 579,
+  "protein": 46.6,
+  "carbs": 51.25,
+  "fats": 18.89
+},
+"p3_m2": {
+  "name": "Sopa de Galets y Pelota de carne de Vacuno",
+  "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6922d159995c4b0151a32409.png",
+  "ingredients": [
+    {
+      "name": "Galets",
+      "quantity": "100",
+      "unit": "g",
+      "baseCalories": 3.65,
+      "baseProtein": 0.12,
+      "baseCarbs": 0.75,
+      "baseFats": 0.02,
+      "calories": 365,
+      "protein": 12,
+      "carbs": 75,
+      "fats": 2
+    },
+    {
+      "name": "Carne Picada de Vacuno",
+      "quantity": "125",
+      "unit": "g",
+      "baseCalories": 2.2,
+      "baseProtein": 0.22,
+      "baseCarbs": 0,
+      "baseFats": 0.14,
+      "calories": 275,
+      "protein": 27.5,
+      "carbs": 0,
+      "fats": 17.5
+    },
+    {
+      "name": "Huevo",
+      "quantity": "1",
+      "unit": "ud",
+      "baseCalories": 85.25,
+      "baseProtein": 7.15,
+      "baseCarbs": 0.605,
+      "baseFats": 6.05,
+      "gramsPerUnit": 55,
+      "calories": 85.25,
+      "protein": 7.15,
+      "carbs": 0.605,
+      "fats": 6.05
+    },
+    {
+      "name": "Pan Rallado",
+      "quantity": "10",
+      "unit": "g",
+      "baseCalories": 2.7,
+      "baseProtein": 0.09,
+      "baseCarbs": 0.5,
+      "baseFats": 0.03,
+      "calories": 27,
+      "protein": 0.9,
+      "carbs": 5,
+      "fats": 0.3
+    },
+    {
+      "name": "Caldo de Carne",
+      "quantity": "300",
+      "unit": "g",
+      "baseCalories": 0,
+      "baseProtein": 0,
+      "baseCarbs": 0,
+      "baseFats": 0,
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fats": 0
+    },
+    {
+      "name": "Ajo",
+      "quantity": "5",
+      "unit": "g",
+      "baseCalories": 0.3,
+      "baseProtein": 0.02,
+      "baseCarbs": 0.05,
+      "baseFats": 0.002,
+      "calories": 1.5,
+      "protein": 0.1,
+      "carbs": 0.25,
+      "fats": 0.01
+    },
+    {
+      "name": "Perejil",
+      "quantity": "1",
+      "unit": "g",
+      "baseCalories": 0,
+      "baseProtein": 0,
+      "baseCarbs": 0,
+      "baseFats": 0,
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fats": 0
+    }
+  ],
+  "preparation": "1. Mezclar la carne picada con el huevo, un poco de pan rallado, ajo y perejil para formar las pelotas. 2. Poner el caldo de carne a hervir. 3. Cuando hierva, añadir las pelotas y los galets. 4. Cocinar a fuego medio durante 15-20 minutos hasta que la pasta esté lista y la carne cocida.",
+  "calories": 753.75,
+  "protein": 47.65,
+  "carbs": 80.86,
+  "fats": 25.86
+},
+"p3_m3": {
+  "name": "Batido Whey de Proteínas",
+  "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684f021af6c48d41b5a5c003.png",
+  "ingredients": [
+    {
+      "name": "Proteína Whey en Polvo",
+      "quantity": "30",
+      "unit": "g",
+      "baseCalories": 3.8,
+      "baseProtein": 0.8,
+      "baseCarbs": 0.05,
+      "baseFats": 0.04,
+      "calories": 114,
+      "protein": 24,
+      "carbs": 1.5,
+      "fats": 1.2
+    },
+    {
+      "name": "Agua",
+      "quantity": "250",
+      "unit": "g",
+      "baseCalories": 0,
+      "baseProtein": 0,
+      "baseCarbs": 0,
+      "baseFats": 0,
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fats": 0
+    }
+  ],
+  "preparation": "1. En un shaker, añadir la cantidad recomendada de proteína en polvo. 2. Añadir la cantidad de líquido deseada (unos 200-300 ml). 3. Cerrar bien el shaker. 4. Agitar enérgicamente durante unos 20-30 segundos hasta que el polvo esté completamente disuelto.",
+  "calories": 114,
+  "protein": 24,
+  "carbs": 1.5,
+  "fats": 1.2
+}
 };
 const dailyMenus = [
   {
@@ -876,5 +1194,32 @@ const dailyMenus = [
     "extra": [
       "p2_m3"
     ]
-  }
+  },
+{
+  "name": "Día 4",
+  "targetMacros": {
+    "calories": 1700,
+    "protein": 150,
+    "carbs": 150
+  },
+  "baselineTotals": {
+    "calories": 1701.25,
+    "protein": 146.55,
+    "carbs": 146.7,
+    "fats": 56.14
+  },
+  "desayuno": [
+    "p3_m0"
+  ],
+  "comida": [
+    "p3_m1"
+  ],
+  "cena": [
+    "p3_m2"
+  ],
+  "extra": [
+    "p3_m3"
+  ]
+}
 ];
+
