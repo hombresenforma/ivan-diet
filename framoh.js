@@ -1254,6 +1254,315 @@ const foodDatabase = {
     "preparation": "1. Servir como base para otros ingredientes o como acompañamiento.",
     "originalBaseRecipeId": ""
   }
+,
+
+  "intermedio_desayuno": {
+    "name": "Pudding de chía alto en proteína",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687d043e9b0c67b6db9b08b8.png",
+    "calories": 389.4,
+    "protein": 40.5,
+    "carbs": 17.28,
+    "fats": 15.599999999999998,
+    "ingredients": [
+      {
+        "name": "Semillas de Chía",
+        "quantity": "30",
+        "unit": "g",
+        "calories": 137.4,
+        "protein": 6.3,
+        "carbs": 1.38,
+        "fats": 9.6,
+        "baseCalories": 4.58,
+        "baseProtein": 0.21,
+        "baseCarbs": 0.046,
+        "baseFats": 0.32
+      },
+      {
+        "name": "Leche",
+        "quantity": "300",
+        "unit": "g",
+        "calories": 138,
+        "protein": 10.200000000000001,
+        "carbs": 14.4,
+        "fats": 4.8,
+        "baseCalories": 0.46,
+        "baseProtein": 0.034,
+        "baseCarbs": 0.048,
+        "baseFats": 0.016
+      },
+      {
+        "name": "Proteína en Polvo",
+        "quantity": "30",
+        "unit": "g",
+        "calories": 114,
+        "protein": 24,
+        "carbs": 1.5,
+        "fats": 1.2,
+        "baseCalories": 3.8,
+        "baseProtein": 0.8,
+        "baseCarbs": 0.05,
+        "baseFats": 0.04
+      }
+    ],
+    "preparation": "1. Mezclar las semillas de chía, la leche (o bebida vegetal) y la proteína en polvo en un recipiente. 2. Remover bien y dejar reposar en la nevara durante al menos 4 horas o toda la noche. 3. Servir frío, opcionalmente con fruta o frutos secos.",
+    "originalBaseRecipeId": ""
+  },
+  "intermedio_comida": {
+    "name": "Butifarra con Judías Blancas y Cebolla",
+    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/6a953c577fb05fdeb8118095.png",
+    "calories": 428,
+    "protein": 25.65,
+    "carbs": 35.15,
+    "fats": 17.740000000000002,
+    "ingredients": [
+      {
+        "name": "Butifarra",
+        "quantity": "80",
+        "unit": "g",
+        "calories": 212,
+        "protein": 12,
+        "carbs": 4.4,
+        "fats": 16.240000000000002,
+        "baseCalories": 2.65,
+        "baseProtein": 0.15,
+        "baseCarbs": 0.055,
+        "baseFats": 0.203
+      },
+      {
+        "name": "Judías Blancas",
+        "quantity": "225",
+        "unit": "g",
+        "calories": 193.5,
+        "protein": 12.15,
+        "carbs": 27,
+        "fats": 1.35,
+        "baseCalories": 0.86,
+        "baseProtein": 0.054,
+        "baseCarbs": 0.12,
+        "baseFats": 0.006
+      },
+      {
+        "name": "Cebolla",
+        "quantity": "75",
+        "unit": "g",
+        "calories": 22.5,
+        "protein": 1.5,
+        "carbs": 3.75,
+        "fats": 0.15,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      }
+    ],
+    "preparation": "1. Saltear la cebolla picada. 2. Añadir la butifarra y cocinar hasta que esté dorada. 3. Incorporar las judías blancas y saltear todo junto unos minutos.",
+    "originalBaseRecipeId": ""
+  },
+  "intermedio_ensalada": {
+    "name": "Ensalada de Tomate, Aguacate, Cebolla y Lima",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cf9a725d68c4bc3ec3502.png",
+    "calories": 340.45,
+    "protein": 6.563,
+    "carbs": 13.013,
+    "fats": 27.860500000000002,
+    "ingredients": [
+      {
+        "name": "Tomate",
+        "quantity": "125",
+        "unit": "g",
+        "calories": 37.5,
+        "protein": 2.5,
+        "carbs": 6.25,
+        "fats": 0.25,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Aguacate",
+        "quantity": "150",
+        "unit": "g",
+        "calories": 240,
+        "protein": 3,
+        "carbs": 3,
+        "fats": 22.5,
+        "baseCalories": 1.6,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.02,
+        "baseFats": 0.15
+      },
+      {
+        "name": "Cebolla",
+        "quantity": "50",
+        "unit": "g",
+        "calories": 15,
+        "protein": 1,
+        "carbs": 2.5,
+        "fats": 0.1,
+        "baseCalories": 0.3,
+        "baseProtein": 0.02,
+        "baseCarbs": 0.05,
+        "baseFats": 0.002
+      },
+      {
+        "name": "Lima",
+        "quantity": "15",
+        "unit": "g",
+        "calories": 3.75,
+        "protein": 0.063,
+        "carbs": 1.263,
+        "fats": 0.0105,
+        "baseCalories": 0.25,
+        "baseProtein": 0.0042,
+        "baseCarbs": 0.0842,
+        "baseFats": 0.0007
+      },
+      {
+        "name": "Aceite de oliva virgen extra",
+        "quantity": "5",
+        "unit": "g",
+        "calories": 44.2,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 5,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1
+      },
+      {
+        "name": "Sal",
+        "quantity": "1",
+        "unit": "g",
+        "calories": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 0,
+        "baseCalories": 0,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 0
+      }
+    ],
+    "preparation": "1. Cortar el tomate y el aguacate en dados. 2. Picar la cebolla en juliana fina. 3. Mezclar todos los ingredientes en un bol. 4. Exprimir el zumo de media lima por encima, añadir aceite de oliva y sal. Mezclar bien.",
+    "originalBaseRecipeId": ""
+  },
+  "intermedio_cena": {
+    "name": "Ternera con brócoli y sésamo",
+    "image": "https://raw.githubusercontent.com/hombresenforma/ivan-diet/main/assets/ivandt/dias-4-7/ternera-brocoli-sesamo.jpg",
+    "calories": 590.65,
+    "protein": 53.5,
+    "carbs": 13,
+    "fats": 34.5,
+    "ingredients": [
+      {
+        "name": "Ternera magra",
+        "quantity": "200",
+        "unit": "g",
+        "calories": 274,
+        "protein": 42,
+        "carbs": 0,
+        "fats": 11,
+        "baseCalories": 1.37,
+        "baseProtein": 0.21,
+        "baseCarbs": 0,
+        "baseFats": 0.055
+      },
+      {
+        "name": "Brócoli",
+        "quantity": "250",
+        "unit": "g",
+        "calories": 85,
+        "protein": 7,
+        "carbs": 10,
+        "fats": 1,
+        "baseCalories": 0.34,
+        "baseProtein": 0.028,
+        "baseCarbs": 0.04,
+        "baseFats": 0.004
+      },
+      {
+        "name": "Semillas de sésamo",
+        "quantity": "25",
+        "unit": "g",
+        "calories": 143.25,
+        "protein": 4.5,
+        "carbs": 3,
+        "fats": 12.5,
+        "baseCalories": 5.73,
+        "baseProtein": 0.18,
+        "baseCarbs": 0.12,
+        "baseFats": 0.5
+      },
+      {
+        "name": "Aceite de oliva virgen extra",
+        "quantity": "10",
+        "unit": "g",
+        "calories": 88.4,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 10,
+        "baseCalories": 8.84,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 1
+      }
+    ],
+    "preparation": "1. Cocer el brócoli al vapor 3–4 minutos. 2. Saltear la ternera en tiras con el aceite, incorporar el brócoli y terminar con el sésamo.",
+    "originalBaseRecipeId": ""
+  },
+  "intermedio_fruta": {
+    "name": "Fruta Cítrica (Mandarina, Kiwi, Naranja...)",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd3d0ed506305442ffe4.png",
+    "calories": 70.5,
+    "protein": 1.3499999999999999,
+    "carbs": 13.5,
+    "fats": 0.15,
+    "ingredients": [
+      {
+        "name": "Naranja",
+        "quantity": "150",
+        "unit": "g",
+        "calories": 70.5,
+        "protein": 1.3499999999999999,
+        "carbs": 13.5,
+        "fats": 0.15,
+        "baseCalories": 0.47,
+        "baseProtein": 0.009,
+        "baseCarbs": 0.09,
+        "baseFats": 0.001
+      }
+    ],
+    "preparation": "1. Seleccionar la fruta cítrica de preferencia. 2. Lavar bien la fruta bajo el grifo. 3. Para mandarinas y naranjas: pelar la piel con las manos. 4. Para kiwis: cortar por la mitad y comer la pulpa con una cucharita.",
+    "originalBaseRecipeId": ""
+  },
+  "intermedio_chocolate": {
+    "name": "Onza de Chocolate 85%",
+    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69b51011eba487f7273f1096.png",
+    "calories": 165,
+    "protein": 1.7999999999999998,
+    "carbs": 9,
+    "fats": 12,
+    "ingredients": [
+      {
+        "name": "Chocolate 85%",
+        "quantity": "30",
+        "unit": "g",
+        "calories": 165,
+        "protein": 1.7999999999999998,
+        "carbs": 9,
+        "fats": 12,
+        "baseCalories": 5.5,
+        "baseProtein": 0.06,
+        "baseCarbs": 0.3,
+        "baseFats": 0.4
+      }
+    ],
+    "preparation": "Consumir directamente.",
+    "originalBaseRecipeId": ""
+  }
+
 };
 const dailyMenus = [
   {
@@ -1369,4 +1678,34 @@ const dailyMenus = [
       "p3_m4"
     ]
   }
+,
+{
+  "name": "Intermedio",
+  "targetMacros": {
+    "calories": 2000,
+    "protein": 130,
+    "carbs": 100,
+    "fats": 110
+  },
+  "baselineTotals": {
+    "calories": 1984,
+    "protein": 129.363,
+    "carbs": 100.943,
+    "fats": 107.85050000000001
+  },
+  "desayuno": [
+    "intermedio_desayuno"
+  ],
+  "comida": [
+    "intermedio_comida",
+    "intermedio_ensalada"
+  ],
+  "cena": [
+    "intermedio_cena"
+  ],
+  "extra": [
+    "intermedio_fruta",
+    "intermedio_chocolate"
+  ]
+}
 ];
