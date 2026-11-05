@@ -931,6 +931,321 @@ const foodDatabase = {
     ],
     "preparation": "Consumir directamente como un snack energético y nutritivo.",
     "originalBaseRecipeId": "ext_frutos_secos_mezcla"
+  },
+  "custom_1793899829696": {
+    "name": "Ensalada con Pollo y Queso de Burgos",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afdceb91eb360843d4a0b.png",
+    "calories": 475,
+    "protein": 63,
+    "carbs": 27,
+    "fats": 11,
+    "ingredients": [
+      {
+        "name": "Canónigos",
+        "quantity": "150",
+        "unit": "g",
+        "calories": 45,
+        "protein": 3,
+        "carbs": 7.5,
+        "fats": 0.3,
+        "baseCalories": 0.3,
+        "baseProtein": 0,
+        "baseCarbs": 0.1,
+        "baseFats": 0,
+        "category": "default_veg"
+      },
+      {
+        "name": "Tomate",
+        "quantity": "150",
+        "unit": "g",
+        "calories": 45,
+        "protein": 3,
+        "carbs": 7.5,
+        "fats": 0.3,
+        "baseCalories": 0.3,
+        "baseProtein": 0,
+        "baseCarbs": 0.1,
+        "baseFats": 0,
+        "category": "default_veg"
+      },
+      {
+        "name": "Cebolla",
+        "quantity": "150",
+        "unit": "g",
+        "calories": 45,
+        "protein": 3,
+        "carbs": 7.5,
+        "fats": 0.3,
+        "baseCalories": 0.3,
+        "baseProtein": 0,
+        "baseCarbs": 0.1,
+        "baseFats": 0,
+        "category": "default_veg"
+      },
+      {
+        "name": "Queso de Burgos 0%",
+        "quantity": "100",
+        "unit": "g",
+        "calories": 100,
+        "protein": 12,
+        "carbs": 4,
+        "fats": 4,
+        "baseCalories": 1,
+        "baseProtein": 0.1,
+        "baseCarbs": 0,
+        "baseFats": 0,
+        "category": "light_cheese"
+      },
+      {
+        "name": "Pechuga de Pollo",
+        "quantity": "150",
+        "unit": "g",
+        "calories": 240,
+        "protein": 42,
+        "carbs": 0,
+        "fats": 6,
+        "baseCalories": 1.6,
+        "baseProtein": 0.3,
+        "baseCarbs": 0,
+        "baseFats": 0,
+        "category": "lean_protein"
+      }
+    ],
+    "preparation": "1. Cocinar la pechuga de pollo (a la plancha, hervida o asada) y cortarla en tiras o dados. 2. Lavar los canónigos y escurrirlos bien. Cortar los tomates (cherry por la mitad, o normales en gajos) y la cebolla en rodajas finas o juliana. Cortar el queso de Burgos 0% en dados o láminas. 3. En un bol o plato grande, disponer una base de canónigos. Añadir encima el tomate, la cebolla, el pollo y el queso de Burgos. 4. Aliñar con aceite de oliva virgen extra, vinagre (de manzana o Módena) y sal al gusto."
+  },
+  "custom_a8b5f2f9-4807-4f12-a551-f7c9020a598f": {
+    "name": "Fruta Cítrica (Mandarina, Kiwi, Naranja...)",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd3d0ed506305442ffe4.png",
+    "calories": 270,
+    "protein": 2,
+    "carbs": 68,
+    "fats": 1,
+    "ingredients": [
+      {
+        "name": "Kiwi",
+        "quantity": "1",
+        "unit": "ud",
+        "calories": 90,
+        "protein": 0.8,
+        "carbs": 22.5,
+        "fats": 0.3,
+        "baseCalories": 90,
+        "baseProtein": 0.8,
+        "baseCarbs": 22.5,
+        "baseFats": 0.3,
+        "category": "default_fruit"
+      },
+      {
+        "name": "Mandarina",
+        "quantity": "1",
+        "unit": "ud",
+        "calories": 90,
+        "protein": 0.8,
+        "carbs": 22.5,
+        "fats": 0.3,
+        "baseCalories": 90,
+        "baseProtein": 0.8,
+        "baseCarbs": 22.5,
+        "baseFats": 0.3,
+        "category": "default_fruit"
+      },
+      {
+        "name": "Naranja",
+        "quantity": "1",
+        "unit": "ud",
+        "calories": 90,
+        "protein": 0.8,
+        "carbs": 22.5,
+        "fats": 0.3,
+        "baseCalories": 90,
+        "baseProtein": 0.8,
+        "baseCarbs": 22.5,
+        "baseFats": 0.3,
+        "category": "default_fruit"
+      }
+    ],
+    "preparation": "1. Seleccionar la fruta cítrica de preferencia. 2. Lavar bien la fruta bajo el grifo. 3. Para mandarinas y naranjas: pelar la piel con las manos. 4. Para kiwis: cortar por la mitad y comer la pulpa con una cucharita."
+  },
+  "custom_7cc400d6-5e96-4bd9-91f7-152d22ced790": {
+    "name": "Fruta Cítrica (Mandarina, Kiwi, Naranja...)",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd3d0ed506305442ffe4.png",
+    "calories": 90,
+    "protein": 0.8,
+    "carbs": 22.5,
+    "fats": 0.3,
+    "ingredients": [
+      {
+        "name": "Kiwi",
+        "quantity": "1",
+        "unit": "ud",
+        "calories": 90,
+        "protein": 0.8,
+        "carbs": 22.5,
+        "fats": 0.3,
+        "baseCalories": 90,
+        "baseProtein": 0.8,
+        "baseCarbs": 22.5,
+        "baseFats": 0.3,
+        "category": "default_fruit"
+      }
+    ],
+    "preparation": "1. Seleccionar la fruta cítrica de preferencia. 2. Lavar bien la fruta bajo el grifo. 3. Para mandarinas y naranjas: pelar la piel con las manos. 4. Para kiwis: cortar por la mitad y comer la pulpa con una cucharita."
+  },
+  "custom_8a698787-ccc7-4025-a7b3-c011eb1d2b1f": {
+    "name": "Fruta Densa (Plátano, Manzana, Pera)",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe4bb91eb325b93d4a82.png",
+    "calories": 270,
+    "protein": 2,
+    "carbs": 68,
+    "fats": 1,
+    "ingredients": [
+      {
+        "name": "Plátano",
+        "quantity": "1",
+        "unit": "ud",
+        "calories": 90,
+        "protein": 0.8,
+        "carbs": 22.5,
+        "fats": 0.3,
+        "baseCalories": 90,
+        "baseProtein": 0.8,
+        "baseCarbs": 22.5,
+        "baseFats": 0.3,
+        "category": "default_fruit"
+      },
+      {
+        "name": "Manzana",
+        "quantity": "1",
+        "unit": "ud",
+        "calories": 90,
+        "protein": 0.8,
+        "carbs": 22.5,
+        "fats": 0.3,
+        "baseCalories": 90,
+        "baseProtein": 0.8,
+        "baseCarbs": 22.5,
+        "baseFats": 0.3,
+        "category": "default_fruit"
+      },
+      {
+        "name": "Pera",
+        "quantity": "1",
+        "unit": "ud",
+        "calories": 90,
+        "protein": 0.8,
+        "carbs": 22.5,
+        "fats": 0.3,
+        "baseCalories": 90,
+        "baseProtein": 0.8,
+        "baseCarbs": 22.5,
+        "baseFats": 0.3,
+        "category": "default_fruit"
+      }
+    ],
+    "preparation": "1. Seleccionar la fruta densa de preferencia. 2. Para plátanos: pelar la piel y consumir directamente. 3. Para manzanas o peras: lavar bien la fruta. Se puede consumir con piel o pelada."
+  },
+  "custom_1449e933-6091-461f-ad29-dcc794b63cc3": {
+    "name": "Fruta Densa (Plátano, Manzana, Pera)",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe4bb91eb325b93d4a82.png",
+    "calories": 90,
+    "protein": 0.8,
+    "carbs": 22.5,
+    "fats": 0.3,
+    "ingredients": [
+      {
+        "name": "Plátano",
+        "quantity": "1",
+        "unit": "ud",
+        "calories": 90,
+        "protein": 0.8,
+        "carbs": 22.5,
+        "fats": 0.3,
+        "baseCalories": 90,
+        "baseProtein": 0.8,
+        "baseCarbs": 22.5,
+        "baseFats": 0.3,
+        "category": "default_fruit"
+      }
+    ],
+    "preparation": "1. Seleccionar la fruta densa de preferencia. 2. Para plátanos: pelar la piel y consumir directamente. 3. Para manzanas o peras: lavar bien la fruta. Se puede consumir con piel o pelada."
+  },
+  "custom_d39d622f-adcd-46f6-be1c-093e66e37146": {
+    "name": "Fruta Densa (Plátano, Manzana, Pera)",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe4bb91eb325b93d4a82.png",
+    "calories": 270,
+    "protein": 2,
+    "carbs": 68,
+    "fats": 1,
+    "ingredients": [
+      {
+        "name": "Plátano",
+        "quantity": "1",
+        "unit": "ud",
+        "calories": 90,
+        "protein": 0.8,
+        "carbs": 22.5,
+        "fats": 0.3,
+        "baseCalories": 90,
+        "baseProtein": 0.8,
+        "baseCarbs": 22.5,
+        "baseFats": 0.3,
+        "category": "default_fruit"
+      },
+      {
+        "name": "Manzana",
+        "quantity": "1",
+        "unit": "ud",
+        "calories": 90,
+        "protein": 0.8,
+        "carbs": 22.5,
+        "fats": 0.3,
+        "baseCalories": 90,
+        "baseProtein": 0.8,
+        "baseCarbs": 22.5,
+        "baseFats": 0.3,
+        "category": "default_fruit"
+      },
+      {
+        "name": "Pera",
+        "quantity": "1",
+        "unit": "ud",
+        "calories": 90,
+        "protein": 0.8,
+        "carbs": 22.5,
+        "fats": 0.3,
+        "baseCalories": 90,
+        "baseProtein": 0.8,
+        "baseCarbs": 22.5,
+        "baseFats": 0.3,
+        "category": "default_fruit"
+      }
+    ],
+    "preparation": "1. Seleccionar la fruta densa de preferencia. 2. Para plátanos: pelar la piel y consumir directamente. 3. Para manzanas o peras: lavar bien la fruta. Se puede consumir con piel o pelada."
+  },
+  "custom_efca223f-6f04-4a2c-8691-23aba5443515": {
+    "name": "Fruta Densa (Plátano, Manzana, Pera)",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe4bb91eb325b93d4a82.png",
+    "calories": 90,
+    "protein": 0.8,
+    "carbs": 22.5,
+    "fats": 0.3,
+    "ingredients": [
+      {
+        "name": "Pera",
+        "quantity": "1",
+        "unit": "ud",
+        "calories": 90,
+        "protein": 0.8,
+        "carbs": 22.5,
+        "fats": 0.3,
+        "baseCalories": 90,
+        "baseProtein": 0.8,
+        "baseCarbs": 22.5,
+        "baseFats": 0.3,
+        "category": "default_fruit"
+      }
+    ],
+    "preparation": "1. Seleccionar la fruta densa de preferencia. 2. Para plátanos: pelar la piel y consumir directamente. 3. Para manzanas o peras: lavar bien la fruta. Se puede consumir con piel o pelada."
   }
 };
 const dailyMenus = [
@@ -951,7 +1266,7 @@ const dailyMenus = [
       "p0_m0"
     ],
     "comida": [
-      "p0_m1"
+      "custom_1793899829696"
     ],
     "cena": [
       "p0_m2",
@@ -959,7 +1274,8 @@ const dailyMenus = [
     ],
     "extra": [
       "p0_m4",
-      "p0_m5"
+      "p0_m5",
+      "custom_7cc400d6-5e96-4bd9-91f7-152d22ced790"
     ]
   },
   {
@@ -987,7 +1303,8 @@ const dailyMenus = [
     ],
     "extra": [
       "p1_m4",
-      "p1_m5"
+      "p1_m5",
+      "custom_1449e933-6091-461f-ad29-dcc794b63cc3"
     ]
   },
   {
@@ -1015,7 +1332,8 @@ const dailyMenus = [
     ],
     "extra": [
       "p2_m4",
-      "p2_m5"
+      "p2_m5",
+      "custom_efca223f-6f04-4a2c-8691-23aba5443515"
     ]
   }
 ];
