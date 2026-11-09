@@ -1,22 +1,22 @@
 // Titulo: Plan de Alimentación
-// Alergias:
+// Alergias: 
 const foodDatabase = {
   "p0_m0": {
     "name": "Tostada de Centeno con Aguacate y Atún",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682aff33e819fcc7a1a8d946.png",
-    "calories": 446,
-    "protein": 40.8,
-    "carbs": 28.6,
-    "fats": 18.4,
+    "calories": 509,
+    "protein": 43,
+    "carbs": 40,
+    "fats": 19,
     "ingredients": [
       {
         "name": "Tostada de Pan de Centeno",
-        "quantity": "50",
+        "quantity": "75",
         "unit": "g",
-        "calories": 126,
-        "protein": 4,
-        "carbs": 22,
-        "fats": 2,
+        "calories": 189,
+        "protein": 6,
+        "carbs": 33,
+        "fats": 3,
         "baseCalories": 2.52,
         "baseProtein": 0.08,
         "baseCarbs": 0.44,
@@ -1891,6 +1891,112 @@ const foodDatabase = {
     ],
     "preparation": "1. Seleccionar el yogur proteico de preferencia. 2. Abrir el envase. 3. Consumir directamente con una cuchara.",
     "originalBaseRecipeId": "ext_yogur_protico_sabores_natural"
+  },
+  "custom_1794209980869": {
+    "name": "Fruta Cítrica (Mandarina, Kiwi, Naranja...)",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd3d0ed506305442ffe4.png",
+    "calories": 90,
+    "protein": 1,
+    "carbs": 23,
+    "fats": 0,
+    "ingredients": [
+      {
+        "name": "Kiwi",
+        "quantity": "1",
+        "unit": "ud",
+        "calories": 90,
+        "protein": 0.8,
+        "carbs": 22.5,
+        "fats": 0.3,
+        "baseCalories": 90,
+        "baseProtein": 0.8,
+        "baseCarbs": 22.5,
+        "baseFats": 0.3,
+        "category": "default_fruit"
+      },
+      {
+        "name": "Mandarina",
+        "quantity": "0",
+        "unit": "ud",
+        "calories": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 0,
+        "baseCalories": 90,
+        "baseProtein": 0.8,
+        "baseCarbs": 22.5,
+        "baseFats": 0.3,
+        "category": "default_fruit"
+      },
+      {
+        "name": "Naranja",
+        "quantity": "0",
+        "unit": "ud",
+        "calories": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 0,
+        "baseCalories": 90,
+        "baseProtein": 0.8,
+        "baseCarbs": 22.5,
+        "baseFats": 0.3,
+        "category": "default_fruit"
+      }
+    ],
+    "preparation": "1. Seleccionar la fruta cítrica de preferencia. 2. Lavar bien la fruta bajo el grifo. 3. Para mandarinas y naranjas: pelar la piel con las manos. 4. Para kiwis: cortar por la mitad y comer la pulpa con una cucharita."
+  },
+  "custom_65594c7d-8961-4792-b5d3-b6de6c4bb051": {
+    "name": "Fruta Densa (Plátano, Manzana, Pera)",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe4bb91eb325b93d4a82.png",
+    "calories": 180,
+    "protein": 2,
+    "carbs": 45,
+    "fats": 1,
+    "ingredients": [
+      {
+        "name": "Plátano",
+        "quantity": "1",
+        "unit": "ud",
+        "calories": 90,
+        "protein": 0.8,
+        "carbs": 22.5,
+        "fats": 0.3,
+        "baseCalories": 90,
+        "baseProtein": 0.8,
+        "baseCarbs": 22.5,
+        "baseFats": 0.3,
+        "category": "default_fruit"
+      },
+      {
+        "name": "Manzana",
+        "quantity": "0",
+        "unit": "ud",
+        "calories": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 0,
+        "baseCalories": 90,
+        "baseProtein": 0.8,
+        "baseCarbs": 22.5,
+        "baseFats": 0.3,
+        "category": "default_fruit"
+      },
+      {
+        "name": "Pera",
+        "quantity": "1",
+        "unit": "ud",
+        "calories": 90,
+        "protein": 0.8,
+        "carbs": 22.5,
+        "fats": 0.3,
+        "baseCalories": 90,
+        "baseProtein": 0.8,
+        "baseCarbs": 22.5,
+        "baseFats": 0.3,
+        "category": "default_fruit"
+      }
+    ],
+    "preparation": "1. Seleccionar la fruta densa de preferencia. 2. Para plátanos: pelar la piel y consumir directamente. 3. Para manzanas o peras: lavar bien la fruta. Se puede consumir con piel o pelada."
   }
 };
 const dailyMenus = [
@@ -1940,7 +2046,7 @@ const dailyMenus = [
     },
     "desayuno": [
       "p1_m0",
-      "p1_m1"
+      "custom_65594c7d-8961-4792-b5d3-b6de6c4bb051"
     ],
     "comida": [
       "p1_m2"
