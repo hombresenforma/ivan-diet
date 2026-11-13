@@ -66,19 +66,19 @@ export const foodDatabase = {
   "p0_m1": {
     "name": "Patatas Cocidas con Salteado de Verduras y Hamburguesa a la plancha",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cf8559b0c6709fc9afa98.png",
-    "calories": 497,
-    "protein": 45.4,
-    "carbs": 31.5,
-    "fats": 21.4,
+    "calories": 434.2,
+    "protein": 44,
+    "carbs": 17.5,
+    "fats": 21.35,
     "ingredients": [
       {
         "name": "Patata",
-        "quantity": "120",
+        "quantity": "50",
         "unit": "g",
-        "calories": 108,
-        "protein": 2.4,
-        "carbs": 24,
-        "fats": 0.1,
+        "calories": 45,
+        "protein": 1,
+        "carbs": 10,
+        "fats": 0.05,
         "baseCalories": 0.9,
         "baseProtein": 0.02,
         "baseCarbs": 0.2,
@@ -156,19 +156,19 @@ export const foodDatabase = {
   "p0_m2": {
     "name": "Boniato asado con ensalada de tomate",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684efcd1f6c48df26aa5ba5b.png",
-    "calories": 331.62,
-    "protein": 10.9928,
-    "carbs": 58.0053,
-    "fats": 5.895,
+    "calories": 309.12,
+    "protein": 10.4928,
+    "carbs": 53.0053,
+    "fats": 5.87,
     "ingredients": [
       {
         "name": "Boniato",
-        "quantity": "200",
+        "quantity": "175",
         "unit": "g",
-        "calories": 180,
-        "protein": 4,
-        "carbs": 40,
-        "fats": 0.2,
+        "calories": 157.5,
+        "protein": 3.5,
+        "carbs": 35,
+        "fats": 0.17500000000000002,
         "baseCalories": 0.9,
         "baseProtein": 0.02,
         "baseCarbs": 0.2,
@@ -322,10 +322,10 @@ export const foodDatabase = {
   "p0_m5": {
     "name": "Queso Fresco Batido con Frutos Rojos y Miel",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6879302d02da47667d446b43.png",
-    "calories": 208,
-    "protein": 24.8,
-    "carbs": 27.2,
-    "fats": 1.4,
+    "calories": 192.7,
+    "protein": 24.765,
+    "carbs": 23.1,
+    "fats": 1.375,
     "ingredients": [
       {
         "name": "Queso Fresco Batido",
@@ -345,9 +345,9 @@ export const foodDatabase = {
         "quantity": "75",
         "unit": "g",
         "calories": 37.5,
-        "protein": 0.8,
+        "protein": 0.75,
         "carbs": 9,
-        "fats": 0.4,
+        "fats": 0.375,
         "baseCalories": 0.5,
         "baseProtein": 0.01,
         "baseCarbs": 0.12,
@@ -355,11 +355,11 @@ export const foodDatabase = {
       },
       {
         "name": "Miel Cruda",
-        "quantity": "10",
+        "quantity": "5",
         "unit": "g",
-        "calories": 30.4,
-        "protein": 0,
-        "carbs": 8.2,
+        "calories": 15.2,
+        "protein": 0.015,
+        "carbs": 4.1,
         "fats": 0,
         "baseCalories": 3.04,
         "baseProtein": 0.003,
@@ -628,19 +628,19 @@ export const foodDatabase = {
   "p1_m4": {
     "name": "Fruta Densa (Plátano, Manzana, Pera)",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe4bb91eb325b93d4a82.png",
-    "calories": 90,
-    "protein": 0.8,
-    "carbs": 22.5,
-    "fats": 0.3,
+    "calories": 45,
+    "protein": 0.375,
+    "carbs": 11.25,
+    "fats": 0.15,
     "ingredients": [
       {
         "name": "Plátano",
-        "quantity": "1",
+        "quantity": "0.5",
         "unit": "ud",
-        "calories": 90,
-        "protein": 0.8,
-        "carbs": 22.5,
-        "fats": 0.3,
+        "calories": 45,
+        "protein": 0.375,
+        "carbs": 11.25,
+        "fats": 0.15,
         "baseCalories": 90,
         "baseProtein": 0.75,
         "baseCarbs": 22.5,
@@ -649,31 +649,6 @@ export const foodDatabase = {
     ],
     "preparation": "1. Seleccionar la fruta densa de preferencia. 2. Para plátanos: pelar la piel y consumir directamente. 3. Para manzanas o peras: lavar bien la fruta. Se puede consumir con piel o pelada.",
     "originalBaseRecipeId": "ext_fruta_densa_pltano_manzana_pera"
-  },
-  "p1_m5": {
-    "name": "Onza de Chocolate 85%",
-    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69b51011eba487f7273f1096.png",
-    "calories": 55,
-    "protein": 0.6,
-    "carbs": 3,
-    "fats": 4,
-    "ingredients": [
-      {
-        "name": "Chocolate 85%",
-        "quantity": "10",
-        "unit": "g",
-        "calories": 55,
-        "protein": 0.6,
-        "carbs": 3,
-        "fats": 4,
-        "baseCalories": 5.5,
-        "baseProtein": 0.06,
-        "baseCarbs": 0.3,
-        "baseFats": 0.4
-      }
-    ],
-    "preparation": "Consumir directamente.",
-    "originalBaseRecipeId": "ext_onza_de_chocolate_85"
   },
   "p2_m0": {
     "name": "Sandwich Vegetal de Atún",
@@ -1217,9 +1192,9 @@ export const dailyMenus = [
   {
     "name": "Entreno 1",
     "targetMacros": {
-      "calories": 1800,
+      "calories": 1700,
       "protein": 160,
-      "carbs": 155
+      "carbs": 135
     },
     "desayuno": [
       "p0_m0"
@@ -1236,18 +1211,18 @@ export const dailyMenus = [
       "p0_m5"
     ],
     "baselineTotals": {
-      "calories": 1799.6200000000003,
-      "protein": 157.8478,
-      "carbs": 161.3053,
-      "fats": 56.94
+      "calories": 1698.9200000000003,
+      "protein": 155.9328,
+      "carbs": 138.2053,
+      "fats": 56.845
     }
   },
   {
     "name": "Entreno 2",
     "targetMacros": {
-      "calories": 1800,
+      "calories": 1700,
       "protein": 160,
-      "carbs": 155
+      "carbs": 135
     },
     "desayuno": [
       "p1_m0"
@@ -1260,14 +1235,13 @@ export const dailyMenus = [
       "p1_m3"
     ],
     "extra": [
-      "p1_m4",
-      "p1_m5"
+      "p1_m4"
     ],
     "baselineTotals": {
-      "calories": 1801.4,
-      "protein": 161.65,
-      "carbs": 149.15,
-      "fats": 57.839999999999996
+      "calories": 1701.4,
+      "protein": 160.675,
+      "carbs": 134.9,
+      "fats": 53.69
     }
   },
   {
