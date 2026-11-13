@@ -156,18 +156,18 @@ export const foodDatabase = {
   "p0_m2": {
     "name": "Boniato asado con ensalada de tomate",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684efcd1f6c48df26aa5ba5b.png",
-    "calories": 329,
-    "protein": 9,
-    "carbs": 60,
-    "fats": 5.6,
+    "calories": 331.62,
+    "protein": 10.9928,
+    "carbs": 58.0053,
+    "fats": 5.895,
     "ingredients": [
       {
         "name": "Boniato",
-        "quantity": "250",
+        "quantity": "200",
         "unit": "g",
-        "calories": 225,
-        "protein": 5,
-        "carbs": 50,
+        "calories": 180,
+        "protein": 4,
+        "carbs": 40,
         "fats": 0.2,
         "baseCalories": 0.9,
         "baseProtein": 0.02,
@@ -176,12 +176,12 @@ export const foodDatabase = {
       },
       {
         "name": "Tomate",
-        "quantity": "150",
+        "quantity": "280",
         "unit": "g",
-        "calories": 45,
-        "protein": 3,
-        "carbs": 7.5,
-        "fats": 0.3,
+        "calories": 84,
+        "protein": 5.6000000000000005,
+        "carbs": 14,
+        "fats": 0.56,
         "baseCalories": 0.3,
         "baseProtein": 0.02,
         "baseCarbs": 0.05,
@@ -189,12 +189,12 @@ export const foodDatabase = {
       },
       {
         "name": "Cebolla",
-        "quantity": "50",
+        "quantity": "60",
         "unit": "g",
-        "calories": 15,
-        "protein": 1,
-        "carbs": 2.5,
-        "fats": 0.1,
+        "calories": 18,
+        "protein": 1.2,
+        "carbs": 3,
+        "fats": 0.12,
         "baseCalories": 0.3,
         "baseProtein": 0.02,
         "baseCarbs": 0.05,
@@ -212,6 +212,45 @@ export const foodDatabase = {
         "baseProtein": 0,
         "baseCarbs": 0,
         "baseFats": 1
+      },
+      {
+        "name": "Ajo",
+        "quantity": "3",
+        "unit": "g",
+        "baseCalories": 1.49,
+        "baseProtein": 0.0636,
+        "baseCarbs": 0.3306,
+        "baseFats": 0.005,
+        "calories": 4.47,
+        "protein": 0.19080000000000003,
+        "carbs": 0.9918,
+        "fats": 0.015
+      },
+      {
+        "name": "Vinagre de vino tinto",
+        "quantity": "5",
+        "unit": "g",
+        "baseCalories": 0.19,
+        "baseProtein": 0.0004,
+        "baseCarbs": 0.0027,
+        "baseFats": 0,
+        "calories": 0.95,
+        "protein": 0.002,
+        "carbs": 0.013500000000000002,
+        "fats": 0
+      },
+      {
+        "name": "Sal",
+        "quantity": "1",
+        "unit": "g",
+        "baseCalories": 0,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 0,
+        "calories": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 0
       }
     ],
     "preparation": "1. Precalentar el horno a 200°C (390°F). Lavar bien el boniato, pincharlo varias veces con un tenedor para que no reviente durante la cocción. 2. Asar el boniato entero directamente sobre la rejilla del horno o en una bandeja durante 45-60 minutos, o hasta que esté tierno al pincharlo. 3. Mientras se asa el boniato, preparar la ensalada: lavar y cortar el tomate en dados pequeños. Picar la cebolla y el ajo muy finamente. 4. En un bol, mezclar el tomate, la cebolla y el ajo. Aliñar con aceite de oliva virgen extra, vinagre y sal al gusto. 5. Una vez el boniato esté asado y tierno, sacarlo del horno, dejarlo templar unos minutos, y luego abrirlo por la mitad a lo largo. Servirlo caliente o templado, acompañado de la ensalada de tomate.",
@@ -512,19 +551,19 @@ export const foodDatabase = {
   "p1_m3": {
     "name": "Arroz Basmati con Pavo y Verduras",
     "image": "https://raw.githubusercontent.com/hombresenforma/ivan-diet/main/assets/ivandt/prueba-chatgpt/arroz-basmati-pavo-verduras.jpg",
-    "calories": 680,
-    "protein": 68.4,
-    "carbs": 62.5,
-    "fats": 14.8,
+    "calories": 672.7,
+    "protein": 70.4,
+    "carbs": 58.5,
+    "fats": 14.84,
     "ingredients": [
       {
         "name": "Arroz Basmati en Crudo",
-        "quantity": "70",
+        "quantity": "50",
         "unit": "g",
-        "calories": 255.5,
-        "protein": 8.4,
-        "carbs": 52.5,
-        "fats": 1.4,
+        "calories": 182.5,
+        "protein": 6,
+        "carbs": 37.5,
+        "fats": 1,
         "baseCalories": 3.65,
         "baseProtein": 0.12,
         "baseCarbs": 0.75,
@@ -535,7 +574,7 @@ export const foodDatabase = {
         "quantity": "200",
         "unit": "g",
         "calories": 320,
-        "protein": 56,
+        "protein": 56.00000000000001,
         "carbs": 0,
         "fats": 8,
         "baseCalories": 1.6,
@@ -545,12 +584,12 @@ export const foodDatabase = {
       },
       {
         "name": "Calabacín",
-        "quantity": "100",
+        "quantity": "200",
         "unit": "g",
-        "calories": 30,
-        "protein": 2,
-        "carbs": 5,
-        "fats": 0.2,
+        "calories": 60,
+        "protein": 4,
+        "carbs": 10,
+        "fats": 0.4,
         "baseCalories": 0.3,
         "baseProtein": 0.02,
         "baseCarbs": 0.05,
@@ -558,12 +597,12 @@ export const foodDatabase = {
       },
       {
         "name": "Zanahoria",
-        "quantity": "100",
+        "quantity": "220",
         "unit": "g",
-        "calories": 30,
-        "protein": 2,
-        "carbs": 5,
-        "fats": 0.2,
+        "calories": 66,
+        "protein": 4.4,
+        "carbs": 11,
+        "fats": 0.44,
         "baseCalories": 0.3,
         "baseProtein": 0.02,
         "baseCarbs": 0.05,
@@ -793,10 +832,10 @@ export const foodDatabase = {
   "p2_m3": {
     "name": "Quinoa con ternera y verduras",
     "image": "https://raw.githubusercontent.com/hombresenforma/ivan-diet/main/assets/ivandt/dias-4-7/quinoa-ternera-verduras.jpg",
-    "calories": 563.2,
-    "protein": 36,
-    "carbs": 42,
-    "fats": 20.9,
+    "calories": 578.2,
+    "protein": 37,
+    "carbs": 44.5,
+    "fats": 21,
     "ingredients": [
       {
         "name": "Quinoa",
@@ -826,12 +865,12 @@ export const foodDatabase = {
       },
       {
         "name": "Pimiento rojo",
-        "quantity": "100",
+        "quantity": "125",
         "unit": "g",
-        "calories": 30,
-        "protein": 2,
-        "carbs": 5,
-        "fats": 0.2,
+        "calories": 37.5,
+        "protein": 2.5,
+        "carbs": 6.25,
+        "fats": 0.25,
         "baseCalories": 0.3,
         "baseProtein": 0.02,
         "baseCarbs": 0.05,
@@ -839,12 +878,12 @@ export const foodDatabase = {
       },
       {
         "name": "Calabacín",
-        "quantity": "100",
+        "quantity": "125",
         "unit": "g",
-        "calories": 30,
-        "protein": 2,
-        "carbs": 5,
-        "fats": 0.2,
+        "calories": 37.5,
+        "protein": 2.5,
+        "carbs": 6.25,
+        "fats": 0.25,
         "baseCalories": 0.3,
         "baseProtein": 0.02,
         "baseCarbs": 0.05,
@@ -943,7 +982,7 @@ export const foodDatabase = {
     "preparation": "1. Pelar la naranja, separar los gajos y servir con los anacardos pesados.",
     "originalBaseRecipeId": "ext_naranja_con_anacardos"
   },
-    "p3_ext": {
+  "p3_ext": {
     "name": "Yogur Protéico (Sabores, Natural...)",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd789b8ed38b127cbc09.png",
     "calories": 108.5,
@@ -968,7 +1007,7 @@ export const foodDatabase = {
     "preparation": "1. Seleccionar el yogur proteico de preferencia. 2. Abrir el envase. 3. Consumir directamente con una cuchara.",
     "originalBaseRecipeId": "ext_yogur_protico_sabores_natural"
   },
-      "p3_m0": {
+  "p3_m0": {
     "name": "Fajita con Revuelto de Jamón Dulce",
     "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69b51120eba48737da3f22f1.png",
     "calories": 255.5,
@@ -1019,7 +1058,7 @@ export const foodDatabase = {
     "preparation": "1. Preparar un revuelto con los huevos y el jamón dulce. 2. Rellenar la fajita caliente.",
     "originalBaseRecipeId": "des_fajita_con_revuelto_de_jamn_dulce"
   },
-      "p3_m1": {
+  "p3_m1": {
     "name": "Ensalada de Queso Fresco, Pavo y Nueces",
     "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/699b499d20c03528200c03e2.png",
     "calories": 820.9,
@@ -1109,7 +1148,7 @@ export const foodDatabase = {
     "preparation": "1. Lavar los canónigos y los tomates cherry. 2. Cortar el queso fresco y el pavo en dados. 3. Trocear las nueces. 4. En un bol, mezclar todos los ingredientes. 5. Aliñar con una vinagreta suave.",
     "originalBaseRecipeId": "cc_ensalada_de_queso_fresco_pavo_y_nueces"
   },
-      "p3_m2": {
+  "p3_m2": {
     "name": "Bacalao con Pisto de Verduras",
     "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69fee682bc1f77cc3522d18f.png",
     "calories": 330,
@@ -1147,7 +1186,7 @@ export const foodDatabase = {
     "preparation": "1. Cocinar el bacalao a la plancha. 2. Servir sobre una base de pisto de verduras caliente.",
     "originalBaseRecipeId": "cc_bacalao_con_pisto_de_verduras"
   },
-    "p3_ext2": {
+  "p3_ext2": {
     "name": "Tortitas de Legumbres (Mercadona)",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682affdd9b8ed3082d7cbefc.png",
     "calories": 32,
@@ -1197,10 +1236,10 @@ export const dailyMenus = [
       "p0_m5"
     ],
     "baselineTotals": {
-      "calories": 1797,
-      "protein": 155.9,
-      "carbs": 163.3,
-      "fats": 56.7
+      "calories": 1799.6200000000003,
+      "protein": 157.8478,
+      "carbs": 161.3053,
+      "fats": 56.94
     }
   },
   {
@@ -1225,10 +1264,10 @@ export const dailyMenus = [
       "p1_m5"
     ],
     "baselineTotals": {
-      "calories": 1809,
-      "protein": 159.7,
-      "carbs": 153.1,
-      "fats": 57.8
+      "calories": 1801.4,
+      "protein": 161.65,
+      "carbs": 149.15,
+      "fats": 57.839999999999996
     }
   },
   {
@@ -1253,10 +1292,10 @@ export const dailyMenus = [
       "p2_m5"
     ],
     "baselineTotals": {
-      "calories": 1536.6,
-      "protein": 153.45000000000002,
-      "carbs": 95,
-      "fats": 49.8
+      "calories": 1551.6000000000001,
+      "protein": 154.45000000000002,
+      "carbs": 97.5,
+      "fats": 49.9
     }
   },
   {
@@ -1273,17 +1312,17 @@ export const dailyMenus = [
       "p3_m1"
     ],
     "cena": [
-      "p3_m2"
+      "p3_m2",
+      "p3_ext"
     ],
     "extra": [
-      "p3_ext",
       "p3_ext2"
     ],
     "baselineTotals": {
       "calories": 1546.9,
-      "protein": 151.825,
+      "protein": 151.82500000000002,
       "carbs": 68.95,
-      "fats": 68.105
+      "fats": 67.555
     }
   }
 ];
