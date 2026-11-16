@@ -1,6 +1,3 @@
-// Archivo de datos NutriPlan AI. Generado para carga directa.
-// La variable 'foodCategories' no se incluye aquí ya que se importa desde la app.
-
 const foodDatabase = {
   "p0_desayuno_Tostada_de_Centeno_mainOnly_idx0": {
     "id": "p0_desayuno_Tostada_de_Centeno_mainOnly_idx0",
@@ -782,6 +779,82 @@ const foodDatabase = {
     "id": "p2_extra_Huevo_Duro_Cocido_mainOnly_idx3",
     "isSideDish": false,
     "mealCategory": "extra"
+  },
+  "hef_acompanamiento_ch_0": {
+    "name": "Arroz Hervido",
+    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69fee8aca3dd25aa2ac2626b.png",
+    "preparation": "1. Cocer el arroz en agua con sal según las instrucciones del paquete hasta que esté en su punto. 2. Escurrir bien y servir.",
+    "calories": 149.5,
+    "protein": 3.0935,
+    "carbs": 32.3955,
+    "fats": 0.322,
+    "ingredients": [
+      {
+        "name": "Arroz",
+        "quantity": "115",
+        "unit": "g",
+        "calories": 149.5,
+        "protein": 3.0935,
+        "carbs": 32.3955,
+        "fats": 0.322,
+        "baseCalories": 1.3,
+        "baseProtein": 0.0269,
+        "baseCarbs": 0.2817,
+        "baseFats": 0.0028
+      },
+      {
+        "name": "Sal",
+        "quantity": "1",
+        "unit": "g",
+        "calories": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 0,
+        "baseCalories": 0,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 0
+      }
+    ],
+    "notes": "Peso del arroz ya cocido."
+  },
+  "hef_acompanamiento_ch_1": {
+    "name": "Patata Hervida",
+    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69fee88fa3dd25aa2ac25fdc.png",
+    "preparation": "1. Pelar y trocear la patata. 2. Hervir en agua con sal hasta que esté tierna (15-20 min). 3. Escurrir y aliñar al gusto.",
+    "calories": 152.25,
+    "protein": 3.2725000000000004,
+    "carbs": 35.2275,
+    "fats": 0.17500000000000002,
+    "ingredients": [
+      {
+        "name": "Patata",
+        "quantity": "175",
+        "unit": "g",
+        "calories": 152.25,
+        "protein": 3.2725000000000004,
+        "carbs": 35.2275,
+        "fats": 0.17500000000000002,
+        "baseCalories": 0.87,
+        "baseProtein": 0.0187,
+        "baseCarbs": 0.2013,
+        "baseFats": 0.001
+      },
+      {
+        "name": "Sal",
+        "quantity": "1",
+        "unit": "g",
+        "calories": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 0,
+        "baseCalories": 0,
+        "baseProtein": 0,
+        "baseCarbs": 0,
+        "baseFats": 0
+      }
+    ],
+    "notes": "Peso de la patata ya hervida."
   }
 };
 
@@ -789,9 +862,9 @@ const dailyMenus = [
   {
     "name": "Entreno",
     "targetMacros": {
-      "calories": 2200,
+      "calories": 2350,
       "protein": 140,
-      "carbs": 150
+      "carbs": 187.5
     },
     "useCustomMacros": true,
     "desayuno": [
@@ -803,24 +876,25 @@ const dailyMenus = [
     ],
     "cena": [
       "p0_cena_Ensalada_de_calabacn_mainOnly_idx3",
-      "p0_cena_Merluza_a_la_side_idx4"
+      "p0_cena_Merluza_a_la_side_idx4",
+      "hef_acompanamiento_ch_0"
     ],
     "extra": [
       "p0_extra_Yogur_Protico_Sabores_mainOnly_idx5"
     ],
     "baselineTotals": {
-      "calories": 2192.2,
-      "protein": 139.95,
-      "carbs": 153.7,
-      "fats": 110.58
+      "calories": 2341.7000000000003,
+      "protein": 143.0435,
+      "carbs": 186.0955,
+      "fats": 110.90200000000002
     }
   },
   {
     "name": "Entreno 2",
     "targetMacros": {
-      "calories": 2000,
+      "calories": 2150,
       "protein": 140,
-      "carbs": 180
+      "carbs": 217.5
     },
     "useCustomMacros": true,
     "desayuno": [
@@ -831,17 +905,18 @@ const dailyMenus = [
     ],
     "cena": [
       "p1_cena_Crema_de_Verduras_mainOnly_idx2",
-      "p1_cena_SolomilloFilete_de_Ternera_side_idx3"
+      "p1_cena_SolomilloFilete_de_Ternera_side_idx3",
+      "hef_acompanamiento_ch_1"
     ],
     "extra": [
       "p1_extra_Fruta_Ctrica_Mandarina_mainOnly_idx4",
       "p1_extra_Yogur_Protico_Sabores_mainOnly_idx5"
     ],
     "baselineTotals": {
-      "calories": 2020.4,
-      "protein": 142.575,
-      "carbs": 185.69,
-      "fats": 76.05000000000001
+      "calories": 2172.65,
+      "protein": 145.84750000000003,
+      "carbs": 220.91749999999996,
+      "fats": 76.225
     }
   },
   {
@@ -872,8 +947,3 @@ const dailyMenus = [
     }
   }
 ];
-
-// Detalles de los planes exportados:
-// Plan: Entreno, Calorías Objetivo: 2200, Proteínas Objetivo: 140, Carbohidratos Objetivo: 150
-// Plan: Entreno 2, Calorías Objetivo: 2000, Proteínas Objetivo: 140, Carbohidratos Objetivo: 180
-// Plan: Opciones 3, Calorías Objetivo: 1850, Proteínas Objetivo: 140, Carbohidratos Objetivo: 125
