@@ -1,7 +1,5 @@
-// Titulo: Plan de alimentación de Santi — 4 opciones
-// Alergias: Sin restricciones médicas registradas
-// Dos extras diarios, ambos incluidos en los totales. Pesos de arroz, pasta, avena y quinoa en crudo; legumbres cocidas y conservas escurridas.
-// Recetas: DATABASE/NUTR_DATA. Perfiles de ingredientes: catálogo nutricional del CRM; yogur griego Danone natural según ficha del fabricante.
+// Titulo: Santi — cuatro opciones, dos extras diarios
+// Recetas verificadas: DATABASE / NUTR_DATA. Cereales en crudo; legumbres cocidas y conservas escurridas.
 const foodDatabase = {
   "o1_des": {
     "name": "Tostada de Centeno con Cottage y Pavo",
@@ -51,98 +49,66 @@ const foodDatabase = {
         "calories": 112,
         "protein": 19.6,
         "carbs": 0,
-        "fats": 2.8
+        "fats": 2.8000000000000003
       }
     ],
     "preparation": "1. Tostar el pan de centeno. 2. Untar el queso cottage. 3. Colocar las lonchas de pavo encima."
   },
   "o1_com": {
-    "name": "Arroz tres delicias",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68872f8e1fc4545c499532f0.png",
-    "calories": 580.25,
-    "protein": 31.3,
-    "carbs": 65.9,
-    "fats": 21.7,
+    "name": "Pasta tricolor con pisto de verduras, y carne picada",
+    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69b50fe5fc5128125e8bc1e4.png",
+    "preparation": "1. Cocer la pasta. 2. Saltear la carne picada con el pisto. 3. Mezclar todo.",
     "ingredients": [
       {
-        "name": "Arroz",
+        "name": "Pasta Tricolor",
         "quantity": "75",
         "unit": "g",
-        "category": "grain_carb_dry",
         "baseCalories": 3.65,
-        "baseProtein": 0.12,
-        "baseCarbs": 0.75,
-        "baseFats": 0.02,
         "calories": 273.75,
+        "baseProtein": 0.12,
         "protein": 9,
+        "baseCarbs": 0.75,
         "carbs": 56.25,
+        "baseFats": 0.02,
         "fats": 1.5
       },
       {
-        "name": "Huevo (en tortilla)",
-        "quantity": "1",
-        "unit": "unidad(es)",
-        "category": "egg",
-        "baseCalories": 77.5,
-        "baseProtein": 6.5,
-        "baseCarbs": 0.55,
-        "baseFats": 5.5,
-        "gramsPerUnit": 50,
-        "calories": 77.5,
-        "protein": 6.5,
-        "carbs": 0.55,
-        "fats": 5.5
-      },
-      {
-        "name": "Guisantes",
+        "name": "Pisto de Verduras",
         "quantity": "100",
         "unit": "g",
-        "category": "default_veg",
         "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002,
         "calories": 30,
+        "baseProtein": 0.02,
         "protein": 2,
+        "baseCarbs": 0.05,
         "carbs": 5,
+        "baseFats": 0.002,
         "fats": 0.2
       },
       {
-        "name": "Jamón York",
-        "quantity": "80",
+        "name": "Carne Picada",
+        "quantity": "125",
         "unit": "g",
-        "category": "processed_protein",
-        "baseCalories": 2.3,
-        "baseProtein": 0.16,
-        "baseCarbs": 0.02,
-        "baseFats": 0.18,
-        "calories": 184,
-        "protein": 12.8,
-        "carbs": 1.6,
-        "fats": 14.4
-      },
-      {
-        "name": "Maíz",
-        "quantity": "50",
-        "unit": "g",
-        "category": "default_veg",
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002,
-        "calories": 15,
-        "protein": 1,
-        "carbs": 2.5,
-        "fats": 0.1
+        "baseCalories": 2.2,
+        "calories": 275,
+        "baseProtein": 0.22,
+        "protein": 27.5,
+        "baseCarbs": 0,
+        "carbs": 0,
+        "baseFats": 0.14,
+        "fats": 17.5
       }
     ],
-    "preparation": "1. Cocer el arroz y reservar. 2. Hacer una tortilla francesa con los huevos y cortarla en trocitos. 3. Saltear los guisantes y el maíz. 4. Cortar el jamón York en daditos. 5. Mezclar todos los ingredientes en una sartén o wok con un poco de salsa de soja (opcional) y saltear todo junto durante un par de minutos."
+    "calories": 578.75,
+    "protein": 38.5,
+    "carbs": 61.25,
+    "fats": 19.2
   },
   "o1_cen": {
     "name": "Merluza a la Plancha",
     "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69b66b6dad027629d2f1e944.png",
     "calories": 284.2,
-    "protein": 42,
+    "protein": 42.00000000000001,
     "carbs": 0,
     "fats": 11,
     "ingredients": [
@@ -156,7 +122,7 @@ const foodDatabase = {
         "baseCarbs": 0,
         "baseFats": 0.04,
         "calories": 240,
-        "protein": 42,
+        "protein": 42.00000000000001,
         "carbs": 0,
         "fats": 6
       },
@@ -272,7 +238,7 @@ const foodDatabase = {
     "name": "Porridge de Avena y Frutos Rojos",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afdf19b8ed348797cbcd8.png",
     "calories": 461.75,
-    "protein": 20.2,
+    "protein": 20.200000000000003,
     "carbs": 82.65,
     "fats": 6.8,
     "ingredients": [
@@ -300,7 +266,7 @@ const foodDatabase = {
         "baseCarbs": 0.048,
         "baseFats": 0.016,
         "calories": 138,
-        "protein": 10.2,
+        "protein": 10.200000000000001,
         "carbs": 14.4,
         "fats": 4.8
       },
@@ -322,175 +288,112 @@ const foodDatabase = {
     "preparation": "1. En un cazo, cocinar los copos de avena con la leche o bebida vegetal a fuego medio, removiendo constantemente hasta que espese y la avena esté cocida (unos 5-7 minutos). 2. Servir caliente en un bol con los frutos rojos por encima. Opcional: añadir canela o edulcorante al gusto."
   },
   "o2_com": {
-    "name": "Ensalada de Pasta con Pollo",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afc47b91eb349463d47dd.png",
-    "calories": 863.4,
-    "protein": 74,
-    "carbs": 90,
-    "fats": 20.6,
+    "name": "Poke de Arroz con Atún, Queso Feta, Tomate and Aguacate",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cf7d29b0c67d84e9af509.png",
+    "preparation": "1. Cocer el arroz y dejar enfriar. 2. Cortar el tomate, aguacate y queso feta en dados. 3. En un bol, colocar una base de arroz. 4. Añadir el atún, tomate, aguacate y queso feta. 5. Aliñar al gusto con salsa de soja y aceite de sésamo.",
     "ingredients": [
       {
-        "name": "Pasta Integral",
-        "quantity": "100",
+        "name": "Arroz",
+        "quantity": "75",
         "unit": "g",
-        "category": "grain_carb_dry",
         "baseCalories": 3.65,
+        "calories": 273.75,
         "baseProtein": 0.12,
+        "protein": 9,
         "baseCarbs": 0.75,
+        "carbs": 56.25,
         "baseFats": 0.02,
-        "calories": 365,
-        "protein": 12,
-        "carbs": 75,
-        "fats": 2
+        "fats": 1.5
       },
       {
-        "name": "Pechuga de Pollo",
-        "quantity": "200",
+        "name": "Atún en Conserva",
+        "quantity": "150",
         "unit": "g",
-        "category": "lean_protein",
         "baseCalories": 1.6,
+        "calories": 240,
         "baseProtein": 0.28,
+        "protein": 42.00000000000001,
         "baseCarbs": 0,
-        "baseFats": 0.04,
-        "calories": 320,
-        "protein": 56,
         "carbs": 0,
-        "fats": 8
+        "baseFats": 0.04,
+        "fats": 6
       },
       {
-        "name": "Canónigos",
-        "quantity": "50",
+        "name": "Queso Feta",
+        "quantity": "30",
         "unit": "g",
-        "category": "default_veg",
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002,
-        "calories": 15,
-        "protein": 1,
-        "carbs": 2.5,
-        "fats": 0.1
+        "baseCalories": 3.5,
+        "calories": 105,
+        "baseProtein": 0.25,
+        "protein": 7.5,
+        "baseCarbs": 0.02,
+        "carbs": 0.6,
+        "baseFats": 0.25,
+        "fats": 7.5
       },
       {
         "name": "Tomate",
-        "quantity": "100",
+        "quantity": "150",
         "unit": "g",
-        "category": "default_veg",
         "baseCalories": 0.3,
+        "calories": 45,
         "baseProtein": 0.02,
+        "protein": 3,
         "baseCarbs": 0.05,
+        "carbs": 7.5,
         "baseFats": 0.002,
-        "calories": 30,
-        "protein": 2,
-        "carbs": 5,
-        "fats": 0.2
+        "fats": 0.3
       },
       {
-        "name": "Pimiento Rojo",
-        "quantity": "50",
+        "name": "Aguacate",
+        "quantity": "30",
         "unit": "g",
-        "category": "default_veg",
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002,
-        "calories": 15,
-        "protein": 1,
-        "carbs": 2.5,
-        "fats": 0.1
+        "baseCalories": 4.5,
+        "calories": 135,
+        "baseProtein": 0.1,
+        "protein": 3,
+        "baseCarbs": 0.15,
+        "carbs": 4.5,
+        "baseFats": 0.4,
+        "fats": 12
       },
       {
-        "name": "Pimiento Verde",
-        "quantity": "50",
-        "unit": "g",
-        "category": "default_veg",
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002,
-        "calories": 15,
-        "protein": 1,
-        "carbs": 2.5,
-        "fats": 0.1
-      },
-      {
-        "name": "Cebolla",
-        "quantity": "50",
-        "unit": "g",
-        "category": "default_veg",
-        "baseCalories": 0.3,
-        "baseProtein": 0.02,
-        "baseCarbs": 0.05,
-        "baseFats": 0.002,
-        "calories": 15,
-        "protein": 1,
-        "carbs": 2.5,
-        "fats": 0.1
-      },
-      {
-        "name": "Aceite de Oliva Virgen Extra",
+        "name": "Salsa de Soja",
         "quantity": "10",
         "unit": "g",
-        "category": "oil_fat",
+        "baseCalories": 1.2,
+        "calories": 12,
+        "baseProtein": 0.02,
+        "protein": 0.2,
+        "baseCarbs": 0.08,
+        "carbs": 0.8,
+        "baseFats": 0.08,
+        "fats": 0.8
+      },
+      {
+        "name": "Aceite de Sésamo",
+        "quantity": "5",
+        "unit": "g",
         "baseCalories": 8.84,
+        "calories": 44.2,
         "baseProtein": 0,
+        "protein": 0,
         "baseCarbs": 0,
+        "carbs": 0,
         "baseFats": 1,
-        "calories": 88.4,
-        "protein": 0,
-        "carbs": 0,
-        "fats": 10
-      },
-      {
-        "name": "Vinagre",
-        "quantity": "10",
-        "unit": "g",
-        "category": "free_food",
-        "baseCalories": 0,
-        "baseProtein": 0,
-        "baseCarbs": 0,
-        "baseFats": 0,
-        "calories": 0,
-        "protein": 0,
-        "carbs": 0,
-        "fats": 0
-      },
-      {
-        "name": "Sal",
-        "quantity": "1",
-        "unit": "g",
-        "category": "free_food",
-        "baseCalories": 0,
-        "baseProtein": 0,
-        "baseCarbs": 0,
-        "baseFats": 0,
-        "calories": 0,
-        "protein": 0,
-        "carbs": 0,
-        "fats": 0
-      },
-      {
-        "name": "Pimienta",
-        "quantity": "1",
-        "unit": "g",
-        "category": "free_food",
-        "baseCalories": 0,
-        "baseProtein": 0,
-        "baseCarbs": 0,
-        "baseFats": 0,
-        "calories": 0,
-        "protein": 0,
-        "carbs": 0,
-        "fats": 0
+        "fats": 5
       }
     ],
-    "preparation": "1. Cocer la pasta según las instrucciones del paquete. Escurrir, pasar por agua fría para detener la cocción y dejar enfriar. 2. Cocinar la pechuga de pollo (a la plancha, hervida o asada) y desmenuzarla o cortarla en dados. 3. Lavar los canónigos. Picar el tomate, pimiento rojo, pimiento verde y cebolla en trozos pequeños. 4. En un bol grande, combinar la pasta fría, el pollo, los canónigos y las verduras picadas. 5. Aliñar con aceite de oliva virgen extra, vinagre o tu salsa para ensaladas favorita (ej. yogur, mostaza y miel). Salpimentar al gusto."
+    "calories": 854.95,
+    "protein": 64.7,
+    "carbs": 69.64999999999999,
+    "fats": 33.1
   },
   "o2_cen": {
     "name": "Bacalao con Pisto de Verduras",
     "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69fee682bc1f77cc3522d18f.png",
     "calories": 285,
-    "protein": 45,
+    "protein": 45.00000000000001,
     "carbs": 7.5,
     "fats": 6.3,
     "ingredients": [
@@ -499,7 +402,7 @@ const foodDatabase = {
         "quantity": "150",
         "unit": "g",
         "calories": 240,
-        "protein": 42,
+        "protein": 42.00000000000001,
         "carbs": 0,
         "fats": 6,
         "baseCalories": 1.6,
@@ -549,7 +452,7 @@ const foodDatabase = {
         "name": "Jamón Dulce",
         "quantity": "50",
         "unit": "g",
-        "calories": 115,
+        "calories": 114.99999999999999,
         "protein": 8,
         "carbs": 1,
         "fats": 9,
@@ -588,7 +491,7 @@ const foodDatabase = {
         "quantity": "50",
         "unit": "g",
         "calories": 184,
-        "protein": 7,
+        "protein": 7.000000000000001,
         "carbs": 32,
         "fats": 3,
         "baseCalories": 3.68,
@@ -693,7 +596,7 @@ const foodDatabase = {
         "baseCarbs": 0,
         "baseFats": 0.04,
         "calories": 320,
-        "protein": 56,
+        "protein": 56.00000000000001,
         "carbs": 0,
         "fats": 8
       },
@@ -756,7 +659,7 @@ const foodDatabase = {
     ],
     "preparation": "1. Lavar y cortar los tomates en gajos. 2. Escurrir los espárragos blancos y el atún. 3. Picar la cebolla en juliana fina. 4. En una fuente, disponer los tomates, los espárragos y el atún. 5. Añadir la cebolla y aliñar con aceite de oliva, vinagre y sal al gusto.",
     "calories": 513.4,
-    "protein": 63,
+    "protein": 63.00000000000001,
     "carbs": 17.5,
     "fats": 18.7
   },
@@ -788,7 +691,7 @@ const foodDatabase = {
         "baseCarbs": 0.048,
         "baseFats": 0.016,
         "calories": 92,
-        "protein": 6.8,
+        "protein": 6.800000000000001,
         "carbs": 9.6,
         "fats": 3.2
       },
@@ -819,7 +722,7 @@ const foodDatabase = {
     "calories": 507.5,
     "protein": 44.25,
     "carbs": 29.5,
-    "fats": 22.07,
+    "fats": 22.075000000000003,
     "ingredients": [
       {
         "name": "Lentejas Cocidas",
@@ -841,7 +744,7 @@ const foodDatabase = {
         "calories": 330,
         "protein": 33,
         "carbs": 0,
-        "fats": 21,
+        "fats": 21.000000000000004,
         "baseCalories": 2.2,
         "baseProtein": 0.22,
         "baseCarbs": 0,
@@ -936,7 +839,7 @@ const foodDatabase = {
     "calories": 586.2,
     "protein": 50.2,
     "carbs": 15.8,
-    "fats": 34.4,
+    "fats": 34.400000000000006,
     "ingredients": [
       {
         "name": "Tomate",
@@ -994,10 +897,10 @@ const foodDatabase = {
         "name": "Lomo de Salmón",
         "quantity": "200",
         "unit": "g",
-        "calories": 440,
+        "calories": 440.00000000000006,
         "protein": 44,
         "carbs": 0,
-        "fats": 28,
+        "fats": 28.000000000000004,
         "baseCalories": 2.2,
         "baseProtein": 0.22,
         "baseCarbs": 0,
@@ -1099,7 +1002,7 @@ const foodDatabase = {
     "calories": 393,
     "protein": 36.75,
     "carbs": 56.5,
-    "fats": 2.27
+    "fats": 2.275
   },
   "sn1_fruit": {
     "name": "Fruta Cítrica (Mandarina, Kiwi, Naranja...)",
@@ -1162,9 +1065,9 @@ const foodDatabase = {
     ],
     "preparation": "1. Mezclar el yogur griego con la proteína en polvo en un bol hasta que esté bien integrado y sin grumos.",
     "calories": 165.5,
-    "protein": 30.38,
+    "protein": 30.375,
     "carbs": 7.75,
-    "fats": 1.13
+    "fats": 1.125
   },
   "sn2_nuts": {
     "name": "Frutos Secos (Mezcla)",
@@ -1298,16 +1201,16 @@ const foodDatabase = {
         "baseFats": 0.07,
         "nutritionSource": "https://foodservice.danone.es/product/danone-griego-bulk-natural/",
         "calories": 141,
-        "protein": 5.1,
+        "protein": 5.1000000000000005,
         "carbs": 6.6,
-        "fats": 10.5
+        "fats": 10.500000000000002
       }
     ],
     "preparation": "Consumir directamente.",
     "calories": 141,
-    "protein": 5.1,
+    "protein": 5.1000000000000005,
     "carbs": 6.6,
-    "fats": 10.5
+    "fats": 10.500000000000002
   },
   "sn4_fruit": {
     "name": "Fruta Densa (Plátano, Manzana, Pera)",
@@ -1341,16 +1244,16 @@ const dailyMenus = [
   {
     "name": "Opciones 1",
     "targetMacros": {
-      "calories": 1888,
-      "protein": 157,
-      "carbs": 197,
-      "fats": 50
+      "calories": 1885,
+      "protein": 164,
+      "carbs": 192,
+      "fats": 48
     },
     "baselineTotals": {
-      "calories": 1886.65,
-      "protein": 156.55,
-      "carbs": 196.9,
-      "fats": 50.03
+      "calories": 1885.15,
+      "protein": 163.75,
+      "carbs": 192.25,
+      "fats": 47.535
     },
     "desayuno": [
       "o1_des"
@@ -1370,16 +1273,16 @@ const dailyMenus = [
   {
     "name": "Opciones 2",
     "targetMacros": {
-      "calories": 1889,
-      "protein": 172,
-      "carbs": 192,
-      "fats": 45
+      "calories": 1880,
+      "protein": 163,
+      "carbs": 171,
+      "fats": 57
     },
     "baselineTotals": {
-      "calories": 1888.15,
-      "protein": 172.07,
-      "carbs": 191.65,
-      "fats": 44.82
+      "calories": 1879.7,
+      "protein": 162.775,
+      "carbs": 171.3,
+      "fats": 57.324999999999996
     },
     "desayuno": [
       "o2_des"
@@ -1398,14 +1301,14 @@ const dailyMenus = [
   {
     "name": "Libre 1",
     "targetMacros": {
-      "calories": 1600,
+      "calories": 1598,
       "protein": 140,
       "carbs": 100,
       "fats": 62
     },
     "baselineTotals": {
       "calories": 1597.6,
-      "protein": 140.35,
+      "protein": 140.35000000000002,
       "carbs": 99.6,
       "fats": 61.75
     },
@@ -1426,7 +1329,7 @@ const dailyMenus = [
   {
     "name": "Libre 2",
     "targetMacros": {
-      "calories": 1600,
+      "calories": 1602,
       "protein": 129,
       "carbs": 88,
       "fats": 79
@@ -1435,7 +1338,7 @@ const dailyMenus = [
       "calories": 1601.7,
       "protein": 129.1,
       "carbs": 88.25,
-      "fats": 79.48
+      "fats": 79.47500000000001
     },
     "desayuno": [
       "o4_des"
