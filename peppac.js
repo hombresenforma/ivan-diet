@@ -1273,15 +1273,13 @@ export const dailyMenus = [
     }
   },
   {
-    "name": "Libre 2",
+    "name": "Ayuno",
     "targetMacros": {
       "calories": 1550,
       "protein": 150,
       "carbs": 100
     },
-    "desayuno": [
-      "p3_m0"
-    ],
+    "desayuno": [],
     "comida": [
       "p3_m1"
     ],
@@ -1290,13 +1288,15 @@ export const dailyMenus = [
       "p3_ext"
     ],
     "extra": [
+      "p3_m0",
       "p3_ext2"
     ],
     "baselineTotals": {
       "calories": 1546.9,
-      "protein": 151.82500000000002,
+      "protein": 151.825,
       "carbs": 68.95,
       "fats": 67.555
     }
   }
 ];
+
