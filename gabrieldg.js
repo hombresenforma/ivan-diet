@@ -1,5 +1,6 @@
 // Titulo: Plan de Alimentación
 // Alergias: 
+// Ajuste 27/11/2026: proteína de Ayuno sin aumentar energía; nuevo menú INVIERNO con recetas canónicas completas. Otros menús conservados.
 const foodDatabase = {
   "p1_m0": {
     "name": "Tostada de Centeno con Aguacate y Atún",
@@ -593,10 +594,10 @@ const foodDatabase = {
   "p3_m0": {
     "name": "Sandwich Vegetal de Atún",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cd60954a1880bed54596d.png",
-    "calories": 392,
-    "protein": 42,
-    "carbs": 36,
-    "fats": 7,
+    "calories": 399.5,
+    "protein": 42.9,
+    "carbs": 36.25,
+    "fats": 7.05,
     "ingredients": [
       {
         "name": "Pan de Centeno",
@@ -613,12 +614,12 @@ const foodDatabase = {
       },
       {
         "name": "Atún en Conserva",
-        "quantity": "120",
+        "quantity": "125",
         "unit": "g",
-        "calories": 192,
-        "protein": 33.6,
+        "calories": 200,
+        "protein": 35,
         "carbs": 0,
-        "fats": 4.8,
+        "fats": 5,
         "baseCalories": 1.6,
         "baseProtein": 0.28,
         "baseCarbs": 0,
@@ -657,10 +658,10 @@ const foodDatabase = {
   "p3_m1": {
     "name": "Wrap de pollo hervido con verduras y arroz",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684ef7e26202d54cb0de24e8.png",
-    "calories": 741,
-    "protein": 61,
-    "carbs": 94,
-    "fats": 11,
+    "calories": 652,
+    "protein": 57.900000000000006,
+    "carbs": 78.75,
+    "fats": 9.25,
     "ingredients": [
       {
         "name": "Pechuga de Pollo",
@@ -677,12 +678,12 @@ const foodDatabase = {
       },
       {
         "name": "Arroz",
-        "quantity": "30",
+        "quantity": "50",
         "unit": "g",
-        "calories": 109.5,
-        "protein": 3.5999999999999996,
-        "carbs": 22.5,
-        "fats": 0.6,
+        "calories": 182.5,
+        "protein": 5.999999999999999,
+        "carbs": 37.5,
+        "fats": 1,
         "baseCalories": 3.65,
         "baseProtein": 0.11999999999999998,
         "baseCarbs": 0.75,
@@ -729,12 +730,12 @@ const foodDatabase = {
       },
       {
         "name": "Tortilla de Wrap",
-        "quantity": "2",
+        "quantity": "1",
         "unit": "unidad(es)",
-        "calories": 324,
-        "protein": 10.799999999999999,
-        "carbs": 60,
-        "fats": 3.5999999999999996,
+        "calories": 162,
+        "protein": 5.3999999999999995,
+        "carbs": 30,
+        "fats": 1.7999999999999998,
         "baseCalories": 162,
         "baseProtein": 5.3999999999999995,
         "baseCarbs": 30,
@@ -743,31 +744,6 @@ const foodDatabase = {
     ],
     "preparation": "1. Hervir la pechuga de pollo en agua con sal hasta que esté cocida (unos 15-20 minutos). Dejar enfriar un poco y desmenuzar o cortar en trozos pequeños. 2. Cocer el arroz según las instrucciones del paquete. 3. Cocer al vapor o hervir el brócoli (en floretes pequeños) y la zanahoria (cortada en juliana o dados pequeños) hasta que estén tiernos pero crujientes. Picar la cebolla finamente (puede usarse cruda o salteada ligeramente). 4. Calentar ligeramente la tortilla de wrap para que sea más flexible. 5. Extender una capa fina de arroz cocido sobre la tortilla, dejando un borde libre. Distribuir encima el pollo desmenuzado, el brócoli, la zanahoria y la cebolla. 6. Opcional: añadir una salsa ligera (yogur con hierbas, hummus, etc.). Enrollar el wrap firmemente, doblando los extremos hacia adentro si se prefiere.",
     "originalBaseRecipeId": "cc_wrap_de_pollo_hervido_con_verduras_y_arroz"
-  },
-  "p3_m2": {
-    "name": "Yogur Protéico (Sabores, Natural...)",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd789b8ed38b127cbc09.png",
-    "calories": 125,
-    "protein": 6,
-    "carbs": 13,
-    "fats": 5,
-    "ingredients": [
-      {
-        "name": "Yogur Protéico",
-        "quantity": "1",
-        "unit": "unidad(es)",
-        "calories": 125,
-        "protein": 6.25,
-        "carbs": 12.5,
-        "fats": 5,
-        "baseCalories": 125,
-        "baseProtein": 6.25,
-        "baseCarbs": 12.5,
-        "baseFats": 5
-      }
-    ],
-    "preparation": "1. Seleccionar el yogur proteico de preferencia (natural o con sabores). 2. Abrir el envase. 3. Consumir directamente con una cuchara. Opcional: se puede acompañar de frutas frescas troceadas, frutos secos, semillas o un poco de miel o edulcorante si es natural y se desea endulzar.",
-    "originalBaseRecipeId": "ext_yogur_protico_sabores_natural"
   },
   "p3_m3": {
     "name": "Frutos Secos (Mezcla)",
@@ -1137,6 +1113,315 @@ const foodDatabase = {
     ],
     "preparation": "1. Poner el queso fresco batido en un bol. 2. Lavar y escurrir los frutos rojos y repartirlos por encima. 3. Regar con la miel y servir frío.",
     "originalBaseRecipeId": "ex_queso_fresco_batido_con_frutos_rojos_y_miel"
+  },
+  "nov27_ayuno_yogur": {
+    "name": "Yogur Griego Desnatado con Proteína en Polvo",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68e7efa6d27b18380fc8e8fd.png",
+    "preparation": "1. Mezclar el yogur griego con la proteína en polvo en un bol hasta que esté bien integrado y sin grumos.",
+    "ingredients": [
+      {
+        "name": "Yogur Griego Desnatado",
+        "quantity": "150",
+        "unit": "g",
+        "nutritionReference": "Etiqueta oficial FAGE Total 0%, 54 kcal, 10,3 P, 3 CH, 0,1 G por 100 g; https://es.fage/productos/fage-total-0",
+        "baseCalories": 0.54,
+        "calories": 81,
+        "baseProtein": 0.103,
+        "protein": 15.45,
+        "baseCarbs": 0.03,
+        "carbs": 4.5,
+        "baseFats": 0.001,
+        "fats": 0.15
+      },
+      {
+        "name": "Proteína en Polvo",
+        "quantity": "30",
+        "unit": "g",
+        "nutritionReference": "Base del plan vigente verificado",
+        "baseCalories": 3.8,
+        "calories": 114,
+        "baseProtein": 0.8,
+        "protein": 24,
+        "baseCarbs": 0.05,
+        "carbs": 1.5,
+        "baseFats": 0.04,
+        "fats": 1.2
+      }
+    ],
+    "canonicalRecipe": {
+      "spreadsheetId": "1mOofR4T4__X4yXdUmVPPtI5lFyrOyB1UkbkBC8GUUv8",
+      "sheet": "NUTR_DATA",
+      "row": 58
+    },
+    "notes": "Elegir yogur griego desnatado tipo FAGE 0%. Proteína en polvo medida en gramos.",
+    "calories": 195,
+    "protein": 39.45,
+    "carbs": 6,
+    "fats": 1.3499999999999999
+  },
+  "nov27_invierno_d": {
+    "name": "Revuelto de Huevos y Claras con Jamón",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682ad5e1e819fcb589a8a30e.png",
+    "preparation": "1. Batir los huevos y las claras. 2. Cortar el jamón en taquitos o tiras. 3. Saltear ligeramente el jamón en una sartén con una pizca de aceite (opcional). 4. Verter la mezcla de huevo y remover constantemente a fuego medio-bajo hasta que cuaje al gusto.",
+    "ingredients": [
+      {
+        "name": "Huevos",
+        "quantity": "2",
+        "unit": "unidad(es)",
+        "nutritionReference": "CoFID 2021 12-937: Eggs, chicken, whole, raw; unidad=55 g comestibles",
+        "baseCalories": 72.05,
+        "calories": 144.1,
+        "baseProtein": 6.93,
+        "protein": 13.86,
+        "baseCarbs": 0,
+        "carbs": 0,
+        "baseFats": 4.95,
+        "fats": 9.9
+      },
+      {
+        "name": "Claras de Huevo",
+        "quantity": "125",
+        "unit": "g",
+        "nutritionReference": "CoFID 2021 12-938: Eggs, chicken, white, raw por 100 g",
+        "baseCalories": 0.43,
+        "calories": 53.75,
+        "baseProtein": 0.10800000000000001,
+        "protein": 13.500000000000002,
+        "baseCarbs": 0,
+        "carbs": 0,
+        "baseFats": 0,
+        "fats": 0
+      },
+      {
+        "name": "Jamón Serrano",
+        "quantity": "80",
+        "unit": "g",
+        "nutritionReference": "Base del plan Jorge Alonso vigente, Jamón Serrano",
+        "baseCalories": 2.2,
+        "calories": 176,
+        "baseProtein": 0.22,
+        "protein": 17.6,
+        "baseCarbs": 0,
+        "carbs": 0,
+        "baseFats": 0.14,
+        "fats": 11.200000000000001
+      },
+      {
+        "name": "Aceite de Oliva Virgen Extra",
+        "quantity": "10",
+        "unit": "g",
+        "nutritionReference": "CoFID 2021 17-038: Oil, olive por 100 g",
+        "baseCalories": 8.99,
+        "calories": 89.9,
+        "baseProtein": 0,
+        "protein": 0,
+        "baseCarbs": 0,
+        "carbs": 0,
+        "baseFats": 0.9990000000000001,
+        "fats": 9.990000000000002
+      }
+    ],
+    "canonicalRecipe": {
+      "spreadsheetId": "1mOofR4T4__X4yXdUmVPPtI5lFyrOyB1UkbkBC8GUUv8",
+      "sheet": "NUTR_DATA",
+      "row": 43
+    },
+    "notes": "Desayuno caliente. Huevos por unidades; claras en gramos.",
+    "calories": 463.75,
+    "protein": 44.96,
+    "carbs": 0,
+    "fats": 31.090000000000003
+  },
+  "nov27_invierno_c": {
+    "name": "Lomo de Cerdo con Boniato y Espinacas",
+    "image": "https://raw.githubusercontent.com/hombresenforma/ivan-diet/main/assets/ivandt/prueba-chatgpt/lomo-cerdo-boniato-espinacas.jpg",
+    "preparation": "1. Asar el boniato en dados. 2. Cocinar el lomo a la plancha. 3. Saltear las espinacas y servir todo junto.",
+    "ingredients": [
+      {
+        "name": "Lomo de Cerdo",
+        "quantity": "200",
+        "unit": "g",
+        "nutritionReference": "CoFID 2021 18-523: Pork, loin steaks, raw, lean and fat, trimmed por 100 g",
+        "baseCalories": 1.4,
+        "calories": 280,
+        "baseProtein": 0.225,
+        "protein": 45,
+        "baseCarbs": 0,
+        "carbs": 0,
+        "baseFats": 0.055,
+        "fats": 11
+      },
+      {
+        "name": "Boniato",
+        "quantity": "300",
+        "unit": "g",
+        "nutritionReference": "CoFID 2021 13-463: Sweet potato, raw, flesh only por 100 g",
+        "baseCalories": 0.87,
+        "calories": 261,
+        "baseProtein": 0.012,
+        "protein": 3.6,
+        "baseCarbs": 0.213,
+        "carbs": 63.9,
+        "baseFats": 0.003,
+        "fats": 0.9
+      },
+      {
+        "name": "Espinacas",
+        "quantity": "200",
+        "unit": "g",
+        "nutritionReference": "CoFID 2021 13-572: Spinach, mature, raw por 100 g",
+        "baseCalories": 0.25,
+        "calories": 50,
+        "baseProtein": 0.027999999999999997,
+        "protein": 5.6,
+        "baseCarbs": 0.016,
+        "carbs": 3.2,
+        "baseFats": 0.008,
+        "fats": 1.6
+      },
+      {
+        "name": "Aceite de Oliva Virgen Extra",
+        "quantity": "10",
+        "unit": "g",
+        "nutritionReference": "CoFID 2021 17-038: Oil, olive por 100 g",
+        "baseCalories": 8.99,
+        "calories": 89.9,
+        "baseProtein": 0,
+        "protein": 0,
+        "baseCarbs": 0,
+        "carbs": 0,
+        "baseFats": 0.9990000000000001,
+        "fats": 9.990000000000002
+      }
+    ],
+    "canonicalRecipe": {
+      "spreadsheetId": "1mOofR4T4__X4yXdUmVPPtI5lFyrOyB1UkbkBC8GUUv8",
+      "sheet": "NUTR_DATA",
+      "row": 30
+    },
+    "notes": "Carne, boniato y verduras EN CRUDO. Aceite medido para cocinar y saltear.",
+    "calories": 680.9,
+    "protein": 54.2,
+    "carbs": 67.1,
+    "fats": 23.490000000000002
+  },
+  "nov27_invierno_n": {
+    "name": "Falso Risotto de Coliflor con Pollo y Setas",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6922cee78c174d4e6d420b9d.png",
+    "preparation": "1. Rallar la coliflor hasta que parezca arroz. 2. Saltear pollo y champiñones con cebolla. 3. Añadir la coliflor y saltear 5 min (no debe ablandarse demasiado). 4. Sazonar al gusto.",
+    "ingredients": [
+      {
+        "name": "Coliflor",
+        "quantity": "250",
+        "unit": "g",
+        "nutritionReference": "CoFID 2021 13-512: Cauliflower, raw por 100 g",
+        "baseCalories": 0.3,
+        "calories": 75,
+        "baseProtein": 0.025,
+        "protein": 6.25,
+        "baseCarbs": 0.044000000000000004,
+        "carbs": 11.000000000000002,
+        "baseFats": 0.004,
+        "fats": 1
+      },
+      {
+        "name": "Pechuga de Pollo",
+        "quantity": "200",
+        "unit": "g",
+        "nutritionReference": "CoFID 2021 18-290: Chicken, light meat, raw por 100 g",
+        "baseCalories": 1.06,
+        "calories": 212,
+        "baseProtein": 0.24,
+        "protein": 48,
+        "baseCarbs": 0,
+        "carbs": 0,
+        "baseFats": 0.011000000000000001,
+        "fats": 2.2
+      },
+      {
+        "name": "Champiñones",
+        "quantity": "150",
+        "unit": "g",
+        "nutritionReference": "CoFID 2021 13-505: Mushrooms, white, raw por 100 g",
+        "baseCalories": 0.07,
+        "calories": 10.500000000000002,
+        "baseProtein": 0.01,
+        "protein": 1.5,
+        "baseCarbs": 0.003,
+        "carbs": 0.45,
+        "baseFats": 0.002,
+        "fats": 0.3
+      },
+      {
+        "name": "Cebolla",
+        "quantity": "75",
+        "unit": "g",
+        "nutritionReference": "CoFID 2021 13-499: Onions, raw por 100 g",
+        "baseCalories": 0.35,
+        "calories": 26.25,
+        "baseProtein": 0.01,
+        "protein": 0.75,
+        "baseCarbs": 0.08,
+        "carbs": 6,
+        "baseFats": 0.001,
+        "fats": 0.075
+      },
+      {
+        "name": "Aceite de Oliva Virgen Extra",
+        "quantity": "10",
+        "unit": "g",
+        "nutritionReference": "CoFID 2021 17-038: Oil, olive por 100 g",
+        "baseCalories": 8.99,
+        "calories": 89.9,
+        "baseProtein": 0,
+        "protein": 0,
+        "baseCarbs": 0,
+        "carbs": 0,
+        "baseFats": 0.9990000000000001,
+        "fats": 9.990000000000002
+      }
+    ],
+    "canonicalRecipe": {
+      "spreadsheetId": "1mOofR4T4__X4yXdUmVPPtI5lFyrOyB1UkbkBC8GUUv8",
+      "sheet": "NUTR_DATA",
+      "row": 87
+    },
+    "notes": "Carne y verduras EN CRUDO. Usar sartén antiadherente y el aceite medido.",
+    "calories": 413.65,
+    "protein": 56.5,
+    "carbs": 17.450000000000003,
+    "fats": 13.565000000000001
+  },
+  "nov27_invierno_e": {
+    "name": "Onza de Chocolate 85%",
+    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69b51011eba487f7273f1096.png",
+    "preparation": "Consumir directamente.",
+    "ingredients": [
+      {
+        "name": "Chocolate 85%",
+        "quantity": "30",
+        "unit": "g",
+        "nutritionReference": "Base del plan Jorge Alonso vigente, Chocolate 85%",
+        "baseCalories": 5.5,
+        "calories": 165,
+        "baseProtein": 0.06,
+        "protein": 1.7999999999999998,
+        "baseCarbs": 0.3,
+        "carbs": 9,
+        "baseFats": 0.4,
+        "fats": 12
+      }
+    ],
+    "canonicalRecipe": {
+      "spreadsheetId": "1mOofR4T4__X4yXdUmVPPtI5lFyrOyB1UkbkBC8GUUv8",
+      "sheet": "NUTR_DATA",
+      "row": 158
+    },
+    "notes": "Porción de 30 g, según perfil del plan vigente.",
+    "calories": 165,
+    "protein": 1.7999999999999998,
+    "carbs": 9,
+    "fats": 12
   }
 };
 const dailyMenus = [
@@ -1207,9 +1492,10 @@ const dailyMenus = [
   {
     "name": "Ayuno",
     "targetMacros": {
-      "calories": 2000,
-      "protein": 150,
-      "carbs": 200
+      "calories": 1381.5,
+      "protein": 143.25,
+      "carbs": 126,
+      "fats": 29.650000000000002
     },
     "desayuno": [
       "p3_m0"
@@ -1219,8 +1505,41 @@ const dailyMenus = [
     ],
     "cena": [],
     "extra": [
-      "p3_m2",
+      "nov27_ayuno_yogur",
       "p3_m3"
-    ]
+    ],
+    "baselineTotals": {
+      "calories": 1381.5,
+      "protein": 143.25,
+      "carbs": 126,
+      "fats": 29.650000000000002
+    }
+  },
+  {
+    "name": "INVIERNO",
+    "desayuno": [
+      "nov27_invierno_d"
+    ],
+    "comida": [
+      "nov27_invierno_c"
+    ],
+    "cena": [
+      "nov27_invierno_n"
+    ],
+    "extra": [
+      "nov27_invierno_e"
+    ],
+    "targetMacros": {
+      "calories": 1723.3000000000002,
+      "protein": 157.46,
+      "carbs": 93.55,
+      "fats": 80.14500000000001
+    },
+    "baselineTotals": {
+      "calories": 1723.3000000000002,
+      "protein": 157.46,
+      "carbs": 93.55,
+      "fats": 80.14500000000001
+    }
   }
 ];
