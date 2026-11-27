@@ -1,13 +1,14 @@
 // Titulo: Plan de Alimentación
 // Alergias: 
+// Ajuste 27/11/2026: Libre 1 y Libre 2 a ~1500 kcal. Se preservan entreno y Extras INVIERNO. Recetas tocadas verificadas completas en NUTR_DATA.
 const foodDatabase = {
   "p0_m0": {
     "name": "Revuelto de Huevos con Jamón",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682ad5e1e819fcb589a8a30e.png",
-    "calories": 276,
-    "protein": 18,
-    "carbs": 1,
-    "fats": 23,
+    "calories": 231.7,
+    "protein": 17.5,
+    "carbs": 0.55,
+    "fats": 17.5,
     "ingredients": [
       {
         "name": "Huevos",
@@ -37,12 +38,12 @@ const foodDatabase = {
       },
       {
         "name": "Aceite de Oliva Virgen Extra",
-        "quantity": "10",
+        "quantity": "5",
         "unit": "g",
-        "calories": 88.4,
+        "calories": 44.2,
         "protein": 0,
         "carbs": 0,
-        "fats": 10,
+        "fats": 5,
         "baseCalories": 8.84,
         "baseProtein": 0,
         "baseCarbs": 0,
@@ -50,15 +51,20 @@ const foodDatabase = {
       }
     ],
     "preparation": "1. Batir los huevos. 2. Cortar el jamón en taquitos o tiras. 3. Saltear ligeramente el jamón en una sartén con una pizca de aceite (opcional). 4. Verter los huevos batidos y remover constantemente a fuego medio-bajo hasta que cuajen al gusto.",
-    "originalBaseRecipeId": "des_revuelto_de_huevos_con_jamn"
+    "originalBaseRecipeId": "des_revuelto_de_huevos_con_jamn",
+    "canonicalRecipe": {
+      "spreadsheetId": "1mOofR4T4__X4yXdUmVPPtI5lFyrOyB1UkbkBC8GUUv8",
+      "sheet": "NUTR_DATA",
+      "row": 42
+    }
   },
   "p0_m1": {
     "name": "Quinoa con ternera y verduras",
     "image": "https://raw.githubusercontent.com/hombresenforma/ivan-diet/main/assets/ivandt/dias-4-7/quinoa-ternera-verduras.jpg",
-    "calories": 591,
-    "protein": 37,
+    "calories": 546.7,
+    "protein": 36.5,
     "carbs": 45,
-    "fats": 29,
+    "fats": 23.8,
     "ingredients": [
       {
         "name": "Quinoa",
@@ -114,27 +120,32 @@ const foodDatabase = {
       },
       {
         "name": "Aceite de oliva virgen extra",
-        "quantity": "10",
+        "quantity": "5",
         "unit": "g",
-        "calories": 88.4,
+        "calories": 44.2,
         "protein": 0,
         "carbs": 0,
-        "fats": 10,
+        "fats": 5,
         "baseCalories": 8.84,
         "baseProtein": 0,
         "baseCarbs": 0,
         "baseFats": 1
       }
     ],
-    "preparation": "1. Lavar y cocer la quinoa según el envase. 2. Saltear el pimiento y el calabacín con el aceite medido, añadir la ternera en tiras y cocinar; mezclar con la quinoa."
+    "preparation": "1. Lavar y cocer la quinoa según el envase. 2. Saltear el pimiento y el calabacín con el aceite medido, añadir la ternera en tiras y cocinar; mezclar con la quinoa.",
+    "canonicalRecipe": {
+      "spreadsheetId": "1mOofR4T4__X4yXdUmVPPtI5lFyrOyB1UkbkBC8GUUv8",
+      "sheet": "NUTR_DATA",
+      "row": 12
+    }
   },
   "p0_m2": {
     "name": "Wok de Verduras con Salmón",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afda0b91eb330dd3d49b2.png",
-    "calories": 553,
-    "protein": 42,
-    "carbs": 23,
-    "fats": 32,
+    "calories": 517.1,
+    "protein": 42.3,
+    "carbs": 24.29,
+    "fats": 26.900000000000002,
     "ingredients": [
       {
         "name": "Tomate",
@@ -203,45 +214,39 @@ const foodDatabase = {
       },
       {
         "name": "Aceite de Oliva Virgen Extra",
-        "quantity": "10",
+        "quantity": "5",
         "unit": "g",
-        "calories": 88.4,
+        "calories": 44.2,
         "protein": 0,
         "carbs": 0,
-        "fats": 10,
+        "fats": 5,
         "baseCalories": 8.84,
         "baseProtein": 0,
         "baseCarbs": 0,
         "baseFats": 1
+      },
+      {
+        "name": "Salsa de Soja",
+        "quantity": "10",
+        "unit": "g",
+        "nutritionReference": "CoFID 2021 17-721: Soy sauce, light and dark varieties; valores por 100 g",
+        "baseCalories": 0.79,
+        "calories": 7.9,
+        "baseProtein": 0.03,
+        "protein": 0.3,
+        "baseCarbs": 0.179,
+        "carbs": 1.79,
+        "baseFats": 0,
+        "fats": 0
       }
     ],
     "preparation": "1. Cortar el salmón en dados de tamaño mediano. Picar el tomate, pimiento rojo, pimiento verde y cebolla en trozos adecuados para wok (ej. juliana gruesa o dados). 2. Calentar un wok o sartén grande con un poco de aceite a fuego alto. Saltear el salmón unos 2-3 minutos hasta que esté dorado por fuera pero ligeramente crudo por dentro. Retirar y reservar. 3. Añadir las verduras más duras (cebolla, pimientos) al wok y saltear durante 3-4 minutos. Luego añadir el tomate y saltear 1-2 minutos más. 4. Incorporar el salmón de nuevo al wok. Añadir salsa de soja (baja en sodio preferiblemente) y un toque de jengibre rallado o ajo picado (opcional). Mezclar bien y cocinar por 1-2 minutos más hasta que el salmón esté cocido y todo bien caliente. Servir inmediatamente, opcionalmente sobre una base de arroz o noodles.",
-    "originalBaseRecipeId": "cc_wok_de_verduras_con_salmn"
-  },
-  "p0_m3": {
-    "name": "Yogur Protéico (Sabores, Natural...)",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afd789b8ed38b127cbc09.png",
-    "calories": 125,
-    "protein": 6,
-    "carbs": 13,
-    "fats": 5,
-    "ingredients": [
-      {
-        "name": "Yogur Protéico",
-        "quantity": "1",
-        "unit": "unidad(es)",
-        "calories": 125,
-        "protein": 6.25,
-        "carbs": 12.5,
-        "fats": 5,
-        "baseCalories": 125,
-        "baseProtein": 6.25,
-        "baseCarbs": 12.5,
-        "baseFats": 5
-      }
-    ],
-    "preparation": "1. Seleccionar el yogur proteico de preferencia (natural o con sabores). 2. Abrir el envase. 3. Consumir directamente con una cuchara. Opcional: se puede acompañar de frutas frescas troceadas, frutos secos, semillas o un poco de miel o edulcorante si es natural y se desea endulzar.",
-    "originalBaseRecipeId": "ext_yogur_protico_sabores_natural"
+    "originalBaseRecipeId": "cc_wok_de_verduras_con_salmn",
+    "canonicalRecipe": {
+      "spreadsheetId": "1mOofR4T4__X4yXdUmVPPtI5lFyrOyB1UkbkBC8GUUv8",
+      "sheet": "NUTR_DATA",
+      "row": 68
+    }
   },
   "p0_m4": {
     "name": "Fruta Cítrica (Mandarina, Kiwi, Naranja...)",
@@ -284,10 +289,10 @@ const foodDatabase = {
   "p1_m0": {
     "name": "Tostada de Centeno con Aguacate y Atún",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682aff33e819fcc7a1a8d946.png",
-    "calories": 408,
-    "protein": 39,
-    "carbs": 20,
-    "fats": 18,
+    "calories": 366.5,
+    "protein": 38.6,
+    "carbs": 15.9,
+    "fats": 14.6,
     "ingredients": [
       {
         "name": "Tostada de Pan de Centeno",
@@ -304,25 +309,26 @@ const foodDatabase = {
       },
       {
         "name": "Aguacate",
-        "quantity": "30",
+        "quantity": "50",
         "unit": "g",
-        "calories": 135,
-        "protein": 3,
-        "carbs": 4.5,
-        "fats": 12,
-        "baseCalories": 4.5,
-        "baseProtein": 0.1,
-        "baseCarbs": 0.15,
-        "baseFats": 0.4
+        "calories": 85.5,
+        "protein": 0.9000000000000001,
+        "carbs": 0.8999999999999999,
+        "fats": 8.7,
+        "baseCalories": 1.71,
+        "baseProtein": 0.018000000000000002,
+        "baseCarbs": 0.018,
+        "baseFats": 0.174,
+        "nutritionReference": "CoFID 2021 14-386: Avocado, Hass, flesh only"
       },
       {
         "name": "Atún en Conserva",
-        "quantity": "120",
+        "quantity": "125",
         "unit": "g",
-        "calories": 192,
-        "protein": 33.6,
+        "calories": 200,
+        "protein": 35,
         "carbs": 0,
-        "fats": 4.8,
+        "fats": 5,
         "baseCalories": 1.6,
         "baseProtein": 0.28,
         "baseCarbs": 0,
@@ -330,15 +336,20 @@ const foodDatabase = {
       }
     ],
     "preparation": "1. Tostar el pan de centeno hasta que esté dorado y crujiente. 2. Mientras tanto, machacar o laminar el aguacate. 3. Extender el aguacate sobre la tostada. 4. Escurrir bien el atún y desmenuzarlo sobre el aguacate. Opcional: añadir un chorrito de zumo de limón sobre el aguacate para evitar que se oxide y un poco de pimienta negra.",
-    "originalBaseRecipeId": "des_tostada_de_centeno_con_aguacate_y_atn"
+    "originalBaseRecipeId": "des_tostada_de_centeno_con_aguacate_y_atn",
+    "canonicalRecipe": {
+      "spreadsheetId": "1mOofR4T4__X4yXdUmVPPtI5lFyrOyB1UkbkBC8GUUv8",
+      "sheet": "NUTR_DATA",
+      "row": 46
+    }
   },
   "p1_m1": {
     "name": "Albóndigas de pavo con calabacín",
     "image": "https://raw.githubusercontent.com/hombresenforma/ivan-diet/main/assets/ivandt/dias-4-7/albondigas-pavo-calabacin.jpg",
-    "calories": 527,
-    "protein": 63,
-    "carbs": 17,
-    "fats": 20,
+    "calories": 491.7,
+    "protein": 60.50000000000001,
+    "carbs": 16.65,
+    "fats": 17.65,
     "ingredients": [
       {
         "name": "Pechuga de pavo",
@@ -381,12 +392,12 @@ const foodDatabase = {
       },
       {
         "name": "Queso parmesano",
-        "quantity": "30",
+        "quantity": "20",
         "unit": "g",
-        "calories": 105,
-        "protein": 7.5,
-        "carbs": 0.6,
-        "fats": 7.5,
+        "calories": 70,
+        "protein": 5,
+        "carbs": 0.4,
+        "fats": 5,
         "baseCalories": 3.5,
         "baseProtein": 0.25,
         "baseCarbs": 0.02,
@@ -406,15 +417,20 @@ const foodDatabase = {
         "baseFats": 1
       }
     ],
-    "preparation": "1. Picar el pavo o usar pavo picado 100%, formar bolitas y dorarlas con el aceite. 2. Añadir tomate triturado y cocinar tapado hasta que el pavo esté hecho. 3. Incorporar el calabacín en tiras al final y servir con parmesano."
+    "preparation": "1. Picar el pavo o usar pavo picado 100%, formar bolitas y dorarlas con el aceite. 2. Añadir tomate triturado y cocinar tapado hasta que el pavo esté hecho. 3. Incorporar el calabacín en tiras al final y servir con parmesano.",
+    "canonicalRecipe": {
+      "spreadsheetId": "1mOofR4T4__X4yXdUmVPPtI5lFyrOyB1UkbkBC8GUUv8",
+      "sheet": "NUTR_DATA",
+      "row": 21
+    }
   },
   "p1_m2": {
     "name": "Calabacín con Cebolla a la Plancha",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afc8e9b8ed35d8e7cbb0e.png",
-    "calories": 163,
-    "protein": 5,
-    "carbs": 13,
-    "fats": 11,
+    "calories": 119.702,
+    "protein": 5.0208,
+    "carbs": 12.5774,
+    "fats": 5.50652,
     "ingredients": [
       {
         "name": "Calabacín",
@@ -444,28 +460,61 @@ const foodDatabase = {
       },
       {
         "name": "Aceite de Oliva Virgen Extra",
-        "quantity": "10",
+        "quantity": "5",
         "unit": "g",
-        "calories": 88.4,
+        "calories": 44.2,
         "protein": 0,
         "carbs": 0,
-        "fats": 10,
+        "fats": 5,
         "baseCalories": 8.84,
         "baseProtein": 0,
         "baseCarbs": 0,
         "baseFats": 1
+      },
+      {
+        "name": "Sal",
+        "quantity": "1",
+        "unit": "g",
+        "nutritionReference": "CoFID 2021 17-367: Salt; valores por 100 g",
+        "baseCalories": 0,
+        "calories": 0,
+        "baseProtein": 0,
+        "protein": 0,
+        "baseCarbs": 0,
+        "carbs": 0,
+        "baseFats": 0,
+        "fats": 0
+      },
+      {
+        "name": "Pimienta",
+        "quantity": "0.2",
+        "unit": "g",
+        "nutritionReference": "USDA SR Legacy FDC 170931, pimienta negra; CH disponibles sin fibra",
+        "baseCalories": 2.51,
+        "calories": 0.502,
+        "baseProtein": 0.10400000000000001,
+        "protein": 0.020800000000000003,
+        "baseCarbs": 0.387,
+        "carbs": 0.07740000000000001,
+        "baseFats": 0.0326,
+        "fats": 0.00652
       }
     ],
     "preparation": "1. Lavar el calabacín y cortarlo en rodajas de aproximadamente 0.5 a 1 cm de grosor. Pelar y cortar la cebolla en juliana o rodajas. 2. Calentar una plancha o sartén grande con un chorrito de aceite de oliva a fuego medio-alto. 3. Colocar las rodajas de calabacín y la cebolla sobre la plancha caliente. Cocinar durante 3-5 minutos por cada lado, o hasta que estén tiernos y presenten marcas doradas de la plancha. 4. Sazonar con sal, pimienta y opcionalmente un poco de ajo en polvo u orégano durante la cocción o al final.",
-    "originalBaseRecipeId": "pp_calabacn_con_cebolla_a_la_plancha"
+    "originalBaseRecipeId": "pp_calabacn_con_cebolla_a_la_plancha",
+    "canonicalRecipe": {
+      "spreadsheetId": "1mOofR4T4__X4yXdUmVPPtI5lFyrOyB1UkbkBC8GUUv8",
+      "sheet": "NUTR_DATA",
+      "row": 94
+    }
   },
   "p1_m3": {
     "name": "Revuelto de Huevos con Espárragos Trigueros",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684f019a532eaa9f6977a78c.png",
-    "calories": 293,
-    "protein": 16,
-    "carbs": 6,
-    "fats": 23,
+    "calories": 249.702,
+    "protein": 15.5208,
+    "carbs": 6.1774,
+    "fats": 18.00652,
     "ingredients": [
       {
         "name": "Espárragos Trigueros",
@@ -495,20 +544,53 @@ const foodDatabase = {
       },
       {
         "name": "Aceite de Oliva Virgen Extra",
-        "quantity": "10",
+        "quantity": "5",
         "unit": "g",
-        "calories": 88.4,
+        "calories": 44.2,
         "protein": 0,
         "carbs": 0,
-        "fats": 10,
+        "fats": 5,
         "baseCalories": 8.84,
         "baseProtein": 0,
         "baseCarbs": 0,
         "baseFats": 1
+      },
+      {
+        "name": "Sal",
+        "quantity": "1",
+        "unit": "g",
+        "nutritionReference": "CoFID 2021 17-367: Salt; valores por 100 g",
+        "baseCalories": 0,
+        "calories": 0,
+        "baseProtein": 0,
+        "protein": 0,
+        "baseCarbs": 0,
+        "carbs": 0,
+        "baseFats": 0,
+        "fats": 0
+      },
+      {
+        "name": "Pimienta",
+        "quantity": "0.2",
+        "unit": "g",
+        "nutritionReference": "USDA SR Legacy FDC 170931, pimienta negra; CH disponibles sin fibra",
+        "baseCalories": 2.51,
+        "calories": 0.502,
+        "baseProtein": 0.10400000000000001,
+        "protein": 0.020800000000000003,
+        "baseCarbs": 0.387,
+        "carbs": 0.07740000000000001,
+        "baseFats": 0.0326,
+        "fats": 0.00652
       }
     ],
-    "preparation": "1. Lavar los espárragos trigueros y cortar la parte inferior más dura del tallo. Trocear los espárragos en trozos de unos 2-3 cm. 2. Batir los huevos en un bol con una pizca de sal y pimienta. 3. Calentar un poco de aceite de oliva en una sartén a fuego medio. Añadir los espárragos troceados y saltear durante 3-5 minutos, o hasta que estén tiernos pero aún crujientes. 4. Verter los huevos batidos sobre los espárragos en la sartén. 5. Remover suavemente con una espátula, mezclando los huevos con los espárragos, hasta que los huevos estén cuajados al gusto. Servir caliente.",
-    "originalBaseRecipeId": "ac_revuelto_de_huevos_con_esprragos_trigueros"
+    "preparation": "1. Lavar los espárragos trigueros y cortar la parte inferior más dura del tallo. Trocear los espárragos en trozos de unos 2-3 cm. 2. Batir los huevos en un bol con una pizca de sal y pimienta. 3. Calentar un poco de aceite de oliva en una sartén a fuego medio. Añadir los espárragos troceados y saltear durante 3-5 minutos, o hasta que estén tiernos pero aún crujientes. 4. Verter los huevos batidos sobre los espárragos en la sartén. 5. Remover suavemente con una espátula, mezclando los huevos con los espárragos, hasta que los huevos estén cuajados al gusto.",
+    "originalBaseRecipeId": "ac_revuelto_de_huevos_con_esprragos_trigueros",
+    "canonicalRecipe": {
+      "spreadsheetId": "1mOofR4T4__X4yXdUmVPPtI5lFyrOyB1UkbkBC8GUUv8",
+      "sheet": "NUTR_DATA",
+      "row": 114
+    }
   },
   "p1_m4": {
     "name": "Yogur Protéico con Frutos Rojos y Secos",
@@ -1500,21 +1582,67 @@ const foodDatabase = {
       }
     ],
     "preparation": "Consumir directamente."
+  },
+  "nov27_libre1_yogur": {
+    "name": "Yogur Griego Desnatado con Proteína en Polvo",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68e7efa6d27b18380fc8e8fd.png",
+    "preparation": "1. Mezclar el yogur griego con la proteína en polvo en un bol hasta que esté bien integrado y sin grumos.",
+    "ingredients": [
+      {
+        "name": "Yogur Griego Desnatado",
+        "quantity": "125",
+        "unit": "g",
+        "nutritionReference": "Etiqueta oficial FAGE Total 0%, 54 kcal, 10,3 P, 3 CH, 0,1 G por 100 g; https://es.fage/productos/fage-total-0",
+        "baseCalories": 0.54,
+        "calories": 67.5,
+        "baseProtein": 0.103,
+        "protein": 12.875,
+        "baseCarbs": 0.03,
+        "carbs": 3.75,
+        "baseFats": 0.001,
+        "fats": 0.125
+      },
+      {
+        "name": "Proteína en Polvo",
+        "quantity": "20",
+        "unit": "g",
+        "nutritionReference": "Base del plan vigente verificado",
+        "baseCalories": 3.8,
+        "calories": 76,
+        "baseProtein": 0.8,
+        "protein": 16,
+        "baseCarbs": 0.05,
+        "carbs": 1,
+        "baseFats": 0.04,
+        "fats": 0.8
+      }
+    ],
+    "canonicalRecipe": {
+      "spreadsheetId": "1mOofR4T4__X4yXdUmVPPtI5lFyrOyB1UkbkBC8GUUv8",
+      "sheet": "NUTR_DATA",
+      "row": 58
+    },
+    "notes": "Elegir yogur griego desnatado tipo FAGE 0%. Proteína en polvo medida en gramos.",
+    "calories": 143.5,
+    "protein": 28.875,
+    "carbs": 4.75,
+    "fats": 0.925
   }
 };
 const dailyMenus = [
   {
     "name": "Libre 1",
     "targetMacros": {
-      "calories": 2000,
-      "protein": 150,
-      "carbs": 150
+      "calories": 1500,
+      "protein": 126.175,
+      "carbs": 97.59,
+      "fats": 69.125
     },
     "baselineTotals": {
-      "calories": 1638,
-      "protein": 103,
-      "carbs": 104,
-      "fats": 89
+      "calories": 1532,
+      "protein": 126.175,
+      "carbs": 97.59,
+      "fats": 69.125
     },
     "desayuno": [
       "p0_m0"
@@ -1526,22 +1654,23 @@ const dailyMenus = [
       "p0_m2"
     ],
     "extra": [
-      "p0_m3",
+      "nov27_libre1_yogur",
       "p0_m4"
     ]
   },
   {
     "name": "Libre 2",
     "targetMacros": {
-      "calories": 2000,
-      "protein": 150,
-      "carbs": 150
+      "calories": 1500,
+      "protein": 128.64159999999998,
+      "carbs": 76.3048,
+      "fats": 68.76304
     },
     "baselineTotals": {
-      "calories": 1643,
-      "protein": 131,
-      "carbs": 79,
-      "fats": 84
+      "calories": 1478.604,
+      "protein": 128.64159999999998,
+      "carbs": 76.3048,
+      "fats": 68.76304
     },
     "desayuno": [
       "p1_m0"
