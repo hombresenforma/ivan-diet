@@ -1634,9 +1634,9 @@ const dailyMenus = [
     "name": "Libre 1",
     "targetMacros": {
       "calories": 1500,
-      "protein": 126.175,
-      "carbs": 97.59,
-      "fats": 69.125
+      "protein": 126.2,
+      "carbs": 97.6,
+      "fats": 69.1
     },
     "baselineTotals": {
       "calories": 1532,
@@ -1662,9 +1662,9 @@ const dailyMenus = [
     "name": "Libre 2",
     "targetMacros": {
       "calories": 1500,
-      "protein": 128.64159999999998,
-      "carbs": 76.3048,
-      "fats": 68.76304
+      "protein": 128.6,
+      "carbs": 76.3,
+      "fats": 68.8
     },
     "baselineTotals": {
       "calories": 1478.604,
