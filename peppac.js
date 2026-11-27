@@ -1,4 +1,4 @@
-export const foodDatabase = {
+const foodDatabase = {
   "p0_m0": {
     "name": "Tostada de Centeno con Huevo y Queso Cottage",
     "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682ad5cf9b8ed31c657c80e8.png",
@@ -1188,7 +1188,7 @@ export const foodDatabase = {
   }
 };
 
-export const dailyMenus = [
+const dailyMenus = [
   {
     "name": "Entreno 1",
     "targetMacros": {
