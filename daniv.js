@@ -2,6 +2,7 @@
 // Ajuste 23/11/2026: desayunos conservados exactamente por petición de Iván. Comidas, cenas y extras de DATABASE / NUTR_DATA, con nombre, imagen, preparación e ingredientes asociados a su fila.
 // Objetivos: mismos aportes reales previos; pequeñas diferencias por raciones prácticas, ver baselineTotals. Los desayunos conservan sus raciones anteriores expresamente, sin aplicarles cambios nuevos.
 // Cálculo: bases del plan anterior para alimentos existentes; CoFID 2021 y etiquetas de fabricante/FoodData Central para alimentos nuevos. CH disponibles en etiqueta estadounidense excluyen fibra. Valores aproximados según producto.
+// Ajuste 27/11/2026: solo comida y cena de Lowcarb; plancha y guarniciones sencillas, sin cambiar desayunos, extras ni los demás días. Pesos de pavo y ternera COCINADOS.
 const foodDatabase = {
   "p0_m0": {
     "name": "Tostada de salmon ahumado y queso crema",
@@ -925,267 +926,6 @@ const foodDatabase = {
     "preparation": "1. Tostar el pan de centeno. 2. Untar el queso cottage. 3. Colocar las lonchas de pavo encima. Usa únicamente las cantidades de la lista. Aceite total: el indicado, repartido entre las preparaciones; sin añadir más.",
     "originalBaseRecipeId": "des_tostada_de_centeno_con_cottage_y_pavo"
   },
-  "nov23_d2_m0": {
-    "name": "Guisantes con Jamón y Sepia a la Plancha",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/695e2065c98330f34a08a046.png",
-    "preparation": "1. Saltear los guisantes con taquitos de jamón en una sartén con una gota de aceite de oliva. 2. Cocinar la sepia a la plancha a fuego fuerte con ajo y perejil hasta que esté dorada. 3. Servir la sepia acompañada de los guisantes con jamón.",
-    "ingredients": [
-      {
-        "name": "Guisantes",
-        "quantity": "300",
-        "unit": "g",
-        "nutritionReference": "CoFID 2021 13-536: Peas, frozen, boiled in unsalted water; valores por 100 g",
-        "baseCalories": 0.7,
-        "calories": 210,
-        "baseProtein": 0.055,
-        "protein": 16.5,
-        "baseCarbs": 0.11199999999999999,
-        "carbs": 33.599999999999994,
-        "baseFats": 0.006999999999999999,
-        "fats": 2.0999999999999996
-      },
-      {
-        "name": "Jamón Serrano",
-        "quantity": "50",
-        "unit": "g",
-        "nutritionReference": "Jamón serrano, etiqueta fabricante Atalanta Corporation, FDC 2669421: https://fdc.nal.usda.gov/food-details/2669421/nutrients",
-        "baseCalories": 2.86,
-        "calories": 143,
-        "baseProtein": 0.321,
-        "protein": 16.05,
-        "baseCarbs": 0,
-        "carbs": 0,
-        "baseFats": 0.161,
-        "fats": 8.05
-      },
-      {
-        "name": "Sepia",
-        "quantity": "200",
-        "unit": "g",
-        "nutritionReference": "CoFID 2021 16-254: Cuttlefish, raw; valores por 100 g",
-        "baseCalories": 0.71,
-        "calories": 142,
-        "baseProtein": 0.161,
-        "protein": 32.2,
-        "baseCarbs": 0,
-        "carbs": 0,
-        "baseFats": 0.006999999999999999,
-        "fats": 1.4
-      },
-      {
-        "name": "Aceite de Oliva Virgen Extra",
-        "quantity": "5",
-        "unit": "g",
-        "nutritionReference": "CoFID 2021 17-038 Oil, olive",
-        "baseCalories": 8.99,
-        "calories": 44.95,
-        "baseProtein": 0,
-        "protein": 0,
-        "baseCarbs": 0,
-        "carbs": 0,
-        "baseFats": 0.9990000000000001,
-        "fats": 4.995000000000001
-      },
-      {
-        "name": "Ajo",
-        "quantity": "5",
-        "unit": "g",
-        "nutritionReference": "CoFID 2021 13-244 Garlic, raw",
-        "baseCalories": 0.98,
-        "calories": 4.9,
-        "baseProtein": 0.079,
-        "protein": 0.395,
-        "baseCarbs": 0.163,
-        "carbs": 0.8150000000000001,
-        "baseFats": 0.006,
-        "fats": 0.03
-      },
-      {
-        "name": "Perejil",
-        "quantity": "2",
-        "unit": "g",
-        "nutritionReference": "CoFID 2021 13-844: Parsley, fresh; valores por 100 g",
-        "baseCalories": 0.34,
-        "calories": 0.68,
-        "baseProtein": 0.03,
-        "protein": 0.06,
-        "baseCarbs": 0.027000000000000003,
-        "carbs": 0.054000000000000006,
-        "baseFats": 0.013000000000000001,
-        "fats": 0.026000000000000002
-      }
-    ],
-    "calories": 545.53,
-    "protein": 65.205,
-    "carbs": 34.468999999999994,
-    "fats": 16.601000000000003,
-    "canonicalRecipe": {
-      "spreadsheetId": "1mOofR4T4__X4yXdUmVPPtI5lFyrOyB1UkbkBC8GUUv8",
-      "sheet": "NUTR_DATA",
-      "row": 90
-    },
-    "notes": "Cantidades pesadas en crudo salvo legumbres escurridas y guisantes cocidos. Las especias y el aceite indicados ya están contabilizados."
-  },
-  "nov23_d2_m1": {
-    "name": "Revuelto de espinacas y champiñones con queso feta",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687cfe059b0c6721a19b02e4.png",
-    "preparation": "1. Saltear los champiñones y las espinacas en una sartén. 2. Batir los huevos y verterlos en la sartén. 3. Remover hasta que los huevos estén casi cuajados. 4. Añadir el queso feta desmenuzado y mezclar.",
-    "ingredients": [
-      {
-        "name": "Espinacas",
-        "quantity": "150",
-        "unit": "g",
-        "nutritionReference": "CoFID 2021 13-572: Spinach, mature, raw; valores por 100 g",
-        "baseCalories": 0.25,
-        "calories": 37.5,
-        "baseProtein": 0.027999999999999997,
-        "protein": 4.199999999999999,
-        "baseCarbs": 0.016,
-        "carbs": 2.4,
-        "baseFats": 0.008,
-        "fats": 1.2
-      },
-      {
-        "name": "Champiñones",
-        "quantity": "150",
-        "unit": "g",
-        "nutritionReference": "CoFID 2021 13-505: Mushrooms, white, raw; valores por 100 g",
-        "baseCalories": 0.07,
-        "calories": 10.500000000000002,
-        "baseProtein": 0.01,
-        "protein": 1.5,
-        "baseCarbs": 0.003,
-        "carbs": 0.45,
-        "baseFats": 0.002,
-        "fats": 0.3
-      },
-      {
-        "name": "Queso Feta",
-        "quantity": "25",
-        "unit": "g",
-        "nutritionReference": "CoFID 2021 12-525: Cheese, Feta; valores por 100 g",
-        "baseCalories": 2.5,
-        "calories": 62.5,
-        "baseProtein": 0.156,
-        "protein": 3.9,
-        "baseCarbs": 0.015,
-        "carbs": 0.375,
-        "baseFats": 0.20199999999999999,
-        "fats": 5.05
-      },
-      {
-        "name": "Huevos",
-        "quantity": "2",
-        "unit": "ud",
-        "nutritionReference": "CoFID 2021 12-937 Eggs, chicken, whole, raw",
-        "baseCalories": 65.5,
-        "calories": 131,
-        "baseProtein": 6.3,
-        "protein": 12.6,
-        "baseCarbs": 0,
-        "carbs": 0,
-        "baseFats": 4.5,
-        "fats": 9
-      },
-      {
-        "name": "Aceite de Oliva Virgen Extra",
-        "quantity": "5",
-        "unit": "g",
-        "nutritionReference": "CoFID 2021 17-038 Oil, olive",
-        "baseCalories": 8.99,
-        "calories": 44.95,
-        "baseProtein": 0,
-        "protein": 0,
-        "baseCarbs": 0,
-        "carbs": 0,
-        "baseFats": 0.9990000000000001,
-        "fats": 4.995000000000001
-      }
-    ],
-    "calories": 286.45,
-    "protein": 22.2,
-    "carbs": 3.225,
-    "fats": 20.545,
-    "canonicalRecipe": {
-      "spreadsheetId": "1mOofR4T4__X4yXdUmVPPtI5lFyrOyB1UkbkBC8GUUv8",
-      "sheet": "NUTR_DATA",
-      "row": 47
-    },
-    "notes": "Cantidades pesadas en crudo salvo legumbres escurridas y guisantes cocidos. Las especias y el aceite indicados ya están contabilizados."
-  },
-  "nov23_d2_m2": {
-    "name": "Merluza a la Plancha",
-    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69b66b6dad027629d2f1e944.png",
-    "preparation": "1. Sazonar los filetes o rodajas de merluza con sal, pimienta y opcionalmente un poco de ajo en polvo o perejil picado. 2. Calentar una plancha o sartén antiadherente a fuego medio-alto con un chorrito de aceite de oliva virgen extra. 3. Cuando el aceite esté caliente, colocar la merluza en la plancha. Cocinar durante unos 3-5 minutos por cada lado, dependiendo del grosor del pescado, hasta que esté opaca, bien cocida por dentro y se desmenuce fácilmente con un tenedor. 4. Servir inmediatamente, opcionalmente con un chorrito de zumo de limón fresco por encima.",
-    "ingredients": [
-      {
-        "name": "Filete de Merluza",
-        "quantity": "200",
-        "unit": "g",
-        "nutritionReference": "CoFID 2021 16-070: Hake, flesh only, raw; valores por 100 g",
-        "baseCalories": 0.92,
-        "calories": 184,
-        "baseProtein": 0.18,
-        "protein": 36,
-        "baseCarbs": 0,
-        "carbs": 0,
-        "baseFats": 0.022000000000000002,
-        "fats": 4.4
-      },
-      {
-        "name": "Aceite de Oliva Virgen Extra",
-        "quantity": "5",
-        "unit": "g",
-        "nutritionReference": "CoFID 2021 17-038 Oil, olive",
-        "baseCalories": 8.99,
-        "calories": 44.95,
-        "baseProtein": 0,
-        "protein": 0,
-        "baseCarbs": 0,
-        "carbs": 0,
-        "baseFats": 0.9990000000000001,
-        "fats": 4.995000000000001
-      },
-      {
-        "name": "Sal",
-        "quantity": "1",
-        "unit": "g",
-        "nutritionReference": "CoFID 2021 17-367: Salt; valores por 100 g",
-        "baseCalories": 0,
-        "calories": 0,
-        "baseProtein": 0,
-        "protein": 0,
-        "baseCarbs": 0,
-        "carbs": 0,
-        "baseFats": 0,
-        "fats": 0
-      },
-      {
-        "name": "Pimienta",
-        "quantity": "0.2",
-        "unit": "g",
-        "nutritionReference": "USDA SR Legacy FDC 170931, pimienta negra; CH disponibles sin fibra",
-        "baseCalories": 2.51,
-        "calories": 0.502,
-        "baseProtein": 0.10400000000000001,
-        "protein": 0.020800000000000003,
-        "baseCarbs": 0.387,
-        "carbs": 0.07740000000000001,
-        "baseFats": 0.0326,
-        "fats": 0.00652
-      }
-    ],
-    "calories": 229.452,
-    "protein": 36.0208,
-    "carbs": 0.07740000000000001,
-    "fats": 9.401520000000001,
-    "canonicalRecipe": {
-      "spreadsheetId": "1mOofR4T4__X4yXdUmVPPtI5lFyrOyB1UkbkBC8GUUv8",
-      "sheet": "NUTR_DATA",
-      "row": 110
-    },
-    "notes": "Cantidades pesadas en crudo salvo legumbres escurridas y guisantes cocidos. Las especias y el aceite indicados ya están contabilizados."
-  },
   "nov23_d2_m3": {
     "name": "Hummus Casero con Palitos de Zanahoria",
     "image": "https://raw.githubusercontent.com/hombresenforma/ivan-diet/main/assets/ivandt/prueba-chatgpt/hummus-zanahoria.jpg",
@@ -1680,6 +1420,344 @@ const foodDatabase = {
       "row": 145
     },
     "notes": "Cantidades pesadas en crudo salvo legumbres escurridas y guisantes cocidos. Las especias y el aceite indicados ya están contabilizados."
+  },
+  "nov27_lowcarb_0": {
+    "name": "Pechuga de Pavo a la Plancha",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/684f003ef6c48dfc43a5bdb3.png",
+    "preparation": "1. Si los filetes de pechuga de pavo son muy gruesos, se pueden abrir tipo libro o golpear ligeramente para que tengan un grosor más uniforme y se cocinen mejor. 2. Sazonar los filetes de pavo con sal, pimienta y tus especias favoritas. 3. Calentar una plancha o sartén antiadherente a fuego medio-alto con una gota de aceite de oliva. 4. Cocinar la pechuga de pavo durante unos 3-4 minutos por cada lado, o hasta que esté dorada por fuera y completamente cocida por dentro.",
+    "ingredients": [
+      {
+        "name": "Pechuga de Pavo",
+        "quantity": "200",
+        "unit": "g (cocinados)",
+        "nutritionReference": "CoFID 2021 18-356: Turkey, breast, fillet, grilled, meat only; por 100 g COCINADOS",
+        "baseCalories": 1.55,
+        "calories": 310,
+        "baseProtein": 0.35,
+        "protein": 70,
+        "baseCarbs": 0,
+        "carbs": 0,
+        "baseFats": 0.017,
+        "fats": 3.4000000000000004,
+        "weightBasis": "cooked",
+        "notes": "Pesar DESPUÉS de cocinar; el perfil nutricional corresponde al alimento cocinado."
+      },
+      {
+        "name": "Aceite de Oliva Virgen Extra",
+        "quantity": "10",
+        "unit": "g",
+        "nutritionReference": "CoFID 2021 17-038 Oil, olive",
+        "baseCalories": 8.99,
+        "calories": 89.9,
+        "baseProtein": 0,
+        "protein": 0,
+        "baseCarbs": 0,
+        "carbs": 0,
+        "baseFats": 0.9990000000000001,
+        "fats": 9.990000000000002
+      },
+      {
+        "name": "Sal",
+        "quantity": "1",
+        "unit": "g",
+        "nutritionReference": "CoFID 2021 17-367: Salt; valores por 100 g",
+        "baseCalories": 0,
+        "calories": 0,
+        "baseProtein": 0,
+        "protein": 0,
+        "baseCarbs": 0,
+        "carbs": 0,
+        "baseFats": 0,
+        "fats": 0
+      },
+      {
+        "name": "Pimienta",
+        "quantity": "0.2",
+        "unit": "g",
+        "nutritionReference": "USDA SR Legacy FDC 170931, pimienta negra; CH disponibles sin fibra",
+        "baseCalories": 2.51,
+        "calories": 0.502,
+        "baseProtein": 0.10400000000000001,
+        "protein": 0.020800000000000003,
+        "baseCarbs": 0.387,
+        "carbs": 0.07740000000000001,
+        "baseFats": 0.0326,
+        "fats": 0.00652
+      }
+    ],
+    "canonicalRecipe": {
+      "spreadsheetId": "1mOofR4T4__X4yXdUmVPPtI5lFyrOyB1UkbkBC8GUUv8",
+      "sheet": "NUTR_DATA",
+      "row": 111
+    },
+    "notes": "Receta sencilla de DATABASE. Carne pesada COCINADA; verduras en crudo. El aceite y los condimentos indicados están incluidos en el cálculo. Puedes cocinar varias raciones juntas.",
+    "calories": 400.402,
+    "protein": 70.0208,
+    "carbs": 0.07740000000000001,
+    "fats": 13.396520000000002
+  },
+  "nov27_lowcarb_1": {
+    "name": "Ensalada de Tomate, Ajo y Cebolla",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe199b8ed3c4d37cbd18.png",
+    "preparation": "1. Lavar bien los tomates y cortarlos en rodajas, gajos o dados, según preferencia. 2. Pelar y picar la cebolla en juliana fina. Para suavizar su sabor, se puede dejar en remojo en agua fría con un poco de vinagre durante 10 minutos y luego escurrir. 3. Pelar y picar el ajo muy finamente, o machacarlo en un mortero. 4. En un bol o fuente, combinar el tomate, la cebolla y el ajo. 5. Aliñar generosamente con aceite de oliva virgen extra de buena calidad, un poco de vinagre (opcional, preferiblemente de Jerez o manzana) y sal. Mezclar bien y dejar reposar unos minutos antes de servir para que se integren los sabores.",
+    "ingredients": [
+      {
+        "name": "Tomate",
+        "quantity": "300",
+        "unit": "g",
+        "nutritionReference": "CoFID 2021 13-517: Tomatoes, standard, raw; por 100 g",
+        "baseCalories": 0.14,
+        "calories": 42.00000000000001,
+        "baseProtein": 0.005,
+        "protein": 1.5,
+        "baseCarbs": 0.03,
+        "carbs": 9,
+        "baseFats": 0.001,
+        "fats": 0.3
+      },
+      {
+        "name": "Ajo",
+        "quantity": "5",
+        "unit": "g",
+        "nutritionReference": "CoFID 2021 13-244: Garlic, raw; por 100 g",
+        "baseCalories": 0.98,
+        "calories": 4.9,
+        "baseProtein": 0.079,
+        "protein": 0.395,
+        "baseCarbs": 0.163,
+        "carbs": 0.8150000000000001,
+        "baseFats": 0.006,
+        "fats": 0.03
+      },
+      {
+        "name": "Cebolla",
+        "quantity": "100",
+        "unit": "g",
+        "nutritionReference": "CoFID 2021 13-499: Onions, raw; por 100 g",
+        "baseCalories": 0.35,
+        "calories": 35,
+        "baseProtein": 0.01,
+        "protein": 1,
+        "baseCarbs": 0.08,
+        "carbs": 8,
+        "baseFats": 0.001,
+        "fats": 0.1
+      },
+      {
+        "name": "Aceite de Oliva Virgen Extra",
+        "quantity": "10",
+        "unit": "g",
+        "nutritionReference": "CoFID 2021 17-038 Oil, olive",
+        "baseCalories": 8.99,
+        "calories": 89.9,
+        "baseProtein": 0,
+        "protein": 0,
+        "baseCarbs": 0,
+        "carbs": 0,
+        "baseFats": 0.9990000000000001,
+        "fats": 9.990000000000002
+      },
+      {
+        "name": "Vinagre",
+        "quantity": "10",
+        "unit": "g",
+        "nutritionReference": "CoFID 2021 17-339: Vinegar; valores por 100 g",
+        "baseCalories": 0.22,
+        "calories": 2.2,
+        "baseProtein": 0.004,
+        "protein": 0.04,
+        "baseCarbs": 0.006,
+        "carbs": 0.06,
+        "baseFats": 0,
+        "fats": 0
+      },
+      {
+        "name": "Sal",
+        "quantity": "1",
+        "unit": "g",
+        "nutritionReference": "CoFID 2021 17-367: Salt; valores por 100 g",
+        "baseCalories": 0,
+        "calories": 0,
+        "baseProtein": 0,
+        "protein": 0,
+        "baseCarbs": 0,
+        "carbs": 0,
+        "baseFats": 0,
+        "fats": 0
+      }
+    ],
+    "canonicalRecipe": {
+      "spreadsheetId": "1mOofR4T4__X4yXdUmVPPtI5lFyrOyB1UkbkBC8GUUv8",
+      "sheet": "NUTR_DATA",
+      "row": 95
+    },
+    "notes": "Receta sencilla de DATABASE. Carne pesada COCINADA; verduras en crudo. El aceite y los condimentos indicados están incluidos en el cálculo. Puedes cocinar varias raciones juntas.",
+    "calories": 174,
+    "protein": 2.935,
+    "carbs": 17.874999999999996,
+    "fats": 10.420000000000002
+  },
+  "nov27_lowcarb_2": {
+    "name": "Solomillo/Filete de Ternera a la Plancha",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afe6c0ed5060d3743015a.png",
+    "preparation": "1. Sacar el filete o solomillo de ternera del refrigerador unos 15-20 minutos antes de cocinar para que se temple. 2. Sazonar la carne con sal y pimienta negra recién molida justo antes de ponerla en la plancha. 3. Calentar una plancha o sartén de fondo grueso a fuego alto hasta que esté bien caliente. Añadir una gota de aceite de oliva y extenderlo. 4. Cocinar el filete al gusto. 5. Dejar reposar la carne un par de minutos antes de servir para que los jugos se redistribuyan.",
+    "ingredients": [
+      {
+        "name": "Solomillo de Ternera",
+        "quantity": "175",
+        "unit": "g (cocinados)",
+        "nutritionReference": "CoFID 2021 18-020: Beef, fillet steak, grilled, lean; por 100 g COCINADOS",
+        "baseCalories": 1.88,
+        "calories": 329,
+        "baseProtein": 0.29100000000000004,
+        "protein": 50.925000000000004,
+        "baseCarbs": 0,
+        "carbs": 0,
+        "baseFats": 0.08,
+        "fats": 14,
+        "weightBasis": "cooked",
+        "notes": "Pesar DESPUÉS de cocinar; el perfil nutricional corresponde al alimento cocinado."
+      },
+      {
+        "name": "Aceite de Oliva Virgen Extra",
+        "quantity": "5",
+        "unit": "g",
+        "nutritionReference": "CoFID 2021 17-038 Oil, olive",
+        "baseCalories": 8.99,
+        "calories": 44.95,
+        "baseProtein": 0,
+        "protein": 0,
+        "baseCarbs": 0,
+        "carbs": 0,
+        "baseFats": 0.9990000000000001,
+        "fats": 4.995000000000001
+      },
+      {
+        "name": "Sal",
+        "quantity": "1",
+        "unit": "g",
+        "nutritionReference": "CoFID 2021 17-367: Salt; valores por 100 g",
+        "baseCalories": 0,
+        "calories": 0,
+        "baseProtein": 0,
+        "protein": 0,
+        "baseCarbs": 0,
+        "carbs": 0,
+        "baseFats": 0,
+        "fats": 0
+      },
+      {
+        "name": "Pimienta",
+        "quantity": "0.2",
+        "unit": "g",
+        "nutritionReference": "USDA SR Legacy FDC 170931, pimienta negra; CH disponibles sin fibra",
+        "baseCalories": 2.51,
+        "calories": 0.502,
+        "baseProtein": 0.10400000000000001,
+        "protein": 0.020800000000000003,
+        "baseCarbs": 0.387,
+        "carbs": 0.07740000000000001,
+        "baseFats": 0.0326,
+        "fats": 0.00652
+      }
+    ],
+    "canonicalRecipe": {
+      "spreadsheetId": "1mOofR4T4__X4yXdUmVPPtI5lFyrOyB1UkbkBC8GUUv8",
+      "sheet": "NUTR_DATA",
+      "row": 109
+    },
+    "notes": "Receta sencilla de DATABASE. Carne pesada COCINADA; verduras en crudo. El aceite y los condimentos indicados están incluidos en el cálculo. Puedes cocinar varias raciones juntas.",
+    "calories": 374.452,
+    "protein": 50.945800000000006,
+    "carbs": 0.07740000000000001,
+    "fats": 19.00152
+  },
+  "nov27_lowcarb_3": {
+    "name": "Calabacín con Cebolla a la Plancha",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/682afc8e9b8ed35d8e7cbb0e.png",
+    "preparation": "1. Lavar el calabacín y cortarlo en rodajas de aproximadamente 0.5 a 1 cm de grosor. Pelar y cortar la cebolla en juliana o rodajas. 2. Calentar una plancha o sartén grande con un chorrito de aceite de oliva a fuego medio-alto. 3. Colocar las rodajas de calabacín y la cebolla sobre la plancha caliente. Cocinar durante 3-5 minutos por cada lado, o hasta que estén tiernos y presenten marcas doradas de la plancha. 4. Sazonar con sal, pimienta y opcionalmente un poco de ajo en polvo u orégano durante la cocción o al final.",
+    "ingredients": [
+      {
+        "name": "Calabacín",
+        "quantity": "200",
+        "unit": "g",
+        "nutritionReference": "CoFID 2021 13-627: Courgette, raw; por 100 g",
+        "baseCalories": 0.16,
+        "calories": 32,
+        "baseProtein": 0.013000000000000001,
+        "protein": 2.6,
+        "baseCarbs": 0.023,
+        "carbs": 4.6,
+        "baseFats": 0.002,
+        "fats": 0.4
+      },
+      {
+        "name": "Cebolla",
+        "quantity": "100",
+        "unit": "g",
+        "nutritionReference": "CoFID 2021 13-499: Onions, raw; por 100 g",
+        "baseCalories": 0.35,
+        "calories": 35,
+        "baseProtein": 0.01,
+        "protein": 1,
+        "baseCarbs": 0.08,
+        "carbs": 8,
+        "baseFats": 0.001,
+        "fats": 0.1
+      },
+      {
+        "name": "Aceite de Oliva Virgen Extra",
+        "quantity": "5",
+        "unit": "g",
+        "nutritionReference": "CoFID 2021 17-038 Oil, olive",
+        "baseCalories": 8.99,
+        "calories": 44.95,
+        "baseProtein": 0,
+        "protein": 0,
+        "baseCarbs": 0,
+        "carbs": 0,
+        "baseFats": 0.9990000000000001,
+        "fats": 4.995000000000001
+      },
+      {
+        "name": "Sal",
+        "quantity": "1",
+        "unit": "g",
+        "nutritionReference": "CoFID 2021 17-367: Salt; valores por 100 g",
+        "baseCalories": 0,
+        "calories": 0,
+        "baseProtein": 0,
+        "protein": 0,
+        "baseCarbs": 0,
+        "carbs": 0,
+        "baseFats": 0,
+        "fats": 0
+      },
+      {
+        "name": "Pimienta",
+        "quantity": "0.2",
+        "unit": "g",
+        "nutritionReference": "USDA SR Legacy FDC 170931, pimienta negra; CH disponibles sin fibra",
+        "baseCalories": 2.51,
+        "calories": 0.502,
+        "baseProtein": 0.10400000000000001,
+        "protein": 0.020800000000000003,
+        "baseCarbs": 0.387,
+        "carbs": 0.07740000000000001,
+        "baseFats": 0.0326,
+        "fats": 0.00652
+      }
+    ],
+    "canonicalRecipe": {
+      "spreadsheetId": "1mOofR4T4__X4yXdUmVPPtI5lFyrOyB1UkbkBC8GUUv8",
+      "sheet": "NUTR_DATA",
+      "row": 94
+    },
+    "notes": "Receta sencilla de DATABASE. Carne pesada COCINADA; verduras en crudo. El aceite y los condimentos indicados están incluidos en el cálculo. Puedes cocinar varias raciones juntas.",
+    "calories": 112.452,
+    "protein": 3.6208,
+    "carbs": 12.6774,
+    "fats": 5.501520000000001
   }
 };
 
@@ -1752,20 +1830,21 @@ const dailyMenus = [
       "fats": 100.4
     },
     "baselineTotals": {
-      "calories": 2291.932,
-      "protein": 171.62579999999997,
-      "carbs": 172.92139999999998,
-      "fats": 104.09752
+      "calories": 2291.806,
+      "protein": 175.7224,
+      "carbs": 165.8572,
+      "fats": 105.86956
     },
     "desayuno": [
       "p2_m0"
     ],
     "comida": [
-      "nov23_d2_m0"
+      "nov27_lowcarb_0",
+      "nov27_lowcarb_1"
     ],
     "cena": [
-      "nov23_d2_m1",
-      "nov23_d2_m2"
+      "nov27_lowcarb_2",
+      "nov27_lowcarb_3"
     ],
     "extra": [
       "nov23_d2_m3",
