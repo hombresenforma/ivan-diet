@@ -1492,10 +1492,10 @@ const dailyMenus = [
   {
     "name": "Ayuno",
     "targetMacros": {
-      "calories": 1381.5,
-      "protein": 143.25,
+      "calories": 1382,
+      "protein": 143.3,
       "carbs": 126,
-      "fats": 29.650000000000002
+      "fats": 29.7
     },
     "desayuno": [
       "p3_m0"
@@ -1530,10 +1530,10 @@ const dailyMenus = [
       "nov27_invierno_e"
     ],
     "targetMacros": {
-      "calories": 1723.3000000000002,
-      "protein": 157.46,
-      "carbs": 93.55,
-      "fats": 80.14500000000001
+      "calories": 1723,
+      "protein": 157.5,
+      "carbs": 93.6,
+      "fats": 80.1
     },
     "baselineTotals": {
       "calories": 1723.3000000000002,
