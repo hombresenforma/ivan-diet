@@ -3,6 +3,7 @@
 // Objetivos: mismos aportes reales previos; pequeñas diferencias por raciones prácticas, ver baselineTotals. Los desayunos conservan sus raciones anteriores expresamente, sin aplicarles cambios nuevos.
 // Cálculo: bases del plan anterior para alimentos existentes; CoFID 2021 y etiquetas de fabricante/FoodData Central para alimentos nuevos. CH disponibles en etiqueta estadounidense excluyen fibra. Valores aproximados según producto.
 // Ajuste 27/11/2026: solo comida y cena de Lowcarb; plancha y guarniciones sencillas, sin cambiar desayunos, extras ni los demás días. Pesos de pavo y ternera COCINADOS.
+// Ajuste adicional 27/11/2026: solo comida y cena de Lowcarb 2; pollo con patata y brócoli, ensalada de atún con huevo y Wasa conservado. Pollo y vegetales en crudo, conservas escurridas.
 const foodDatabase = {
   "p0_m0": {
     "name": "Tostada de salmon ahumado y queso crema",
@@ -1070,264 +1071,6 @@ const foodDatabase = {
     "preparation": "1. Tostar el pan de centeno. 2. Cocinar los huevos al gusto (revueltos, pochados, a la plancha). 3. Machacar el aguacate sobre las tostadas y añadir aceite y especias. Usa únicamente las cantidades de la lista. Aceite total: el indicado, repartido entre las preparaciones; sin añadir más.",
     "originalBaseRecipeId": "des_tostada_de_centeno_con_huevo_y_aguacate"
   },
-  "nov23_d3_m0": {
-    "name": "Potaje de Garbanzos con Espinacas y Bacalao",
-    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/6922cfb06984f10e4539887a.png",
-    "preparation": "1. Sofreír cebolla y ajo. 2. Añadir espinacas y rehogar. 3. Añadir garbanzos y caldo (o agua). Cocer 10 min. 4. Añadir el bacalao desmigado y cocer 5 min más. 5. Servir con huevo duro picado.",
-    "ingredients": [
-      {
-        "name": "Garbanzos Cocidos",
-        "quantity": "300",
-        "unit": "g",
-        "nutritionReference": "CoFID 2021 13-670: Beans, chick peas, canned, re-heated, drained; valores por 100 g",
-        "baseCalories": 1.29,
-        "calories": 387,
-        "baseProtein": 0.084,
-        "protein": 25.200000000000003,
-        "baseCarbs": 0.183,
-        "carbs": 54.9,
-        "baseFats": 0.03,
-        "fats": 9
-      },
-      {
-        "name": "Bacalao Desalado",
-        "quantity": "125",
-        "unit": "g",
-        "nutritionReference": "CoFID 2021 16-372: Cod, flesh only, raw; valores por 100 g",
-        "baseCalories": 0.75,
-        "calories": 93.75,
-        "baseProtein": 0.175,
-        "protein": 21.875,
-        "baseCarbs": 0,
-        "carbs": 0,
-        "baseFats": 0.006,
-        "fats": 0.75
-      },
-      {
-        "name": "Espinacas",
-        "quantity": "150",
-        "unit": "g",
-        "nutritionReference": "CoFID 2021 13-572: Spinach, mature, raw; valores por 100 g",
-        "baseCalories": 0.25,
-        "calories": 37.5,
-        "baseProtein": 0.027999999999999997,
-        "protein": 4.199999999999999,
-        "baseCarbs": 0.016,
-        "carbs": 2.4,
-        "baseFats": 0.008,
-        "fats": 1.2
-      },
-      {
-        "name": "Cebolla",
-        "quantity": "75",
-        "unit": "g",
-        "nutritionReference": "CoFID 2021 13-499 Onions, raw",
-        "baseCalories": 0.35,
-        "calories": 26.25,
-        "baseProtein": 0.01,
-        "protein": 0.75,
-        "baseCarbs": 0.08,
-        "carbs": 6,
-        "baseFats": 0.001,
-        "fats": 0.075
-      },
-      {
-        "name": "Ajo",
-        "quantity": "5",
-        "unit": "g",
-        "nutritionReference": "CoFID 2021 13-244 Garlic, raw",
-        "baseCalories": 0.98,
-        "calories": 4.9,
-        "baseProtein": 0.079,
-        "protein": 0.395,
-        "baseCarbs": 0.163,
-        "carbs": 0.8150000000000001,
-        "baseFats": 0.006,
-        "fats": 0.03
-      },
-      {
-        "name": "Huevo Cocido",
-        "quantity": "1",
-        "unit": "ud",
-        "nutritionReference": "CoFID 2021 12-937 Eggs, chicken, whole, raw",
-        "baseCalories": 65.5,
-        "calories": 65.5,
-        "baseProtein": 6.3,
-        "protein": 6.3,
-        "baseCarbs": 0,
-        "carbs": 0,
-        "baseFats": 4.5,
-        "fats": 4.5
-      },
-      {
-        "name": "Agua",
-        "quantity": "300",
-        "unit": "ml",
-        "nutritionReference": "Agua potable; sin aporte energético",
-        "baseCalories": 0,
-        "calories": 0,
-        "baseProtein": 0,
-        "protein": 0,
-        "baseCarbs": 0,
-        "carbs": 0,
-        "baseFats": 0,
-        "fats": 0
-      },
-      {
-        "name": "Aceite de Oliva Virgen Extra",
-        "quantity": "10",
-        "unit": "g",
-        "nutritionReference": "CoFID 2021 17-038 Oil, olive",
-        "baseCalories": 8.99,
-        "calories": 89.9,
-        "baseProtein": 0,
-        "protein": 0,
-        "baseCarbs": 0,
-        "carbs": 0,
-        "baseFats": 0.9990000000000001,
-        "fats": 9.990000000000002
-      }
-    ],
-    "calories": 704.8,
-    "protein": 58.720000000000006,
-    "carbs": 64.115,
-    "fats": 25.545,
-    "canonicalRecipe": {
-      "spreadsheetId": "1mOofR4T4__X4yXdUmVPPtI5lFyrOyB1UkbkBC8GUUv8",
-      "sheet": "NUTR_DATA",
-      "row": 83
-    },
-    "notes": "Cantidades pesadas en crudo salvo legumbres escurridas y guisantes cocidos. Las especias y el aceite indicados ya están contabilizados."
-  },
-  "nov23_d3_m1": {
-    "name": "Ensalada de Queso Fresco, Pavo y Nueces",
-    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/699b499d20c03528200c03e2.png",
-    "preparation": "1. Lavar los canónigos y los tomates cherry. 2. Cortar el queso fresco y el pavo en dados. 3. Trocear las nueces. 4. En un bol, mezclar todos los ingredientes. 5. Aliñar con una vinagreta suave.",
-    "ingredients": [
-      {
-        "name": "Lechuga",
-        "quantity": "75",
-        "unit": "g",
-        "nutritionReference": "CoFID 2021 13-520: Lettuce, average, raw; valores por 100 g",
-        "baseCalories": 0.11,
-        "calories": 8.25,
-        "baseProtein": 0.012,
-        "protein": 0.9,
-        "baseCarbs": 0.013999999999999999,
-        "carbs": 1.0499999999999998,
-        "baseFats": 0.001,
-        "fats": 0.075
-      },
-      {
-        "name": "Queso Fresco",
-        "quantity": "175",
-        "unit": "g",
-        "nutritionReference": "Estimación queso fresco Burgos 0%; confirmar etiqueta",
-        "baseCalories": 0.67,
-        "calories": 117.25,
-        "baseProtein": 0.12,
-        "protein": 21,
-        "baseCarbs": 0.04,
-        "carbs": 7,
-        "baseFats": 0.002,
-        "fats": 0.35000000000000003
-      },
-      {
-        "name": "Pechuga de Pavo",
-        "quantity": "150",
-        "unit": "g",
-        "nutritionReference": "CoFID 2021 18-349 Turkey, light meat, raw",
-        "baseCalories": 1.05,
-        "calories": 157.5,
-        "baseProtein": 0.244,
-        "protein": 36.6,
-        "baseCarbs": 0,
-        "carbs": 0,
-        "baseFats": 0.008,
-        "fats": 1.2
-      },
-      {
-        "name": "Nueces",
-        "quantity": "20",
-        "unit": "g",
-        "nutritionReference": "CoFID 2021 14-879 Walnuts, kernel only",
-        "baseCalories": 6.88,
-        "calories": 137.6,
-        "baseProtein": 0.147,
-        "protein": 2.94,
-        "baseCarbs": 0.033,
-        "carbs": 0.66,
-        "baseFats": 0.685,
-        "fats": 13.700000000000001
-      },
-      {
-        "name": "Tomates Cherry",
-        "quantity": "100",
-        "unit": "g",
-        "nutritionReference": "CoFID 2021 13-517: Tomatoes, standard, raw; valores por 100 g",
-        "baseCalories": 0.14,
-        "calories": 14.000000000000002,
-        "baseProtein": 0.005,
-        "protein": 0.5,
-        "baseCarbs": 0.03,
-        "carbs": 3,
-        "baseFats": 0.001,
-        "fats": 0.1
-      },
-      {
-        "name": "Aceite de Oliva Virgen Extra",
-        "quantity": "5",
-        "unit": "g",
-        "nutritionReference": "CoFID 2021 17-038 Oil, olive",
-        "baseCalories": 8.99,
-        "calories": 44.95,
-        "baseProtein": 0,
-        "protein": 0,
-        "baseCarbs": 0,
-        "carbs": 0,
-        "baseFats": 0.9990000000000001,
-        "fats": 4.995000000000001
-      },
-      {
-        "name": "Vinagre",
-        "quantity": "10",
-        "unit": "g",
-        "nutritionReference": "CoFID 2021 17-339: Vinegar; valores por 100 g",
-        "baseCalories": 0.22,
-        "calories": 2.2,
-        "baseProtein": 0.004,
-        "protein": 0.04,
-        "baseCarbs": 0.006,
-        "carbs": 0.06,
-        "baseFats": 0,
-        "fats": 0
-      },
-      {
-        "name": "Sal",
-        "quantity": "1",
-        "unit": "g",
-        "nutritionReference": "CoFID 2021 17-367: Salt; valores por 100 g",
-        "baseCalories": 0,
-        "calories": 0,
-        "baseProtein": 0,
-        "protein": 0,
-        "baseCarbs": 0,
-        "carbs": 0,
-        "baseFats": 0,
-        "fats": 0
-      }
-    ],
-    "calories": 481.75,
-    "protein": 61.98,
-    "carbs": 11.770000000000001,
-    "fats": 20.42,
-    "canonicalRecipe": {
-      "spreadsheetId": "1mOofR4T4__X4yXdUmVPPtI5lFyrOyB1UkbkBC8GUUv8",
-      "sheet": "NUTR_DATA",
-      "row": 151
-    },
-    "notes": "Cantidades pesadas en crudo salvo legumbres escurridas y guisantes cocidos. Las especias y el aceite indicados ya están contabilizados. Queso fresco tipo Burgos 0%. Lechuga seleccionada entre las opciones de la receta."
-  },
   "nov23_d3_m2": {
     "name": "Yogur Griego Danone",
     "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/69b519f7cab7f7a128c9b43c.png",
@@ -1758,6 +1501,253 @@ const foodDatabase = {
     "protein": 3.6208,
     "carbs": 12.6774,
     "fats": 5.501520000000001
+  },
+  "nov27_lowcarb2_0": {
+    "name": "Patata con brócoli y pollo asado",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/687de454838c601605b6e271.png",
+    "preparation": "1. Cocer la patata y el brócoli al vapor o en agua hirviendo hasta que estén tiernos. 2. Cocinar la pechuga de pollo a la plancha o asada al horno, sazonada al gusto. 3. Servir la patata y el brócoli como base y colocar el pollo troceado por encima. Aliñar con aceite de oliva y especias si se desea.",
+    "ingredients": [
+      {
+        "name": "Patata",
+        "quantity": "275",
+        "unit": "g",
+        "nutritionReference": "CoFID 2021 13-489: Potatoes, old, raw, flesh only; por 100 g",
+        "baseCalories": 0.82,
+        "calories": 225.5,
+        "baseProtein": 0.019,
+        "protein": 5.225,
+        "baseCarbs": 0.196,
+        "carbs": 53.9,
+        "baseFats": 0.001,
+        "fats": 0.275
+      },
+      {
+        "name": "Brócoli",
+        "quantity": "150",
+        "unit": "g",
+        "nutritionReference": "CoFID 2021 13-502: Broccoli, green, raw; por 100 g",
+        "baseCalories": 0.34,
+        "calories": 51.00000000000001,
+        "baseProtein": 0.043,
+        "protein": 6.449999999999999,
+        "baseCarbs": 0.032,
+        "carbs": 4.8,
+        "baseFats": 0.006,
+        "fats": 0.9
+      },
+      {
+        "name": "Pechuga de Pollo",
+        "quantity": "175",
+        "unit": "g",
+        "nutritionReference": "CoFID 2021 18-290: Chicken, light meat, raw; por 100 g",
+        "baseCalories": 1.06,
+        "calories": 185.5,
+        "baseProtein": 0.24,
+        "protein": 42,
+        "baseCarbs": 0,
+        "carbs": 0,
+        "baseFats": 0.011000000000000001,
+        "fats": 1.9250000000000003
+      },
+      {
+        "name": "Aceite de Oliva Virgen Extra",
+        "quantity": "10",
+        "unit": "g",
+        "nutritionReference": "CoFID 2021 17-038 Oil, olive",
+        "baseCalories": 8.99,
+        "calories": 89.9,
+        "baseProtein": 0,
+        "protein": 0,
+        "baseCarbs": 0,
+        "carbs": 0,
+        "baseFats": 0.9990000000000001,
+        "fats": 9.990000000000002
+      },
+      {
+        "name": "Sal",
+        "quantity": "1",
+        "unit": "g",
+        "nutritionReference": "CoFID 2021 17-367: Salt; valores por 100 g",
+        "baseCalories": 0,
+        "calories": 0,
+        "baseProtein": 0,
+        "protein": 0,
+        "baseCarbs": 0,
+        "carbs": 0,
+        "baseFats": 0,
+        "fats": 0
+      },
+      {
+        "name": "Pimienta",
+        "quantity": "0.2",
+        "unit": "g",
+        "nutritionReference": "USDA SR Legacy FDC 170931, pimienta negra; CH disponibles sin fibra",
+        "baseCalories": 2.51,
+        "calories": 0.502,
+        "baseProtein": 0.10400000000000001,
+        "protein": 0.020800000000000003,
+        "baseCarbs": 0.387,
+        "carbs": 0.07740000000000001,
+        "baseFats": 0.0326,
+        "fats": 0.00652
+      }
+    ],
+    "canonicalRecipe": {
+      "spreadsheetId": "1mOofR4T4__X4yXdUmVPPtI5lFyrOyB1UkbkBC8GUUv8",
+      "sheet": "NUTR_DATA",
+      "row": 77
+    },
+    "notes": "Pollo, patata y verduras frescas pesados EN CRUDO. Atún en aceite y espárragos de bote: peso ESCURRIDO. Huevo por unidades. Aceite total el indicado; incluye todos los ingredientes de DATABASE y los condimentos de la preparación.",
+    "calories": 552.4019999999999,
+    "protein": 53.6958,
+    "carbs": 58.77739999999999,
+    "fats": 13.096520000000003
+  },
+  "nov27_lowcarb2_1": {
+    "name": "Ensalada de Tomate Espárragos Blancos con Atún",
+    "image": "https://assets.cdn.filesafe.space/dikOTQ4DE3OClw85d5oB/media/699b47f820c0359e700b32ca.png",
+    "preparation": "1. Lavar y cortar los tomates en gajos. 2. Escurrir los espárragos blancos y el atún. 3. Picar la cebolla en juliana fina. 4. En una fuente, disponer los tomates, los espárragos y el atún. 5. Añadir la cebolla y aliñar con aceite de oliva, vinagre y sal al gusto.",
+    "ingredients": [
+      {
+        "name": "Tomate",
+        "quantity": "150",
+        "unit": "g",
+        "nutritionReference": "CoFID 2021 13-517: Tomatoes, standard, raw; por 100 g",
+        "baseCalories": 0.14,
+        "calories": 21.000000000000004,
+        "baseProtein": 0.005,
+        "protein": 0.75,
+        "baseCarbs": 0.03,
+        "carbs": 4.5,
+        "baseFats": 0.001,
+        "fats": 0.15
+      },
+      {
+        "name": "Espárragos Blancos",
+        "quantity": "200",
+        "unit": "g",
+        "nutritionReference": "Conservas DANI ficha técnica oficial espárragos blancos: 33 kcal, 2 P, 3 CH, 1 G por 100 g; https://www.dani.es/sites/default/files/2019-12/Esparragos%20blancos.pdf",
+        "baseCalories": 0.33,
+        "calories": 66,
+        "baseProtein": 0.02,
+        "protein": 4,
+        "baseCarbs": 0.03,
+        "carbs": 6,
+        "baseFats": 0.01,
+        "fats": 2
+      },
+      {
+        "name": "Atún en Conserva",
+        "quantity": "150",
+        "unit": "g",
+        "nutritionReference": "CoFID 2021 16-417: Tuna, canned in sunflower oil, drained; por 100 g",
+        "baseCalories": 1.59,
+        "calories": 238.5,
+        "baseProtein": 0.254,
+        "protein": 38.1,
+        "baseCarbs": 0,
+        "carbs": 0,
+        "baseFats": 0.064,
+        "fats": 9.6
+      },
+      {
+        "name": "Cebolla",
+        "quantity": "75",
+        "unit": "g",
+        "nutritionReference": "CoFID 2021 13-499: Onions, raw; por 100 g",
+        "baseCalories": 0.35,
+        "calories": 26.25,
+        "baseProtein": 0.01,
+        "protein": 0.75,
+        "baseCarbs": 0.08,
+        "carbs": 6,
+        "baseFats": 0.001,
+        "fats": 0.075
+      },
+      {
+        "name": "Aceite de Oliva Virgen Extra",
+        "quantity": "5",
+        "unit": "g",
+        "nutritionReference": "CoFID 2021 17-038 Oil, olive",
+        "baseCalories": 8.99,
+        "calories": 44.95,
+        "baseProtein": 0,
+        "protein": 0,
+        "baseCarbs": 0,
+        "carbs": 0,
+        "baseFats": 0.9990000000000001,
+        "fats": 4.995000000000001
+      },
+      {
+        "name": "Vinagre",
+        "quantity": "10",
+        "unit": "g",
+        "nutritionReference": "CoFID 2021 17-339: Vinegar; valores por 100 g",
+        "baseCalories": 0.22,
+        "calories": 2.2,
+        "baseProtein": 0.004,
+        "protein": 0.04,
+        "baseCarbs": 0.006,
+        "carbs": 0.06,
+        "baseFats": 0,
+        "fats": 0
+      },
+      {
+        "name": "Sal",
+        "quantity": "1",
+        "unit": "g",
+        "nutritionReference": "CoFID 2021 17-367: Salt; valores por 100 g",
+        "baseCalories": 0,
+        "calories": 0,
+        "baseProtein": 0,
+        "protein": 0,
+        "baseCarbs": 0,
+        "carbs": 0,
+        "baseFats": 0,
+        "fats": 0
+      }
+    ],
+    "canonicalRecipe": {
+      "spreadsheetId": "1mOofR4T4__X4yXdUmVPPtI5lFyrOyB1UkbkBC8GUUv8",
+      "sheet": "NUTR_DATA",
+      "row": 149
+    },
+    "notes": "Pollo, patata y verduras frescas pesados EN CRUDO. Atún en aceite y espárragos de bote: peso ESCURRIDO. Huevo por unidades. Aceite total el indicado; incluye todos los ingredientes de DATABASE y los condimentos de la preparación.",
+    "calories": 398.9,
+    "protein": 43.64,
+    "carbs": 16.56,
+    "fats": 16.82
+  },
+  "nov27_lowcarb2_2": {
+    "name": "Huevo Duro Cocido",
+    "image": "https://storage.googleapis.com/msgsndr/dikOTQ4DE3OClw85d5oB/media/68f27f5bfb2e440988a37788.png",
+    "preparation": "Cocer the huevo en agua hirviendo durante 10-12 minutos. Pelar y servir.",
+    "ingredients": [
+      {
+        "name": "Huevo Cocido",
+        "quantity": "3",
+        "unit": "unidad(es)",
+        "nutritionReference": "CoFID 2021 12-940: Eggs, chicken, whole, boiled; por 100 g; una unidad = 55 g comestibles",
+        "baseCalories": 78.64999999999999,
+        "calories": 235.95,
+        "baseProtein": 7.754999999999999,
+        "protein": 23.264999999999997,
+        "baseCarbs": 0,
+        "carbs": 0,
+        "baseFats": 5.28,
+        "fats": 15.84
+      }
+    ],
+    "canonicalRecipe": {
+      "spreadsheetId": "1mOofR4T4__X4yXdUmVPPtI5lFyrOyB1UkbkBC8GUUv8",
+      "sheet": "NUTR_DATA",
+      "row": 117
+    },
+    "notes": "Pollo, patata y verduras frescas pesados EN CRUDO. Atún en aceite y espárragos de bote: peso ESCURRIDO. Huevo por unidades. Aceite total el indicado; incluye todos los ingredientes de DATABASE y los condimentos de la preparación.",
+    "calories": 235.95,
+    "protein": 23.264999999999997,
+    "carbs": 0,
+    "fats": 15.84
   }
 };
 
@@ -1860,19 +1850,20 @@ const dailyMenus = [
       "fats": 113.9
     },
     "baselineTotals": {
-      "calories": 2301.1,
-      "protein": 154.13500000000002,
-      "carbs": 171.55,
-      "fats": 113.67
+      "calories": 2301.8019999999997,
+      "protein": 154.03580000000002,
+      "carbs": 171.0024,
+      "fats": 113.46152000000001
     },
     "desayuno": [
       "p3_m0"
     ],
     "comida": [
-      "nov23_d3_m0"
+      "nov27_lowcarb2_0"
     ],
     "cena": [
-      "nov23_d3_m1",
+      "nov27_lowcarb2_1",
+      "nov27_lowcarb2_2",
       "nov23_d3_m4"
     ],
     "extra": [
